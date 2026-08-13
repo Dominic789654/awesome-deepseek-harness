@@ -30,7 +30,7 @@ DeepSeek Harness（简称 "DSH"）是 DeepSeek 的 agent 运行框架 / harness 
 
 ## 官方
 
-- [DeepSeek Harness](https://ai-bot.cn/deepseek-harness) —— DeepSeek 官方 agent 运行框架（`Model + Harness = Agent`），主攻编程与办公场景。
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) —— DeepSeek 官方 agent 运行框架（`Model + Harness = Agent`），基于 Cordis 的"一切皆插件"架构（TypeScript，MIT）。
 - [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) —— 官方 DeepSeek API 集成清单。
 - [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) —— 官方支持 DeepSeek 的 agent / harness 清单。
 
@@ -38,13 +38,19 @@ DeepSeek Harness（简称 "DSH"）是 DeepSeek 的 agent 运行框架 / harness 
 
 _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent。_
 
-<!-- 添加条目： - [名称](链接) —— 一句话描述。 -->
+- [blissito/ghostycode](https://github.com/blissito/ghostycode) —— DeepSeek V4 终端编程 agent 与带宪章约束的 harness（Rust TUI，含 MCP 与子 agent）。
+- [didclawapp-ai/zagens](https://github.com/didclawapp-ai/zagens) —— DeepSeek V4 开源 agent harness。
+- [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) —— DeepSeek V4 的 Python harness 库 + `dsh` CLI + MCP server + `SKILL.md`。
+- [liubf21/ds-forge](https://github.com/liubf21/ds-forge) —— 轻量级 DeepSeek V4 agent harness。
+- [Owen718/FlashCoder](https://github.com/Owen718/FlashCoder) —— 面向 DeepSeek 模型的简单 harness。
 
 ## 可视化
 
 _把数据 / 结果变成图表、图形、看板的插件。_
 
-<!-- 在此添加条目。 -->
+- [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) —— 为纯文本模型提供视觉能力：带意图的图片问答、长截图 OCR、UI 还原、像素级 diff。
+- [william-jin-cmu/dsh-vision](https://github.com/william-jin-cmu/dsh-vision) —— `view_image` 工具，桥接任意 OpenAI 兼容 VLM。
+- [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) —— OpenPencil 设计预览与编辑。
 
 ## 幻灯片 / PPT
 
@@ -56,19 +62,26 @@ _生成演示文稿、幻灯片、导出 PPT。_
 
 _代码生成、重构、审查、仓库级工程插件。_
 
-<!-- 在此添加条目。 -->
+- [Anionex/dsh-computer-use](https://github.com/Anionex/dsh-computer-use) —— 基于 Accessibility 的 macOS 电脑控制插件（带作用域权限）。
+- [CanglongCl/dsh-web-review](https://github.com/CanglongCl/dsh-web-review) —— 网页预览 + 元素批注，让 agent 根据可视化反馈修改前端源码。
+- [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) —— Codex 风格 `@file` 提及：检索工作区文件并附到提示词。
+- [omdsh-dev/dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) —— 从 Web GUI 一键在 VS Code 中打开工作区目录。
 
 ## Agent
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
-<!-- 在此添加条目。 -->
+- [btspoony/mstar-harness](https://github.com/btspoony/mstar-harness) —— 以 Skill 驱动的 harness / 循环工程工作流 agent 插件。
+- [hewzhew/dsh-agent-rp](https://github.com/hewzhew/dsh-agent-rp) —— SillyTavern 迁移与下一代 Agent RP。
+- [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) —— DSH 的 AgentTeams 多 agent 插件。
 
 ## 循环（自动研究 / 自我改进等）
 
 _长时运行的循环工作流：自动研究、深度调研、自我精炼、迭代构建。_
 
-<!-- 在此添加条目。 -->
+- [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) —— 纯插件实现的跨会话长期记忆 + 后台自我进化。
+- [vlln/dsh-loop](https://github.com/vlln/dsh-loop) —— 定时循环插件（`/loop` 命令 + loop 工具 + 活动状态条）。
+- [william-jin-cmu/dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) —— 自进化插件：在会话内热挂载 / 卸载 Cordis 插件。
 
 ## MCP Server
 
@@ -80,23 +93,33 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 _多步 / 多 agent 调度器与输出聚合器。_
 
-<!-- 在此添加条目。 -->
+- [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) —— 把一次性多 agent 调度升级为可生成、可保存、可观察、可恢复的 Workflow 层。
 
 ## UI / 客户端
 
 _DSH 的桌面、网页、终端或编辑器前端。_
 
-<!-- 在此添加条目。 -->
+- [chen-001/dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) —— 通过 grok-build 的 TUI 使用 DSH。
+- [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— 天枢（Tianshu）DSH 终端 UI。
+- [hust-open-atom-club/oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) —— 可扩展的 macOS 工作台（原生 PTY + 隔离预览的插件市场）。
+- [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) —— 侧边栏工作台：文件渲染 / 终端 / Git / 子 agent。
+- [vibeinging/dsh-work](https://github.com/vibeinging/dsh-work) —— 本地优先的 Electron 工作台（会话、文件、数据分析、MCP）。
+- [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) —— Web UI 插件与皮肤合集：任务板、git 图、侧面板、token 统计。
 
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
-<!-- 在此添加条目。 -->
+- [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) —— 三层本地记忆：运行时记忆、可检索文档、受监督记忆空间。
+- [omdsh-dev/dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) —— 用于构建与测试 DSH 插件的 agent skill。
+- [omdsh-dev/dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) —— 零依赖确定性工具包（time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema）。
 
 ## 资源
 
+- [Awesome DSH Plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) —— 社区插件目录 + 每日兼容性追踪。
 - [DeepSeek Harness 概览（ai-bot.cn）](https://ai-bot.cn/deepseek-harness)
+- [DSH Hub](https://github.com/omdsh-dev/dsh-hub) —— 社区插件 hub。
+- [Finding the Best Harness for DeepSeek V4 Flash (Composio)](https://composio.dev/content/best-agent-harness-deepseek-v4-flash)
 
 ## 贡献指南
 
