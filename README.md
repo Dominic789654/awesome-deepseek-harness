@@ -4,11 +4,25 @@
 
 **English** | [简体中文](./README.zh-CN.md)
 
+![DeepSeek Harness ecosystem map](./assets/dsh-ecosystem.svg)
+
 DeepSeek Harness ("DSH") is DeepSeek's agent runtime / harness layer — the "hands" that turn the model's reasoning into real actions (context management, tool-call orchestration, execution sandbox, feedback loop, session persistence). Its defining feature is an **open plugin ecosystem**: the community contributes plugins, skills, MCP servers, orchestrators, aggregators, and UIs.
 
 This list collects the best of that ecosystem. Contributions welcome — see [Contributing](#contributing).
 
 > **Tip for authors:** DeepSeek asks plugin repositories to carry the **`#dsh`** GitHub topic so they can be discovered. Add it to your repo, then open a PR here.
+
+## Quick Start
+
+```bash
+# Launch the DSH Web UI
+npx @deepseek-ai/dsh web
+
+# Install a community plugin (from this list) into your profile
+dsh plugin --profile web add "github:owner/repo#main"
+```
+
+Before installing, confirm the target repo carries the **`#dsh`** GitHub topic so the community hub can index it.
 
 ## Contents
 
@@ -40,7 +54,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents._
 
 - [blissito/ghostycode](https://github.com/blissito/ghostycode) — DeepSeek V4 terminal coding agent and constitutional harness (Rust TUI with MCP and sub-agents).
 - [didclawapp-ai/zagens](https://github.com/didclawapp-ai/zagens) — Open-source agent harness for DeepSeek V4.
-- [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) — Python harness library + `dsh` CLI + MCP server + `SKILL.md` for DeepSeek V4.
+- [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) — Python harness library + `dsh` CLI + MCP server + `SKILL.md` for DeepSeek V4-Pro / V4-Flash.
+- [huiliyi37/Tianshu-Tui](https://github.com/huiliyi37/Tianshu-Tui) — Terminal coding-agent runtime built on harness engineering; DeepSeek V4 prefix-cache optimization (95–99% hit rate) with a Cognitive Virtual Machine + stigmergy memory layer.
+- [itmisx/deepx-code](https://github.com/itmisx/deepx-code) — DeepSeek-first coding agent: model routing, CodeGraph code graph, OCR screenshot recognition, automatic context compression, and workflows (MIT).
 - [liubf21/ds-forge](https://github.com/liubf21/ds-forge) — Lightweight agent harness for DeepSeek V4.
 - [Owen718/FlashCoder](https://github.com/Owen718/FlashCoder) — Simple harness for DeepSeek models.
 
@@ -49,6 +65,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents._
 _Plugins that turn data / results into charts, diagrams, dashboards._
 
 - [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — Vision tasks for text-only models: intent-driven image Q&A, long-screenshot OCR, UI restoration, pixel diff.
+- [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) — Interactive UI components (charts, plots, forms, quizzes, mermaid, 3D scenes) rendered inline in assistant replies via the `dsh-ui` fence.
 - [william-jin-cmu/dsh-vision](https://github.com/william-jin-cmu/dsh-vision) — `view_image` tool bridging any OpenAI-compatible VLM to text-only models.
 - [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil design preview and editing.
 
@@ -80,6 +97,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 _Long-running loop workflows: auto-research, deep-research, self-refine, iterative build._
 
 - [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — Cross-session long-term memory + background self-evolution, plugin-only.
+- [omdsh-dev/dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — Adaptive deep-research orchestrator plugin; the official DSH workflow engine (cybernetics / information-theory design).
 - [vlln/dsh-loop](https://github.com/vlln/dsh-loop) — Timed loop plugin (`/loop` command + loop tool + activity status bar).
 - [william-jin-cmu/dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) — Self-evolving plugin: hot-mount/unmount Cordis plugins inside a session.
 

@@ -4,11 +4,25 @@
 
 [English](./README.md) | **简体中文**
 
+![DeepSeek Harness 生态地图](./assets/dsh-ecosystem.svg)
+
 DeepSeek Harness（简称 "DSH"）是 DeepSeek 的 agent 运行框架 / harness 层 —— 把模型的推理变成真实行动的那双"手"（上下文管理、工具调用编排、执行沙箱、反馈循环、会话持久化）。它最大的特点是**开放的插件生态**：由社区贡献 plugin、Skill、MCP server、orchestrator、aggregator 和 UI。
 
 本清单收录这个生态里最好的项目。欢迎贡献 —— 见 [贡献指南](#贡献指南)。
 
 > **给作者的提示：** DeepSeek 要求插件仓库带上 **`#dsh`** GitHub topic 以便被发现。给你的仓库加上它，然后来这里提 PR。
+
+## 快速开始
+
+```bash
+# 启动 DSH Web UI
+npx @deepseek-ai/dsh web
+
+# 把清单中的社区插件安装到指定 profile
+dsh plugin --profile web add "github:owner/repo#main"
+```
+
+安装前请确认目标仓库带有 **`#dsh`** GitHub topic，便于社区 hub 收录。
 
 ## 目录
 
@@ -40,7 +54,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent。_
 
 - [blissito/ghostycode](https://github.com/blissito/ghostycode) —— DeepSeek V4 终端编程 agent 与带宪章约束的 harness（Rust TUI，含 MCP 与子 agent）。
 - [didclawapp-ai/zagens](https://github.com/didclawapp-ai/zagens) —— DeepSeek V4 开源 agent harness。
-- [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) —— DeepSeek V4 的 Python harness 库 + `dsh` CLI + MCP server + `SKILL.md`。
+- [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) —— DeepSeek V4-Pro / V4-Flash 的 Python harness 库 + `dsh` CLI + MCP server + `SKILL.md`。
+- [huiliyi37/Tianshu-Tui](https://github.com/huiliyi37/Tianshu-Tui) —— 基于 harness 工程的终端编程智能体运行时；针对 DeepSeek V4 做前缀缓存优化（实测稳态命中率 95–99%），融合认知虚拟机（CVM）与信息素自衰减记忆层。
+- [itmisx/deepx-code](https://github.com/itmisx/deepx-code) —— DeepSeek 标配 coding agent：原生模型路由 + CodeGraph 代码图谱 + OCR 截图识别 + 自动上下文压缩 + workflow（MIT）。
 - [liubf21/ds-forge](https://github.com/liubf21/ds-forge) —— 轻量级 DeepSeek V4 agent harness。
 - [Owen718/FlashCoder](https://github.com/Owen718/FlashCoder) —— 面向 DeepSeek 模型的简单 harness。
 
@@ -49,6 +65,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent。_
 _把数据 / 结果变成图表、图形、看板的插件。_
 
 - [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) —— 为纯文本模型提供视觉能力：带意图的图片问答、长截图 OCR、UI 还原、像素级 diff。
+- [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) —— 在 assistant 回复中内联渲染交互式 UI 组件（图表、绘图、表单、测验、mermaid、3D 场景），通过 `dsh-ui` 围栏触发。
 - [william-jin-cmu/dsh-vision](https://github.com/william-jin-cmu/dsh-vision) —— `view_image` 工具，桥接任意 OpenAI 兼容 VLM。
 - [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) —— OpenPencil 设计预览与编辑。
 
@@ -80,6 +97,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 _长时运行的循环工作流：自动研究、深度调研、自我精炼、迭代构建。_
 
 - [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) —— 纯插件实现的跨会话长期记忆 + 后台自我进化。
+- [omdsh-dev/dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) —— 自适应 deep-research 编排器插件，DSH 官方 workflow engine（控制论 / 信息论设计）。
 - [vlln/dsh-loop](https://github.com/vlln/dsh-loop) —— 定时循环插件（`/loop` 命令 + loop 工具 + 活动状态条）。
 - [william-jin-cmu/dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) —— 自进化插件：在会话内热挂载 / 卸载 Cordis 插件。
 

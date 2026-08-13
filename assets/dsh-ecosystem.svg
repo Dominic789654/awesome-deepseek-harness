@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 344" width="680" height="344">
+  <rect width="680" height="344" fill="#ffffff"/>
+
+  <!-- 标题 -->
+  <text x="340" y="28" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500" fill="#0f172a">DeepSeek Harness 生态地图</text>
+  <text x="340" y="46" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">Model + Harness = Agent · 一切皆插件 · 社区共建</text>
+
+  <!-- 中心核心框 -->
+  <rect x="170" y="62" width="340" height="94" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="340" y="86" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#1e3a8a">DeepSeek Harness (DSH)</text>
+  <text x="340" y="106" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#1e40af">DeepSeek 官方 Agent 运行时 · MIT 开源</text>
+  <text x="340" y="124" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#475569">基于 Cordis 插件系统 · 四种模式（标准 / PTC / 极简 / 创造）</text>
+  <text x="340" y="142" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#475569">npx @deepseek-ai/dsh web</text>
+
+  <!-- 箭头：中心 → 能力层 -->
+  <line x1="340" y1="158" x2="340" y2="184" stroke="#94a3b8" stroke-width="1.2"/>
+  <polygon points="335,184 345,184 340,191" fill="#94a3b8"/>
+
+  <!-- 能力层标题 -->
+  <text x="40" y="182" text-anchor="start" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">核心能力（皆为可替换插件）</text>
+
+  <!-- 能力层 8 盒 -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="12.5" fill="#334155" text-anchor="middle">
+    <rect x="40"  y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="74"  y="211">模型</text>
+    <rect x="116" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="150" y="211">工具</text>
+    <rect x="192" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="226" y="211">技能</text>
+    <rect x="268" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="302" y="211">会话</text>
+    <rect x="344" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="378" y="211">沙箱</text>
+    <rect x="420" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="454" y="211">存储</text>
+    <rect x="496" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="530" y="211">调度</text>
+    <rect x="572" y="190" width="68" height="34" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1"/><text x="606" y="211">UI</text>
+  </g>
+
+  <!-- 箭头：能力层 → 生态层 -->
+  <line x1="340" y1="226" x2="340" y2="252" stroke="#94a3b8" stroke-width="1.2"/>
+  <polygon points="335,252 345,252 340,259" fill="#94a3b8"/>
+
+  <!-- 生态层标题 -->
+  <text x="40" y="250" text-anchor="start" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">社区插件生态（本清单分类）</text>
+
+  <!-- 生态层 8 盒 -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#92400e" text-anchor="middle">
+    <rect x="40"  y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="74"  y="283">可视化</text>
+    <rect x="116" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="150" y="283">写代码</text>
+    <rect x="192" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="226" y="283">Agent</text>
+    <rect x="268" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="302" y="283">循环</text>
+    <rect x="344" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="378" y="283">编排器</text>
+    <rect x="420" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="454" y="283">UI·客户端</text>
+    <rect x="496" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="530" y="283">Skill</text>
+    <rect x="572" y="258" width="68" height="42" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/><text x="606" y="283">MCP</text>
+  </g>
+
+  <!-- 底部注释 -->
+  <text x="340" y="328" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">箭头表示「由插件组合而成 / 社区向下贡献」· 完整条目见下方清单</text>
+</svg>
