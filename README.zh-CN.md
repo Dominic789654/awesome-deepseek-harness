@@ -214,7 +214,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [MC5lan/dsh-multimodal](https://github.com/MC5lan/dsh-multimodal) —— 视觉转写 + 文生图整合。
 - [loudMore/dsh-drop-to-path](https://github.com/loudMore/dsh-drop-to-path) —— 把拖放的图片/文件转为路径，交给纯文本模型。
 - [Yuuz12/dsh-vision-helper](https://github.com/Yuuz12/dsh-vision-helper) —— 视觉辅助插件。
-- [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) —— 视觉请求路由。
+- [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) —— 为纯文本 Agent 提供视觉能力：内置免 Key 视觉链 + 像素级视觉工具；粘贴图片即可用，无 Python，一条命令安装。
 - [pinch-eng/dsh-audio-dub](https://github.com/pinch-eng/dsh-audio-dub) —— 视频/音频配音工具。
 - [LuZhouheng/dsh-gen3d](https://github.com/LuZhouheng/dsh-gen3d) —— DeepSeek Harness 3D 角色生成插件：直连 Meshy / Hunyuan3D / Tripo3D / Rodin 官方 API，自配 key，mock 回退。
 - [wangyang10/image-vision](https://github.com/wangyang10/image-vision) —— DeepSeek Harness 的图像/视觉 skill 插件。
