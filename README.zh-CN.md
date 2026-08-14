@@ -156,8 +156,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [saurtone/dsh-tool-somark](https://github.com/saurtone/dsh-tool-somark) — SoMark 文档解析工具（`somark_parse`）插件，用于 DeepSeek Harness。
 - [niuniu-869/dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) — DeepSeek Harness 插件包：条文级中国会计准则（CAS/ASSE）与税法检索，附带保持引用锚定原文条款的技能。
 - [LeslieWylie/dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit) — 可复用的 DeepSeek Harness 插件包：证据驱动的记忆、编排、基准测试运维与插件发布工作流。
-- [LeslieWylie/dsh-plugin-release](https://github.com/LeslieWylie/dsh-plugin-release) — DeepSeek Harness 插件的可移植打包契约、发布清单与安装卫生技能。
-- [LeslieWylie/dsh-agent-orchestration](https://github.com/LeslieWylie/dsh-agent-orchestration) — DeepSeek Harness 证据优先的多智能体工作流规划、交接校验与 Loop Guard 技能。
 - [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) — 非官方的 DeepSeek Harness LLM provider 插件，适配 Command Code：实时模型目录、推理强度支持、Models 页面卡片。从 pi-commandcode-provider 移植（MIT）。
 
 ## 安全与权限
@@ -354,7 +352,6 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [jkcltc/dsh-chat-flow-re-layout](https://github.com/jkcltc/dsh-chat-flow-re-layout) — DeepSeek Harness Web UI 插件：将已完成的工具调用、上下文与推理折叠为紧凑的横向卡片。纯 CSS，无需构建。
 - [Monokuna-Hugo/dsh-kaoyan-english](https://github.com/Monokuna-Hugo/dsh-kaoyan-english) — 考研英语阅读命题助手：运行在 DSH 中的动态 Cordis 插件，自动抓取《卫报》《今日心理学》《经济学人》等外刊文章并命制一套完整模拟卷。
 - [LeslieWylie/dsh-md-preview](https://github.com/LeslieWylie/dsh-md-preview) — 在 DeepSeek Harness 中将 Markdown 渲染为独立、自包含的 HTML —— 提供可无头运行的 `md_html_render` 工具，以及 Web GUI 中的预览/导出面板，一套渲染器支撑两者，零依赖。
-- [LeslieWylie/dsh-md-html-render](https://github.com/LeslieWylie/dsh-md-html-render) — 已废弃 —— 已合并进 `dsh-md-preview`；`md_html_render` 工具现随该仓库提供，与 Web 预览抽屉共用同一渲染器。
 
 ## Agent
 
@@ -601,7 +598,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [x118111/prompt-optimizer](https://github.com/x118111/prompt-optimizer) — 一个 DeepSeek Harness (DSH) 动态插件，在聊天输入框添加 ✨ 优化提示词按钮 —— 具备上下文感知的 LLM 重写，支持模型回退与错误可见。
 - [kongxiangyiren/dhs-theme-plugin](https://github.com/kongxiangyiren/dhs-theme-plugin) — dsh 主题管理插件。
 - [leavestring/awesome-dsh-background-plugin](https://github.com/leavestring/awesome-dsh-background-plugin) — DSH Web 背景个性化插件：上传自己的图片或一键切换极光、余烬、宣纸三种预设氛围；实时预览所见即所得，支持细调图像存在感、暗色遮罩、柔焦与适配方式；全程本地处理，内置中英文双语界面。
-- [qjcnmd/reasoning-slider](https://github.com/qjcnmd/reasoning-slider) — DeepSeek Harness 推理强度滑块插件（上游无描述）。
+- [qjcnmd/dsh-reasoning-slider](https://github.com/qjcnmd/dsh-reasoning-slider) — DeepSeek Harness 推理强度滑块插件（上游无描述）。
 - [ystyle/dsh-tool-terminal-search](https://github.com/ystyle/dsh-tool-terminal-search) — DeepSeek Harness 终端搜索工具插件（上游无描述）。
 - [mervyn-teo/dsh-plugin-qr-connect](https://github.com/mervyn-teo/dsh-plugin-qr-connect) — DeepSeek Harness 动态插件：侧边栏二维码按钮，用于将移动设备连接到 Web UI。
 - [SenmuuuuW/dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) — 🐋 鲸鱼记事本 — 你的 Agent 年度报告：从会话事件日志生成日报/周报/月报/年报，任意区间、只读不改写。

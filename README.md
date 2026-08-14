@@ -157,8 +157,6 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [saurtone/dsh-tool-somark](https://github.com/saurtone/dsh-tool-somark) — SoMark document parser tool (`somark_parse`) plugin for DeepSeek Harness.
 - [niuniu-869/dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) — DeepSeek Harness bundle: article-level Chinese accounting standards (CAS/ASSE) and tax-law lookup, plus a skill that keeps citations anchored to source articles.
 - [LeslieWylie/dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit) — A reusable DeepSeek Harness bundle for evidence-driven memory, orchestration, benchmark operations, and plugin release workflows.
-- [LeslieWylie/dsh-plugin-release](https://github.com/LeslieWylie/dsh-plugin-release) — Portable package contract, release checklist, and installation hygiene skills for DeepSeek Harness plugins.
-- [LeslieWylie/dsh-agent-orchestration](https://github.com/LeslieWylie/dsh-agent-orchestration) — Evidence-first multi-agent workflow planning, handoff validation, and Loop Guard skills for DeepSeek Harness.
 - [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) — Unofficial DeepSeek Harness LLM provider plugin for Command Code: live model catalog, reasoning-effort support, Models-page card. Ported from pi-commandcode-provider (MIT).
 
 ## Security & Permissions
@@ -357,7 +355,6 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [jkcltc/dsh-chat-flow-re-layout](https://github.com/jkcltc/dsh-chat-flow-re-layout) — DeepSeek Harness web UI plugin that folds settled tool calls, context and reasoning into compact horizontal chips. Pure CSS, zero build.
 - [Monokuna-Hugo/dsh-kaoyan-english](https://github.com/Monokuna-Hugo/dsh-kaoyan-english) — Postgraduate Entrance Exam English reading-proposition assistant: a dynamic Cordis plugin that crawls foreign publications (The Guardian, Psychology Today, The Economist, etc.) and drafts a full mock exam paper.
 - [LeslieWylie/dsh-md-preview](https://github.com/LeslieWylie/dsh-md-preview) — Render Markdown to standalone, self-contained HTML in DeepSeek Harness — an `md_html_render` tool that works headless, plus a preview/export drawer in the web GUI. One renderer behind both, zero dependencies.
-- [LeslieWylie/dsh-md-html-render](https://github.com/LeslieWylie/dsh-md-html-render) — DEPRECATED — merged into `dsh-md-preview`; the `md_html_render` tool now ships there alongside the web preview drawer.
 
 ## Agents
 
@@ -607,7 +604,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [x118111/prompt-optimizer](https://github.com/x118111/prompt-optimizer) — A DeepSeek Harness dynamic plugin that adds a ✨ optimize-prompt button to the chat composer — context-aware LLM rewriting with model fallback and visible errors.
 - [kongxiangyiren/dhs-theme-plugin](https://github.com/kongxiangyiren/dhs-theme-plugin) — A theme-management plugin for DeepSeek Harness.
 - [leavestring/awesome-dsh-background-plugin](https://github.com/leavestring/awesome-dsh-background-plugin) — DSH Web background-personalization plugin: upload your own image or one-click switch between preset aurora/ember/rice-paper ambiences, with live preview, fine-tuning of presence/dimming/blur/fit, local-only processing, and a bilingual UI.
-- [qjcnmd/reasoning-slider](https://github.com/qjcnmd/reasoning-slider) — A reasoning-effort slider plugin for DeepSeek Harness (no description provided upstream).
+- [qjcnmd/dsh-reasoning-slider](https://github.com/qjcnmd/dsh-reasoning-slider) — A reasoning-effort slider plugin for DeepSeek Harness (no description provided upstream).
 - [ystyle/dsh-tool-terminal-search](https://github.com/ystyle/dsh-tool-terminal-search) — A terminal search tool plugin for DeepSeek Harness (no description provided upstream).
 - [mervyn-teo/dsh-plugin-qr-connect](https://github.com/mervyn-teo/dsh-plugin-qr-connect) — DeepSeek Harness dynamic plugin: a QR-code sidebar button for connecting mobile devices to the web UI.
 - [SenmuuuuW/dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) — 🐋 Whale Report — your agent's annual report: generates daily/weekly/monthly/yearly reports from session event logs for any date range, read-only.
