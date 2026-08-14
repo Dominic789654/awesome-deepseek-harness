@@ -303,6 +303,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [lmcsh9527/dsh-search-free](https://github.com/lmcsh9527/dsh-search-free) — Free multi-layer web search + fetch provider for DeepSeek Harness (Exa → Tavily → Bing + web_fetch).
 - [MicroHEROX/dsh-exa-mcp](https://github.com/MicroHEROX/dsh-exa-mcp) — Exa Search MCP for DeepSeek Harness: mounts the remote Exa MCP endpoint through the in-box `@deepseek-ai/dsh-mcp-client` bridge.
 - [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) — Read-only runtime management panel for the official DeepSeek Harness MCP client: `/mcp` command + Settings MCP tab with status, tools, errors, reconnect counts, sanitized display, and controlled patch suggestions.
+- [xwh-01/dsh-mediacrawler](https://github.com/xwh-01/dsh-mediacrawler) — MCP adapter and installable DSH profile bundle for bounded MediaCrawler jobs with isolated browser profiles, QR-code login, run supervision, redacted previews, and sanitized exports.
 
 ## Orchestrators & Aggregators
 
