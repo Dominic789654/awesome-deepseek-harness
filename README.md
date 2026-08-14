@@ -384,11 +384,11 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [omdsh-dev/7d7d](https://github.com/omdsh-dev/7d7d) — 7k7k-style game portal: the model generates or uploads HTML5/Flash minigames playable in the Web UI (fixed-version, checksum-verified Ruffle for Flash).
 - [omdsh-dev/dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — Auto-chess in the DSH Web UI: play against the AI or watch two AIs battle.
 - [omdsh-dev/dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) — Daily fortune plugin with Guan Yin lots, Tarot spreads, and daily quotes.
-- [omdsh-dev/dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress)
-- [Blaczz/dsh-achievements](https://github.com/Blaczz/dsh-achievements) — Gamification: cross-session achievement badges for turns, tool calls, sessions and daily streaks, with a badge panel, unlock toasts and a `ctx.achievements` service. — Daily plan and achievement system with completion-rate, streak, and weekly metrics.
+- [omdsh-dev/dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) — Daily plan and achievement system with completion-rate, streak, and weekly metrics.
+- [Blaczz/dsh-achievements](https://github.com/Blaczz/dsh-achievements) — Gamification: cross-session achievement badges for turns, tool calls, sessions and daily streaks, with a badge panel, unlock toasts and a `ctx.achievements` service.
 - [omdsh-dev/dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) — Market ticker marquee for crypto, FX, A-shares, indices, and HK/US stocks, using keyless data sources with a host proxy and caching.
-- [omdsh-dev/dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter)
-- [Blaczz/dsh-soundscape](https://github.com/Blaczz/dsh-soundscape) — Web UI session soundscape: turn-complete celebration (synthesized chime + confetti), blocked/approval alerts, error buzz and optional typing ambience; zero audio assets, plus a `ctx.soundscape` service. — WebAudio typing ambience with a plugin-owned settings API and zero audio assets.
+- [omdsh-dev/dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) — WebAudio typing ambience with a plugin-owned settings API and zero audio assets.
+- [Blaczz/dsh-soundscape](https://github.com/Blaczz/dsh-soundscape) — Web UI session soundscape: turn-complete celebration (synthesized chime + confetti), blocked/approval alerts, error buzz and optional typing ambience; zero audio assets, plus a `ctx.soundscape` service.
 - [omdsh-dev/dsh-fun-weather](https://github.com/omdsh-dev/dsh-fun-weather) — Weather tab and weather-following themes powered by Open-Meteo.
 - [omdsh-dev/dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — Play Gomoku against the AI in DSH, or pit two AIs against each other.
 - [omdsh-dev/dsh-pet-corner](https://github.com/omdsh-dev/dsh-pet-corner) — Floating pet with a keyless pet-image proxy, favorites, and a plugin-owned settings API.
