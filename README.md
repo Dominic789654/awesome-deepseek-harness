@@ -342,7 +342,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [lhh010/dsh-paste-input](https://github.com/lhh010/dsh-paste-input) — File-input enhancements for the Web UI: Ctrl+V paste, drag-and-drop, and file picking, copied into the session workspace on send.
 - [Moeblack/deepseek-manners](https://github.com/Moeblack/deepseek-manners) — Injects a thank-you note after every message.
 - [Moeblack/dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) — Prompt Studio: edit user and built-in system-prompt sections with live preview.
-- [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — Imports Claude Code chat history so conversations can continue in DSH.
+- [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — Imports Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode chat histories so conversations can continue in DSH.
 - [omdsh-dev/7d7d](https://github.com/omdsh-dev/7d7d) — 7k7k-style game portal: the model generates or uploads HTML5/Flash minigames playable in the Web UI (fixed-version, checksum-verified Ruffle for Flash).
 - [omdsh-dev/dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — Auto-chess in the DSH Web UI: play against the AI or watch two AIs battle.
 - [omdsh-dev/dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) — Daily fortune plugin with Guan Yin lots, Tarot spreads, and daily quotes.
