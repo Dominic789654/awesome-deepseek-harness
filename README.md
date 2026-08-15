@@ -489,6 +489,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [yhny1001/dsh-rp-distribution](https://github.com/yhny1001/dsh-rp-distribution) — Plugin-first open-source role-playing distribution for DeepSeek Harness.
 - [superboy911/dsh-model-router](https://github.com/superboy911/dsh-model-router) — DSH model-routing plugin for keyword routing and isolated image generation.
 - [omdsh-dev/dsh-office](https://github.com/omdsh-dev/dsh-office) — Office document tools for DeepSeek Harness: generate, read, and edit spreadsheets (.xlsx), PDFs, and presentations (.pptx).
+- [AbnerAI/dsh-monitor](https://github.com/AbnerAI/dsh-monitor) — Persistent background watchers (file inbox / command output) that wake the agent on new messages; the harness analog of Claude Code's Monitor tool.
 
 - [1149784810/jayhe-dsh-gamemaker](https://github.com/1149784810/jayhe-dsh-gamemaker) — Game development role subagents for DeepSeek Harness (planner=minimal preset, executor=hard PTC code mode, reviewer=minimal) plus bundled game-dev/game-minimal agent presets.
 - [fenglufa/dsh-board](https://github.com/fenglufa/dsh-board) — A durable, multi-board, workspace-scoped task board for multi-agent / subagent collaboration: agents operate it through tools, humans manage it in a web panel.
@@ -530,6 +531,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [wly8691-jpg/knowlp-rag](https://github.com/wly8691-jpg/knowlp-rag) — Dual knowledge-graph RAG for Markdown notes — MCP + native Cordis plugin for DeepSeek Harness and Claude Code.
 
 - [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) — Free web search provider for DeepSeek Harness — DuckDuckGo backend, no API key needed.
+- [lory69060/cn-intel-board](https://github.com/lory69060/cn-intel-board) — China hard-tech supply-chain intel MCP server (pure stdlib): 33 verifiable signals with track record, 2026 H1 earnings tracker, ask_edge Q&A. Data-asset play: agents can read real China supply-chain data, not headlines.
 
 ## Orchestrators & Aggregators
 
@@ -813,6 +815,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
 
+- [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) — Timeline Studio bundle for inspecting, previewing, transactionally editing, and rendering portable `.timeline` video projects from DSH.
 - [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — Vision tools for text-only models: intent-aware image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, artifacts, and a Web UI.  `⭐150`
 - [omdsh-dev/dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit)
 - [Blaczz/dsh-sci](https://github.com/Blaczz/dsh-sci) — Zero-dependency scientific computing tools: physical-unit conversion, CODATA physical constants, and Runge-Kutta ODE/dynamical-system simulation. — Zero-dependency deterministic tool pack — time, encoding, JSON, calculator, CSV, regex, markdown, diff, stats, and schema — with a unified one-command install.  `⭐10`
