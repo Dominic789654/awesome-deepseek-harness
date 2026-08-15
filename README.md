@@ -723,6 +723,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Equinox7379/dsh-skill-search](https://github.com/Equinox7379/dsh-skill-search) — On-demand skill search for DSH: zero preloading, keyword-search a shared skill library.
 - [liuqh16/dsh-processes](https://github.com/liuqh16/dsh-processes) — Manage background processes from DeepSeek Harness: process tool, `/ps` commands, output inspection, exit/log-match notifications; a DSH port of pi-processes.
 - [dhicoc/dsh-wuyun-liuqi](https://github.com/dhicoc/dsh-wuyun-liuqi) — Five Movements and Six Qi (Wuyun Liuqi) AI agent skill pack as a DeepSeek Harness (dsh) Cordis plugin: 31 SKILL.md skills, one-line `dsh plugin add` install.
+- [riffkit/skill](https://github.com/riffkit/skill) — Short-video generation skill: rebuild a winning TikTok's formula into your own product video, with optional digital character, product placement, and 9 output languages. Works with any agent that reads SKILL.md.
 
 ## Resources
 
