@@ -224,6 +224,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 - [GuoMonth/dsh-multi-tenant](https://github.com/GuoMonth/dsh-multi-tenant) — Multi-tenant SaaS extension for DeepSeek Harness: tenant identity, session isolation, authorization, tenant-aware MCP, and audit.
 - [TecFancy/dsh-auth-gate](https://github.com/TecFancy/dsh-auth-gate) — Login gate for the DeepSeek Harness web surface: password or shared-token authentication, session cookies, rate limiting, and a user-management CLI.
+- [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) — Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
 ## Session & Memory Management
 
 _Cross-session memory, checkpoints, pinning, and session navigation plugins._
@@ -492,6 +493,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 
 - [temotee2103/dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) — GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes. Everything is a plugin.
+- [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) — Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis.
 ## Agents
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._

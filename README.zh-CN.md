@@ -222,6 +222,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [GuoMonth/dsh-multi-tenant](https://github.com/GuoMonth/dsh-multi-tenant) —— DeepSeek Harness 多租户 SaaS 扩展：租户身份、会话隔离、授权、租户感知 MCP 与审计。
 - [TecFancy/dsh-auth-gate](https://github.com/TecFancy/dsh-auth-gate) —— DeepSeek Harness 网页版登录门插件：账号口令或共享令牌认证、会话 cookie、登录限速，附用户管理 CLI。
+- [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) —— Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
 ## 会话与记忆管理
 
 _跨会话记忆、checkpoint、会话置顶与导航插件。_
@@ -487,6 +488,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 
 - [temotee2103/dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) —— DeepSeek Harness 的 GitHub CI 副驾：PR 审查、CI 失败修复、Issue 分流与发布说明。一切皆插件。
+- [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) —— 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 ## Agent
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
