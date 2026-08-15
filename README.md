@@ -572,6 +572,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) — Free web search provider for DeepSeek Harness — DuckDuckGo backend, no API key needed.
 - [lory69060/cn-intel-board](https://github.com/lory69060/cn-intel-board) — China hard-tech supply-chain intel MCP server (pure stdlib): 33 verifiable signals with track record, 2026 H1 earnings tracker, ask_edge Q&A. Data-asset play: agents can read real China supply-chain data, not headlines.
 - [2nd1st/open-mcp-apps](https://github.com/2nd1st/open-mcp-apps) — MCP Apps engine: the model builds, persists, and reuses interactive UI apps — boards, trackers, dashboards — backed by data collections that outlive the conversation. Usable from DSH through the MCP client; ships a 22-app App Store.
+- [jcaiagent7143-ui/sendpage-mcp](https://github.com/jcaiagent7143-ui/sendpage-mcp) — MCP server that turns an HTML document into a shareable link that opens in one tap and previews as a card in chat apps; publish, update, and export to PNG/PDF/Word. Free key, no signup.
 
 ## Orchestrators & Aggregators
 
