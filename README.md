@@ -634,6 +634,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [LaplaceYoung/dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) — QQ2006 skin: registers a `qq2006` theme with a full global skin table and assets.
 - [vlln/whale-girl](https://github.com/vlln/whale-girl) — Desktop-pet plugin for the Web GUI (QQ-pet style): a draggable floating companion you can feed and play with.  `⭐27`
 - [swaylq/dsh-digipet](https://github.com/swaylq/dsh-digipet) — Digimon-style raising game: hatch an egg that feeds on real work (turns, tools, errors) and evolves along four lines shaped by how you work; command-only, zero tokens, no model-facing surface.
+- [swaylq/dsh-wildmon](https://github.com/swaylq/dsh-wildmon) — Pokemon-style catch-em-all safari: real work rustles the grass — turns, tool calls and errors spawn wild encounters; throw balls, fill a 28-slot dex, build a team of six. Command-only, zero tokens, no model-facing surface.
 - [ccch1mneyyy/dsh-working-activity](https://github.com/ccch1mneyyy/dsh-working-activity) — Live model working-status line for the TUI prompt bar and Web UI: playful thinking copy, running tools, turn summaries, and self-narration.
 - [orriduck/dsh-tui](https://github.com/orriduck/dsh-tui) — A small, session-aware terminal UI for DeepSeek Harness.
 - [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui terminal client that speaks the DSH SDK JSON-RPC protocol directly and runs standalone or as a profile bundle.
