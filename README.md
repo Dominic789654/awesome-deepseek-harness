@@ -502,6 +502,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 - [wly8691-jpg/knowlp-rag](https://github.com/wly8691-jpg/knowlp-rag) — Dual knowledge-graph RAG for Markdown notes — MCP + native Cordis plugin for DeepSeek Harness and Claude Code.
 
+- [lory69060/cn-intel-board](https://github.com/lory69060/cn-intel-board) — China hard-tech supply-chain intel MCP server (pure stdlib): 33 verifiable signals with track record, 2026 H1 earnings tracker, ask_edge Q&A. Data-asset play: agents can read real China supply-chain data, not headlines.
+
 ## Orchestrators & Aggregators
 
 _Multi-step / multi-agent schedulers and output aggregators._
