@@ -297,6 +297,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [dshworks/dshworks.github.io](https://github.com/dshworks/dshworks.github.io) — Landing page for dsh.works, the community workshop for DeepSeek Harness (dsh); single static page, zero JS.
 - [zebbkira/dsh-skills-mcp-manager](https://github.com/zebbkira/dsh-skills-mcp-manager) — Official-style plugin bundle adding a "Skills & MCP" card to the Web UI plugins settings group for managing skills and MCP servers in the browser.
 - [meifeisite/plugin-manager](https://github.com/meifeisite/plugin-manager) — Centralized plugin manager in DSH Web Settings → Plugins: enable/disable, uninstall with dependency checks, details, operation logs, and protection for core components.
+- [swaylq/dsh-genie](https://github.com/swaylq/dsh-genie) — Makes an agent's runtime plugins permanent: turns a `cordis_define` dynamic package into a real installed bundle that survives restart, with no pnpm, no network, and no build authorization.
 
 ## Visualization
 
