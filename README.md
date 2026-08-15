@@ -174,6 +174,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [xiaohj233/dsh-keepalive](https://github.com/xiaohj233/dsh-keepalive) — Opt-in detached watchdog for the DSH Web process with snapshot-checked repair and explicit patch restoration.
 - [Zhuchen00123/dsh-wsl-modes](https://github.com/Zhuchen00123/dsh-wsl-modes) — WSL modes for DSH on Windows: WSL Linux bash + bubblewrap sandbox with two ready-to-use agent presets.
 - [sjh9714/dsh-win32](https://github.com/sjh9714/dsh-win32) — Real Minimal mode on Windows: the missing win32 process inspector (persistent Git Bash shell), Ctrl-C interrupt injection, and an install-trap doctor.
+- [strukto-ai/mirage#dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) — Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal.
 
 - [cinob/dsh-plugin-custom-provider-enhancer](https://github.com/cinob/dsh-plugin-custom-provider-enhancer) — Custom-provider enhancer: when configuring third-party providers, auto-fills context size, token limits, vision/multimodal input and thinking-strength tiers from an authoritative model library.
 - [dsh-plugins/dsh-auxiliary](https://github.com/dsh-plugins/dsh-auxiliary) — Auxiliary models for DeepSeek Harness: vision understanding and context compression through dedicated model routes.
@@ -182,7 +183,6 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [Sureo0/deepseek-harness-launcher](https://github.com/Sureo0/deepseek-harness-launcher) — Zero-dependency Windows launcher for DeepSeek Harness — no Node.js / Git / pnpm needed; virtual-environment isolation, uninstall by deletion.
 - [zeronesun/dsh-web-manager](https://github.com/zeronesun/dsh-web-manager) — Lightweight shell script managing the full DSH Web service lifecycle (start, stop, restart, status check).
 - [ZhenHuangLab/dsh-sync](https://github.com/ZhenHuangLab/dsh-sync) — Policy-driven DeepSeek Harness config sync: sidecar Git under `$DSH_HOME`, namespace-projected settings, secret scan, journaled apply, `/sync` command, plus a Web settings panel.
-
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._

@@ -173,6 +173,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [xiaohj233/dsh-keepalive](https://github.com/xiaohj233/dsh-keepalive) —— DSH Web 进程的可选独立看门狗：快照校验修复 + 显式补丁恢复。
 - [Zhuchen00123/dsh-wsl-modes](https://github.com/Zhuchen00123/dsh-wsl-modes) —— 让 DeepSeek Harness 在 Windows 上使用 WSL Linux bash + bubblewrap 沙箱，并提供两个可直接使用的 Agent preset。
 - [sjh9714/dsh-win32](https://github.com/sjh9714/dsh-win32) —— 极简模式的 Windows 补全：补上缺失的 win32 进程探测器（持久 Git Bash）、Ctrl-C 中断注入与安装体检 doctor。
+- [strukto-ai/mirage#dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) —— 把文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。
 
 - [cinob/dsh-plugin-custom-provider-enhancer](https://github.com/cinob/dsh-plugin-custom-provider-enhancer) —— 自定义模型增强插件：配置第三方提供商时，自动从权威模型库补齐上下文大小、Token 上限、视觉多模态输入与思考强度档位。
 - [dsh-plugins/dsh-auxiliary](https://github.com/dsh-plugins/dsh-auxiliary) —— DeepSeek Harness 辅助模型：通过专用模型路由提供视觉理解与上下文压缩能力。
@@ -181,7 +182,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [Sureo0/deepseek-harness-launcher](https://github.com/Sureo0/deepseek-harness-launcher) —— 无需预装 Node.js / Git / pnpm 即可在 Windows 上零依赖部署 DeepSeek Harness；虚拟环境隔离，不污染系统，删除即卸载。
 - [zeronesun/dsh-web-manager](https://github.com/zeronesun/dsh-web-manager) —— 便捷 Shell 脚本，用于管理 DeepSeek Harness (DSH) Web 服务的完整生命周期（启动、停止、重启、状态查看）。
 - [ZhenHuangLab/dsh-sync](https://github.com/ZhenHuangLab/dsh-sync) —— 策略驱动的 DeepSeek Harness 配置同步：`$DSH_HOME` 下 sidecar Git、命名空间投影设置、密钥扫描、日志化应用与 `/sync` 命令，并带 Web 设置面板。
-
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
