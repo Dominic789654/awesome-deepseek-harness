@@ -704,6 +704,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [DeepSeek Harness overview (ai-bot.cn)](https://ai-bot.cn/deepseek-harness) — Third-party writeup.
 - [Finding the Best Harness for DeepSeek V4 Flash (Composio)](https://composio.dev/content/best-agent-harness-deepseek-v4-flash)
 - [flaqai/deepeseek-harness-guide](https://github.com/flaqai/deepeseek-harness-guide) — Guide for development with DeepSeek Harness; building a plugin for the DeepSeek Harness project.
+- [sandbaseai/deepseek-harness-handbook](https://github.com/sandbaseai/deepseek-harness-handbook) — Agent-first, multilingual handbook covering architecture, quickstarts, MCP, skills, subagents, sandboxing, and source-backed troubleshooting.
 
 ## Contributing
 
