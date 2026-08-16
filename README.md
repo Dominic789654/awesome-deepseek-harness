@@ -933,7 +933,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [rbelem/dsh-tui](https://github.com/rbelem/dsh-tui) — Rust terminal client for the DSH gateway, at parity with its web UI (RPC + host frames).
 - [silencieuxzero/Better_Deepseek_Harness](https://github.com/silencieuxzero/Better_Deepseek_Harness) — Better DeepSeek Harness: functional extensions to the web UI and DeepSeek Harness (webui 功能扩展).
 - [spacecat398/dsh-tray](https://github.com/spacecat398/dsh-tray) — Windows tray switch & watchdog for dsh web: zh/en menu, UI-Automation-driven New Conversation, lifecycle-only watchdog.
-- [swaylq/dsh-wildmon](https://github.com/swaylq/dsh-wildmon) — A collect-em-all safari for DSH: wild encounters from turns / tools / errors, ball throws, a 28-slot dex, a team of six — zero tokens, the model never knows.
 - [twinkle10010/dsh-rokid-aiui](https://github.com/twinkle10010/dsh-rokid-aiui) — Rokid AIUI development kit: host plugin + agent preset to build and live-preview AIUI (Ink framework) apps inside the Harness GUI.
 - [wowayou/mydsh](https://github.com/wowayou/mydsh) — Personal Agent System on DSH — everything is a plugin: completion notifications, vision for text models, reply annotations, multi-session tabs, video support, sandbox patch.
 ## Skills

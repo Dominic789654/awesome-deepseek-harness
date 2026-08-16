@@ -922,7 +922,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [rbelem/dsh-tui](https://github.com/rbelem/dsh-tui) — Rust 编写的 dsh 终端客户端：通过 RPC + host frames 驱动运行中的网关，功能与 Web UI 对等。
 - [silencieuxzero/Better_Deepseek_Harness](https://github.com/silencieuxzero/Better_Deepseek_Harness) — Better DeepSeek Harness：对 webui 和 DeepSeek Harness 进行功能扩展。
 - [spacecat398/dsh-tray](https://github.com/spacecat398/dsh-tray) — dsh web 的 Windows 托盘开关与看门狗：中/英菜单、UI 自动化驱动的新会话、仅生命周期的看门狗。
-- [swaylq/dsh-wildmon](https://github.com/swaylq/dsh-wildmon) — DSH 版“集齐图鉴”：回合/工具/错误中随机遭遇，抛球捕捉，28 格图鉴、六人小队——零 token，模型无感知。
 - [twinkle10010/dsh-rokid-aiui](https://github.com/twinkle10010/dsh-rokid-aiui) — Rokid AIUI 开发套件：host 插件 + Agent 预设，在 Harness GUI 里开发并实时预览 AIUI（Ink 框架）应用。
 - [wowayou/mydsh](https://github.com/wowayou/mydsh) — 基于 DSH 的个人 Agent 系统——万物皆插件：完成通知、纯文本模型识图、回复批注、多会话标签、视频支持、沙箱补丁。
 ## Skill
