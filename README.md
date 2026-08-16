@@ -373,6 +373,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [lco117/dsh-peak-hours](https://github.com/lco117/dsh-peak-hours) — A DeepSeek Harness plugin that displays a peak-hours status badge in the session header.
 - [mtty-ai/mmx-quota-tool](https://github.com/mtty-ai/mmx-quota-tool) — MiniMax token-plan quota dock for the DSH web UI — shows 5h usage %, click for a detail panel, auto-hides for non-MiniMax models.
 - [songoao25/bottom-info-bar](https://github.com/songoao25/bottom-info-bar) — Bottom Info Bar — an information bar plugin for DeepSeek Harness: provider/model, live balance, peak/off-peak pricing with countdown, and real persisted per-session spend in a single line.
+- [fatemarcus-hub/dsh-balance](https://github.com/fatemarcus-hub/dsh-balance) — DeepSeek balance button next to the DSH Settings button: click to view total/topped-up/granted balance and status, one-click jump to the official top-up page, red low-balance warning; the API key stays on the host.
 ## Channel / IM Bridges
 
 _Bridges DSH into chat platforms and messaging channels._
