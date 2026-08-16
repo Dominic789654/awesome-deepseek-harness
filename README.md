@@ -1287,6 +1287,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Mr-remon219/dsh-search-boost](https://github.com/Mr-remon219/dsh-search-boost) — A plugin for DSH to boost the model's search ability.
 - [WJNCT55555/dsh-achievements](https://github.com/WJNCT55555/dsh-achievements) — Achievements/gamification plugin for DeepSeek Harness (no description provided upstream).
 - [MeganeOnly/meganeonly-dsh-plugins](https://github.com/MeganeOnly/meganeonly-dsh-plugins) — MeganeOnly's persistent DSH plugin collection.
+- [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead 精读助手 bundle (tool + skill): five reading modes (quick / deep / knowledge map with four confidence levels / Feynman / whole book) over WeChat links, PDFs (pure-JS extractor), or pasted text; batch comparison, budget preflight, transparent background-job progress; exports MD / FreeMind / HTML.
 
 ## Resources
 
