@@ -702,6 +702,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 
 _Model Context Protocol servers that contribute tools / prompts / resources to DSH._
 
+- [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) — Real-time product search and price comparison MCP server for AI agents. Access 130M+ products across 75K+ merchants in 9 regions. 7 tools: search_products, get_product, compare_products, find_best_price, get_deals, list_categories, find_similar.
 <!-- Add entries here. -->
 - [bobleer/deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp) — MCP server that lets any agent (Cursor, Claude Code, Codex) discover, install, and run DSH plugins from the `dsh-plugin` topic.
 - [taxueseek/argo](https://github.com/taxueseek/argo) — Multilingual agent-facing search tool (web, academic, code, finance, news) that ships a DSH plugin bundle exposing ten `mcp__argo__*` tools.  `⭐56`
