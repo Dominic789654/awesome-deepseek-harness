@@ -1204,6 +1204,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [cupen/dsh-workbench](https://github.com/cupen/dsh-workbench) —— DeepSeek Harness 工作台插件。
 - [lee259/dsh-workbench](https://github.com/lee259/dsh-workbench) —— DeepSeek Harness Web 的右侧文件工作区。
 - [Laplace-bit/dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) —— 丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 prefers-reduced-motion。
+- [SpookySandwich/dsh-plugin-smooth-stream](https://github.com/SpookySandwich/dsh-plugin-smooth-stream) —— 以淡入的段落批次呈现助手回复，而非逐字输出；流式过程中平滑跟随滚动，思考块显示实时摘要行，并尊重 prefers-reduced-motion。
 
 ## Skill
 

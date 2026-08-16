@@ -1220,6 +1220,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [cupen/dsh-workbench](https://github.com/cupen/dsh-workbench) — A workbench plugin for DeepSeek Harness.
 - [lee259/dsh-workbench](https://github.com/lee259/dsh-workbench) — Right-side file workspace for DeepSeek Harness Web.
 - [Laplace-bit/dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) — Silky streaming reveal for the Web UI: text appears at the model's arrival rate, new lines glide in, no flicker; follow stays with the user and respects prefers-reduced-motion.
+- [SpookySandwich/dsh-plugin-smooth-stream](https://github.com/SpookySandwich/dsh-plugin-smooth-stream) — Reveals assistant replies in fading paragraph batches instead of token-by-token, with smooth scroll-follow while streaming and a live summary line on thinking blocks; respects prefers-reduced-motion.
 
 ## Skills
 
