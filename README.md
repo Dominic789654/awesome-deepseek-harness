@@ -1268,6 +1268,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [MichengAI/dsh-skills-manager](https://github.com/MichengAI/dsh-skills-manager) — Skills manager plugin for DeepSeek Harness: manage Skills from the UI.
 - [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) — 88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows — compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.
 - [xu-jin-cs/dsh-skills](https://github.com/xu-jin-cs/dsh-skills) — Reusable skills for the DeepSeek Harness ecosystem: parallel-dispatch orchestration rules + archmap architecture-mapping agent (zero-LLM deterministic diff impact analysis, saves tokens).
+- [xulelenlp/dsh-web-artifact-designer](https://github.com/xulelenlp/dsh-web-artifact-designer) — Design-artifact skill adapted from Anthropic canvas-design / web-artifacts-builder: turns a design brief into a polished, self-contained HTML/SVG artifact (posters, infographics, landing pages, charts, component mockups) with a hard pre-delivery quality checklist and an anti-"AI-look" pattern list.
 
 
 - [Solismuchengxue/dsh_plugin_swift_cycle](https://github.com/Solismuchengxue/dsh_plugin_swift_cycle) — Swift Cycle governance-skill adapter for DeepSeek Harness; user-invoked, version-pinned, and offline-verifiable.
