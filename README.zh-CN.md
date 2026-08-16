@@ -927,6 +927,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
+- [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) —— 中文长剧本写作 skill（SKILL.md）：双输入板块 + 因果—价值内核，内置去 AI 味审查与连续性台账，支撑 100 场以上长篇幅项目。
 
 - [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) —— Timeline Studio Bundle：让 DSH 检查、预演、事务式编辑并渲染可移植的 `.timeline` 视频工程。
 - [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) —— 让纯文本模型更好地做视觉任务：带意图的图片问答、长截图 OCR、UI 还原、grounding、像素 diff、Artifacts 与 Web UI。  `⭐150`
