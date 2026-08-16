@@ -513,6 +513,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [RoyDevCh/roycode-dsh-pack](https://github.com/RoyDevCh/roycode-dsh-pack) — One-click plugin pack: RoyCode Studio features ported to DSH — LSP/secret-scan/browser MCP servers, programmable event hooks (roycode-hooks v2), teams, 4 skills, idempotent install/uninstall scripts.
 - [AwesomeHou/dsh-plugin-marketplace](https://github.com/AwesomeHou/dsh-plugin-marketplace) — Plugin marketplace for DeepSeek Harness — live-syncs the GitHub dsh-plugin topic (1800+ repos) into a searchable, paginated settings tab with one-click install and agent tools (market_search / market_install).
 - [edison7009/EchoBird](https://github.com/edison7009/EchoBird) — One-click install + model switch across many coding agents (Claude Code, Codex CLI, Grok Build, DeepSeek Harness, Kimi Code, Qwen Code, Aider, OpenCode, and more).
+- [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — Novel writing assistant plugin for DeepSeek Harness: chapter library, sentence-pattern analysis (9 categories / emotion curve / style fingerprint), style check, plot tracking, batch import, and AI-assisted continuation writing, with per-tool Web UI toggles; published on npm as `dsh-novel-writer`.
 ## Visualization
 
 _Plugins that turn data / results into charts, diagrams, dashboards._
