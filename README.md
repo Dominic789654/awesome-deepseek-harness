@@ -1137,6 +1137,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Max-Null/seek-soul-in-darkness](https://github.com/Max-Null/seek-soul-in-darkness) — Seek Soul in Darkness (SSiD) — DSH-based desktop AI: finding the soul of silicon life in darkness.
 - [Nagi-ovo/voyager](https://github.com/Nagi-ovo/voyager) — Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included.
 - [peiyucn/dsh-launcher](https://github.com/peiyucn/dsh-launcher) — Start DeepSeek Harness (dsh) inside VS Code and open its web UI in the built-in browser.
+- [Laplace-bit/dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — Lifecycle bells for DeepSeek Harness: every lifecycle event (startup, tool call, command, approval wait, turn complete, idle) plays a distinct chime synthesized live with Web Audio — zero audio files — plus a breathing status dot in the corner.
 - [stvlynn/dsh.fish](https://github.com/stvlynn/dsh.fish) — Fish shell integration for DeepSeek Harness (no description provided upstream).
 - [wallpap/dsh-compact-activity](https://github.com/wallpap/dsh-compact-activity) — Compact reasoning and tool activity groups for DeepSeek Harness Web.
 - [ZYar-er/dsh-notify-bell](https://github.com/ZYar-er/dsh-notify-bell) — Semantic notification sounds for DeepSeek Harness: complete/approval/question/block/error via BEL or WAV, with Web UI bell toggle.

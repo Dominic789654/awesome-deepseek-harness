@@ -1122,6 +1122,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Max-Null/seek-soul-in-darkness](https://github.com/Max-Null/seek-soul-in-darkness) —— Seek Soul in Darkness (SSiD)——基于 DSH 的桌面 AI：在黑暗中寻找硅基生命的灵魂。
 - [Nagi-ovo/voyager](https://github.com/Nagi-ovo/voyager) —— 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。
 - [peiyucn/dsh-launcher](https://github.com/peiyucn/dsh-launcher) —— 在 VS Code 内启动 DeepSeek Harness (dsh)，并在内置浏览器中打开其 Web UI。
+- [Laplace-bit/dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) —— DeepSeek Harness 生命周期铃声与状态点：启动、工具调用、命令、等待确认、轮次完成、回到空闲等每个环节都有专属提示音，Web Audio 实时合成（零音频文件），右下角呼吸状态点显示工作状态。
 - [stvlynn/dsh.fish](https://github.com/stvlynn/dsh.fish) —— DeepSeek Harness 的 fish shell 集成（上游无描述）。
 - [wallpap/dsh-compact-activity](https://github.com/wallpap/dsh-compact-activity) —— 让 DeepSeek Harness Web 的思考与工具活动分组更紧凑。
 - [ZYar-er/dsh-notify-bell](https://github.com/ZYar-er/dsh-notify-bell) —— DeepSeek Harness 的语义化通知音：完成/审批/提问/阻塞/错误，支持 BEL 或 WAV，带 Web UI 铃铛开关。
