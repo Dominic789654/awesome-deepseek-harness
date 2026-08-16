@@ -234,6 +234,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 
+- [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
 - [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) — Bounded cross-session memory backed by SQLite.
 - [Spirtxiaoqi7/mindspace-dsh-session-memory](https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory) — Session-isolated personalized memory.
 - [PerryLink/dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — Git-snapshot checkpoints with a `/rewind` command.
@@ -300,7 +301,6 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [Ayaka157/dsh-conversation-cost](https://github.com/Ayaka157/dsh-conversation-cost) — Shows real-time DeepSeek usage cost in the DSH conversation footer stats bar (RMB/USD dual currency, including cache-hit and peak/off-peak pricing).
 - [FantasyStarry/dsh-token-stats](https://github.com/FantasyStarry/dsh-token-stats) — A token-usage stats plugin for DeepSeek Harness.
 - [GooodWei/context-vista](https://github.com/GooodWei/context-vista) — Adds a right-side floating panel and a `/context` command to DeepSeek Harness, showing current context token usage and allocation with a ring chart, compact-command effects, and estimated cost — modeled on Claude Code's `/context`.
-- [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
 - [ZeroingIn/dsh-provider-billing](https://github.com/ZeroingIn/dsh-provider-billing) — DeepSeek Harness plugin: shows provider account balance inside each Models settings row, queried through a loopback-pinned RPC channel with the stored API key kept on the host.
 - [LeemanCheung/dsh-token-usage](https://github.com/LeemanCheung/dsh-token-usage) — Persistent token-usage records and dashboard for DeepSeek Harness.
 - [zerro-223/dsh-token-usage](https://github.com/zerro-223/dsh-token-usage) — Token-usage tracking plugin for DeepSeek Harness (no description provided upstream).
