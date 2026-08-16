@@ -698,6 +698,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 <!-- 在此添加条目。 -->
 - [taxueseek/argo](https://github.com/taxueseek/argo) —— 为 agent 打造的多语言搜索工具（网页/学术/代码/金融/新闻），附带 DSH 插件包，提供 10 个 `mcp__argo__*` 工具。  `⭐56`
+- [chenyinrusi/dsh-repo-health](https://github.com/chenyinrusi/dsh-repo-health) —— 面向 DeepSeek Harness 的只读仓库健康扫描器：多来源定义漂移、未接线模块可达性、提示词膨胀、证据门禁校准与注册完整性检查；提供 CLI 与 MCP server。
 - [chushixixin/dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) —— 把 DSH 本身暴露为 MCP server。
 - [f0909172434/dsh-plugin-verified-search](https://github.com/f0909172434/dsh-plugin-verified-search) —— 验证式搜索插件。
 - [qwased/dsh-web-search-duckduckgo](https://github.com/qwased/dsh-web-search-duckduckgo) —— DuckDuckGo 网页搜索 MCP 工具。

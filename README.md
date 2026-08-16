@@ -704,6 +704,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 <!-- Add entries here. -->
 - [bobleer/deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp) — MCP server that lets any agent (Cursor, Claude Code, Codex) discover, install, and run DSH plugins from the `dsh-plugin` topic.
+- [chenyinrusi/dsh-repo-health](https://github.com/chenyinrusi/dsh-repo-health) — Read-only repository health scanners for DeepSeek Harness: definition drift, unwired-module reachability, prompt bloat, evidence-gate calibration, and registration completeness; CLI + MCP server.
 - [taxueseek/argo](https://github.com/taxueseek/argo) — Multilingual agent-facing search tool (web, academic, code, finance, news) that ships a DSH plugin bundle exposing ten `mcp__argo__*` tools.  `⭐56`
 - [chushixixin/dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) — Exposes DSH itself as an MCP server.
 - [f0909172434/dsh-plugin-verified-search](https://github.com/f0909172434/dsh-plugin-verified-search) — Verified/fact-checked search plugin.
