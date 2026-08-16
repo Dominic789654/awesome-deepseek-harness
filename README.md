@@ -993,6 +993,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 _Packaged task capabilities (markdown-based skills, tool packs)._
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) — Chinese long-form screenwriting skill (SKILL.md): two input blocks + causal-value engine with anti-AI-flavor review and a continuity ledger for 100+ scene projects.
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) — Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).
+- [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) — Matt Pocock's skills for DSH: grilling, writing-for-agents, wait-what, TDD, code review and more — 25 skills adapted from mattpocock/skills (MIT).
 
 - [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) — Timeline Studio bundle for inspecting, previewing, transactionally editing, and rendering portable `.timeline` video projects from DSH.
 - [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — Vision tools for text-only models: intent-aware image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, artifacts, and a Web UI.  `⭐150`
