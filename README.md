@@ -1217,6 +1217,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [mecoren/deepseek-harness-launcher](https://github.com/mecoren/deepseek-harness-launcher) — A launcher for DeepSeek Harness (no description provided upstream).
 - [cupen/dsh-workbench](https://github.com/cupen/dsh-workbench) — A workbench plugin for DeepSeek Harness.
 - [lee259/dsh-workbench](https://github.com/lee259/dsh-workbench) — Right-side file workspace for DeepSeek Harness Web.
+- [Laplace-bit/dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) — Silky streaming reveal for the Web UI: text appears at the model's arrival rate, new lines glide in, no flicker; follow stays with the user and respects prefers-reduced-motion.
 
 ## Skills
 
