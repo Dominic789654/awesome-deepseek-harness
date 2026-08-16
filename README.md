@@ -449,6 +449,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 
 - [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) — DSH plugin mall: search GitHub dsh-plugin-topic plugins and install them into local dsh with one click (agent tool + plugin-market tab in settings).
 - [2160039878-cyber/dsh-plugin-market](https://github.com/2160039878-cyber/dsh-plugin-market) — A loud GitHub plugin radar for DeepSeek Harness.
+- [777-Zen/dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) — Pre-flight plugin-library check: injects Top-K hints of suitable plugins with use_when/not_for capability declarations on task-type requests.
 - [apbigking-cell/dsh-plugin-square](https://github.com/apbigking-cell/dsh-plugin-square) — DSH plugin square + governance layer: real-time sync of GitHub dsh-plugin repos with search, translation, transactional install, and enable/disable/uninstall; governs plugins by universal/session/dual tiers with per-session on-demand activation, auto-release, and bloat audit.
 - [Casually/deepseek-harness-plugs-manage](https://github.com/Casually/deepseek-harness-plugs-manage) — Plugin management tool for DeepSeek Harness: search and install from the official plugin library.
 - [jianxx/dsh-cc-plugins](https://github.com/jianxx/dsh-cc-plugins) — DSH plugin collection (no description provided upstream).
