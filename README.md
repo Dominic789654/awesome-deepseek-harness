@@ -251,7 +251,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [GIT121995/dsh-memory-gate](https://github.com/GIT121995/dsh-memory-gate) — CBDC-gated memory for DeepSeek Harness: decides how retrieved memory is used (use/verify/ignore, feedback learning, audit) rather than just storing it.
 - [EveGoodEvening/dsh-llmwiki](https://github.com/EveGoodEvening/dsh-llmwiki) — Local-first, evidence-backed Markdown wiki plugin (Karpathy llm-wiki concept): immutable source records by content hash, synthesized pages citing source IDs, and a deterministic section index for lexical search.
 - [jiayuxuan123/dsh-session-history-fix](https://github.com/jiayuxuan123/dsh-session-history-fix) — Session history fix plugin for DeepSeek Harness.
-- [volcengine/OpenViking (dsh-memory-plugin-traex)](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin-traex) — Self-evolving context/memory plugin for DeepSeek Harness backed by OpenViking's context database; unifies session memory, knowledge RAG, and skills behind one storage/retrieval layer exposed as DSH memory tools.
+- [volcengine/OpenViking (dsh-memory-plugin)](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) — Self-evolving context/memory plugin for DeepSeek Harness backed by OpenViking's context database; unifies session memory, knowledge RAG, and skills behind one storage/retrieval layer exposed as DSH memory tools.
 
 - [huahai0202/dsh-better-archive](https://github.com/huahai0202/dsh-better-archive) — DSH web-GUI plugin: archived-session panel with unarchive and delete.
 - [lmst2/dsh-asc](https://github.com/lmst2/dsh-asc) — Agentic Surface Compaction (ASC) — context-management / compaction plugin for DeepSeek Harness.

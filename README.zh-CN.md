@@ -249,7 +249,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [GIT121995/dsh-memory-gate](https://github.com/GIT121995/dsh-memory-gate) — DeepSeek Harness 的 CBDC 门控记忆插件：决定检索到的记忆如何被使用（使用/校验/忽略 + 反馈学习 + 审计），而不只是存储。
 - [EveGoodEvening/dsh-llmwiki](https://github.com/EveGoodEvening/dsh-llmwiki) —— 本地优先、证据支持的 Markdown wiki 插件（Karpathy llm-wiki 概念）：源记录按内容哈希不可变保存，合成页面引用源 ID，确定性章节索引支持词法检索。
 - [jiayuxuan123/dsh-session-history-fix](https://github.com/jiayuxuan123/dsh-session-history-fix) —— DeepSeek Harness 会话历史修复插件。
-- [volcengine/OpenViking (dsh-memory-plugin-traex)](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin-traex) —— 基于 OpenViking 上下文数据库的 DeepSeek Harness 自演化上下文/记忆插件：将会话记忆、知识 RAG 与技能统一在一个存储/检索层，以 DSH 记忆工具的形式暴露。
+- [volcengine/OpenViking (dsh-memory-plugin)](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) —— 基于 OpenViking 上下文数据库的 DeepSeek Harness 自演化上下文/记忆插件：将会话记忆、知识 RAG 与技能统一在一个存储/检索层，以 DSH 记忆工具的形式暴露。
 
 - [huahai0202/dsh-better-archive](https://github.com/huahai0202/dsh-better-archive) —— DeepSeek Harness Web 插件：归档会话面板，支持取消归档与删除。
 - [lmst2/dsh-asc](https://github.com/lmst2/dsh-asc) —— dsh-asc（Agentic Surface Compaction）：DeepSeek Harness 上下文管理与压缩插件。
