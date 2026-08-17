@@ -421,6 +421,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [szx-a/ds](https://github.com/szx-a/ds) —— dsh 记忆体（Memory Body）插件：跨会话记忆，支持多个命名记忆体、按会话挂载、自动总结，以及 FTS5 全文检索（trigram 分词器适配中文）。
 - [quicksandznzn/dsh-session-bridge](https://github.com/quicksandznzn/dsh-session-bridge) —— deepseek,deepseek-harness,dsh,dsh-plugin,dsh-plugins。将完整的 DeepSeek Harness 会话树导出/导入为可验证的离线 Capsule，支持本地 ZIP 传输与附件重新映射。
 - [SiriLee/dsh-rewind](https://github.com/SiriLee/dsh-rewind) —— DeepSeek Harness 插件：在同一会话窗口内原地回滯对话（Claude Code /rewind 语义）+ 可选文件还原。
+- [chenproton/dsh-history](https://github.com/chenproton/dsh-history) —— 会话历史消息查看：列出当前会话全部你发送的消息，支持最新在前排序、文本过滤、一键复制，点击可跳转定位（目标未加载时自动加载更早历史）。
 
 ## 成本与用量统计
 

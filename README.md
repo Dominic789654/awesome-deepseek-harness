@@ -424,6 +424,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [szx-a/ds](https://github.com/szx-a/ds) — dsh Memory Body plugin: cross-session memory with multiple named bodies, per-session mounting, auto-summarization, and FTS5 full-text search (trigram tokenizer for Chinese).
 - [quicksandznzn/dsh-session-bridge](https://github.com/quicksandznzn/dsh-session-bridge) — Share and import complete DeepSeek Harness Session trees as validated, offline Capsules with local ZIP transfer and attachment remapping.
 - [SiriLee/dsh-rewind](https://github.com/SiriLee/dsh-rewind) — DeepSeek Harness plugin: in-place conversation rewind in the same session window (Claude Code /rewind semantics) + optional file restore.
+- [chenproton/dsh-history](https://github.com/chenproton/dsh-history) — Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.
 
 ## Cost & Usage Tracking
 
