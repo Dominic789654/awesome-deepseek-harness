@@ -432,6 +432,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [SiriLee/dsh-rewind](https://github.com/SiriLee/dsh-rewind) — DeepSeek Harness plugin: in-place conversation rewind in the same session window (Claude Code /rewind semantics) + optional file restore.
 - [Bryan-cmf/dsh-vector-memory](https://github.com/Bryan-cmf/dsh-vector-memory) — DSH plugin: durable agent memory core — `mem_save`/`mem_search`/`mem_health` backed by storageDomain (survives restarts), with a 記憶 view tab.
 - [kingcharleslzy-ai/dsh-honcho-memory](https://github.com/kingcharleslzy-ai/dsh-honcho-memory) — Honcho memory integration plugin for DeepSeek Harness (DSH).
+- [chenproton/dsh-history](https://github.com/chenproton/dsh-history) — Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.
 
 ## Cost & Usage Tracking
 

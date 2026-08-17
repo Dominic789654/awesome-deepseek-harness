@@ -429,6 +429,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [SiriLee/dsh-rewind](https://github.com/SiriLee/dsh-rewind) —— DeepSeek Harness 插件：在同一会话窗口内原地回滯对话（Claude Code /rewind 语义）+ 可选文件还原。
 - [Bryan-cmf/dsh-vector-memory](https://github.com/Bryan-cmf/dsh-vector-memory) —— DSH 插件：持久化 agent 记忆核心——基于 storageDomain 的 `mem_save`/`mem_search`/`mem_health`（重启后仍保留），并带有“記憶”查看标签页。
 - [kingcharleslzy-ai/dsh-honcho-memory](https://github.com/kingcharleslzy-ai/dsh-honcho-memory) —— 为 DeepSeek Harness (DSH) 提供的 Honcho 记忆集成插件。
+- [chenproton/dsh-history](https://github.com/chenproton/dsh-history) —— 会话历史消息查看：列出当前会话全部你发送的消息，支持最新在前排序、文本过滤、一键复制，点击可跳转定位（目标未加载时自动加载更早历史）。
 
 ## 成本与用量统计
 
