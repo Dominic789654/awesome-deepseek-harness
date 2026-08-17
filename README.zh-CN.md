@@ -263,6 +263,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [wangyong1972/dsh-auto-approval](https://github.com/wangyong1972/dsh-auto-approval) —— DeepSeek Harness 自动审批插件（上游无描述）。
 - [ADWMC/helm-d](https://github.com/ADWMC/helm-d) —— DeepSeek Harness 破甲一体化安全分析插件：Android · Web · Native · Protocol · Malware · AI-Security 全领域聚合（9 bundle + 1 preset）。
 - [rice-awa/dsh-lan-gateway](https://github.com/rice-awa/dsh-lan-gateway) —— 把 DeepSeek Harness 的 Web GUI 安全地开放到局域网或公网，支持 TLS。局域网来源免密码，其他来源需登录 + HMAC cookie 校验。
+- [xgone/dsh-remote](https://github.com/xgone/dsh-remote) —— 让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。
 
 ## 会话与记忆管理
 

@@ -265,6 +265,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [wangyong1972/dsh-auto-approval](https://github.com/wangyong1972/dsh-auto-approval) — Auto-approval plugin for DeepSeek Harness (no description provided upstream).
 - [ADWMC/helm-d](https://github.com/ADWMC/helm-d) — Helm-D armor-piercing all-in-one security analysis plugin for DeepSeek Harness: Android · Web · Native · Protocol · Malware · AI-Security, all domains aggregated (9 bundles + 1 preset).
 - [rice-awa/dsh-lan-gateway](https://github.com/rice-awa/dsh-lan-gateway) — Securely exposes the DeepSeek Harness Web GUI to the LAN or public internet, with TLS support. LAN sources password-free, others need login + HMAC cookie. TLS-ready.
+- [xgone/dsh-remote](https://github.com/xgone/dsh-remote) — Remote access & authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and a Settings page for account management.
 
 ## Session & Memory Management
 
