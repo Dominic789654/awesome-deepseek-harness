@@ -339,6 +339,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Scorp1o117/dsh-tdai-memory](https://github.com/Scorp1o117/dsh-tdai-memory) —— DeepSeek Harness 记忆插件。
 - [wonderfulcode1/dsh-checkpoint-diff](https://github.com/wonderfulcode1/dsh-checkpoint-diff) —— DeepSeek Harness 检查点时间节点间的文件 diff 可视化：只读时间线 + 基于 dsh-checkpoint-rewind 检查点的逐文件行级 diff，提供 `/diff` 命令、JSON HTTP API 与 GUI 面板。
 - [Zh-U-hB/dsh-auto-compact](https://github.com/Zh-U-hB/dsh-auto-compact) —— DeepSeek Harness 插件：每个会话与 agent 预设自动阈值触发压缩（默认 256K）。
+- [dsh-memory-porter](https://github.com/Shiye-10Pages/dsh-memory-porter) — 跨厂商记忆迁移：Claude 导出里的 `memories.json` 零 token 入库、本机 Claude Code 记录免导出直读、历史对话用 DSH 里已配好的模型提纯，每条记忆都带由代码回原文核对的逐字证据。
 
 ## 成本与用量统计
 
