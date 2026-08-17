@@ -84,6 +84,8 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [alllllllllli/Living-Dream-DSH](https://github.com/alllllllllli/Living-Dream-DSH) — Complete DSH desktop config framework: 8+ MCP servers (computer-use, browser, memory, OCR, vision, history, markitdown, os-copilot), free model channels (CNB proxy, AMD Radeon Cloud), mobile remote via Tailscale, vision patches (GLM-4V-Flash → Ollama fallback), and a one-click installer (PowerShell + offline 120 MB SFX). MIT.
 - [JingMox/learner-preset](https://github.com/JingMox/learner-preset) — First-principles learning assistant preset for DeepSeek Harness: knowledge components with decaying mastery, an analogy lifecycle, and a prediction ledger.
 
+- [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) — Hooks-config compatibility layer for dsh: reads hooks from .claude/settings.json, .codex/hooks.json, opencode.json and maps their lifecycle events to dsh extension points, running shell/webhook/oracle/proxy handlers.
+
 ## Harnesses & Runtimes
 
 _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime-level infrastructure (diagnostics, ops, session management, approval policies)._
@@ -404,6 +406,9 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [ChaoYuZhang001/dsh-gate](https://github.com/ChaoYuZhang001/dsh-gate) — Compatibility, provenance, and permission gates for DeepSeek Harness plugins and Desktop community catalogs.
 - [myfire2014/dsh-admin-gateway](https://github.com/myfire2014/dsh-admin-gateway) — Admin authentication gateway plugin for DeepSeek Harness (dsh) — just a domain bound to Cloudflare.
 
+- [JohnXu22786/safety-net](https://github.com/JohnXu22786/safety-net) — Destructive-command interception gate for coding agents: parses command semantics and judges risk before `rm -rf`, `git reset --hard`, `git push --force` land, then requires human confirmation.
+- [JohnXu22786/secret-guard](https://github.com/JohnXu22786/secret-guard) — Security plugin for dsh: intercepts reads/writes of sensitive files (.env, credentials, key material) before file tools execute, with content-masking fallback on tool results.
+
 ## Session & Memory Management
 
 _Cross-session memory, checkpoints, pinning, and session navigation plugins._
@@ -524,6 +529,9 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [i1j/context-assembler-DSH](https://github.com/i1j/context-assembler-DSH) — Context Assembler DSH V0.99 — a DeepSeek Harness (dsh) context-assembly plugin: topic-block assembly, watermark-pressure cutting, tool-turn compaction/rewrite, reality-recall injection, and handoff planning. MIT.
 - [Qinling-Melon-Farmers/dsh-memoir](https://github.com/Qinling-Melon-Farmers/dsh-memoir) — DSH persistent project-memory plugin (TypeScript): session summarization + lessons-learned distillation written to PROJECT_MEMORY.md and a global index; end-of-turn distillation reminders, auto-injection into future AGENTS; includes a Web GUI memory panel (project/global tabs, search, manual record/delete).
 - [dream12347/dsh-session-manager](https://github.com/dream12347/dsh-session-manager) — DSH session-manager plugin: delete (trash restore/purge), stats, continue/pause, log-folder access, a conversation header drawer, workspace grouping and sorting, and a context-compaction threshold setting.
+
+- [JohnXu22786/context-pruner](https://github.com/JohnXu22786/context-pruner) — Session context triage plugin for dsh: handles stale, duplicate, failed, oversized, and low-value messages automatically to save token budget and curb context bloat.
+- [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) — Two-stage session auto-titling for dsh: instant keyword titles while the session runs, refined later by the cheapest capable model in the background.
 
 ## Cost & Usage Tracking
 
@@ -963,6 +971,12 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [kelai141/local-git-4-llm](https://github.com/kelai141/local-git-4-llm) — Git-like multi-LLM shared-workspace collaboration plugin for DeepSeek Harness.
 - [Lab-sku/dsh-vision-bridge](https://github.com/Lab-sku/dsh-vision-bridge) — VisionBridge: a self-built vision bridge that auto-calls a vision model to recognize images received by a text-only model.
 - [leaveimagination/dsh-qwen-voice](https://github.com/leaveimagination/dsh-qwen-voice) — Voice control and multi-session task dispatch for DeepSeek Harness, powered by Qwen Audio Agent.
+- [JohnXu22786/command-scout](https://github.com/JohnXu22786/command-scout) — Discovers a project's declared build commands — Makefile targets, package.json scripts, just recipes, deno tasks — and exposes them as ready-to-run agent tools.
+- [JohnXu22786/file-planning](https://github.com/JohnXu22786/file-planning) — Disk-persisted execution-planning plugin: plan, execution state, field notes, and debrief live in the workspace `.trail/` directory, surviving interrupted sessions and context compression.
+- [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) — Adversarial multi-perspective code review: parallel attack-style review lenses merged and deduplicated by an arbitration layer, graded by severity, with evidence and fix suggestions; read-only.
+- [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) — Versioned documentation retrieval for coding agents: maintains a library-doc index so agents fetch accurate, versioned, traceable API docs on demand while writing code.
+- [JohnXu22786/worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — Task-isolated git worktree workspaces for dsh: create, manage, and clean up separate working trees so parallel tasks don't collide.
+- [JohnXu22786/pty-runner](https://github.com/JohnXu22786/pty-runner) — Background terminal job management for dsh: persistent background process (PTY) management inside the harness.
 ## Agents
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
@@ -1044,6 +1058,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [stuarthu/dsh-crew](https://github.com/stuarthu/dsh-crew) — dsh plugin: run work as a small crew of role agents (product manager, engineer, code reviewer) that share work through files on disk.
 - [luolin-boot/ATRI-Core](https://github.com/luolin-boot/ATRI-Core) - A free, self-moving mind in pure Python: autonomy (motive -> choose -> act -> reflect), hands (full device reach, zero holes), forge (review + generate code without vulnerabilities), memory, introspection, evolution. Embeddable, zero dependencies.
 
+- [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) — Lets an agent operate the desktop directly: screenshots, mouse/keyboard injection, accessibility-tree semantic actions, with emergency stop, allow/deny rules, confirmation flow, and idle standby.
+
 ## Loops (Auto-Research, Self-Improve, etc.)
 
 _Long-running loop workflows: auto-research, deep-research, self-refine, iterative build._
@@ -1107,6 +1123,10 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Biogod2020/dsh-bing-search](https://github.com/Biogod2020/dsh-bing-search) — DSH web search: DuckDuckGo first, locale-aware Bing fallback, quality scores so agents skip junk.
 - [1624318455/dsh-plugin-tavily](https://github.com/1624318455/dsh-plugin-tavily) — Tavily-backed web search provider plugin for DeepSeek Harness (dsh) — registers a tavily search provider into ctx.web with a settings card in the web GUI.
 - [chenyuhao0628/dsh-web-search-router](https://github.com/chenyuhao0628/dsh-web-search-router) — Free multi-provider web search router for DeepSeek Harness (DSH).
+
+- [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge: real-browser automation MCP server — accessibility-tree snapshots render pages into structured text trees so agents can click, fill, screenshot, and script precisely without a vision model.
+- [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate: GitHub workbench for coding agents — wraps the REST API into MCP tools for repo queries, issue management, PR creation/merge, code review, and search.
+- [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock: constrained local file-operation MCP stdio server — read/write, directory management, filename/content search, metadata queries, all confined to configurable paddock dirs.
 
 ## Orchestrators & Aggregators
 
@@ -1694,6 +1714,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Tasihi89/dsh-talk-map](https://github.com/Tasihi89/dsh-talk-map) — Visual conversation map for DeepSeek Harness — sessions as cards on a whiteboard: drag to arrange, double-click to chat, draw an edge to fork with injected context. ADHD-friendly spatial memory.
 - [Rewmington/deskwhale-harness](https://github.com/Rewmington/deskwhale-harness) — DeskWhale: a desktop-pet edition of DeepSeek Harness with a floating whale, frosted glass UI, and approval reminders.
 - [vdnight89/InfiniteDSH](https://github.com/vdnight89/InfiniteDSH) — Myriad Worlds (诸天万界): a DeepSeek Harness literary plugin — one session is one book. Open the book from its cover, write only the body text, and export beautifully typeset Markdown.
+- [JohnXu22786/notifier](https://github.com/JohnXu22786/notifier) — Desktop alert plugin for dsh: system notification (plus optional tone) when a task finishes, approval is pending, or a run errors out.
+- [JohnXu22786/task-board](https://github.com/JohnXu22786/task-board) — Cross-session work ledger: tasks/issues registered, tracked, and transitioned with event-sourced persistence — every change is an append-only immutable event, history fully traceable.
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -1811,6 +1833,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [lusblead/dsh-Kingdom](https://github.com/lusblead/dsh-Kingdom) — Standalone dsh plugin: initializes/connects a local Kingdom inside DSH sessions (Phase 1+2 FROZEN, Claim != Fact governance closed loop).
 
 - [SongYuhui14/ai-security-assistant](https://github.com/SongYuhui14/ai-security-assistant) — AI 安全评估辅助技能：OWASP LLM Top 10 (2025) + 国内法规框架下的大模型/Agent/RAG 安全评估，含标准对照、攻击案例库、风险判定与报告生成工具链，附严格评测（30/30 通过，防技术失误与常识错误）。
+- [JohnXu22786/skill-framework](https://github.com/JohnXu22786/skill-framework) — Praxis: engineering-methodology skill library for dsh — senior-engineer workflows hardened into Agent Skills-standard SKILL.md skills (design, plan, test-first, review, branch wrap-up).
 
 ## Resources
 

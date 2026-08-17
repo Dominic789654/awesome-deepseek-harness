@@ -83,6 +83,8 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [jiatong-lab914/obsidian-knowledge-mode](https://github.com/jiatong-lab914/obsidian-knowledge-mode) —— Obsidian 可携带、AI-native 的知识系统 DSH agent preset：反收藏夹 Layer 0、二八提炼为 Context/Claim、可验证的更新环、四个只读角色代理、外部来源 Gate 钩子与零内容 starter 模板。
 - [JingMox/learner-preset](https://github.com/JingMox/learner-preset) —— 面向第一性原理学习的 DeepSeek Harness 智能体预设：知识组件带衰减掌握度、类比生命周期与预测账本。
 
+- [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) — hooks 配置兼容层：读取主流 agent harness 的 hooks 配置文件，把生命周期事件映射到 dsh 扩展点，并执行 shell / webhook / oracle / proxy 四类 handler
+
 ## Harness 与运行时
 
 _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运行时级基建（诊断、运维、会话管理、审批策略）。_
@@ -401,6 +403,9 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [ChaoYuZhang001/dsh-gate](https://github.com/ChaoYuZhang001/dsh-gate) —— 面向 DeepSeek Harness 插件与 Desktop 社区目录的兼容性、来源与权限门禁。
 - [myfire2014/dsh-admin-gateway](https://github.com/myfire2014/dsh-admin-gateway) —— dsh-admin-gateway：DeepSeek Harness（dsh）管理员验证网关插件，只需一个绑定在 Cloudflare 的域名。
 
+- [JohnXu22786/safety-net](https://github.com/JohnXu22786/safety-net) — 编码 agent 的破坏性命令拦截闸门：在 rm -rf、git reset --hard、git push --force 等命令落地前解析语义、判定风险，并要求人工确认
+- [JohnXu22786/secret-guard](https://github.com/JohnXu22786/secret-guard) — 安全插件：在文件工具执行前拦截对 .env、凭据、密钥文件等敏感文件的读写，防止 API 密钥泄漏，并对工具结果做内容掩码兜底
+
 ## 会话与记忆管理
 
 _跨会话记忆、checkpoint、会话置顶与导航插件。_
@@ -520,6 +525,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [i1j/context-assembler-DSH](https://github.com/i1j/context-assembler-DSH) —— 上下文汇编 Context Assembler DSH V0.99 —— DeepSeek Harness (dsh) 上下文汇编插件：话题块汇编、水位压力切割、工具轮压缩/改写、reality 召回注入、handoff 规划。MIT。
 - [Qinling-Melon-Farmers/dsh-memoir](https://github.com/Qinling-Melon-Farmers/dsh-memoir) —— DSH 项目持久化记忆插件（TypeScript）：会话归纳 + 经验教训沉淀，写入 PROJECT_MEMORY.md 与全局索引；每轮工作结束自动提醒蒸馏、自动注入未来 AGENTS；附 Web GUI 记忆面板（项目/全局 tab、检索、手动记录/删除）。
 - [dream12347/dsh-session-manager](https://github.com/dream12347/dsh-session-manager) —— DSH 会话管理插件：删除（回收站恢复/彻底清除）、统计、继续/暂停、打开日志目录、对话顶部抽屉、工作区分组与排序、上下文压缩阈值设置。
+
+- [JohnXu22786/context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文分诊插件：自动识别并处理过期、重复、失败、超大与低价值消息，节约 token 预算，缓解上下文膨胀
+- [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) — 两阶段会话题词（自动命名）：会话进行中先用关键词即时生成标题，空闲后再调用最经济的模型精修，全程后台不打断主流程
 
 ## 成本与用量统计
 
@@ -953,6 +961,12 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [kelai141/local-git-4-llm](https://github.com/kelai141/local-git-4-llm) —— 模拟git的多llm同工作区协作dsh插件。
 - [Lab-sku/dsh-vision-bridge](https://github.com/Lab-sku/dsh-vision-bridge) —— 明眸 VisionBridge - 自研视觉桥：瞎子模型收图时自动调用视觉模型识别。
 - [leaveimagination/dsh-qwen-voice](https://github.com/leaveimagination/dsh-qwen-voice) —— 基于 Qwen Audio Agent 的 DeepSeek Harness 语音控制与多会话任务调度。
+- [JohnXu22786/command-scout](https://github.com/JohnXu22786/command-scout) — 发现项目已声明的构建命令——Makefile 目标、package.json 脚本（npm/yarn/pnpm/bun）、just 配方、deno 任务——并作为可调用工具暴露给 agent
+- [JohnXu22786/file-planning](https://github.com/JohnXu22786/file-planning) — 磁盘持久化执行规划插件：把多步骤任务的计划、执行状态、考察笔记与复盘纪要全部落在工作区 .trail/ 目录，会话中断、上下文压缩也不丢方向
+- [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) — 对抗式多视角代码审查：多个独立审查视角并行攻击式审查，仲裁层合并去重、按严重度分级，输出带证据与修复建议的报告，全程只读
+- [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) — 面向编码 agent 的版本化文档检索：维护库文档目录索引，让 agent 写代码时按需拉取准确、带版本、可溯源的 API 文档片段
+- [JohnXu22786/worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 为 dsh 提供任务隔离工作区（git worktree）能力：并行任务互不干扰
+- [JohnXu22786/pty-runner](https://github.com/JohnXu22786/pty-runner) — 后台终端作业管理插件：为 DeepSeek Harness 提供持久的后台进程（PTY）管理能力
 ## Agent
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
@@ -1033,6 +1047,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) —— DeepSeek Harness 的交互式长会话后台代理：启动一个持久可续跑的子代理，在 Web UI 侧边栏观察其进度，随时给它发消息或中断——全部通过官方子代理接口实现。
 - [stuarthu/dsh-crew](https://github.com/stuarthu/dsh-crew) —— dsh 插件：以一支小型角色代理团队（产品经理、工程师、代码评审员）协作，通过磁盘文件共享工作成果。
 
+- [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) — 让 agent 直接操作电脑桌面：截屏观察、鼠标/键盘注入、可访问性树语义操作，内置急停、允许/拒绝规则、确认流与空闲待机等安全护栏
+
 ## 循环（自动研究 / 自我改进等）
 
 _长时运行的循环工作流：自动研究、深度调研、自我精炼、迭代构建。_
@@ -1093,6 +1109,10 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Biogod2020/dsh-bing-search](https://github.com/Biogod2020/dsh-bing-search) —— DSH 网络搜索：优先 DuckDuckGo，按地区智能回退 Bing，附带质量评分帮 agent 自动跳过低质内容。
 - [chenyuhao0628/dsh-web-search-router](https://github.com/chenyuhao0628/dsh-web-search-router) —— 面向 DeepSeek Harness (DSH) 的免费多供应商网络搜索路由器。
 - [1624318455/dsh-plugin-tavily](https://github.com/1624318455/dsh-plugin-tavily) —— 面向 DeepSeek Harness (dsh) 的 Tavily 网络搜索提供商插件——把 tavily 搜索提供商注册进 ctx.web，并在 Web GUI 提供设置卡片。
+
+- [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge 真实浏览器自动化 MCP server：无障碍树快照把页面渲染成结构化文本树并给可交互元素编号，agent 无需视觉模型即可精确操作页面
+- [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate GitHub 工作台：把 REST API 封装成 MCP 工具，让 agent 直接完成仓库查询、issue 管理、PR 创建与合并、代码审查与搜索
+- [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock 受约束的本地文件操作 MCP stdio server：文本读写、目录管理、文件名搜索、正文检索、元信息查询，全部限制在可配置的围场目录内，越界访问一律拒绝
 
 ## 编排器与聚合器
 
@@ -1671,6 +1691,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [FleetingEcho/dsh-powerdesk](https://github.com/FleetingEcho/dsh-powerdesk) —— 面向 DSH 的 IDE 工作台插件：基于 Rust PTY 的快速终端（restty/WebGPU）、CodeMirror 6 编辑器、文件浏览器、Markdown 笔记、沙箱浏览器与 ripgrep 搜索——全部作为右侧与底部可停靠面板中的标签页，并可用自定义 React 组件扩展。
 - [JUANWANG-BUAA/dsh-full-remote](https://github.com/JUANWANG-BUAA/dsh-full-remote) —— 面向远程访问的 DeepSeek Harness 插件：支持通过公网隧道或局域网，在手机等设备上远程使用 DeepSeek Harness，设置、凭据与文件访问等功能保持可用，按设备维护独立会话。
 - [Tasihi89/dsh-talk-map](https://github.com/Tasihi89/dsh-talk-map) —— DSH 可视化对话地图：把会话当作白板上的卡片——拖拽排布、双击进入对话、拉一条边即可带着注入的上下文分叉。对 ADHD 友好的空间化记忆。
+- [JohnXu22786/notifier](https://github.com/JohnXu22786/notifier) — 桌面提醒信号插件：任务完成、等待批准、运行出错时在 dsh 所在机器弹出系统通知并按需播放提示音
+- [JohnXu22786/task-board](https://github.com/JohnXu22786/task-board) — 跨会话工作台账插件：任务/议题的登记、跟踪、状态流转与完成记录以事件溯源方式落盘，历史完整可追溯
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
@@ -1774,6 +1796,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [cocofhu/skillhub](https://github.com/cocofhu/skillhub) —— deepseek-harness 的技能中心（skillhub）。
 - [pqkisvery666/dsh-basic-office](https://github.com/pqkisvery666/dsh-basic-office) —— DSH 办公文件插件：阅读 PDF/DOCX/XLSX/PPTX，生成 DOCX/XLSX/PPTX/PDF/CSV。
 - [Ral6224/dsh-aseprite-skill](https://github.com/Ral6224/dsh-aseprite-skill) —— 让 dsh 的 agent 能够使用 Aseprite 的技能。
+
+- [JohnXu22786/skill-framework](https://github.com/JohnXu22786/skill-framework) — Praxis 工程方法论技能库：把资深工程师工作流（设计对话、写计划、执行计划、测试先行、代码评审等）固化成符合 Agent Skills 标准的 SKILL.md 技能
 
 ## 资源
 
