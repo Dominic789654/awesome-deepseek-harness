@@ -1373,6 +1373,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
+- [HiccupGeng/dsh-doc-skill](https://github.com/HiccupGeng/dsh-doc-skill) — 规范文档生成技能（源自 Claude Code /doc 命令）：在 docs/ 下生成 yyyy_MM_dd_HH_<文档名>.md 规范文档，7 类文档类型感知检查清单，纯 Markdown 零依赖复制即用。
 - [caoqinnan-web/organize-workspace-sessions](https://github.com/caoqinnan-web/organize-workspace-sessions) — Organize DeepSeek Harness workspace sessions: rename them as Category｜Topic via the host's local RPC (workspace.list / session.list / session.history / session.rename) and report archive/rename/judgment suggestions — no archiving, because DSH has no archive-view entry.
 - [edisonzerolam/team-orchestration-skill](https://github.com/edisonzerolam/team-orchestration-skill) — Multi-agent adversarial orchestration engine (DSH skill): five-phase trial protocol with second-instance final review, 40 expert teams / 257 personas, cross-client skill routing with runtime auto-detect, and an eval-gated expert-merger pipeline — pure markdown + stdlib Python, no install.
 - [chenyinrusi/dsh-engineering-skills](https://github.com/chenyinrusi/dsh-engineering-skills) — Five engineering-discipline skills for AI coding agents (DeepSeek Harness, Claude Code, Codex): 18-dimension code review, CI failure triage, shell safety, redundancy/boundary audit, and cross-repo pattern absorption — pure markdown, no install.
