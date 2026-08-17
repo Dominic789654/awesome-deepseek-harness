@@ -837,7 +837,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [MaxHou-infinity/dsh-scout](https://github.com/MaxHou-infinity/dsh-scout) — Scout — evidence-driven company & job due-diligence plugin for DeepSeek Harness (HR tech).
 - [XKLMY-hi/dsh-synthv-bridge](https://github.com/XKLMY-hi/dsh-synthv-bridge) — SynthV bridge plugin for DeepSeek Harness (no description provided upstream).
 - [Jamailar/beav-deepseek-harness](https://github.com/Jamailar/beav-deepseek-harness) — Beav Creator for Xiaohongshu/RED, social-media AI operations, research, copywriting, images and video in DeepSeek Harness.
-- [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) — Quantitative tools for agents: market data (Binance public API), technical indicators (SMA/EMA/RSI/MACD/Bollinger/ATR), and MA-crossover backtesting.
+- [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) — Agent-native quantitative R&D toolkit: 46 tools across 6 domains (data, alpha, ML, risk, execution, ecosystem) with an end-to-end PDAT→PET research pipeline.
 - [PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — GitHub integration for DeepSeek Harness: create PRs, review PRs in background jobs, read issues — every write gated by human approval.
 - [Scorp1o117/dsh-tool-vision](https://github.com/Scorp1o117/dsh-tool-vision) — External vision-model plugin for DeepSeek Harness.
 - [uckkk/dsh-video-creator](https://github.com/uckkk/dsh-video-creator) — Video-channel creation assistant: built-in templates, calls mainland-China LLMs to generate content adapted for major platforms.
