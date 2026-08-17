@@ -1531,6 +1531,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [YRN-playmaker/dsh-wallpaper_share](https://github.com/YRN-playmaker/dsh-wallpaper_share) — A "wallpaper engine" synchronization plugin mounted on DeepSeek Harness that can synchronize static wallpapers.
 - [zdx8637-gitdog/dshmobile](https://github.com/zdx8637-gitdog/dshmobile) — Remote-control DeepSeek Harness from your phone: Android app + cloud relay + PC plugin, with an always-on QR code for scan-to-download / pair / login-authorize in one. Self-hostable if you have your own server.
 
+- [zhengjy01/dsh-start](https://github.com/zhengjy01/dsh-start) — One-click start/stop launcher for the DSH Web GUI on macOS: foreground/daemon start, stop, status, duplicate-launch guard, auto browser open, plus a Dock-able DSH.app built by script.
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._

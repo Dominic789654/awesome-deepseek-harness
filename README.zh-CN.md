@@ -1512,6 +1512,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [YRN-playmaker/dsh-wallpaper_share](https://github.com/YRN-playmaker/dsh-wallpaper_share) — 挂载在 DeepSeek Harness 上的“壁纸引擎”同步插件，可同步静态壁纸。
 - [zdx8637-gitdog/dshmobile](https://github.com/zdx8637-gitdog/dshmobile) — 手机远程控制 DeepSeek Harness：Android App + 云端 relay + PC 插件，常驻二维码一码三用（扫码下载/配对/登录授权）。有服务器可以自行部署。
 
+- [zhengjy01/dsh-start](https://github.com/zhengjy01/dsh-start) —— macOS 上 DSH Web GUI 的一键启停启动器：前台/后台启动、停止、状态、防重复启动、自动打开浏览器，并可用脚本构建程序坞版 DSH.app。
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
