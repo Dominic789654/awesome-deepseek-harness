@@ -80,6 +80,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [delightedMaster/dsh-anchored-standard-windows](https://github.com/delightedMaster/dsh-anchored-standard-windows) — Windows Anchored Standard agent preset for DeepSeek Harness with on-demand tools and Skills.
 - [delightedMaster/dsh-subprocess-win32](https://github.com/delightedMaster/dsh-subprocess-win32) — Windows subprocess Cordis runtime and Minimal/Anchored Standard presets for DeepSeek Harness.
 - [brunhildzhou/dsh-all-warmup](https://github.com/brunhildzhou/dsh-all-warmup) — Global frictionless warm-up layer plugin for DeepSeek Harness: the first turn of any session auto-warms up, full mode resumes from the second turn on.
+- [jiatong-lab914/obsidian-knowledge-mode](https://github.com/jiatong-lab914/obsidian-knowledge-mode) — DSH agent preset for a portable, AI-native knowledge system on Obsidian: anti-hoarding Layer 0, 80/20 distillation into Context/Claim, verifiable update loops, four read-only role agents, a source gate hook, and a zero-content starter template.
 
 ## Harnesses & Runtimes
 
