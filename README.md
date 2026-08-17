@@ -418,6 +418,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [y2zyyr/dsh-token-usage-sidebar](https://github.com/y2zyyr/dsh-token-usage-sidebar) — Persistent Today / Yesterday / Total token usage sidebar for DeepSeek Harness.
 - [Ycet/dsh-account-usage](https://github.com/Ycet/dsh-account-usage) — Adds a "Settings: Account" page to dsh, allowing quick viewing of DeepSeek balance, usage information, and OpenCode Go quota details, while also providing quick links to the respective official websites.
 - [534119219/chicheng-stats](https://github.com/534119219/chicheng-stats) — Global usage-stats plugin: sidebar panel showing today's/total request counts and today's/total token counts across all sessions.
+- [Shiye-10Pages/dsh-whale-meter](https://github.com/Shiye-10Pages/dsh-whale-meter) — Usage tiers (🐟→🐳) by monthly token burn with a locally-estimated percentile and shareable stats card; 46 models across 6 vendors including size-tiered Chinese pricing; backfills pre-install sessions; separate old/new rates across the 2026-08-17 price change.
 ## Channel / IM Bridges
 
 _Bridges DSH into chat platforms and messaging channels._
