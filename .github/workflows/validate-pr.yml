@@ -156,5 +156,3 @@ jobs:
             echo "</details>"
           } > /tmp/comment.md
           gh pr comment "$PR_NUM" --repo "$REPO" --body-file /tmp/comment.md
-
-<!-- ci: validate-pr active -->
