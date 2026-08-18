@@ -1159,8 +1159,10 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [dgadelha1/dsh-explorer-plugin](https://github.com/dgadelha1/dsh-explorer-plugin) — VS Code-style workspace file explorer and Monaco editor with real TextMate grammars, docked into the DSH Web GUI.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) — Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings flagged as you type; uses the model dsh is already configured with, so no API key.
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) — Composer mic for the Web UI: tap-to-monitor live transcription and hold-to-talk, with host Edge TTS reply reading that streams while the model generates, echo-pause during reading, and tap-to-stop.
+- [Amnesia-accompany/dsh-glass-ui](https://github.com/Amnesia-accompany/dsh-glass-ui) — Glassmorphism skin for the DSH Web UI: floating-glass and compat modes, blur & frost sliders, fluid color themes, and Wallpaper Engine wallpaper backgrounds.
 
 _Desktop, web, terminal, or editor front-ends for DSH._
+- [Amnesia-accompany/deepseek-harness-client](https://github.com/Amnesia-accompany/deepseek-harness-client) — All-in-one desktop client for DeepSeek Harness: built-in file explorer with multi-tab editor & line numbers, API-key and balance panel, bundled plugin deployment.
 
 - [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) — Local-first desktop workbench for long-form fiction, with a DeepSeek Harness plugin-development preview for revisioned novel-project editing.
 - [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — Plugin and skin collection for the DSH Web UI: task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.  `⭐506`
