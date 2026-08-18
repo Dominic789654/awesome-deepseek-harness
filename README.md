@@ -1718,6 +1718,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Tasihi89/dsh-talk-map](https://github.com/Tasihi89/dsh-talk-map) — Visual conversation map for DeepSeek Harness — sessions as cards on a whiteboard: drag to arrange, double-click to chat, draw an edge to fork with injected context. ADHD-friendly spatial memory.
 - [Rewmington/deskwhale-harness](https://github.com/Rewmington/deskwhale-harness) — DeskWhale: a desktop-pet edition of DeepSeek Harness with a floating whale, frosted glass UI, and approval reminders.
 - [vdnight89/InfiniteDSH](https://github.com/vdnight89/InfiniteDSH) — Myriad Worlds (诸天万界): a DeepSeek Harness literary plugin — one session is one book. Open the book from its cover, write only the body text, and export beautifully typeset Markdown.
+- [deepseek-harness-portable](https://github.com/kali-suroot/deepseek-harness-portable) — One-click Windows portable installer for DSH, bundles Node.js runtime, supports custom install path, zero footprint on C drive.
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
