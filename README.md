@@ -83,6 +83,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [jiatong-lab914/obsidian-knowledge-mode](https://github.com/jiatong-lab914/obsidian-knowledge-mode) — DSH agent preset for a portable, AI-native knowledge system on Obsidian: anti-hoarding Layer 0, 80/20 distillation into Context/Claim, verifiable update loops, four read-only role agents, a source gate hook, and a zero-content starter template.
 - [alllllllllli/Living-Dream-DSH](https://github.com/alllllllllli/Living-Dream-DSH) — Complete DSH desktop config framework: 8+ MCP servers (computer-use, browser, memory, OCR, vision, history, markitdown, os-copilot), free model channels (CNB proxy, AMD Radeon Cloud), mobile remote via Tailscale, vision patches (GLM-4V-Flash → Ollama fallback), and a one-click installer (PowerShell + offline 120 MB SFX). MIT.
 - [JingMox/learner-preset](https://github.com/JingMox/learner-preset) — First-principles learning assistant preset for DeepSeek Harness: knowledge components with decaying mastery, an analogy lifecycle, and a prediction ledger.
+- [hackerFish/awesome-dsh-presets](https://github.com/hackerFish/awesome-dsh-presets) — Tested DeepSeek Harness presets & rules: official-derived + original combos, every preset passes structure and package-existence validation (Chinese-first).
 
 ## Harnesses & Runtimes
 
@@ -396,6 +397,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [PerryLink/dsh-mask](https://github.com/PerryLink/dsh-mask) — PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses to placeholders before they reach the model, restore them at the display layer, keep the restore table only in memory and a controlled storage domain, never log plaintext, and expose /mask and the mask_test tool.
 - [CanGeng/yolo-mode](https://github.com/CanGeng/yolo-mode) — Unattended full-access (yolo) window for DeepSeek Harness: human-only `/yolo` switch, lazy expiry with auto-revert, catastrophic-command tripwire guard, desktop/webhook/email notifications.
 - [yauntyour/DSH-Encrypt](https://github.com/yauntyour/DSH-Encrypt) — Credential-encryption plugin for DeepSeek Harness: password-gated AES-256-GCM + SHA3-256 full-pipeline encryption and verification, transient runtime decryption, memory-safe.
+- [hackerFish/dsh-lab](https://github.com/hackerFish/dsh-lab) — DSH lab: curated DeepSeek Harness plugins and a Chinese guide; every entry passes a real-machine four-gate test (install → smoke → security quick-check → compatibility pinning).
 
 ## Session & Memory Management
 
@@ -748,6 +750,8 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [XINGchi0130/dsh-base-plugin](https://github.com/XINGchi0130/dsh-base-plugin) — Base plugin for DeepSeek Harness (DSH): plugin market, MCP, skills, usage, sessions, mobile access — zero harness source changes.
 - [AJUbest/dsh-plugin-optimization](https://github.com/AJUbest/dsh-plugin-optimization) — A DSH plugin that distinguishes official built-in DSH plugins from user custom plugins on the external interface, and can collect and manage all your previously created custom plugins.
 - [DshMarketPlace/dshmarketplace](https://github.com/DshMarketPlace/dshmarketplace) — Bilingual directory of DeepSeek Harness (DSH) plugins — 1,004 listings, written detail pages, public API. Next.js on Cloudflare Workers.
+- [hackerFish/awesome-dsh-plugin](https://github.com/hackerFish/awesome-dsh-plugin) — A curated list of plugins for DeepSeek Harness (dsh).
+
 ## Visualization
 
 _Plugins that turn data / results into charts, diagrams, dashboards._
@@ -844,6 +848,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [QCYTSN/dsh-dafeiyu](https://github.com/QCYTSN/dsh-dafeiyu) — Desktop-native BigFish companion for DeepSeek Harness — real Agent status, always on top on Windows.
 - [zeroa234/dsh-comfyui](https://github.com/zeroa234/dsh-comfyui) — ComfyUI driver (AI-first contract mode): models see only contract slots, never workflow JSON. Text-to-image / image-to-image / text-to-video / image-to-video templates, dual preflight checks against hallucination, official/custom node liveness detection.
 - [Bob-Bo1/dsh-stock-watch](https://github.com/Bob-Bo1/dsh-stock-watch) — DeepSeek Harness (DSH) plugin for local A-share portfolio tracking: reads a local `holdings.json` and shows quotes and P&L in the sidebar.
+- [hackerFish/dsh-video-studio](https://github.com/hackerFish/dsh-video-studio) — Whale Video Studio: a DeepSeek Harness native video/motion-comic generation plugin — six-stage director pipeline, multi-vendor free-quota scheduling, four-layer prompt self-optimization.
 
 ## Slides / PPT
 
@@ -1781,6 +1786,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [SongYuhui14/crypto-evaluation-assistant](https://github.com/SongYuhui14/crypto-evaluation-assistant) — 商用密码应用安全性评估（密评）检测辅助技能：GB/T 39786 / GM/T 0115/0116 框架下的检测、符合率计算与报告生成工具链（3 个零依赖 Python 脚本），含金融/政务/能源行业垂直检查清单与备考学习模式，附三轮评测基线对比。
 - [allentnetus/dsh-job-hunting](https://github.com/allentnetus/dsh-job-hunting) — DeepSeek Harness job-hunting plugin and runtime skill for local job-intelligence workflows.
 - [lusblead/dsh-Kingdom](https://github.com/lusblead/dsh-Kingdom) — Standalone dsh plugin: initializes/connects a local Kingdom inside DSH sessions (Phase 1+2 FROZEN, Claim != Fact governance closed loop).
+- [hackerFish/awesome-dsh-skills](https://github.com/hackerFish/awesome-dsh-skills) — Tested DeepSeek Harness skill library: 15 original skills, every SKILL.md passes a format validator and a load smoke test — copy, drop in, done (Chinese-first, CI on Ubuntu + Windows).
+- [hackerFish/dsh-restart](https://github.com/hackerFish/dsh-restart) — Start, restart, and troubleshoot your local dsh web service: DSH skill (in-chat) + cross-platform safe launcher (works even when dsh is down), zero dependencies, bilingual docs.
 
 ## Resources
 
