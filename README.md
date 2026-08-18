@@ -83,6 +83,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [jiatong-lab914/obsidian-knowledge-mode](https://github.com/jiatong-lab914/obsidian-knowledge-mode) — DSH agent preset for a portable, AI-native knowledge system on Obsidian: anti-hoarding Layer 0, 80/20 distillation into Context/Claim, verifiable update loops, four read-only role agents, a source gate hook, and a zero-content starter template.
 - [alllllllllli/Living-Dream-DSH](https://github.com/alllllllllli/Living-Dream-DSH) — Complete DSH desktop config framework: 8+ MCP servers (computer-use, browser, memory, OCR, vision, history, markitdown, os-copilot), free model channels (CNB proxy, AMD Radeon Cloud), mobile remote via Tailscale, vision patches (GLM-4V-Flash → Ollama fallback), and a one-click installer (PowerShell + offline 120 MB SFX). MIT.
 - [JingMox/learner-preset](https://github.com/JingMox/learner-preset) — First-principles learning assistant preset for DeepSeek Harness: knowledge components with decaying mastery, an analogy lifecycle, and a prediction ledger.
+- [orziz/odai](https://github.com/orziz/odai) — Profile-wide DSH governance and routing bundle with a separately installable session-scoped Agent preset; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.
 
 ## Harnesses & Runtimes
 

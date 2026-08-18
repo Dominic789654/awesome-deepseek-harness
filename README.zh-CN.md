@@ -82,6 +82,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [brunhildzhou/dsh-all-warmup](https://github.com/brunhildzhou/dsh-all-warmup) —— DeepSeek Harness 全局无感热身层插件：任何会话首轮自动热身，第二轮起恢复完整模式。
 - [jiatong-lab914/obsidian-knowledge-mode](https://github.com/jiatong-lab914/obsidian-knowledge-mode) —— Obsidian 可携带、AI-native 的知识系统 DSH agent preset：反收藏夹 Layer 0、二八提炼为 Context/Claim、可验证的更新环、四个只读角色代理、外部来源 Gate 钩子与零内容 starter 模板。
 - [JingMox/learner-preset](https://github.com/JingMox/learner-preset) —— 面向第一性原理学习的 DeepSeek Harness 智能体预设：知识组件带衰减掌握度、类比生命周期与预测账本。
+- [orziz/odai](https://github.com/orziz/odai) —— 面向 DSH 的 profile-wide 治理与路由 bundle，另提供可独立安装、按会话选择的 Agent preset；兼容 DSH 0.1.0-rc.6 与 0.1.0-rc.7。
 
 ## Harness 与运行时
 
