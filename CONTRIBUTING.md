@@ -26,8 +26,35 @@ Anything that extends or works with **DeepSeek Harness**:
 
    (Chinese file uses ` —— ` as the separator.)
 
-4. Keep entries alphabetical within a section where practical.
-5. Open one Pull Request per logical change.
+4. **Only add new lines — never modify or delete existing ones.**
+   Your diff should be pure insertions. Add your entry as its own complete line;
+   don't append it onto a neighbouring row or split an existing row in half.
+
+   <details>
+   <summary>The most common mistake (click to see what goes wrong)</summary>
+
+   Inserting your entry *into* an existing line truncates that project's
+   description and glues the leftover text onto yours:
+
+   ```diff
+   - - [someone/their-plugin](https://github.com/someone/their-plugin) — Their real description.
+   + - [someone/their-plugin](https://github.com/someone/their-plugin)
+   + - [you/your-plugin](https://github.com/you/your-plugin) — Your description. — Their real description.
+   ```
+
+   The correct edit leaves the neighbour untouched and puts yours on a new line:
+
+   ```diff
+     - [someone/their-plugin](https://github.com/someone/their-plugin) — Their real description.
+   + - [you/your-plugin](https://github.com/you/your-plugin) — Your description.
+   ```
+
+   Before pushing, run `git diff` and confirm every changed line starts with `+`.
+   </details>
+
+5. Keep entries alphabetical within a section where practical.
+6. Open one Pull Request per logical change, and avoid unrelated edits
+   (reordering rows, reflowing text) — they make review slower and cause conflicts.
 
 ## Quality bar
 
@@ -52,6 +79,7 @@ It only inspects the lines **you added** (existing rows are grandfathered in), a
 | Link | Resolves — a `404` / `410` / unreachable URL fails the check |
 | Topic | GitHub repos must carry a `dsh` / `dsh-plugin` / `dsh-skill` / `deepseek-harness` topic |
 | Scope | The PR touches only the two README files |
+| Insert-only | Your diff adds lines without modifying or deleting existing entries |
 
 If something fails, the bot posts a comment listing exactly what to fix.
 Push a new commit to the same branch and the check re-runs automatically — no need to reopen the PR.
