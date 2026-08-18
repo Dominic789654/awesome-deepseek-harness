@@ -3,9 +3,10 @@ name: Validate PR
 on:
   pull_request_target:
     types: [opened, synchronize, reopened]
-    paths:
-      - 'README.md'
-      - 'README.zh-CN.md'
+  # NOTE: intentionally no `paths:` filter. The `validate` check is a required
+  # status check on `main`; if the workflow is skipped for a PR that doesn't
+  # touch the README files, the check never reports and the PR is permanently
+  # unmergeable. Instead we always run and short-circuit inside the job.
 
 permissions:
   contents: read
@@ -29,9 +30,21 @@ jobs:
           PR_NUM: ${{ github.event.pull_request.number }}
         run: |
           git fetch origin "pull/${PR_NUM}/head:pr-head"
-          echo "BASE_SHA=$(git merge-base origin/${{ github.base_ref }} pr-head)" >> "$GITHUB_ENV"
+          base_sha="$(git merge-base origin/${{ github.base_ref }} pr-head)"
+          echo "BASE_SHA=$base_sha" >> "$GITHUB_ENV"
+
+          # Does this PR touch the curated list files at all?
+          if git diff --name-only "$base_sha" pr-head \
+               | grep -qE '^(README\.md|README\.zh-CN\.md)$'; then
+            echo "IS_LIST_PR=true" >> "$GITHUB_ENV"
+          else
+            echo "IS_LIST_PR=false" >> "$GITHUB_ENV"
+            echo "This PR does not touch README.md / README.zh-CN.md."
+            echo "Skipping list-entry validation (nothing to check)."
+          fi
 
       - name: Check changed files scope
+        if: env.IS_LIST_PR == 'true'
         env:
           BASE_SHA: ${{ env.BASE_SHA }}
         run: |
@@ -48,6 +61,7 @@ jobs:
 
       - name: Validate new entries
         id: validate
+        if: env.IS_LIST_PR == 'true'
         env:
           BASE_SHA: ${{ env.BASE_SHA }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
