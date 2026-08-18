@@ -70,6 +70,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [Jungod1121/dsh-anchored-standard](https://github.com/Jungod1121/dsh-anchored-standard) —— 两阶段 DeepSeek Harness 预设：先以最小对齐引导（bash + read），首次工具调用或回复后自动切换到完整 Standard 工具集。
 - [ZRui-C/dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) —— 可安装的 Web bundle：根会话首轮使用 Minimal 兼容条件，首次工具调用或回复后恢复所选预设，带持久 composer 开关。
 - [songoao25/virtual-product-team](https://github.com/songoao25/virtual-product-team) —— 产品团队模式 Agent 预设：以老板视角与虚拟产品团队（PM → 工程师 → QA → 发布）对话，从点子走到成品。
+- [qwe225380/dsh-omni-router](https://github.com/qwe225380/dsh-omni-router) —— Omni Router 智能编排预设：按复杂度与思维模式（spec/react/balanced）自动路由，自动收集项目上下文，并集成 Plan Mode、TDD、交付门、Git 工作流与验收清单提示；支持 `dsh plugin add dsh-omni-router`。
 
 
 - [AythyaCrispus/dsh-minimal-msys2](https://github.com/AythyaCrispus/dsh-minimal-msys2) —— Windows Minimal 模式：持久 bash + str_replace_editor 插件——注册 agent 预设，在 Windows 上提供可用的持久 bash 后端，并在插件设置区暴露 GUI 可编辑的 bash 路径（通过 credentials 域持久化）。
@@ -1731,6 +1732,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [willwang0098/dsh-side-chat](https://github.com/willwang0098/dsh-side-chat) —— Codex 风格的 DeepSeek Harness Better Sidebar 独立侧边对话。
 - [Yuuhann1999/dsh-bloub-mood](https://github.com/Yuuhann1999/dsh-bloub-mood) —— 动态心情图标 · DeepSeek Harness 插件 —— bloub 表情随会话状态切换 favicon 与 logo，形状/颜色/文字可配置（8 shapes × 12 colors, animated SVG, MIT）。
 - [yuzhounh/dsh-windows-tray-launcher](https://github.com/yuzhounh/dsh-windows-tray-launcher) —— 面向 DeepSeek Harness (dsh) 的非官方 Windows 系统托盘启动器。
+- [deepseek-harness-portable](https://github.com/kali-suroot/deepseek-harness-portable) —— 一键安装的 Windows 便携版 DSH，自带 Node.js 运行时，支持自定义安装路径，零 C 盘写入。
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
