@@ -976,7 +976,6 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) — Adversarial multi-perspective code review: parallel attack-style review lenses merged and deduplicated by an arbitration layer, graded by severity, with evidence and fix suggestions; read-only.
 - [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) — Versioned documentation retrieval for coding agents: maintains a library-doc index so agents fetch accurate, versioned, traceable API docs on demand while writing code.
 - [JohnXu22786/worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — Task-isolated git worktree workspaces for dsh: create, manage, and clean up separate working trees so parallel tasks don't collide.
-- [JohnXu22786/pty-runner](https://github.com/JohnXu22786/pty-runner) — Background terminal job management for dsh: persistent background process (PTY) management inside the harness.
 ## Agents
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
@@ -1126,7 +1125,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 - [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge: real-browser automation MCP server — accessibility-tree snapshots render pages into structured text trees so agents can click, fill, screenshot, and script precisely without a vision model.
 - [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate: GitHub workbench for coding agents — wraps the REST API into MCP tools for repo queries, issue management, PR creation/merge, code review, and search.
-- [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock: constrained local file-operation MCP stdio server — read/write, directory management, filename/content search, metadata queries, all confined to configurable paddock dirs.
 
 ## Orchestrators & Aggregators
 
@@ -1714,8 +1712,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Tasihi89/dsh-talk-map](https://github.com/Tasihi89/dsh-talk-map) — Visual conversation map for DeepSeek Harness — sessions as cards on a whiteboard: drag to arrange, double-click to chat, draw an edge to fork with injected context. ADHD-friendly spatial memory.
 - [Rewmington/deskwhale-harness](https://github.com/Rewmington/deskwhale-harness) — DeskWhale: a desktop-pet edition of DeepSeek Harness with a floating whale, frosted glass UI, and approval reminders.
 - [vdnight89/InfiniteDSH](https://github.com/vdnight89/InfiniteDSH) — Myriad Worlds (诸天万界): a DeepSeek Harness literary plugin — one session is one book. Open the book from its cover, write only the body text, and export beautifully typeset Markdown.
-- [JohnXu22786/notifier](https://github.com/JohnXu22786/notifier) — Desktop alert plugin for dsh: system notification (plus optional tone) when a task finishes, approval is pending, or a run errors out.
-- [JohnXu22786/task-board](https://github.com/JohnXu22786/task-board) — Cross-session work ledger: tasks/issues registered, tracked, and transitioned with event-sourced persistence — every change is an append-only immutable event, history fully traceable.
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._

@@ -966,7 +966,6 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) — 对抗式多视角代码审查：多个独立审查视角并行攻击式审查，仲裁层合并去重、按严重度分级，输出带证据与修复建议的报告，全程只读
 - [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) — 面向编码 agent 的版本化文档检索：维护库文档目录索引，让 agent 写代码时按需拉取准确、带版本、可溯源的 API 文档片段
 - [JohnXu22786/worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 为 dsh 提供任务隔离工作区（git worktree）能力：并行任务互不干扰
-- [JohnXu22786/pty-runner](https://github.com/JohnXu22786/pty-runner) — 后台终端作业管理插件：为 DeepSeek Harness 提供持久的后台进程（PTY）管理能力
 ## Agent
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
@@ -1112,7 +1111,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 - [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge 真实浏览器自动化 MCP server：无障碍树快照把页面渲染成结构化文本树并给可交互元素编号，agent 无需视觉模型即可精确操作页面
 - [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate GitHub 工作台：把 REST API 封装成 MCP 工具，让 agent 直接完成仓库查询、issue 管理、PR 创建与合并、代码审查与搜索
-- [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock 受约束的本地文件操作 MCP stdio server：文本读写、目录管理、文件名搜索、正文检索、元信息查询，全部限制在可配置的围场目录内，越界访问一律拒绝
 
 ## 编排器与聚合器
 
@@ -1691,8 +1689,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [FleetingEcho/dsh-powerdesk](https://github.com/FleetingEcho/dsh-powerdesk) —— 面向 DSH 的 IDE 工作台插件：基于 Rust PTY 的快速终端（restty/WebGPU）、CodeMirror 6 编辑器、文件浏览器、Markdown 笔记、沙箱浏览器与 ripgrep 搜索——全部作为右侧与底部可停靠面板中的标签页，并可用自定义 React 组件扩展。
 - [JUANWANG-BUAA/dsh-full-remote](https://github.com/JUANWANG-BUAA/dsh-full-remote) —— 面向远程访问的 DeepSeek Harness 插件：支持通过公网隧道或局域网，在手机等设备上远程使用 DeepSeek Harness，设置、凭据与文件访问等功能保持可用，按设备维护独立会话。
 - [Tasihi89/dsh-talk-map](https://github.com/Tasihi89/dsh-talk-map) —— DSH 可视化对话地图：把会话当作白板上的卡片——拖拽排布、双击进入对话、拉一条边即可带着注入的上下文分叉。对 ADHD 友好的空间化记忆。
-- [JohnXu22786/notifier](https://github.com/JohnXu22786/notifier) — 桌面提醒信号插件：任务完成、等待批准、运行出错时在 dsh 所在机器弹出系统通知并按需播放提示音
-- [JohnXu22786/task-board](https://github.com/JohnXu22786/task-board) — 跨会话工作台账插件：任务/议题的登记、跟踪、状态流转与完成记录以事件溯源方式落盘，历史完整可追溯
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
