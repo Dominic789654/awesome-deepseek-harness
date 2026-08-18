@@ -1067,6 +1067,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
 _Long-running loop workflows: auto-research, deep-research, self-refine, iterative build._
 
+- [huchunlinnk/deepseek-desk-rsi](https://github.com/huchunlinnk/deepseek-desk-rsi) — Recursive Self-Improvement (RSI) engine for DeepSeek Harness: a bounded perceive→integrate→verify→parity→repair→propose loop that keeps a downstream app in 1:1 feature parity with upstream — DSH maintains DSH.
+
 - [btspoony/mstar-harness](https://github.com/btspoony/mstar-harness) — Skill-driven harness/loop engineering workflow agent plugin.  `⭐39`
 - [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — Plugin-only cross-session long-term memory with background self-evolution: five memory tracks, in-turn self-review, skill self-evolution and a skill manager, todo tracks, and session search — zero core modifications.  `⭐14`
 - [vlln/dsh-loop](https://github.com/vlln/dsh-loop) — Timed loop plugin (`/loop` command + loop tool + activity status bar).
@@ -1184,6 +1186,8 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [Amnesia-accompany/dsh-glass-ui](https://github.com/Amnesia-accompany/dsh-glass-ui) — Glassmorphism skin for the DSH Web UI: floating-glass and compat modes, blur & frost sliders, fluid color themes, and Wallpaper Engine wallpaper backgrounds.
 
 _Desktop, web, terminal, or editor front-ends for DSH._
+
+- [huchunlinnk/deepseek-desktop](https://github.com/huchunlinnk/deepseek-desktop) — Native Tauri desktop shell for DeepSeek Harness that maintains itself: a daily DSH agent tracks upstream, enforces a 128-plugin parity gate, and opens a PR (AI-for-AI).
 - [Amnesia-accompany/deepseek-harness-client](https://github.com/Amnesia-accompany/deepseek-harness-client) — All-in-one desktop client for DeepSeek Harness: built-in file explorer with multi-tab editor & line numbers, API-key and balance panel, bundled plugin deployment.
 
 - [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) — Local-first desktop workbench for long-form fiction, with a DeepSeek Harness plugin-development preview for revisioned novel-project editing.
