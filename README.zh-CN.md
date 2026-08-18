@@ -1781,6 +1781,16 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
+## Star 趋势
+
+<a href="https://star-history.com/#Dominic789654/awesome-deepseek-harness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Dominic789654/awesome-deepseek-harness&type=Date&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Dominic789654/awesome-deepseek-harness&type=Date">
+    <img alt="Star 趋势图" src="https://api.star-history.com/svg?repos=Dominic789654/awesome-deepseek-harness&type=Date" width="600">
+  </picture>
+</a>
+
 ## 许可
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
