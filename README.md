@@ -392,6 +392,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [xiajingchun/dsh-nebulagraph-v5](https://github.com/xiajingchun/dsh-nebulagraph-v5) — NebulaGraph v5 plugin for DeepSeek Harness.
 - [xiaoliang2/dsh-compact-after-task](https://github.com/xiaoliang2/dsh-compact-after-task) — Configures dsh's auto-compaction threshold.
 - [Zding89/dsh-model-presets](https://github.com/Zding89/dsh-model-presets) — Save and switch model and reasoning-effort presets in DeepSeek Harness.
+- [NeevCloudAI/dsh-neev-sandbox](https://github.com/NeevCloudAI/dsh-neev-sandbox) — Relocates the Harness execution world — file, Bash, PTY, and LSP operations — into an isolated gVisor NeevSandbox via `ctx.fs` and `ctx.subprocess`; installable bundle with one `cordis.patch.yml`, no Harness fork.
 
 ## Security & Permissions
 
