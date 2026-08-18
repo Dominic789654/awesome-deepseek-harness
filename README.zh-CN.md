@@ -790,6 +790,7 @@ _插件市场、安装管理器、索引与生态工具。_
 
 - [nonmean/dsh-plugin-explorer](https://github.com/nonmean/dsh-plugin-explorer) —— DSH 客户端插件：浏览带 dsh-plugin 标签的 GitHub 仓库（名称/README/统计），支持同步与搜索。
 - [Noob-stupid/dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) —— DeepSeek Harness 插件管理面板：一键启用/停用插件 + GitHub dsh-plugin 插件市场，带插件详情与一键安装。
+- [cheshireez/dsh-skill-hub](https://github.com/cheshireez/dsh-skill-hub) —— DSH Web GUI 技能中枢：基于官方 ctx.skills 注册表浏览、搜索、启停、查看、诊断并新建本地技能，附技能市场：来源快照跟踪、一键全量更新。
 
 - [Dylan37670/dsh-plugin-panel](https://github.com/Dylan37670/dsh-plugin-panel) — DSH 插件市场面板：全量目录搜索、中文翻译、语义搜索、收藏与生命周期管理。
 - [moyang11111/DSH-](https://github.com/moyang11111/DSH-) — DSH Web GUI 自用插件集合：换肤（8 套配色 + 自定义取色器 + 背景壁纸）与插件市场插件等。

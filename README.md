@@ -797,6 +797,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 
 - [nonmean/dsh-plugin-explorer](https://github.com/nonmean/dsh-plugin-explorer) — DSH client plugin: browse GitHub repos tagged dsh-plugin (name, README, stats) with sync and search.
 - [Noob-stupid/dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) — Plugin manager & marketplace for DeepSeek Harness: one-click enable/disable plus a GitHub dsh-plugin market with details and one-click install.
+- [cheshireez/dsh-skill-hub](https://github.com/cheshireez/dsh-skill-hub) — In-GUI skill manager for DeepSeek Harness: browse, search, toggle, inspect, diagnose and scaffold local skills from the official ctx.skills registry, plus a skill market with tracked source sync and one-click update-all.
 
 - [Dylan37670/dsh-plugin-panel](https://github.com/Dylan37670/dsh-plugin-panel) — DSH plugin marketplace panel with full catalog search, Chinese translation, semantic search, favorites, and lifecycle management.
 - [moyang11111/DSH-](https://github.com/moyang11111/DSH-) — Personal DSH Web GUI plugin collection: skins (8 color schemes + custom picker + wallpapers) and a plugin-marketplace plugin.
