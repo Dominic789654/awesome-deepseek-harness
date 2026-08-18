@@ -680,6 +680,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 ## 插件市场与生态
 
 _插件市场、安装管理器、索引与生态工具。_
+- [DSHPlugin.app](https://dshplugin.app/) —— 独立的 DeepSeek Harness 插件目录，提供基于源码的能力摘要、安装信息、仓库活跃度与安全信号。
 
 - [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) —— 插件市场 GUI。
 - [LX2000WASD/dsh-web-plugin-manager](https://github.com/LX2000WASD/dsh-web-plugin-manager) —— 网页插件管理器。
