@@ -82,6 +82,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [brunhildzhou/dsh-all-warmup](https://github.com/brunhildzhou/dsh-all-warmup) —— DeepSeek Harness 全局无感热身层插件：任何会话首轮自动热身，第二轮起恢复完整模式。
 - [jiatong-lab914/obsidian-knowledge-mode](https://github.com/jiatong-lab914/obsidian-knowledge-mode) —— Obsidian 可携带、AI-native 的知识系统 DSH agent preset：反收藏夹 Layer 0、二八提炼为 Context/Claim、可验证的更新环、四个只读角色代理、外部来源 Gate 钩子与零内容 starter 模板。
 - [JingMox/learner-preset](https://github.com/JingMox/learner-preset) —— 面向第一性原理学习的 DeepSeek Harness 智能体预设：知识组件带衰减掌握度、类比生命周期与预测账本。
+- [hackerFish/awesome-dsh-presets](https://github.com/hackerFish/awesome-dsh-presets) —— 实测可用的 DeepSeek Harness 预设与规则合集：官方派生 + 原创组合，每个预设通过结构与包存在性校验（中文优先）。
 
 ## Harness 与运行时
 
@@ -393,6 +394,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [PerryLink/dsh-mask](https://github.com/PerryLink/dsh-mask) —— DeepSeek Harness 的 PII 掩码中间件：在到达模型前把姓名、电话、邮箱、身份证、银行卡、密钥与地址匿名化为占位符，在展示层还原，还原表仅保存在内存与受控存储域中，绝不记录明文，并提供 /mask 命令与 mask_test 工具。
 - [CanGeng/yolo-mode](https://github.com/CanGeng/yolo-mode) —— DeepSeek Harness 的无人看管全权限（yolo）时间窗：人工专属 /yolo 开关、惰性过期自动回滚、灾难性命令红线报警，及桌面/webhook/邮件通知。
 - [yauntyour/DSH-Encrypt](https://github.com/yauntyour/DSH-Encrypt) —— DeepSeek Harness 凭据加密插件：通过设密码实现 AES-256-GCM+SHA3-256 全流程加密+校验，运行时临时解密，内存安全。
+- [hackerFish/dsh-lab](https://github.com/hackerFish/dsh-lab) —— DSH 实验室：每个条目都经真机四关测试（安装→冒烟→安全快检→兼容钉版）的插件实测精选与中文指南。
 
 ## 会话与记忆管理
 
@@ -741,6 +743,8 @@ _插件市场、安装管理器、索引与生态工具。_
 - [XINGchi0130/dsh-base-plugin](https://github.com/XINGchi0130/dsh-base-plugin) — DeepSeek Harness（DSH）基础插件：插件市场、MCP、Skills、用量、会话、移动端访问——零修改 harness 源码。
 - [AJUbest/dsh-plugin-optimization](https://github.com/AJUbest/dsh-plugin-optimization) —— 一款 DSH 插件，可在 Web 界面区分 DSH 自带插件与自定义插件，并能够收纳管理用户之前创建的全部自定义插件。
 - [DshMarketPlace/dshmarketplace](https://github.com/DshMarketPlace/dshmarketplace) —— DeepSeek Harness（DSH）插件双语目录站——收录 1,004 个插件，带图文详情页与公开 API，基于 Next.js 部署在 Cloudflare Workers。
+- [hackerFish/awesome-dsh-plugin](https://github.com/hackerFish/awesome-dsh-plugin) —— DeepSeek Harness 插件精选列表（curated list）。
+
 ## 可视化
 
 _把数据 / 结果变成图表、图形、看板的插件。_
@@ -836,6 +840,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [QCYTSN/dsh-dafeiyu](https://github.com/QCYTSN/dsh-dafeiyu) —— 面向 DeepSeek Harness 的桌面原生大飞鱼伴侣——真实 Agent 状态，Windows 上总在最前。
 - [zeroa234/dsh-comfyui](https://github.com/zeroa234/dsh-comfyui) —— ComfyUI 驱动器（AI-first 合同制）：模型只见合同槽位、不见工作流 JSON。文生图/图生图/文生视频/图生视频模板，双重预检防幻觉，官方/自定义节点活体判定。
 - [Bob-Bo1/dsh-stock-watch](https://github.com/Bob-Bo1/dsh-stock-watch) —— 面向 DeepSeek Harness 的 A 股持仓追踪插件：读取本地 holdings.json，在侧边栏展示行情与盈亏。
+- [hackerFish/dsh-video-studio](https://github.com/hackerFish/dsh-video-studio) —— 鲸影 DSH Video Studio：DeepSeek Harness 原生视频/漫剧生成插件——六段导演流水线、多供应商免费额度调度、四层提示词自优化，质量优先省钱第二。
 
 ## 幻灯片 / PPT
 
@@ -1747,6 +1752,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Wang-Lin-Chang/dsh-story](https://github.com/Wang-Lin-Chang/dsh-story) —— 面向 DeepSeek Harness 的长篇小说创作助手：故事账本 + 章节锚点 + 伏笔债审计 + 14 条叙事不变式硬规则（零误杀）。AI 审阅可能漏诺，账本不会。
 - [allentnetus/dsh-job-hunting](https://github.com/allentnetus/dsh-job-hunting) —— 面向本地求职情报工作流的 DeepSeek Harness 求职插件与运行时技能。
 - [lusblead/dsh-Kingdom](https://github.com/lusblead/dsh-Kingdom) —— 独立 dsh 插件：安装后在 DSH 会话中初始化/接入本地王国（Phase 1+2 FROZEN，Claim != Fact 治理闭环）。
+- [hackerFish/awesome-dsh-skills](https://github.com/hackerFish/awesome-dsh-skills) —— 实测可用的 DeepSeek Harness 技能库：15 个原创技能，每个 SKILL.md 都通过格式校验与加载冒烟，复制即用（中文优先，CI 双平台校验）。
+- [hackerFish/dsh-restart](https://github.com/hackerFish/dsh-restart) —— 启动/重启/排障本机 dsh Web 服务：DSH 技能（对话内触发）+ 跨平台安全启动器（dsh 宕机也能用），零依赖，含中英双语文档。
 
 ## 资源
 
