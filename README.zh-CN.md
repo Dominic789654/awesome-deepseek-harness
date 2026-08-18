@@ -1692,6 +1692,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [FleetingEcho/dsh-powerdesk](https://github.com/FleetingEcho/dsh-powerdesk) —— 面向 DSH 的 IDE 工作台插件：基于 Rust PTY 的快速终端（restty/WebGPU）、CodeMirror 6 编辑器、文件浏览器、Markdown 笔记、沙箱浏览器与 ripgrep 搜索——全部作为右侧与底部可停靠面板中的标签页，并可用自定义 React 组件扩展。
 - [JUANWANG-BUAA/dsh-full-remote](https://github.com/JUANWANG-BUAA/dsh-full-remote) —— 面向远程访问的 DeepSeek Harness 插件：支持通过公网隧道或局域网，在手机等设备上远程使用 DeepSeek Harness，设置、凭据与文件访问等功能保持可用，按设备维护独立会话。
 - [Tasihi89/dsh-talk-map](https://github.com/Tasihi89/dsh-talk-map) —— DSH 可视化对话地图：把会话当作白板上的卡片——拖拽排布、双击进入对话、拉一条边即可带着注入的上下文分叉。对 ADHD 友好的空间化记忆。
+- [deepseek-harness-portable](https://github.com/kali-suroot/deepseek-harness-portable) —— 一键安装的 Windows 便携版 DSH，自带 Node.js 运行时，支持自定义安装路径，零 C 盘写入。
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
