@@ -689,6 +689,7 @@ _token 用量、成本看板与预算告警插件。_
 - [tsja2001/dsh-token-dashboard](https://github.com/tsja2001/dsh-token-dashboard) —— DeepSeek Harness 用量仪表盘：查看缓存、上下文、请求效率、逐步骤和跨会话统计。
 - [tyche66/DSH-money-view](https://github.com/tyche66/DSH-money-view) —— DeepSeek Harness 社区插件：在侧栏实时显示 API 余额、每日基准与剩余进度，按官方缓存节奏智能查询，密钥不进前端。
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) —— DeepSeek Harness (dsh) 时间表工具：基于会话日志的回合级时间追踪——按日/项目/provider/来源汇总，工具调用数、失败率、首 token 时延；CLI + agent 可调用工具，零运行依赖。
+- [chenyinrusi/dsh-llm-cost](https://github.com/chenyinrusi/dsh-llm-cost) —— 按轮次与会话统计 LLM 成本：每条消息下方显示美元成本、会话累计总额（悬停看分项），以及 LLM+联网的价格自动刷新工具。
 
 ## Channel / IM 桥接
 

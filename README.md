@@ -696,6 +696,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [tsja2001/dsh-token-dashboard](https://github.com/tsja2001/dsh-token-dashboard) — Token usage dashboard for DeepSeek Harness: view cache, context, request efficiency, per-step and cross-session stats.
 - [tyche66/DSH-money-view](https://github.com/tyche66/DSH-money-view) — DeepSeek Harness community plugin: real-time sidebar display of API balance, daily baseline, and remaining progress, intelligently queried in step with official caching cadence; keys never reach the frontend.
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) — Timesheet for DeepSeek Harness (dsh): turn-based time tracking from session logs — per-day/project/provider/source rollups, tool-call counts, failure rates, time-to-first-token. CLI + agent-callable timesheet tool, zero runtime deps.
+- [chenyinrusi/dsh-llm-cost](https://github.com/chenyinrusi/dsh-llm-cost) — Per-turn and session-wide LLM cost metering: a dollar cost line under each message, a session cumulative total with hover breakdown, and an LLM+web price auto-refresh tool.
 ## Channel / IM Bridges
 
 _Bridges DSH into chat platforms and messaging channels._
