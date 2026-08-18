@@ -1669,6 +1669,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [nanjingya/agent-diagram](https://github.com/nanjingya/agent-diagram) — Stop shipping Mermaid boxes. Agent skill for editorial HTML/SVG technical diagrams — DeepSeek Harness, Claude Code, Cursor.
 - [PHoenixs57/deepseek-aix](https://github.com/PHoenixs57/deepseek-aix) — Q-Q: a conversational AI research assistant for academic literature. Multi-source search (PubMed, arXiv, Semantic Scholar, Crossref), paper-card deduplication, and a folder-based favorites system — built on DeepSeek Harness.
 
+- [SongYuhui14/ai-security-assistant](https://github.com/SongYuhui14/ai-security-assistant) — AI 安全评估辅助技能：OWASP LLM Top 10 (2025) + 国内法规框架下的大模型/Agent/RAG 安全评估，含标准对照、攻击案例库、风险判定与报告生成工具链，附严格评测（30/30 通过，防技术失误与常识错误）。
+
 ## Resources
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — Official source repo.  `⭐38238`
