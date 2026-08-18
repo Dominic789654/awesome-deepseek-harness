@@ -740,6 +740,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [Gum97/dsh-telegram](https://github.com/Gum97/dsh-telegram) —— DeepSeek Harness 的 Telegram 频道：富文本表格、双向图片、内联键盘提问、会话内模型切换。
 - [ringclaw/dsh-ringcentral](https://github.com/ringclaw/dsh-ringcentral) —— 将 RingCentral 接入 DeepSeek Harness (dsh) 的插件。
 - [xiaomengxinbb/dsh-qq-bridge](https://github.com/xiaomengxinbb/dsh-qq-bridge) —— 将 QQ（私聊+群聊）接入 DeepSeek Harness 的双向桥插件：每个 QQ 对话一个隔离持久 Agent 会话，支持命令/审批/多媒体/出站文件。
+- [lanbaolu/dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) —— 个人微信桥接插件：扫码绑定后直接在微信里与本机 DeepSeek Harness Agent 对话（文字/图片/语音/文件、流式回复、会话持久化、三端通用）。
 
 ## 插件市场与生态
 

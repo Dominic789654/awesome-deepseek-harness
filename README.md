@@ -746,6 +746,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [Gum97/dsh-telegram](https://github.com/Gum97/dsh-telegram) — Telegram channel for DeepSeek Harness — rich tables, images both ways, inline-keyboard questions, in-chat model switching.
 - [ringclaw/dsh-ringcentral](https://github.com/ringclaw/dsh-ringcentral) — Plugin for integrating RingCentral with DeepSeek Harness (dsh).
 - [xiaomengxinbb/dsh-qq-bridge](https://github.com/xiaomengxinbb/dsh-qq-bridge) — Two-way bridge connecting QQ (private + group chats) to DeepSeek Harness: each QQ conversation gets an isolated, persistent Agent session, with support for commands/approvals/multimedia/outbound files.
+- [lanbaolu/dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) — Personal WeChat bridge for DeepSeek Harness: scan QR to bind, then chat with your local DSH agent directly inside WeChat (text/image/voice/file, streamed replies, persisted sessions, Win/macOS/Linux).
 
 ## Plugin Marketplaces & Ecosystem
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
