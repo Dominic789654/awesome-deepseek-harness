@@ -519,7 +519,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [boyun-zhang/better-session-management](https://github.com/boyun-zhang/better-session-management) —— DeepSeek Harness 会话管理插件：链式上下文视图、可在任意轮次边界分叉的子会话、一次性只读问答 /btw，全部基于会话原语——把长对话拆成并行支线而不污染主上下文，但可手动向主会话注入临时对话内容。
 - [i1j/context-assembler-DSH](https://github.com/i1j/context-assembler-DSH) —— 上下文汇编 Context Assembler DSH V0.99 —— DeepSeek Harness (dsh) 上下文汇编插件：话题块汇编、水位压力切割、工具轮压缩/改写、reality 召回注入、handoff 规划。MIT。
 - [Qinling-Melon-Farmers/dsh-memoir](https://github.com/Qinling-Melon-Farmers/dsh-memoir) —— DSH 项目持久化记忆插件（TypeScript）：会话归纳 + 经验教训沉淀，写入 PROJECT_MEMORY.md 与全局索引；每轮工作结束自动提醒蒸馏、自动注入未来 AGENTS；附 Web GUI 记忆面板（项目/全局 tab、检索、手动记录/删除）。
-- [Vocllum/DSH-TDAI-Memory](https://github.com/Vocllum/DSH-TDAI-Memory) —— 让 DeepSeek Harness 拥有可靠、自动且可控的 TencentDB Agent Memory。
 - [dream12347/dsh-session-manager](https://github.com/dream12347/dsh-session-manager) —— DSH 会话管理插件：删除（回收站恢复/彻底清除）、统计、继续/暂停、打开日志目录、对话顶部抽屉、工作区分组与排序、上下文压缩阈值设置。
 
 ## 成本与用量统计
