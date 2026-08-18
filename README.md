@@ -1153,6 +1153,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Missher12/deepseek-harness-desktop](https://github.com/Missher12/deepseek-harness-desktop) — Unofficial desktop client.
 - [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop) — Unofficial desktop client.
 - [xccElephant/deepseek-harness-desktop](https://github.com/xccElephant/deepseek-harness-desktop) — Unofficial desktop client.
+- [xuanyuying/dsh-desktop](https://github.com/xuanyuying/dsh-desktop) — Electron desktop app for DeepSeek Harness: one-click launch of the full Web UI, real-time account balance display, and offline packaging for China networks.
+- [xuanyuying/dsh-mobile](https://github.com/xuanyuying/dsh-mobile) — Mobile PWA client for DeepSeek: streaming chat with Markdown rendering, multi-session, voice input, reasoning display, balance widget, and GitHub Pages deployment.
 - [Tom6814/dsh-web](https://github.com/Tom6814/dsh-web) — Docker-based web deployment.
 - [skitse/dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — One-click shortcuts for common dev commands.
 - [Wine-Red/dsh-prompt-stash](https://github.com/Wine-Red/dsh-prompt-stash) — Stash and recall prompts.
