@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Star history for Dominic789654/awesome-deepseek-harness">
+  <title>Star history for Dominic789654/awesome-deepseek-harness — 154 stars as of 2026-08-19</title>
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="#ffffff"/>
+  <text x="58" y="15" font-size="12" font-weight="600" fill="#111827">Dominic789654/awesome-deepseek-harness</text>
+  <text x="582" y="15" text-anchor="end" font-size="12" fill="#2563eb">154 ★</text>
+  <line x1="58" y1="260.0" x2="582" y2="260.0" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="58" y1="200.5" x2="582" y2="200.5" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="58" y1="141.0" x2="582" y2="141.0" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="58" y1="81.5" x2="582" y2="81.5" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="58" y1="22.0" x2="582" y2="22.0" stroke="#e5e7eb" stroke-width="1"/>
+  <polygon points="58,260 320.0,76.7 320.0,260" fill="url(#fill)"/>
+  <polyline points="320.0,76.7" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="320.0" cy="76.7" r="2.5" fill="#2563eb"/>
+  <line x1="58" y1="260" x2="582" y2="260" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="58" y1="22" x2="58" y2="260" stroke="#9ca3af" stroke-width="1"/>
+  <text x="48" y="264.0" text-anchor="end" font-size="11" fill="#6b7280">0</text>
+  <text x="48" y="204.5" text-anchor="end" font-size="11" fill="#6b7280">50</text>
+  <text x="48" y="145.0" text-anchor="end" font-size="11" fill="#6b7280">100</text>
+  <text x="48" y="85.5" text-anchor="end" font-size="11" fill="#6b7280">150</text>
+  <text x="48" y="26.0" text-anchor="end" font-size="11" fill="#6b7280">200</text>
+  <text x="320.0" y="280" text-anchor="middle" font-size="11" fill="#6b7280">Aug 19</text>
+  <text x="582" y="292" text-anchor="end" font-size="9" fill="#9ca3af">self-hosted · daily sample</text>
+</svg>

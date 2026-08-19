@@ -2159,6 +2159,14 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 ## Star History
 
+<img alt="Star History Chart" src="./assets/star-history.svg" width="600">
+
+<sub>Self-hosted chart, regenerated daily from this repo's own star count. GitHub
+[restricted the public stargazers API](https://github.blog/changelog/2026-06-30-upcoming-access-restrictions-to-public-api-endpoints-and-ui-views/)
+on 2026-06-30, so third-party live charts (star-history.com and similar) no longer render for
+repositories the chart service does not collaborate on. Data collection starts 2026-08-19.</sub>
+
+<!-- Previous third-party embed, kept for easy restore if GitHub reopens the API:
 <a href="https://star-history.com/#Dominic789654/awesome-deepseek-harness&Date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Dominic789654/awesome-deepseek-harness&type=Date&theme=dark">
@@ -2166,6 +2174,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Dominic789654/awesome-deepseek-harness&type=Date" width="600">
   </picture>
 </a>
+-->
 
 ## License
 
