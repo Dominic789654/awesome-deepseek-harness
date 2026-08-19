@@ -1164,6 +1164,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 
 - [temotee2103/dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) — GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes. Everything is a plugin.
+- [temotee2103/dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) — OpenClaw-style multi-platform gateway for DeepSeek Harness: WhatsApp / Telegram / Discord / Slack / Feishu / DingTalk / WeCom channels, in-chat trajectory replay, subagent & cron commands, native approval buttons, one-command docker deploy.
 - [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) — Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis.
 - [hawk2048/dsh-openwolf](https://github.com/hawk2048/dsh-openwolf) — A compact code-map “second brain” for DSH: pre-indexed project maps, per-file digests, and AGENTS.md injection (wolf_map / wolf_file / wolf_refresh).
 - [LSAI2023/dsh-ide-context](https://github.com/LSAI2023/dsh-ide-context) — Carries live IDE context (currently open files and text selection) into every model turn via the Claude Code IDE integration bridge.
