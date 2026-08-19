@@ -2183,6 +2183,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [sa998aaron/deepseek-harness-matt-plugin](https://github.com/sa998aaron/deepseek-harness-matt-plugin) —— DeepSeek Harness 插件：内置 Matt Pocock 技能集 + 侧边栏可视化流水线面板（Idea→Triage→Grill→Spec→Tickets→Implement→Review），一键把 /技能 发进会话。
 - [Viy1204/recruiting-copilot](https://github.com/Viy1204/recruiting-copilot) —— 给 HR / 猎头的 AI 招聘工作流：岗位标准梳理、Boss直聘 + 猎聘双通道寻源初筛、市场人才盘点、简历评估、约面试、候选人台账与日报。可装成 Claude Code 插件或 DeepSeek Harness (dsh) 插件——后者自带可直接上手操作的「招聘浏览器」面板；也能配合任意读 AGENTS.md 的 AI 编程助手使用。
 
+- [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) —— 88 个面向研究、社交情报、营销与业务工作流的可安装 Agent Skill；原生 DSH 安装器把可核验源码的 Skill 放入 `.dsh/skills`，其中包含带证据溯源与置信度评分的多来源研究流程。
+
 ## 资源
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) —— 官方源码仓库。  `⭐38238`
