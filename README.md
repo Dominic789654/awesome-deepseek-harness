@@ -1485,6 +1485,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) — Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings flagged as you type; uses the model dsh is already configured with, so no API key.
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) — Composer mic for the Web UI: tap-to-monitor live transcription and hold-to-talk, with host Edge TTS reply reading that streams while the model generates, echo-pause during reading, and tap-to-stop.
 - [Amnesia-accompany/dsh-glass-ui](https://github.com/Amnesia-accompany/dsh-glass-ui) — Glassmorphism skin for the DSH Web UI: floating-glass and compat modes, blur & frost sliders, fluid color themes, and Wallpaper Engine wallpaper backgrounds.
+- [dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) — Workspace/chat context menu for the DSH home page: pin, rename, open in file explorer, archive, fork, copy, and open in a new window.
 
 _Desktop, web, terminal, or editor front-ends for DSH._
 

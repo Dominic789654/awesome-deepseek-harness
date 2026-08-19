@@ -1482,6 +1482,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [xiaowei2025cqu23phy/dsh-desktop](https://github.com/xiaowei2025cqu23phy/dsh-desktop) —— DeepSeek Harness 桌面端：内嵌 Web UI、AI 屏保（替换系统屏保）、全模型切换、手机 PWA 远程控制、QQ 机器人通道。
 - [wlj521/dsh-ui-tweaks](https://github.com/wlj521/dsh-ui-tweaks) —— 一切皆插件，可以定义自己喜欢的 dsh，开关控制单项功能，字体大小，表格样式，对话框长度，timeline，git 等。
 - [Tabbyaccessorial446/dsh-plugin-canvas](https://github.com/Tabbyaccessorial446/dsh-plugin-canvas) —— 在 DeepSeek Harness 中直接渲染 HTML 设计原型，附带 canvas 标签页用于可视化审查、标注与沙盒预览。
+- [dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) —— DSH 主页工作区/会话增强菜单：置顶、重命名、资源管理器打开、归档、分叉、复制、新窗口打开。
 - [dzwalker/dsh-files-tab](https://github.com/dzwalker/dsh-files-tab) —— DeepSeek Harness (DSH) 对话「文件」标签页插件：无需离开对话即可打开、阅读（Markdown + 目录）与编辑（Monaco）工作区文件。
 - [chuspeeism/dashi-taskboard](https://github.com/chuspeeism/dashi-taskboard) —— 本地优先的问题看板，运行在浏览器中，可通过独立 CDP 启动器或注入脚本嵌入 harness；同一套 HTTP API 同时驱动 React UI 与配套的 `taskctl` CLI。
 - [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) —— DSH Web 鲸鱼娘皮肤系列（深海女仆工坊 maid-atelier），CC BY-NC-SA 4.0。  `⭐119`
