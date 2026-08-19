@@ -448,6 +448,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [WODE25500/dsh-lan-share](https://github.com/WODE25500/dsh-lan-share) —— DSH 局域网文件共享：把工作区共享到局域网 —— 手机/平板/其他电脑用浏览器浏览、下载、上传文件，无需 DSH 登录。Token 鉴权、路径边界、只读模式、限速。零依赖（node:http）。
 - [yugasun/dsh-plugins](https://github.com/yugasun/dsh-plugins) —— DeepSeek Harness 个人插件合集（dsh-plugin）。
 
+- [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) —— 通过可安装的 `managed-agents` 插件与六工具 MCP Bridge 接入 DSH 的 local-first Agent 运行时：提供持久会话、可恢复 SSE、审计/回放、权限、凭据，以及本地/Docker/Kubernetes/自托管 Worker 沙箱。
+
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_

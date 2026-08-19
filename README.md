@@ -450,6 +450,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [WODE25500/dsh-lan-share](https://github.com/WODE25500/dsh-lan-share) — DSH LAN file share: share the workspace over the local network — phones/tablets/other computers browse, download and upload files via browser, no DSH login. Token gate, path boundary, read-only mode, rate limit. Zero-dependency (node:http).
 - [yugasun/dsh-plugins](https://github.com/yugasun/dsh-plugins) — Personal plugin collection for DeepSeek Harness (dsh-plugin).
 
+- [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — Local-first agent runtime integrated with DSH through an installable `managed-agents` plugin and six-tool MCP bridge; persistent sessions, resumable SSE, audit/replay, permissions, credentials, and local/Docker/Kubernetes/self-hosted-worker sandboxes.
+
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._
