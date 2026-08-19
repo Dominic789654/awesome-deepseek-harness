@@ -14,9 +14,9 @@
   <line x1="58" y1="141.0" x2="582" y2="141.0" stroke="#e5e7eb" stroke-width="1"/>
   <line x1="58" y1="81.5" x2="582" y2="81.5" stroke="#e5e7eb" stroke-width="1"/>
   <line x1="58" y1="22.0" x2="582" y2="22.0" stroke="#e5e7eb" stroke-width="1"/>
-  <polygon points="58,260 320.0,76.7 320.0,260" fill="url(#fill)"/>
-  <polyline points="320.0,76.7" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="320.0" cy="76.7" r="2.5" fill="#2563eb"/>
+  <polygon points="58,260 58.0,260.0 145.3,258.8 407.3,119.6 494.7,86.3 582.0,76.7 582.0,260" fill="url(#fill)"/>
+  <polyline points="58.0,260.0 145.3,258.8 407.3,119.6 494.7,86.3 582.0,76.7" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="58.0" cy="260.0" r="2.5" fill="#2563eb"/><circle cx="145.3" cy="258.8" r="2.5" fill="#2563eb"/><circle cx="407.3" cy="119.6" r="2.5" fill="#2563eb"/><circle cx="494.7" cy="86.3" r="2.5" fill="#2563eb"/><circle cx="582.0" cy="76.7" r="2.5" fill="#2563eb"/>
   <line x1="58" y1="260" x2="582" y2="260" stroke="#9ca3af" stroke-width="1"/>
   <line x1="58" y1="22" x2="58" y2="260" stroke="#9ca3af" stroke-width="1"/>
   <text x="48" y="264.0" text-anchor="end" font-size="11" fill="#6b7280">0</text>
@@ -24,6 +24,8 @@
   <text x="48" y="145.0" text-anchor="end" font-size="11" fill="#6b7280">100</text>
   <text x="48" y="85.5" text-anchor="end" font-size="11" fill="#6b7280">150</text>
   <text x="48" y="26.0" text-anchor="end" font-size="11" fill="#6b7280">200</text>
-  <text x="320.0" y="280" text-anchor="middle" font-size="11" fill="#6b7280">Aug 19</text>
+  <text x="58.0" y="280" text-anchor="start" font-size="11" fill="#6b7280">Aug 13</text>
+  <text x="407.3" y="280" text-anchor="middle" font-size="11" fill="#6b7280">Aug 17</text>
+  <text x="582.0" y="280" text-anchor="end" font-size="11" fill="#6b7280">Aug 19</text>
   <text x="582" y="292" text-anchor="end" font-size="9" fill="#9ca3af">self-hosted · daily sample</text>
 </svg>

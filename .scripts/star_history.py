@@ -73,10 +73,27 @@ def load() -> "list[tuple[str, int]]":
     return sorted(set(rows), key=lambda r: r[0])
 
 
+DEFAULT_HEADER = "# date\tstars — sampled daily; see .scripts/star_history.py"
+
+
+def load_header() -> str:
+    """Preserve the existing comment header (provenance notes) across rewrites."""
+    if not DATA.exists():
+        return DEFAULT_HEADER
+    kept = []
+    for line in DATA.read_text().splitlines():
+        if line.startswith("#"):
+            kept.append(line)
+        elif line.strip():
+            break  # header ends at the first data row
+    return "\n".join(kept) if kept else DEFAULT_HEADER
+
+
 def save(rows) -> None:
     DATA.parent.mkdir(parents=True, exist_ok=True)
+    header = load_header()
     body = "\n".join(f"{d}\t{s}" for d, s in rows)
-    DATA.write_text(f"# date\tstars — sampled daily; see .scripts/star_history.py\n{body}\n")
+    DATA.write_text(f"{header}\n{body}\n")
 
 
 def nice_ceil(n: int) -> int:

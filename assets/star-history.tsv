@@ -1,2 +1,19 @@
-# date	stars — sampled daily; see .scripts/star_history.py
+# date	stars
+#
+# Sampled daily by .scripts/star_history.py (see .github/workflows/star-history.yml).
+#
+# Entries before 2026-08-19 are BACKFILLED from dated project logs, not API samples.
+# GitHub restricted the public stargazers API on 2026-06-30, so the exact
+# per-day timeline is not recoverable from any third party. Provenance:
+#   2026-08-13  0    repo created 21:56 CST (first commit)
+#   2026-08-14  1    logged as "1 star, ~9.5h after creation"
+#   2026-08-17  118  same-day recorded count (118 stars / 68 forks)
+#   2026-08-18  146  same-day recorded count (146 stars / 94 forks)
+#   2026-08-19  154  first live API sample
+# 2026-08-15 and 2026-08-16 were not recorded and are deliberately omitted
+# rather than interpolated, so the curve never shows invented data points.
+2026-08-13	0
+2026-08-14	1
+2026-08-17	118
+2026-08-18	146
 2026-08-19	154
