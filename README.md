@@ -1471,6 +1471,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [oppnc/dsh-kernel-mesh](https://github.com/oppnc/dsh-kernel-mesh) — Harness-kernel mesh for DeepSeek Harness: kimi/grok/codex/minimax model routes (L1), distilled subagent recipes (L2) and kernel_run/kernel_status/kernel_switch tools.
 
 ## UI / Clients
+- [WilliamShi666/dsh-multiple-chat-panels](https://github.com/WilliamShi666/dsh-multiple-chat-panels) — Multiple chat panels for DeepSeek Harness: view and interact with several Agents side by side.
 
 - [Choi-Peng/dsh-footer-order](https://github.com/Choi-Peng/dsh-footer-order) — DSH Web plugin that fixes multiple plugin entries crowding into one line in the sidebar footer (`sidebar.footer.action` slot) and lets you configure their stacking order.
 - [hanzhaoxuan2991479447-del/deepseek-harness-custom-bg](https://github.com/hanzhaoxuan2991479447-del/deepseek-harness-custom-bg) — Dynamic background plugin for the DeepSeek Harness Web UI: multi-image import, drag-to-reorder, auto-rotation, and blend/theme adaptation.

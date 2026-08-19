@@ -1454,6 +1454,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 ## UI / 客户端
 
 _DSH 的桌面、网页、终端或编辑器前端。_
+- [WilliamShi666/dsh-multiple-chat-panels](https://github.com/WilliamShi666/dsh-multiple-chat-panels) —— DeepSeek Harness 多对话面板：并排查看并与多个 Agent 同时交互。
 
 - [Choi-Peng/dsh-footer-order](https://github.com/Choi-Peng/dsh-footer-order) —— 一个 DeepSeek Harness 的 Web 端插件,解决侧边栏底部(sidebar.footer.action 槽位)多个插件内容挤成一行的布局问题,并让你自由配置这些内容的上下排列顺序。
 - [hanzhaoxuan2991479447-del/deepseek-harness-custom-bg](https://github.com/hanzhaoxuan2991479447-del/deepseek-harness-custom-bg) —— DeepSeek Harness Web 动态背景插件：多图导入、拖拓排序、自动轮换、融入度与主题自适应。
