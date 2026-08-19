@@ -1669,6 +1669,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [nanjingya/agent-diagram](https://github.com/nanjingya/agent-diagram) — Stop shipping Mermaid boxes. Agent skill for editorial HTML/SVG technical diagrams — DeepSeek Harness, Claude Code, Cursor.
 - [PHoenixs57/deepseek-aix](https://github.com/PHoenixs57/deepseek-aix) — Q-Q: a conversational AI research assistant for academic literature. Multi-source search (PubMed, arXiv, Semantic Scholar, Crossref), paper-card deduplication, and a folder-based favorites system — built on DeepSeek Harness.
 
+- [SongYuhui14/dsh-plugin-conflict-advisor](https://github.com/SongYuhui14/dsh-plugin-conflict-advisor) — DSH plugin: detect conflicts among installed/enabled plugins (duplicate functionality, PromptSection collisions, complete-section clashes, dependency duplicates) and advise which to enable/disable. 插件冲突顾问。
+
 ## Resources
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — Official source repo.  `⭐38238`
