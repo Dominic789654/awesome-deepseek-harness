@@ -817,6 +817,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [dshworks/dshworks.github.io](https://github.com/dshworks/dshworks.github.io) — dsh.works 落地页：DeepSeek Harness (dsh) 社区工坊，纯静态单页，零 JS。
 - [zebbkira/dsh-skills-mcp-manager](https://github.com/zebbkira/dsh-skills-mcp-manager) — 面向 DeepSeek Harness Web GUI 的正式插件包：在设置页的「Web UI 插件」分组中新增一张「技能与 MCP」卡片，用于在浏览器里管理技能（skills）与 MCP 服务器。
 - [meifeisite/plugin-manager](https://github.com/meifeisite/plugin-manager) —— 在 DeepSeek Harness（Web 版）设置 → 插件中提供集中管控界面：启停 / 卸载（含依赖检查）/ 详情 / 操作日志，核心组件受保护。
+- [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) —— 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
 - [swaylq/dsh-genie](https://github.com/swaylq/dsh-genie) —— 把 agent 现场造的插件变成永久插件：将 `cordis_define` 的动态包固化成能跨重启存活的正式组合包，不用 pnpm、不联网、不需要构建授权。
 
 - [cynch18/plugin-switch](https://github.com/cynch18/plugin-switch) —— DSH Web 插件：在 GUI 中开关插件，无需重启服务。
@@ -1205,6 +1206,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 <!-- 在此添加条目。 -->
+- [satan9394/dsh-boss-agent-cli](https://github.com/satan9394/dsh-boss-agent-cli) —— BOSS 直聘 AI Agent CLI 的 DSH 插件封装：职位搜索、福利筛选、候选人名单、投递沟通与招聘者工作流等 73 个 `mcp__boss__*` 原生工具，经内置 `@deepseek-ai/dsh-mcp-client` 桥接，`dsh plugin add` 一键安装。
 - [Chhlafiu4312/dsh-mcp-bridge](https://github.com/Chhlafiu4312/dsh-mcp-bridge) —— DSH 的零依赖 MCP 客户端桥接：连接 stdio/HTTP MCP server 并把其工具自动注册为 `mcp_<server>_<tool>`；纯 JSON-RPC 2.0 实现、断线自动重连，声明 dsh.bundle 可经 `dsh plugin add` 安装。
 - [taxueseek/argo](https://github.com/taxueseek/argo) —— 为 agent 打造的多语言搜索工具（网页/学术/代码/金融/新闻），附带 DSH 插件包，提供 10 个 `mcp__argo__*` 工具。  `⭐56`
 - [chenyinrusi/dsh-repo-health](https://github.com/chenyinrusi/dsh-repo-health) —— 面向 DeepSeek Harness 的只读仓库健康扫描器：多来源定义漂移、未接线模块可达性、提示词膨胀、证据门禁校准与注册完整性检查；提供 CLI 与 MCP server。
@@ -1309,6 +1311,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 
 - [dgadelha1/dsh-explorer-plugin](https://github.com/dgadelha1/dsh-explorer-plugin) —— 面向 DSH Web GUI 的 VS Code 风格工作区文件浏览器与 Monaco 编辑器：真实 TextMate 语法高亮、多标签页、文件实时监听，并支持"分析/修复"快捷操作。
 - [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) —— 本地优先的长篇小说桌面工作台，并提供 DeepSeek Harness 插件开发预览，用于修订式小说项目编辑。
+- [lk251066/dsh-tui-pro](https://github.com/lk251066/dsh-tui-pro) —— DeepSeek Harness 全屏终端工作台：提供独立持久助手、按工作区分组的项目会话，以及结构化思考、工具、diff、计划和子代理视图。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) —— 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标；直接使用 dsh 已配置的模型，无需自备 API key。
 - [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) —— DSH Web UI 插件与皮肤合集：任务看板、git graph、右侧面板、远程移动端 UI、宠物、实时 token 统计与皮肤中心。  `⭐506`
 - [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— DeepSeek Harness 终端 UI（天枢 TUI）。  `⭐73`
