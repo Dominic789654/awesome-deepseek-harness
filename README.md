@@ -435,9 +435,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [lilming123/dsh-api](https://github.com/lilming123/dsh-api) — HTTP control-plane plugin for DeepSeek Harness (dsh) — exposes settings/language, workspace registry and host-companion bridge as /dsh-api/* JSON routes.
 - [linziyanleo/dsh-custom-provider](https://github.com/linziyanleo/dsh-custom-provider) — Configure custom LLM providers in DeepSeek Harness.
 - [okxlin/release-factory](https://github.com/okxlin/release-factory) — 1Panel / Codex / DeepSeek Harness / Docker Compose / OpenCode release automation and packaging factory (upstream description limited to topic tags).
-- [OpenSaozi/deepseek-harness-antigravity-provider](https://github.com/OpenSaozi/deepseek-harness-antigravity-provider) — Google Anti Gravity OAuth and Cloud Code Assist provider for DeepSeek Harness — Gemini 3.7, Claude 4.6, GPT-OSS.
-- [OpenSaozi/deepseek-harness-bigmodel-model-catalog](https://github.com/OpenSaozi/deepseek-harness-bigmodel-model-catalog) — Live Zhipu BigModel and GLM Coding Plan catalog plugin for DeepSeek Harness and pi-ai, including verified GLM-5.3.
-- [OpenSaozi/deepseek-harness-xai-model-catalog](https://github.com/OpenSaozi/deepseek-harness-xai-model-catalog) — Live xAI and Grok model catalog plugin for DeepSeek Harness and pi-ai, including a verified Grok 4.6 descriptor.
+- [OpenSaozi/dsh-antigravity](https://github.com/OpenSaozi/dsh-antigravity) — Google Anti Gravity OAuth and Cloud Code Assist provider for DeepSeek Harness — Gemini 3.7, Claude 4.6, GPT-OSS.
+- [OpenSaozi/dsh-bigmodel-catalog](https://github.com/OpenSaozi/dsh-bigmodel-catalog) — Live Zhipu BigModel and GLM Coding Plan catalog plugin for DeepSeek Harness and pi-ai, including verified GLM-5.3.
+- [OpenSaozi/dsh-xai-catalog](https://github.com/OpenSaozi/dsh-xai-catalog) — Live xAI and Grok model catalog plugin for DeepSeek Harness and pi-ai, including a verified Grok 4.6 descriptor.
 
 ## Security & Permissions
 

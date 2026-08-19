@@ -433,9 +433,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [lilming123/dsh-api](https://github.com/lilming123/dsh-api) —— DeepSeek Harness (dsh) 的 HTTP 控制面插件——将设置/语言、工作区注册表与主机伴生桥接暴露为 /dsh-api/* JSON 路由。
 - [linziyanleo/dsh-custom-provider](https://github.com/linziyanleo/dsh-custom-provider) —— 在 DeepSeek Harness 中配置自定义 LLM 服务商。
 - [okxlin/release-factory](https://github.com/okxlin/release-factory) —— 面向 1Panel / Codex / DeepSeek Harness / Docker Compose / OpenCode 的发布自动化与打包工厂（上游仅提供主题标签，无更多描述）。
-- [OpenSaozi/deepseek-harness-antigravity-provider](https://github.com/OpenSaozi/deepseek-harness-antigravity-provider) —— 为 DeepSeek Harness 提供 Google Anti Gravity OAuth 与 Cloud Code Assist 接入——支持 Gemini 3.7、Claude 4.6、GPT-OSS。
-- [OpenSaozi/deepseek-harness-bigmodel-model-catalog](https://github.com/OpenSaozi/deepseek-harness-bigmodel-model-catalog) —— 为 DeepSeek Harness 与 pi-ai 提供智谱 BigModel 与 GLM Coding Plan 实时模型目录插件，包含已验证的 GLM-5.3。
-- [OpenSaozi/deepseek-harness-xai-model-catalog](https://github.com/OpenSaozi/deepseek-harness-xai-model-catalog) —— 为 DeepSeek Harness 与 pi-ai 提供 xAI 与 Grok 实时模型目录插件，包含已验证的 Grok 4.6 描述符。
+- [OpenSaozi/dsh-antigravity](https://github.com/OpenSaozi/dsh-antigravity) —— 为 DeepSeek Harness 提供 Google Anti Gravity OAuth 与 Cloud Code Assist 接入——支持 Gemini 3.7、Claude 4.6、GPT-OSS。
+- [OpenSaozi/dsh-bigmodel-catalog](https://github.com/OpenSaozi/dsh-bigmodel-catalog) —— 为 DeepSeek Harness 与 pi-ai 提供智谱 BigModel 与 GLM Coding Plan 实时模型目录插件，包含已验证的 GLM-5.3。
+- [OpenSaozi/dsh-xai-catalog](https://github.com/OpenSaozi/dsh-xai-catalog) —— 为 DeepSeek Harness 与 pi-ai 提供 xAI 与 Grok 实时模型目录插件，包含已验证的 Grok 4.6 描述符。
 
 ## 安全与权限
 
