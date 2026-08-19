@@ -634,7 +634,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [zhouzhencheng07/dsh-memory](https://github.com/zhouzhencheng07/dsh-memory) — DeepSeek Harness (dsh) 跨会话记忆：每回合自动记忆捕获（Auto-Memory）、memory_search、Dream 整合。
 - [Diluka/dsh-side-session](https://github.com/Diluka/dsh-side-session) — DSH 侧边临时会话插件（Claude Code /btw 风格）：fork 主会话 + 近期上下文补全，主会话同款 UI，关闭即销毁。
 - [sluminositys/dsh-nested-followups](https://github.com/sluminositys/dsh-nested-followups) —— 在独立分支里对任意历史回答提出追问，而不是把它追加到主对话里。面向 DeepSeek Harness 的对话树插件。
-- [zhujunpeng12/dsh-memory-system](https://github.com/zhujunpeng12/dsh-memory-system) —— dsh-qa · DeepSeek Harness 的本地优先持久化记忆基础设施：热启动、中文 BM25 冷召回、租约锁事务写入、只读治理。
+- [zhujunpeng12/dsh-memory-system](https://github.com/zhujunpeng12/dsh-memory-system) —— DeepSeek Harness 的本地优先持久化记忆基础设施：热启动、中文 BM25 冷召回、租约锁事务写入、只读治理。
 
 ## 成本与用量统计
 
