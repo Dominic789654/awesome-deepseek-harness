@@ -1319,6 +1319,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 
 - [huchunlinnk/deepseek-desktop](https://github.com/huchunlinnk/deepseek-desktop) — Native Tauri desktop shell for DeepSeek Harness that maintains itself: a daily DSH agent tracks upstream, enforces a 128-plugin parity gate, and opens a PR (AI-for-AI).
 - [Amnesia-accompany/deepseek-harness-client](https://github.com/Amnesia-accompany/deepseek-harness-client) — All-in-one desktop client for DeepSeek Harness: built-in file explorer with multi-tab editor & line numbers, API-key and balance panel, bundled plugin deployment.
+- [lk251066/dsh-tui-pro](https://github.com/lk251066/dsh-tui-pro) — Full-screen terminal workbench for DeepSeek Harness with a durable assistant, workspace-grouped project sessions, and structured thinking, tool, diff, plan, and subagent views.
 
 - [EthanYoQ/AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer) — Local-first desktop workbench for long-form fiction, with a DeepSeek Harness plugin-development preview for revisioned novel-project editing.
 - [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — Plugin and skin collection for the DSH Web UI: task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.  `⭐506`
