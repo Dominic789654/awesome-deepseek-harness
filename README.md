@@ -407,7 +407,6 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [xiaoliang2/dsh-compact-after-task](https://github.com/xiaoliang2/dsh-compact-after-task) — Configures dsh's auto-compaction threshold.
 - [Zding89/dsh-model-presets](https://github.com/Zding89/dsh-model-presets) — Save and switch model and reasoning-effort presets in DeepSeek Harness.
 - [NeevCloudAI/dsh-neev-sandbox](https://github.com/NeevCloudAI/dsh-neev-sandbox) — Relocates the Harness execution world — file, Bash, PTY, and LSP operations — into an isolated gVisor NeevSandbox via `ctx.fs` and `ctx.subprocess`; installable bundle with one `cordis.patch.yml`, no Harness fork.
-- [chenyinrusi/dsh-updater](https://github.com/chenyinrusi/dsh-updater) — DSH version updater for Windows: checks and updates the `dsh` version, running `pnpm install` under the hood.
 - [staff-os/dsh-dify](https://github.com/staff-os/dsh-dify) — Dify agent and knowledge-base capability plugin for DeepSeek Harness.
 - [baihejiangnan/dsh-settings-organizer](https://github.com/baihejiangnan/dsh-settings-organizer) — Customizable hierarchical DSH settings navigation organizer.
 - [ovo669/dsh-settings-sections](https://github.com/ovo669/dsh-settings-sections) — Sectioned settings-page management to keep a large plugin list organized.
@@ -1927,7 +1926,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [a903067276-rgb/dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) — One upload button plus drag-and-drop files into the conversation as local paths: saves to project `uploads/`, puts the path text into the input box, and works with any vision tool.
 - [Alexmen97/deepseek-harness-app](https://github.com/Alexmen97/deepseek-harness-app) — Open-source macOS desktop client for DeepSeek Harness.
 - [clarknu/dsh-tray](https://github.com/clarknu/dsh-tray) — System-tray launcher for DeepSeek Harness instances on Windows: hidden console, per-instance start/stop/restart, port-status menu, and autostart.
-- [lk251066/dsh-tui-pro](https://github.com/lk251066/dsh-tui-pro) — Fixed framed terminal workbench plugin for DeepSeek Harness with transcript-only scrolling and persistent sessions.
 - [knGear/dsh-mobile](https://github.com/knGear/dsh-mobile) — Android mobile client plugin for DeepSeek Harness.
 - [changer-changer/dsh-whale-cards](https://github.com/changer-changer/dsh-whale-cards) — A calm, resumable Gin Rummy break with an original whale companion inside DeepSeek Harness.
 

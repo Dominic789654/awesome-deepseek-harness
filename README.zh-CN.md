@@ -1890,7 +1890,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [a903067276-rgb/dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) —— 一个上传按钮，支持把文件拖拽进对话框转为本地路径：保存到项目 uploads/ 目录，路径文本填入输入框，可配合任意视觉工具使用。
 - [Alexmen97/deepseek-harness-app](https://github.com/Alexmen97/deepseek-harness-app) —— 开源的 DeepSeek Harness macOS 桌面客户端。
 - [clarknu/dsh-tray](https://github.com/clarknu/dsh-tray) —— Windows 上的 DeepSeek Harness 系统托盘启动器：隐藏控制台窗口、按实例启停/重启、端口状态菜单、自启动。
-- [lk251066/dsh-tui-pro](https://github.com/lk251066/dsh-tui-pro) —— 固定边框的 DeepSeek Harness 终端工作台插件：仅滚动记录区域，会话持久化。
 - [knGear/dsh-mobile](https://github.com/knGear/dsh-mobile) —— DeepSeek Harness 的 Android 移动端插件。
 - [changer-changer/dsh-whale-cards](https://github.com/changer-changer/dsh-whale-cards) —— DeepSeek Harness 内一个悠闲、可随时暂停继续的金拉米纸牌小游戏，配有原创虎鲸伙伴。
 ## Skill
