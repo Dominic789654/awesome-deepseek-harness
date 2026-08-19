@@ -527,6 +527,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [SiriLee/dsh-approval-hotkeys](https://github.com/SiriLee/dsh-approval-hotkeys) —— DeepSeek Harness 插件：审批面板快捷键 —— Enter 单次批准，Esc 拒绝，Esc 暂停运行中的 agent。
 - [Eligahyu/dsh-sentinel-scanner](https://github.com/Eligahyu/dsh-sentinel-scanner) —— 🛡️ 给 DeepSeek Harness 插件拍 X 光 —— 插件安全体检与健康检查。零依赖只读静态扫描：代码执行/凭据/外传/混淆/安装脚本/bundle 清单，0-100 风险分。DSH tool 插件 + 独立 CLI。
 
+- [Wang-Lin-Chang/dsh-cross-platform](https://github.com/Wang-Lin-Chang/dsh-cross-platform) —— dsh-witness / dsh-anchor 的 Linux 后端：chattr + bubblewrap 沙箱配方与进程身份工具。
+- [Wang-Lin-Chang/dsh-macos](https://github.com/Wang-Lin-Chang/dsh-macos) —— dsh-witness / dsh-anchor 的 macOS 后端：uchg 不可变位 + sandbox-exec deny 视图。
 ## 会话与记忆管理
 
 _跨会话记忆、checkpoint、会话置顶与导航插件。_
@@ -688,6 +690,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Asher-2000/dsh-memory-connect](https://github.com/Asher-2000/dsh-memory-connect) —— DSH 跨会话记忆插件 —— 自动抽取、语义召回、定时维护、LLM 驱动的记忆整合。
 - [Li-canghai/dsh-archived-conversation](https://github.com/Li-canghai/dsh-archived-conversation) —— DeepSeek Harness 会话归档插件（dsh-plugin）。
 
+- [Wang-Lin-Chang/dsh-anchor](https://github.com/Wang-Lin-Chang/dsh-anchor) —— 长程会话监督：每个高熵工具动作的预承诺意图与即时环境对账。
 ## 成本与用量统计
 
 _token 用量、成本看板与预算告警插件。_
@@ -1451,6 +1454,10 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [NelsonLongxiang/dsh-open-a2a-net](https://github.com/NelsonLongxiang/dsh-open-a2a-net) —— DeepSeek Harness 的开放 A2A 网络插件：签名 agent card、去中心化的 peer/zone 发现、直连路由模型工具，以及 Web 侧边栏中可加入的会话节点。
 - [oppnc/dsh-kernel-mesh](https://github.com/oppnc/dsh-kernel-mesh) —— DeepSeek Harness 的 Harness-kernel mesh：kimi/grok/codex/minimax 模型路由（L1）、精炼的 subagent 配方（L2）以及 kernel_run/kernel_status/kernel_switch 工具。
 
+- [Wang-Lin-Chang/dsh-witness](https://github.com/Wang-Lin-Chang/dsh-witness) —— DeepSeek Harness 崩溃存活后台任务：文件系统即真相源、跨重启收养、尸检报告、沙箱执行。
+- [Wang-Lin-Chang/schedule-core](https://github.com/Wang-Lin-Chang/schedule-core) —— 持久调度核心：SQLite 档案馆、租约认领协调、墙钟纪律、零框架依赖。
+- [Wang-Lin-Chang/dsh-schedule](https://github.com/Wang-Lin-Chang/dsh-schedule) —— DeepSeek Harness 持久调度插件：跨会话存活的提醒与定时任务。
+- [Wang-Lin-Chang/dsh-megamesh](https://github.com/Wang-Lin-Chang/dsh-megamesh) —— 多智能体架构：文件即消息、收养代替陪葬、任期代替单点、军法代替信任。
 ## UI / 客户端
 
 _DSH 的桌面、网页、终端或编辑器前端。_
