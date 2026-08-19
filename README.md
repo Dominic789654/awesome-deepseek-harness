@@ -532,6 +532,8 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [SiriLee/dsh-approval-hotkeys](https://github.com/SiriLee/dsh-approval-hotkeys) — DeepSeek Harness plugin: approval-panel hotkeys — Enter approves once, Esc rejects, Esc pauses a running agent.
 - [Eligahyu/dsh-sentinel-scanner](https://github.com/Eligahyu/dsh-sentinel-scanner) — X-ray for DeepSeek Harness plugins: security checkup and health check. Zero-dependency, read-only static scan — code execution, credentials, exfiltration, obfuscation, install scripts, bundle manifest — 0-100 risk score. DSH tool plugin + standalone CLI.
 
+- [Wang-Lin-Chang/dsh-cross-platform](https://github.com/Wang-Lin-Chang/dsh-cross-platform) — Linux backend for the dsh-witness and dsh-anchor plugins: chattr + bubblewrap sandbox recipes and process-identity utilities.
+- [Wang-Lin-Chang/dsh-macos](https://github.com/Wang-Lin-Chang/dsh-macos) — macOS backend for the dsh-witness and dsh-anchor plugins: uchg immutable flags plus a sandbox-exec deny view.
 ## Session & Memory Management
 
 _Cross-session memory, checkpoints, pinning, and session navigation plugins._
@@ -695,6 +697,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Asher-2000/dsh-memory-connect](https://github.com/Asher-2000/dsh-memory-connect) — Cross-session memory plugin for DSH — auto-extraction, semantic recall, scheduled maintenance, LLM-powered consolidation.
 - [Li-canghai/dsh-archived-conversation](https://github.com/Li-canghai/dsh-archived-conversation) — Conversation-archiving plugin for DeepSeek Harness (dsh-plugin).
 
+- [Wang-Lin-Chang/dsh-anchor](https://github.com/Wang-Lin-Chang/dsh-anchor) — Long-running session supervision: pre-committed intent and immediate environment reconciliation for every high-entropy tool action.
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -1470,6 +1473,10 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [NelsonLongxiang/dsh-open-a2a-net](https://github.com/NelsonLongxiang/dsh-open-a2a-net) — Open A2A network plugin for DeepSeek Harness: signed agent cards, decentralized peer/zone discovery, direct routing model tools, and joinable session nodes in the web sidebar.
 - [oppnc/dsh-kernel-mesh](https://github.com/oppnc/dsh-kernel-mesh) — Harness-kernel mesh for DeepSeek Harness: kimi/grok/codex/minimax model routes (L1), distilled subagent recipes (L2) and kernel_run/kernel_status/kernel_switch tools.
 
+- [Wang-Lin-Chang/dsh-witness](https://github.com/Wang-Lin-Chang/dsh-witness) — Crash-surviving background jobs for DeepSeek Harness: filesystem as the source of truth, cross-restart adoption, autopsy reports, and sandboxed execution.
+- [Wang-Lin-Chang/schedule-core](https://github.com/Wang-Lin-Chang/schedule-core) — Persistent scheduler core: SQLite archive, lease-claim coordination, wall-clock discipline, zero framework dependencies.
+- [Wang-Lin-Chang/dsh-schedule](https://github.com/Wang-Lin-Chang/dsh-schedule) — Persistent scheduler plugin for DeepSeek Harness: reminders and scheduled jobs that survive session restarts.
+- [Wang-Lin-Chang/dsh-megamesh](https://github.com/Wang-Lin-Chang/dsh-megamesh) — Multi-agent architecture: files as messages, adoption over cascading failure, term leases, invariants over trust.
 ## UI / Clients
 
 - [Choi-Peng/dsh-footer-order](https://github.com/Choi-Peng/dsh-footer-order) — DSH Web plugin that fixes multiple plugin entries crowding into one line in the sidebar footer (`sidebar.footer.action` slot) and lets you configure their stacking order.
