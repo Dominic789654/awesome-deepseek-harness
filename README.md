@@ -1043,6 +1043,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 _Plugins that turn data / results into charts, diagrams, dashboards._
 
 - [hanzhangzzz/dsh-diagram](https://github.com/hanzhangzzz/dsh-diagram) — Turn articles in DeepSeek Harness into editable Excalidraw canvases.
+- [lamost423/dsh-trace-compare](https://github.com/lamost423/dsh-trace-compare) — Agent trajectory visualization: the main path, failed/dead-end detours, backtracks and subagent branches on one wall-clock timeline; same-axis compare of two session logs, plus a live-growing per-session maze tab.
 - [xuxun-oss/dsh-gemini-bridge](https://github.com/xuxun-oss/dsh-gemini-bridge) — DeepSeek Harness plugin: bridge Google Gemini vision & image generation (gemini_vision / gemini_generate_image / gemini_optimize_image) with auto model selection and self-check refinement.
 - [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil design preview and editing plugin for DSH.  `⭐33`
 - [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — Vision tasks for text-only models: intent-driven image Q&A, long-screenshot OCR, UI restoration, pixel diff.  `⭐150`
