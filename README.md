@@ -485,7 +485,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [PaleSkiff/DeepSeek_Harness_Launcher-DSHL](https://github.com/PaleSkiff/DeepSeek_Harness_Launcher-DSHL) — Windows desktop launcher for DeepSeek Harness local service: one-click start/stop/restart/monitor.
 - [shaun5297/dsh-launcher](https://github.com/shaun5297/dsh-launcher) — One-click launcher for DeepSeek Harness: detect → start backend (dsh web) → wait ready → open Chrome new window. Zero-dependency CLI, cross-platform.
 - [xmuwenxiang/dsh-web-chat](https://github.com/xmuwenxiang/dsh-web-chat) — DeepSeek Harness plugin that lets you chat with the web version of DeepSeek directly inside DSH, then migrate the conversation into DSH for further development — mainly to save tokens during early-stage discussion.
-- [zc0982/dsh-gpt-211api-provider](https://github.com/zc0982/dsh-gpt-211api-provider) — GPT 211API provider preset with full reasoning-effort selection for DeepSeek Harness.
+- [zc0982/dsh-gpt-provider](https://github.com/zc0982/dsh-gpt-provider) — GPT 211API provider preset with full reasoning-effort selection for DeepSeek Harness.
 
 ## Security & Permissions
 
@@ -1591,7 +1591,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [MaRi23333/dsh-fish-tts](https://github.com/MaRi23333/dsh-fish-tts) — Fish Audio TTS plugin for DeepSeek Harness: per-reply read-aloud, auto-read toggle, BYOK; third-party, unofficial.
 - [pwh19920920/deepseek-desktop](https://github.com/pwh19920920/deepseek-desktop) — Modern desktop client built for the DeepSeek Harness (DSH) plugin ecosystem.
 - [zmm863-commits/dsh-paperclip](https://github.com/zmm863-commits/dsh-paperclip) — Paperclip button in the DSH web GUI composer: click or drag-and-drop to pick files, contents inserted into the textarea as code blocks so the agent can read them.
-- [123654qw/dsh-new-ui](https://github.com/123654qw/dsh-new-ui) — Custom DeepSeek Harness (DSH) page/theme plugin; note it conflicts with dsh-web-ui.
+- [Developerprit/dsh-new-ui](https://github.com/Developerprit/dsh-new-ui) — Custom DeepSeek Harness (DSH) page/theme plugin; note it conflicts with dsh-web-ui.
 - [callmesoul/deepseek-kanban-plugin](https://github.com/callmesoul/deepseek-kanban-plugin) — DSH task-kanban plugin: host state machine + git scheduling + browser kanban UI, agents auto-execute tasks and auto-merge to the base branch after review.
 - [dhicoc/dsh-theme-mineradio](https://github.com/dhicoc/dsh-theme-mineradio) — Cinematic visual-radio glass theme for DSH Desktop, porting the Mineradio music player's champagne-glass aesthetic with fluid/wallpaper backdrops and custom knobs.
 - [kxSenlin/Deepseek-Harness-Window](https://github.com/kxSenlin/Deepseek-Harness-Window) — DeepSeek Harness desktop client (DSH GUI) for Windows with external plugin management (uninstall/import).

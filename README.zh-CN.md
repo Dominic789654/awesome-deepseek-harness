@@ -483,7 +483,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [PaleSkiff/DeepSeek_Harness_Launcher-DSHL](https://github.com/PaleSkiff/DeepSeek_Harness_Launcher-DSHL) —— Windows 桌面启动器，一键启动/停止/重启/监控 DeepSeek Harness 本地服务。
 - [shaun5297/dsh-launcher](https://github.com/shaun5297/dsh-launcher) —— DeepSeek Harness 一键启动器：检测 → 启动后端（dsh web） → 等待就绪 → 打开 Chrome 新窗口。零依赖 CLI，跨平台。
 - [xmuwenxiang/dsh-web-chat](https://github.com/xmuwenxiang/dsh-web-chat) —— Deepseek Harness插件，可以直接在Deepseek Harness中使用网页版deepseek进行聊天，并将聊天过程直接迁移到Deepseek Harness进一步进行开发。主要目的是节省前期方案讨论时的token。
-- [zc0982/dsh-gpt-211api-provider](https://github.com/zc0982/dsh-gpt-211api-provider) —— 面向 DeepSeek Harness 的 GPT 211API provider preset，支持完整的推理强度选择。
+- [zc0982/dsh-gpt-provider](https://github.com/zc0982/dsh-gpt-provider) —— 面向 DeepSeek Harness 的 GPT 211API provider preset，支持完整的推理强度选择。
 
 ## 安全与权限
 
@@ -1572,7 +1572,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [MaRi23333/dsh-fish-tts](https://github.com/MaRi23333/dsh-fish-tts) —— Fish Audio 语音合成插件：逐条朗读、自动朗读；仅支持 Fish Audio API，需自备 Key；第三方非官方。
 - [pwh19920920/deepseek-desktop](https://github.com/pwh19920920/deepseek-desktop) —— 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。
 - [zmm863-commits/dsh-paperclip](https://github.com/zmm863-commits/dsh-paperclip) —— DSH Web GUI 回形针按钮插件：在输入框右侧添加一个 📎 按钮，点击选择文件（支持拖拽），文件内容自动插入到输入框，方便把代码/文本直接发给 agent。
-- [123654qw/dsh-new-ui](https://github.com/123654qw/dsh-new-ui) —— 可以改变你的 DeepSeek Harness (DSH) 页面，但会和 dsh-web-ui 冲突。
+- [Developerprit/dsh-new-ui](https://github.com/Developerprit/dsh-new-ui) —— 可以改变你的 DeepSeek Harness (DSH) 页面，但会和 dsh-web-ui 冲突。
 - [callmesoul/deepseek-kanban-plugin](https://github.com/callmesoul/deepseek-kanban-plugin) —— DSH (DeepSeek Harness) 任务看板插件：主机状态机 + git 调度 + 浏览器看板 UI，agent 自动执行任务、审核后自动合并回基础分支。
 - [dhicoc/dsh-theme-mineradio](https://github.com/dhicoc/dsh-theme-mineradio) —— DeepSeek Harness (DSH) Desktop 的电影感玻璃拟态视觉电台主题——移植自 Mineradio 音乐播放器的香槛玻璃美学。流体或壁纸背景、轻玻璃面板、自定义旋钮，以及漂浮辉光光标。
 - [kxSenlin/Deepseek-Harness-Window](https://github.com/kxSenlin/Deepseek-Harness-Window) —— DeepSeek Harness 桌面客户端 (DSH GUI) —— 外置插件管理（卸载/导入）。
