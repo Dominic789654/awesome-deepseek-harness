@@ -1494,6 +1494,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [Wang-Lin-Chang/dsh-schedule](https://github.com/Wang-Lin-Chang/dsh-schedule) — Persistent scheduler plugin for DeepSeek Harness: reminders and scheduled jobs that survive session restarts.
 - [Wang-Lin-Chang/dsh-megamesh](https://github.com/Wang-Lin-Chang/dsh-megamesh) — Multi-agent architecture: files as messages, adoption over cascading failure, term leases, invariants over trust.
 ## UI / Clients
+- [WZZNNE/DSH-CyberWorkStation](https://github.com/WZZNNE/DSH-CyberWorkStation) — One-click DSH bundle with a cyberpunk desktop launcher: SillyTavern-grade Control Deck (prompts / regex / world-info / sampling), AI one-shot skin studio, plugin/skill/skin markets, cost & token analytics; vendored core rc.8, zero core rewrites (JavaScript, MIT).
 - [WilliamShi666/dsh-multiple-chat-panels](https://github.com/WilliamShi666/dsh-multiple-chat-panels) — Multiple chat panels for DeepSeek Harness: view and interact with several Agents side by side.
 
 - [030611/dsh-companion-studio](https://github.com/030611/dsh-companion-studio) — Privacy-aware, packable desktop companions for DeepSeek Harness.

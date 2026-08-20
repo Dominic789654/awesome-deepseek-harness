@@ -1476,6 +1476,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 ## UI / 客户端
 
 _DSH 的桌面、网页、终端或编辑器前端。_
+- [WZZNNE/DSH-CyberWorkStation](https://github.com/WZZNNE/DSH-CyberWorkStation) —— 一键部署的 DSH 整合包 + 赛博朋克桌面启动器:SillyTavern 级控制甲板(提示词/正则/世界书/采样)、AI 一键做皮肤、插件/Skill/皮肤三大市场、费用与 tokens 统计;内置 core rc.8,零本体改写(JavaScript, MIT)。
 - [WilliamShi666/dsh-multiple-chat-panels](https://github.com/WilliamShi666/dsh-multiple-chat-panels) —— DeepSeek Harness 多对话面板：并排查看并与多个 Agent 同时交互。
 
 - [030611/dsh-companion-studio](https://github.com/030611/dsh-companion-studio) —— DeepSeek Harness 的隐私友好、可打包桌面陪伴角色。
