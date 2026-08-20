@@ -432,7 +432,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [tong-io/tongflow](https://github.com/tong-io/tongflow) —— TongFlow —— 多模态 AIGC 工作流引擎（画布 + Python 插件引擎），附带 dsh-tongflow DeepSeek Harness 工作室插件。
 - [cnlangzi/nightme](https://github.com/cnlangzi/nightme) —— Sleep tight, NightMe codes all night：远程结对开发 agent 常驻进程，从聊天里驱动本地 AI 编码 agent（Claude Code / Codex / OpenCode / Pi / DSH），单实例同时并行多个项目和多个 agent。
 - [cocode-agency/cocode](https://github.com/cocode-agency/cocode) —— Cocode：一套开箱即用的 DeepSeek Harness 发行版，含桌面 GUI、终端 TUI，共享同一个 Host supervisor 驱动 harness 运行时。
-- [Alvinpro/DSH-Rust-Launcher](https://github.com/Alvinpro/DSH-Rust-Launcher) —— 单文件 Windows 启动器，双击启动 dsh web UI；关闭浏览器即整棵进程树一并清理，无需守着终端。
 - [hezhongtang/dsh-update-copilot](https://github.com/hezhongtang/dsh-update-copilot) —— DSH 更新助手：追踪 dsh 本体、bundle 与全部 profile 插件（npm+git 双通道）；变更简报辅助升级决策；仅执行确认过的更新。
 - [jsdvjx/dshn](https://github.com/jsdvjx/dshn) —— DeepSeek Harness Network — 将本地 dsh web UI 通过 *.ds.hn 公网转发：dsh 插件 + 基于 Cloudflare 的自建 WSS 中继，可选端到端加密。
 - [lilming123/dsh-api](https://github.com/lilming123/dsh-api) —— DeepSeek Harness (dsh) 的 HTTP 控制面插件——将设置/语言、工作区注册表与主机伴生桥接暴露为 /dsh-api/* JSON 路由。
@@ -1410,7 +1409,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 _多步 / 多 agent 调度器与输出聚合器。_
 
-- [temotee2103/dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) —— DeepSeek Harness 版的 OpenClaw —— 把 DSH 变成多平台聊天 agent，带聊天内轨迹追踪、子代理与定时任务，一条命令即可部署。
 - [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) —— 把 DSH 的一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层（UltraCode 风格）。  `⭐35`
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) —— AgentTeams 多 agent 团队插件。  `⭐72`
 - [Chinesezjc/dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) —— DSH 跨实例消息 / 事件接力插件（互联服务 + 工具）。  `⭐15`

@@ -434,7 +434,6 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [tong-io/tongflow](https://github.com/tong-io/tongflow) — TongFlow — a multimodal AIGC workflow engine (canvas + Python plugin engine) with a dsh-tongflow DeepSeek Harness studio plugin.
 - [cnlangzi/nightme](https://github.com/cnlangzi/nightme) — Sleep tight, NightMe codes all night: a remote-pair developer-agent daemon that drives local AI coding agents (Claude Code, Codex, OpenCode, Pi, DSH) from chat, running multiple projects and agents in parallel from one instance.
 - [cocode-agency/cocode](https://github.com/cocode-agency/cocode) — Cocode: a ready-to-run DeepSeek Harness distribution with a desktop GUI, terminal TUI, and shared Host supervisor for the harness runtime.
-- [Alvinpro/DSH-Rust-Launcher](https://github.com/Alvinpro/DSH-Rust-Launcher) — A single-file Windows launcher for the dsh (DeepSeek Harness) web UI: double-click to start; close the browser and the whole process tree is torn down.
 - [hezhongtang/dsh-update-copilot](https://github.com/hezhongtang/dsh-update-copilot) — Update copilot for DeepSeek Harness: tracks the dsh core, bundles, and every profile plugin (npm + git dual channel); changelog briefs for agent-assisted decisions; confirmed updates only.
 - [jsdvjx/dshn](https://github.com/jsdvjx/dshn) — DeepSeek Harness Network — public forwarding for a local dsh web UI over *.ds.hn: a dsh plugin + self-hosted WSS relay behind Cloudflare, with optional end-to-end encryption.
 - [lilming123/dsh-api](https://github.com/lilming123/dsh-api) — HTTP control-plane plugin for DeepSeek Harness (dsh) — exposes settings/language, workspace registry and host-companion bridge as /dsh-api/* JSON routes.
@@ -1430,7 +1429,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 _Multi-step / multi-agent schedulers and output aggregators._
 
-- [temotee2103/dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) — The OpenClaw of DeepSeek Harness — turn DSH into a multi-platform chat agent with in-chat trajectory tracing, subagents & cron, and one-command deploy.
 - [icetomoyo/dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — Upgrades DSH's one-shot multi-agent dispatch into a workflow layer that can be generated, saved, governed, observed, and resumed (UltraCode-style).  `⭐35`
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams plugin for DeepSeek Harness.  `⭐72`
 - [Chinesezjc/dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — Cross-instance message/event handoff plugins for DSH (interconnect service + tools).  `⭐15`
