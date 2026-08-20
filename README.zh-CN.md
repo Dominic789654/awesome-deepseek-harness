@@ -2401,7 +2401,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [xiaohui5206/03-vision-input](https://github.com/xiaohui5206/03-vision-input) —— 针对DSH：添加第三方模型时，模型被默认没有视觉能力的问题（DeepSeek Harness小完善计划其三 · DSH视觉封禁解禁）· Agent Skill 维修手册。
 - [YTyangtao666/dsh-skills-bridge](https://github.com/YTyangtao666/dsh-skills-bridge) —— 把你的 Claude Code 技能带进 DeepSeek Harness —— 零迁移成本，一个插件搞定。
 - [RHY006/agency-agents-zh-dsh-plugin](https://github.com/RHY006/agency-agents-zh-dsh-plugin) — DeepSeek Harness (dsh) 插件：agency-agents-zh 中文 AI 专家库（268 角色 / 20 部门）以原生技能形式提供。
-- [mjylfz/dsh-skill-migrator](https://github.com/mjylfz/dsh-skill-migrator) — 把其他 Agent 的技能一键迁入 DeepSeek Harness：支持 14 个平台 + 共享层识别、冲突分组、软链接去重、回滚。DSH dynamic Cordis plugin (skill migration)。
+- [mjylfz/dsh-skill-mover](https://github.com/mjylfz/dsh-skill-mover) — 把其他 Agent 的技能一键迁入 DeepSeek Harness：支持 14 个平台 + 共享层识别、冲突分组、软链接去重、回滚。DSH dynamic Cordis plugin (skill migration)。
 - [WilShi/dsh-skill-station](https://github.com/WilShi/dsh-skill-station) — DeepSeek Harness 技能站：扫描 Claude/Codex/Cursor/Gemini 技能库，一键导入，全局/项目级技能管理，拖拽安装——均在侧边栏面板内完成。
 ## 资源
 

@@ -2461,7 +2461,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [xiaohui5206/03-vision-input](https://github.com/xiaohui5206/03-vision-input) — Agent Skill repair guide for DSH: fixes third-party models defaulting to no vision capability (part 3 of the DeepSeek Harness small-fixes plan · DSH vision-ban lift).
 - [YTyangtao666/dsh-skills-bridge](https://github.com/YTyangtao666/dsh-skills-bridge) — Bring your Claude Code skills into DeepSeek Harness — zero migration, one plugin.
 - [RHY006/agency-agents-zh-dsh-plugin](https://github.com/RHY006/agency-agents-zh-dsh-plugin) — DeepSeek Harness (dsh) plugin: agency-agents-zh Chinese AI expert library (268 roles / 20 departments) as native skills.
-- [mjylfz/dsh-skill-migrator](https://github.com/mjylfz/dsh-skill-migrator) — One-click migration of skills from other agent harnesses into DeepSeek Harness: supports 14 platforms + shared-layer detection, conflict grouping, symlink dedup, and rollback. DSH dynamic Cordis plugin (skill migration).
+- [mjylfz/dsh-skill-mover](https://github.com/mjylfz/dsh-skill-mover) — One-click migration of skills from other agent harnesses into DeepSeek Harness: supports 14 platforms + shared-layer detection, conflict grouping, symlink dedup, and rollback. DSH dynamic Cordis plugin (skill migration).
 - [WilShi/dsh-skill-station](https://github.com/WilShi/dsh-skill-station) — Skill station for DeepSeek Harness: scan Claude/Codex/Cursor/Gemini skill libraries, one-click import, global/project skill management, drag-and-drop install — all from a sidebar panel.
 
 ## Resources
