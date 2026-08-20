@@ -971,6 +971,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [honghudavy-star/DSH_plugins_4U](https://github.com/honghudavy-star/DSH_plugins_4U) —— DSH 自建插件集合：微信桥接器 + GUI 微信入口补丁，一键安装。
 - [ARFCON/dsh-hub-DSH](https://github.com/ARFCON/dsh-hub-DSH) —— dsh-hub —— DSH 插件中枢：插件更新引擎、全局记忆、记忆图谱挂载、插件市场联动与自身更新检查，在设置页统一查看与管理。
 - [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) —— Browse and install DSH plugins from inside DeepSeek Harness. /store, a settings tab, and agent tools — bilingual.
+- [sandbaseai/dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) —— DSH 设置页插件市场预览版，提供社区与已安装视图、目录搜索、标签筛选、排序及面向 Agent 的商店工具。
 - [nonentity303/dsh-plugin-manager](https://github.com/nonentity303/dsh-plugin-manager) —— deepseek-harness,dsh,dsh-plugin,plugin-management,plugin-manager。
 - [wingsky-1/dsh-plugin-hub](https://github.com/wingsky-1/dsh-plugin-hub) —— DSH (DeepSeek Harness) 插件集：npm 分发，可一键装全家桶或单独安装。
 - [xDylanLong/dsh-snapmarketing](https://github.com/xDylanLong/dsh-snapmarketing) —— dsh-snapmarketing is a thin DeepSeek Harness surface for discovering, installing, and managing allowlisted plugins.

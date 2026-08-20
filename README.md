@@ -981,6 +981,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [honghudavy-star/DSH_plugins_4U](https://github.com/honghudavy-star/DSH_plugins_4U) — Self-built DSH plugin collection: a WeChat bridge plus a GUI WeChat-entry patch, one-click install.
 - [ARFCON/dsh-hub-DSH](https://github.com/ARFCON/dsh-hub-DSH) — dsh-hub — an all-in-one DSH plugin hub: plugin-update engine, global memory, graph-memory mounting, plugin-marketplace linkage, and self-update checks in one settings page.
 - [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) — Browse and install DSH plugins from inside DeepSeek Harness. /store, a settings tab, and agent tools — bilingual.
+- [sandbaseai/dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) — Preview DSH Settings marketplace with Community and Installed views, catalog search, tag filtering, sorting, and agent-facing store tools.
 - [nonentity303/dsh-plugin-manager](https://github.com/nonentity303/dsh-plugin-manager) — Plugin-management tool for DeepSeek Harness (no description provided upstream).
 - [wingsky-1/dsh-plugin-hub](https://github.com/wingsky-1/dsh-plugin-hub) — DSH (DeepSeek Harness) plugin set: npm-distributed, install the full bundle in one click or pick plugins individually.
 - [xDylanLong/dsh-snapmarketing](https://github.com/xDylanLong/dsh-snapmarketing) — A thin DeepSeek Harness surface for discovering, installing, and managing allowlisted plugins.
