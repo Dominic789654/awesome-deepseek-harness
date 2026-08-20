@@ -233,6 +233,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [niuniu-869/dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) — DeepSeek Harness bundle: article-level Chinese accounting standards (CAS/ASSE) and tax-law lookup, plus a skill that keeps citations anchored to source articles.
 - [LeslieWylie/dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit) — A reusable DeepSeek Harness bundle for evidence-driven memory, orchestration, benchmark operations, and plugin release workflows.
 - [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) — Unofficial DeepSeek Harness LLM provider plugin for Command Code: live model catalog, reasoning-effort support, Models-page card. Ported from pi-commandcode-provider (MIT).
+- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses) — Qwen Token Plan CN Personal Responses API provider with official model/tool catalog sync, server-side built-in tools, DSH local functions, and image input.
 - [040822/dsh-gzip](https://github.com/040822/dsh-gzip) — Enables gzip for `/api` responses, fixing history-loading timeouts (30s) on slow links.
 - [LyleMi/dsh-codex-app-server](https://github.com/LyleMi/dsh-codex-app-server) — OpenAI Codex App Server agent provider for DeepSeek Harness.
 - [SeverusZh/dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) — Subagent Director: per-subagent LLM provider/model selection with role templates for DeepSeek Harness.
