@@ -226,6 +226,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [niuniu-869/dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) — DeepSeek Harness 插件包：条文级中国会计准则（CAS/ASSE）与税法检索，附带保持引用锚定原文条款的技能。
 - [LeslieWylie/dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit) — 可复用的 DeepSeek Harness 插件包：证据驱动的记忆、编排、基准测试运维与插件发布工作流。
 - [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) — 非官方的 DeepSeek Harness LLM provider 插件，适配 Command Code：实时模型目录、推理强度支持、Models 页面卡片。从 pi-commandcode-provider 移植（MIT）。
+- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses) —— 千问 Token Plan 个人版 Responses API 模型提供方：同步官方模型/工具目录，支持服务端内置工具、DSH 本地函数与图片输入。
 - [040822/dsh-gzip](https://github.com/040822/dsh-gzip) — dsh-gzip 插件：为 /api 响应启用 gzip，解决低带宽访问下的历史加载失败（30s 超时）。
 - [LyleMi/dsh-codex-app-server](https://github.com/LyleMi/dsh-codex-app-server) — DeepSeek Harness 的 OpenAI Codex App Server agent provider 插件。
 - [SeverusZh/dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) — Subagent Director：为每个子代理单独选择 LLM 提供商/模型，支持角色模板，DeepSeek Harness 插件。
@@ -721,7 +722,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [russeell/cross-agent-fork](https://github.com/russeell/cross-agent-fork) — 跨 Agent 会话 fork：将任一 Agent 的完整会话 fork 到另一个（Claude Code ↔ Codex ↔ DeepSeek Harness）——原会话不受影响，可直接恢复。
 - [Breeze136/dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag) —— 面向 DeepSeek Harness 的知识库 RAG 插件：基于 Zotero 文献库的文献检索。
 - [songoao25/dsh-song-memory](https://github.com/songoao25/dsh-song-memory) —— 一款原生体验、跨工具的 DeepSeek Harness 记忆插件。
-- [mantonlove/dsh-conversation-landmarks](https://github.com/mantonlove/dsh-conversation-landmarks) —— DeepSeek Harness 的对话地标（Conversation Landmarks）插件——为长对话提供固定导航与悬浮预览。
 - [PerryLink/dsh-library](https://github.com/PerryLink/dsh-library) —— DeepSeek Harness 的本地文档知识库：library_add/remove/list，语义+关键词混合的 library_search（含多样性重排、相关性过滤与避免『中间遗忘』），支持引用感知注入、library_cite_check 与 library_diagnose——基于存储域的 SQLite 索引、本地 embedding，无需下载模型。
 - [PerryLink/dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) —— 跨设备的 DeepSeek Harness 会话同步：专用 git 镜像仓库，采用只追加、双保留的冲突解决策略（分叉文件，绝不静默覆盖），提供 /sync 命令与 sync_* 工具。
 - [boyun-zhang/better-session-management](https://github.com/boyun-zhang/better-session-management) —— DeepSeek Harness 会话管理插件：链式上下文视图、可在任意轮次边界分叉的子会话、一次性只读问答 /btw，全部基于会话原语——把长对话拆成并行支线而不污染主上下文，但可手动向主会话注入临时对话内容。
@@ -1630,6 +1630,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [WindyPro-rourou/dsh-logcat](https://github.com/WindyPro-rourou/dsh-logcat) —— DeepSeek Harness (DSH) Web GUI 的 Android Logcat 查看器：自动连接 adb 设备，按级别/关键词过滤的实时 logcat 流，支持暂停/清空/导出，附带 `logcat_recent` agent 工具。
 - [zhy201810576/dsh-vditor](https://github.com/zhy201810576/dsh-vditor) —— 用 Vditor 3.11.3（IR 即时渲染模式）接管 DSH Web 的聊天输入卡片，并把用户消息渲染为完整 Markdown。
 - [zink-ning-lkr/dsh-ui-state](https://github.com/zink-ning-lkr/dsh-ui-state) —— DSH Web GUI 界面状态持久化插件：侧边栏开合/宽度/详情面板/对话滚动位置恢复。
+- [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) —— 手机优先的 DSH 前端体验优化（输入框自动折叠、手机回车换行、侧边栏/顶部栏压缩、设置页、禁缩放回弹），以及长任务完成/权限申请/提问的通知（页面卡片、Web Push、webhook）；零 dsh 本体改动。
 - [alpacachen/dsh-kanban](https://github.com/alpacachen/dsh-kanban) —— 一个人和 AI agent 共享的 DeepSeek Harness 看板。
 - [MarchLiu/dsh-rich-editor](https://github.com/MarchLiu/dsh-rich-editor) —— 第三方 dsh web 插件：面向输入区域的 Markdown 富文本笔记本 —— 工具栏开关 + CodeMirror 编辑卡片，支持 Codex 风格列表编辑。
 - [yhfgyyf/dsh-tui-app](https://github.com/yhfgyyf/dsh-tui-app) —— 基于 Readline 的 DeepSeek Harness 交互式终端 profile 包。
@@ -1639,6 +1640,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [drscrewdriver/dsh-input-traffic](https://github.com/drscrewdriver/dsh-input-traffic) —— DeepSeek Harness Web GUI 忙时输入队列：三层（现在/接下来/稍后）规划，支持拖拽重排与并发保护的队列编辑，插话（steer）与打断，批量清空带确认，会话冻结。
 - [entireyu/dsh-whalito-desk](https://github.com/entireyu/dsh-whalito-desk) —— 鲸仔 Whalito，DeepSeek Harness 桌面助手：由 DSH + DS-V4-Pro-0813 开发的 tauri 桌面程序。
 - [fthuu/my-skin-for-DeepSeek-Harness](https://github.com/fthuu/my-skin-for-DeepSeek-Harness) —— DeepSeek Harness 皮肤扩展插件。
+- [mantonlove/dsh-conversation-landmarks](https://github.com/mantonlove/dsh-conversation-landmarks) —— 长对话的左侧固定导航栏：每个用户任务一个地标，悬浮预览请求与最新回答，按需加载更早历史；仅使用官方扩展点，不改动源码。
 - [hanlinlibham/dsh-native-tui](https://github.com/hanlinlibham/dsh-native-tui) —— 经典可靠的 DeepSeek Harness TUI，支持会话、provider 与模型管理。
 - [haoliangwu/dsh-advisor](https://github.com/haoliangwu/dsh-advisor) —— 转折顾问：通过 LLM 评估出错回合并渲染柔和的蓝色卡片。官方 bundle，通过 `dsh plugin --profile web add github:haoliangwu/dsh-advisor` 安装。
 - [jikllji/DSH-JI-Plugins](https://github.com/jikllji/DSH-JI-Plugins) —— 个人 DSH 插件合集，含皮肤/自定义主题编辑器插件，支持 Web UI 的 DreamSkin `.zip` 导入。
