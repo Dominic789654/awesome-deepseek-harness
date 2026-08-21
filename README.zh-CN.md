@@ -1400,6 +1400,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [omdsh-dev/dsh-tool-browser](https://github.com/omdsh-dev/dsh-tool-browser) —— 官方 `dsh-tool-browser` 浏览器控制工具的静态 Cordis overlay 与集成指南。
 - [PangYiMing/dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) —— 操控浏览器插件（CDP/Playwright）。
 - [PangYiMing/dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) —— 操控手机设备插件（ADB/iOS）。
+- [Tabbit-Browser/dsh-plugin](https://github.com/Tabbit-Browser/dsh-plugin) —— Tabbit 浏览器的 DeepSeek Harness 插件：捆绑 `tabbit-browser` Skill 与 `tabbit_browser_install` 工具，让 Agent 通过 Playwright CLI 运行时操控本机 Tabbit（国内/国际正式版，≥1.9.0）；未安装或版本过低时后台下载安装包。  `⭐90`
 - [titanwings/dsh-better-browser](https://github.com/titanwings/dsh-better-browser) —— 通过 13 个 Kimi WebBridge 工具，让 Agent 操作用户已登录的真实浏览器。
 - [UynajGI/dsh-ssh](https://github.com/UynajGI/dsh-ssh) —— SSH 远程执行插件：ProxyJump 链、SFTP 文件系统、基于 ssh2 的子进程与 PTY。
 - [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) —— 本地优先的跨平台内容发现 Agent（B站/小红书/YouTube/X 等），并提供 DSH 客户端插件。  `⭐1926`

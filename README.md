@@ -1416,6 +1416,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [omdsh-dev/dsh-tool-browser](https://github.com/omdsh-dev/dsh-tool-browser) — Static Cordis overlay and integration guide for the official `dsh-tool-browser` browser-control tool.
 - [PangYiMing/dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) — Browser-control plugin (CDP/Playwright).
 - [PangYiMing/dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) — Mobile-device control plugin (ADB/iOS).
+- [Tabbit-Browser/dsh-plugin](https://github.com/Tabbit-Browser/dsh-plugin) — Tabbit Browser plugin for DeepSeek Harness: ships a bundled `tabbit-browser` skill and `tabbit_browser_install` tool so the agent can drive the user's Tabbit Browser (CN/international, ≥1.9.0) via its Playwright CLI runtime, with background installer download when missing or outdated.  `⭐90`
 - [titanwings/dsh-better-browser](https://github.com/titanwings/dsh-better-browser) — Lets agents drive the user's signed-in browser through thirteen Kimi WebBridge tools.
 - [UynajGI/dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH remote-execution plugin: ProxyJump chains, SFTP filesystem, subprocess and PTY over ssh2.
 - [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) — Local-first cross-platform content-discovery agent (Bilibili, Xiaohongshu, YouTube, X, etc.) that ships a DSH client plugin.  `⭐1926`
