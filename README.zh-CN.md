@@ -233,7 +233,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [niuniu-869/dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) — DeepSeek Harness 插件包：条文级中国会计准则（CAS/ASSE）与税法检索，附带保持引用锚定原文条款的技能。
 - [LeslieWylie/dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit) — 可复用的 DeepSeek Harness 插件包：证据驱动的记忆、编排、基准测试运维与插件发布工作流。
 - [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) — 非官方的 DeepSeek Harness LLM provider 插件，适配 Command Code：实时模型目录、推理强度支持、Models 页面卡片。从 pi-commandcode-provider 移植（MIT）。
-- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses) —— 千问 Token Plan 个人版 Responses API 模型提供方：同步官方模型/工具目录，支持服务端内置工具、DSH 本地函数与图片输入。
+- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-plugins/tree/main/packages/qwen-token-plan-cn-responses) —— 千问 Token Plan 个人版 Responses API 模型提供方：同步官方模型/工具目录，支持服务端内置工具、DSH 本地函数与图片输入。
 - [040822/dsh-gzip](https://github.com/040822/dsh-gzip) — dsh-gzip 插件：为 /api 响应启用 gzip，解决低带宽访问下的历史加载失败（30s 超时）。
 - [LyleMi/dsh-codex-app-server](https://github.com/LyleMi/dsh-codex-app-server) — DeepSeek Harness 的 OpenAI Codex App Server agent provider 插件。
 - [SeverusZh/dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) — Subagent Director：为每个子代理单独选择 LLM 提供商/模型，支持角色模板，DeepSeek Harness 插件。
@@ -959,7 +959,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 
 - [citedy/dsh-telegram-bot](https://github.com/citedy/dsh-telegram-bot) —— 面向 DeepSeek Harness AI agent 的自建 Telegram 机器人桥接。
 - [fryghost/deepseek-harness-wecom-plus](https://github.com/fryghost/deepseek-harness-wecom-plus) —— DeepSeek Harness 的企业微信（WeCom）桥接插件。
-- [nickhelion/dsh-serverchan-notify](https://github.com/nickhelion/dsh-serverchan-notify) —— DeepSeek Harness 插件：每当 agent 回合完成答复时，通过 ServerChan3（Server酱）推送通知 —— 对齐 codex Stop-hook 语义。
+- [nickhelion/dsh-serverchan-notify](https://github.com/nickhelion/dsh-plugins/tree/main/packages/serverchan-notify) —— DeepSeek Harness 插件：每当 agent 回合完成答复时，通过 ServerChan3（Server酱）推送通知 —— 对齐 codex Stop-hook 语义。
 - [huaqian695-sudo/dsh-wechat-bot](https://github.com/huaqian695-sudo/dsh-wechat-bot) —— 🤖 基于 DeepSeek Harness 的微信 AI 自动化机器人：AI对话/记忆/日程提醒/天气/联网搜索，多面具人格切换，双通道LLM，Web控制台。
 - [wsz987/dsh-channels](https://github.com/wsz987/dsh-channels) —— 把微信 / QQ / 钉钉 / 飞书 / Telegram 接入 DeepSeek Harness：统一配置、扫码授权，直接在各 IM 与 Agent 对话；支持图片与文件收发，Agent 可读取 PDF、DOCX、XLSX 和文本内容。
 - [JunguangJiang/dsh-lark-channel](https://github.com/JunguangJiang/dsh-lark-channel) —— DeepSeek Harness 的飞书/Lark IM Bot 通道：会话镜像同步、交互式卡片、话题级同步。

@@ -253,7 +253,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [niuniu-869/dsh-plugin-cas-kb](https://github.com/niuniu-869/dsh-plugin-cas-kb) — DeepSeek Harness bundle: article-level Chinese accounting standards (CAS/ASSE) and tax-law lookup, plus a skill that keeps citations anchored to source articles.
 - [LeslieWylie/dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit) — A reusable DeepSeek Harness bundle for evidence-driven memory, orchestration, benchmark operations, and plugin release workflows.
 - [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) — Unofficial DeepSeek Harness LLM provider plugin for Command Code: live model catalog, reasoning-effort support, Models-page card. Ported from pi-commandcode-provider (MIT).
-- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses) — Qwen Token Plan CN Personal Responses API provider with official model/tool catalog sync, server-side built-in tools, DSH local functions, and image input.
+- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-plugins/tree/main/packages/qwen-token-plan-cn-responses) — Qwen Token Plan CN Personal Responses API provider with official model/tool catalog sync, server-side built-in tools, DSH local functions, and image input.
 - [040822/dsh-gzip](https://github.com/040822/dsh-gzip) — Enables gzip for `/api` responses, fixing history-loading timeouts (30s) on slow links.
 - [LyleMi/dsh-codex-app-server](https://github.com/LyleMi/dsh-codex-app-server) — OpenAI Codex App Server agent provider for DeepSeek Harness.
 - [SeverusZh/dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) — Subagent Director: per-subagent LLM provider/model selection with role templates for DeepSeek Harness.
@@ -968,7 +968,7 @@ _Bridges DSH into chat platforms and messaging channels._
 
 - [citedy/dsh-telegram-bot](https://github.com/citedy/dsh-telegram-bot) — Self-hosted Telegram bot bridge for DeepSeek Harness AI agents.
 - [fryghost/deepseek-harness-wecom-plus](https://github.com/fryghost/deepseek-harness-wecom-plus) — WeCom (Enterprise WeChat) bridge plugin for DeepSeek Harness.
-- [nickhelion/dsh-serverchan-notify](https://github.com/nickhelion/dsh-serverchan-notify) — DeepSeek Harness plugin: ServerChan3 (Server酱) push notifications whenever an agent turn finishes an answer — codex Stop-hook parity.
+- [nickhelion/dsh-serverchan-notify](https://github.com/nickhelion/dsh-plugins/tree/main/packages/serverchan-notify) — DeepSeek Harness plugin: ServerChan3 (Server酱) push notifications whenever an agent turn finishes an answer — codex Stop-hook parity.
 - [huaqian695-sudo/dsh-wechat-bot](https://github.com/huaqian695-sudo/dsh-wechat-bot) — WeChat AI automation bot built on DeepSeek Harness: chat/memory/schedule reminders/weather/web search, multi-persona-mask switching, dual-channel LLM, Web console.
 - [wsz987/dsh-channels](https://github.com/wsz987/dsh-channels) — Connects WeChat / QQ / DingTalk / Feishu / Telegram to DeepSeek Harness: unified configuration, QR-code authorization, chat with the agent directly from each IM; supports image and file transfer both ways, and the agent can read PDF, DOCX, XLSX, and text content.
 - [JunguangJiang/dsh-lark-channel](https://github.com/JunguangJiang/dsh-lark-channel) — Lark/Feishu IM bot channel for DeepSeek Harness: session mirroring, interactive cards, topic-level sync.
