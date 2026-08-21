@@ -99,7 +99,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [Feiyang1997/dsh-preset-minimal-pwsh](https://github.com/Feiyang1997/dsh-preset-minimal-pwsh) — DeepSeek Harness Windows minimal-mode agent preset: two tools (pwsh + str_replace_editor), built-in plugins only.
 - [ztlovelsw/dsh-model-profile](https://github.com/ztlovelsw/dsh-model-profile) — Manually or automatically configure model thinking effort, context window, and max output tokens.
 - [NIU-001-LIU/dsh-win-minimal](https://github.com/NIU-001-LIU/dsh-win-minimal) — Windows minimal agent preset for DeepSeek Harness: one-line fixed persona, three tools, no runtime context. Installs via dsh plugin add.
-- [Freakz2z/dsh-catgirl-plugin](https://github.com/Freakz2z/dsh-catgirl-plugin) — A token-efficient persona runtime for DeepSeek Harness. Measured: -67% input tokens, -66% cache reads, 0-token catgirl rendering.
+- [Freakz2z/dsh-catgirl-plugin](https://github.com/Freakz2z/dsh-catgirl-plugin) — A token-efficient persona runtime for DeepSeek Harness.
 - [zhy201810576/dsh-zh-reasoning](https://github.com/zhy201810576/dsh-zh-reasoning) — Makes DeepSeek Harness's reasoning and final answers default to Simplified Chinese.
 
 ## Harnesses & Runtimes

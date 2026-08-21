@@ -98,7 +98,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [Feiyang1997/dsh-preset-minimal-pwsh](https://github.com/Feiyang1997/dsh-preset-minimal-pwsh) —— DeepSeek Harness Windows 最小模式 agent preset：仅 pwsh + str_replace_editor 两个工具，仅内置插件。
 - [ztlovelsw/dsh-model-profile](https://github.com/ztlovelsw/dsh-model-profile) —— 手动或自动配置模型思考强度、上下文窗口、最大输出 token。
 - [NIU-001-LIU/dsh-win-minimal](https://github.com/NIU-001-LIU/dsh-win-minimal) —— DeepSeek Harness Windows 极简 agent preset：一行固定人设、三个工具、无运行时 context，通过 dsh plugin add 安装。
-- [Freakz2z/dsh-catgirl-plugin](https://github.com/Freakz2z/dsh-catgirl-plugin) —— DeepSeek Harness 的省 token 人设运行时。实测：输入 token -67%，缓存读取 -66%，猫娘渲染零 token。
+- [Freakz2z/dsh-catgirl-plugin](https://github.com/Freakz2z/dsh-catgirl-plugin) —— DeepSeek Harness 的省 token 人设运行时。
 - [zhy201810576/dsh-zh-reasoning](https://github.com/zhy201810576/dsh-zh-reasoning) —— 让 DeepSeek Harness 的思考（reasoning）与最终回答默认使用简体中文的中文插件。
 
 ## Harness 与运行时
@@ -525,7 +525,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [Dawn388887/dsh-notify](https://github.com/Dawn388887/dsh-notify) —— DSH 插件：agent 完成或出错时的桌面 toast 通知 + 远程浏览器通知。
 - [easysir10/easy-git](https://github.com/easysir10/easy-git) —— 面向新手的 DeepSeek Harness Git 辅助插件。
 - [m1khal3v/dsh-llm-key-rotation](https://github.com/m1khal3v/dsh-llm-key-rotation) —— DeepSeek Harness 的无缝 API 密钥轮换插件。
-- [Scorp1o117/dsh-enhancement-suite](https://github.com/Scorp1o117/dsh-enhancement-suite) —— DeepSeek Harness 官方增强套件：视觉、人设/Soul、长期记忆与插件市场。
+- [Scorp1o117/dsh-enhancement-suite](https://github.com/Scorp1o117/dsh-enhancement-suite) —— DeepSeek Harness 增强套件：视觉、人设/Soul、长期记忆与插件市场。
 - [xingyingyuzhui/dsh-updater-ui](https://github.com/xingyingyuzhui/dsh-updater-ui) —— DeepSeek Harness 更新器 UI 插件（dsh-plugin）。
 - [zzjxmy/dsh-llm-codex](https://github.com/zzjxmy/dsh-llm-codex) —— 面向 DeepSeek Harness LLM 接口的 ChatGPT Plus/Pro（Codex）适配器：PKCE/设备 OAuth、token 刷新，并转发到 chatgpt.com/backend-api/codex/responses。
 
