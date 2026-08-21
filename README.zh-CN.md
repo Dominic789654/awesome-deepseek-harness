@@ -1846,10 +1846,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [omdsh-dev/dsh-minigames](https://github.com/omdsh-dev/dsh-minigames) —— DSH Web UI 右侧小游戏面板：18 款离线小游戏（恐龙跳一跳 / 俄罗斯方块 / 坦克大战 / 扫雷 / 2048 / 数独 / 吃豆人 / 跟枪练习等），可扩展游戏注册表，等待模型回复或修 bug 时的摸鱼神器。
 - [omdsh-dev/dsh-paste-input](https://github.com/omdsh-dev/dsh-paste-input) —— DSH WebUI 文件输入增强：Ctrl+V 粘贴（带首次告知弹窗）+ 拖拵 + 选择文件，发送时复制进会话工作区临时目录。
 - [omdsh-dev/dsh-ui-progress](https://github.com/omdsh-dev/dsh-ui-progress) —— DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动。
-- [omdsh-dev/dsh-ui-whale](https://github.com/omdsh-dev/dsh-ui-whale) —— 【求⭐】DSH Web UI 全手绘像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眸/偶尔摆尾/动胸鲔，思考运行时持续动起来，回合完成头顶喷水，点击还会冒爱心，不工作时还会偷懒睡觉。【喜欢的话就点点star⭐吧】。
+- [omdsh-dev/dsh-ui-whale](https://github.com/omdsh-dev/dsh-ui-whale) —— DSH Web UI 全手绘像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眸/偶尔摆尾/动胸鲔，思考运行时持续动起来，回合完成头顶喷水，点击还会冒爱心，不工作时还会偷懒睡觉。
 - [tttnny/my-dsh](https://github.com/tttnny/my-dsh) —— DeepSeek Harness 插件合集：dsh-client-ui-deepseek-bg（仿 Harness 官网深色皮肤：极光/粒子鲸鱼/星座网格/玻璃拟态/Border Beam/Thinking Orbs）+ dsh-escalation-noop + ptc-creative-cordis。
 - [Jabofish/deepseek-harness-vscode](https://github.com/Jabofish/deepseek-harness-vscode) —— 面向 DeepSeek Harness (DSH) 的原生 VS Code 客户端，支持会话、流式回复、工具、模型控制与工作区感知工作流。
-- [Dongfang81/dsh-music](https://github.com/Dongfang81/dsh-music) —— 第一款真正意义上的 AI 原生音乐播放器 🎵 在对话里说一句想听的歌，月宝 Moony 全网搜集、整理、开播；十只月亮宠物随音乐起舞。零依赖安装即用，DSH 插件。
 - [skymecode/dsh-bgm](https://github.com/skymecode/dsh-bgm) —— DSH 插件 —— 把你的 AI 对话变成一场音乐节奏游戏。开启你的 bgm！
 - [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) —— Rust/ratatui 终端客户端，直接使用 DSH SDK JSON-RPC 协议，支持独立运行或作为 profile bundle 加载。
 - [bill9109/dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) —— 分享 DSH 对话的任意段落。
@@ -2483,7 +2482,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) —— 中文长剧本写作 skill（SKILL.md）：双输入板块 + 因果—价值内核，内置去 AI 味审查与连续性台账，支撑 100 场以上长篇幅项目。
 
 - [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) —— Timeline Studio Bundle：让 DSH 检查、预演、事务式编辑并渲染可移植的 `.timeline` 视频工程。
-- [Dongfang81/moony-singer](https://github.com/Dongfang81/moony-singer) —— 第一款真正意义上的 AI 原生音乐播放器 🎵 在对话里说一句想听的歌，月宝 Moony 全网搜集、整理、开播；十只月亮宠物随音乐起舞。零依赖安装即用，DSH 插件。
+- [Dongfang81/dsh-music](https://github.com/Dongfang81/dsh-music) —— AI 原生音乐播放器 🎵 在对话里说一句想听的歌，月宝 Moony 全网搜集、整理、开播；十只月亮宠物随音乐起舞。零依赖安装即用，DSH 插件。
 - [liaoyl830/deepseek-harness-desktop](https://github.com/liaoyl830/deepseek-harness-desktop) —— DeepSeek Harness Desktop —— DeepSeek Harness Web UI（dsh web）的 Windows 桌面壳（Electron）。非官方社区封装，MIT 许可。
 - [Liyuk/dsh-skin-chatlab](https://github.com/Liyuk/dsh-skin-chatlab) —— 面向 DeepSeek Harness Web GUI 的可扩展聊天皮肤 monorepo：基础注册中心 + 可插拔皮肤包（飞书风格聊天气泡），无需改动聊天逻辑即可即插即用。
 - [Pasumao/dsh-plugin-table-zoom](https://github.com/Pasumao/dsh-plugin-table-zoom) —— DSH 聊天表格浮窗插件：长/宽 markdown 表格一键弹出可滚动浮窗查看，支持复制为 Markdown。纯前端 DOM 增强，零依赖。
