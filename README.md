@@ -597,7 +597,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 
 - [lilyblessing/dsh-mcp-skill-panel](https://github.com/lilyblessing/dsh-mcp-skill-panel) — MCP and skill management panel: a settings page listing MCP servers and the Skill catalog, with start/stop toggles to free up context usage anytime.
 - [secretLjp/dsh-weave](https://github.com/secretLjp/dsh-weave) — Harness-native conversation branches and explicit semantic harvests for DeepSeek Harness.
-- [MemTensor/MemOS](https://github.com/MemTensor/MemOS) — Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.
+- [MemTensor/MemOS](https://github.com/MemTensor/MemOS) — Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with DeepSeek Harness support.
 - [EIGHTfs/dsh-session-manager](https://github.com/EIGHTfs/dsh-session-manager) — DSH session-feature enhancement plugin (rename / branch / archive).
 - [gengmao/dsh-session-s3](https://github.com/gengmao/dsh-session-s3) — Community DSH plugin: S3-backed SessionPersistence (wal3-Lite). Immutable JSONL fragments + CAS manifest.
 - [kiligzzz/dsh-session-nav](https://github.com/kiligzzz/dsh-session-nav) — Piano-key style in-conversation navigation bar for the DeepSeek Harness web GUI: one key per user message, hover preview tooltip, click-to-jump across full history. Official dual-face dsh plugin, no dsh source changes.
@@ -1381,7 +1381,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
 - [daydreamer0213/Tian-wen](https://github.com/daydreamer0213/Tian-wen) — An auditable learning control plane for long-running agents, built on DSH.
 - [zerosloney/dsh-cbx-orch](https://github.com/zerosloney/dsh-cbx-orch) — Durable coding-agent orchestrator as a DeepSeek Harness plugin: dispatch tasks to codebuddy/opencode/omp/cline/qwen with persistent jobs, queue, review, and rollback.
-- [Wang-Lin-Chang/dsh-vap](https://github.com/Wang-Lin-Chang/dsh-vap) — VAP - Verifiable Agent Protocol: a tested trust machine for agent-to-agent messages (zero third-party dependencies, 217 tests, full experiment ledger).
+- [Wang-Lin-Chang/dsh-vap](https://github.com/Wang-Lin-Chang/dsh-vap) — VAP - Verifiable Agent Protocol: a tested trust machine for agent-to-agent messages (zero third-party dependencies, full experiment ledger).
 - [tonytanglab/deepseek-harness-relay-mcp](https://github.com/tonytanglab/deepseek-harness-relay-mcp) — Delegate long-running work to DeepSeek Harness from any MCP agent — and monitor it to completion.
 - [JingHao-Leon/dsh-alpha-desk](https://github.com/JingHao-Leon/dsh-alpha-desk) — Alpha Desk — a deepseek-harness (dsh) skill pack that turns an agent session into a compliance-first AI investment desk: multi-strategy fund backtesting via ai-hedge-fund, a tools/pre-execute risk gate, cron monitoring and thesis memory.
 
@@ -1502,7 +1502,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 <!-- Add entries here. -->
 - [bobowsh/dsh-llm-opencode](https://github.com/bobowsh/dsh-llm-opencode) — OpenCode Zen free model adapter for DeepSeek Harness (DSH) — DeepSeek V4 Flash Free, Nemotron 3 Ultra Free, MiMo V2.5 Free, Big Pickle.
 - [EdwinDigital/dsh-web-search-microsoft-webiq](https://github.com/EdwinDigital/dsh-web-search-microsoft-webiq) — Microsoft Web IQ search provider plugin for DeepSeek Harness.
-- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses) — DeepSeek Harness adapter for the Qwen Token Plan CN Responses API with live official model and built-in tool catalog sync.
 - [yhyfhgs/dsh-providers-extension](https://github.com/yhyfhgs/dsh-providers-extension) — Provider accounts, live model catalogs, and model selection for DeepSeek Harness.
 - [dong-victor/dsh-mcphub](https://github.com/dong-victor/dsh-mcphub) — Bridges a local MCPHub aggregator (`@samanhappy/mcphub`) into DSH: registers every tool from every enabled MCPHub server as native DSH agent tools, with a sidebar status panel and `mcphub_status` / `mcphub_resync` tools.
 - [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) — AIGC Radar project search for DSH: a native-plugin wrapper over the AIGC Radar MCP endpoint that surfaces curated, 500-star-floor GitHub projects as native web-search cards, plus proactive "check before you rebuild it" discovery routing.
@@ -1643,7 +1642,6 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) — Turns local Wallpaper Engine wallpapers into the DSH web UI background: dynamic Video playback, Web via iframe, Scene wallpapers extracted as static-frame textures; iOS liquid-glass settings panel (color / glass tint / opacity), content rating and type filters, custom wallpaper upload, compact CD-rack layout, vinyl-record display, hide/restore, speed/flip controls, and auto-rotation.
 - [GeekRicardo/dsh-better-tool-ui](https://github.com/GeekRicardo/dsh-better-tool-ui) — DeepSeek Harness web plugin that renders tool calls (including MCP), streaming tool rows, and thinking rows as a compact timeline.
 - [hinayoung23/dsh-live-wallpaper](https://github.com/hinayoung23/dsh-live-wallpaper) — Dependency-free dynamic wallpapers for the DeepSeek Harness Web UI.
-- [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) — Meow Smooth: a dsh (DeepSeek Harness) front-end UX plugin — fold composer, mobile sidebar/header polish, notifications via Web Push.
 - [Physicolor/harness-ui-enhancer](https://github.com/Physicolor/harness-ui-enhancer) — Web UI polish layer for DeepSeek Harness: normalizes unfinished or self-contradictory official UI, reconciles style conflicts between installed plugins, and unifies the visual language via official design tokens.
 - [SCT192221/dsh-multimodal](https://github.com/SCT192221/dsh-multimodal) — DeepSeek Harness multimodal plugin aiming for a near-native experience.
 - [trewvip-arch/dsh-open-in-app](https://github.com/trewvip-arch/dsh-open-in-app) — dsh web-UI plugin: open the current session's workspace folder with an installed app (Finder, Terminal, VS Code, Ghostty, Zed, ...) — icons included.

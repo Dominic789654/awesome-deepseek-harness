@@ -592,7 +592,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 
 - [lilyblessing/dsh-mcp-skill-panel](https://github.com/lilyblessing/dsh-mcp-skill-panel) —— MCP 与技能管理面板：设置页展示 MCP 服务器与 Skill 目录，随时启停释放上下文占用。
 - [secretLjp/dsh-weave](https://github.com/secretLjp/dsh-weave) —— 面向 DeepSeek Harness 的 Harness 原生对话分支与显式语义采撷。
-- [MemTensor/MemOS](https://github.com/MemTensor/MemOS) —— 面向 LLM 与 AI Agent 的自演化 Memory OS：超持久记忆、混合检索、跨任务技能复用，节省 35.24% token，支持 DeepSeek Harness。
+- [MemTensor/MemOS](https://github.com/MemTensor/MemOS) —— 面向 LLM 与 AI Agent 的自演化 Memory OS：超持久记忆、混合检索、跨任务技能复用，支持 DeepSeek Harness。
 - [EIGHTfs/dsh-session-manager](https://github.com/EIGHTfs/dsh-session-manager) —— DSH 会话功能增强插件（重命名/分支/归档）。
 - [gengmao/dsh-session-s3](https://github.com/gengmao/dsh-session-s3) —— 基于 S3 的会话持久化社区插件（wal3-Lite）：不可变 JSONL 分段 + CAS 清单。
 - [kiligzzz/dsh-session-nav](https://github.com/kiligzzz/dsh-session-nav) —— DeepSeek Harness Web GUI 的钢琴键式对话内导航栏：每条用户消息对应一键，hover 预览提示，点击跨全历史跳转。官方双面 dsh 插件，无需修改 dsh 源码。
@@ -1366,7 +1366,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
 - [daydreamer0213/Tian-wen](https://github.com/daydreamer0213/Tian-wen) —— 基于 DSH 构建的、可审计的长时运行 agent 学习控制平面。
 - [zerosloney/dsh-cbx-orch](https://github.com/zerosloney/dsh-cbx-orch) —— 作为 DeepSeek Harness 插件的持久化 coding-agent 编排器：把任务派发给 codebuddy/opencode/omp/cline/qwen，支持持久化任务、队列、审核与回滚。
-- [Wang-Lin-Chang/dsh-vap](https://github.com/Wang-Lin-Chang/dsh-vap) —— VAP - Verifiable Agent Protocol：面向 agent 间消息的经过测试的信任机器（零第三方依赖，217 个测试，完整实验台账）。
+- [Wang-Lin-Chang/dsh-vap](https://github.com/Wang-Lin-Chang/dsh-vap) —— VAP - Verifiable Agent Protocol：面向 agent 间消息的经过测试的信任机器（零第三方依赖，完整实验台账）。
 - [tonytanglab/deepseek-harness-relay-mcp](https://github.com/tonytanglab/deepseek-harness-relay-mcp) —— 让任意 MCP agent 都能把长时运行任务委派给 DeepSeek Harness，并监控其执行到完成。
 - [JingHao-Leon/dsh-alpha-desk](https://github.com/JingHao-Leon/dsh-alpha-desk) — Alpha Desk — a deepseek-harness (dsh) skill pack that turns an agent session into a compliance-first AI investment desk: multi-strategy fund backtesting via ai-hedge-fund, a tools/pre-execute risk gate, cron monitoring and thesis memory. 把 dsh 会话变成合规、可复现、可追责的 AI 投研工作台。
 
@@ -1483,7 +1483,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 <!-- 在此添加条目。 -->
 - [bobowsh/dsh-llm-opencode](https://github.com/bobowsh/dsh-llm-opencode) —— DeepSeek Harness (DSH) 的 OpenCode Zen 免费模型适配器 —— DeepSeek V4 Flash Free、Nemotron 3 Ultra Free、MiMo V2.5 Free、Big Pickle。
 - [EdwinDigital/dsh-web-search-microsoft-webiq](https://github.com/EdwinDigital/dsh-web-search-microsoft-webiq) —— DeepSeek Harness 的 Microsoft Web IQ 搜索提供方插件。
-- [nickhelion/dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-qwen-token-plan-cn-responses) —— 面向 Qwen Token Plan CN Responses API 的 DeepSeek Harness 适配器，支持实时官方模型与内置工具目录同步。
 - [yhyfhgs/dsh-providers-extension](https://github.com/yhyfhgs/dsh-providers-extension) —— 为 DeepSeek Harness 提供 Provider 账户管理、实时模型目录与模型选择。
 - [dong-victor/dsh-mcphub](https://github.com/dong-victor/dsh-mcphub) —— 把本地 MCPHub 聚合器（`@samanhappy/mcphub`）桥接进 DSH：将其所有已启用 server 的工具注册为 DSH 原生 agent 工具，带侧边栏状态面板与 `mcphub_status` / `mcphub_resync` 工具。
 - [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) —— AIGC Radar 项目搜索插件：将 AIGC Radar 的 MCP 端点包装为原生插件，以原生 web 搜索卡片展示筛选过的、500 star 地板以上的 GitHub 项目，并在 agent 实施重建前主动检查是否已有成熟方案。
@@ -1624,7 +1623,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) —— 把本机 Wallpaper Engine 的壁纸变成 DSH 网页界面的背景：Video 动态播放、Web 以 iframe 加载、Scene 壁纸提取主纹理作为静态帧；iOS 液态玻璃设置窗口（配色 / 玻璃颜色 / 透明度）、内容分级与类型过滤、自定义壁纸上传、紧凑 CD 架布局、黑胶唱片展示、隐藏 / 恢复、倍速 / 翻转与自动轮播。
 - [GeekRicardo/dsh-better-tool-ui](https://github.com/GeekRicardo/dsh-better-tool-ui) —— DeepSeek Harness web 插件：把工具调用（含 MCP）、流式工具行与 thinking 行渲染成紧凑时间线。
 - [hinayoung23/dsh-live-wallpaper](https://github.com/hinayoung23/dsh-live-wallpaper) —— DeepSeek Harness Web UI 的零依赖动态壁纸插件。
-- [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) —— 喵丝滑: dsh (DeepSeek Harness) 前端体验插件 —— 折叠输入区、移动端侧边栏/头部优化、Web Push 通知。
 - [Physicolor/harness-ui-enhancer](https://github.com/Physicolor/harness-ui-enhancer) —— DeepSeek Harness Web UI 打磨层：修正官方 UI 中未完成或自相矛盾之处，协调已安装插件间的样式冲突，并通过官方设计令牌统一视觉语言。
 - [SCT192221/dsh-multimodal](https://github.com/SCT192221/dsh-multimodal) —— DeepSeek harness 多模态插件，接近原生体验。
 - [trewvip-arch/dsh-open-in-app](https://github.com/trewvip-arch/dsh-open-in-app) —— dsh web-UI 插件：用已安装的应用（Finder、Terminal、VS Code、Ghostty、Zed……）打开当前会话的工作区目录 —— 自带图标。
