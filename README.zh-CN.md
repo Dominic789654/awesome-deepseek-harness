@@ -553,7 +553,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [minyang2020/dsh-migrate-on-429](https://github.com/minyang2020/dsh-migrate-on-429) —— DeepSeek Harness (dsh) 插件：会话持续触发 429 TPM 限速时自动会话交接——取消旧会话、总结交接信息、在新会话中继续。真正的交接，不是并行。
 - [dsh-blue/blue](https://github.com/dsh-blue/blue) —— Blue：TUI 不是一个包，而是一棵 Cordis 插件树——面向 DeepSeek Harness 的现代终端 UI，渲染、交互与命令插件均可热插拔。
 - [euanguo/dsh-studio](https://github.com/euanguo/dsh-studio) —— DSH Studio —— 面向 DeepSeek Harness 的本地开发工作台：项目树、Git 审阅、终端与插件市场（桌面端 + Web 端）。
-- [EternalNight996/dsh-desktop](https://github.com/EternalNight996/dsh-desktop) —— dsh-desktop · DeepSeek Harness 桌面工作台 🤖 AI 打工人的快乐老家 —— 双击即用，255+ 像素专家天团（独立插件）可一键加装。
+- [EternalNight996/dsh-desktop](https://github.com/EternalNight996/dsh-desktop) —— DeepSeek Harness 桌面工作台：双击即用，内置可一键安装的插件。
 - [taskschd1145/deepseek-harness-clean](https://github.com/taskschd1145/deepseek-harness-clean) —— 一个“三无”DSH桌面子端：打开它，就等于在浏览器里打DSH，只不过它是一个带托盘图标、全原生的 Windows 窗口。
 - [leonardoxr/dsh-native](https://github.com/leonardoxr/dsh-native) —— 一个专注于 HTTPS 网页应用的 Electron 桌面外壳，支持保存服务器、快速重连，并对 DeepSeek Harness 提供一流支持。
 - [Chu-m/dsh-chat-continue](https://github.com/Chu-m/dsh-chat-continue) —— 自动重试失败的 API 请求，让 DSH 对话不中断。支持自定义状态码和错误码。
