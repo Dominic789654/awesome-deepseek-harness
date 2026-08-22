@@ -1703,7 +1703,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Piccolo123/url-manager](https://github.com/Piccolo123/url-manager) —— Agent 先行链接收藏与知识管理：从任意平台保存链接，自动分类/打标签、全文搜索、共享分类、魔法链接卡片交付。零配置——Agent 首次使用自动注册。可作为 dsh skill 或通过其 MCP server 使用。
 - [Piccolo123/url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) —— URL Manager 配套 MCP 服务端：21 个工具（mcp__url_manager__*）支持收藏/搜索/分类/共享与魔法链接交付，支持 stdio 与 streamable-http，可用 uvx 安装。
 - [KYinCode/dsh-project-mcp-bridge](https://github.com/KYinCode/dsh-project-mcp-bridge) — DeepSeek Harness 按项目加载 MCP：在项目中放置 `.dsh/mcp.json`，该项目的会话即自动获得对应 MCP 服务器工具，并支持配置热重载。是客户端桥接器，非 MCP 服务器本身。
-- [liustack/modsearch](https://github.com/liustack/modsearch) —— 🥇 全网最强的 DeepSeek Harness 免费联网搜索插件，为不能联网的模型补上搜索。免费免注册免 API key，问网页或 X，拿回结构化 JSON 证据（搜索、抓取、引用）。
+- [liustack/modsearch](https://github.com/liustack/modsearch) —— DeepSeek Harness 免费联网搜索插件，为不能联网的模型补上搜索：免费免注册免 API key，问网页或 X，拿回结构化 JSON 证据（搜索、抓取、引用）。
 
 - [wly8691-jpg/knowlp-rag](https://github.com/wly8691-jpg/knowlp-rag) —— 面向 Markdown 笔记的双知识图谱 RAG：DeepSeek Harness 与 Claude Code 的 MCP + 原生 Cordis 插件。
 

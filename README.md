@@ -1724,7 +1724,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Piccolo123/url-manager](https://github.com/Piccolo123/url-manager) — Agent-first URL collection & knowledge management: save links from any platform, auto-categorize/tag, full-text search, shared categories, and magic-link card delivery. Zero setup — agents auto-register on first use. Works as a dsh skill or via its MCP server.
 - [Piccolo123/url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) — MCP server companion for URL Manager: 21 tools (mcp__url_manager__*) for save/search/categorize/share and magic-link delivery. Stdio or streamable-http, installable via uvx.
 - [KYinCode/dsh-project-mcp-bridge](https://github.com/KYinCode/dsh-project-mcp-bridge) — Per-project MCP loading for DeepSeek Harness: drop a `.dsh/mcp.json` into a project and its sessions get the MCP servers' tools automatically, with live config reload. Client bridge, not an MCP server.
-- [liustack/modsearch](https://github.com/liustack/modsearch) — The strongest free web-search plugin for DeepSeek Harness, and a search bridge for every model without native web access. Free, no signup, no API key. Ask the web or X, get structured JSON evidence (search, fetch, citations).
+- [liustack/modsearch](https://github.com/liustack/modsearch) — Free web-search plugin for DeepSeek Harness and a search bridge for models without native web access: no signup, no API key; ask the web or X, get structured JSON evidence (search, fetch, citations).
 
 - [wly8691-jpg/knowlp-rag](https://github.com/wly8691-jpg/knowlp-rag) — Dual knowledge-graph RAG for Markdown notes — MCP + native Cordis plugin for DeepSeek Harness and Claude Code.
 
