@@ -680,6 +680,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [menotbobbybrown/dsh-plugin-memory](https://github.com/menotbobbybrown/dsh-plugin-memory) —— DeepSeek Harness (dsh) 的持久知识图谱与长期记忆插件。
 - [symmetryseeker/dsh-akn-plugin](https://github.com/symmetryseeker/dsh-akn-plugin) —— 面向 DeepSeek Harness 的 Agent Experience Network（AEN/AEXP）参考实现：可安装的 Cordis bundle，把持久化的会话轨迹转化为经审阅、可晋升的任务级经验卡片——本地优先，默认不自动发布、不上传原始 Trace。
 - [xarleyn/dsh-draft-sessions](https://github.com/xarleyn/dsh-draft-sessions) —— DeepSeek Harness 的持久化草稿会话 —— 预先准备多个独立任务，改日再发送。
+- [SpookySandwich/dsh-plugin-no-workspace](https://github.com/SpookySandwich/dsh-plugin-no-workspace) —— 创建独立会话或无损移出工作区，在侧边栏作为一级会话直接显示，不出现「未分组」文件夹。
 - [hyyhf/mindgarden](https://github.com/hyyhf/mindgarden) —— 一个用于维护个人知识/笔记“心灵花园”的 DeepSeek Harness 插件。
 - [Mutx163/dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) —— DSH 自定义模型思考等级管理与偏好持久记忆插件，支持跨会话保存。
 - [Nth-5620/dsh-readwrite-hub](https://github.com/Nth-5620/dsh-readwrite-hub) —— DeepSeek Harness 小说写作与阅读工作区插件（基于 dsh-workspace-explorer 修改的 fork，MIT）：精确到字的分页、自动保存进度、固定进度书签、回到进度快捷标签、章节目录、稿纸式写作模式。
