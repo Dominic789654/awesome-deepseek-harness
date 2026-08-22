@@ -1347,7 +1347,7 @@ _Generate presentations, decks, slide exports._
 _Code generation, refactoring, review, repo-level engineering plugins._
 
 - [lvxinrong/dsh-archscope](https://github.com/lvxinrong/dsh-archscope) — Evidence-driven system architecture reconnaissance for DeepSeek Harness.
-- [bigsongeth/dsh-jsonl](https://github.com/bigsongeth/dsh-jsonl) — Structured NDJSON event output for dsh (DeepSeek Harness) headless runs — the --json that dsh doesn't have yet.
+- [bigsongeth/dsh-events](https://github.com/bigsongeth/dsh-events) — Structured NDJSON event output for dsh (DeepSeek Harness) headless runs — the --json that dsh doesn't have yet.
 - [chenjie1129/remotion-video-plugin](https://github.com/chenjie1129/remotion-video-plugin) — Remotion video creation skill plugin for DeepSeek Harness.
 - [JoFe2/kaleidosphere-dsh-plugin](https://github.com/JoFe2/kaleidosphere-dsh-plugin) — Native KaleidoSphere database-analysis plugin for DeepSeek Harness.
 - [Whatsmore-nf/dsh-pdf-edit](https://github.com/Whatsmore-nf/dsh-pdf-edit) — PDF editor with AI text-only edits (styles unchanged). Supports single-page, batch, and layout changes; HTML intermediate preserves styles, optimized for large files.
@@ -1649,7 +1649,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 <!-- Add entries here. -->
 - [jiezeng2004-design/dsh-chatgpt-bridge](https://github.com/jiezeng2004-design/dsh-chatgpt-bridge) — MCP bridge that lets ChatGPT web create, view, continue, and control DeepSeek Harness (DSH) agent sessions.
 - [asdshuaishuai/websearch-plugins](https://github.com/asdshuaishuai/websearch-plugins) — API-key-free aggregate search (16 domestic+overseas engines with result-layer failure filtering) plus direct target-URL fetch with SSRF protection, as providers for the DeepSeek Harness web seam (ctx.web).
-- [SUJIElearning/dsh-search-nokey](https://github.com/SUJIElearning/dsh-search-nokey) — DSH search plugin without any API key — free Bing-backed search provider, no key needed.
 - [wilianyichen/dsh-official-vision](https://github.com/wilianyichen/dsh-official-vision) — Direct official DeepSeek vision API bridge for DeepSeek Harness: deepseek-v4-flash-vision-exp provider route.
 - [YePpHa/dsh-web-search-kagi](https://github.com/YePpHa/dsh-web-search-kagi) — Kagi Search v1 provider for the DeepSeek Harness.
 - [bobowsh/dsh-llm-opencode](https://github.com/bobowsh/dsh-llm-opencode) — OpenCode Zen free model adapter for DeepSeek Harness (DSH) — DeepSeek V4 Flash Free, Nemotron 3 Ultra Free, MiMo V2.5 Free, Big Pickle.

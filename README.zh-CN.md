@@ -1338,7 +1338,7 @@ _生成演示文稿、幻灯片、导出 PPT。_
 _代码生成、重构、审查、仓库级工程插件。_
 
 - [lvxinrong/dsh-archscope](https://github.com/lvxinrong/dsh-archscope) —— 面向 DeepSeek Harness 的证据驱动式系统架构侦察。
-- [bigsongeth/dsh-jsonl](https://github.com/bigsongeth/dsh-jsonl) —— 为 dsh（DeepSeek Harness）headless 运行提供结构化 NDJSON 事件输出——dsh 还没有的那个 --json。
+- [bigsongeth/dsh-events](https://github.com/bigsongeth/dsh-events) —— 为 dsh（DeepSeek Harness）headless 运行提供结构化 NDJSON 事件输出——dsh 还没有的那个 --json。
 - [chenjie1129/remotion-video-plugin](https://github.com/chenjie1129/remotion-video-plugin) —— 面向 DeepSeek Harness 的 Remotion 视频创作技能插件。
 - [JoFe2/kaleidosphere-dsh-plugin](https://github.com/JoFe2/kaleidosphere-dsh-plugin) —— 面向 DeepSeek Harness 的 KaleidoSphere 原生数据库分析插件。
 - [Whatsmore-nf/dsh-pdf-edit](https://github.com/Whatsmore-nf/dsh-pdf-edit) —— PDF 编辑插件，AI 只改文字不改样式，支持单页、批量、换排式，HTML 中转保留样式，高效处理大文件。
@@ -1630,7 +1630,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 <!-- 在此添加条目。 -->
 - [jiezeng2004-design/dsh-chatgpt-bridge](https://github.com/jiezeng2004-design/dsh-chatgpt-bridge) —— MCP 桥接，让 ChatGPT 网页端可创建、查看、继续并控制 DeepSeek Harness (DSH) agent 会话。
 - [asdshuaishuai/websearch-plugins](https://github.com/asdshuaishuai/websearch-plugins) —— 无需 API key 的聚合搜索（国内国外 16 个引擎，带结果层失败过滤）外加目标 URL 直取（带 SSRF 防护），作为 DeepSeek Harness web 接口（ctx.web）的提供商。
-- [SUJIElearning/dsh-search-nokey](https://github.com/SUJIElearning/dsh-search-nokey) —— DSH 无需任何 API key 的联网搜索插件，基于 Bing 的免费搜索提供商。
 - [wilianyichen/dsh-official-vision](https://github.com/wilianyichen/dsh-official-vision) —— 直连 DeepSeek 官方视觉 API 的 DSH 插件：deepseek-v4-flash-vision-exp 提供商路线。
 - [YePpHa/dsh-web-search-kagi](https://github.com/YePpHa/dsh-web-search-kagi) —— 面向 DeepSeek Harness 的 Kagi Search v1 提供商。
 - [bobowsh/dsh-llm-opencode](https://github.com/bobowsh/dsh-llm-opencode) —— DeepSeek Harness (DSH) 的 OpenCode Zen 免费模型适配器 —— DeepSeek V4 Flash Free、Nemotron 3 Ultra Free、MiMo V2.5 Free、Big Pickle。
