@@ -897,6 +897,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
+- [Dabouben/dsh-daily-tasks](https://github.com/Dabouben/dsh-daily-tasks) — Daily/weekly task manager (startup popup reminder, marquee strip above the composer, one-click circle completion, editable task cards, Sunday AI weekly summary) plus a sidebar DeepSeek API usage/balance widget (balance card, today/cumulative tokens & cost, per-model breakdown, 7-day chart). JSON persistence under $DSH_HOME, Windows/macOS. Install: `dsh plugin --profile web add @dabouben/dsh-daily-tasks`.
 
 - [1841220388zzzcccxxx-star/dsh-token-stats](https://github.com/1841220388zzzcccxxx-star/dsh-token-stats) — Token usage & cost statistics plugin for DeepSeek Harness — per model / date / session, cost estimation (USD/CNY), CSV/JSON export.
 - [lninghaha/dsh-hub-oauth-gateway](https://github.com/lninghaha/dsh-hub-oauth-gateway) — DSH Web plugin: Usage Center with Hub snapshots and cost analytics, coding-plan OAuth, and optional loopback OpenAI-compatible gateway.
