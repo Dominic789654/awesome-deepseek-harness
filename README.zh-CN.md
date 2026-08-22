@@ -860,7 +860,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [mianyoubiaoqing/dsh-Mmem](https://github.com/mianyoubiaoqing/dsh-Mmem) —— 这是一个支持同 dsh 进程多记忆空间的 dsh 记忆插件。
 - [tmpdot/dsh-checkpoint-diff](https://github.com/tmpdot/dsh-checkpoint-diff) —— DeepSeek Harness 检查点时间节点间的文件差异可视化：只读时间线 + 基于 dsh-checkpoint-rewind 检查点的逐文件行级 diff，提供 /diff 命令、JSON HTTP API 与 GUI 面板。
 - [FloatingLifeTL/dsh-plugin-session-manager-custom](https://github.com/FloatingLifeTL/dsh-plugin-session-manager-custom) —— 面向 DeepSeek Harness Web 的本地会话数据管理插件。
-- [baosfeng/file-change-record](https://github.com/baosfeng/file-change-record) —— DSH web 插件：面向 dsh-better-sidebar 的文件活动追踪工具。
+- [baosfeng/my-dsh-plugins](https://github.com/baosfeng/my-dsh-plugins) —— DSH web 插件：面向 dsh-better-sidebar 的文件活动追踪工具。
 - [chou109/dsh-msgrail](https://github.com/chou109/dsh-msgrail) —— MsgRail（消息轨道）： DeepSeek Harness 的端侧消息轨道插件 —— 在对话左侧，为你发送的每条消息显示一根细横线。悬停预览，点击即跳转，更早消息自动加载；全量历史、实时更新、中英双语。
 
 ## 成本与用量统计

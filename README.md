@@ -867,7 +867,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [gyyxs88/dsh-session-control](https://github.com/gyyxs88/dsh-session-control) — Authorized, durable cross-session control for DeepSeek Harness.
 - [mianyoubiaoqing/dsh-Mmem](https://github.com/mianyoubiaoqing/dsh-Mmem) — A DSH memory plugin supporting multiple memory spaces within the same dsh process.
 - [tmpdot/dsh-checkpoint-diff](https://github.com/tmpdot/dsh-checkpoint-diff) — File-diff visualization between checkpoint time nodes for DeepSeek Harness: read-only timeline + per-file line diff over dsh-checkpoint-rewind checkpoints, as a /diff command, JSON HTTP API, and GUI panel.
-- [baosfeng/file-change-record](https://github.com/baosfeng/file-change-record) — DSH web plugin: file activity tracker for dsh-better-sidebar.
+- [baosfeng/my-dsh-plugins](https://github.com/baosfeng/my-dsh-plugins) — DSH web plugin: file activity tracker for dsh-better-sidebar.
 - [chou109/dsh-msgrail](https://github.com/chou109/dsh-msgrail) — MsgRail: a narrow message rail for DeepSeek Harness — one thin bar on the left of the chat for each message you sent. Hover to preview, click to jump — older messages load automatically. Full history, live, bilingual.
 
 ## Cost & Usage Tracking
