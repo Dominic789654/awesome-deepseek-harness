@@ -551,6 +551,12 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [enterhalf/dsh-web-network-optimizer](https://github.com/enterhalf/dsh-web-network-optimizer) —— dsh 网页端网络优化：通过缓存与压缩技术降低传输，从而大幅提升网页加载速度；同时提供网络断连指示与自动断网重连功能。非常适合追求极致性能或网络不稳定用户使用。
 - [ismoss/dsh-harness-zh-l10n](https://github.com/ismoss/dsh-harness-zh-l10n) —— DeepSeek Harness (dsh) 中文界面汉化补丁：五模式描述/权限标签/命令描述/梁神模式全部汉化，apply.bat 一键安装，拿到就能用。
 - [minyang2020/dsh-migrate-on-429](https://github.com/minyang2020/dsh-migrate-on-429) —— DeepSeek Harness (dsh) 插件：会话持续触发 429 TPM 限速时自动会话交接——取消旧会话、总结交接信息、在新会话中继续。真正的交接，不是并行。
+- [dsh-blue/blue](https://github.com/dsh-blue/blue) —— Blue：TUI 不是一个包，而是一棵 Cordis 插件树——面向 DeepSeek Harness 的现代终端 UI，渲染、交互与命令插件均可热插拔。
+- [euanguo/dsh-studio](https://github.com/euanguo/dsh-studio) —— DSH Studio —— 面向 DeepSeek Harness 的本地开发工作台：项目树、Git 审阅、终端与插件市场（桌面端 + Web 端）。
+- [EternalNight996/dsh-desktop](https://github.com/EternalNight996/dsh-desktop) —— dsh-desktop · DeepSeek Harness 桌面工作台 🤖 AI 打工人的快乐老家 —— 双击即用，255+ 像素专家天团（独立插件）可一键加装。
+- [taskschd1145/deepseek-harness-clean](https://github.com/taskschd1145/deepseek-harness-clean) —— 一个“三无”DSH桌面子端：打开它，就等于在浏览器里打DSH，只不过它是一个带托盘图标、全原生的 Windows 窗口。
+- [leonardoxr/dsh-native](https://github.com/leonardoxr/dsh-native) —— 一个专注于 HTTPS 网页应用的 Electron 桌面外壳，支持保存服务器、快速重连，并对 DeepSeek Harness 提供一流支持。
+- [Chu-m/dsh-chat-continue](https://github.com/Chu-m/dsh-chat-continue) —— 自动重试失败的 API 请求，让 DSH 对话不中断。支持自定义状态码和错误码。
 
 ## 安全与权限
 
@@ -655,6 +661,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [sperictao/dsh-auth-tailscale](https://github.com/sperictao/dsh-auth-tailscale) —— 面向 DeepSeek Harness 的 Tailscale 身份与能力授权适配器。
 - [sperictao/dsh-client-connection-authz](https://github.com/sperictao/dsh-client-connection-authz) —— 面向 DeepSeek Harness 客户端连接的具鉴权能力的替代实现。
 - [TiantianFlow/dsh-one-gateway](https://github.com/TiantianFlow/dsh-one-gateway) —— Private DSH One Gateway——面向 DeepSeek Harness 的本地回环、身份优先接入层。
+- [lifeopsgo/dsh-capability-toggle-plugin](https://github.com/lifeopsgo/dsh-capability-toggle-plugin) —— 从 DSH WebUI 输入框中切换单项 agent 能力（skill、MCP、tool、prompt、approval、guard）—— 支持会话级 / 项目级 / 全局级。DSH 各种能力（mcp/skill/tool等）多层级开关灵活控制。
 ## 会话与记忆管理
 
 _跨会话记忆、checkpoint、会话置顶与导航插件。_
@@ -868,6 +875,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [FloatingLifeTL/dsh-plugin-session-manager-custom](https://github.com/FloatingLifeTL/dsh-plugin-session-manager-custom) —— 面向 DeepSeek Harness Web 的本地会话数据管理插件。
 - [baosfeng/my-dsh-plugins](https://github.com/baosfeng/my-dsh-plugins) —— DSH web 插件：面向 dsh-better-sidebar 的文件活动追踪工具。
 - [chou109/dsh-msgrail](https://github.com/chou109/dsh-msgrail) —— MsgRail（消息轨道）： DeepSeek Harness 的端侧消息轨道插件 —— 在对话左侧，为你发送的每条消息显示一根细横线。悬停预览，点击即跳转，更早消息自动加载；全量历史、实时更新、中英双语。
+- [robbyisrobby/dsh-codex-pins](https://github.com/robbyisrobby/dsh-codex-pins) —— 面向 DeepSeek Harness 的 Codex 风格置顶会话——始终显示在侧边栏列表上方。
+- [Ruiming-cn/dsh-more-session-operations](https://github.com/Ruiming-cn/dsh-more-session-operations) —— DeepSeek Harness Web 侧边栏会话行菜单增强：通过官方完成提醒圆点标记未读、复制会话 ID、带确认的删除会话、归档确认，以及递归删除子代理会话。
+- [shengyvself/dsh-autoresume](https://github.com/shengyvself/dsh-autoresume) —— 自动恢复 DeepSeek Harness 会话的自动化插件。
 
 ## 成本与用量统计
 
@@ -1022,6 +1032,7 @@ _token 用量、成本看板与预算告警插件。_
 - [xie-tj/dsh-plugin-usage-ledger](https://github.com/xie-tj/dsh-plugin-usage-ledger) —— DeepSeek Harness 的持久化用量账本与 Web 用量仪表盘插件。
 - [heekei/dsh-usage](https://github.com/heekei/dsh-usage) —— DSH 供应商用量查询插件 —— 实时查询 Kimi/智谱/DeepSeek/火山方舟等套餐与余额，在输入框下方显示用量读数条。安装：`dsh plugin --profile web add github:heekei/dsh-usage`。
 - [whisperflo/dsh-deepseek-console](https://github.com/whisperflo/dsh-deepseek-console) —— DeepSeek 账户控制台：实时余额监控 / 用量统计 / 全局悬浮 HUD（官方 API 直连，Key 仅存本机）。
+- [V-dev-388/dsh-usage-meter](https://github.com/V-dev-388/dsh-usage-meter) —— DSH（DeepSeek Harness）模型用量仪表盘插件：设置面板中展示按供应商/模型的 token 汇总，以及今日/7 天/30 天趋势。
 
 ## Channel / IM 桥接
 
@@ -1223,6 +1234,9 @@ _插件市场、安装管理器、索引与生态工具。_
 - [jianbin-01/dsh-plugin-manager](https://github.com/jianbin-01/dsh-plugin-manager) —— 在 Web 设置里直接启停 dsh 插件，区分内置与用户安装。一键行级和整批切换。
 - [omdsh-dev/ex-setting](https://github.com/omdsh-dev/ex-setting) —— DSH的设置扩展。
 - [skyf0xx/hedgehog-core-deepseek-harness](https://github.com/skyf0xx/hedgehog-core-deepseek-harness) —— 用 Hedgehog 构建 DeepSeek Harness (DSH) 插件：提供插件工作区、生成器以及 agent skill，快速构建强大的插件。
+- [Casually/dsh-plug-mcp](https://github.com/Casually/dsh-plug-mcp) —— DeepSeek Harness 插件市场收录条目：面向 MCP 的 DSH 插件，支持插件校验/上架流程。
+- [Casually/dsh-plug-skills](https://github.com/Casually/dsh-plug-skills) —— DeepSeek Harness 插件市场收录条目：面向 Skills 的 DSH 插件。
+- [zr-promise/dsh-plugin-market](https://github.com/zr-promise/dsh-plugin-market) —— 基于 Cordis 的 DeepSeek Harness（DSH）插件市场插件。
 ## 可视化
 
 _把数据 / 结果变成图表、图形、看板的插件。_
@@ -1744,6 +1758,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [chendefine/dsh-web-fetch-playwright](https://github.com/chendefine/dsh-web-fetch-playwright) —— 面向 DeepSeek Harness 的 Playwright/CDP web-fetch 提供方：在真实浏览器中渲染页面，去噪（Readability + DOMPurify），返回 markdown。
 - [subfocusx/utm-github](https://github.com/subfocusx/utm-github) —— DSH（Cordis）插件：通过 GitHub REST API 提供 github_* 工具（user、repo、search、topics、file put、issues、gists、releases）。
 - [Tabbit-Browser/dsh-tabbit](https://github.com/Tabbit-Browser/dsh-tabbit) —— 面向 DeepSeek Harness 的 Tabbit Browser 插件。
+- [fno2010/dsh-web-search-ext](https://github.com/fno2010/dsh-web-search-ext) —— 面向 DeepSeek Harness（DSH）的多后端 web_search 提供方：Exa + Firecrawl 自动故障切换，可免密钥使用。
+- [quan-v/dsh-mcp-ui](https://github.com/quan-v/dsh-mcp-ui) —— DeepSeek Harness 的 MCP 服务器配置界面插件（由 DeepSeek Harness 生成）。
 
 ## 编排器与聚合器
 
@@ -2600,6 +2616,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Pluszzz/dsh-desktop-launcher](https://github.com/Pluszzz/dsh-desktop-launcher) —— deepseek-harness 的桌面快捷启动插件。
 - [songying2024/dsh-bookmarks-dock](https://github.com/songying2024/dsh-bookmarks-dock) —— DeepSeek Harness (DSH) 左侧书签导航栏插件。
 - [Willmylife/dsh-dynamic-wallpaper](https://github.com/Willmylife/dsh-dynamic-wallpaper) —— DSH 动态壁纸插件：6+ 种动态背景（粒子、流星雨等），支持自定义导入，可调透明度/模糊/速度。
+- [Cheerwhy/dsh-chat-anchors](https://github.com/Cheerwhy/dsh-chat-anchors) —— dsh（DeepSeek Harness）网页客户端插件：聊天锚点缩略导航条，视觉风格贴合官方站点——折叠刻度、悬停展开、点击跳转。
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
