@@ -578,6 +578,20 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [modelbus/deepseek-harness-pro](https://github.com/modelbus/deepseek-harness-pro) —— deepseek-harness-pro 是基于 deepseek-harness 的 Web+Electron 客户端，兼容已有的 deepseek-harness 环境，并支持一键部署最新版 deepseek-harness。相比原 web 功能做出增强：新增实时任务看板、电脑管家（清理/调优/进程管理）、独立插件中心等功能。界面友好，跨平台，开源免费，让 deepseek-harness 更强大易用。
 - [SpookySandwich/dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) —— DSH 刷灰测模型插件：通过打分实时思维链来钓限量灰度对话模型。
 - [StvLi/dsh-ros2](https://github.com/StvLi/dsh-ros2) —— Deepseek Harness ROS 2 插件，可用于高效诊断问题并进行联合调试。
+- [BuLongY/dsh-proxy](https://github.com/BuLongY/dsh-proxy) —— DeepSeek Harness 的网络代理插件（clash/cordis 集成）。
+- [citrusli2026/dsh-electron-shell](https://github.com/citrusli2026/dsh-electron-shell) —— 非官方 DeepSeek Harness Electron 桁子：内建 Node 运行时、安装包、自动更新。
+- [Evan1u/deepseek-harness-desktop](https://github.com/Evan1u/deepseek-harness-desktop) —— 轻量级 DeepSeek Harness 桁子应用。
+- [LVSUGARS/dsh-web-launcher](https://github.com/LVSUGARS/dsh-web-launcher) —— DeepSeek Harness (DSH) Web 的 Windows 桁子启动器：安装官方 CLI、管理本地工作区，安全地启动/停止/更新 DSH。
+- [NevermindZZT/dsh-launcher](https://github.com/NevermindZZT/dsh-launcher) —— 支持 ssh 远程连接的最小化一键 dsh 启动器。
+- [NevermindZZT/dsh-manager](https://github.com/NevermindZZT/dsh-manager) —— dsh 远程使用服务器管理工具。
+- [severin-ye/uagent-sync](https://github.com/severin-ye/uagent-sync) —— 面向 OpenCode、Codex 与 DeepSeek Harness 的跨设备 agent 工作区同步：备份、还原、更新与配置检查。
+- [SUJIElearning/zhaoyu-restart](https://github.com/SUJIElearning/zhaoyu-restart) —— DeepSeek Harness 一键静默重启按钮（dsh-plugin）。
+- [syncended/deepseek-harness-automations](https://github.com/syncended/deepseek-harness-automations) —— DeepSeek Harness 自动化插件（dsh-plugin）。
+- [usersx/dsh-automation-center](https://github.com/usersx/dsh-automation-center) —— DeepSeek Harness 根级自动化中心：定时任务、新建 Result Session、跨工作区运行历史。
+- [vibeinging/dsh-desktop](https://github.com/vibeinging/dsh-desktop) —— DeepSeek Harness 桁子应用：面向 DSH Session、项目、文件、网络研究、插件与 Office 产出的本地 AI 桁子工作区。
+- [yoshino-xiao7/deepseek-harness-desktop-yukiryou](https://github.com/yoshino-xiao7/deepseek-harness-desktop-yukiryou) —— 面向 macOS 与 Windows 的独立 DeepSeek Harness 桁子工作台。
+- [yth1120/deepseek-harness](https://github.com/yth1120/deepseek-harness) —— 含 dsh-web-workbench 插件套件（右侧工作台、终端、时间轴、review、文件与浏览器预览）的 DeepSeek Harness 源码。
+- [ZhuoSir/dsh-cron](https://github.com/ZhuoSir/dsh-cron) —— DeepSeek Harness 定时任务插件：对话中自然语言创建，到点自动执行并在会话中回复，支持 cron 表达式与 Web 管理面板。
 
 ## 安全与权限
 
@@ -928,6 +942,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [chenzheshushi-commits/dsh-evolve](https://github.com/chenzheshushi-commits/dsh-evolve) —— DeepSeek Harness 的自进化记忆 + 技能生命周期管理：跨会话持久记忆、零 token 确定性回想、分级审批、基于重复行为的强化学习，以及技能与记忆双方面的防臃肿收敛机制。
 - [chensl139-ok/dsh-archived-panel](https://github.com/chensl139-ok/dsh-archived-panel) —— DeepSeek Harness 插件：侧边栏「已归档」面板，可查看/打开/取消归档会话。
 - [notload/dsh-session-toc](https://github.com/notload/dsh-session-toc) —— 为 DeepSeek Harness Web UI 每个会话页右侧加一个类似 deepseek 网页端的常驻、可折叠的目录栏：每条用户提问对应一个条目，点击即可滚动定位到对应消息并高亮当前条目。
+- [1014029855/dsh-context-lens](https://github.com/1014029855/dsh-context-lens) —— 检视、度量、搜索并对比 DeepSeek Harness 装配的、与 provider 无关的真实上下文内容。
+- [kittimzhe/dsh-session-export](https://github.com/kittimzhe/dsh-session-export) —— DeepSeek Harness 人可读会话导出插件 —— `/transcript` 命令通过 `ctx.sessionQuery` 将 Markdown/JSON 写入宿主机路径（dsh-plugin）。
+- [ly028716/dsh-memory-plugin](https://github.com/ly028716/dsh-memory-plugin) —— DSH 智能记忆系统：跟踪用户偏好、工具使用情况与项目上下文，提供个性化推荐。
 
 ## 成本与用量统计
 
@@ -1104,6 +1121,8 @@ _token 用量、成本看板与预算告警插件。_
 - [lyq3/dsh-plugin-model-quota](https://github.com/lyq3/dsh-plugin-model-quota) —— 在 DeepSeek Harness 中展示 CLIProxyAPI 订阅额度。
 - [overact/dsh-peak-indicator](https://github.com/overact/dsh-peak-indicator) —— DSH Web GUI 的 DeepSeek 峰谷时段指示器（实时状态、时区自动识别、倒计时、SVG 图标、折扣时段表）。
 - [zisekongling/deepseek-peak-blocker](https://github.com/zisekongling/deepseek-peak-blocker) —— 高峰时段，对发往 DeepSeek 官方 API 的新请求进行友好拦截与询问。
+- [licyer/dsh-token-monitor](https://github.com/licyer/dsh-token-monitor) —— DSH Web 模型余量与用量监控插件。
+- [whoisDDD/dsh-quota-dashboard](https://github.com/whoisDDD/dsh-quota-dashboard) —— DSH 插件：AI API 余额/额度监控，包含 DeepSeek 峰谷倒计时、OpenCode Go 额度、Key 主机侧隔离、终端风面板、配置持久化。
 
 ## Channel / IM 桥接
 
@@ -1451,6 +1470,9 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [lhwu1/dsh-seelog](https://github.com/lhwu1/dsh-seelog) —— 还在为繁杂的 log 而苦恼吗？直接拓扑展示，清晰理顺所有，多智能体也不怕。
 - [Iwctwbh/dsh-flowglass](https://github.com/Iwctwbh/dsh-flowglass) —— 流镜 Flowglass —— DeepSeek Harness session flowgraph，实时可视化消息、工具组、子代理分支与步骤详情。
 - [guhanfei-ai/dsh-mindmap](https://github.com/guhanfei-ai/dsh-mindmap) —— 让 DSH 帮你快速制作思维脑图。
+- [ImCabbage/dsh-plugin-mindmap](https://github.com/ImCabbage/dsh-plugin-mindmap) —— MindMap：将对话提炼为持久化故事线的 DeepSeek Harness 插件，带交互式地图面板。
+- [Max-Null/dsh-node-appearance](https://github.com/Max-Null/dsh-node-appearance) —— 会话节点外观插件：按节点类型/工具名给 DeepSeek Harness Web GUI 会话节点上色（可配色配色）+ 思考过程显示开关。
+- [SnowCrescenter-tech/dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) —— 会话里程碑导航条：像 Git 提交图一眼定位每条提问，悬停看时间/轮次/耗时/TTFT，点击即跳转。
 
 ## 幻灯片 / PPT
 
@@ -2781,6 +2803,15 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [dataizu/dsh-whale-aqua-theme](https://github.com/dataizu/dsh-whale-aqua-theme) ——「鲸蓝戏水」macOS theme + swimming whale aquarium background for the DeepSeek Harness Web GUI (dsh-plugin)。
 - [Hjay1101/dsh-ios-control](https://github.com/Hjay1101/dsh-ios-control) —— DeepSeek Harness 插件：手机扫码遥控电脑上的 agent —— 在 dsh-remote-link 基础上增强会话持久化（dsh 重启后已配对设备保持登录）、iOS 主屏图标等。
 - [Yuer6327/NoLetMe](https://github.com/Yuer6327/NoLetMe) —— Deepseek v4 神鬼二象性观测面板。
+- [001-orz/dsh-pet](https://github.com/001-orz/dsh-pet) —— 🐾 DSH（DeepSeek Harness）桁宠插件 —— 会陌你互动、拥有 50+ 动画表情的桁面虚拟伙伴。基于 PC2005-cloud/dsh-pet 整理发布。可选的「余额 / 已消耗」功能才会调用 DeepSeek 余额 API（密钥取自 DSH 凭据，不入库、不回显）。
+- [AKS1st/dock](https://github.com/AKS1st/dock) —— DSH 生态中最好的工作台基座插件：VSCode 风格布局外壳（活动栏/侧边栏/编辑器区/面板/状态栏）+ ctx.workbench 开放注册表，功能插件即插即用；推荐搭配 dock-files/dock-editor/dock-git。
+- [AKS1st/dock-files](https://github.com/AKS1st/dock-files) —— DSH 生态中最好的文件浏览插件：VSCode 资源管理器级的目录树、新建/重命名/复制粘贴/删除、拖放导入、粘贴本地文件与剪贴板图片、上传进度条与右键菜单；依赖 dock 基座。
+- [AKS1st/dock-git](https://github.com/AKS1st/dock-git) —— DSH 生态中最好的 Git 历史可视化插件：泳道式提交图、分支/标签徽标、三栏 diff、暂存/提交/推送、远端管理；依赖 dock 基座。
+- [AKS1st/dock-images](https://github.com/AKS1st/dock-images) —— DSH 生态中最好的图片查看插件：支持 PNG/JPEG/GIF/WebP/BMP/SVG/ICO/AVIF 八种格式，SVG 仅安全渲染；依赖 dock 与 dock-files。
+- [AKS1st/dock-markdown](https://github.com/AKS1st/dock-markdown) —— DSH 生态中最好的 Markdown 查看插件：GFM 渲染、DOMPurify 消毒、文档大纲、相对路径图片/链接解析、一键切换编辑；依赖 dock/dock-files/dock-editor。
+- [AKS1st/dock-media](https://github.com/AKS1st/dock-media) —— DSH dock 的媒体播放器：支持音频（音乐播放器）与视频（全屏）文件播放，基于 HTTP Range 流式传输。
+- [AlexPeng07/dsh-custom-plugin](https://github.com/AlexPeng07/dsh-custom-plugin) —— 为 DeepSeek Harness (DSH) Web GUI 打造的增强插件。提供：背景天气特效/玻璃拟态、时间线轨道、项目文件夹、提示词库、对话导出、Mermaid 图表渲染、引用回复、余额查询与每日 Token 用量面板等多种便利功能。
+- [mhwww/dsh-bg-image](https://github.com/mhwww/dsh-bg-image) —— DeepSeek Harness (dsh) 背景图片插件：内置默认图 / 自定义上传 / Wallpaper Engine 创意工坊一键应用 / 视频壁纸 ffmpeg 高清抽帧。
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
