@@ -926,7 +926,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) —— DeepSeek Harness Web GUI 的长期记忆插件：项目级+全局存储、自动提取/注入、小模型整理归纳、Obsidian 风格链接图谱。
 - [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) —— 面向编程智能体的记忆工具。为 20 种智能体已写入磁盘的会话建立索引（包括安装前数月的历史），并可在任意智能体中回溯调用。无需 LLM、无需 embedding——一个本地 Go 二进制文件即可运行。
 - [chenzheshushi-commits/dsh-evolve](https://github.com/chenzheshushi-commits/dsh-evolve) —— DeepSeek Harness 的自进化记忆 + 技能生命周期管理：跨会话持久记忆、零 token 确定性回想、分级审批、基于重复行为的强化学习，以及技能与记忆双方面的防臃肿收敛机制。
-- [937862061/dsh-project-workbench](https://github.com/937862061/dsh-project-workbench) —— DeepSeek Harness Web 本地项目工作台：按项目、需求组和会话管理原生对话，并以渐进式共享记忆自动衔接组内上下文。
 - [chensl139-ok/dsh-archived-panel](https://github.com/chensl139-ok/dsh-archived-panel) —— DeepSeek Harness 插件：侧边栏「已归档」面板，可查看/打开/取消归档会话。
 - [notload/dsh-session-toc](https://github.com/notload/dsh-session-toc) —— 为 DeepSeek Harness Web UI 每个会话页右侧加一个类似 deepseek 网页端的常驻、可折叠的目录栏：每条用户提问对应一个条目，点击即可滚动定位到对应消息并高亮当前条目。
 
