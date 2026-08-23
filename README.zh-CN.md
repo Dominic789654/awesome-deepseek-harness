@@ -1614,6 +1614,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [huangrx6/dsh-plugin](https://github.com/huangrx6/dsh-plugin) — DeepSeek Harness (DSH) 插件合集：Skill 管理（导入/详情/多格式文件预览）、MCP 服务器管理（补丁层读写/测试连接/工具明细）、布局设置。
 - [ilps2/dsh-video-understand](https://github.com/ilps2/dsh-video-understand) — 低成本视频理解 dsh 插件：B站/本地视频 → AVIS 信息层 → 摘要+问答（token 压缩 99.95%+）。
 - [JohnXu22786/codegraph](https://github.com/JohnXu22786/codegraph) — 面向 agent harness（dsh）的代码知识图谱插件：将符号、调用点与导入关系索引进 SQLite，通过 CLI 或 stdio MCP 工具服务器回答调用/依赖问题。
+- [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) — 面向视觉大模型的大图智能识图插件：800×800 无损切块识别（smart/pipeline/full 三策略）、本地 OCR（前处理+手写分流）、可选多厂商 GPU 加速（DirectML 覆盖 NVIDIA/AMD/Intel，CUDA/OpenVINO），自动回退 CPU。MIT 开源。
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) — dsh 插件：文档工坊技能包。纯提示词（Agent Skills）的文档生成技能：README 生成、PR 描述、changelog 与代码审查；零第三方依赖。
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) — Steno - dsh 插件：发送前内联 #tag 速记扩展（多库、别名、{{变量}}、递归防护）。
 - [JohnXu22786/spec-driven](https://github.com/JohnXu22786/spec-driven) — keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防过度工程与范围蔓延，为 dsh 等插件化 harness 提供技能+工具+模板。
