@@ -1694,10 +1694,10 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [AlexYin-Tongji/dsh-ui-enhancer](https://github.com/AlexYin-Tongji/dsh-ui-enhancer) —— 非官方 DeepSeek Harness 桌面 UI 插件：文件工作区、壁纸、宠物与 @file 引用。
 - [LingYuYue1/dsh-workbench](https://github.com/LingYuYue1/dsh-workbench) —— VSCode 风格工作台侧边栏：文件树 / 多标签预览 / CodeMirror 编辑 / 终端 / Git / 全库搜索 / 变更审查。
 - [MichengAI/dsh-codex-ui](https://github.com/MichengAI/dsh-codex-ui) —— DSH Codex UI 基于 DeepSeek Harness 的 Codex UI 插件，还原度 90%，小细节拉满。
-- [NonchalantLudens/dsh-client-ui-skins](https://github.com/NonchalantLudens/dsh-client-ui-skins) —— DeepSeek Harness (dsh) web GUI 的多风格皮肤合集 —— 9 套主题，限定作用域的装饰 CSS 与侧边栏皮肤管理器。
+- [NonchalantLudens/dsh-skin-collection](https://github.com/NonchalantLudens/dsh-skin-collection) —— DeepSeek Harness (dsh) web GUI 的多风格皮肤合集 —— 9 套主题，限定作用域的装饰 CSS 与侧边栏皮肤管理器。
 - [touche-s/rice-loving-whale](https://github.com/touche-s/rice-loving-whale) —— 一只爱吃大白米饭的傲媒鲈鱼娘桌宠，随时感知 DSH 状态。
 - [try-works/dsh-browser-agent](https://github.com/try-works/dsh-browser-agent) —— DeepSeek Harness 套件：一个面向 agent 的 Chrome 浏览器（browser_goto / browser_evaluate / browser_screenshot 工具），带 DSH Web GUI 内内建的双向实时面板。
-- [Unintendedz/conversation-tree](https://github.com/Unintendedz/conversation-tree) —— 为 DeepSeek Harness 提供 ChatGPT 式不可变回复分支、行内分支切换与全树浏览。
+- [Unintendedz/dsh-conversation-tree](https://github.com/Unintendedz/dsh-conversation-tree) —— 为 DeepSeek Harness 提供 ChatGPT 式不可变回复分支、行内分支切换与全树浏览。
 - [Unintendedz/dsh-response-meta](https://github.com/Unintendedz/dsh-response-meta) —— 为 DeepSeek Harness 回复常驻显示模型、推理、吞吐、时间戳、运行时与 TTFT 元数据。
 - [viphzz/whale-girl-assistant](https://github.com/viphzz/whale-girl-assistant) —— DSH 右下角的看板娘，会跟随 Agent 状态动起来。
 - [zhengjy01/dsh-settings-nav-organizer](https://github.com/zhengjy01/dsh-settings-nav-organizer) —— 将 DSH 设置面板中的插件/扩展设置条目折叠进一个可折叠的“插件条目”分组行。

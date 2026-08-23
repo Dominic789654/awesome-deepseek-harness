@@ -1709,10 +1709,10 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [AlexYin-Tongji/dsh-ui-enhancer](https://github.com/AlexYin-Tongji/dsh-ui-enhancer) — Unofficial DeepSeek Harness desktop UI plugin with file workspace, wallpapers, pets, and @file references.
 - [LingYuYue1/dsh-workbench](https://github.com/LingYuYue1/dsh-workbench) — VSCode-style workbench sidebar: file tree / multi-tab preview / CodeMirror editing / terminal / Git / whole-repo search / change review.
 - [MichengAI/dsh-codex-ui](https://github.com/MichengAI/dsh-codex-ui) — DSH Codex UI: a Codex UI plugin for DeepSeek Harness with ~90% visual fidelity.
-- [NonchalantLudens/dsh-client-ui-skins](https://github.com/NonchalantLudens/dsh-client-ui-skins) — Multi-style skin collection for the DeepSeek Harness (dsh) web GUI — 9 themes with scoped decoration CSS and a sidebar skin manager.
+- [NonchalantLudens/dsh-skin-collection](https://github.com/NonchalantLudens/dsh-skin-collection) — Multi-style skin collection for the DeepSeek Harness (dsh) web GUI — 9 themes with scoped decoration CSS and a sidebar skin manager.
 - [touche-s/rice-loving-whale](https://github.com/touche-s/rice-loving-whale) — A rice-loving tsundere whale-girl desktop pet that always senses DSH status.
 - [try-works/dsh-browser-agent](https://github.com/try-works/dsh-browser-agent) — DeepSeek Harness bundle: a Chrome browser for agents (browser_goto / browser_evaluate / browser_screenshot tools) with a live two-way pane inside the DSH Web GUI.
-- [Unintendedz/conversation-tree](https://github.com/Unintendedz/conversation-tree) — ChatGPT-style immutable reply branches, inline branch switching, and whole-tree browsing for DeepSeek Harness.
+- [Unintendedz/dsh-conversation-tree](https://github.com/Unintendedz/dsh-conversation-tree) — ChatGPT-style immutable reply branches, inline branch switching, and whole-tree browsing for DeepSeek Harness.
 - [Unintendedz/dsh-response-meta](https://github.com/Unintendedz/dsh-response-meta) — Always-visible model, reasoning, throughput, timestamp, runtime, and TTFT metadata for DeepSeek Harness replies.
 - [viphzz/whale-girl-assistant](https://github.com/viphzz/whale-girl-assistant) — A desktop mascot in the bottom-right corner of DSH that animates along with agent status.
 - [zhengjy01/dsh-settings-nav-organizer](https://github.com/zhengjy01/dsh-settings-nav-organizer) — Fold plugin/extension settings entries in the DSH settings panel into one collapsible 'Plugin entries' group row.
