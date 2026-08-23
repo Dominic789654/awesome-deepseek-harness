@@ -2913,6 +2913,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [jinxlux/xiao-theme-dsh-ui-plugin](https://github.com/jinxlux/xiao-theme-dsh-ui-plugin) — Genshin Impact-themed UI plugin for DeepSeek Harness.
 - [Nkjv2/dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) — A canvas sprite-sheet pet plugin for the DeepSeek Harness web GUI. A dsh bundle + client plugin that renders a pointer-following mascot in the shell.overlay layer. MIT licensed.
 - [sidleo/dsh-desktop](https://github.com/sidleo/dsh-desktop) — DeepSeek Harness desktop shell: opening the app launches the dsh web service and loads the UI; closing it auto-stops the service. Electron desktop shell for DeepSeek Harness (DSH).
+- [zhengjy01/dsh-cubox](https://github.com/zhengjy01/dsh-cubox) — Cubox sync for DeepSeek Harness: scheduled sync of your bookmarks, an AI daily brief generated from your own prompt template straight into Obsidian, and per-card markdown export.
 
 ## Skills
 
