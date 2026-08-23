@@ -769,6 +769,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) —— 会话置顶。
 - [malevrigns/dsh-session-stars](https://github.com/malevrigns/dsh-session-stars) —— 收藏会话。
 - [skepsun/dsh-loom](https://github.com/skepsun/dsh-loom) —— 极简·省 token 的 DSH 长期记忆插件：零 LLM 自动捕获、符号索引渐进式披露、ESR 证据闭环。
+- [qwert702/dsh-context-compressor](https://github.com/qwert702/dsh-context-compressor) —— 面向小模型的上下文压缩插件：将工具输出和对话历史压缩为几句话，为实际任务腾出上下文空间；自动在新生成的会话中继续工作。
 - [ExploringBB/dsh-plugin-edit-regenerate](https://github.com/ExploringBB/dsh-plugin-edit-regenerate) —— DSH 插件：在对话历史中编辑用户消息，并在分叉会话中基于修订后的 prompt 重新生成。
 - [xiaoshenming/dsh-session-surgeon](https://github.com/xiaoshenming/dsh-session-surgeon) —— 修好打不开的 DSH 会话（seq gap / 损坏的 zstd）。侧栏「会话医生」，默认 dry-run。
 - [XiLuovo/dsh-session-timeline](https://github.com/XiLuovo/dsh-session-timeline) —— 会话时间轴 UI。
@@ -897,7 +898,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Coprexist/dsh-session-recovery](https://github.com/Coprexist/dsh-session-recovery) —— 从原始磁盘恢复被删除/损坏的 dsh 会话记录（session.jsonl.zstd）与记忆库（memory.db）——DeepSeek Harness 实战验证的恢复工具集。
 - [NB4747/dsh-session-sync](https://github.com/NB4747/dsh-session-sync) —— DeepSeek Harness 会话同步插件。
 - [reatcat/l123-harness](https://github.com/reatcat/l123-harness) —— L1-L2-L3 三级记忆 agent 底座：门禁、事件日志、周审提炼、TDD 执行流。
+- [qwert702/dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) —— 本地小模型输出上限自动继续插件：双源检测已达到输出 token 上限提示（turn-max-tokens 节点 + provider 响应），maxConsecutive（默认 3）防死循环，同提示去重 + 最小间隔节流，完全无 UI。
 - [RyensX/dsh-message-navigation](https://github.com/RyensX/dsh-message-navigation) —— 为 DeepSeek Harness 提供 Codex 风格用户消息导航栏。
+- [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) —— DSH 网页端项目级+全局长期记忆插件：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。
 - [VinsonWild/Wangdefa.Memory](https://github.com/VinsonWild/Wangdefa.Memory) —— Wangdefa.Memory 是一个为个人助理 Agent 设计的五层记忆体组件，数据完全保留在本地，不依赖云端，达到轻量、白盒可控、可解释，未来将进一步往企业级原生记忆体方向拓展。
 
 - [JohnXu22786/context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文分诊插件：自动识别并处理过期、重复、失败、超大与低价值消息，节约 token 预算，缓解上下文膨胀
@@ -987,6 +990,7 @@ _token 用量、成本看板与预算告警插件。_
 - [1841220388zzzcccxxx-star/dsh-token-stats](https://github.com/1841220388zzzcccxxx-star/dsh-token-stats) —— DeepSeek Harness Token 用量统计插件：按模型/日期/会话统计用量与费用（USD/CNY），支持 CSV/JSON 导出。
 - [lninghaha/dsh-hub-oauth-gateway](https://github.com/lninghaha/dsh-hub-oauth-gateway) —— DSH Web 插件：带 Hub 快照与费用分析的用量中心、coding-plan OAuth，以及可选的本地回环 OpenAI 兼容网关。
 - [z-col/dsh-deepseek-peak-valley](https://github.com/z-col/dsh-deepseek-peak-valley) —— DeepSeek 分时段计费小组件 · DSH client 插件（platform=web）：按北京时间自动判定高峰/空闲时段，10 款风格侧边栏小组件 + 设置页。
+- [qwert702/dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) —— CC Switch 风格的 Token 消耗统计插件：按请求记录逐条统计、真实消耗英雄卡（含缓存命中率）、按请求时间分桶趋势图、从官网实时拉取并显示按模型的峰谷定价列表、按项目和模型汇总统计，以及账户余额。
 - [PolinniZhong/dsh-personal-center](https://github.com/PolinniZhong/dsh-personal-center) —— DeepSeek Harness 个人中心插件：个人资料统计（Token/工具调用/按模型分布/Token 活动）+ 个性化自定义指令。本地运行，不联网。
 - [oxgbl/dsh-deepseek-price](https://github.com/oxgbl/dsh-deepseek-price) —— DeepSeek Harness 插件：侧边栏高峰/空闲定价徽标 + 距半价倒计时 + 点击详情面板 + /price 命令。
 - [Ethanz11-creat/dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) —— Peak/off-peak billing plugin for DeepSeek Harness (dsh) —— 峰谷计费插件：实时 token 计费、ASCII 鲸鱼回执、TUI 状态栏与 `/billing` 命令。
@@ -1394,6 +1398,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [xing666173/dsh-vision-hub](https://github.com/xing666173/dsh-vision-hub) —— DeepSeek Harness 视觉工具集：Vision Router + 14+ 视觉相关工具 + 数据集/工具集合（上游描述部分乱码，以可读片段翻译）。
 - [xingyingyuzhui/dsh-vision-bench](https://github.com/xingyingyuzhui/dsh-vision-bench) —— DSH 插件：Vision bench —— 在会话视图中集成 Keil 调试与 Modbus HMI。
 - [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) —— 通过 `dsh-ui` 代码栅栏在回复中内联渲染可交互 UI 组件：布局、图表、绘图、表单、测验、mermaid、3D 场景，并把交互事件回传给模型。  `⭐14`
+- [qwert702/dsh-auto-translate](https://github.com/qwert702/dsh-auto-translate) —— 英文回复自动翻译插件：在原文下方内联显示中文翻译，工具调用附一行中文注释（内置词汇表覆盖常用 harness 工具，未知工具标注而非臆造）；翻译通过独立请求完成，不进入会话上下文。
 - [william-jin-cmu/dsh-vision](https://github.com/william-jin-cmu/dsh-vision) —— `view_image` 工具：把任意 OpenAI 兼容 VLM 桥接给纯文本模型。  `⭐10`
 - [wang-bool/visual-review](https://github.com/wang-bool/visual-review) —— 在 DSH Web 聊天界面内联渲染粘贴/上传的图片，让纯文本模型获得视觉：云端多模态 API 优先，本机 Qwen3-VL 兜底。
 - [omdsh-dev/dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) —— 百度 ERNIE-Image-Turbo 文生图：宿主端图像生成工具 + 浏览器画廊面板与配置卡。
@@ -1825,6 +1830,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [NormanFxxkingRockwell/dsh-auto-vision](https://github.com/NormanFxxkingRockwell/dsh-auto-vision) — DeepSeek Harness 视觉桥：自动发现你已配置的多模态模型，给纯文本主模型装上 vision 工具，识别结果以纯文本形式返回。零配置，一条命令安装。
 - [SiriLee/dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) — DeepSeek Harness 插件：在 write/edit/str_replace_editor 前展示红绱行 diff，逐次审批（通过 / 拒绝 / 永久允许）。
 - [eightHundreds/dsh-plannotator](https://github.com/eightHundreds/dsh-plannotator) — 在 Plannotator 中审阅 DeepSeek Harness 计划——标注、通过或退回。
+- [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) —— DSH 网页端指挥官模式插件：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。
 - [Yuanlang3/dsh-netease-music-plugin](https://github.com/Yuanlang3/dsh-netease-music-plugin) — 面向 DeepSeek Harness 的网易云音乐插件。
 - [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) —— DeepSeek Harness 的交互式长会话后台代理：启动一个持久可续跑的子代理，在 Web UI 侧边栏观察其进度，随时给它发消息或中断——全部通过官方子代理接口实现。
 - [stuarthu/dsh-crew](https://github.com/stuarthu/dsh-crew) —— dsh 插件：以一支小型角色代理团队（产品经理、工程师、代码评审员）协作，通过磁盘文件共享工作成果。
