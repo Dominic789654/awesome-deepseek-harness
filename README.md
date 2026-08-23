@@ -108,6 +108,8 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) — A drop-in dsh web profile that adds the Self Checking sandbox mode to DeepSeek Harness (dsh).
 - [lynsucceed/dsh-openclaw-persona](https://github.com/lynsucceed/dsh-openclaw-persona) — Reuse OpenClaw persona files (SOUL/IDENTITY/USER/MEMORY/TOOLS.md) as the DSH agent persona, with a Web GUI editor — edit the .md files in the sidebar and the change takes effect on the next request.
 - [XMoon/dsh-profile-settings](https://github.com/XMoon/dsh-profile-settings) — Per-profile settings overlay for DeepSeek Harness: global settings.yaml plus profiles/<name>/settings.patch.yml, transparently layered under ctx.settings.
+- [muzyLink/dsh-subagent-profile](https://github.com/muzyLink/dsh-subagent-profile) — Subagent dispatch profile plugin for DeepSeek Harness: save named combos of preset/model/reasoning-effort/tool-scope for one-click dispatch, with built-in cost guardrails.
+- [WSL043/dsh-native-reasoning-slider](https://github.com/WSL043/dsh-native-reasoning-slider) — Native, model-aware reasoning effort slider for DeepSeek Harness.
 
 ## Harnesses & Runtimes
 
@@ -572,6 +574,12 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [PixelWave-max/Ultrageek](https://github.com/PixelWave-max/Ultrageek) — Fully local AI cockpit for a 27B Qwen model on Apple Silicon: effort dial, loop watchdog with a muzzle, on-device Whisper dictation, 3D pet telemetry. Built on DeepSeek Harness, zero cloud.
 - [wyq09/dsh-rewind](https://github.com/wyq09/dsh-rewind) — A checkpoint / rollback plugin for DeepSeek Harness (DSH).
 - [zsagi1368/deepseek-harness-DSH](https://github.com/zsagi1368/deepseek-harness-DSH) — DSH · an enhanced branch of deepseek-ai/deepseek-harness: plugin-governance framework (PluginSpec / three-layer sandbox / three-layer guard) + branch-independent operation (WIP).
+- [artec/clat](https://github.com/artec/clat) — Cmd-Line Agent, a Rust basement compatible with the DeepSeek Harness framework.
+- [JohnXu22786/dsh-web-submit](https://github.com/JohnXu22786/dsh-web-submit) — DeepSeek Harness plugin: run headless-style tasks through the live dsh web process — CLI-invoked sessions appear in the Web UI in real time (POST /x/headless, GET status, SSE live events).
+- [liulingfei-1/deepseek-harness-ios](https://github.com/liulingfei-1/deepseek-harness-ios) — Native iOS DeepSeek Harness port: BYOK inference, on-device Agent tools, iSH sandbox, Cordis plugins, and trajectory.
+- [modelbus/deepseek-harness-pro](https://github.com/modelbus/deepseek-harness-pro) — A Web+Electron client based on deepseek-harness, compatible with existing deepseek-harness environments and supporting one-click deployment of the latest deepseek-harness. Enhancements over the original web: a real-time task board, a PC housekeeper (cleanup/tuning/process management), and an independent plugin center.
+- [SpookySandwich/dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) — DeepSeek Harness plugin: fish for a limited-rollout conversation model by scoring live chain-of-thought.
+- [StvLi/dsh-ros2](https://github.com/StvLi/dsh-ros2) — The Deepseek Harness ROS 2 plugin can be used to efficiently diagnose issues and perform joint debugging.
 
 ## Security & Permissions
 
@@ -925,6 +933,9 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) — Long-term memory plugin for the DeepSeek Harness Web GUI: project + global stores, auto extraction/injection, small-model consolidation, Obsidian-style link graph.
 - [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) — Memory for coding agents. Indexes the sessions 20 agents already wrote to disk, including months from before you installed it, and recalls them in any of them. No LLM, no embeddings — one local Go binary.
 - [chenzheshushi-commits/dsh-evolve](https://github.com/chenzheshushi-commits/dsh-evolve) — Self-evolving memory + skill lifecycle for DeepSeek Harness — durable cross-session memory with zero-token deterministic recall, tiered approval, reinforcement learning from repetition, and anti-bloat convergence for both skills and memory.
+- [937862061/dsh-project-workbench](https://github.com/937862061/dsh-project-workbench) — Local DeepSeek Harness Web plugin that organizes native conversations by project and requirement group, with progressive shared memory automatically carried into each group conversation.
+- [chensl139-ok/dsh-archived-panel](https://github.com/chensl139-ok/dsh-archived-panel) — DeepSeek Harness plugin: a sidebar "Archived" panel that lists, opens, and unarchives archived sessions.
+- [notload/dsh-session-toc](https://github.com/notload/dsh-session-toc) — Adds a persistent, collapsible table-of-contents sidebar (like DeepSeek's web app) to each session page in the DeepSeek Harness Web UI: one entry per user question, click to scroll to and highlight the corresponding message.
 
 ## Cost & Usage Tracking
 
@@ -1100,6 +1111,10 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [cn-zhangpeng/dsh-shanhai-stats](https://github.com/cn-zhangpeng/dsh-shanhai-stats) — Shanhai-series usage-stats plugin for DeepSeek Harness: total-usage badge, daily trend, GitHub-style heatmap, and breakdowns by model/provider.
 - [MoonlitDropOfBlood/dsh-token-stats](https://github.com/MoonlitDropOfBlood/dsh-token-stats) — Token-consumption statistics plugin for DSH.
 - [Zenjibad/deepseek-cost-usage-status-plugin](https://github.com/Zenjibad/deepseek-cost-usage-status-plugin) — Live DeepSeek API cost, usage & balance status line for the DeepSeek Harness (DSH) web UI. Packaged DSH plugin — on/off-peak (Beijing-time), session cost, burn rate, account balance.
+- [liangbai250/DSH-Whale-Balance-Widget](https://github.com/liangbai250/DSH-Whale-Balance-Widget) — A little whale girl living in the bottom-right corner of the DeepSeek Harness EAC (DSH) UI, watching your DeepSeek and Sub2API account balances for you. Draggable with edge-snapping (flips when snapped left), number-rolling animations, and instant balance-source switching; auto-enables itself, tuned for the DSH EAC Web plugin mechanism and settings panel.
+- [lyq3/dsh-plugin-model-quota](https://github.com/lyq3/dsh-plugin-model-quota) — Display CLIProxyAPI subscription quotas in DeepSeek Harness.
+- [overact/dsh-peak-indicator](https://github.com/overact/dsh-peak-indicator) — DeepSeek Peak / Off-Peak Time Indicator for DSH Web GUI (live status, timezone auto-detection, countdown, SVG icons, discount schedule).
+- [zisekongling/deepseek-peak-blocker](https://github.com/zisekongling/deepseek-peak-blocker) — Friendly interception and confirmation prompt for new requests sent to the official DeepSeek API during peak hours.
 
 ## Channel / IM Bridges
 
@@ -1648,6 +1663,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [WindyPro-rourou/dsh-code-studio](https://github.com/WindyPro-rourou/dsh-code-studio) — Code Studio for DSH Web GUI — a VS Code + Cline hybrid: file tree, syntax-highlighted editor, Cline-style line diffs that auto-appear when the agent edits files.
 - [Elissend/dsh-plugin-model-follow-search](https://github.com/Elissend/dsh-plugin-model-follow-search) — Make DeepSeek Harness's built-in web_search follow your active chat model — three-tier routing with a Web UI toggle.
 - [zuuky/dsh-omnifile](https://github.com/zuuky/dsh-omnifile) — File-adapter plugin for DSH: drag/paste/multi-select/@-mention local files, parses documents via anydoc and images via a multimodal model, and feeds the results to the main model.
+- [BeforeWave/dsh-with-chatgpt](https://github.com/BeforeWave/dsh-with-chatgpt) — Bring ChatGPT's reasoning to your local codebase. Work directly, or delegate larger tasks to DSH.
+- [caob23/dsh-browser-control](https://github.com/caob23/dsh-browser-control) — Chrome browser extension + DeepSeek Harness plugin that lets an AI agent directly control your real browser.
 
 ## Agents
 
@@ -1974,6 +1991,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [QIN-SMART/dsh-web-restart](https://github.com/QIN-SMART/dsh-web-restart) — DSH web restart/orchestration plugin.
 - [agentrq/agentrq](https://github.com/agentrq/agentrq) — AgentRQ: self-hosted human-in-the-loop realtime conversational task manager for AI agents — control your own agents from mobile, web, or desktop; works with your own Claude subscription and any harness.
 - [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) — Commander for the DeepSeek Harness Web GUI: one conversation orchestrates others via <dsh-dispatch> protocol blocks, with automatic result receipts.
+- [logan-suu/Agora](https://github.com/logan-suu/Agora) — The digital town square where AI agents (PM/Architect/Coder/Tester) collaborate via group chat, while the human acts as the sole Leader. Built with TypeScript + DeepSeek Harness, featuring true parallel execution, cooperative preemption, MCP tools, and git worktree isolation.
 ## UI / Clients
 - [2757571500/dsh-voice](https://github.com/2757571500/dsh-voice) — Voice plugins for DeepSeek Harness: push-to-talk speech input (cloud ASR) and speechified final-reply playback (cloud TTS), delivered as two installable npm packages.
 - [broody-cascarillabark100/DeepSeek-Harness-Desktop](https://github.com/broody-cascarillabark100/DeepSeek-Harness-Desktop) — Launch DeepSeek Harness with one click—no terminal setup required. A desktop companion app that starts the service and connects automatically, ideal for local AI development.
@@ -2806,6 +2824,11 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [SkyNotSilent/deepseek-harness-desktop-gala](https://github.com/SkyNotSilent/deepseek-harness-desktop-gala) — DeepSeek Harness Desktop Gala — desktop client with a built-in Gala character-skin system.
 - [xiaoksio/dsh-solution-explorer](https://github.com/xiaoksio/dsh-solution-explorer) — DSH Web GUI right sidebar: VS Code-style file explorer plus source control (git status, stage/unstage/discard, commit, diff) and a file editor with save.
 - [yanzwzz/dsh-whale-girl-pet](https://github.com/yanzwzz/dsh-whale-girl-pet) — DeepSeek whale-girl desktop pet living inside the DeepSeek Harness Web UI: a blue-haired whale maid with work-chain and task-completion stats (time/tokens/cost), a sleep system, time awareness, balance/weather/feeding buttons, and a full settings panel.
+- [aaronlei/dsh-width-tiers](https://github.com/aaronlei/dsh-width-tiers) — A client plugin for the DeepSeek Harness Web GUI that adds chat content width tiers with a floating picker button (bottom-right, above the composer): 标准 / 中等 / 宽 / 超宽 / 全宽 (standard / medium / wide / ultra / full).
+- [coldfish486/dsh-anime25d-pets](https://github.com/coldfish486/dsh-anime25d-pets) — Anime2.5DRig × DSH desktop pet: just prepare a layered PSD to get a desktop pet with automatic rigging, hair physics, facial animation, and status mirroring.
+- [dataizu/dsh-whale-aqua-theme](https://github.com/dataizu/dsh-whale-aqua-theme) — "Whale Blue Water Play" macOS theme + swimming whale aquarium background for the DeepSeek Harness Web GUI (dsh-plugin).
+- [Hjay1101/dsh-ios-control](https://github.com/Hjay1101/dsh-ios-control) — DeepSeek Harness plugin: remotely control your computer's agent by scanning a QR code from your phone — builds on dsh-remote-link with enhanced session persistence (paired devices stay logged in across dsh restarts), an iOS home-screen icon, and more.
+- [Yuer6327/NoLetMe](https://github.com/Yuer6327/NoLetMe) — Deepseek v4 dual-personality (god/ghost) observation panel.
 
 ## Skills
 
@@ -2983,6 +3006,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [uckkk/dsh-kg2lb](https://github.com/uckkk/dsh-kg2lb) — Kilogram-to-pound conversion tool.
 - [uckkk/dsh-payroll-net](https://github.com/uckkk/dsh-payroll-net) — Net (post-tax) payroll calculator.
 - [wyzh0117/dsh-skill-select](https://github.com/wyzh0117/dsh-skill-select) — DSH web plugin: pick skills from a sidebar and inject them into the current session.
+- [MiaoQichuan/new-litigation-visualization](https://github.com/MiaoQichuan/new-litigation-visualization) — Make the Law Visible — a litigation-visualization toolkit for legal professionals: turns messy litigation diagrams into presentation-ready charts, or reads case materials directly to draw an accurate timeline. Claude Skill / DeepSeek Harness compatible.
+- [xiaxi626/dsh-skills-nexus](https://github.com/xiaxi626/dsh-skills-nexus) — Universal DSH skill adapter. Install once, then register any GitHub repo containing a SKILL.md as a DSH skill — one command per repo. No Cordis plugin code or package.json needed in the skill repo.
 
 - [zhengjy01/dsh-skill-studio](https://github.com/zhengjy01/dsh-skill-studio) — Skill studio for DeepSeek Harness: visualize every agent skill (name, description, source root, nested flag, model/user invocation state), view/edit the full SKILL.md body, and enable or disable model/user invocation — from the web settings panel and via skillmgr_* tools.
 ## Resources
