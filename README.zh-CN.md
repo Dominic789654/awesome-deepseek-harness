@@ -1914,7 +1914,6 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [Roarpeng/GraphFlow](https://github.com/Roarpeng/GraphFlow) —— 本地优先的代码知识图谱与上下文引擎，适用于编码 agent。MCP + DeepSeek Harness (dsh) 插件。
 - [chenjie1129/deepseek-harness-os-agent-plugin](https://github.com/chenjie1129/deepseek-harness-os-agent-plugin) —— 为 DeepSeek Harness 提供的火山引擎手机使用 Agent 插件。
 - [QIN-SMART/dsh-web-restart](https://github.com/QIN-SMART/dsh-web-restart) —— DSH 网页重启/编排插件。
-- [kaidiren/dsh-reasoning](https://github.com/kaidiren/dsh-reasoning) —— 面向 DeepSeek Harness 的推理强度/编排插件。
 ## UI / 客户端
 
 _DSH 的桌面、网页、终端或编辑器前端。_
