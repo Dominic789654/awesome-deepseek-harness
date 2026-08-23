@@ -2921,6 +2921,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [uckkk/dsh-kg2lb](https://github.com/uckkk/dsh-kg2lb) —— 千克转磅换算工具。
 - [uckkk/dsh-payroll-net](https://github.com/uckkk/dsh-payroll-net) —— 税后工资计算器。
 - [wyzh0117/dsh-skill-select](https://github.com/wyzh0117/dsh-skill-select) —— DSH web 插件：从侧边栏选择技能并注入到当前会话。
+- [zhengjy01/dsh-skill-studio](https://github.com/zhengjy01/dsh-skill-studio) —— DSH skill 可视化与管理插件：在设置面板列出全部 skill（含来源、嵌套标记与模型/用户调用状态），查看并编辑 SKILL.md 正文，一键启用/禁用模型与用户调用；同时提供 skillmgr_list/get/save/policy 工具。
 ## 资源
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) —— 官方源码仓库。  `⭐38238`

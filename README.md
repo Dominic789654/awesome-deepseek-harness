@@ -2984,6 +2984,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [uckkk/dsh-payroll-net](https://github.com/uckkk/dsh-payroll-net) — Net (post-tax) payroll calculator.
 - [wyzh0117/dsh-skill-select](https://github.com/wyzh0117/dsh-skill-select) — DSH web plugin: pick skills from a sidebar and inject them into the current session.
 
+- [zhengjy01/dsh-skill-studio](https://github.com/zhengjy01/dsh-skill-studio) — Skill studio for DeepSeek Harness: visualize every agent skill (name, description, source root, nested flag, model/user invocation state), view/edit the full SKILL.md body, and enable or disable model/user invocation — from the web settings panel and via skillmgr_* tools.
 ## Resources
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — Official source repo.  `⭐38238`
