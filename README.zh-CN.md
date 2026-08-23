@@ -2059,6 +2059,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [broody-cascarillabark100/DeepSeek-Harness-Desktop](https://github.com/broody-cascarillabark100/DeepSeek-Harness-Desktop) —— 一键启动 DeepSeek Harness，无需配置终端。一个自动启动服务并连接的桌面伴侴应用，适合本地 AI 开发。
 - [FlyXingByte/deepseek-harness-macos](https://github.com/FlyXingByte/deepseek-harness-macos) —— DeepSeek Harness 非官方原生 macOS 启动器 —— 独立窗口、程序坞图标与简洁启动体验。
 - [licn9901-arch/deepseek-harness-desktop](https://github.com/licn9901-arch/deepseek-harness-desktop) —— 轻量、自包含的 Windows 下 DeepSeek Harness 桌面应用。基于 Tauri，无需联网即可用，内建插件市场、Skills 与 MCP。
+- [liang-today/dsh-liangxiang](https://github.com/liang-today/dsh-liangxiang) —— 用 DSH 烧掉的 Token 凝成香火，花一炷给今日梁案投夯或拉。
 - [MarecGents/deepseek-harness-hub](https://github.com/MarecGents/deepseek-harness-hub) —— DeepSeek Harness (dsh) 的 Windows 桌面端框架：以原生 Tauri 2.x 窗口运行 dsh Web UI，提供托盘、主题同步、窗口记忆、右侧栏与系统通知。
 - [MuMu0402/deepseek-harness-desktop](https://github.com/MuMu0402/deepseek-harness-desktop) —— 基于 Tauri 2 构建的 DeepSeek Harness (dsh) Windows 桌面壳。启动本地 dsh web 服务并加载其 UI。非官方自制壳。
 - [pd90506/dsh-web-notification](https://github.com/pd90506/dsh-web-notification) —— DeepSeek Harness web GUI 的浏览器系统通知：任务完成（running → idle）与权限请求事件触发，切换到其他标签页仍能即时知道 DSH 需要你。
