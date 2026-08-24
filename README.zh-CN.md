@@ -756,6 +756,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [tmpdot/dsh-audit-foundation](https://github.com/tmpdot/dsh-audit-foundation) —— Trust Anchor：DeepSeek Harness 生态的安全与审计基础设施——最小设计原则规范包，加上一组最小职责插件，钉死策略 → 执行 → 证据 → 存储 → 查询 → 展示 → 响应 → 审计消费全链路接口。
 - [Ayle5678/dsh-auto-guard](https://github.com/Ayle5678/dsh-auto-guard) — 一款DSH (DeepSeek Harness) 插件：类似 Claude Code 中 Auto Mode 的一种命令通过机制，给 dsh中的full access 加一层 LLM 安全网的自动审批插件。
 
+- [chunfenxiazhi-collab/dsh-stability-audit](https://github.com/chunfenxiazhi-collab/dsh-stability-audit) —— 已安装 dsh 插件的稳定性审计：静态风险分级（钩子面/启动任务/inject/入口/依赖区间），可选隔离安装验证。
+
 ## 会话与记忆管理
 
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) —— 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
