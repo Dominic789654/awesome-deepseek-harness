@@ -900,7 +900,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [reatcat/l123-harness](https://github.com/reatcat/l123-harness) —— L1-L2-L3 三级记忆 agent 底座：门禁、事件日志、周审提炼、TDD 执行流。
 - [qwert702/dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) —— 本地小模型输出上限自动继续插件：双源检测已达到输出 token 上限提示（turn-max-tokens 节点 + provider 响应），maxConsecutive（默认 3）防死循环，同提示去重 + 最小间隔节流，完全无 UI。
 - [RyensX/dsh-message-navigation](https://github.com/RyensX/dsh-message-navigation) —— 为 DeepSeek Harness 提供 Codex 风格用户消息导航栏。
-- [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) —— DSH 网页端项目级+全局长期记忆插件：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。
 - [VinsonWild/Wangdefa.Memory](https://github.com/VinsonWild/Wangdefa.Memory) —— Wangdefa.Memory 是一个为个人助理 Agent 设计的五层记忆体组件，数据完全保留在本地，不依赖云端，达到轻量、白盒可控、可解释，未来将进一步往企业级原生记忆体方向拓展。
 
 - [JohnXu22786/context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文分诊插件：自动识别并处理过期、重复、失败、超大与低价值消息，节约 token 预算，缓解上下文膨胀
@@ -1830,7 +1829,6 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [NormanFxxkingRockwell/dsh-auto-vision](https://github.com/NormanFxxkingRockwell/dsh-auto-vision) — DeepSeek Harness 视觉桥：自动发现你已配置的多模态模型，给纯文本主模型装上 vision 工具，识别结果以纯文本形式返回。零配置，一条命令安装。
 - [SiriLee/dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) — DeepSeek Harness 插件：在 write/edit/str_replace_editor 前展示红绱行 diff，逐次审批（通过 / 拒绝 / 永久允许）。
 - [eightHundreds/dsh-plannotator](https://github.com/eightHundreds/dsh-plannotator) — 在 Plannotator 中审阅 DeepSeek Harness 计划——标注、通过或退回。
-- [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) —— DSH 网页端指挥官模式插件：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。
 - [Yuanlang3/dsh-netease-music-plugin](https://github.com/Yuanlang3/dsh-netease-music-plugin) — 面向 DeepSeek Harness 的网易云音乐插件。
 - [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) —— DeepSeek Harness 的交互式长会话后台代理：启动一个持久可续跑的子代理，在 Web UI 侧边栏观察其进度，随时给它发消息或中断——全部通过官方子代理接口实现。
 - [stuarthu/dsh-crew](https://github.com/stuarthu/dsh-crew) —— dsh 插件：以一支小型角色代理团队（产品经理、工程师、代码评审员）协作，通过磁盘文件共享工作成果。
