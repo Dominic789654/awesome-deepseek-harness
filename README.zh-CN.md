@@ -751,6 +751,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [tmpdot/dsh-audit-foundation](https://github.com/tmpdot/dsh-audit-foundation) —— Trust Anchor：DeepSeek Harness 生态的安全与审计基础设施——最小设计原则规范包，加上一组最小职责插件，钉死策略 → 执行 → 证据 → 存储 → 查询 → 展示 → 响应 → 审计消费全链路接口。
 ## 会话与记忆管理
 
+- [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) —— 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
+
 _跨会话记忆、checkpoint、会话置顶与导航插件。_
 
 - [TsFreddie/dsh-compaction-instant](https://github.com/TsFreddie/dsh-compaction-instant) —— 面向 DeepSeek Harness 的无 LLM、无损（近似）压缩引擎。
@@ -1576,6 +1578,8 @@ _生成演示文稿、幻灯片、导出 PPT。_
 ## 写代码
 
 _代码生成、重构、审查、仓库级工程插件。_
+
+- [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) —— 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。
 
 - [lemonxiny55/dsh-code-index](https://github.com/lemonxiny55/dsh-code-index) —— 语义代码仓索引插件：基于 tree-sitter 的符号索引、排序符号搜索，并将有界的自动更新仓库地图注入系统提示词 —— 补充 dsh 缺失的类似 aider repo-map / Cursor `@Codebase` 能力。
 - [lvxinrong/dsh-archscope](https://github.com/lvxinrong/dsh-archscope) —— 面向 DeepSeek Harness 的证据驱动式系统架构侦察。
