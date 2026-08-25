@@ -1428,6 +1428,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [RoyDevCh/roycode-dsh-pack](https://github.com/RoyDevCh/roycode-dsh-pack) —— 一键插件包：把 RoyCode Studio 能力移植到 DSH——LSP / 密文扫描 / 浏览器 MCP server、可编程事件钩子（roycode-hooks v2）、团队、4 个 skill、幂等安装/卸载脚本。
 - [AwesomeHou/dsh-plugin-marketplace](https://github.com/AwesomeHou/dsh-plugin-marketplace) —— DeepSeek Harness 插件市场：实时同步 GitHub dsh-plugin topic（1800+ 仓库）到可搜索、分页的设置面板，支持一键安装及 agent 工具（market_search / market_install）。
 - [edison7009/EchoBird](https://github.com/edison7009/EchoBird) —— 多款编程 agent（Claude Code、Codex CLI、Grok Build、DeepSeek Harness、Kimi Code、Qwen Code、Aider、OpenCode 等）的一键安装与模型切换工具。
+- [GreenLv/skillferry](https://github.com/GreenLv/skillferry) —— 本地优先的跨 Agent CLI：把 Skill、全局指令与非机密 MCP 模板放进同一个 Git 版本化工作区，再安全渲染到 Codex、Claude Code 与 DeepSeek Harness，并报告可移植性等级、做冲突检测、备份与回滚。
 - [aust24lzy/dsh-plugin-hub](https://github.com/aust24lzy/dsh-plugin-hub) — DeepSeek Harness (DSH) 开源插件导航站 —— 实时同步 dsh-plugin 生态，按 Stars 动态排行。
 - [ywsldxk/dsh-plugin-stars](https://github.com/ywsldxk/dsh-plugin-stars) — DeepSeek Harness（DSH）插件排行榜 / 插件目录，按 GitHub Stars 排序并自动更新。
 - [ChengxiuCDP/dsh-plugin-advisor](https://github.com/ChengxiuCDP/dsh-plugin-advisor) —— DeepSeek Harness 插件推荐/顾问工具（上游无描述）。
