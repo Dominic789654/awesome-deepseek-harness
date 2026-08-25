@@ -1880,6 +1880,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [linconz/agentduel-dsh](https://github.com/linconz/agentduel-dsh) —— AgentDuel 是一个通过代码进行对战的游戏。允许你通过 AI 提交代码，并通过可回看的对战画面复盘整个战斗，然后再次优化。| Code your agent, watch it fight, tweak and rematch — all inside DeepSeek Harness.
 - [1byteone/dsh-plugin-nlbi](https://github.com/1byteone/dsh-plugin-nlbi) —— 面向 DeepSeek Harness 的 NL2SQL / text2sql BI 插件：基于自然语言查询 MySQL。
 - [Tianbuyu-wwx/DSH-FormatForge](https://github.com/Tianbuyu-wwx/DSH-FormatForge) —— DeepSeek Harness 插件——把任意文件（PDF/DOCX/XLSX/EML……30+ 种格式）拖进 dsh，即变为 AI 可读的结构化数据。FormatForge：把文件锻造成模型可用的上下文。
+- [maxmilian/dsh-forge](https://github.com/maxmilian/dsh-forge) —— 面向自建 Gitea / Forgejo 的只读 DSH 工具：仓库列表、议题与 PR 搜索、PR diff，以及 Actions 运行、任务与日志。
 
 ## Agent
 

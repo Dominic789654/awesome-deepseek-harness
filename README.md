@@ -1894,6 +1894,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [linconz/agentduel-dsh](https://github.com/linconz/agentduel-dsh) — AgentDuel: submit AI-generated code, watch it fight in a replayable battle arena, then tweak and rematch — all inside DeepSeek Harness.
 - [1byteone/dsh-plugin-nlbi](https://github.com/1byteone/dsh-plugin-nlbi) — NL2SQL / text2sql BI plugin for DeepSeek Harness: natural-language querying over MySQL.
 - [Tianbuyu-wwx/DSH-FormatForge](https://github.com/Tianbuyu-wwx/DSH-FormatForge) — DeepSeek Harness plugin — drag any file (PDF/DOCX/XLSX/EML…, 30+ formats) into dsh and it becomes AI-readable structured data. FormatForge: forge files into model-ready context.
+- [maxmilian/dsh-forge](https://github.com/maxmilian/dsh-forge) — Read-only DSH tools for self-hosted Gitea and Forgejo: repositories, issue and pull request search, PR diffs, and Actions runs, jobs and logs.
 
 ## Agents
 
