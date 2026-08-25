@@ -3120,7 +3120,6 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [titanwings/distilly](https://github.com/titanwings/distilly) —— Distilly —— 将他们的思考方式蒸馏为可于任何 Agent 或 Bot 复用的 Skill。前名 Colleague Skill（同事 Skill）。
 - [guyuefangyuanl/deepseek-better-harness](https://github.com/guyuefangyuanl/deepseek-better-harness) —— 将 Better Harness 的证据链拆分为三个可单独安装的 DeepSeek Harness skill 包，零运行依赖。
 - [JularDepick/dsh-plugin-dev-agent-template](https://github.com/JularDepick/dsh-plugin-dev-agent-template) —— 通用的 dsh 插件开发模板。
-- [daha1216/dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension) —— DeepSeek Harness 成年人(18+/adult)互动叙事 Skill：NPC 活人感（有记忆/立场/底线）、自带破甲、数百项素材库、随机开局可预锁、时间推进、全维 YAML 存档。
 - [ShanHaiFish/Shimmering-dsh-skills](https://github.com/ShanHaiFish/Shimmering-dsh-skills) —— DeepSeek Harness（dsh）agent skill 合集，每个可单独安装。
 - [FeatherHunter/dsh-chinese-skill-patch](https://github.com/FeatherHunter/dsh-chinese-skill-patch) —— DSH 插件：允许 SKILL.md 使用中文（Unicode 字母）skill 名称，无需改名为 kebab-case。
 - [Andiii208/dsh-ultramath](https://github.com/Andiii208/dsh-ultramath) —— 数学建模竞赛多 Agent 求解技能包：「UltraMath」主控预设一个预设跑通 读题→框架→推导→编码→验算→论文→审稿 全流程，另有 数学家/工程师/作家/审稿人 4 个单阶段角色预设与 33 篇模型库技能文档。
