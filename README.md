@@ -3209,6 +3209,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [NIU-001-LIU/dsh-chat-timeline-plus](https://github.com/NIU-001-LIU/dsh-chat-timeline-plus) — DeepSeek Harness timeline with hover Q&A preview and panel pin.
 - [PaoMoXML/dsh-paste-names](https://github.com/PaoMoXML/dsh-paste-names) — Pastes non-image files/folders into the dsh chat composer as native @path references, replacing the image-only paste error.
 - [qingshanyuluo/dsh-mobile-ux](https://github.com/qingshanyuluo/dsh-mobile-ux) — DeepSeek Harness mobile: CSS-only UI plugin, password-protected Cloudflare tunnel, and a tiny Android WebView app — use DSH on your phone.
+- [ZomiCC/ghost-refresh](https://github.com/ZomiCC/ghost-refresh) — A friendly ghost drifts across the DSH web UI at random intervals to keep you awake; speed, opacity, size and frequency are adjustable and persisted per browser.
 
 ## Skills
 
