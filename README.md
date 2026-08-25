@@ -115,6 +115,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [MengYuil/dsh-ponytail](https://github.com/MengYuil/dsh-ponytail) — Lazy senior dev mode for DeepSeek Harness — ponytail port (always-on minimal-code ruleset, /ponytail-review/audit/debt/gain/help).
 - [sch246/dsh-warm-minimal](https://github.com/sch246/dsh-warm-minimal) — DSH warm-minimal mode: writes a high-quality first-turn trajectory (we/let's style) at session creation, with real input starting from the second turn; AGENTS.md and the skill catalog are injected naturally.
 - [ninipa/oh-my-dsh-slim](https://github.com/ninipa/oh-my-dsh-slim) — Specialist subagent delegation preset for DeepSeek Harness — orchestrator + 5 roles (oracle/designer/fixer/explorer/librarian) with per-role models, effort, tool filters, scoped MCP and background-first delegation. Port of oh-my-opencode-slim.
+- [Kian-Oraish/dsh-prompt-enhance](https://github.com/Kian-Oraish/dsh-prompt-enhance) — Prompt-enhancer magic wand: an adaptive prompt-enhancement plugin for the DSH Web composer input box.
 
 ## Harnesses & Runtimes
 
@@ -568,6 +569,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [zc0982/dsh-gpt-provider](https://github.com/zc0982/dsh-gpt-provider) — GPT 211API provider preset with full reasoning-effort selection for DeepSeek Harness.
 - [ArtificialNotImbecile/dsh-remote-runtime](https://github.com/ArtificialNotImbecile/dsh-remote-runtime) — Managed, isolated DeepSeek Harness runtimes over OpenSSH with a native Web control surface.
 - [ChadCSong/dsh-cliproxyapi-provider](https://github.com/ChadCSong/dsh-cliproxyapi-provider) — Auto-discovery CLIProxyAPI provider for DeepSeek Harness, featuring dynamic model sync, native model switching, and vision-model selection.
+- [jiesou/dsh-cline-free-provider](https://github.com/jiesou/dsh-cline-free-provider) — Cline free-model provider adapter for DeepSeek Harness.
+- [jiesou/dsh-nous-portal-free-provider](https://github.com/jiesou/dsh-nous-portal-free-provider) — Nous Portal free-tier provider for DeepSeek Harness.
+- [MaRi23333/dsh-grok-kit](https://github.com/MaRi23333/dsh-grok-kit) — Grok plugin for DeepSeek Harness: OAuth login, main-loop fusion of web/X search and Imagine. Third-party, unofficial.
 - [Couioly/plugin-audio-alert](https://github.com/Couioly/plugin-audio-alert) — Approval voice-alert plugin for DeepSeek Harness (DSH): when DSH needs human review/approval, it speaks the pending item aloud via computer TTS while still showing the normal approve button in the web UI.
 - [NattoCB/dsh-plugin-notifications](https://github.com/NattoCB/dsh-plugin-notifications) — DSH (DeepSeek Harness) bundle plugin: a Settings → General card that pops a system notification (and optional Web Audio chime) when a conversation turn completes.
 - [nienieai/dsh-chime-alerts](https://github.com/nienieai/dsh-chime-alerts) — Sound-alert notification plugin for DeepSeek Harness: chimes on turn completion, built on Web Audio.
@@ -657,6 +661,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 
 _Permission rules, approval review, security audits, and policy-check plugins._
 
+- [KeS1Ke/dsh-exit](https://github.com/KeS1Ke/dsh-exit) — A focused DeepSeek Harness web plugin that adds a safe, confirmed host-exit control.
 - [developerdh/dsh-sandbox-allowlist](https://github.com/developerdh/dsh-sandbox-allowlist) — Adds a configurable "sandbox-authorized directory" allowlist to DSH's default sandbox, letting trusted edits happen outside the workspace.
 - [JUSTMONIKA2022/dsh-sandbox-escalation-fix](https://github.com/JUSTMONIKA2022/dsh-sandbox-escalation-fix) — Session-aware sandbox escalation compatibility plugin for third-party models in DeepSeek Harness/DSH.
 - [a903067276-rgb/dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) — Auto-approval permission guard for DeepSeek Harness: a middle tier between workspace-write and danger-full-access — auto-allows safe ops in trust dirs, always prompts for destructive ones.
@@ -779,6 +784,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [tmpdot/dsh-audit-foundation](https://github.com/tmpdot/dsh-audit-foundation) — Trust Anchor: the security & audit foundation of the DeepSeek Harness ecosystem — Minimal Design Principles spec package plus minimal-responsibility plugins nailing down the policy → enforcement → evidence → storage → query → presentation → response → audit-consumption interfaces.
 - [Ayle5678/dsh-auto-guard](https://github.com/Ayle5678/dsh-auto-guard) — DSH auto-approval safety net plugin: a Claude Code Auto Mode-style command pass-through mechanism, adding an LLM safety layer over full-access mode.
 - [chunfenxiazhi-collab/dsh-stability-audit](https://github.com/chunfenxiazhi-collab/dsh-stability-audit) — Stability audit for installed dsh plugins: static risk grading (hook surface, startup work, inject, entry, dep ranges) plus optional isolated install verification.
+- [zouyuanqing/dsh-verify-reflux](https://github.com/zouyuanqing/dsh-verify-reflux) — Three-plane probabilistic verifier for DeepSeek Harness: tiered logprob/sample/template judges, seeded tournament best-of-N, layered context reflux.
 
 ## Session & Memory Management
 
@@ -898,6 +904,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Saikel-Orado-Liu/dsh-archive-manager](https://github.com/Saikel-Orado-Liu/dsh-archive-manager) — Archived-session management (show / unarchive / permanently delete) for the DSH Web GUI, with zero changes to official packages.
 - [MS666666/dsh-archive-manager](https://github.com/MS666666/dsh-archive-manager) — Archive manager for DeepSeek Harness.
 - [scd13150/dsh-cognition](https://github.com/scd13150/dsh-cognition) — A project memory for your DSH agent — constrain / observe / remember / verify, built on DSH native primitives.
+- [adoresever/graph-memory](https://github.com/adoresever/graph-memory) — Knowledge Graph Context Engine for OpenClaw / DeepSeek Harness: extracts structured triples from conversations, compresses context 75%, and enables cross-session experience reuse.
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) — Memory & Knowledge Base for DeepSeek Harness — reachable from any device on your LAN.
 - [genusamblyrhynchusbrunooftoul602/dsh-attachment-formats](https://github.com/genusamblyrhynchusbrunooftoul602/dsh-attachment-formats) — Extend DeepSeek Harness composer to accept PDFs and more attachment formats Codex-style, with zero core changes and native pipeline reuse.
 - [orangeofcarl0-sys/dsh-fresh-start](https://github.com/orangeofcarl0-sys/dsh-fresh-start) — DSH `/fresh` command: summarize conversation, start new session, archive old one.
@@ -1375,6 +1382,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [tencent-connect/dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) — Official plugin bringing QQ Bot connectivity to DeepSeek Harness (dsh).
 - [YiMlT/dsh-notify-yimit](https://github.com/YiMlT/dsh-notify-yimit) — Notification plugin for DeepSeek Harness: alerts on task completion / error / running / awaiting approval / awaiting reply. Notification titles show the conversation title; both system and custom notifications support click-to-jump to the corresponding session.
 - [zmh2000829/DSH-agent-bridge](https://github.com/zmh2000829/DSH-agent-bridge) — Use Grok Build inside DeepSeek Harness Web through ACP.
+- [kriskwok/dsh-feishu-gateway](https://github.com/kriskwok/dsh-feishu-gateway) — DeepSeek Harness Feishu gateway plugin: chat with your DSH agent from Feishu (persistent sessions, /new, Markdown replies, proactive push).
 
 ## Plugin Marketplaces & Ecosystem
 - [aorucshiea/dsh-plugin-toggle](https://github.com/aorucshiea/dsh-plugin-toggle) — Hot-plug enable/disable switches for installed DSH plugins.
@@ -1726,6 +1734,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [fuzhengwei/walioffice-dsh-plugin](https://github.com/fuzhengwei/walioffice-dsh-plugin) — Walioffice office-software plugin for DeepSeek Harness.
 - [moonbowterfly/dsh-bio-genie](https://github.com/moonbowterfly/dsh-bio-genie) — 🧬 A wish-style bioinformatics & biology analysis plugin for DeepSeek Harness: Biopython-powered sequence analysis, genomics, zero-install Python env (uv+venv).
 - [peterwangze/dsh-novel-writing](https://github.com/peterwangze/dsh-novel-writing) — Automated novel-writing publishing pipeline plugin for DeepSeek Harness: a migrated claude-writing-workflow agent preset + novel workbench (visual/live-render/chapter editor) + multi-platform publishing config with a data-driven optimization loop.
+- [x2802490130-prog/dsh-tool-writing](https://github.com/x2802490130-prog/dsh-tool-writing) — Writing engine for DeepSeek Harness: long-form web-novel orchestration with a separate DeepSeek key, lore management, semantic retrieval, and a corpus library.
+- [x2802490130-prog/dsh-writing-remote](https://github.com/x2802490130-prog/dsh-writing-remote) — Typert remote for dsh-tool-writing: exposes project, library and search data to the client writing panel.
 - [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) — Lunheng (论衡) article-pipeline plugin bundle for DeepSeek Harness (DSH adaptation).
 
 
@@ -2398,6 +2408,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [dbydd/dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — Gives DSH agents a real IM inbox/outbox (Telegram, Feishu/Lark, QQ Bot, WeChat) through the Onlyne workspace-local channel daemon.
 - [LaplaceYoung/dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) — QQ2006 skin: registers a `qq2006` theme with a full global skin table and assets.
 - [vlln/whale-girl](https://github.com/vlln/whale-girl) — Desktop-pet plugin for the Web GUI (QQ-pet style): a draggable floating companion you can feed and play with.  `⭐27`
+- [plolpl789/dsh-raw-html](https://github.com/plolpl789/dsh-raw-html) — VCP visual-synesthesia protocol plugin for DeepSeek Harness: render agent HTML output as real UI (cards / KaTeX math / Mermaid diagrams / built-in calligraphy fonts / zero-JS interactions), plug-and-play on any DSH environment.
+- [x2802490130-prog/dsh-client-ui-writing](https://github.com/x2802490130-prog/dsh-client-ui-writing) — Client-side writing panel for DeepSeek Harness: projects, library, full-text search, evolution diffs and an SVG thread graph.
 - [swaylq/dsh-digipet](https://github.com/swaylq/dsh-digipet) — Digimon-style raising game: hatch an egg that feeds on real work (turns, tools, errors) and evolves along four lines shaped by how you work; command-only, zero tokens, no model-facing surface.
 - [swaylq/dsh-wildmon](https://github.com/swaylq/dsh-wildmon) — Pokemon-style catch-em-all safari: real work rustles the grass — turns, tool calls and errors spawn wild encounters; throw balls, fill a 28-slot dex, build a team of six. Command-only, zero tokens, no model-facing surface.
 - [ccch1mneyyy/dsh-working-activity](https://github.com/ccch1mneyyy/dsh-working-activity) — Live model working-status line for the TUI prompt bar and Web UI: playful thinking copy, running tools, turn summaries, and self-narration.
