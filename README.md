@@ -2157,7 +2157,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [YePpHa/dsh-web-search-kagi](https://github.com/YePpHa/dsh-web-search-kagi) — Kagi Search v1 provider for the DeepSeek Harness.
 - [bobowsh/dsh-llm-opencode](https://github.com/bobowsh/dsh-llm-opencode) — OpenCode Zen free model adapter for DeepSeek Harness (DSH) — DeepSeek V4 Flash Free, Nemotron 3 Ultra Free, MiMo V2.5 Free, Big Pickle.
 - [EdwinDigital/dsh-web-search-microsoft-webiq](https://github.com/EdwinDigital/dsh-web-search-microsoft-webiq) — Microsoft Web IQ search provider plugin for DeepSeek Harness.
-- [yhyfhgs/dsh-providers-extension](https://github.com/yhyfhgs/dsh-providers-extension) — Provider accounts, live model catalogs, and model selection for DeepSeek Harness.
 - [AlexKaiqi/dsh-multi-model-provider](https://github.com/AlexKaiqi/dsh-multi-model-provider) — Multi-model provider support for DeepSeek Harness.
 - [lory69060/cn-intel-mcp-dsh](https://github.com/lory69060/cn-intel-mcp-dsh) — DeepSeek Harness plugin: China hard-tech supply chain intelligence (MCP: signal board / track record / Q&A).
 - [zdk119746/dsh-llm-workbuddy](https://github.com/zdk119746/dsh-llm-workbuddy) — Use the models bundled in the WorkBuddy desktop app from inside DeepSeek Harness.
@@ -2169,7 +2168,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [platonai/dsh-browser4](https://github.com/platonai/dsh-browser4) — Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
 - [mrpulor-gh/dsh-nuphus-mcp](https://github.com/mrpulor-gh/dsh-nuphus-mcp) — DeepSeek Harness (DSH) plugin: mount the nuphus-mcp desktop automation MCP server as native tools (mcp__nuphus-mcp__*).
 - [enilmalus/offline_websearch](https://github.com/enilmalus/offline_websearch) — Local/offline web search for DSH and Claude Code.
-- [satan9394/dsh-boss-agent-cli](https://github.com/satan9394/dsh-boss-agent-cli) — BOSS Zhipin AI-agent CLI with a dsh.bundle plugin: job search, welfare filtering, shortlist, application chat and recruiter workflows exposed as 73 `mcp__boss__*` native tools via the in-box `@deepseek-ai/dsh-mcp-client` bridge; installable with `dsh plugin add`.
 - [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) — Hosted outcome tools over MCP: doc/PDF conversion, tables with in-code arithmetic checks, China-reachability testing from a real mainland vantage (+ live README badge & 30-day watch), Chinese calendar/holidays. Free anonymous quota, per-call cost reporting. *(Disclosure: by the ainetcafe.com team.)*
 - [Chhlafiu4312/dsh-mcp-bridge](https://github.com/Chhlafiu4312/dsh-mcp-bridge) — Zero-dependency MCP client bridge for DSH: connects stdio/HTTP MCP servers and auto-registers their tools as `mcp_<server>_<tool>`; raw JSON-RPC 2.0, bounded auto-reconnect, installable via `dsh plugin add`.
 - [HOWILLMAKEIT/football-mcp](https://github.com/HOWILLMAKEIT/football-mcp) — Football-data MCP server for Claude, Codex, Cursor, and DeepSeek Harness: 18 European leagues, 8 cup competitions, plus fixtures, standings, head-to-head, odds, and recent-form queries.

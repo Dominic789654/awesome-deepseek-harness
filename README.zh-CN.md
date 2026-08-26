@@ -2140,7 +2140,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [YePpHa/dsh-web-search-kagi](https://github.com/YePpHa/dsh-web-search-kagi) —— 面向 DeepSeek Harness 的 Kagi Search v1 提供商。
 - [bobowsh/dsh-llm-opencode](https://github.com/bobowsh/dsh-llm-opencode) —— DeepSeek Harness (DSH) 的 OpenCode Zen 免费模型适配器 —— DeepSeek V4 Flash Free、Nemotron 3 Ultra Free、MiMo V2.5 Free、Big Pickle。
 - [EdwinDigital/dsh-web-search-microsoft-webiq](https://github.com/EdwinDigital/dsh-web-search-microsoft-webiq) —— DeepSeek Harness 的 Microsoft Web IQ 搜索提供方插件。
-- [yhyfhgs/dsh-providers-extension](https://github.com/yhyfhgs/dsh-providers-extension) —— 为 DeepSeek Harness 提供 Provider 账户管理、实时模型目录与模型选择。
 - [AlexKaiqi/dsh-multi-model-provider](https://github.com/AlexKaiqi/dsh-multi-model-provider) —— 为 DeepSeek Harness 提供多模型支持。
 - [lory69060/cn-intel-mcp-dsh](https://github.com/lory69060/cn-intel-mcp-dsh) —— DeepSeek Harness 插件：中国硬技术供应链情报（MCP：信号板 / 追踪记录 / 问答）。
 - [zdk119746/dsh-llm-workbuddy](https://github.com/zdk119746/dsh-llm-workbuddy) —— 可以在 DSH 中使用 WorkBuddy 里面的模型。
@@ -2148,7 +2147,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) —— AIGC Radar 项目搜索插件：将 AIGC Radar 的 MCP 端点包装为原生插件，以原生 web 搜索卡片展示筛选过的、500 star 地板以上的 GitHub 项目，并在 agent 实施重建前主动检查是否已有成熟方案。
 - [mrpulor-gh/dsh-nuphus-mcp](https://github.com/mrpulor-gh/dsh-nuphus-mcp) —— DeepSeek Harness (DSH) 插件：把 nuphus-mcp 桌面自动化 MCP server 挂载为原生工具（mcp__nuphus-mcp__*）。
 - [enilmalus/offline_websearch](https://github.com/enilmalus/offline_websearch) —— DSH/Claude Code 的本地 Web Search。
-- [satan9394/dsh-boss-agent-cli](https://github.com/satan9394/dsh-boss-agent-cli) —— BOSS 直聘 AI Agent CLI 的 DSH 插件封装：职位搜索、福利筛选、候选人名单、投递沟通与招聘者工作流等 73 个 `mcp__boss__*` 原生工具，经内置 `@deepseek-ai/dsh-mcp-client` 桥接，`dsh plugin add` 一键安装。
 - [Chhlafiu4312/dsh-mcp-bridge](https://github.com/Chhlafiu4312/dsh-mcp-bridge) —— DSH 的零依赖 MCP 客户端桥接：连接 stdio/HTTP MCP server 并把其工具自动注册为 `mcp_<server>_<tool>`；纯 JSON-RPC 2.0 实现、断线自动重连，声明 dsh.bundle 可经 `dsh plugin add` 安装。
 - [HOWILLMAKEIT/football-mcp](https://github.com/HOWILLMAKEIT/football-mcp) —— 面向 Claude、Codex、Cursor 和 DeepSeek Harness 的足球数据 MCP Server，支持 18 个欧洲联赛、8 个杯赛，以及比赛、积分榜、交锋、赔率和近期状态查询。
 - [taxueseek/argo](https://github.com/taxueseek/argo) —— 为 agent 打造的多语言搜索工具（网页/学术/代码/金融/新闻），附带 DSH 插件包，提供 10 个 `mcp__argo__*` 工具。  `⭐56`
