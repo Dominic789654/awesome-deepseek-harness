@@ -1757,7 +1757,6 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [12398k/dsh-opencode-go-dashboard](https://github.com/12398k/dsh-opencode-go-dashboard) — Go-based dashboard for DeepSeek Harness (opencode-go lineage).
 - [HellowVirgil/dsh-antv-ava](https://github.com/HellowVirgil/dsh-antv-ava) — AntV AVA plugin for DeepSeek Harness with streaming narrative text and charts.
 - [baihui-ai/a2ui-render-in-dsh](https://github.com/baihui-ai/a2ui-render-in-dsh) — Interactive A2UI cards for the dsh web UI — quizzes, forms, charts and diagrams rendered inline in the conversation, with a full action loop back to the agent.
-- [lamost423/dsh-maze](https://github.com/lamost423/dsh-maze) — The execution maze for DeepSeek Harness agents — see how the agent actually worked: maze timeline, per-step data tracks, deterministic execution analysis, multi-session comparison. Formerly dsh-trace-compare.
 - [luweiyabo/dsh-whale-pet](https://github.com/luweiyabo/dsh-whale-pet) — Open-source desktop whale pet plugin for DeepSeek Harness Web UI, with Agent-state awareness, multiple transparent animations, click-and-drag, screen roaming, custom actions and trigger rules.
 - [mjw-git/dsh-pet](https://github.com/mjw-git/dsh-pet) — Desktop pet plugin for DeepSeek Harness (dsh) — grows with your agent token usage; XP economy, custom spritesheets, SSE status push, one-command install.
 

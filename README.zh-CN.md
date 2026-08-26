@@ -1745,7 +1745,6 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [12398k/dsh-opencode-go-dashboard](https://github.com/12398k/dsh-opencode-go-dashboard) —— 面向 DeepSeek Harness 的 Go 语言仪表盘（opencode-go 血统）。
 - [HellowVirgil/dsh-antv-ava](https://github.com/HellowVirgil/dsh-antv-ava) —— 面向 DeepSeek Harness 的 AntV AVA 插件，支持流式叙事文本与图表。
 - [baihui-ai/a2ui-render-in-dsh](https://github.com/baihui-ai/a2ui-render-in-dsh) —— 面向 dsh web UI 的交互式 A2UI 卡片——测验、表单、图表与图形直接渲染在对话中，并有完整的动作回环反馈给 agent。
-- [lamost423/dsh-maze](https://github.com/lamost423/dsh-maze) —— DeepSeek Harness agent 的执行迷宫——看清 agent 究竟是怎么工作的：迷宫时间线、逐步数据轨道、确定性执行分析、多会话对比。前身为 dsh-trace-compare。
 - [luweiyabo/dsh-whale-pet](https://github.com/luweiyabo/dsh-whale-pet) —— DeepSeek Harness Web UI 的开源鲸鱼桌宠插件，支持 Agent 状态感知、多种透明动画、点击拖拽、屏幕漫游、自定义动作与触发规则。
 - [mjw-git/dsh-pet](https://github.com/mjw-git/dsh-pet) —— DeepSeek Harness (dsh) 桌宠插件——随 agent token 用量成长；XP 经济系统、自定义精灵图、SSE 状态推送、一条命令安装。
 
