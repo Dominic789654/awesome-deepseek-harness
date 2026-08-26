@@ -1,0 +1,46 @@
+{
+  "name": "dsh-a11y-audit",
+  "version": "0.1.0",
+  "description": "WCAG 2.2 无障碍审计：POUR 原则、合规等级、自动化+人工验证、修复建议。受 wshobson/agents（38k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "a11y",
+    "accessibility",
+    "wcag",
+    "无障碍"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

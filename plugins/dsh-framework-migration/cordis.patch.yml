@@ -1,0 +1,5 @@
+# dsh-framework-migration bundle: registers the packaged skills/framework-migration
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-framework-migration
+      name: dsh-framework-migration

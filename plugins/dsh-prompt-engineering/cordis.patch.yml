@@ -1,0 +1,5 @@
+# dsh-prompt-engineering bundle: registers the packaged
+# skills/prompt-engineering SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-prompt-engineering
+      name: dsh-prompt-engineering

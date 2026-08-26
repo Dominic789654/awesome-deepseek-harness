@@ -1,0 +1,5 @@
+# dsh-document-generation bundle: registers the packaged skills/document-generation
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-document-generation
+      name: dsh-document-generation

@@ -1,0 +1,47 @@
+{
+  "name": "dsh-social-simulation",
+  "version": "0.1.0",
+  "description": "百万 agent 社交模拟：可扩展开源社媒模拟器，LLM agent 逼真模仿 Twitter/Reddit 上多达百万用户——23 种动作（follow/comment/repost）、兴趣与热度推荐算法、动态环境；研究信息传播/群体极化/羊群行为等社会现象。受 camel-ai/oasis（5k★ Apache-2.0）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "simulation",
+    "social",
+    "agents",
+    "oasis",
+    "社交模拟"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

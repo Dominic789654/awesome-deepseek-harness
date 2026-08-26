@@ -1,0 +1,5 @@
+# dsh-e2e-testing bundle: registers the packaged skills/e2e-testing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-e2e-testing
+      name: dsh-e2e-testing

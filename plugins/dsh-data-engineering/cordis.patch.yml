@@ -1,0 +1,5 @@
+# dsh-data-engineering bundle: registers the packaged skills/data-engineering
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-data-engineering
+      name: dsh-data-engineering

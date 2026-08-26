@@ -1,0 +1,47 @@
+{
+  "name": "dsh-obsidian-vault",
+  "version": "0.1.0",
+  "description": "Obsidian 知识库技能：Obsidian 风味 Markdown（wikilinks/embeds/callouts/properties）、Bases（视图/过滤/公式/汇总）、JSON Canvas（节点/边/组）、Obsidian CLI（插件与主题开发）、Defuddle 网页转净 Markdown 省 token。受 kepano/obsidian-skills（36k★）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "obsidian",
+    "knowledge",
+    "markdown",
+    "canvas",
+    "知识库"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

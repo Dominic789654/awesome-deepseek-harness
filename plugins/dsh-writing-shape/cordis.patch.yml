@@ -1,0 +1,5 @@
+# dsh-writing-shape bundle: registers the packaged skills/writing-shape
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-writing-shape
+      name: dsh-writing-shape

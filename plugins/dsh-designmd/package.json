@@ -1,0 +1,47 @@
+{
+  "name": "dsh-designmd",
+  "version": "0.1.0",
+  "description": "DESIGN.md 设计系统格式：给 coding agent 的视觉身份规范——YAML token（颜色/字体/圆角/间距/组件）+ Markdown 设计理由、token 引用、lint/diff/export 工具链、WCAG 对比度检查。受 google-labs-code/design.md（27k★ Apache-2.0）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "design",
+    "design-tokens",
+    "design-system",
+    "designmd",
+    "设计系统"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

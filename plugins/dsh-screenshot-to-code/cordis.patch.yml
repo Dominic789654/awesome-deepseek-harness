@@ -1,0 +1,5 @@
+# dsh-screenshot-to-code bundle: registers the packaged skills/screenshot-to-code
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-screenshot-to-code
+      name: dsh-screenshot-to-code

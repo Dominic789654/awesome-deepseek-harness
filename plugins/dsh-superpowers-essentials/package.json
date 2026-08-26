@@ -1,0 +1,47 @@
+{
+  "name": "dsh-superpowers-essentials",
+  "version": "0.1.0",
+  "description": "工程方法论技能集：实现前先分类并获批（Spike/Bounded/Architectural）、系统化调试。受 obra/superpowers（274k★ MIT）启发的 DSH 原创改编。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "superpowers",
+    "engineering",
+    "debugging",
+    "工程方法论",
+    "调试"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

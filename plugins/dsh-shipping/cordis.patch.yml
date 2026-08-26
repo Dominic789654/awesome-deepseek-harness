@@ -1,0 +1,5 @@
+# dsh-shipping bundle: registers the packaged skills/shipping SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-shipping
+      name: dsh-shipping

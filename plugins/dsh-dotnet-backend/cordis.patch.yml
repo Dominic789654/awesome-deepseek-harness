@@ -1,0 +1,5 @@
+# dsh-dotnet-backend bundle: registers the packaged skills/dotnet-backend
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-dotnet-backend
+      name: dsh-dotnet-backend

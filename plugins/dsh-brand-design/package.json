@@ -1,0 +1,47 @@
+{
+  "name": "dsh-brand-design",
+  "version": "0.1.0",
+  "description": "品牌设计系统：品牌资产协议 5 步硬流程（问→搜→下载→grep 色值→固化 spec）、设计方向顾问（三套逻辑并行 subagent + 60 种 HTML 原生风格库）、Junior Designer 工作流、反 AI slop 规则、5 维度专家评审。受 alchaincyf/huashu-design（23k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "brand",
+    "design",
+    "design-system",
+    "prototype",
+    "品牌设计"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

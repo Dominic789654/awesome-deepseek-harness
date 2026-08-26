@@ -1,0 +1,47 @@
+{
+  "name": "dsh-model-gateway",
+  "version": "0.1.0",
+  "description": "模型路由网关：一个端点连接 290+ AI 提供商（90+ 免费、1200+ 模型），Claude Code/Codex/Cursor/Cline/Copilot 全兼容——配额感知自动回退、19 种路由策略、RTK+Caveman 叠加压缩省 15-95% token、免费层聚合预算（~1.5B tokens/月）、MCP/A2A、本地优先。受 diegosouzapw/OmniRoute（51k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "gateway",
+    "routing",
+    "models",
+    "omniroute",
+    "模型路由"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

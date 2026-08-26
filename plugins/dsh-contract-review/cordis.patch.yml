@@ -1,0 +1,5 @@
+# dsh-contract-review bundle: registers the packaged skills/contract-review
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-contract-review
+      name: dsh-contract-review

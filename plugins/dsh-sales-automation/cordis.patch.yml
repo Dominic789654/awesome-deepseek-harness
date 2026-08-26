@@ -1,0 +1,5 @@
+# dsh-sales-automation bundle: registers the packaged skills/sales-automation
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-sales-automation
+      name: dsh-sales-automation

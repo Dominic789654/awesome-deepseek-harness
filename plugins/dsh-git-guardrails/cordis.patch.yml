@@ -1,0 +1,5 @@
+# dsh-git-guardrails bundle: registers the packaged skills/git-guardrails
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-git-guardrails
+      name: dsh-git-guardrails

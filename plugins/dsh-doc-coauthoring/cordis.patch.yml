@@ -1,0 +1,5 @@
+# dsh-doc-coauthoring bundle: registers the packaged skills/doc-coauthoring
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-doc-coauthoring
+      name: dsh-doc-coauthoring

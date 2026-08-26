@@ -1,0 +1,5 @@
+# dsh-terraform bundle: registers the packaged skills/terraform SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-terraform
+      name: dsh-terraform

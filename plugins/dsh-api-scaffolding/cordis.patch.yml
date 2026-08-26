@@ -1,0 +1,5 @@
+# dsh-api-scaffolding bundle: registers the packaged skills/api-scaffolding
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-api-scaffolding
+      name: dsh-api-scaffolding

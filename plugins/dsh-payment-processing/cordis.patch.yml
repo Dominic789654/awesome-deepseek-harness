@@ -1,0 +1,5 @@
+# dsh-payment-processing bundle: registers the packaged skills/payment-processing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-payment-processing
+      name: dsh-payment-processing

@@ -1,0 +1,48 @@
+{
+  "name": "dsh-marketing-growth",
+  "version": "0.1.0",
+  "description": "营销增长技能树：product-marketing 根基（所有技能先读）→ CRO/文案/SEO/A-B 测试/冷邮件/营销心理学/营销 loops/增长工程；技能互引用与依赖图。受 coreyhaines31/marketingskills（44.9k★）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "marketing",
+    "cro",
+    "seo",
+    "copywriting",
+    "growth",
+    "营销增长"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

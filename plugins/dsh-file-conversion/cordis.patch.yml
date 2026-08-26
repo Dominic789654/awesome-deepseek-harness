@@ -1,0 +1,5 @@
+# dsh-file-conversion bundle: registers the packaged skills/file-conversion
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-file-conversion
+      name: dsh-file-conversion

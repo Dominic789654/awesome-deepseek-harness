@@ -1,0 +1,47 @@
+{
+  "name": "dsh-doc-compiled-skills",
+  "version": "0.1.0",
+  "description": "文档预编译成可执行技能：把官方文档（API 模式/配置流程/最佳实践/约束/故障排查决策树/安全合规）预编译为结构化可执行技能，而非每次 RAG 检索——提取→分类→按用户意图按需揭示。受 MicrosoftDocs/Agent-Skills（Azure Agent Skills）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "docs",
+    "precompile",
+    "azure",
+    "agent-skills",
+    "文档预编译"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+# dsh-technical-writer: injects the technical-writer skill into the agent's skill catalog
+- insert:
+    - id: dsh-technical-writer
+      name: dsh-technical-writer

@@ -1,0 +1,5 @@
+# dsh-writing-fragments bundle: registers the packaged skills/writing-fragments
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-writing-fragments
+      name: dsh-writing-fragments

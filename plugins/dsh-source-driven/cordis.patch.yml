@@ -1,0 +1,5 @@
+# dsh-source-driven bundle: registers the packaged skills/source-driven
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-source-driven
+      name: dsh-source-driven

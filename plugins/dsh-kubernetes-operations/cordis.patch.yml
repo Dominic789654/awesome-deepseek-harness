@@ -1,0 +1,5 @@
+# dsh-kubernetes-operations bundle: registers the packaged skills/kubernetes-operations
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-kubernetes-operations
+      name: dsh-kubernetes-operations

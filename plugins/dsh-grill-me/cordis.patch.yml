@@ -1,0 +1,6 @@
+# dsh-grill-me bundle: registers the packaged `skills/grill-me/SKILL.md` on
+# ctx.skills. Applied after @deepseek-ai/dsh-base, which already mounts the
+# skill registry and the model-facing skill loader.
+- insert:
+    - id: dsh-grill-me
+      name: dsh-grill-me

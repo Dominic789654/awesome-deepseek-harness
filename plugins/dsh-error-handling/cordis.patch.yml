@@ -1,0 +1,5 @@
+# dsh-error-handling bundle: registers the packaged skills/error-handling
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-error-handling
+      name: dsh-error-handling

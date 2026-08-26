@@ -1,0 +1,47 @@
+{
+  "name": "dsh-better-interface",
+  "version": "0.1.0",
+  "description": "界面质量技能系列：跨学科界面评审（UI/排版/颜色/可访问性/布局/产品写作）、variant 多版本选择器、explain-interface 逆向解释效果、better-interface 协调评审。受 jakubkrehel/skills（3.9k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "interface",
+    "ui",
+    "typography",
+    "accessibility",
+    "界面质量"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

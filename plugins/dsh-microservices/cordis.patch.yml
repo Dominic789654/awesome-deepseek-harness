@@ -1,0 +1,5 @@
+# dsh-microservices bundle: registers the packaged skills/microservices
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-microservices
+      name: dsh-microservices

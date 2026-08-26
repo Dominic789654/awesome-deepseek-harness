@@ -1,0 +1,5 @@
+# dsh-kpi-dashboard-design bundle: registers the packaged skills/kpi-dashboard-design
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-kpi-dashboard-design
+      name: dsh-kpi-dashboard-design

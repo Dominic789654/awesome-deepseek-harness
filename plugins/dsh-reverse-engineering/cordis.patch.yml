@@ -1,0 +1,5 @@
+# dsh-reverse-engineering bundle: registers the packaged skills/reverse-engineering
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-reverse-engineering
+      name: dsh-reverse-engineering

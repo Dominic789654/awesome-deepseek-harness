@@ -1,0 +1,5 @@
+# dsh-blockchain-web3 bundle: registers the packaged skills/blockchain-web3
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-blockchain-web3
+      name: dsh-blockchain-web3

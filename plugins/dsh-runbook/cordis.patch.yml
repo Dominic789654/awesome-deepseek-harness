@@ -1,0 +1,5 @@
+# dsh-runbook bundle: registers the packaged skills/runbook SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-runbook
+      name: dsh-runbook

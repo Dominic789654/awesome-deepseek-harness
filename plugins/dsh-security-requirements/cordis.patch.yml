@@ -1,0 +1,5 @@
+# dsh-security-requirements bundle: registers the packaged skills/security-requirements
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-security-requirements
+      name: dsh-security-requirements

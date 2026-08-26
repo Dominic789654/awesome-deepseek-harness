@@ -1,0 +1,5 @@
+# dsh-changelog bundle: registers the packaged skills/changelog SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-changelog
+      name: dsh-changelog

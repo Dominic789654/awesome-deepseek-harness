@@ -1,0 +1,5 @@
+# dsh-api-documentation bundle: registers the packaged skills/api-documentation
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-api-documentation
+      name: dsh-api-documentation

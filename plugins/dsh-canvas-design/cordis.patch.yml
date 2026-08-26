@@ -1,0 +1,5 @@
+# dsh-canvas-design bundle: registers the packaged skills/canvas-design
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-canvas-design
+      name: dsh-canvas-design

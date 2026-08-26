@@ -1,0 +1,5 @@
+# dsh-ai-image-design bundle: registers the packaged skills/ai-image-design
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-ai-image-design
+      name: dsh-ai-image-design

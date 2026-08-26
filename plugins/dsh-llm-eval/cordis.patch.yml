@@ -1,0 +1,5 @@
+# dsh-llm-eval bundle: registers the packaged skills/llm-eval SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-llm-eval
+      name: dsh-llm-eval

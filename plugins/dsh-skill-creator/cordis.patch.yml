@@ -1,0 +1,5 @@
+# dsh-skill-creator bundle: registers the packaged skills/skill-creator
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-skill-creator
+      name: dsh-skill-creator

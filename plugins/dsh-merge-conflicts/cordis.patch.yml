@@ -1,0 +1,5 @@
+# dsh-merge-conflicts bundle: registers the packaged
+# skills/merge-conflicts SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-merge-conflicts
+      name: dsh-merge-conflicts

@@ -1,0 +1,5 @@
+# dsh-code-reviewer bundle: registers the packaged skills/code-review SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-code-reviewer
+      name: dsh-code-reviewer

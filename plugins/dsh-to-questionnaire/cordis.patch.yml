@@ -1,0 +1,5 @@
+# dsh-to-questionnaire bundle: registers the packaged skills/to-questionnaire
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-to-questionnaire
+      name: dsh-to-questionnaire

@@ -1,0 +1,27 @@
+{
+  "name": "dsh-unit-test-author",
+  "version": "1.0.0",
+  "description": "单元测试编写：产出全面可维护的测试, 覆盖边界/表驱动/模拟桩与有意义覆盖率。system-prompt 注入型插件。",
+  "type": "module",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "files": ["skills", "cordis.patch.yml", "README.md"],
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "metadata": {
+    "category": "skill",
+    "displayName": {
+      "en": "Unit Test Author",
+      "zh": "单元测试编写专家"
+    },
+    "summary": {
+      "en": "Writes thorough, maintainable unit tests with comprehensive edge cases, table-driven cases, proper mocking/stubbing, and meaningful coverage across languages and frameworks.",
+      "zh": "编写全面、可维护的单元测试，涵盖边界情况、表驱动用例、适当的模拟/桩以及跨语言框架的有意义覆盖率。"
+    }
+  },
+  "license": "MIT",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "cordis", "unit-testing", "tdd", "edge-cases", "mocking", "test-coverage"]
+}

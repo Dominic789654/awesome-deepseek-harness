@@ -1,0 +1,5 @@
+# dsh-social-publishing bundle: registers the packaged skills/social-publishing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-social-publishing
+      name: dsh-social-publishing

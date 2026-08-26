@@ -1,0 +1,5 @@
+# dsh-context-engineering bundle: registers the packaged
+# skills/context-engineering SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-context-engineering
+      name: dsh-context-engineering

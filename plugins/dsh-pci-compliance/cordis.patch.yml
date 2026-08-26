@@ -1,0 +1,5 @@
+# dsh-pci-compliance bundle: registers the packaged skills/pci-compliance
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-pci-compliance
+      name: dsh-pci-compliance

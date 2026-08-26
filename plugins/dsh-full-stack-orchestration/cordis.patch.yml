@@ -1,0 +1,5 @@
+# dsh-full-stack-orchestration bundle: registers the packaged skills/full-stack-orchestration
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-full-stack-orchestration
+      name: dsh-full-stack-orchestration

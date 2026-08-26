@@ -1,0 +1,47 @@
+{
+  "name": "dsh-self-improving-agent",
+  "version": "0.1.0",
+  "description": "自改进 AI agent：内置学习回路——从经验自动创建技能、使用时改进、FTS5 会话搜索+LLM 摘要跨会话回忆、Honcho 辩证用户建模、跨平台网关（Telegram/Discord/Slack）、调度自动化、子代理并行、serverless 休眠唤醒。受 NousResearch/hermes-agent（154k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "self-improving",
+    "learning-loop",
+    "hermes",
+    "agent",
+    "自改进"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

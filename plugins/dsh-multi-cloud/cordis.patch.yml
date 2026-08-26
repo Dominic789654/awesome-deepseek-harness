@@ -1,0 +1,5 @@
+# dsh-multi-cloud bundle: registers the packaged skills/multi-cloud
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-multi-cloud
+      name: dsh-multi-cloud

@@ -1,0 +1,5 @@
+# dsh-doubt-driven-dev bundle: registers the packaged
+# skills/doubt-driven-dev SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-doubt-driven-dev
+      name: dsh-doubt-driven-dev

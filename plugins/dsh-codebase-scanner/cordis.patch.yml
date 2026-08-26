@@ -1,0 +1,5 @@
+# dsh-codebase-scanner bundle: registers the packaged skills/codebase-scanner
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-codebase-scanner
+      name: dsh-codebase-scanner

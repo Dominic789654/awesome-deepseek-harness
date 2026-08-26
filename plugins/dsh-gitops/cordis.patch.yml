@@ -1,0 +1,5 @@
+# dsh-gitops bundle: registers the packaged skills/gitops SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-gitops
+      name: dsh-gitops

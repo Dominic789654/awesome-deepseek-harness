@@ -1,0 +1,5 @@
+# dsh-writing-beats bundle: registers the packaged skills/writing-beats
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-writing-beats
+      name: dsh-writing-beats

@@ -1,0 +1,5 @@
+# dsh-gif-creator bundle: registers the packaged skills/gif-creator
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-gif-creator
+      name: dsh-gif-creator

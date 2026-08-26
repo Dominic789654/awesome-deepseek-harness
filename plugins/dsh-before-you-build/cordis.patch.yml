@@ -1,0 +1,5 @@
+# dsh-before-you-build bundle: registers the packaged skills/before-you-build
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-before-you-build
+      name: dsh-before-you-build

@@ -1,0 +1,29 @@
+{
+  "name": "dsh-boss-agent-cli",
+  "version": "1.18.0",
+  "description": "DeepSeek Harness plugin: bridge the boss-agent-cli MCP server (BOSS直聘 AI Agent CLI) into DSH as native mcp__boss__* tools.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "keywords": ["dsh", "deepseek-harness", "boss-zhipin", "recruitment", "mcp", "boss直聘"],
+  "files": ["cordis.patch.yml", "README.dsh.md"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satan9394/dsh-public"
+  },
+  "dsh": {
+    "plugin": {
+      "schemaVersion": 1,
+      "displayName": {
+        "zh-CN": "boss-agent-cli（BOSS 直聘 AI Agent 插件）",
+        "en": "boss-agent-cli (BOSS Zhipin AI Agent plugin)"
+      },
+      "summary": {
+        "zh-CN": "把 boss-agent-cli 的 MCP server 桥接进 DeepSeek Harness：职位搜索、福利筛选、候选人名单、投递沟通、招聘者工作流等 70+ 工具以 mcp__boss__* 形式直接可用。",
+        "en": "Bridges boss-agent-cli's MCP server into DeepSeek Harness: job search, welfare filtering, shortlist, application chat, recruiter workflows and 70+ more tools available as mcp__boss__*."
+      },
+      "category": "mcp"
+    },
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

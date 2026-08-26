@@ -1,0 +1,5 @@
+# dsh-algorithmic-art bundle: registers the packaged skills/algorithmic-art
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-algorithmic-art
+      name: dsh-algorithmic-art

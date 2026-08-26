@@ -1,0 +1,5 @@
+# dsh-diagram-design bundle: registers the packaged skills/diagram-design
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-diagram-design
+      name: dsh-diagram-design

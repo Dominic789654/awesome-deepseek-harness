@@ -1,0 +1,47 @@
+{
+  "name": "dsh-frontend-slides",
+  "version": "0.1.0",
+  "description": "零依赖 HTML 演示文稿：show-don't-tell 视觉风格发现（3 预览供选）、PPT 转网页（保留素材）、anti-AI-slop 精选风格、bold 模板包渐进加载。受 zarazhangrui/frontend-slides（27k★）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "presentation",
+    "slides",
+    "html",
+    "ppt",
+    "网页演示"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

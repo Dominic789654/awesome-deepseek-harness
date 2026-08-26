@@ -1,0 +1,5 @@
+# dsh-pptx-engineering bundle: registers the packaged skills/pptx-engineering
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-pptx-engineering
+      name: dsh-pptx-engineering

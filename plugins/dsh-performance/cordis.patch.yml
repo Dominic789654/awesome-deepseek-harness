@@ -1,0 +1,5 @@
+# dsh-performance bundle: registers the packaged skills/performance SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-performance
+      name: dsh-performance

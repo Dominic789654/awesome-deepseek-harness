@@ -1,0 +1,5 @@
+# dsh-wayfinder bundle: registers the packaged skills/wayfinder
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-wayfinder
+      name: dsh-wayfinder

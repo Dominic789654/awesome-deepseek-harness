@@ -1,0 +1,5 @@
+# dsh-database-design bundle: registers the packaged
+# skills/database-design SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-database-design
+      name: dsh-database-design

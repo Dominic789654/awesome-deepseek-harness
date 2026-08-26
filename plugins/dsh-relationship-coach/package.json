@@ -1,0 +1,47 @@
+{
+  "name": "dsh-relationship-coach",
+  "version": "0.1.0",
+  "description": "恋爱/关系军师：先接情绪再解决事、事实/推测/未知分离、互惠/现实/风险/机会成本分析、可执行话术与观察窗口/停止条件、危险情境优先安全。受 powerycy/goutoujunshi（2.3k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "relationship",
+    "coach",
+    "dating",
+    "emotion",
+    "关系军师"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

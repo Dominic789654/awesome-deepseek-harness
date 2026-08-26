@@ -1,0 +1,5 @@
+# dsh-bash-scripting bundle: registers the packaged skills/bash-scripting
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-bash-scripting
+      name: dsh-bash-scripting

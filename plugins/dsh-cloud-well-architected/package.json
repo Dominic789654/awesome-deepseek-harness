@@ -1,0 +1,47 @@
+{
+  "name": "dsh-cloud-well-architected",
+  "version": "0.1.0",
+  "description": "云 Well-Architected 六支柱评审框架：可靠性（用户经验目标/SLO/冗余/水平扩展/可观测性/优雅降级/恢复测试/无指责复盘）、成本优化、运维卓越、性能优化、安全、可持续性——设计原则+建议驱动架构评估与改进。受 google/skills（18.5k★ Apache-2.0）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "well-architected",
+    "cloud",
+    "reliability",
+    "architecture",
+    "云架构评审"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

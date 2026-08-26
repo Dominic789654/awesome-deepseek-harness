@@ -1,0 +1,5 @@
+# dsh-debug-recovery bundle: registers the packaged skills/debug-recovery
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-debug-recovery
+      name: dsh-debug-recovery

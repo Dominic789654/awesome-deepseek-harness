@@ -1,0 +1,44 @@
+{
+  "name": "dsh-skill-creator",
+  "version": "0.1.0",
+  "description": "技能创作器：教 agent 按 agentskills.io 规范编写高质量 SKILL.md 技能（frontmatter、渐进式披露、触发描述）。改编自 Anthropic 官方 skill-creator（Apache-2.0）。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "skill-creator",
+    "技能创作"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

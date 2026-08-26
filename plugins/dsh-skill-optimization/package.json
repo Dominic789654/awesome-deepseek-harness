@@ -1,0 +1,47 @@
+{
+  "name": "dsh-skill-optimization",
+  "version": "0.1.0",
+  "description": "把技能当可训练参数：像训练神经网络一样训练 agent 技能（epochs/batchsize/learning rate/验证门禁，但不碰模型权重）——rollout→reflect→aggregate→select→update→evaluate 循环、候选编辑仅在严格改善 held-out 验证分时接受、文本学习率预算、零推理时模型调用、部署紧凑 best_skill.md。受 microsoft/SkillOpt（MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "optimization",
+    "skillopt",
+    "training",
+    "self-evolving",
+    "技能优化"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

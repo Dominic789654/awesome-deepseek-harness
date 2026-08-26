@@ -1,0 +1,5 @@
+# dsh-issue-triage bundle: registers the packaged skills/issue-triage
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-issue-triage
+      name: dsh-issue-triage

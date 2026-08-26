@@ -1,0 +1,5 @@
+# dsh-frontend-engineering bundle: registers the packaged
+# skills/frontend-engineering SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-frontend-engineering
+      name: dsh-frontend-engineering

@@ -1,0 +1,5 @@
+# dsh-observability-tools bundle: registers the packaged skills/observability-tools
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-observability-tools
+      name: dsh-observability-tools

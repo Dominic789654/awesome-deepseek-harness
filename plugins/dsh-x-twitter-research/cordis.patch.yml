@@ -1,0 +1,5 @@
+# dsh-x-twitter-research bundle: registers the packaged skills/x-twitter-research
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-x-twitter-research
+      name: dsh-x-twitter-research

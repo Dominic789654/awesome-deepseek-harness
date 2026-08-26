@@ -1,0 +1,47 @@
+{
+  "name": "dsh-colleague-creation",
+  "version": "0.1.0",
+  "description": "把真人蒸馏成 AI 技能：源材料（聊天/文档/邮件/截图）+ 主观描述 → 生成像 TA 一样工作的 Skill——工作能力层 + 五层人格层、公司文化/职级标签、增量演进与版本回滚。受 titanwings/colleague-skill（23.5k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "colleague",
+    "persona",
+    "distillation",
+    "knowledge",
+    "数字永生"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

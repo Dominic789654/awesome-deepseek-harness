@@ -1,0 +1,5 @@
+# dsh-brand-guidelines bundle: registers the packaged skills/brand-guidelines
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-brand-guidelines
+      name: dsh-brand-guidelines

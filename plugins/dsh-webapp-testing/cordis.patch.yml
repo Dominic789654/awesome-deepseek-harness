@@ -1,0 +1,5 @@
+# dsh-webapp-testing bundle: registers the packaged skills/webapp-testing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-webapp-testing
+      name: dsh-webapp-testing

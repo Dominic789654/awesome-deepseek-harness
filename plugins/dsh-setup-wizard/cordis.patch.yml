@@ -1,0 +1,5 @@
+# dsh-setup-wizard bundle: registers the packaged skills/setup-wizard
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-setup-wizard
+      name: dsh-setup-wizard

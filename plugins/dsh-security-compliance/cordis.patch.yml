@@ -1,0 +1,5 @@
+# dsh-security-compliance bundle: registers the packaged skills/security-compliance
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-security-compliance
+      name: dsh-security-compliance

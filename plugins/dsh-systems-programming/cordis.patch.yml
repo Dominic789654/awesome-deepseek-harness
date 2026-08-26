@@ -1,0 +1,5 @@
+# dsh-systems-programming bundle: registers the packaged skills/systems-programming
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-systems-programming
+      name: dsh-systems-programming

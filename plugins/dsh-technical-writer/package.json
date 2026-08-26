@@ -1,0 +1,12 @@
+{
+  "name": "dsh-technical-writer",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DSH bundle plugin for technical writing — guides, API docs, READMEs, tutorials, reference pages, and release notes.",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "skills"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "keywords": ["dsh", "plugin", "technical-writing", "documentation"],
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "dsh-cli-anything",
+  "version": "0.1.0",
+  "description": "让任何软件 agent 化：7 阶段 CLI 封装流水线（分析→设计→实现→测试→发布）、真实后端集成、JSON 输出、REPL 会话、refine 增量补全。受 HKUDS/CLI-Anything（48k★ Apache-2.0）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "cli",
+    "agent-native",
+    "harness",
+    "cli-anything",
+    "软件agent化"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+# dsh-codebase-design bundle: registers the packaged skills/codebase-design
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-codebase-design
+      name: dsh-codebase-design

@@ -1,0 +1,5 @@
+# dsh-docs-adr bundle: registers the packaged skills/docs-adr SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-docs-adr
+      name: dsh-docs-adr

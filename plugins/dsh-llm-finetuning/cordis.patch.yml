@@ -1,0 +1,5 @@
+# dsh-llm-finetuning bundle: registers the packaged skills/llm-finetuning
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-llm-finetuning
+      name: dsh-llm-finetuning

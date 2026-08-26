@@ -1,0 +1,4 @@
+# dsh-tdd bundle: registers the packaged skills/tdd SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-tdd
+      name: dsh-tdd

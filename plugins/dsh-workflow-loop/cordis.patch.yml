@@ -1,0 +1,5 @@
+# dsh-workflow-loop bundle: registers the packaged skills/workflow-loop
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-workflow-loop
+      name: dsh-workflow-loop

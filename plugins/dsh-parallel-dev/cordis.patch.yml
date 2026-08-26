@@ -1,0 +1,5 @@
+# dsh-parallel-dev bundle: registers the packaged skills/parallel-dev SKILL.md
+# on ctx.skills.
+- insert:
+    - id: dsh-parallel-dev
+      name: dsh-parallel-dev

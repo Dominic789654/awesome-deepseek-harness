@@ -1,0 +1,5 @@
+# dsh-mcp-builder bundle: registers the packaged skills/mcp-builder
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-mcp-builder
+      name: dsh-mcp-builder

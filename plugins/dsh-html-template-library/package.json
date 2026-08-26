@@ -1,0 +1,47 @@
+{
+  "name": "dsh-html-template-library",
+  "version": "0.1.0",
+  "description": "HTML 模板库方法论：34 个设计系统模板（Soft Editorial/Neo-Grid Bold/Stencil & Tablet/Sakura Chroma…）——读 index.json 匹配用户 brief、克隆模板、适配内容；每个模板 3 张多布局截图、元数据、可复用设计系统。受 zarazhangrui/beautiful-html-templates（4k★）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "html",
+    "templates",
+    "design-system",
+    "slides",
+    "HTML模板库"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

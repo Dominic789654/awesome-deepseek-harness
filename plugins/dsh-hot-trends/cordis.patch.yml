@@ -1,0 +1,5 @@
+# dsh-hot-trends bundle: mounts the hot_trends tool row and registers the
+# packaged `skills/hot-trends/SKILL.md` on ctx.skills.
+- insert:
+    - id: dsh-hot-trends
+      name: dsh-hot-trends

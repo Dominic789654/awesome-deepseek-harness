@@ -1,0 +1,4 @@
+# dsh-rag bundle: registers the packaged skills/rag SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-rag
+      name: dsh-rag

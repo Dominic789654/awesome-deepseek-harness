@@ -1,0 +1,5 @@
+# dsh-meeting-minutes bundle: registers the packaged skills/meeting-minutes
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-meeting-minutes
+      name: dsh-meeting-minutes

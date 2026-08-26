@@ -1,0 +1,5 @@
+# dsh-architecture bundle: registers the packaged skills/architecture
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-architecture
+      name: dsh-architecture

@@ -1,0 +1,5 @@
+# dsh-api-design bundle: registers the packaged skills/api-design SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-api-design
+      name: dsh-api-design

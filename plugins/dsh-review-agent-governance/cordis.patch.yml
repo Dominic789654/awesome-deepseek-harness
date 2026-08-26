@@ -1,0 +1,5 @@
+# dsh-review-agent-governance bundle: registers the packaged skills/review-agent-governance
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-review-agent-governance
+      name: dsh-review-agent-governance

@@ -1,0 +1,5 @@
+# dsh-recsys-pipeline bundle: registers the packaged skills/recsys-pipeline
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-recsys-pipeline
+      name: dsh-recsys-pipeline

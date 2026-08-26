@@ -1,0 +1,5 @@
+# dsh-spec-driven bundle: registers the packaged skills/spec-driven SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-spec-driven
+      name: dsh-spec-driven

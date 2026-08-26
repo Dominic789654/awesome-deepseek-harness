@@ -1,0 +1,47 @@
+{
+  "name": "dsh-virtual-eng-team",
+  "version": "0.1.0",
+  "description": "虚拟工程团队：把 agent 变成一整套工程团队——CEO 重思产品、工程经理锁架构、设计师抓 AI slop、评审找生产 bug、QA 开真实浏览器、安全官跑 OWASP+STRIDE、发布工程师发 PR；23 专家 + 8 电源工具全 slash 命令（office-hours 产品拷问/plan-ceo-review/review/qa/ship/cso/retro/investigate）。受 garrytan/gstack（128k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "virtual-team",
+    "gstack",
+    "engineering",
+    "ceo",
+    "虚拟团队"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

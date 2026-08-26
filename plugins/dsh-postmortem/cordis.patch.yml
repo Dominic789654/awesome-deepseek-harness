@@ -1,0 +1,5 @@
+# dsh-postmortem bundle: registers the packaged skills/postmortem SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-postmortem
+      name: dsh-postmortem

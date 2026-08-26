@@ -1,0 +1,5 @@
+# dsh-teach bundle: registers the packaged skills/teach
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-teach
+      name: dsh-teach

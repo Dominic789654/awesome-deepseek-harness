@@ -1,0 +1,47 @@
+{
+  "name": "dsh-caveman-speak",
+  "version": "0.1.0",
+  "description": "输出 token 压缩：让 agent 用紧凑的穴居人语回复（省 ~65% 输出 token），代码/命令/错误保持字节精确；token 下沉点审计（caveman learn：safe fix/offload/habit/load-bearing 分类）。受 JuliusBrussee/caveman（86k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "token",
+    "compression",
+    "caveman",
+    "cost",
+    "输出压缩"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

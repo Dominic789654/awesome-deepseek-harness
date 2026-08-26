@@ -1,0 +1,4 @@
+# dsh-cicd bundle: registers the packaged skills/cicd SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-cicd
+      name: dsh-cicd

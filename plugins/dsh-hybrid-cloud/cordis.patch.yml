@@ -1,0 +1,5 @@
+# dsh-hybrid-cloud bundle: registers the packaged skills/hybrid-cloud
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-hybrid-cloud
+      name: dsh-hybrid-cloud

@@ -1,0 +1,46 @@
+{
+  "name": "dsh-ppt-creator",
+  "version": "0.1.0",
+  "description": "中文 PPT 生成技能：结构化大纲 → 视觉设计 → HTML/PPTX 出稿，附排版自查清单。原创技能（参考 GordenPPTSkill / ppt-master 思路）。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "ppt",
+    "presentation",
+    "幻灯片",
+    "演示文稿"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

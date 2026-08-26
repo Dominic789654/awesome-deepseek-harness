@@ -1,0 +1,5 @@
+# dsh-karpathy-methodology bundle: registers the packaged
+# skills/karpathy-methodology SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-karpathy-methodology
+      name: dsh-karpathy-methodology

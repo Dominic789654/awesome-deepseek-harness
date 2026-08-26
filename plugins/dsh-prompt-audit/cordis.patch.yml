@@ -1,0 +1,5 @@
+# dsh-prompt-audit bundle: registers the packaged skills/prompt-audit
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-prompt-audit
+      name: dsh-prompt-audit

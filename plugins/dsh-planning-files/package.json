@@ -1,0 +1,47 @@
+{
+  "name": "dsh-planning-files",
+  "version": "0.1.0",
+  "description": "三文件持久化规划：task_plan.md / findings.md / progress.md 落地磁盘、每轮 hook 重注入，计划扛过 /clear/崩溃/压缩；会话恢复 catchup、并行任务隔离目录。受 OthmanAdi/planning-with-files（25k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "planning",
+    "files",
+    "persistent",
+    "memory",
+    "文件化规划"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

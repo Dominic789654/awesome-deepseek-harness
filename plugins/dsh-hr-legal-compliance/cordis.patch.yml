@@ -1,0 +1,5 @@
+# dsh-hr-legal-compliance bundle: registers the packaged skills/hr-legal-compliance
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-hr-legal-compliance
+      name: dsh-hr-legal-compliance

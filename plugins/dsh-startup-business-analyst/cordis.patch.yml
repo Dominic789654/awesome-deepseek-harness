@@ -1,0 +1,5 @@
+# dsh-startup-business-analyst bundle: registers the packaged skills/startup-business-analyst
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-startup-business-analyst
+      name: dsh-startup-business-analyst

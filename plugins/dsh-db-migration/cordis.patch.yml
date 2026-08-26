@@ -1,0 +1,5 @@
+# dsh-db-migration bundle: registers the packaged skills/db-migration
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-db-migration
+      name: dsh-db-migration

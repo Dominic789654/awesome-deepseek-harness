@@ -1,0 +1,5 @@
+# dsh-llm-api-integration bundle: registers the packaged skills/llm-api-integration
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-llm-api-integration
+      name: dsh-llm-api-integration

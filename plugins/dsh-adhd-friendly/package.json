@@ -1,0 +1,47 @@
+{
+  "name": "dsh-adhd-friendly",
+  "version": "0.1.0",
+  "description": "ADHD 友好输出：行动先行、步骤编号、抑制离题、每轮重申状态、具体时间估计、让进展可见、就事论事错误、列表上限 5 项、无开场白/总结/结尾语。受 ayghri/i-have-adhd（22.3k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "adhd",
+    "focus",
+    "concise",
+    "action-first",
+    "专注输出"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

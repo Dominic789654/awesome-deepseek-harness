@@ -1,0 +1,5 @@
+# dsh-dataset-curation bundle: registers the packaged
+# skills/dataset-curation SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-dataset-curation
+      name: dsh-dataset-curation

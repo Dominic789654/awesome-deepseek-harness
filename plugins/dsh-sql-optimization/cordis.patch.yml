@@ -1,0 +1,5 @@
+# dsh-sql-optimization bundle: registers the packaged skills/sql-optimization
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-sql-optimization
+      name: dsh-sql-optimization

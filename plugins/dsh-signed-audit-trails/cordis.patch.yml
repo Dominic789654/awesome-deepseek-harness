@@ -1,0 +1,5 @@
+# dsh-signed-audit-trails bundle: registers the packaged skills/signed-audit-trails
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-signed-audit-trails
+      name: dsh-signed-audit-trails

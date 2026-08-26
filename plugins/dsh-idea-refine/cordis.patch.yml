@@ -1,0 +1,5 @@
+# dsh-idea-refine bundle: registers the packaged skills/idea-refine SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-idea-refine
+      name: dsh-idea-refine

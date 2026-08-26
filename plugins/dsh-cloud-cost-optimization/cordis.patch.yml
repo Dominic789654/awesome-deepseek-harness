@@ -1,0 +1,5 @@
+# dsh-cloud-cost-optimization bundle: registers the packaged skills/cloud-cost-optimization
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-cloud-cost-optimization
+      name: dsh-cloud-cost-optimization

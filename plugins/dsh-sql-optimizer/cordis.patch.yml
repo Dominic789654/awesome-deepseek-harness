@@ -1,0 +1,14 @@
+# dsh-sql-optimizer: SQL query optimizer skill for DeepSeek Harness
+#
+# This plugin registers a prompt section that injects the SQL optimizer
+# skill instructions into the system prompt. The section is appended after
+# the deployment persona (order 5) so it does not override existing persona
+# text.
+#
+# The skill is also registered as a runtime skill via ctx.skills.register(),
+# making it available through the `skill` tool for on-demand loading.
+
+- insert:
+    - id: sql-optimizer
+      name: dsh-sql-optimizer
+      config: {}

@@ -1,0 +1,42 @@
+{
+  "name": "dsh-api-designer",
+  "version": "0.1.0",
+  "description": "DSH plugin to inject the api-designer skill into system-prompt persona, providing API design guidance for REST and GraphQL.",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skill.md",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "marketplace": {
+      "category": "skill",
+      "displayName": {
+        "en": "API Designer",
+        "zh": "API 设计师"
+      },
+      "summary": {
+        "en": "Design clean, consistent REST and GraphQL APIs with best practices for resource modeling, versioning, pagination, error formats, and more.",
+        "zh": "设计清晰、一致的 REST 和 GraphQL API，涵盖资源建模、版本控制、分页、错误格式等最佳实践。"
+      },
+      "profiles": ["web", "headless"],
+      "requiresRestart": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "api-design",
+    "rest",
+    "graphql",
+    "openapi",
+    "skill"
+  ],
+  "license": "MIT"
+}

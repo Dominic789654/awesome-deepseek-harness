@@ -54,6 +54,28 @@ If DeepSeek publishes an official spec that diverges from this, these examples s
 | [`dsh-code-review`](./dsh-code-review/) | `code_review_context` (+ skill) | Collect git diff context deterministically; skill drives the review checklist |
 | [`dsh-research-loop`](./dsh-research-loop/) | `research_log` (+ skill) | Durable JSONL research log; skill drives a plan→search→read→synthesize loop |
 
+## Self-developed plugins (205, maintained by satan9394)
+
+In addition to the four reference skeletons above, this directory also ships **205
+self-developed `dsh-*` plugins** (maintained by the fork author, satan9394). These
+are production-oriented JavaScript plugins (no TypeScript build step required):
+
+- **Layout**: `package.json` (`"dsh": { "bundle": { "patch": "./cordis.patch.yml" } }`,
+  `main: index.js`, `type: module`) + `cordis.patch.yml` + `index.js` (host entry
+  exporting `name` / `inject` / `apply(ctx, config)`) + optional
+  `skills/<name>/SKILL.md`. MIT licensed; each plugin carries its own `LICENSE`
+  and `README.md`.
+- **Variants**: the set includes three legitimate non-standard shapes — runtime
+  root-level `SKILL.md` consumers (`dsh-api-designer`, `dsh-sql-optimizer`),
+  system-prompt persona injectors with no JS entry (`dsh-project-planner`,
+  `dsh-unit-test-author`), and an MCP bridge (`dsh-boss-agent-cli`).
+- **Install**: `dsh plugin --profile <name> add file:/absolute/path/to/plugin`
+  or a git ref to this repository, then restart that profile.
+
+All 205 plugins pass an automated format audit (required files, package.json
+fields, patch shape, SKILL.md frontmatter, EOL consistency) with zero hard errors
+and zero warnings as of 2026-08-26.
+
 ## Status / honesty note
 
 These are **structurally faithful skeletons**: manifests, mounting, entry contract and tool schemas follow the observed conventions, and the tool `execute` bodies implement the core logic in plain Node. They have **not** been verified against a live DSH instance (public beta access required), and `@deepseek-ai/*` peer packages are declared loosely (`*`). Treat them as reference implementations, not production plugins.

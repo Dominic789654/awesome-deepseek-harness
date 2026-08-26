@@ -1,0 +1,31 @@
+{
+  "name": "dsh-sql-optimizer",
+  "version": "0.1.0",
+  "description": "SQL query optimizer skill for DSH: diagnoses and fixes slow queries using EXPLAIN/EXPLAIN ANALYZE plan reading, index design, query rewrites, statistics, and schema-aware tuning.",
+  "type": "module",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "cordis", "sql", "optimization", "explain-analyze", "index-design", "query-tuning"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "plugin": {
+      "name": "sql-optimizer",
+      "category": "skill",
+      "displayName": {
+        "en": "SQL Query Optimizer",
+        "zh": "SQL 查询优化器"
+      },
+      "summary": {
+        "en": "Diagnoses and fixes slow SQL queries using EXPLAIN/EXPLAIN ANALYZE plan reading, index design, query rewrites, statistics, and schema-aware tuning across PostgreSQL, MySQL/MariaDB, SQL Server, Oracle, and SQLite.",
+        "zh": "使用 EXPLAIN/EXPLAIN ANALYZE 执行计划分析、索引设计、查询重写、统计信息和 Schema 感知调优，诊断并修复慢 SQL 查询。支持 PostgreSQL、MySQL/MariaDB、SQL Server、Oracle 和 SQLite。"
+      },
+      "skill": {
+        "name": "sql-optimizer",
+        "description": "Diagnoses and fixes slow SQL queries using EXPLAIN/EXPLAIN ANALYZE plan reading, index design, query rewrites, statistics, and schema-aware tuning across PostgreSQL, MySQL/MariaDB, SQL Server, Oracle, and SQLite. Use this skill when a user says a query is slow, times out, \"takes forever\", needs an index, asks to \"optimize this SQL\", \"why is this query slow\", \"read this EXPLAIN plan\", \"add an index\", \"reduce query cost\", \"fix a full table scan / seq scan\", \"N+1 query\", \"tune the database\", or pastes a query plan and asks what is wrong."
+      }
+    }
+  }
+}

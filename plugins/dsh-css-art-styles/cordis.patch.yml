@@ -1,0 +1,5 @@
+# dsh-css-art-styles bundle: registers the packaged skills/css-art-styles
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-css-art-styles
+      name: dsh-css-art-styles

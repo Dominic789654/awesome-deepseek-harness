@@ -1,0 +1,15 @@
+# dsh-refactoring-guide bundle layer.
+#
+# This patch inserts one Cordis plugin row into the profile. The row's `name`
+# is the npm package name of this plugin; dsh resolves it through the profile's
+# installed packages and loads the module's named exports
+# ({ name, inject, apply }), which register the skill provider on ctx.skills.
+#
+# Activated automatically by:
+# dsh plugin --profile add dsh-refactoring-guide
+#
+# No `config` is required; see README.md for the optional fields
+# (providerName, skillsDir).
+- insert:
+    - id: refactoring-guide
+      name: dsh-refactoring-guide

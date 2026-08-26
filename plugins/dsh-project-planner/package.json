@@ -1,0 +1,27 @@
+{
+  "name": "dsh-project-planner",
+  "version": "1.0.0",
+  "description": "项目规划：把目标分解为 WBS（工作分解结构）, 含里程碑/任务依赖/工作量估算, 产出计划/关键路径/风险清单。system-prompt 注入型插件。",
+  "type": "module",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "files": ["skills", "cordis.patch.yml", "README.md"],
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "metadata": {
+    "category": "skill",
+    "displayName": {
+      "en": "Project Planner",
+      "zh": "项目规划师"
+    },
+    "summary": {
+      "en": "Decomposes a goal into a work breakdown structure (WBS) with milestones, task dependencies, and effort estimates, then produces a schedule, critical path, and risk list.",
+      "zh": "将目标分解为工作分解结构（WBS），包含里程碑、任务依赖关系和工作量估算，然后生成计划、关键路径和风险清单。"
+    }
+  },
+  "license": "MIT",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "cordis", "project-planning", "wbs", "work-breakdown-structure", "milestones", "critical-path", "risk-management"]
+}

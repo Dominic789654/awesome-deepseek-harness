@@ -1,0 +1,4 @@
+# dsh-slo bundle: registers the packaged skills/slo SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-slo
+      name: dsh-slo

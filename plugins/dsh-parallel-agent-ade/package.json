@@ -1,0 +1,47 @@
+{
+  "name": "dsh-parallel-agent-ade",
+  "version": "0.1.0",
+  "description": "并行 agent 开发环境：Codex/ClaudeCode/OpenCode/Pi 并排跑，各在独立 git worktree——一个 prompt 扇出 5 个 agent 比较合并胜者；移动伴侣监控、终端分屏、Design Mode（点击 UI 元素送 HTML/CSS/截图进 prompt）、GitHub/Linear 原生、SSH worktree、AI diff 标注。受 stablyai/orca（49k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "parallel",
+    "agents",
+    "worktree",
+    "orca",
+    "并行agent"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

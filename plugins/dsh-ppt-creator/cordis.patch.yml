@@ -1,0 +1,5 @@
+# dsh-ppt-creator bundle: registers the packaged skills/ppt-creator SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-ppt-creator
+      name: dsh-ppt-creator

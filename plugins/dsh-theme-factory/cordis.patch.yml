@@ -1,0 +1,5 @@
+# dsh-theme-factory bundle: registers the packaged skills/theme-factory
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-theme-factory
+      name: dsh-theme-factory

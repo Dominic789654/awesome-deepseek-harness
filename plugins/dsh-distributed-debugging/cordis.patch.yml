@@ -1,0 +1,5 @@
+# dsh-distributed-debugging bundle: registers the packaged skills/distributed-debugging
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-distributed-debugging
+      name: dsh-distributed-debugging

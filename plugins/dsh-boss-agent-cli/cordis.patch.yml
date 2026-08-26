@@ -1,0 +1,28 @@
+# dsh-boss-agent-cli bundle patch: bridges the boss-agent-cli MCP server into
+# DeepSeek Harness through the official dsh-mcp-client, so every boss_* MCP tool
+# becomes a native model-facing tool named mcp__boss__<rawName>.
+#
+# Prerequisite (documented in README.dsh.md):
+#   uv tool install boss-agent-cli
+#   patchright install chromium
+# The `boss-mcp` entrypoint must be on PATH before this plugin activates.
+#
+# NOTE: `dsh.bundle` patches replace the whole `config` of a targeted row; this
+# row is inserted fresh (no id collision with dsh-base).
+
+- insert:
+    - id: mcp-boss
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: boss
+        transport: stdio
+        command: boss-mcp
+        args: []
+        env: {}
+        toolCallTimeoutMs: 120000
+        failOnStartupError: false
+        reconnect:
+          enabled: true
+          initialDelayMs: 500
+          maxDelayMs: 30000
+          maxAttempts: 10

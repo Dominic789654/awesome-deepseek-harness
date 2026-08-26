@@ -1,0 +1,47 @@
+{
+  "name": "dsh-skill-seekers",
+  "version": "0.1.0",
+  "description": "AI 系统的数据层：把 18 种来源（文档站/GitHub/PDF/视频/Notebook/Wiki…）转成结构化知识资产，导出到 22 种目标（Claude/Gemini/OpenAI/RAG 管道/编码助手）；AI 驱动项目扫描生成配置。受 yusufkaraaslan/Skill_Seekers（14k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "knowledge",
+    "data-layer",
+    "documentation",
+    "rag",
+    "技能数据层"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

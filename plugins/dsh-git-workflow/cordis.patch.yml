@@ -1,0 +1,5 @@
+# dsh-git-workflow bundle: registers the packaged skills/git-workflow SKILL.md
+# on ctx.skills.
+- insert:
+    - id: dsh-git-workflow
+      name: dsh-git-workflow

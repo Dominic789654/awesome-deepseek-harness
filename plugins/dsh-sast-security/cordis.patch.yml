@@ -1,0 +1,5 @@
+# dsh-sast-security bundle: registers the packaged skills/sast-security
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-sast-security
+      name: dsh-sast-security

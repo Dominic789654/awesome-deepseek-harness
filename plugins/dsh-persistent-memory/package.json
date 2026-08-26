@@ -1,0 +1,47 @@
+{
+  "name": "dsh-persistent-memory",
+  "version": "0.1.0",
+  "description": "跨会话持久记忆压缩系统：生命周期 hooks 自动捕获工具观察、生成语义摘要、3 层检索工作流（search→timeline→get_observations，~10x token 节省）、渐进披露、私有标签、混合搜索。受 thedotmack/claude-mem（86k★ Apache-2.0）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "memory",
+    "persistent",
+    "compression",
+    "context",
+    "持久记忆"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

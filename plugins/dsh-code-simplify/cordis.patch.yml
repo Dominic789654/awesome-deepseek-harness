@@ -1,0 +1,5 @@
+# dsh-code-simplify bundle: registers the packaged skills/code-simplify
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-code-simplify
+      name: dsh-code-simplify

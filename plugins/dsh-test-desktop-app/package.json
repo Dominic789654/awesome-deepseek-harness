@@ -1,0 +1,47 @@
+{
+  "name": "dsh-test-desktop-app",
+  "version": "0.1.0",
+  "description": "Electron 应用端到端测试：通过 Chrome DevTools Protocol（CDP）连接真实 Electron 渲染器——DOM 检查/JS 求值/点击/截图、DPR 乘数、右键事件真实触发、xterm 布局延迟等坑。受 bholmesdev/hubble.md（test-desktop-app）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "electron",
+    "desktop",
+    "testing",
+    "cdp",
+    "Electron测试"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

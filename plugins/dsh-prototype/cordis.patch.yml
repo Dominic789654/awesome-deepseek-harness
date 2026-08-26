@@ -1,0 +1,5 @@
+# dsh-prototype bundle: registers the packaged skills/prototype
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-prototype
+      name: dsh-prototype

@@ -1,0 +1,5 @@
+# dsh-plugin-eval bundle: registers the packaged skills/plugin-eval
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-plugin-eval
+      name: dsh-plugin-eval

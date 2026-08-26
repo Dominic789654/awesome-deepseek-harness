@@ -1,0 +1,5 @@
+# dsh-agent-loop-engineering bundle: registers the packaged skills/agent-loop-engineering
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-agent-loop-engineering
+      name: dsh-agent-loop-engineering

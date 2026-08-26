@@ -1,0 +1,5 @@
+# dsh-superpowers-essentials bundle: registers the packaged
+# skills/superpowers-essentials SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-superpowers-essentials
+      name: dsh-superpowers-essentials

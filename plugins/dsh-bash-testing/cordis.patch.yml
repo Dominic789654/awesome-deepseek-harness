@@ -1,0 +1,5 @@
+# dsh-bash-testing bundle: registers the packaged skills/bash-testing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-bash-testing
+      name: dsh-bash-testing

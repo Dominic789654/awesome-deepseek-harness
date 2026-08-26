@@ -1,0 +1,5 @@
+# dsh-writing-for-agents bundle: registers the packaged skills/writing-for-agents
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-writing-for-agents
+      name: dsh-writing-for-agents

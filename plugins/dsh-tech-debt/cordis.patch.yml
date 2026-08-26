@@ -1,0 +1,5 @@
+# dsh-tech-debt bundle: registers the packaged skills/tech-debt
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-tech-debt
+      name: dsh-tech-debt

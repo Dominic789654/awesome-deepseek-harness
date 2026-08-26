@@ -1,0 +1,5 @@
+# dsh-planning bundle: registers the packaged skills/planning SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-planning
+      name: dsh-planning

@@ -1,0 +1,47 @@
+{
+  "name": "dsh-investment-research",
+  "version": "0.1.0",
+  "description": "个人投研方法论（A股/美股/港股）：五维分析框架（估值/资金面/财报质量/行业景气/事件催化与风险）、多空辩论（事实底稿→多方/空方→中立主持归纳分歧）、反思审计（揪出无数据支撑的脑补结论）。受 simonlin1212/Vibe-Research（2.1k★ MIT）启发。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "investment",
+    "research",
+    "debate",
+    "a-share",
+    "投研"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.4.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satan9394/dsh-public"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

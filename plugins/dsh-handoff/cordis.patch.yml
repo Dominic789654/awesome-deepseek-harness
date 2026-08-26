@@ -1,0 +1,5 @@
+# dsh-handoff bundle: registers the packaged skills/handoff SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-handoff
+      name: dsh-handoff

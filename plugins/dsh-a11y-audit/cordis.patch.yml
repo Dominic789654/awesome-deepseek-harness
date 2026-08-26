@@ -1,0 +1,5 @@
+# dsh-a11y-audit bundle: registers the packaged skills/a11y-audit SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-a11y-audit
+      name: dsh-a11y-audit

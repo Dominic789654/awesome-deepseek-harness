@@ -1,0 +1,5 @@
+# dsh-game-development bundle: registers the packaged skills/game-development
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-game-development
+      name: dsh-game-development

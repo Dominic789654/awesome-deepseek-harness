@@ -1,0 +1,5 @@
+# dsh-deployment-validation bundle: registers the packaged skills/deployment-validation
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-deployment-validation
+      name: dsh-deployment-validation

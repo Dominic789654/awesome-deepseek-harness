@@ -1,0 +1,5 @@
+# dsh-security-hardening bundle: registers the packaged
+# skills/security-hardening SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-security-hardening
+      name: dsh-security-hardening

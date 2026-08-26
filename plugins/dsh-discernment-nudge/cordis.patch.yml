@@ -1,0 +1,5 @@
+# dsh-discernment-nudge bundle: registers the packaged skills/discernment-nudge
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-discernment-nudge
+      name: dsh-discernment-nudge

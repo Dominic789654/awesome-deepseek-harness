@@ -1,0 +1,5 @@
+# dsh-academic-research bundle: registers the packaged
+# skills/academic-research SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-academic-research
+      name: dsh-academic-research

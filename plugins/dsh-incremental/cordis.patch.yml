@@ -1,0 +1,5 @@
+# dsh-incremental bundle: registers the packaged skills/incremental SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-incremental
+      name: dsh-incremental

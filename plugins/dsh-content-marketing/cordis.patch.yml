@@ -1,0 +1,5 @@
+# dsh-content-marketing bundle: registers the packaged skills/content-marketing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-content-marketing
+      name: dsh-content-marketing

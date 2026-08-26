@@ -1,0 +1,5 @@
+# dsh-career-ops bundle: registers the packaged skills/career-ops SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-career-ops
+      name: dsh-career-ops

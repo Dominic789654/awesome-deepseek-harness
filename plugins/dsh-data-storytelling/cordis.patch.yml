@@ -1,0 +1,5 @@
+# dsh-data-storytelling bundle: registers the packaged
+# skills/data-storytelling SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-data-storytelling
+      name: dsh-data-storytelling

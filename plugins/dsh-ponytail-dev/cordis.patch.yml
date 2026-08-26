@@ -1,0 +1,5 @@
+# dsh-ponytail-dev bundle: registers the packaged skills/ponytail-dev SKILL.md
+# on ctx.skills.
+- insert:
+    - id: dsh-ponytail-dev
+      name: dsh-ponytail-dev

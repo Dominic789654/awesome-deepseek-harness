@@ -1,0 +1,5 @@
+# dsh-functional-programming bundle: registers the packaged skills/functional-programming
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-functional-programming
+      name: dsh-functional-programming

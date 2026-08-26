@@ -1,0 +1,5 @@
+# dsh-agent-teams bundle: registers the packaged skills/agent-teams SKILL.md on
+# ctx.skills.
+- insert:
+    - id: dsh-agent-teams
+      name: dsh-agent-teams

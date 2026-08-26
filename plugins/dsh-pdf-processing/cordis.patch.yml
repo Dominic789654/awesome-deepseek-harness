@@ -1,0 +1,5 @@
+# dsh-pdf-processing bundle: registers the packaged skills/pdf-processing
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-pdf-processing
+      name: dsh-pdf-processing

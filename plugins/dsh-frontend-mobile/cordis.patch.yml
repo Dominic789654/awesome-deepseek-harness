@@ -1,0 +1,5 @@
+# dsh-frontend-mobile bundle: registers the packaged skills/frontend-mobile
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-frontend-mobile
+      name: dsh-frontend-mobile

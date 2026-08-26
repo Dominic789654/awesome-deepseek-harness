@@ -1,0 +1,4 @@
+# dsh-auth bundle: registers the packaged skills/auth SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-auth
+      name: dsh-auth

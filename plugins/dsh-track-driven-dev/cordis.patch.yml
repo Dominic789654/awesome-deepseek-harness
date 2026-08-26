@@ -1,0 +1,5 @@
+# dsh-track-driven-dev bundle: registers the packaged skills/track-driven-dev
+# SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-track-driven-dev
+      name: dsh-track-driven-dev
