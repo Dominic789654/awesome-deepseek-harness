@@ -3334,6 +3334,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [treers2/qq-operations](https://github.com/treers2/qq-operations) —— 操控 QQ NT 桌面版的 DSH skill（UIA 类名定位/双模式/自检）。
 - [AI-Scarlett/build-dsh-plugin](https://github.com/AI-Scarlett/build-dsh-plugin) —— 可复用的 Agent Skill 与 DSH Skill Provider 包，用于安全、证据驱动地开发 DeepSeek Harness 插件。
+- [Blaczz/dsh-sci](https://github.com/Blaczz/dsh-sci) —— 零依赖科学计算工具：物理单位换算、CODATA 物理常数，以及 Runge-Kutta ODE/动力系统仿真。  `⭐10`
+- [caoqinnan-web/organize-workspace-sessions](https://github.com/caoqinnan-web/organize-workspace-sessions) —— 整理 DeepSeek Harness 工作区会话：通过宿主本地 RPC（workspace.list / session.list / session.history / session.rename）将会话重命名为「类别｜主题」，并给出归档/重命名/判断建议——不执行归档，因为 DSH 目前没有归档视图入口。
+- [guiyi-labs/kubemd](https://github.com/guiyi-labs/kubemd) —— 证据优先的 Kubernetes 运行时诊断技能（带案例记忆）：通过 7 阶段循环核实现网故障（CrashLoop/OOM/Pending/NetworkPolicy 拒绝），并将已解决案例记录供即时召回；附带 go-install CLI 同款工具。
 - [kaijia323/create-dsh-plugin](https://github.com/kaijia323/create-dsh-plugin) —— 创建、开发、调试、打包 DeepSeek Harness（DSH）插件的 AI 技能。覆盖插件开发的完整流程：最小可加载插件、工具（tool）、事件监听、服务（service）、LLM 适配器（adapter）、插件配置，以及 cordis.yml / cordis.patch.yml 覆盖层编写、`dsh web --patch` 本地调试和 bundle 打包发布。基于官方文档编写，附可运行的示例与踏坑记录。
 - [titanwings/distilly](https://github.com/titanwings/distilly) —— Distilly —— 将他们的思考方式蒸馏为可于任何 Agent 或 Bot 复用的 Skill。前名 Colleague Skill（同事 Skill）。
 - [guyuefangyuanl/deepseek-better-harness](https://github.com/guyuefangyuanl/deepseek-better-harness) —— 将 Better Harness 的证据链拆分为三个可单独安装的 DeepSeek Harness skill 包，零运行依赖。
@@ -3348,6 +3351,12 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 - [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) —— Timeline Studio Bundle：让 DSH 检查、预演、事务式编辑并渲染可移植的 `.timeline` 视频工程。
 - [Dongfang81/dsh-music](https://github.com/Dongfang81/dsh-music) —— AI 原生音乐播放器 🎵 在对话里说一句想听的歌，月宝 Moony 全网搜集、整理、开播；十只月亮宠物随音乐起舞。零依赖安装即用，DSH 插件。
+- [edisonzerolam/team-orchestration-skill](https://github.com/edisonzerolam/team-orchestration-skill) —— 多智能体对抗式编排引擎（DSH skill）：五阶段对抗协议 + 二审终审，40 个专家团队 / 257 个人设，跨客户端技能路由（运行时自动识别），以及评估门控的专家融合管线——纯 Markdown + 标准库 Python，零安装。
+- [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) —— Ponytail 懒散资深程序员模式，DSH 版：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。
+- [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) —— Matt Pocock 的技能合集（DSH 版）：grilling、writing-for-agents、wait-what、TDD、code review 等 25 个技能，改编自 mattpocock/skills（MIT）。
+- [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) —— Matt Pocock 技能合集的中文版（DSH）：25 个 SKILL.md 全部译为自然中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。
+- [gwrsfsfeefdsfs/dsh-skill-office-file-processing](https://github.com/gwrsfsfeefdsfs/dsh-skill-office-file-processing) —— 面向 DSH 的 Office 文件处理技能：Excel/CSV 走 SQLite 优先管线，Word Markdown→docx 草稿工作流，PPT 场景化排版并强制文档复核，交互式分组问答，以及省 token 规则（openpyxl、python-docx、python-pptx、pandas、sqlite3）。
+- [HiccupGeng/dsh-doc-skill](https://github.com/HiccupGeng/dsh-doc-skill) —— 规范文档生成技能（源自 Claude Code /doc 命令）：在 docs/ 下生成 yyyy_MM_dd_HH_<文档名>.md 规范文档，7 类文档类型感知检查清单，纯 Markdown 零依赖复制即用。
 - [Liyuk/dsh-skin-chatlab](https://github.com/Liyuk/dsh-skin-chatlab) —— 面向 DeepSeek Harness Web GUI 的可扩展聊天皮肤 monorepo：基础注册中心 + 可插拔皮肤包（飞书风格聊天气泡），无需改动聊天逻辑即可即插即用。
 - [Pasumao/dsh-plugin-table-zoom](https://github.com/Pasumao/dsh-plugin-table-zoom) —— DSH 聊天表格浮窗插件：长/宽 markdown 表格一键弹出可滚动浮窗查看，支持复制为 Markdown。纯前端 DOM 增强，零依赖。
 - [pig1et7/DeepSeek-Harness-Desktop](https://github.com/pig1et7/DeepSeek-Harness-Desktop) —— 基于 Electron 的 DeepSeek Harness Windows 桌面客户端。
@@ -3389,11 +3398,13 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [riffkit/skill](https://github.com/riffkit/skill) —— 短视频生成技能：把一条已验证爆款的公式复刻成你自己的产品视频，可选数字人、产品植入与 9 种输出语言。任何能读 SKILL.md 的 agent 都可用。
 
 - [pakco77/dsh-daqi.skill](https://github.com/pakco77/dsh-daqi.skill) —— dsh-daqi.skill 是一个点子孵化器：你随口说的每个痛点、每个想法，达奇都在营地帮你记下。牛仔，开始你的荒野之旅吧！
+- [SongYuhui14/dsh-plugin-conflict-advisor](https://github.com/SongYuhui14/dsh-plugin-conflict-advisor) —— DSH 插件冲突顾问：检测已安装/已启用插件之间的冲突（功能重复、PromptSection 碰撞、整段冲突、依赖重复），并建议启用/禁用哪些插件。
 - [xmutfyh/dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) —— AI 写作纪律守卫：扫描文稿中的修改残留、防御性写作与 AI 痕迹（滥用破折号、not-X-but-Y、LLM 高频词、三段式）；提供 writing_audit + writing_rules 工具，论文文件写入时自动审计。
 
 - [ch1bug/dsh-skill-fuzzy](https://github.com/ch1bug/dsh-skill-fuzzy) —— Codex 式模糊技能搜索：内置 '/' 技能菜单只匹配名称前缀，本插件让搜索像 Codex 一样支持模糊匹配。
 - [MichengAI/dsh-skills-manager](https://github.com/MichengAI/dsh-skills-manager) —— 基于 DeepSeek Harness 的 Skills 管理插件。
 - [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) —— 88 个可安装的开源 Agent Skills：研究、社交智能、营销与商务工作流，兼容 Codex / Claude Code / Cursor / Gemini CLI / DeepSeek Harness。
+- [SongYuhui14/crypto-evaluation-assistant](https://github.com/SongYuhui14/crypto-evaluation-assistant) —— 商用密码应用安全性评估（密评）检测辅助技能：GB/T 39786 / GM/T 0115/0116 框架下的检测、符合率计算与报告生成工具链（3 个零依赖 Python 脚本），含金融/政务/能源行业垂直检查清单与备考学习模式，附三轮评测基线对比。
 - [xu-jin-cs/dsh-skills](https://github.com/xu-jin-cs/dsh-skills) —— DeepSeek Harness 生态技能包：parallel-dispatch 并行调度规则 + archmap 架构测绘 Agent（零 LLM 确定性 diff 影响面，节约 tokens）。
 - [xulelenlp/dsh-web-artifact-designer](https://github.com/xulelenlp/dsh-web-artifact-designer) —— 面向 DSH 的设计稿生成 skill（改编自 Anthropic canvas-design / web-artifacts-builder）：把设计需求做成可直接打开的自包含 HTML/SVG 设计稿（海报、信息图、落地页、图表、组件稿），内置交付前硬性质量清单与「去 AI 味」反模式清单。
 
@@ -3413,10 +3424,12 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [MeganeOnly/meganeonly-dsh-plugins](https://github.com/MeganeOnly/meganeonly-dsh-plugins) —— MeganeOnly 的持久化 DSH 插件合集。
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) — dsh 插件：模型目录自动发现——从 OpenAI 兼容 API host 拉取模型列表、定价与能力，归一化为可直接使用的配置。
 - [Jupiter1949/dsh-plugins](https://github.com/Jupiter1949/dsh-plugins) — DSH 插件 monorepo：cot-smart 以及未来的 DeepSeek Harness 插件。
+- [SongYuhui14/dsh-plugin-chooser](https://github.com/SongYuhui14/dsh-plugin-chooser) —— DSH 插件选择顾问：按多维度评分（安全/质量/活跃度/兼容性/生态）推荐插件，解决「插件选择困难症」。
 - [winterhuan/dsh-skills-viewer](https://github.com/winterhuan/dsh-skills-viewer) — DeepSeek Harness Web 只读 Skills 设置页插件。
 - [xsoc1/math-research-dsh](https://github.com/xsoc1/math-research-dsh) —— math-research Codex 插件集市在 DSH 上的适配：rigorous-open-math-research、manage-math-research-program、math-research-workflow、lean-verify 均作为 DeepSeek Harness skills。
 - [AmethystLuna/embedded-workbench](https://github.com/AmethystLuna/embedded-workbench) —— 嵌入式 C/C++ 工程 AI 插件：固件技能（FreeRTOS、Keil、HardFault、状态机）+ 1% Rule / Plan Verification Gate 纪律，适用于 Claude Code、Codex、Cursor、Kimi、OpenCode、ZCode 和 DeepSeek Harness。
 - [AmethystLuna/logicprobe](https://github.com/AmethystLuna/logicprobe) —— AI 编程助手声明核查插件：对设计文档与重构计划做逻辑原语验证（7 结构 + 7 对抗探针），适用于 Claude Code、Codex、Cursor、Kimi、OpenCode、ZCode 和 DeepSeek Harness。
+- [SongYuhui14/ai-security-assistant](https://github.com/SongYuhui14/ai-security-assistant) —— AI 安全评估辅助技能：OWASP LLM Top 10 (2025) + 国内法规框架下的大模型/Agent/RAG 安全评估，含标准对照、攻击案例库、风险判定与报告生成工具链，附严格评测（30/30 通过，防技术失误与常识错误）。
 - [uckkk/dsh-jwt-uckkk](https://github.com/uckkk/dsh-jwt-uckkk) —— JWT 解码：解析 header/payload，判断过期（不验签）。
 - [uckkk/dsh-motion-design](https://github.com/uckkk/dsh-motion-design) —— 动效设计原则参考。
 - [uckkk/dsh-number-words](https://github.com/uckkk/dsh-number-words) —— 数字转大写：阿拉伯数字转中文大写（金额/票据场景），支持小数与负数。
@@ -3455,6 +3468,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [boomzikazita/dsh-skill-authoring](https://github.com/boomzikazita/dsh-skill-authoring) —— DSH 技能创作工具包：技能脚手架 + 9 关质量审核。
 - [boomzikazita/dsh-skill-lazy](https://github.com/boomzikazita/dsh-skill-lazy) —— DSH 技能目录懒加载：名称+一行摘要注入，按需搜索（约 500 tokens）。
 - [dhicoc/dsh-chinese-traditional-wisdom-skill](https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill) —— 中华传统智慧（珄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爾/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行 dsh plugin add 安装。
+- [SongYuhui14/dsh-publisher](https://github.com/SongYuhui14/dsh-publisher) —— DSH 一键发布助手：为技能/插件生成发布计划——校验项目完整性、生成仓库描述、awesome-list 条目与 PR 命令。
 - [YUCONG-28/dsh-skills-plugins](https://github.com/YUCONG-28/dsh-skills-plugins) —— 面向 DeepSeek Harness 的 agent-skills / dsh-plugin 合集。
 - [zhangyoufu-123/stylotrace](https://github.com/zhangyoufu-123/stylotrace) —— 越写越像你：学会同事/领导/偶像的写作风格，AI 替你写但像你写。DeepSeek Harness 写作插件：41 个 MCP 工具 + 项目自动提练 + 去 AI 味 + 文件预览。
 
@@ -3464,6 +3478,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [maike-china/rejection-check](https://github.com/maike-china/rejection-check) —— 标书废标项检查工具（DeepSeek Harness 插件）｜Tender/bid rejection-check skill plugin for DSH：解析招标/投标文件，提取无效投标与废标项，三轮风险检查 + 错别字/逻辑谬误检查，生成 PDF 报告。无需 API Key。dsh plugin add 即可安装。
 
 - [hollis-openlab/dsh-matt-skills-flow](https://github.com/hollis-openlab/dsh-matt-skills-flow) —— 面向 DeepSeek Harness 的 Matt Skills 工程工作流插件。
+- [SongYuhui14/dsh-code-vetter](https://github.com/SongYuhui14/dsh-code-vetter) —— DSH AI 代码安全审查器：扫描代码中的 SQL/命令注入、硬编码密钥、危险函数、弱加密、认证绕过（对齐 OWASP/CWE）。
+- [SongYuhui14/dsh-plugin-compat-checker](https://github.com/SongYuhui14/dsh-plugin-compat-checker) —— DSH 插件兼容性测试器：安装前兼容性预测——判断新插件是否会与现有插件冲突或导致崩溃（槽位/prompt-section/依赖/版本冲突）。
 - [sun-gift/dsh-skills-settings_sl](https://github.com/sun-gift/dsh-skills-settings_sl) —— DSH web 插件：在设置界面管理已安装的 Skills（列表/搜索/分类筛选、创建、编辑、禁用、删除、使用）。
 - [xiaohui5206/01-context-window](https://github.com/xiaohui5206/01-context-window) —— 针对DSH：添加第三方中转站模型时上下文长度被默认256K问题（DeepSeek Harness小完善计划其一）· Agent Skill 维修手册。
 - [xiaohui5206/02-reasoning-efforts](https://github.com/xiaohui5206/02-reasoning-efforts) —— 针对DSH：添加第三方API时无法调节思考强度问题（DeepSeek Harness小完善计划其二）· Agent Skill 维修手册。
@@ -3511,6 +3527,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 - [dshworks/howto-dsh](https://github.com/dshworks/howto-dsh) —— DeepSeek Harness (dsh) 的经验证实地笔记：陷阱、skill、hook、profile。每条结论均标注对应的 dsh 版本，并附源码路径供复核。与 DeepSeek 官方无关联。
 - [Nay-1/dsh-skill-manage](https://github.com/Nay-1/dsh-skill-manage) —— DeepSeek Harness 技能管理设置页插件：图形化管理用户级/项目级技能的安装、卸载与调用启停。
+- [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) —— DeepRead 精读助手 bundle（tool + skill）：五种阅读模式（速读 / 精读 / 四级置信度知识图谱 / 费曼 / 全书）支持微信公众号链接、PDF（纯 JS 抽取器）或粘贴文本；批量对比、预算预检、后台任务进度透明；导出 MD / FreeMind / HTML。
 ## 资源
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) —— 官方源码仓库。  `⭐38238`
