@@ -3414,12 +3414,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [linhut/gongwen-skill](https://github.com/linhut/gongwen-skill) — 中文公文全流程处理工具——基于 GB/T 9704《党政机关公文格式》国家标准，支持格式检查与修复、内容优化（Word 原生修订+批注/差异对比版）、模板生成、Markdown 转公文、版头版记页码注入、事实核验、风格增强等完整能力。原生支持 DeepSeek Harness (DSH) 技能系统，打包为可被 AI Agent 直接调用的 Skill，完全自包含，克隆即用。
 - [nanjingya/agent-diagram](https://github.com/nanjingya/agent-diagram) — 别再交付 Mermaid 方块图了。面向编辑级 HTML/SVG 技术图表的 Agent Skill —— 适用于 DeepSeek Harness、Claude Code、Cursor。
 - [PHoenixs57/deepseek-aix](https://github.com/PHoenixs57/deepseek-aix) — Q-Q: 面向学术文献的对话式 AI 研究助手。支持多源搜索（PubMed、arXiv、Semantic Scholar、Crossref）、论文卡片去重及带文件夹功能的收藏夹——基于 DeepSeek Harness 构建。
-- [satan9394/dsh-contract-review](https://github.com/satan9394/dsh-contract-review) —— DSH skill：合同风险识别器，中文合同风险条款扫描与分级审查报告。
-- [satan9394/dsh-frontend-design](https://github.com/satan9394/dsh-frontend-design) —— DSH skill：前端设计技能，改编自 Anthropic frontend-design (Apache-2.0)。
-- [satan9394/dsh-grill-me](https://github.com/satan9394/dsh-grill-me) —— DSH skill：苏格拉底式追问 grill-me，用结构化提问打磨方案直至共识。
-- [satan9394/dsh-hot-trends](https://github.com/satan9394/dsh-hot-trends) —— DSH tool+skill：中国实时热点采集器，微博/百度/B站/知乎热搜、App Store、QQ音乐榜，免 API Key。
-- [satan9394/dsh-meeting-minutes](https://github.com/satan9394/dsh-meeting-minutes) —— DSH skill：会议纪要自动生成，转写稿→结构化纪要（决策/行动项/负责人/截止时间）。
-- [satan9394/dsh-skill-creator](https://github.com/satan9394/dsh-skill-creator) —— DSH skill：技能创作器，按 agentskills.io 规范编写 SKILL.md，改编自 Anthropic skill-creator (Apache-2.0)。
+- [satan9394/dsh-skills-bundle](https://github.com/satan9394/dsh-skills-bundle) —— DSH 技能 monorepo：整合此前 20 个中文技能包及更多内容，现为 12 个类别下的 207 个技能插件；可通过 github:satan9394/dsh-skills-bundle#path:plugins/<name> 单独安装任意插件。
 - [SIMON-WORLD/dsh-journal-monitor](https://github.com/SIMON-WORLD/dsh-journal-monitor) —— 基于 RSS 的经济学期刊监控技能，适配 DeepSeek Harness。
 - [Wang-Lin-Chang/dsh-story](https://github.com/Wang-Lin-Chang/dsh-story) —— 面向 DeepSeek Harness 的长篇小说创作助手：故事账本 + 章节锚点 + 伏笔债审计 + 14 条叙事不变式硬规则（零误杀）。AI 审阅可能漏诺，账本不会。
 - [allentnetus/dsh-job-hunting](https://github.com/allentnetus/dsh-job-hunting) —— 面向本地求职情报工作流的 DeepSeek Harness 求职插件与运行时技能。
