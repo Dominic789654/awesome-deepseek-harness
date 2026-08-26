@@ -1114,6 +1114,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [stultuss/dsh-clear-tool-results](https://github.com/stultuss/dsh-clear-tool-results) — DeepSeek Harness（DSH）host 平面插件：每个 turn 结束时，把上一轮产生的 `tool/result` 从模型上下文中清除，并提供聊天命令开关。
 - [xujiping/dsh-plugins](https://github.com/xujiping/dsh-plugins) — DeepSeek Harness 自研插件全家桶（monorepo）：dsh-memory 全局记忆等。
 - [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) —— AGI 的长期记忆基础设施。让 AI Agent 拥有不可遗忘的自我。跨会话记忆 · 持续学习 · 可审计信任（智能论 v3.2）。
+- [Mutx163/dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) —— 面向自定义 API 模型的思考等级（Reasoning Effort）管理插件：在 Settings → Models 内联配置 low/medium/high/max，settings.yaml 原子化持久化，并支持跨会话按频道自动恢复偏好模型与思考等级。
 
 ## 成本与用量统计
 
@@ -2498,7 +2499,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [tttnny/my-dsh](https://github.com/tttnny/my-dsh) —— DeepSeek Harness 插件合集：dsh-client-ui-deepseek-bg（仿 Harness 官网深色皮肤：极光/粒子鲸鱼/星座网格/玻璃拟态/Border Beam/Thinking Orbs）+ dsh-escalation-noop + ptc-creative-cordis。
 - [Jabofish/deepseek-harness-vscode](https://github.com/Jabofish/deepseek-harness-vscode) —— 面向 DeepSeek Harness (DSH) 的原生 VS Code 客户端，支持会话、流式回复、工具、模型控制与工作区感知工作流。
 - [skymecode/dsh-bgm](https://github.com/skymecode/dsh-bgm) —— DSH 插件 —— 把你的 AI 对话变成一场音乐节奏游戏。开启你的 bgm！
-- [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) —— Rust/ratatui 终端客户端，直接使用 DSH SDK JSON-RPC 协议，支持独立运行或作为 profile bundle 加载。
 - [bill9109/dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) —— 分享 DSH 对话的任意段落。
 - [bruc3van/dsh-desktop](https://github.com/bruc3van/dsh-desktop) —— 独立 Electron 桌面客户端：集成官方 Web UI，支持会话共享、本地工作区、远程连接与系统托盘。
 - [Moresyl/dsh-studio](https://github.com/Moresyl/dsh-studio) —— 跨平台 Rust/Tauri 桌面外壳：托管 `dsh web`、回收进程树、自动选择空闲端口，并发布 Windows/Linux/macOS 安装包，无需 fork 上游 UI。

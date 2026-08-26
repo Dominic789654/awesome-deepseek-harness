@@ -1121,6 +1121,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [stultuss/dsh-clear-tool-results](https://github.com/stultuss/dsh-clear-tool-results) — DeepSeek Harness (DSH) host-plane plugin: clears the previous turn's `tool/result` from the model context at the end of every turn, with a chat command toggle.
 - [xujiping/dsh-plugins](https://github.com/xujiping/dsh-plugins) — DeepSeek Harness self-built plugin monorepo: dsh-memory (global memory) and more.
 - [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) — Long-term memory infrastructure for AGI: gives AI agents an unforgettable self — cross-session memory, continuous learning, auditable trust (Theory of Intelligence v3.2).
+- [Mutx163/dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) — Reasoning-effort tier manager for custom API models: inline low/medium/high/max configuration in Settings -> Models, atomic settings.yaml persistence, and cross-session per-channel memory that auto-restores your preferred model and thinking level.
 
 ## Cost & Usage Tracking
 
@@ -2542,7 +2543,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [tttnny/my-dsh](https://github.com/tttnny/my-dsh) — DeepSeek Harness plugin collection: dsh-client-ui-deepseek-bg (official-site-style dark skin: aurora / particle whale / constellation grid / glassmorphism / border-beam / thinking orbs) + dsh-escalation-noop + ptc-creative-cordis.
 - [Jabofish/deepseek-harness-vscode](https://github.com/Jabofish/deepseek-harness-vscode) — A native VS Code client for DeepSeek Harness (DSH) with sessions, streaming replies, tools, model controls, and workspace-aware workflows.
 - [skymecode/dsh-bgm](https://github.com/skymecode/dsh-bgm) — DSH plugin — turn your AI conversation into a rhythm game. Start your bgm!
-- [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui terminal client that speaks the DSH SDK JSON-RPC protocol directly and runs standalone or as a profile bundle.
 - [bill9109/dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — Share arbitrary segments of a DSH conversation.
 - [bobleer/deepseek-harness-gui](https://github.com/bobleer/deepseek-harness-gui) — Tauri 2 desktop shell for DeepSeek Harness, following BitFun desktop + web-ui layout.
 - [bruc3van/dsh-desktop](https://github.com/bruc3van/dsh-desktop) — Standalone Electron desktop client wrapping the official Web UI, with session sharing, local workspaces, remote connections, and a system tray.
