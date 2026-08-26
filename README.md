@@ -2385,6 +2385,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [chumingjun/harness-one](https://github.com/chumingjun/harness-one) — Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration.
 - [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).
 - [BigBlueBaby/codex2dsh](https://github.com/BigBlueBaby/codex2dsh) — One-click, fully visual migration of Codex (OpenAI Codex CLI / Desktop) MCP servers, skills, global config, and memory into DeepSeek Harness (DSH) — no command line needed.
+- [zhengjy01/dsh-task-dispatcher](https://github.com/zhengjy01/dsh-task-dispatcher) — TickTick (滴答清单) daily task dispatcher for DeepSeek Harness: interval-based pulls of today's due tasks with change-aware flomo + macOS notifications, optional auto-execute (one headless DSH session per task), worker workspace selection, a dispatcher_report flomo summary tool, and a web task board.
 
 - [ChanceFlow/deepseek-harness-app](https://github.com/ChanceFlow/deepseek-harness-app) — Flutter client for DeepSeek Harness (dsh): chat, workspaces, models, goals and subagents on Android — talks to an unmodified dsh web backend.
 - [HenryHwong/dsh-ui-turn-rail](https://github.com/HenryHwong/dsh-ui-turn-rail) — Turn progress rail plugin for the DeepSeek Harness Web GUI (dsh-plugin).
