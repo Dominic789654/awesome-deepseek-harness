@@ -1748,7 +1748,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [xlight/deepseek-visionary](https://github.com/xlight/deepseek-visionary) —— 使用 DeepSeek 官方多模态视觉模型让你的 Agent 不再眼瞎（支持 DSH、Zed、OpenCode、Codex、Claude Code、Cursor、Claude Desktop）。
 - [dhb861832993-star/img-preview](https://github.com/dhb861832993-star/img-preview) — DeepSeek Harness 本地图片内联预览：img_serve 工具 + img 代码块围栏，直接在对话中渲染 PNG/JPG/WebP/GIF/AVIF/BMP/SVG/ICO。
 - [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) — 面向 DeepSeek Harness 的可安装多供应商图像生成插件包（Google Gemini、OpenAI、火山引擎 Seedream）。
-- [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) — 在 DeepSeek Harness 中预览 Univer 的表格、文档与幻灯片。
+- [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) — 为 DeepSeek Harness 打造一个真正的办公环境。Univer Office 插件将电子表格、文档、幻灯片、画布、多维表格等汇聚到同一个运行时——数据互联、修改经过校验、变更按版本管理，并以隔离工作树支持多 Agent 协作。
 - [nlqh7/dsh-vision-router](https://github.com/nlqh7/dsh-vision-router) —— 给 DeepSeek Harness 纯文本模型加视觉：聊天框拖图自动分流给用户配置的视觉模型转文字，v4 不切换模型即可识图。
 - [PerryLink/dsh-draw](https://github.com/PerryLink/dsh-draw) —— DeepSeek Harness 的统一静态图像生成路由器：一个标准化参数的 image_generate 工具，配置驱动的引擎路由（OpenAI Images、智谱 CogView、任何兼容端点）及健康感知降级、持久化工作区附件、每会话额度计数、插件设置面板。
 - [QCYTSN/dsh-dafeiyu](https://github.com/QCYTSN/dsh-dafeiyu) —— 面向 DeepSeek Harness 的桌面原生大飞鱼伴侣——真实 Agent 状态，Windows 上总在最前。
