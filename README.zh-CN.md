@@ -650,7 +650,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [blaxel-ai/deepseek-harness-blaxel-sandbox](https://github.com/blaxel-ai/deepseek-harness-blaxel-sandbox) —— DeepSeek Harness 的 Blaxel 沙盒执行插件。
 - [oitsukiii/deepseek-harness-lan](https://github.com/oitsukiii/deepseek-harness-lan) —— 让 DeepSeek Harness 的 Web UI 在局域网跑起来—— 4 个最小补丁 + 一键应用/回滚脚本。
 - [ZalmoraDev/deepseek-harness-containerized](https://github.com/ZalmoraDev/deepseek-harness-containerized) —— 🐋 通过 Docker 安装、运行具有隔离工作区的 DeepSeek Harness 的简单脚本。
-- [Zh1rV/dsh-web-search-tavily](https://github.com/Zh1rV/dsh-web-search-tavily) —— DeepSeek Harness 的 Tavily 搜索插件。
 - [HYBB-rash/dsh-plugins](https://github.com/HYBB-rash/dsh-plugins) —— 个人 DeepSeek Harness 插件合集：覆盖 Telegram、计划任务、助手职责、X 信息流以及 UI 实验。
 - [steve-magne/dsh-plugins](https://github.com/steve-magne/dsh-plugins) —— dsh-plugins（个人 DeepSeek Harness 插件合集，上游未提供进一步描述）。
 - [HIT-HTML/dsh-ENHANCED](https://github.com/HIT-HTML/dsh-ENHANCED) —— 一个插件汇齐 DeepSeek Harness 的日常升级：多引擎免费网搜、skills 与 MCP 管理、自动压缩调优、实例控制（RESTART/SHUTDOWN）、主题。
