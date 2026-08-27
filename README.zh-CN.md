@@ -723,6 +723,11 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [TGYD-helige/dsh-plugins](https://github.com/TGYD-helige/dsh-plugins) —— 通用 DeepSeek Harness (dsh) 插件包：A2A 协议服务器、会话存储镜像以及 Langfuse 可观测性。
 - [wyf-777/deepseek-launcher](https://github.com/wyf-777/deepseek-launcher) —— 带系统托盘支持的 DeepSeek Harness 后台启动器。
 - [Diluka/dsh-desktop-app](https://github.com/Diluka/dsh-desktop-app) —— 跨平台 DSH 桌面客户端，支持 OpenSSH 远程模式以及 CEF/WebView2 后端。
+- [bearice/dsh-keep-awake](https://github.com/bearice/dsh-keep-awake) —— DSH 插件，用于保持会话/进程活跃，防止空闲超时（dsh-plugin）。
+- [fore-vip/dsh-live](https://github.com/fore-vip/dsh-live) —— DeepSeek Harness 多平台直播插件：摄像头/屏幕/画中画，视频号/抖音/快手/斗鱼/B站/YY/虎牙/CC 多选同步推流，ffmpeg 引擎真实 RTMP 推流（dsh-plugin）。
+- [hedging8563/tokenlab-deepseek-harness-provider](https://github.com/hedging8563/tokenlab-deepseek-harness-provider) —— 为 DeepSeek Harness 提供 TokenLab 原生协议模型供应商、多模态工具与异步任务支持。
+- [keman-ai/dsh-opencode-zen](https://github.com/keman-ai/dsh-opencode-zen) —— 把 OpenCode Zen 的免费模型接进 DeepSeek Harness：装上不配任何东西就能用，免费清单从上游动态发现。
+- [yangbobo2021/relay-dsh-plugin-claude](https://github.com/yangbobo2021/relay-dsh-plugin-claude) —— 面向 DeepSeek Harness 的 Claude Code 集成插件：由 Claude Agent SDK 驱动的原生 Claude 对话，支持审批、会话延续以及 DSH 工具调用。
 
 ## 安全与权限
 
@@ -1179,6 +1184,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Ryu6Zero/dsh-hindsight](https://github.com/Ryu6Zero/dsh-hindsight) —— 🧠 基于 Hindsight 为 DeepSeek Harness 提供跨会话记忆。自包含 dsh 插件：/hindsight 命令 + hindsight_recall/remember/status/list/forget 代理工具。轻量，无需 dsh-mnemon，无需编排器。
 - [wicm84266964/dsh-minimal-mode-compaction](https://github.com/wicm84266964/dsh-minimal-mode-compaction) —— 为 DeepSeek Harness 极简模式新增自动上下文压缩、/compact、/context 和模型主动压缩，解决极简模式下长任务无法持续工作的问题。
 - [jermaine123123/agent-context-editor](https://github.com/jermaine123123/agent-context-editor) —— 跨 agent 插件，可手动排除和编辑 AI 对话上下文，支持搜索、过滤、隐藏/恢复、撤销以及原始 Session 保留。
+- [niushuanan/dsh-pure-chat](https://github.com/niushuanan/dsh-pure-chat) —— 无需工作区、工作模式或执行权限即可立即开始聊天，同时保留图片和文本文件上传能力。
+- [YEYEYEYESHIFU/dsh-session-hotkeys](https://github.com/YEYEYEYESHIFU/dsh-session-hotkeys) —— 面向 DeepSeek Harness 会话导航与管理的键盘快捷键插件（dsh-plugin）。
 
 ## 成本与用量统计
 
@@ -1389,6 +1396,8 @@ _token 用量、成本看板与预算告警插件。_
 - [Max-Samson/dsh-usage-chart](https://github.com/Max-Samson/dsh-usage-chart) —— DeepSeek Harness Web 插件：实时 Token 用量、成本估算、每回合图表以及 DeepSeek API 余额。
 - [syncended/deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) —— 面向 DeepSeek Harness 的 Token 用量、模型成本分析、趋势与活动热图。
 - [mouse33333/dsh-quota-monitor](https://github.com/mouse33333/dsh-quota-monitor) —— 对DSH里的OpenCode的Go套餐，以及DeepSeek官方API的额度监控。
+- [Oliver0804/dsh-openrouter-monitor](https://github.com/Oliver0804/dsh-openrouter-monitor) —— DSH 插件：在输入框下方展示 OpenRouter 账户余额、每个 key 的花费、预警阈值和趋势图。
+- [vibe-any/dsh-plugin-save-token](https://github.com/vibe-any/dsh-plugin-save-token) —— 一个在不削弱模型能力的前提下降低 token 消耗的 DeepSeek Harness (dsh) 动态插件。
 
 ## Channel / IM 桥接
 
@@ -2164,6 +2173,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [Rtyyy233/dsh-factor-mining-plugin](https://github.com/Rtyyy233/dsh-factor-mining-plugin) —— 面向 DSH 的 agentic 因子挖掘插件，适合像 Qwen 这样的小模型；核心包也可独立使用。
 - [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 开源 FDE Agent 与企业 AI 约束层：24 条规则的 git-diff 审计、自动快照回滚、规则注入、自我演化。以 9 个 DeepSeek Harness 插件 + MCP 服务器（66 个工具）形式发布。MIT 许可。
 - [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG) —— 基于DeepSeek-Harness的知识问答，支持自定义模型、上传图片、上传文件等。
+- [quantskills/quantskills-dsh-plugin](https://github.com/quantskills/quantskills-dsh-plugin) —— QuantSkills 面向 DSH 的插件——专业级 Skills、Agents、Agent Teams 以及 PandaData 集成。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -3403,6 +3413,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Icather/dsh-clean-desktop-shell](https://github.com/Icather/dsh-clean-desktop-shell) —— DSH 纯净桌面壳：双击像普通软件一键启动，后端活性实时监测 + 托盘快捷启停，零视觉改造。
 - [jkamkk/dsh-liquid-glass-input](https://github.com/jkamkk/dsh-liquid-glass-input) —— DSH web GUI 的液体玻璃输入卡片：kube.io SVG 折射效果搭配耦合弹簧按压动画。
 - [NeoXider/neoxider-agent-deck](https://github.com/NeoXider/neoxider-agent-deck) —— 面向 DeepSeek Harness 的动画桌面伴侣——实时 agent 面板、迷你小对话、流式回复、模型路由、上下文压力以及原生命令，一个可偷靠屏边的小插件。
+- [See-Sol-Lab/DeepSeekGUI](https://github.com/See-Sol-Lab/DeepSeekGUI) —— 一个非官方的基于 DSH 的桌面工作台 GUI。
 
 ## Skill
 

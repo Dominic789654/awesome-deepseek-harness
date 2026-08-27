@@ -730,6 +730,11 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [TGYD-helige/dsh-plugins](https://github.com/TGYD-helige/dsh-plugins) — Generic DeepSeek Harness (dsh) plugins: A2A protocol server, session storage mirror, and Langfuse observability.
 - [wyf-777/deepseek-launcher](https://github.com/wyf-777/deepseek-launcher) — DeepSeek Harness background launcher with system tray support.
 - [Diluka/dsh-desktop-app](https://github.com/Diluka/dsh-desktop-app) — Cross-platform DSH desktop client with OpenSSH remote mode and CEF/WebView2 backends.
+- [bearice/dsh-keep-awake](https://github.com/bearice/dsh-keep-awake) — DSH plugin that keeps the session/process alive to prevent idle timeouts.
+- [fore-vip/dsh-live](https://github.com/fore-vip/dsh-live) — Multi-platform livestreaming plugin for DeepSeek Harness: camera/screen/picture-in-picture, synced multi-select streaming to Video, Douyin, Kuaishou, Douyu, Bilibili, YY, Huya, and CC, with a real ffmpeg-powered RTMP push engine (dsh-plugin).
+- [hedging8563/tokenlab-deepseek-harness-provider](https://github.com/hedging8563/tokenlab-deepseek-harness-provider) — TokenLab native-protocol model provider, multimodal tools, and async tasks for DeepSeek Harness.
+- [keman-ai/dsh-opencode-zen](https://github.com/keman-ai/dsh-opencode-zen) — Wires OpenCode Zen's free models into DeepSeek Harness: install with zero configuration, free-model list dynamically discovered from upstream.
+- [yangbobo2021/relay-dsh-plugin-claude](https://github.com/yangbobo2021/relay-dsh-plugin-claude) — Claude Code integration plugin for DeepSeek Harness, providing native Claude conversations powered by the Claude Agent SDK, with approvals, session continuity, and DSH tool support.
 
 ## Security & Permissions
 
@@ -1185,6 +1190,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Ryu6Zero/dsh-hindsight](https://github.com/Ryu6Zero/dsh-hindsight) — 🧠 Cross-session memory for DeepSeek Harness backed by Hindsight. Self-contained dsh-plugin: /hindsight commands + hindsight_recall/remember/status/list/forget agent tools. Lightweight, no dsh-mnemon, no orchestrator.
 - [wicm84266964/dsh-minimal-mode-compaction](https://github.com/wicm84266964/dsh-minimal-mode-compaction) — Adds automatic context compaction, /compact, /context, and proactive model-driven compaction to DeepSeek Harness Minimal Mode, fixing its inability to sustain long tasks.
 - [jermaine123123/agent-context-editor](https://github.com/jermaine123123/agent-context-editor) — Cross-agent plugin for manually excluding and editing AI conversation context, with search, filtering, hide/restore, undo, and original Session preservation.
+- [niushuanan/dsh-pure-chat](https://github.com/niushuanan/dsh-pure-chat) — Start a chat immediately without a workspace, work mode, or execution permissions, while keeping image and text-file uploads.
+- [YEYEYEYESHIFU/dsh-session-hotkeys](https://github.com/YEYEYEYESHIFU/dsh-session-hotkeys) — Keyboard hotkeys for navigating and managing DeepSeek Harness sessions (dsh-plugin).
 
 ## Cost & Usage Tracking
 
@@ -1398,6 +1405,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [ChenYiming-aaa/dsh-account-stats](https://github.com/ChenYiming-aaa/dsh-account-stats) — 用于 dsh web 的 DeepSeek 账户统计插件：实时余额 + 每次会话费用，支持官方分时段计价
 - [Max-Samson/dsh-usage-chart](https://github.com/Max-Samson/dsh-usage-chart) — A DeepSeek Harness Web plugin for real-time Token usage, cost estimates, per-round charts, and DeepSeek API balance.
 - [syncended/deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) — Token usage, model cost analytics, trends, and activity heatmaps for DeepSeek Harness.
+- [Oliver0804/dsh-openrouter-monitor](https://github.com/Oliver0804/dsh-openrouter-monitor) — DSH plugin: OpenRouter account balance, per-key spend, alert thresholds and trend charts under the composer.
+- [vibe-any/dsh-plugin-save-token](https://github.com/vibe-any/dsh-plugin-save-token) — A DeepSeek Harness (dsh) dynamic plugin that cuts token cost without cutting model intelligence.
 
 ## Channel / IM Bridges
 
@@ -2180,6 +2189,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [guo6x/dsh-palate](https://github.com/guo6x/dsh-palate) — An eye that grows: accumulated design taste for DSH agents.
 - [jing-hy/picturereader](https://github.com/jing-hy/picturereader) — DSH plugin: pixel-to-text image reading for text-only models. image_scan/image_ocr/image_sample tools + image-reading skill (34-image trained methodology). Pure local, optional PaddleOCR.
 - [Rtyyy233/dsh-factor-mining-plugin](https://github.com/Rtyyy233/dsh-factor-mining-plugin) — An agentic factor mining plugin for DSH, suitable for small LLMs like Qwen. Its core package can also work independently.
+- [quantskills/quantskills-dsh-plugin](https://github.com/quantskills/quantskills-dsh-plugin) — QuantSkills plugin for DSH — professional Skills, Agents, Agent Teams, and PandaData integration.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -3451,6 +3461,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Icather/dsh-clean-desktop-shell](https://github.com/Icather/dsh-clean-desktop-shell) — Clean desktop shell for DSH: one-click launch like a normal app, live backend monitoring with quick tray start/stop, zero visual changes.
 - [jkamkk/dsh-liquid-glass-input](https://github.com/jkamkk/dsh-liquid-glass-input) — Liquid Glass input card for the DSH web GUI: kube.io SVG refraction with coupled-spring press animation.
 - [NeoXider/neoxider-agent-deck](https://github.com/NeoXider/neoxider-agent-deck) — Animated desktop companion for DeepSeek Harness — live agent deck, mini-chat, streaming replies, model routing, context pressure and native commands, in a widget that docks to your screen edge.
+- [See-Sol-Lab/DeepSeekGUI](https://github.com/See-Sol-Lab/DeepSeekGUI) — An unofficial Windows desktop workbench GUI built on DSH.
 
 ## Skills
 
