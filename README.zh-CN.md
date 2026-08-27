@@ -716,6 +716,13 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [openllmsh/dsh](https://github.com/openllmsh/dsh) —— DeepSeek Harness (dsh) 套件：通过 OpenLLM（OpenAI 兼容）路由 harness ＋注册 OpenLLM MCP，带 CLI/守护进程引导。
 - [sd1g1/dsh-opencode-go-models](https://github.com/sd1g1/dsh-opencode-go-models) —— 补齐 DSH 的 OpenCode Go 模型目录。
 - [See-Sol-Lab/DeepCode](https://github.com/See-Sol-Lab/DeepCode) —— 用法像 Codex，实验室式检阀，扩展方式像 Harness。
+- [cyjyyd/dsh-llm-xai-oauth](https://github.com/cyjyyd/dsh-llm-xai-oauth) —— 面向 DeepSeek Harness 的原生 SuperGrok / X Premium OAuth 提供商。复用本地 grok-bridge 令牌，无需 xAI API Key。
+- [elizax/dsh-http-proxy](https://github.com/elizax/dsh-http-proxy) —— 支持设置LLM的代理地址。
+- [LaplaceYoung/dsh-of-your-own](https://github.com/LaplaceYoung/dsh-of-your-own) —— /fuck —— 把你的 Claude Code 与 Codex 使用习惯迁移到 DeepSeek Harness。一键命令、并行扫描、启动时回想。
+- [qiufengcrl/dsh-ip-https](https://github.com/qiufengcrl/dsh-ip-https) —— DeepSeek Harness 插件：远程设置 + Let's Encrypt IP 证书。
+- [TGYD-helige/dsh-plugins](https://github.com/TGYD-helige/dsh-plugins) —— 通用 DeepSeek Harness (dsh) 插件包：A2A 协议服务器、会话存储镜像以及 Langfuse 可观测性。
+- [wyf-777/deepseek-launcher](https://github.com/wyf-777/deepseek-launcher) —— 带系统托盘支持的 DeepSeek Harness 后台启动器。
+- [Diluka/dsh-desktop-app](https://github.com/Diluka/dsh-desktop-app) —— 跨平台 DSH 桌面客户端，支持 OpenSSH 远程模式以及 CEF/WebView2 后端。
 
 ## 安全与权限
 
@@ -862,6 +869,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [LucienLL/dsh-plugin-proxy](https://github.com/LucienLL/dsh-plugin-proxy) —— DeepSeek Harness 的全局代理插件：将 agent 工具、模型请求与网络请求路由到 Windows 系统代理或自定义代理，一个持久化开关加 agent 可见的状态提示。
 - [LXFLGH/dsh-deepseek-relay](https://github.com/LXFLGH/dsh-deepseek-relay) —— 面向 deepseek-harness 的 DeepSeek 中转站适配器，支持 reasoning-effort 控制。
 - [dongsheng123132/dsh-credential-retirement-proof](https://github.com/dongsheng123132/dsh-credential-retirement-proof) —— 仅提供审计证据的 DSH 插件，用于凭据退役结算。
+- [Castor6/BrowserRig](https://github.com/Castor6/BrowserRig) —— 开源本地驱动，让受信任的 agent 控制你已登录的现有 Chromium 浏览器，无需开启浏览器全局远程调试授权。
 
 ## 会话与记忆管理
 
@@ -1380,6 +1388,7 @@ _token 用量、成本看板与预算告警插件。_
 - [ChenYiming-aaa/dsh-account-stats](https://github.com/ChenYiming-aaa/dsh-account-stats) —— 用于 dsh web 的 DeepSeek 账户统计插件：实时余额 + 每次会话费用，支持官方分时段计价。
 - [Max-Samson/dsh-usage-chart](https://github.com/Max-Samson/dsh-usage-chart) —— DeepSeek Harness Web 插件：实时 Token 用量、成本估算、每回合图表以及 DeepSeek API 余额。
 - [syncended/deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) —— 面向 DeepSeek Harness 的 Token 用量、模型成本分析、趋势与活动热图。
+- [mouse33333/dsh-quota-monitor](https://github.com/mouse33333/dsh-quota-monitor) —— 对DSH里的OpenCode的Go套餐，以及DeepSeek官方API的额度监控。
 
 ## Channel / IM 桥接
 
@@ -2153,6 +2162,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [jing-hy/picturereader](https://github.com/jing-hy/picturereader) — DSH 插件：为纯文本模型提供像素转文本的图片阅读能力。提供 image_scan/image_ocr/image_sample 工具 + 图片阅读技能（基于 34 张图片训练的方法论），纯本地运行，可选 PaddleOCR。
 - [AgentDebugX/AgentDebugX](https://github.com/AgentDebugX/AgentDebugX) —— 面向 agentic AI 系统的调试框架：诊断失败、归因到根本环节、基于证据恢复、并通过重跑验证修复；以 DeepSeek Harness 的 `dsh-agentdebugx` 插件形式发布。
 - [Rtyyy233/dsh-factor-mining-plugin](https://github.com/Rtyyy233/dsh-factor-mining-plugin) —— 面向 DSH 的 agentic 因子挖掘插件，适合像 Qwen 这样的小模型；核心包也可独立使用。
+- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 开源 FDE Agent 与企业 AI 约束层：24 条规则的 git-diff 审计、自动快照回滚、规则注入、自我演化。以 9 个 DeepSeek Harness 插件 + MCP 服务器（66 个工具）形式发布。MIT 许可。
+- [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG) —— 基于DeepSeek-Harness的知识问答，支持自定义模型、上传图片、上传文件等。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -2410,6 +2421,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [fiultyy/maestro-preset](https://github.com/fiultyy/maestro-preset) — DeepSeek Harness (DSH) 多智能体编排 preset：跨平面统管 Orca / dais（原 zap）/ DSH 会话 —— 持久回调桥接（文件+HTTP）、集群准入、SQLite 台账、流程编译器，零 npm 依赖。
 - [HarnessRouter/harnessrouter](https://github.com/HarnessRouter/harnessrouter) —— HarnessRouter 社区版：自部署、Apache-2.0 开源的 agent harness 统一接口。通过一个 API 运行 Codex、Claude Code、Hermes、PI、DSH 等，支持会话、流式输出、文件、取消与失败处理。实现开放标准 Unified Harness Protocol (UHP)。
 - [Punky971210/dsh-punky-swarm](https://github.com/Punky971210/dsh-punky-swarm) —— 为 DeepSeek Harness agent 群提供引擎强制的护栏：质量门楚拒绝半成品工作，安全检查点可原地恢复——让 AI 团队不致于崩溃，而不仅仅是运行中。
+- [fentz26/dsh-goodjob](https://github.com/fentz26/dsh-goodjob) —— 面向 DeepSeek Harness 的多代理人运营工作区。
 
 ## UI / 客户端
 
@@ -2447,6 +2459,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [CH4ACKO3/dsh-render-engine](https://github.com/CH4ACKO3/dsh-render-engine) —— 为 DeepSeek Harness 提供 Shiki、语法高亮与代码渲染服务。
 - [deepseeker-app/DeepSeeker](https://github.com/deepseeker-app/DeepSeeker) —— DeepSeek Harness，开机即用于你的桌面。
 - [Fibrocartilageterm119/dsh-desktop](https://github.com/Fibrocartilageterm119/dsh-desktop) —— 本地优先、跨平台的 DeepSeek Harness 桌面外壳，支持私密的离线 AI 模型管理与多提供商。
+- [zemul/dsh-video-preview](https://github.com/zemul/dsh-video-preview) —— dsh-better-sidebar 的视频文件预览插件：在侧边栏打开 .mp4 .webm .mov .mkv .avi 等视频文件时，内联渲染一个可播放、可拖拽进度条的 <video> 播放器。
 - [geminiai19811-jpg/dsh-desktop](https://github.com/geminiai19811-jpg/dsh-desktop) —— DeepSeek Harness 桌面客户端：在本地运行并管理 dsh 编码 agent，精简原生界面。
 - [lovstudio/dsh-frontend-inspector](https://github.com/lovstudio/dsh-frontend-inspector) —— DeepSeek Harness 前端审查插件（dsh-plugin）。
 - [lovstudio/dsh-frontend-restart](https://github.com/lovstudio/dsh-frontend-restart) —— DeepSeek Harness 前端重启插件（dsh-plugin）。
