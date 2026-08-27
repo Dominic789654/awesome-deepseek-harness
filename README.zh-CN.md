@@ -1144,7 +1144,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [XieZongChen/dsh-md-notes](https://github.com/XieZongChen/dsh-md-notes) —— 面向 DeepSeek Harness 的笔记插件：完整的 Markdown 笔记管理与编辑器，快速将对话内容捕捉为笔记，支持同步到 Git 仓库。
 - [libiwolve/dsh-experience-library](https://github.com/libiwolve/dsh-experience-library) —— dsh-experience-library：更有经验的 DeepSeek - 经验验证固化层（实时采集/加工/三层检验/技能书/benchmark 验证）。
 - [stas130286-blip/dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) —— BrainAgent —— 面向 DeepSeek Harness（dsh）的脑启发式认知插件：记忆、情感、学习、自主性、自我调节。571 项测试。限个人靠菲营利使用。
-- [WSL043/dsh-native-session-manager](https://github.com/WSL043/dsh-native-session-manager) —— 面向 DeepSeek Harness 的原生会话管理器：搜索归档对话、恢复会话、安全删除聊天历史。
+- [WSL043/dsh-chat-manager](https://github.com/WSL043/dsh-chat-manager) —— 面向 DeepSeek Harness 的原生会话管理器：搜索归档对话、恢复会话、安全删除聊天历史。
 - [li3-feng2-jie2/dsh-motion-memory](https://github.com/li3-feng2-jie2/dsh-motion-memory) —— 适配 DeepSeek Harness（DSH）高自定义能力的一个记忆管理插件。
 - [gjj-star/dsh-conversation-navigator](https://github.com/gjj-star/dsh-conversation-navigator) — DSH 会话导航
 - [Whale-Zhang/dsh-cron-tasks](https://github.com/Whale-Zhang/dsh-cron-tasks) — DeepSeek Harness 定时任务插件：侧边栏任务列表、隔离运行历史、cron/at 定时调度。
