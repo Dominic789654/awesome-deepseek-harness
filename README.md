@@ -745,7 +745,6 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [softspark/dsh-codex](https://github.com/softspark/dsh-codex) — DeepSeek Harness provider for locally authenticated Codex app-server access through a ChatGPT subscription.
 - [maojindao55/deepseek-harness-acp](https://github.com/maojindao55/deepseek-harness-acp) — Standalone Agent Client Protocol (ACP) server for DeepSeek Harness with real-time streaming, reasoning trace, MCP tools, and session recovery.
 - [jiang12345-code/dsh-openrouter-free](https://github.com/jiang12345-code/dsh-openrouter-free) — OpenRouter free-model panel for DeepSeek Harness — tiered star ratings, one-click switching, task-resume friendly.
-- [TrapMonster-prog/local-llama-cpp-for-deepseek-harness](https://github.com/TrapMonster-prog/local-llama-cpp-for-deepseek-harness) — Local llama.cpp model provider for DeepSeek Harness.
 
 ## Security & Permissions
 

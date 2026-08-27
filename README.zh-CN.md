@@ -744,7 +744,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [softspark/dsh-codex](https://github.com/softspark/dsh-codex) — DeepSeek Harness provider：通过 ChatGPT 订阅进行本地已认证的 Codex app-server 访问。
 - [maojindao55/deepseek-harness-acp](https://github.com/maojindao55/deepseek-harness-acp) — 面向 DeepSeek Harness 的独立 Agent Client Protocol (ACP) 服务端：支持实时流式输出、推理过程追踪、MCP 工具与会话恢复。
 - [jiang12345-code/dsh-openrouter-free](https://github.com/jiang12345-code/dsh-openrouter-free) — OpenRouter 免费模型面板 for DeepSeek Harness — 分级星标 · 一键切换 · 任务续跑友好。
-- [TrapMonster-prog/local-llama-cpp-for-deepseek-harness](https://github.com/TrapMonster-prog/local-llama-cpp-for-deepseek-harness) — 面向 DeepSeek Harness 的本地 llama.cpp 模型提供商插件。
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
@@ -1542,7 +1541,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [lijian-ui/dsh-im-gateway](https://github.com/lijian-ui/dsh-im-gateway) —— 为 DeepSeek Harness 提供多 IM 通道接入的网关插件：钉钉 / QQ / 个人微信，支持扫码绑定与流式回复。
 - [mario841859784/dsh-onebot](https://github.com/mario841859784/dsh-onebot) —— 面向 DeepSeek Harness 的 OneBot 协议桥接插件。
 - [GooDAnDReaDY/dsh-messenger-gateway](https://github.com/GooDAnDReaDY/dsh-messenger-gateway) —— 面向 DeepSeek Harness 的 Telegram 信使桥接（会话、steer、homes、TTS 语音消息）。
-- [flashyiyi/dsh-voice-announcer](https://github.com/flashyiyi/dsh-voice-announcer) — deepseek-harness、dsh、dsh-plugin、dsh-plugins、notifications、tts、voice：面向 DeepSeek Harness 的语音/TTS 任务完成播报插件。
+- [flashyiyi/dsh-voice-announcer](https://github.com/flashyiyi/dsh-voice-announcer) — 面向 DeepSeek Harness 的语音/TTS 任务完成播报插件。
 
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) —— 完整逆向技能包（85 个 SKILL.md），以 DeepSeek Harness Cordis 插件形式提供：逆向工程、授权渗透测试与安全研究技能路由器。
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) —— DeepSeek Harness 小说写作助手插件：章节库、句式分析（9 类/情绪曲线/文风指纹）、文风检查、剧情追踪、批量导入与 AI 续写，带逐工具 Web UI 开关；已发布到 npm 名为 `dsh-novel-writer`。
@@ -2506,7 +2505,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [Army1900/dsh-e2e-dev-sdd](https://github.com/Army1900/dsh-e2e-dev-sdd) — dsh插件，用于驱动定制的e2e开发。
 - [ChenYiming-aaa/dsh-github](https://github.com/ChenYiming-aaa/dsh-github) — DeepSeek Harness（DSH）GitHub 集成插件：一次认证（GITHUB_TOKEN 或 OAuth Device Flow）后，模型可直接调用 45 个 github_* 工具完成建仓、推送、提 PR、管 issue、搜索代码等；常规读写直接放行，危险操作（删除/force push/合并 PR/关 issue）保留审批门；token 存于 DSH credentials 服务，不落日志。对标 opencode GitHub MCP。
 - [chuankris/dsh-smart-model-router](https://github.com/chuankris/dsh-smart-model-router) — 面向 DeepSeek Harness 的任务与配额感知虚拟 Auto 模型路由插件。
-- [LJH-snow/dsh-tool-linear](https://github.com/LJH-snow/dsh-tool-linear) — agent、cordis、deepseek-harness、dsh-plugin、issue-tracking、linear：面向 DeepSeek Harness 的 Linear 任务追踪工具插件。
+- [LJH-snow/dsh-tool-linear](https://github.com/LJH-snow/dsh-tool-linear) — 面向 DeepSeek Harness 的 Linear 任务追踪工具插件。
 - [starsinc1708/dsh-tool-council](https://github.com/starsinc1708/dsh-tool-council) — 面向 DeepSeek Harness 的 subagent map-reduce 议事会：一个任务分发给多个独立成员，去重后由独立评审面板核验，最终归约为一份共识报告。
 ## UI / 客户端
 
@@ -2516,7 +2515,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [broken-star1999/deepseek-harness-up](https://github.com/broken-star1999/deepseek-harness-up) —— DeepSeek Harness Up —— Windows 桌面工具：一键启动/更新/卸载 DeepSeek Harness (@deepseek-ai/dsh)，内嵌浏览器，非插件、非侵入式。
 - [cilis/dsh-tauri-launcher](https://github.com/cilis/dsh-tauri-launcher) —— DeepSeek Harness (DSH) Launcher，以 dsh 插件形式实现。
 - [fengyungithub/dsh-short-video-studio](https://github.com/fengyungithub/dsh-short-video-studio) — 基于deepseek harness的类MiniMax-Design的AI视频创作工作台。
-- [Fakek0f3sT/dsh-mcp-diff](https://github.com/Fakek0f3sT/dsh-mcp-diff) — Единый вид дифф-карточек для всех правок файлов в DeepSeek Harness Web — MCP filesystem (edit_file/write_file) и встроенные edit/write, свёрнуты по умолчанию, с подсветкой строк。
+- [Fakek0f3sT/dsh-mcp-diff](https://github.com/Fakek0f3sT/dsh-mcp-diff) — DeepSeek Harness Web 的统一文件改动 diff 卡片视图：覆盖 MCP filesystem（edit_file/write_file）与内置 edit/write 工具，默认折叠，带行高亮。
 - [DoggyHU/dsh-daily-sticky](https://github.com/DoggyHU/dsh-daily-sticky) —— DeepSeek Harness Web 的每日便签插件。
 - [foolgry/dsh-desktop](https://github.com/foolgry/dsh-desktop) —— DeepSeek 桌面版客户端（社区构建，非官方）：下载即用，无需 Node。
 - [FuqiangCraft/dsh-desktop](https://github.com/FuqiangCraft/dsh-desktop) —— DeepSeek Harness (DSH) 的桌面伴侵插件与原生 shell。
