@@ -163,6 +163,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [wizzy-yang/dsh-updater](https://github.com/wizzy-yang/dsh-updater) — DSH auto-update plugin — detects official deepseek-ai/deepseek-harness releases, one-click npm upgrade + auto restart from the sidebar.
 - [WTStarMark/DSH-QAQ](https://github.com/WTStarMark/DSH-QAQ) — Startup disaster-recovery guard for DeepSeek Harness (DSH), paired with the dsh-qaq backup plugin: headless Chrome reads the real browser DOM, detects host crashes and Web UI red-screens, auto-rolls back to the last-good config and safely restarts, with anti-loop protection. Full-screen TUI covering startup, logs, plugin management, and hot-update monitoring — zero-intrusion, one-command deploy.
 - [krystal-cao/deepseek-harness-desktop](https://github.com/krystal-cao/deepseek-harness-desktop) — Unofficial desktop wrapper for DeepSeek Harness: local-first, sandbox-isolated, with built-in dsh version management and plugin management, auto-update, and desktop task-completion notifications (macOS).
+- [awol2005ex3/dsh-role-manager](https://github.com/awol2005ex3/dsh-role-manager) — Role-management plugin for DeepSeek Harness (dsh): preset a system prompt per "role" and switch the active role from the Web UI so the model starts each chat with a different identity/persona.
+- [dphmoblie/dsh-error-tell](https://github.com/dphmoblie/dsh-error-tell) — A plugin that tries to detect other plugins likely to crash the DSH web startup and disable them.
 - [chenkai2/dsh-daemon](https://github.com/chenkai2/dsh-daemon) — Registers the DeepSeek Harness web server (`dsh web`) as an auto-start, self-healing background service (LaunchAgent / systemd / cron + watchdog).
 - [hust-open-atom-club/oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — A DSH runtime with three development experiences: Desktop, Web, and TUI.
 - [huiliyi37/oh-my-tianshu](https://github.com/huiliyi37/oh-my-tianshu) — A full-featured open-source coding agent distribution built on top of the dsh harness, adding vision, cross-session memory, verification gates, agent routing, semantic + graph code search, file rollback, and a full-screen terminal UI — all composed as plugins. A friendly MIT fork of DeepSeek Harness (dsh) that keeps the upstream everything-is-a-plugin architecture, with a UI/UX modeled on oh-my-pi.
@@ -1450,6 +1452,9 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [Francesco502/dsh-quota](https://github.com/Francesco502/dsh-quota) — AI quota and token-usage monitor for DeepSeek Harness (Codex, Cursor, Antigravity, OpenCode-Go).
 - [jsoncode/dsh-get-balance](https://github.com/jsoncode/dsh-get-balance) — Balance and cost-lookup plugin with multi-account support, real-time token stats, bilingual UI, and an out-of-the-box interface.
 - [EasyTZ/dsh-ui-balance](https://github.com/EasyTZ/dsh-ui-balance) — Balance display plugin for DeepSeek Harness (dsh) — shows your DeepSeek API balance under each reply.
+- [arthur20150522/dsh-token-usage-cost](https://github.com/arthur20150522/dsh-token-usage-cost) — Shows per-turn and session token costs in DSH web conversations.
+- [kober-basket/dsh-cachescope](https://github.com/kober-basket/dsh-cachescope) — Prompt-cache observability and logical-input diagnostics for DeepSeek Harness.
+- [Young4ever33/dsh-token-attention](https://github.com/Young4ever33/dsh-token-attention) — Token Check: a token-attention management panel for DeepSeek Harness (DSH) — tracks token spend and cost by task/day/week/month (hit/miss/output/reasoning), supports DeepSeek peak/off-peak pricing, and suggests when to switch conversations or write a hand-off.
 
 ## Channel / IM Bridges
 
@@ -1578,6 +1583,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [flashyiyi/dsh-voice-announcer](https://github.com/flashyiyi/dsh-voice-announcer) — Voice/TTS task-completion announcer plugin for DeepSeek Harness.
 - [NekroAI/nekro-nxt](https://github.com/NekroAI/nekro-nxt) — NekroNXT: a DSH-powered multi-platform group-chat agent system.
 - [NimuStudio/NimuQDock-dsh](https://github.com/NimuStudio/NimuQDock-dsh) — QQ dock bridge for DeepSeek Harness with a persona engine: a simulated group friend with mood, energy, and memory that lurks and participates like a real person.
+- [MaRi23333/dsh-serverchan-watchdog](https://github.com/MaRi23333/dsh-serverchan-watchdog) — ServerChan push plugin for DeepSeek Harness: sends a WeChat/ServerChan³-app alert when an approval, plan review, or question sits unhandled past a timeout. Third-party, unofficial.
 
 ## Plugin Marketplaces & Ecosystem
 - [aorucshiea/dsh-plugin-toggle](https://github.com/aorucshiea/dsh-plugin-toggle) — Hot-plug enable/disable switches for installed DSH plugins.
@@ -1711,6 +1717,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [suyukun/dsh-plugin-publish](https://github.com/suyukun/dsh-plugin-publish) — Ship your skills, grow your influence — a model-agnostic publishing protocol for AI agent skills: preflight checks, GitHub repo, index PRs, marketplace submissions, promo copy.
 - [yangbobo2021/relay-dsh-plugin-manager](https://github.com/yangbobo2021/relay-dsh-plugin-manager) — A standalone plugin manager for DeepSeek Harness.
 - [dennisrongo/dsh-plugins](https://github.com/dennisrongo/dsh-plugins) — Dennis Rongo's plugin collection for DeepSeek Harness (dsh).
+- [neil-ji/dsh-spark-plugins](https://github.com/neil-ji/dsh-spark-plugins) — Third-party DeepSeek Harness (DSH) plugin monorepo: GitHub/npm connectors, cost-tracking stats, cross-session memory, and a UI component library.
 
 ## Visualization
 
@@ -2123,6 +2130,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [ZZZjf13960/dsh-onfail](https://github.com/ZZZjf13960/dsh-onfail) — DSH plugin: poll GitHub Actions, surface failed checks as cards, open a fix session with log context.
 - [liwuzhan/cad-tool](https://github.com/liwuzhan/cad-tool) — CAD Studio: AI-native CAD command-line tool with a self-contained `.456d` model-package format, STEP artifacts, JSONL commit history, assembly packages, and a DSH plugin bundling the full Python CLI and 16 host tools.
 - [yakoylp/dsh-md-convert](https://github.com/yakoylp/dsh-md-convert) — Convert Office documents (.doc/.docx/.xls/.xlsx/.ppt/.pptx) and PDFs (incl. scanned, via PP-StructureV3 OCR) to structurally-formatted Markdown. CLI + dsh agent tool (`md_convert`).
+- [SleepEggTart/dsh-code-coverage](https://github.com/SleepEggTart/dsh-code-coverage) — Parses DSH session logs to attribute AI-generated files, overlays c8 coverage, and produces AI-vs-human coverage comparisons, a high-risk untested-file list, and a trust score.
 
 ## Agents
 
@@ -2429,6 +2437,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Niceck/dsh-hhxg-market](https://github.com/Niceck/dsh-hhxg-market) — 恢恢量化 hhxg.top A股量化数据插件 for DeepSeek Harness (dsh): 6 free tools + 5 VIP tools (MCP bridge) — A-share quant data plugin.
 - [litestartup-com/dsh-api-gateway](https://github.com/litestartup-com/dsh-api-gateway) — DeepSeek Harness's API Gateway plugin: any third-party client can interact with your DSH Agent.
 - [Noemm/dsh-web-search-glm](https://github.com/Noemm/dsh-web-search-glm) — Zhipu GLM search provider for the DeepSeek Harness (dsh) web seam — native web_search via the Anthropic-compatible API.
+- [aiyacharley/dsh-pubmed](https://github.com/aiyacharley/dsh-pubmed) — Ports pubmed-mcp-server's core capabilities into native DSH model tools: 11 tools covering search, article metadata, full text, citation formatting, MeSH terms, and ID conversion, talking directly to NCBI E-utilities and Europe PMC REST with no extra MCP client config.
 
 ## Orchestrators & Aggregators
 
@@ -3591,6 +3600,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [RGarvel/dsh-channel-view](https://github.com/RGarvel/dsh-channel-view) — DSH channel-view spike: sidebar Channels tab injection + session-projection data chain (RFC-0001, discussion #3897).
 - [Suguyun/dsh-bili-miniplay](https://github.com/Suguyun/dsh-bili-miniplay) — Cross-platform fork of dsh-bili-widget: a floating mini-player for Bilibili inside DSH (Node native fetch, macOS/Linux/Windows).
 - [Yisan0429/dsh-itranslation](https://github.com/Yisan0429/dsh-itranslation) — Inline translation plugin for DeepSeek Harness (dsh).
+- [awnlight/talon-ui](https://github.com/awnlight/talon-ui) — A terminal UI for DeepSeek Harness (dsh) agents.
+- [Nath-Vikky/dsh-codekin](https://github.com/Nath-Vikky/dsh-codekin) — Codekin: a creature-collection and match-three RPG for DeepSeek Harness Web.
+- [shetengteng/dsh-lumina-tarot](https://github.com/shetengteng/dsh-lumina-tarot) — Tarot for DeepSeek Harness: click the floating card to draw a 78-card spread, then let the chat interpret it — the model never invents the cards, which are drawn by a tool.
 
 ## Skills
 
@@ -3797,6 +3809,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [kingselyjoe/xhs-chaijie-dsh](https://github.com/kingselyjoe/xhs-chaijie-dsh) — Native DSH skill for deep breakdowns of Xiaohongshu (RED) accounts and competitors: real cover-image audits, viral-asset reuse, and visualized HTML reports.
 - [Zn-Dk/dsh-plugin-creator](https://github.com/Zn-Dk/dsh-plugin-creator) — Agent skill: scaffold and iterate DSH (DeepSeek Harness) Web plugins.
 - [ArkFishingLab/dsh-agent-skill-manager](https://github.com/ArkFishingLab/dsh-agent-skill-manager) — Agent skill manager plugin for DeepSeek Harness (dsh): install, browse, and manage dsh skills.
+- [JasonFreeLab/dsh-superpowers](https://github.com/JasonFreeLab/dsh-superpowers) — DSH (DeepSeek Harness) port of obra/superpowers — 14 native skills for multi-agent software development: brainstorming, planning, TDD, systematic debugging, and code review.
+- [ziduup/dsh-programming-mode](https://github.com/ziduup/dsh-programming-mode) — DeepSeek Harness programming-mode bundle: enforces Superpowers engineering discipline (TDD, systematic debugging, plan-before-code, pre-completion verification, code review) on top of standard mode, with the full superpowers skill set built in — one `dsh plugin add` install.
 
 ## Resources
 
