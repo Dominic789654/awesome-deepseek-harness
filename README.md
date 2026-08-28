@@ -3637,7 +3637,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [WSL043/dsh-dictation](https://github.com/WSL043/dsh-dictation) — Editable local and Codex Desktop dictation for DeepSeek Harness.
 - [yijigao/deepseek-harness-desktop](https://github.com/yijigao/deepseek-harness-desktop) — Desktop client plugin for DeepSeek Harness.
 - [Alex213321/dsh-desktop](https://github.com/Alex213321/dsh-desktop) — One-click-install Electron desktop client built on the official dsh Web frontend, with wallpapers and a whale mascot widget; conversation content stays fully in sync with the original web client, always launches the latest dsh, and supports customizing/adding wallpapers.
-- [ben4202121/buddybridge](https://github.com/ben4202121/buddybridge) — Unofficial Obsidian plugin to chat with WorkBuddy/CodeBuddy CLI in your vault — streaming, thinking steps, tool calls & history.
 - [Mooling0602/dsh-web-file-uploader](https://github.com/Mooling0602/dsh-web-file-uploader) — A file-upload plugin for the DeepSeek Harness web UI.
 - [nanami-0713/dsh-remote-public](https://github.com/nanami-0713/dsh-remote-public) — DSH-Remote public sanitized mirror: a mobile remote-control client built on DeepSeek Harness.
 - [secyborg/dsh-compact-chat-ui](https://github.com/secyborg/dsh-compact-chat-ui) — DSH web plugin: a settings card to tune chat reading density — font size, line height, and block spacing of the conversation area (assistant markdown + user bubbles), applied live.

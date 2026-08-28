@@ -3631,7 +3631,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [WSL043/dsh-dictation](https://github.com/WSL043/dsh-dictation) —— 面向 DeepSeek Harness 的可编辑本地及 Codex Desktop 语音输入插件。
 - [yijigao/deepseek-harness-desktop](https://github.com/yijigao/deepseek-harness-desktop) —— DeepSeek Harness 桌面客户端插件。
 - [Alex213321/dsh-desktop](https://github.com/Alex213321/dsh-desktop) —— 一键安装，基于官方dsh-web端的桌面端（Electron）开发，涵壁纸以及鲸鱼娘挂件，与原web端的对话内容完全同步，实时启动最新版的dsh，可修改与优化以及添加壁纸！
-- [ben4202121/buddybridge](https://github.com/ben4202121/buddybridge) —— 第三方 Obsidian 插件：在笔记库内直连本地 WorkBuddy/CodeBuddy CLI，支持流式回复、思考过程、工具调用与会话历史。
 - [Mooling0602/dsh-web-file-uploader](https://github.com/Mooling0602/dsh-web-file-uploader) —— 面向 DeepSeek Harness web UI 的文件上传插件。
 - [nanami-0713/dsh-remote-public](https://github.com/nanami-0713/dsh-remote-public) —— DSH-Remote 公开脱敏镜像：基于 DeepSeek Harness 的手机远程控制客户端。
 - [secyborg/dsh-compact-chat-ui](https://github.com/secyborg/dsh-compact-chat-ui) —— DSH web 插件：一个设置卡，用于实时调节对话区域（assistant markdown 与用户气泡）的阅读密度——字体大小、行高与区块间距。
