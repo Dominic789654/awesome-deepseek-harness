@@ -1598,6 +1598,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [dshhub-co/dshhub-market](https://github.com/dshhub-co/dshhub-market) — DeepSeek Harness code-redemption plugin marketplace client: unlock plugins with a code, connecting creators and buyers (powered by DSHHub.co).
 
 _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
+- [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) — A permanent DeepSeek Harness plugin that ships a project run & code viewer, program snapshots, a VTD conversation tree (edit / retry / branches) with message micro-versions, plus a DET feature manager and global plugin control.
 - [DSHPlugin.app](https://dshplugin.app/) — Independent DeepSeek Harness plugin directory with source-backed capability summaries, install information, repository activity, and security signals.
 
 - [bradeGithub/DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) — GUI plugin marketplace.
