@@ -2084,6 +2084,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [142gg-GZX/unity-dsh-bridge](https://github.com/142gg-GZX/unity-dsh-bridge) — DSH plugin: control Unity / Tuanjie editor over a local HTTP bridge — build scenes, write C#, compile, play, screenshot, simulate input.
 - [jsoncode/dsh-jenkins](https://github.com/jsoncode/dsh-jenkins) — Configure and manage multiple Jenkins servers/tokens from DeepSeek Harness: settings-page config, model-tool build triggers, and a workspace-level "Run Jenkins Job" entry. No hardcoded paths, full TypeScript, npm/GitHub publishable.
 - [ktao732084-arch/vibegap](https://github.com/ktao732084-arch/vibegap) — Mini-window for the gaps in vibe coding: vocabulary flashcards (and more panels) that auto-appear while your DeepSeek Harness agent runs.
+- [Flan246/dsh-lit-search](https://github.com/Flan246/dsh-lit-search) — Academic literature search, citation formatting (GB/T 7714 / APA / BibTeX) and related-works tools for DeepSeek Harness and any agent, powered by Crossref + OpenAlex with no API key. Supports `dsh plugin add dsh-lit-search`.
+- [Flan246/dsh-latex-guard](https://github.com/Flan246/dsh-latex-guard) — LaTeX compile check (auto xelatex/lualatex detection) plus BibTeX lint, field-fill and cite-audit tools for DeepSeek Harness and any agent. Supports `dsh plugin add dsh-latex-guard`.
 
 ## Agents
 
