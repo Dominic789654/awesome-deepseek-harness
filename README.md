@@ -1216,6 +1216,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [lumose0/dsh-file-reference-everything](https://github.com/lumose0/dsh-file-reference-everything) — Whole-disk @ file references for DeepSeek Harness — Everything-backed instant search with fuzzy/regex and a cross-platform fallback index.
 - [NickUserVorname/dsh-durable-context](https://github.com/NickUserVorname/dsh-durable-context) — Host-managed durable investigative state and coverage-gated context reclamation for DeepSeek Harness, preserved with live runtime evidence.
 - [CJYLZS/dsh-commandcode-plan-autosync](https://github.com/CJYLZS/dsh-commandcode-plan-autosync) — Auto-syncs CommandCode coding-plan models in DSH.
+- [Urbanrook/agent-project-manager](https://github.com/Urbanrook/agent-project-manager) — Multi-project workspace isolation: one supervisor workspace plus N dev-project workspaces, each project isolated with its own AGENTS.md rules, progress/plan/spec/decision docs and skills, plus task handoff (assign plan / export summary) and a sidebar management panel.
 - [Yur0918/dsh-user-addons](https://github.com/Yur0918/dsh-user-addons) — Community DSH web plugin for file uploads, archived-session management, image capability detection, and model/token usage insights.
 
 ## Cost & Usage Tracking

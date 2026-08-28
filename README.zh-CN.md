@@ -1219,6 +1219,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [lumose0/dsh-file-reference-everything](https://github.com/lumose0/dsh-file-reference-everything) —— 面向 DeepSeek Harness 的全盘 @ 文件引用 —— 基于 Everything 的即时搜索，支持模糊/正则匹配，并有跨平台回退索引。
 - [NickUserVorname/dsh-durable-context](https://github.com/NickUserVorname/dsh-durable-context) —— 面向 DeepSeek Harness 的宿主托管持久化调查状态与覆盖率门控上下文回收，并以实时运行证据保存。
 - [CJYLZS/dsh-commandcode-plan-autosync](https://github.com/CJYLZS/dsh-commandcode-plan-autosync) —— 在 DSH 中自动同步 CommandCode 编码计划模型。
+- [Urbanrook/agent-project-manager](https://github.com/Urbanrook/agent-project-manager) —— 多项目工作区隔离：一个主管工作区 + N 个开发项目工作区，每个项目拥有独立的 AGENTS.md 规则、进度/计划/规格/决策文档与技能，防止多项目间规则、记忆、上下文互相污染串扰，支持任务移交（下达计划/导出汇总）与侧边栏管理面板。
 - [Yur0918/dsh-user-addons](https://github.com/Yur0918/dsh-user-addons) —— 社区 DSH web 插件，支持文件上传、归档会话管理、图片能力检测以及模型/token 用量洞察。
 
 ## 成本与用量统计
