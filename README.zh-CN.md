@@ -758,6 +758,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [sxzyabab/deepseek-harness-python-chinese](https://github.com/sxzyabab/deepseek-harness-python-chinese) —— dsh 的 python 中文迁移版。
 - [Ramenne/DeepSeek-Harness-Gov](https://github.com/Ramenne/DeepSeek-Harness-Gov) —— DeepSeek Harness 政务版：基于 deepseek-ai/deepseek-harness 的政务办事 WebUI 与红头公文插件。
 - [fan56/dsh-llm-net-retry](https://github.com/fan56/dsh-llm-net-retry) —— dsh 插件：针对官方重试策略无法分类的网关 network_error 失败，提供有界重试。
+- [awol2005ex3/dsh-role-manager](https://github.com/awol2005ex3/dsh-role-manager) —— DeepSeek Harness（dsh）角色管理插件。为每个「角色」预设一份初始系统提示词，在 Web 界面中切换当前角色，从而让模型以不同的身份/设定开始对话。
+- [dphmoblie/dsh-error-tell](https://github.com/dphmoblie/dsh-error-tell) —— 一个尝试在 dsh web 启动前检测其他可能导致崩溃的插件并禁用它们的插件。
 
 ## 安全与权限
 
@@ -1455,6 +1457,10 @@ _token 用量、成本看板与预算告警插件。_
 - [null5069/dsh-better-stats](https://github.com/null5069/dsh-better-stats) —— 输入框下方的统计条，带实时悬浮面板：官方人民币计价（自动同步峰谷档位）、按模型实时累进记账（会话行与分享共用同一分母——永不超过 100%）、子代理树合并、余额（赠金/充值拆分 + 剩余天数预估）、预算告警、流式成本估算、实时轮次/缓存/时长计数器（中文 / English）。
 - [WFMinerva/dsh-turn-cost](https://github.com/WFMinerva/dsh-turn-cost) —— 每条助手回复下方的逐轮真实成本：按官方峰谷费率以人民币计价，含缓存命中率；完全本地，零遥测。
 - [EasyTZ/dsh-ui-balance](https://github.com/EasyTZ/dsh-ui-balance) — DeepSeek Harness (dsh) 余额展示插件——在每条回复下方显示你的 DeepSeek API 余额。
+- [arthur20150522/dsh-token-usage-cost](https://github.com/arthur20150522/dsh-token-usage-cost) —— 在 DSH web 对话中显示每轮与整个会话的 token 费用。
+- [kober-basket/dsh-cachescope](https://github.com/kober-basket/dsh-cachescope) —— 面向 DeepSeek Harness 的 Prompt 缓存可观测性与逻辑输入诊断工具。
+- [Young4ever33/dsh-token-attention](https://github.com/Young4ever33/dsh-token-attention) —— Token Check · 词元管理：DeepSeek Harness (DSH) 的 token 注意力管理面板——按任务/日/周/月记录 token 消耗与费用（命中/未命中/输出/推理），支持 DeepSeek 峰谷计价，并给出换对话、写 hand-off 的执行时机建议。
+
 ## Channel / IM 桥接
 
 _把 DSH 桥接到各种聊天平台与消息通道。_
@@ -1583,6 +1589,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [flashyiyi/dsh-voice-announcer](https://github.com/flashyiyi/dsh-voice-announcer) — 面向 DeepSeek Harness 的语音/TTS 任务完成播报插件。
 - [NekroAI/nekro-nxt](https://github.com/NekroAI/nekro-nxt) —— NekroNXT：基于 DeepSeek Harness（DSH）的多平台群聊智能体系统。
 - [NimuStudio/NimuQDock-dsh](https://github.com/NimuStudio/NimuQDock-dsh) —— 把 DeepSeek Harness接入QQ的对接坞——带人格引擎的仿真群友：心情、精力、记忆，像真人一样潜水与参与。
+- [MaRi23333/dsh-serverchan-watchdog](https://github.com/MaRi23333/dsh-serverchan-watchdog) —— DeepSeek Harness 的 Server酱推送插件：审批、计划评审或问答超时未处理时，发送微信/Server酱³ App 提醒。第三方非官方项目。
 
 - [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) —— 完整逆向技能包（85 个 SKILL.md），以 DeepSeek Harness Cordis 插件形式提供：逆向工程、授权渗透测试与安全研究技能路由器。
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) —— DeepSeek Harness 小说写作助手插件：章节库、句式分析（9 类/情绪曲线/文风指纹）、文风检查、剧情追踪、批量导入与 AI 续写，带逐工具 Web UI 开关；已发布到 npm 名为 `dsh-novel-writer`。
@@ -1716,6 +1723,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [suyukun/dsh-plugin-publish](https://github.com/suyukun/dsh-plugin-publish) —— 把 agent 技能标准化发布到 GitHub 的模型无关发布协议：预飞检查、GitHub 仓库、索引 PR、市场提交、宣传文案。
 - [yangbobo2021/relay-dsh-plugin-manager](https://github.com/yangbobo2021/relay-dsh-plugin-manager) —— 面向 DeepSeek Harness 的独立插件管理工具。
 - [dennisrongo/dsh-plugins](https://github.com/dennisrongo/dsh-plugins) —— Dennis Rongo 面向 DeepSeek Harness (dsh) 的插件合集。
+- [neil-ji/dsh-spark-plugins](https://github.com/neil-ji/dsh-spark-plugins) —— DSH（DeepSeek Harness）第三方插件 monorepo：GitHub/npm 连接器、成本统计、跨会话记忆与 UI 组件库。
 
 - [lamost423/dsh-maze](https://github.com/lamost423/dsh-maze) —— DSH agent 的执行迷宫（原 dsh-trace-compare）：主路径、失败岔路与回退全部落在一条墙上时钟时间轴上，逐步数据轨道（工具密度 / token 脉冲 / 上下文压力）、可点击取证式的确定性执行分析，最多 5 次运行同轴对比；附带实时生长的会话级迷宫标签页。
 - [KevinZhangNothing/dsh-task-graph](https://github.com/KevinZhangNothing/dsh-task-graph) — DeepSeek Harness (DSH) 的任务流 / 执行图谱插件 —— 可视化单个任务的完整运行：agent、工具、skill、子任务、重试、实时状态。DSH 单任务执行流程图谱插件。
@@ -2127,6 +2135,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [ZZZjf13960/dsh-onfail](https://github.com/ZZZjf13960/dsh-onfail) —— DSH 插件：轮询 GitHub Actions，将失败的检查项呈现为卡片，并带上日志上下文开启一个修复会话。
 - [liwuzhan/cad-tool](https://github.com/liwuzhan/cad-tool) —— CAD Studio：AI 原生 CAD 命令行工具，采用自包含的 `.456d` 模型包格式、STEP 产物、JSONL 提交历史、装配包，并提供打包完整 Python CLI 与 16 个 Host 工具的 DSH 插件。
 - [yakoylp/dsh-md-convert](https://github.com/yakoylp/dsh-md-convert) —— 将 Office 文档（.doc/.docx/.xls/.xlsx/.ppt/.pptx）和 PDF（含扫描版，通过 PP-StructureV3 OCR）转换为结构化格式的 Markdown。CLI + dsh agent 工具（`md_convert`）。
+- [SleepEggTart/dsh-code-coverage](https://github.com/SleepEggTart/dsh-code-coverage) —— 解析 DSH session 日志归因 AI 生成文件，叠加 c8 覆盖率，产出 AI vs 人工代码覆盖率对比、高危未测文件清单与信任分。
 
 ## Agent
 
@@ -2432,6 +2441,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Niceck/dsh-hhxg-market](https://github.com/Niceck/dsh-hhxg-market) —— 恢恢量化 hhxg.top A股量化数据插件 for DeepSeek Harness (dsh)：6 个免费工具 + 5 个 VIP 工具（MCP 桥接）· A-share quant data plugin。
 - [litestartup-com/dsh-api-gateway](https://github.com/litestartup-com/dsh-api-gateway) —— DeepSeek Harness 的 API Gateway 插件：任何第三方客户端可与你的 DSH Agent 交互。
 - [Noemm/dsh-web-search-glm](https://github.com/Noemm/dsh-web-search-glm) —— 面向 DeepSeek Harness (dsh) web 接口的智谱 GLM 搜索提供方——通过 Anthropic 兼容 API 实现原生 web_search。
+- [aiyacharley/dsh-pubmed](https://github.com/aiyacharley/dsh-pubmed) —— 把 pubmed-mcp-server 的核心能力移植成 DSH 原生模型工具：搜索、文章元数据、全文、引用格式化、MeSH、ID 转换等 11 个工具，直接对接 NCBI E-utilities 与 Europe PMC REST，无需额外的 MCP 客户端配置。
 
 ## 编排器与聚合器
 
@@ -3584,6 +3594,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [RGarvel/dsh-channel-view](https://github.com/RGarvel/dsh-channel-view) —— DSH 渠道视图 spike：侧边栏 Channels 标签注入 + 会话投影数据链（RFC-0001，discussion #3897）。
 - [Suguyun/dsh-bili-miniplay](https://github.com/Suguyun/dsh-bili-miniplay) —— dsh-bili-widget 的跨平台 fork：DSH B 站悬浮看片小窗（Node 原生 fetch，macOS/Linux/Windows 通用）。
 - [Yisan0429/dsh-itranslation](https://github.com/Yisan0429/dsh-itranslation) —— DeepSeek Harness (dsh) 内嵌式翻译插件。
+- [awnlight/talon-ui](https://github.com/awnlight/talon-ui) —— 面向 DeepSeek Harness (dsh) agent 的终端 UI。
+- [Nath-Vikky/dsh-codekin](https://github.com/Nath-Vikky/dsh-codekin) —— Codekin：面向 DeepSeek Harness Web 的收集怪物、三消玩法 RPG 小游戏。
+- [shetengteng/dsh-lumina-tarot](https://github.com/shetengteng/dsh-lumina-tarot) —— DeepSeek Harness 塔罗插件：右下角悬浮牌背，点一下抽取 78 张牌阵，对话里由 AI 解读——牌面由工具抽出，模型编不了。
 
 ## Skill
 
@@ -3792,6 +3805,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [kingselyjoe/xhs-chaijie-dsh](https://github.com/kingselyjoe/xhs-chaijie-dsh) —— DSH 原生小红书账号与竟品深度拆解 Skill：真实封面审计、爆款资产复用与可视化 HTML 报告。
 - [Zn-Dk/dsh-plugin-creator](https://github.com/Zn-Dk/dsh-plugin-creator) —— Agent Skill：脚本化创建并迭代 DSH（DeepSeek Harness）Web 插件。
 - [ArkFishingLab/dsh-agent-skill-manager](https://github.com/ArkFishingLab/dsh-agent-skill-manager) —— 面向 DeepSeek Harness (dsh) 的 Agent 技能管理插件：安装、浏览与管理 dsh 技能。
+- [JasonFreeLab/dsh-superpowers](https://github.com/JasonFreeLab/dsh-superpowers) —— obra/superpowers 的 DSH（DeepSeek Harness）移植版——面向多 agent 软件开发的 14 个原生技能：头脑风暴、计划、TDD、系统化调试与代码审查。
+- [ziduup/dsh-programming-mode](https://github.com/ziduup/dsh-programming-mode) —— DeepSeek Harness 编程模式组合包：标准模式之上强制执行 Superpowers 工程纪律（TDD、系统化调试、先计划后编码、完成前验证、代码审查），内置全套 superpowers 技能，`dsh plugin add` 一键安装。
 
 ## 资源
 
