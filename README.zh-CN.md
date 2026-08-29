@@ -129,8 +129,6 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [fsrmqi/dsh-promptkit](https://github.com/fsrmqi/dsh-promptkit) —— 面向 DeepSeek Harness 的 Prompt 构建与增强工具包：Studio + QuickEnhancer。开源的 Prompt 构建与增强工具包。
 - [Motuo24/dsh-thinking-slider](https://github.com/Motuo24/dsh-thinking-slider) —— DSH 思考强度调节优化插件，模仿 Codex 中 GPT5.6 Terra 等高级模型专属的档位吸附滑条，并解锁 Low、Medium 等档位。
 - [9527ccccccc/dsh-build-plan-mode](https://github.com/9527ccccccc/dsh-build-plan-mode) —— 为 DeepSeek Harness 会话提供 Build 和只读的 Plan 模式——一个纯用户层 Cordis 插件，不修改 DSH 核心。
-- [ABccgh/dsh-agent-builder](https://github.com/ABccgh/dsh-agent-builder) —— 用于构建 DeepSeek Harness agent 预设的动态 Cordis 插件。
-- [ABccgh/dsh-plugin-dev](https://github.com/ABccgh/dsh-plugin-dev) —— DSH 动态 Cordis 插件开发套件：agent 预设、示例插件与模板。
 - [yongshuai0314/dsh-i-have-adhd](https://github.com/yongshuai0314/dsh-i-have-adhd) —— 面向 DeepSeek Harness 的 ADHD 友好输出整形插件：一段系统提示 + adhd_on/adhd_off/adhd_status 工具，跨重启持久化；灵感来自 ayghri/i-have-adhd（MIT）。
 - [jilian-dsh/dsh-rule-engine](https://github.com/jilian-dsh/dsh-rule-engine) —— DSH 规则执行引擎 v3 的插件实现：把 `~/.dsh/AGENTS.md` 当作唯一真相源，自动解析规则四要素与执行等级，再通过工具守卫 + 文本检测 + 时序检查 + 审计台账执行用户规则，规则增删改后无需重写插件。
 - [sakka6868/dsh-prompt-optimize-plugin](https://github.com/sakka6868/dsh-prompt-optimize-plugin) —— DeepSeek Harness 输入栏「提示词优化」插件——一键把模糊的提示词改写成清晰、具体、可执行，像 IDE 里的智能提示一样顺手。
@@ -2328,7 +2326,6 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [maxwell-feng/dsh-searxng-web](https://github.com/maxwell-feng/dsh-searxng-web) —— DeepSeek Harness 插件：用你自托管的 SearXNG 实例为内置 web_search / web_fetch 工具提供支持——无需密钥、隐私友好、无第三方搜索厂商依赖。
 - [PyModel/dsh-research-plugins](https://github.com/PyModel/dsh-research-plugins) —— 面向 DeepSeek Harness 的研究类插件集合——一个 pnpm monorepo，为 DSH 智能体添加网页搜索与 MCP 桥接，支持 AI 研究、网页抓取与实时文档查阅。
 - [240xu/dsh-websearch](https://github.com/240xu/dsh-websearch) —— 面向 DSH 的统一网页搜索提供方。
-- [ABccgh/dsh-agent-studio](https://github.com/ABccgh/dsh-agent-studio) —— DSH 智能体与插件开发预设：为 DeepSeek Harness 构建 agent preset 与预设本地插件的开发智能体，含 preset_* 工具集、插件/技能脚手架、静态审查与挂载校验。
 - [ktdhhc/dsh-custom-subagents](https://github.com/ktdhhc/dsh-custom-subagents) —— 一个 dsh 的子 agent 控制插件。
 - [AFANman/dsh-work-board](https://github.com/AFANman/dsh-work-board) —— 面向 DeepSeek Harness 的看板式 agent-workflow 工作板插件。
 - [ZekaiShi/evo-subagent](https://github.com/ZekaiShi/evo-subagent) —— 统一的 DeepSeek Harness 插件：基于角色的子代理路由 + 每代理进化（prefercmd/memory 作为知识白/黑名单），让重复任务从已验证的命令开始，节省 token。
@@ -3921,7 +3918,6 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [988hj7tczd-oss/dsh-skill-creator](https://github.com/988hj7tczd-oss/dsh-skill-creator) —— 一站式 DSH 技能（SKILL.md）生成器：在 DeepSeek Harness 会话内完成意图捕获、起草、校验、打包与分发。
 - [qkycir-123/dsh-run2skill](https://github.com/qkycir-123/dsh-run2skill) —— 面向 DeepSeek Harness 的 DSH 原生、本地优先 Run-to-Skill 插件。
 - [tydm2/code-forge-skill](https://github.com/tydm2/code-forge-skill) —— 编码多智能体工作流接线技能（1 个大脑 + 4 个专精：架构/编码/自检/审查），可与 workflow-builder 工作流技能联合使用。
-- [wpc725562-dotcom/zsb-agent-kit](https://github.com/wpc725562-dotcom/zsb-agent-kit) —— 面向广东专升本知识库的 Agent 工具集：笔记审计/模拟卷命题/排版修复，兼容 DeepSeek-Harness。
 - [fufengyuan/dsh-stool-plugin](https://github.com/fufengyuan/dsh-stool-plugin) —— 标注为 deepseek-harness / dsh-plugin 的 DeepSeek Harness 插件（上游未提供进一步描述）。
 - [shine-233/dsh-waimao](https://github.com/shine-233/dsh-waimao) —— 面向 DeepSeek Harness (dsh) 的外贸工具包：Google 三层获客搜索（WhatsApp/LinkedIn 买家线索）+ WhatsApp 客服复核工作台（Evolution API + AI 草稿 + 人工复核）。万物皆插件。
 - [Youngxj/dsh-ProjectModel](https://github.com/Youngxj/dsh-ProjectModel) —— DeepSeek Harness 项目组插件。
