@@ -143,6 +143,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [NOirBRight/dsh-llm-grok](https://github.com/NOirBRight/dsh-llm-grok) — Grok subscription OAuth provider and Web configuration plugin for DeepSeek Harness.
 - [raktim-mondol/dsh-researchcraft](https://github.com/raktim-mondol/dsh-researchcraft) — ResearchCraft as a DeepSeek Harness (DSH) profile plugin: research persona, scientific skills catalogue, living lab notebook, and specialist subagents.
 - [WoyouWoyou/dsh-office-32k](https://github.com/WoyouWoyou/dsh-office-32k) — DSH (DeepSeek Harness) office-document · 32K-mode Agent Preset: 32K context management + offline dependencies + Excel/Word/PPT skills.
+- [runfali/dsh-prompt-injector](https://github.com/runfali/dsh-prompt-injector) — Per-turn context-injection plugin for DeepSeek Harness: manage an enabled-prompts list from a settings page, and inject each enabled prompt as a "context injection" reminder line into every turn's model context — makes discipline rules (e.g. graph-consumption / wiki-first / memory-recall) reliably take effect.
 
 ## Harnesses & Runtimes
 
@@ -779,6 +780,13 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [Ansonfishing/dsh-model-manager](https://github.com/Ansonfishing/dsh-model-manager) — Manage local LLM inference servers in DSH: GPU registry, parameter profiles, VRAM validation, and tok/s benchmarks for llama.cpp, SGLang, and vLLM.
 - [hgl011091/dsh-rss-monitor](https://github.com/hgl011091/dsh-rss-monitor) — Native DeepSeek Harness RSS subscription-monitor plugin: multi-source feeds, keyword filters, scheduled dedup checks, new-entry email notifications (thumbnail HTML template); SMTP password lives in the credentials store and is never persisted in plaintext; native four-tab settings UI.
 - [Qidianyan/dshctl](https://github.com/Qidianyan/dshctl) — Command DeepSeek Harness (dsh) from the terminal — sessions, tasks, models, modes, workspaces, approvals over its HTTP API. No web UI needed. Claude Code skill included.
+- [firestige/wsr-dsh](https://github.com/firestige/wsr-dsh) — WSR integrations for DeepSeek Harness: Execution, Studio, and suite bundles.
+- [Likenttt/garmin-connect-plugin-for-dsh](https://github.com/Likenttt/garmin-connect-plugin-for-dsh) — DeepSeek Harness plugin for Garmin Connect — AI-powered fitness data access.
+- [NevermindZZT/dsh-manager-plugin](https://github.com/NevermindZZT/dsh-manager-plugin) — DSH plugin paired with the dsh-manager remote tool, enabling remote access/control of dsh directly from the manager.
+- [Ruixinhua/dsh-universe-api](https://github.com/Ruixinhua/dsh-universe-api) — Offline, deterministic public API discovery for DeepSeek Harness and DSH Desktop.
+- [shengbinxu/dsh-llm-latency](https://github.com/shengbinxu/dsh-llm-latency) — LLM latency benchmark and telemetry plugin for DeepSeek Harness.
+- [Tamarisk-Du/remote-dsh-macos](https://github.com/Tamarisk-Du/remote-dsh-macos) — Native macOS launcher for using DeepSeek Harness with remote models over SSH.
+- [x102201/deepseek-harness-helper](https://github.com/x102201/deepseek-harness-helper) — Run unlimited concurrent DeepSeek Harness instances on one machine, each instance an independent dsh setup, with draggable custom split-screen layout and `.dshpack` environment packs that can be packaged and sold (Win/macOS/Linux, x64 & ARM).
 
 ## Security & Permissions
 
@@ -1268,6 +1276,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [helibeiqi/dsh-compaction-pro](https://github.com/helibeiqi/dsh-compaction-pro) — High-fidelity, faithful, bilingual, recursive compaction backend for DeepSeek Harness.
 - [statem-li/dsh-triad](https://github.com/statem-li/dsh-triad) — DSH 3-in-1 extension plugin: usage workbench · skill management · long-term memory engine. Zero DSH source changes, one-line install.
 - [qwertyuiop314/dsh-workspace-picker-enhance](https://github.com/qwertyuiop314/dsh-workspace-picker-enhance) — Enhanced DSH workspace directory picker plugin.
+- [drscrewdriver/dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) — Session-guard plugin for DeepSeek Harness (dsh).
+- [Rottenwooood/dsh-mnemos](https://github.com/Rottenwooood/dsh-mnemos) — Agent-memory plugin for DeepSeek Harness (dsh).
 
 ## Cost & Usage Tracking
 
@@ -2177,6 +2187,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [SleepEggTart/dsh-code-coverage](https://github.com/SleepEggTart/dsh-code-coverage) — Parses DSH session logs to attribute AI-generated files, overlays c8 coverage, and produces AI-vs-human coverage comparisons, a high-risk untested-file list, and a trust score.
 - [Kickstartparty3459/dsh-ios](https://github.com/Kickstartparty3459/dsh-ios) — Run live iOS simulators and your real iPhone over USB inside DeepSeek Harness conversations with 22 agent tools, MJPEG previews, and SwiftUI hot reload.
 - [ddtcorex/dsh-maestro-devkit](https://github.com/ddtcorex/dsh-maestro-devkit) — General development toolkit for DeepSeek Harness — visual review, HMR, style inspector, Cordis/Govard/Skills dev (tunnel-aware).
+- [FeatureAgents/AgentsGitFlowController](https://github.com/FeatureAgents/AgentsGitFlowController) — Configurable branch-role GitFlow guard for AI coding agents (Claude Code, Codex, OpenCode, Antigravity, DeepSeek Harness (DSH), Pi): define your own integration/preview/production/archive branches with their own update rules so agents can't skip the flow.
 
 ## Agents
 
@@ -3699,6 +3710,12 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [haoyu-qi/dsh-zentao](https://github.com/haoyu-qi/dsh-zentao) — AVCON Web UI customization for DeepSeek Harness plus a personal ZenTao (禅道) CLI work hub.
 - [Raiyan007-gb/dsh-qrcode-hassle-free](https://github.com/Raiyan007-gb/dsh-qrcode-hassle-free) — DSH plugin bundle: scan a QR code to open the deepseek-harness web UI on your phone inside the same session — cloudflared quick tunnel, no database, Windows/macOS/Linux.
 - [sitex/dsh-next-prompt](https://github.com/sitex/dsh-next-prompt) — Claude Code-style next-prompt suggestions for DeepSeek Harness Web.
+- [A8Chann/dsh_desktop](https://github.com/A8Chann/dsh_desktop) — Tauri-based desktop client for DeepSeek Harness (Windows).
+- [auggie246/dsh-sidebar](https://github.com/auggie246/dsh-sidebar) — Sidebar and panels for full developer interaction with DeepSeek Harness.
+- [DDDFXYqiming/dsh-side-panel-patched](https://github.com/DDDFXYqiming/dsh-side-panel-patched) — Right-side workspace panel for DSH Web (fork with enhancements).
+- [hu669293657/dsh-turn-tools](https://github.com/hu669293657/dsh-turn-tools) — DSH web plugin: per-turn deliverable buttons (open with the OS default app) and a turn-navigator dot rail for jumping between conversation turns.
+- [odelbos/dsh-models-filter](https://github.com/odelbos/dsh-models-filter) — DeepSeek Harness plugin that adds an input field to filter the models menu (with arrow up/down + enter).
+- [rongxingda/dsh-prompt-enhance](https://github.com/rongxingda/dsh-prompt-enhance) — Prompt-enhancement plugin for the DeepSeek Harness web GUI: one-click rewrite of the composer draft into a structured prompt, with preview, fill-back, and undo.
 
 ## Skills
 
