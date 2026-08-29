@@ -1285,6 +1285,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [qwertyuiop314/dsh-workspace-picker-enhance](https://github.com/qwertyuiop314/dsh-workspace-picker-enhance) — Enhanced DSH workspace directory picker plugin.
 - [drscrewdriver/dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) — Session-guard plugin for DeepSeek Harness (dsh).
 - [Rottenwooood/dsh-mnemos](https://github.com/Rottenwooood/dsh-mnemos) — Agent-memory plugin for DeepSeek Harness (dsh).
+- [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) — Auto-wakes the main agent after a DSH service restart — compares last-run timestamps, posts a recovery notice with humanized downtime, and delivers it so interrupted work picks itself back up. Runs on plain cordis ctx, packaged-DSH-Desktop ready.
 
 ## Cost & Usage Tracking
 
