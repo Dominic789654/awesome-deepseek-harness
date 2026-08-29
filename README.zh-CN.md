@@ -152,7 +152,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [kanneiren/dsh-network-settings](https://github.com/kanneiren/dsh-network-settings) —— DSH 网络设置插件：DeepSeek Harness 的网络诊断、代理检测与修复，支持 Windows/WSL/macOS。
 - [wizzy-yang/dsh-updater](https://github.com/wizzy-yang/dsh-updater) —— DSH 自动更新插件——检测官方 deepseek-ai/deepseek-harness 新版本，侧边栏一键 npm 升级并自动重启。
 - [WTStarMark/DSH-QAQ](https://github.com/WTStarMark/DSH-QAQ) —— QAQ（DSH-QAQ）面向 DeepSeek Harness（DSH）的启动容灾守卫，配套 dsh-qaq 备份插件：headless Chrome 读浏览器真实 DOM，检测宿主崩溃与 Web UI 红屏，自动回滚 last-good 配置并安全重启，内置防死循环。全屏 TUI 整合启动、日志、插件管理与热更新监控，零侵入、一条命令部署。
-- [krystal-cao/deepseek-harness-desktop](https://github.com/krystal-cao/deepseek-harness-desktop) —— DeepSeek Harness 的非官方桌面封装：本地优先、沙箱隔离，内置 dsh 版本管理与插件管理，支持自动更新与任务完成桌面通知（macOS）。
+- [summer-521/deepseek-harness-desktop](https://github.com/summer-521/deepseek-harness-desktop) —— DeepSeek Harness 的非官方桌面封装：本地优先、沙箱隔离，内置 dsh 版本管理与插件管理，支持自动更新与任务完成桌面通知（macOS）。
 - [chenkai2/dsh-daemon](https://github.com/chenkai2/dsh-daemon) —— 将 DeepSeek Harness Web 服务（`dsh web`）注册为自动启动、自愈的后台服务（LaunchAgent / systemd / cron + watchdog）。
 - [hust-open-atom-club/oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) —— 一套 DSH runtime，提供 Desktop、Web 与 TUI 三种开发体验。
 - [huiliyi37/oh-my-tianshu](https://github.com/huiliyi37/oh-my-tianshu) —— Oh My Tianshu 是一款完全体开源 coding agent：在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。它是 DeepSeek Harness(dsh)的友好 fork（MIT），保留上游一切皮插件的架构，界面交互对标 oh-my-pi。
@@ -781,7 +781,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [KeS1Ke/dsh-exit](https://github.com/KeS1Ke/dsh-exit) —— 一个专注安全的 DeepSeek Harness Web 插件，提供安全、需确认的宿机退出控制。
 - [developerdh/dsh-sandbox-allowlist](https://github.com/developerdh/dsh-sandbox-allowlist) —— 为 DSH 默认沙箱增加可配置的「沙箱授权目录」，允许工作区外的受信修改。
-- [JUSTMONIKA2022/dsh-sandbox-escalation-fix](https://github.com/JUSTMONIKA2022/dsh-sandbox-escalation-fix) —— DeepSeek Harness/DSH 第三方模型会话沙箱升级兼容插件，会话感知的沙箱升级兼容修复。
+- [HakureiMonika/dsh-sandbox-escalation-fix](https://github.com/HakureiMonika/dsh-sandbox-escalation-fix) —— DeepSeek Harness/DSH 第三方模型会话沙箱升级兼容插件，会话感知的沙箱升级兼容修复。
 - [a903067276-rgb/dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) —— DeepSeek Harness 自动审批权限守卫：介于 workspace-write 与 danger-full-access 之间的中间层——在信任目录内自动放行安全操作，破坏性操作始终弹窗确认。
 - [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) —— 为 DeepSeek Harness Auto 预设提供 LLM 辅助自动审批 + 超时兜底。
 - [MkaliezZ/dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) —— 为 DSH 提供带证据的确定性 fail-closed 工具调用授权：allow/block/ask 策略门 + 审批链延期。
@@ -3553,10 +3553,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Kevoyuan/dsh-trading212](https://github.com/Kevoyuan/dsh-trading212) —— 只读的 Trading 212 持仓仪表盘与 dsh 工具：持仓、历史、风险与交易标记。
 - [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) —— 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆插件，桌面本身也是“插件”。
 - [cocofhu/anime-find](https://github.com/cocofhu/anime-find) —— DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。
-- [Entity-Him/dsh-doc-quick](https://github.com/Entity-Him/dsh-doc-quick) —— 拖拕文档进 dsh 的 Web 对话框快速处理，右侧侧栏展示产出。
+- [QinpanWan/dsh-doc-quick](https://github.com/QinpanWan/dsh-doc-quick) —— 拖拕文档进 dsh 的 Web 对话框快速处理，右侧侧栏展示产出。
 - [shuaihaoV/dsh-TheWanderingEarthII](https://github.com/shuaihaoV/dsh-TheWanderingEarthII) —— 流浪地球2 —— DSH Web GUI 电影风格主题：发动机点火联动、MOSS 化发送按钮、星场 HUD。
 - [warmwine/dsh-ui-font](https://github.com/warmwine/dsh-ui-font) —— DSH 老花眼插件，对眼睛不好看不了小字的朋友相当有善。
-- [Entity-Him/dsh-sky-skin](https://github.com/Entity-Him/dsh-sky-skin) —— 光遇（Sky: Children of the Light）主题皮肤，面向 DeepSeek Harness Web UI：星图上的光之子、蜡烛金与星空夜色。
+- [QinpanWan/dsh-sky-skin](https://github.com/QinpanWan/dsh-sky-skin) —— 光遇（Sky: Children of the Light）主题皮肤，面向 DeepSeek Harness Web UI：星图上的光之子、蜡烛金与星空夜色。
 - [louke6572/dsh-whale-widget-plus](https://github.com/louke6572/dsh-whale-widget-plus) —— 基于 DeepSeek-Balance-Whale-Widget 开发，新增了两版不同的表情，需要哪个版本的表情可以自己让 agent 帮你换，增加了火山 coding plan 额度查询，新增台词自定义切换，增加了表情与台词手动切换。
 - [NIU-001-LIU/dsh-chat-timeline-plus](https://github.com/NIU-001-LIU/dsh-chat-timeline-plus) —— DeepSeek Harness 时间线插件：悬停预览问答、面板可固定。
 - [PaoMoXML/dsh-paste-names](https://github.com/PaoMoXML/dsh-paste-names) —— dsh 将非图片文件或文件夹以原生 @path 引用粘贴进聊天输入框，替代仅支持图片的报错。
