@@ -616,7 +616,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [SpookySandwich/dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) —— DSH 刷灰测模型插件：通过打分实时思维链来钓限量灰度对话模型。
 - [StvLi/dsh-ros2](https://github.com/StvLi/dsh-ros2) —— Deepseek Harness ROS 2 插件，可用于高效诊断问题并进行联合调试。
 - [BuLongY/dsh-proxy](https://github.com/BuLongY/dsh-proxy) —— DeepSeek Harness 的网络代理插件（clash/cordis 集成）。
-- [citrusli2026/dsh-electron-shell](https://github.com/citrusli2026/dsh-electron-shell) —— 非官方 DeepSeek Harness Electron 桌面：内建 Node 运行时、安装包、自动更新。
 - [citrusli2026/dsh-desktop](https://github.com/citrusli2026/dsh-desktop) —— 非官方 DeepSeek Harness Electron 桌面：内建 Node 运行时、安装包、自动更新。
 - [new-256/dsh-desktop](https://github.com/new-256/dsh-desktop) —— DSH（DeepSeek Harness）桌面版：Windows 桌面应用包装器——独立窗口、自带 Node/npm/dsh 环境、数据目录隔离、启动自检自愈、静默更新。
 - [C3H3-AI/dsh-mobile-fix](https://github.com/C3H3-AI/dsh-mobile-fix) —— DSH 移动端 UI 优化插件：单列设置对话框、双击最大化、默认隐藏的移动端侧边栏。

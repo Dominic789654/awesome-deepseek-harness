@@ -641,7 +641,6 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [SpookySandwich/dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) — DeepSeek Harness plugin: fish for a limited-rollout conversation model by scoring live chain-of-thought.
 - [StvLi/dsh-ros2](https://github.com/StvLi/dsh-ros2) — The Deepseek Harness ROS 2 plugin can be used to efficiently diagnose issues and perform joint debugging.
 - [BuLongY/dsh-proxy](https://github.com/BuLongY/dsh-proxy) — A network proxy plugin for DeepSeek Harness (clash/cordis integration).
-- [citrusli2026/dsh-electron-shell](https://github.com/citrusli2026/dsh-electron-shell) — Unofficial Electron desktop shell for DeepSeek Harness: bundled Node runtime, installers, auto-update.
 - [citrusli2026/dsh-desktop](https://github.com/citrusli2026/dsh-desktop) — Unofficial Electron desktop shell for DeepSeek Harness: bundled Node runtime, installers, auto-update.
 - [new-256/dsh-desktop](https://github.com/new-256/dsh-desktop) — DSH (DeepSeek Harness) desktop edition: Windows desktop app wrapper — standalone window, bundled Node/npm/dsh environment, isolated data directory, startup self-check/self-heal, silent updates.
 - [C3H3-AI/dsh-mobile-fix](https://github.com/C3H3-AI/dsh-mobile-fix) — DSH mobile UI polish plugin: single-column settings dialog, double-click maximize, hidden-by-default mobile sidebar.
