@@ -1290,6 +1290,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [qwertyuiop314/dsh-workspace-picker-enhance](https://github.com/qwertyuiop314/dsh-workspace-picker-enhance) —— 增强版 DSH 工作区目录选择器插件。
 - [drscrewdriver/dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) —— 面向 DeepSeek Harness (dsh) 的会话守卫插件。
 - [Rottenwooood/dsh-mnemos](https://github.com/Rottenwooood/dsh-mnemos) —— 面向 DeepSeek Harness (dsh) 的 agent 记忆插件。
+- [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) —— 检测 DSH 服务重启后自动唤醒主 agent —— 对比上次运行时间、人性化播报中断时长，并把提示消息投递回来让中断的工作自动恢复。仅依赖 cordis ctx 服务，兼容 DSH Desktop 打包环境。
 
 ## 成本与用量统计
 
