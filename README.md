@@ -929,6 +929,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [IkariKr/dsh-orbit](https://github.com/IkariKr/dsh-orbit) — Secure self-hosting and fleet layer for DeepSeek Harness.
 - [yexi-by/dsh-unrestricted](https://github.com/yexi-by/dsh-unrestricted) — Toggleable jailbreak/unrestricted-prompt plugin for DeepSeek Harness Web, with multi-mode support, subagent propagation, and anchor-compatibility checks.
 - [unknowbug/dsh-thinking-loop-guard](https://github.com/unknowbug/dsh-thinking-loop-guard) — Detect & break thinking-chain loops in DSH agents at the turn boundary (no proxy). Ported from ollama-loop-guard.
+- [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) — Task-contract and completion-certification layer for DeepSeek Harness: eight lifecycle hooks keep an immutable requirement ledger, restore the bounded contract after /compact or resume, and block Goal and task-completion claims until a checkpoint binds matching evidence; fail-closed, privacy-preserving bounded evidence.
 
 ## Session & Memory Management
 
