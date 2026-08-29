@@ -73,6 +73,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [duyanta123/dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) — DSH agent preset: scaffold a standardized, runnable, verifiable project skeleton from scratch (architect persona + six template assets + a strict bootstrap flow).
 - [light051001/dsh-preset-qa-mode](https://github.com/light051001/dsh-preset-qa-mode) — Ask-first DSH agent preset based on Standard: exhaustive structured clarifying questions (nine dimensions, max 5 rounds, interruptible) with a confirmation gate before any execution; plan-first for complex tasks.
 - [Jungod1121/dsh-anchored-standard](https://github.com/Jungod1121/dsh-anchored-standard) — Two-phase DSH preset: a minimal-aligned bootstrap (bash + read), then full Standard tools after the first tool call or reply.
+- [lovstudio/dsh-llm-config](https://github.com/lovstudio/dsh-llm-config) — Reusable LLM configuration profile library exposed to browser consumers as a Remote (DeepSeek Harness plugin).
 - [ZRui-C/dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) — Installable Web bundle for a Minimal-compatible root-session first request, then restores the selected preset after the first tool call or reply; includes a persistent composer toggle.
 - [songoao25/virtual-product-team](https://github.com/songoao25/virtual-product-team) — Product Team Mode — a DSH agent preset: boss-style conversation with a virtual product team (PM → Engineer → QA → Release) from idea to shipped product.
 - [qwe225380/dsh-omni-router](https://github.com/qwe225380/dsh-omni-router) — Omni Router: an intelligent orchestration preset that routes tasks by complexity and thinking mode (spec/react/balanced), auto-collects project context, and adds Plan Mode, TDD, delivery-gate, Git workflow, and acceptance-checklist guidance. Supports `dsh plugin add dsh-omni-router`.
@@ -161,6 +162,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [TOBYCAI/dsh-setup-manager](https://github.com/TOBYCAI/dsh-setup-manager) — DSH (DeepSeek Harness) runtime/desktop-shell upgrade toolkit — pins runtime as authority, upgrades the shell safely, and fixes the WorkBuddy safe-delete guard blocking pnpm plugin updates. Platforms: macOS (full) / Linux (core).
 - [VictorTomaili/agent-cli](https://github.com/VictorTomaili/agent-cli) — Manage AGENTS.md across all your AI coding agents (including DeepSeek Harness's `~/.dsh/AGENTS.md`) — one canonical source in `~/.agents`, mirrored everywhere, with sub-agent dispatch (`agent-cli run`) and fallback chains.
 - [wwkk214222208/StageCraft](https://github.com/wwkk214222208/StageCraft) — Self-hosted, plugin-based multi-character roleplay runtime with a web creator workbench (a friendlier alternative to SillyTavern). Runs standalone, as a DSH plugin (via a `dsh-rp` Cordis adapter shell), or as an Android APK; uses DSH to assist script/scene editing.
+- [cheney-plus/happy-friday-lite](https://github.com/cheney-plus/happy-friday-lite) — Personal all-in-one agent desktop app combining notes, schedule, agent, and chat.
 - [gehennawu/dsh-service](https://github.com/gehennawu/dsh-service) — Self-hosted operations plugin for DSH Web: safe restart/recovery, health diagnostics, model usage/error stats, backups, and Linux permission repair.
 - [bright-y/dsh-restart](https://github.com/bright-y/dsh-restart) — One-click restart button for DeepSeek Harness (DSH Desktop).
 - [kanneiren/dsh-network-settings](https://github.com/kanneiren/dsh-network-settings) — DeepSeek Harness network diagnostics, proxy detection and repair for Windows/WSL/macOS.
@@ -2355,6 +2357,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [ChongCyrus/Vibe-Mathematics](https://github.com/ChongCyrus/Vibe-Mathematics) — Vibe Mathematics —— a multi-agent math problem-solving and formal-verification framework.
 - [Wang-Lin-Chang/dsh-mesh](https://github.com/Wang-Lin-Chang/dsh-mesh) — Multi-Agent Mesh: crash-isolated multi-agent coordination — files are the messages, adoption replaces all-hands-on-deck failure. Built on asmfs-spec.
 - [aleleppy/leppy-loop-deepseek](https://github.com/aleleppy/leppy-loop-deepseek) — Native Leppy Loop bundle for DeepSeek Harness.
+- [alin-ever/dsh-plugin-autoqueue](https://github.com/alin-ever/dsh-plugin-autoqueue) — Unattended task-queue plugin for DeepSeek Harness: drop a `.md` file into an inbox, the AI executes it automatically, and it produces a report.
 ## MCP Servers
 
 _Model Context Protocol servers that contribute tools / prompts / resources to DSH._
@@ -2382,6 +2385,9 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [fly233338/dsh-overleaf](https://github.com/fly233338/dsh-overleaf) — Connect Overleaf projects to DeepSeek Harness (DSH) through OverleafMCP and MCP tools.
 - [DevViking-Persike/dsh-cliproxy](https://github.com/DevViking-Persike/dsh-cliproxy) — DeepSeek Harness plugin: routes cliproxy-claude and cliproxy-openai through a local CLIProxyAPI, so the agent reaches your own CLI subscriptions.
 - [platonai/dsh-browser4](https://github.com/platonai/dsh-browser4) — Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
+- [platonai/Browser4](https://github.com/platonai/Browser4) — Browser4 core engine repo: the AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation, with a documented DeepSeek Harness plugin integration (`dsh plugin --profile web add dsh-browser4`).
+- [wang-junjian/dsh-github-trending](https://github.com/wang-junjian/dsh-github-trending) — DeepSeek Harness plugin: GitHub Trending.
+- [Yurzi/dsh-web-search-enhanced](https://github.com/Yurzi/dsh-web-search-enhanced) — Multi-protocol web_search provider for DeepSeek Harness.
 - [mrpulor-gh/dsh-nuphus-mcp](https://github.com/mrpulor-gh/dsh-nuphus-mcp) — DeepSeek Harness (DSH) plugin: mount the nuphus-mcp desktop automation MCP server as native tools (mcp__nuphus-mcp__*).
 - [enilmalus/offline_websearch](https://github.com/enilmalus/offline_websearch) — Local/offline web search for DSH and Claude Code.
 - [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) — Hosted outcome tools over MCP: doc/PDF conversion, tables with in-code arithmetic checks, China-reachability testing from a real mainland vantage (+ live README badge & 30-day watch), Chinese calendar/holidays. Free anonymous quota, per-call cost reporting. *(Disclosure: by the ainetcafe.com team.)*
@@ -2615,6 +2621,12 @@ _Multi-step / multi-agent schedulers and output aggregators._
 
 ## UI / Clients
 - [776138506/pinpoint](https://github.com/776138506/pinpoint) — Point-and-annotate on any webpage, then send the screenshot plus structured text straight into a DSH session (DSH plugin + browser extension).
+- [abbccdd/dsh-localtts](https://github.com/abbccdd/dsh-localtts) — Local IndexTTS 2.5 and GPT-SoVITS speech synthesis and playback for DeepSeek Harness.
+- [Amengclass/dsh-settings-hub](https://github.com/Amengclass/dsh-settings-hub) — DSH plugin: take over the settings shell and regroup third-party plugins under one collapsible group.
+- [MidiAug/deepseek-harness-desktop](https://github.com/MidiAug/deepseek-harness-desktop) — Open DeepSeek Harness on Windows: official interface, reuses your local `dsh`, configurable proxy/mirror.
+- [Soodok/Deepseek-Harness-Local-Android](https://github.com/Soodok/Deepseek-Harness-Local-Android) — DeepSeek Harness Local for Android — run the full DeepSeek Harness agent locally on a phone: no root required, no Termux, bionic Node engine, extension center for on-demand Python/Git/JDK installs (with mainland-China mirror support).
+- [v587d/dsh-custom-skin](https://github.com/v587d/dsh-custom-skin) — A personal plugin skin-management tool for DeepSeek Harness.
+- [zw11591-sketch/dsh-pet-panel](https://github.com/zw11591-sketch/dsh-pet-panel) — A desktop pet plus a conversation overview panel for the DeepSeek Harness Web UI — self-contained client plugin (no host service).
 - [Alain-Prot0s5/dsh-screenshot](https://github.com/Alain-Prot0s5/dsh-screenshot) — Screenshot-to-input plugin for DeepSeek Harness Desktop (DSH Desktop app required; Windows 10/11 only): camera button and global hotkey Alt+A snip and auto-paste into the composer.
 - [broken-star1999/deepseek-harness-up](https://github.com/broken-star1999/deepseek-harness-up) — DeepSeek Harness Up: a Windows desktop tool to one-click launch/update/uninstall DeepSeek Harness (`@deepseek-ai/dsh`), with an embedded browser; not a plugin, non-invasive.
 - [cilis/dsh-tauri-launcher](https://github.com/cilis/dsh-tauri-launcher) — DeepSeek Harness (DSH) Launcher, implemented as a DSH plugin.
@@ -3698,6 +3710,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [chenyinrusi/dsh-engineering-skills](https://github.com/chenyinrusi/dsh-engineering-skills) — Five engineering-discipline skills for AI coding agents (DeepSeek Harness, Claude Code, Codex): 18-dimension code review, CI failure triage, shell safety, redundancy/boundary audit, and cross-repo pattern absorption — pure markdown, no install.
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) — Chinese long-form screenwriting skill (SKILL.md): two input blocks + causal-value engine with anti-AI-flavor review and a continuity ledger for 100+ scene projects.
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) — Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).
+- [git-hub-cloud/workled](https://github.com/git-hub-cloud/workled) — Workled skill for DeepSeek Harness ([demo video](https://www.bilibili.com/video/BV1FK4k6WEKe)).
 - [Wenaixi/dsh-ponytail](https://github.com/Wenaixi/dsh-ponytail) — Full DSH port of DietrichGebert/ponytail — lazy senior-dev mode, 6 Chinese-localized skills, no empty tools.
 - [Wenaixi/dsh-superpower](https://github.com/Wenaixi/dsh-superpower) — DSH port of obra/superpowers — all 14 skills fully ported and localized to Chinese, native DSH SkillProvider (sync v6.3.0).
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) — Matt Pocock's skills for DSH: grilling, writing-for-agents, wait-what, TDD, code review and more — 25 skills adapted from mattpocock/skills (MIT).
