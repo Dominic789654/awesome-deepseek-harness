@@ -3455,6 +3455,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [SkyNotSilent/deepseek-harness-desktop-gala](https://github.com/SkyNotSilent/deepseek-harness-desktop-gala) —— DeepSeek Harness Desktop Gala —— DeepSeek Harness 桌面端，内置 Gala 角色皮肤系统。
 - [xiaoksio/dsh-solution-explorer](https://github.com/xiaoksio/dsh-solution-explorer) —— DSH Web GUI 右侧边栏：VS Code 风格的文件浏览器 + 源代码管理（git 状态、暂存/取消暂存/丢弃、提交、diff）以及带保存功能的文件编辑器。
 - [yanzwzz/dsh-whale-girl-pet](https://github.com/yanzwzz/dsh-whale-girl-pet) —— 🐋 DeepSeek 娘桌宠：住进 DeepSeek Harness Web 界面的蓝发鲸鱼女仆。工作链路、任务完成统计（用时/消耗/花费）、睡眠系统、时间感知、余额/天气/喂食按钮、完整设置面板。
+- [nickkkkkk123123/dsh-whale-girl](https://github.com/nickkkkkk123123/dsh-whale-girl) —— 会卖萌、会记账、会弹跳的鲸鱼娘桌宠：实时余额/用量/上下文占用、中键弹弓抛掷、彩蛋气泡、省电模式；安装包 346KB，零新进程。
 - [aaronlei/dsh-width-tiers](https://github.com/aaronlei/dsh-width-tiers) —— 面向 DeepSeek Harness Web GUI 的客户端插件：为聊天内容宽度添加分级（标准/中等/宽/超宽/全宽），右下角悬浮选择按钮，位于输入框上方。
 - [coldfish486/dsh-anime25d-pets](https://github.com/coldfish486/dsh-anime25d-pets) —— Anime2.5DRig × DSH 桌宠：只需准备一张分图层 PSD，即可获得带自动装配、发丝物理、表情动画和状态镜像的桌宠。
 - [dataizu/dsh-whale-aqua-theme](https://github.com/dataizu/dsh-whale-aqua-theme) ——「鲸蓝戏水」macOS theme + swimming whale aquarium background for the DeepSeek Harness Web GUI (dsh-plugin)。
