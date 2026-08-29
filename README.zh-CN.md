@@ -2449,7 +2449,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [fly233338/dsh-overleaf](https://github.com/fly233338/dsh-overleaf) —— 通过 OverleafMCP 与 MCP 工具把 Overleaf 项目接入 DeepSeek Harness (DSH)。
 - [DevViking-Persike/dsh-cliproxy](https://github.com/DevViking-Persike/dsh-cliproxy) —— DeepSeek Harness 插件：将 cliproxy-claude 与 cliproxy-openai 路由到本地 CLIProxyAPI，让 agent 可以使用你自己的 CLI 订阅。
 - [platonai/dsh-browser4](https://github.com/platonai/dsh-browser4) —— Browser4——面向自主 agent、智能提取与大规模网页自动化的 AI-native 浏览器引擎。
-- [platonai/Browser4](https://github.com/platonai/Browser4) —— Browser4 核心引擎仓库：面向自主 agent、智能提取与大规模网页自动化的 AI-native 浏览器引擎，官方文档记载了 DeepSeek Harness 插件集成方式（`dsh plugin --profile web add dsh-browser4`）。
 - [wang-junjian/dsh-github-trending](https://github.com/wang-junjian/dsh-github-trending) —— DeepSeek Harness 插件：GitHub Trending。
 - [Yurzi/dsh-web-search-enhanced](https://github.com/Yurzi/dsh-web-search-enhanced) —— 面向 DeepSeek Harness 的多协议 web_search 提供者插件。
 - [ffyuuu/dsh-llm-longcat](https://github.com/ffyuuu/dsh-llm-longcat) —— 面向 DeepSeek Harness 的 LongCat（LongCat-2.0）模型提供方插件——100 万上下文、思考模式、工具调用。

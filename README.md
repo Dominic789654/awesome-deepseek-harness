@@ -2385,7 +2385,6 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [fly233338/dsh-overleaf](https://github.com/fly233338/dsh-overleaf) — Connect Overleaf projects to DeepSeek Harness (DSH) through OverleafMCP and MCP tools.
 - [DevViking-Persike/dsh-cliproxy](https://github.com/DevViking-Persike/dsh-cliproxy) — DeepSeek Harness plugin: routes cliproxy-claude and cliproxy-openai through a local CLIProxyAPI, so the agent reaches your own CLI subscriptions.
 - [platonai/dsh-browser4](https://github.com/platonai/dsh-browser4) — Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
-- [platonai/Browser4](https://github.com/platonai/Browser4) — Browser4 core engine repo: the AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation, with a documented DeepSeek Harness plugin integration (`dsh plugin --profile web add dsh-browser4`).
 - [wang-junjian/dsh-github-trending](https://github.com/wang-junjian/dsh-github-trending) — DeepSeek Harness plugin: GitHub Trending.
 - [Yurzi/dsh-web-search-enhanced](https://github.com/Yurzi/dsh-web-search-enhanced) — Multi-protocol web_search provider for DeepSeek Harness.
 - [mrpulor-gh/dsh-nuphus-mcp](https://github.com/mrpulor-gh/dsh-nuphus-mcp) — DeepSeek Harness (DSH) plugin: mount the nuphus-mcp desktop automation MCP server as native tools (mcp__nuphus-mcp__*).
