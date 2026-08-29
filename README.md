@@ -1919,6 +1919,7 @@ _Generate presentations, decks, slide exports._
 - [zbc0315/dsh-synomega](https://github.com/zbc0315/dsh-synomega) — Organic reaction prediction for DeepSeek Harness: retrosynthesis, forward prediction, route planning, SynScore, and multi-component evolution — with in-chat molecule, reaction, and route-tree visualisation. Runs entirely locally.
 ## Coding
 
+- [ljc6413/pkg-dev](https://github.com/ljc6413/pkg-dev) — Production-grade agent programming pack for DeepSeek Harness: 27 skill sub-packs (C/C++/Go/Java/TypeScript/Web/Data/Algorithm/Architecture/Design/Git/Network/OS/Performance/Game/BigData + cognitive-reasoning evolution pack), a relation-graph cognitive kernel, automatic skill expansion, token-saving scripts, team-tier licensing, and a live download/payment/telemetry site (zhiyiwei.cn).
 _Code generation, refactoring, review, repo-level engineering plugins._
 
 - [baiyuscc13724-max/dsh-godot-preview](https://github.com/baiyuscc13724-max/dsh-godot-preview) — Independent Godot 4 Web and native preview plugin for DeepSeek Harness.
