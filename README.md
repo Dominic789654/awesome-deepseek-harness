@@ -1662,7 +1662,7 @@ _Bridges DSH into chat platforms and messaging channels._
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
 - [aorucshiea/dsh-plugin-toggle](https://github.com/aorucshiea/dsh-plugin-toggle) — Hot-plug enable/disable switches for installed DSH plugins.
-- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
+- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
 - [dshhub-co/dshhub-market](https://github.com/dshhub-co/dshhub-market) — DeepSeek Harness code-redemption plugin marketplace client: unlock plugins with a code, connecting creators and buyers (powered by DSHHub.co).
 
 _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
@@ -2334,7 +2334,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [Yuanlang3/dsh-netease-music-plugin](https://github.com/Yuanlang3/dsh-netease-music-plugin) — NetEase Cloud Music plugin for DeepSeek Harness.
 - [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) — Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watch its progress in the Web UI sidebar, message it any time, and interrupt it - all through the official subagent seam.
 - [stuarthu/dsh-crew](https://github.com/stuarthu/dsh-crew) — dsh plugin: run work as a small crew of role agents (product manager, engineer, code reviewer) that share work through files on disk.
-- [luolin-boot/ATRI-Core](https://github.com/luolin-boot/ATRI-Core) - A free, self-moving mind in pure Python: autonomy (motive -> choose -> act -> reflect), hands (full device reach, zero holes), forge (review + generate code without vulnerabilities), memory, introspection, evolution. Embeddable, zero dependencies.
+- [luolin-boot/ATRI-Core](https://github.com/luolin-boot/ATRI-Core) — A free, self-moving mind in pure Python: autonomy (motive -> choose -> act -> reflect), hands (full device reach, zero holes), forge (review + generate code without vulnerabilities), memory, introspection, evolution. Embeddable, zero dependencies.
 
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) — Lets an agent operate the desktop directly: screenshots, mouse/keyboard injection, accessibility-tree semantic actions, with emergency stop, allow/deny rules, confirmation flow, and idle standby.
 - [ma-pony/deepspider](https://github.com/ma-pony/deepspider) — Intelligent web-scraping platform: an AI-powered crawler agent built on DeepAgents + Patchright, carrying the `deepseek-harness`/`dsh` GitHub topics.
@@ -2703,7 +2703,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [FlyXingByte/deepseek-harness-macos](https://github.com/FlyXingByte/deepseek-harness-macos) — Unofficial native macOS launcher for DeepSeek Harness — dedicated window, dock icon, and a clean launch experience.
 - [licn9901-arch/deepseek-harness-desktop](https://github.com/licn9901-arch/deepseek-harness-desktop) — Lightweight, self-contained DeepSeek Harness desktop app for Windows. Tauri-based, offline-ready, with plugin market, Skills and MCP.
 - [liang-today/dsh-liangxiang](https://github.com/liang-today/dsh-liangxiang) — Burned DSH tokens become incense; spend one stick to raise or lower today's case.
-- [Laplace-bit/dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) - Piano performance for DeepSeek Harness: the agent plays a requested piece on a Canvas2D grand piano with real Salamander Grand samples, immersive stage visuals, and a playable 88-key keyboard.
+- [Laplace-bit/dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) — Piano performance for DeepSeek Harness: the agent plays a requested piece on a Canvas2D grand piano with real Salamander Grand samples, immersive stage visuals, and a playable 88-key keyboard.
 - [MarecGents/deepseek-harness-hub](https://github.com/MarecGents/deepseek-harness-hub) — Windows desktop framework for DeepSeek Harness (dsh): native Tauri 2.x window running the dsh Web UI, with tray, theme sync, window-state memory, right sidebar, and system notifications.
 - [daetz-coder/DSH-Mobile](https://github.com/daetz-coder/DSH-Mobile) — DSH-Mobile — scan-to-pair Android companion for the official DeepSeek Harness Web UI: status notifications and desktop remote control.
 - [JackFGreen/dsh-plugin-minimal-web](https://github.com/JackFGreen/dsh-plugin-minimal-web) — Independent minimal web plugin for DeepSeek Harness (DSH), with a custom web UI system.
