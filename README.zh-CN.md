@@ -132,7 +132,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [yongshuai0314/dsh-i-have-adhd](https://github.com/yongshuai0314/dsh-i-have-adhd) —— 面向 DeepSeek Harness 的 ADHD 友好输出整形插件：一段系统提示 + adhd_on/adhd_off/adhd_status 工具，跨重启持久化；灵感来自 ayghri/i-have-adhd（MIT）。
 - [jilian-dsh/dsh-rule-engine](https://github.com/jilian-dsh/dsh-rule-engine) —— DSH 规则执行引擎 v3 的插件实现：把 `~/.dsh/AGENTS.md` 当作唯一真相源，自动解析规则四要素与执行等级，再通过工具守卫 + 文本检测 + 时序检查 + 审计台账执行用户规则，规则增删改后无需重写插件。
 - [sakka6868/dsh-prompt-optimize-plugin](https://github.com/sakka6868/dsh-prompt-optimize-plugin) —— DeepSeek Harness 输入栏「提示词优化」插件——一键把模糊的提示词改写成清晰、具体、可执行，像 IDE 里的智能提示一样顺手。
-- [savageops/dsh-rich-context](https://github.com/savageops/dsh-rich-context) —— DSH 的 agent 指令管理工具——编辑和模板化 harness 实际读取的 AGENTS.md 文件（全局 + 每工作区）。
+- [svgop/dsh-rich-context](https://github.com/svgop/dsh-rich-context) —— DSH 的 agent 指令管理工具——编辑和模板化 harness 实际读取的 AGENTS.md 文件（全局 + 每工作区）。
 
 - [alllllllllli/Living-Dream-DSH](https://github.com/alllllllllli/Living-Dream-DSH) —— 完整的 DSH 桌面配置框架：8+ 个 MCP 服务器（computer-use、浏览器、记忆、OCR、视觉、历史、markitdown、os-copilot）、免费模型渠道（AMD Radeon Cloud、DeepSeek v4-flash/v4-pro）、经 Tailscale 的移动端远程、视觉补丁（GLM-4V-Flash → Ollama 回退），以及一键安装器（PowerShell + 离线 120 MB SFX）。MIT。
 - [niyongsheng/meww](https://github.com/niyongsheng/meww) — 像素风 AI 桌宠插件（DSH 动态插件）：一群宝可梦风格的精灵住在你的 Agent 界面右下角，支持对话与每个宠物的持久记忆。
@@ -911,7 +911,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Ayle5678/dsh-auto-guard](https://github.com/Ayle5678/dsh-auto-guard) — 一款DSH (DeepSeek Harness) 插件：类似 Claude Code 中 Auto Mode 的一种命令通过机制，给 dsh中的full access 加一层 LLM 安全网的自动审批插件。
 
 - [chunfenxiazhi-collab/dsh-stability-audit](https://github.com/chunfenxiazhi-collab/dsh-stability-audit) —— 已安装 dsh 插件的稳定性审计：静态风险分级（钩子面/启动任务/inject/入口/依赖区间），可选隔离安装验证。
-- [firestige/execution-system](https://github.com/firestige/execution-system) —— 与宿主无关的 Agent 工作流执行边界：解析并校验确定的工作流包，绑定不可变交付清单，协调交付并发出有界观测。安装：`dsh plugin add wsr-dsh-intake`。
+- [firestige/wsr-execution](https://github.com/firestige/wsr-execution) —— 与宿主无关的 Agent 工作流执行边界：解析并校验确定的工作流包，绑定不可变交付清单，协调交付并发出有界观测。安装：`dsh plugin add wsr-dsh-intake`。
 - [firestige/workflow-self-recursive](https://github.com/firestige/workflow-self-recursive) —— 可审计、版本绑定的 Agent 工作流闭环（Execution / Evidence / Evolution），DSH 入口为 `dsh plugin add wsr-dsh-intake` 插件。
 - [zouyuanqing/dsh-verify-reflux](https://github.com/zouyuanqing/dsh-verify-reflux) —— 面向 DeepSeek Harness 的三面概率验证器：分层 logprob/采样/模板裁判，种子锦标赛 best-of-N，分层上下文回流。
 - [940842546/dsh-permissions](https://github.com/940842546/dsh-permissions) —— DeepSeek Harness（DSH）权限插件。
@@ -3650,7 +3650,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [lansi-ai/dsh-desktop](https://github.com/lansi-ai/dsh-desktop) —— 把 DeepSeek Harness 做成一个真正的桌面应用：Electron 主进程内嵌 Cordis Host（与官方 Web 版同内核、零移植），渲染进程加载官方 Web UI 发行物（file:///自定义协议 + IPC 桥接，不开放 HTTP 端口），所有桌面原生能力（托盘、全局热键、系统通知、剪贴板、开机自启、协议唤起、多窗口）以 host 插件形态注入运行时，与官方「一切皆插件」的架构同构。
 - [mtaech/whale-nest](https://github.com/mtaech/whale-nest) —— 基于 Tauri v2 的 DeepSeek Harness (dsh) 桌面客户端：后台常驻运行 dsh，前端展示其 Web UI。
 - [oil-oil/dsh-theme](https://github.com/oil-oil/dsh-theme) —— 面向 DeepSeek Harness 的实时主题编辑器，提供精选配色方案与字体排版控制。
-- [savageops/dsh-rich-questions](https://github.com/savageops/dsh-rich-questions) —— 面向 DeepSeek Harness (DSH) Web GUI 的富分支问卷系统 —— `ask_survey` 工具支持分支图、延迟悬浮提示、Mermaid 图表、快速模式及重掷/推送/讨论操作。
+- [svgop/dsh-rich-questions](https://github.com/svgop/dsh-rich-questions) —— 面向 DeepSeek Harness (DSH) Web GUI 的富分支问卷系统 —— `ask_survey` 工具支持分支图、延迟悬浮提示、Mermaid 图表、快速模式及重掷/推送/讨论操作。
 - [SuCriss/dsh-leekbox](https://github.com/SuCriss/dsh-leekbox) —— 韭菜盒子 LeekBox — A股看盘助手 · DeepSeek Harness (DSH) web 插件。
 - [sundusk/dsh-yu-pet](https://github.com/sundusk/dsh-yu-pet) —— 小雨（Xiaoyu）· DSH Web GUI 悬浮桌宠插件：精灵图逐帧动画、状态跟随会话活动、拖拽奔跑。
 - [vritser/dsh-emacs](https://github.com/vritser/dsh-emacs) —— 面向 DeepSeek Harness 的 Emacs 客户端。
