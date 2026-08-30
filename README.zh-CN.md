@@ -1297,6 +1297,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Movingtoleveltwo/dsh-revert](https://github.com/Movingtoleveltwo/dsh-revert) —— DeepSeek Harness 现代化对话回退与重试插件：纯 UI 图形交互、原地 Prompt 微调、支持工作区与外部文件双引擎安全恢复。
 - [Yidien/dsh-capture-window](https://github.com/Yidien/dsh-capture-window) —— DeepSeek Harness 旁路捕捉插件：随手丢想法进独立的安静新会话，不打断主线上下文。
 - [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) —— 检测 DSH 服务重启后自动唤醒主 agent —— 对比上次运行时间、人性化播报中断时长，并把提示消息投递回来让中断的工作自动恢复。仅依赖 cordis ctx 服务，兼容 DSH Desktop 打包环境。
+- [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) —— 受大脑启发的认知插件:情景、语义、程序与情绪记忆,带时间触发器的目标栈、好奇心驱动的自主研究与主动提议。
 
 ## 成本与用量统计
 
