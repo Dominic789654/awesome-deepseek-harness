@@ -161,6 +161,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [AnkoCD/dsh-server-deployment](https://github.com/AnkoCD/dsh-server-deployment) — DeepSeek Harness multi-user server deployment: login portal, per-user isolated instances with OS-level isolation, independent API keys, and a delivery-file drawer; file access runs through a privilege-dropping sudo helper (fixes issue #1 TOCTOU). Not a local tool.
 - [BaiLiang-233/dsh-off-peak-schedule-widget](https://github.com/BaiLiang-233/dsh-off-peak-schedule-widget) — Off-peak scheduling plugin for DeepSeek Harness: queues input during peak-price windows into a dormant zone and dispatches it to the target conversation once off-peak pricing kicks in.
 - [dat-lequoc/dsh-kiro](https://github.com/dat-lequoc/dsh-kiro) — Kiro provider for DeepSeek Harness with Builder ID login, live model discovery, and reasoning effort controls.
+- [wjun19/dsh-trae-connect](https://github.com/wjun19/dsh-trae-connect) — Trae subscription model provider for DeepSeek Harness: web OAuth login, custom SSE translation, model allowlist, and a credits dashboard.
 - [everettjf/dsh-ios](https://github.com/everettjf/dsh-ios) — DSH — DeepSeek Harness on iPad & iPhone.
 - [limlnx523/dsh-plus-plus](https://github.com/limlnx523/dsh-plus-plus) — DSH++ — a local-first lifecycle & provider manager for DeepSeek Harness (dsh).
 - [Lunatic029/dsh-clash-proxy](https://github.com/Lunatic029/dsh-clash-proxy) — Route DeepSeek Harness's outbound network through Clash — LLM, web search/fetch and shell commands all use your local Clash proxy.
@@ -1290,6 +1291,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Rottenwooood/dsh-mnemos](https://github.com/Rottenwooood/dsh-mnemos) — Agent-memory plugin for DeepSeek Harness (dsh).
 - [Movingtoleveltwo/dsh-revert](https://github.com/Movingtoleveltwo/dsh-revert) — Modern conversation revert/retry plugin for DeepSeek Harness: pure GUI interaction, in-place prompt tweaking, dual-engine safe recovery across workspace and external files.
 - [Yidien/dsh-capture-window](https://github.com/Yidien/dsh-capture-window) — Bypass-capture plugin for DeepSeek Harness: drop stray ideas into an isolated quiet new session without breaking the main-line context.
+- [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) — Auto-wakes the main agent after a DSH service restart — compares last-run timestamps, posts a recovery notice with humanized downtime, and delivers it so interrupted work picks itself back up. Runs on plain cordis ctx, packaged-DSH-Desktop ready.
 
 ## Cost & Usage Tracking
 
