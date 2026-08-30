@@ -696,6 +696,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [AnkoCD/dsh-server-deployment](https://github.com/AnkoCD/dsh-server-deployment) —— DeepSeek Harness 多用户服务器部署：登录门户 / 每用户独立实例与 OS 级隔离 / 独立 API Key / 交付文件抽屉；文件访问经 sudo 助手降权执行（修复 issue #1 TOCTOU）。非本机工具。
 - [BaiLiang-233/dsh-off-peak-schedule-widget](https://github.com/BaiLiang-233/dsh-off-peak-schedule-widget) —— 价格时段输入队列调度 Harness 插件（dsh-plugin）：高峰拦截输入进休眠区，低谷按队列投递到目标对话。
 - [dat-lequoc/dsh-kiro](https://github.com/dat-lequoc/dsh-kiro) —— DeepSeek Harness 的 Kiro provider：支持 Builder ID 登录、实时模型发现与 reasoning effort 控制。
+- [wjun19/dsh-trae-connect](https://github.com/wjun19/dsh-trae-connect) —— DeepSeek Harness 的 Trae 订阅模型 provider：网页 OAuth 登录、自定义 SSE 协议翻译、模型 allowlist 与积分面板。
 - [everettjf/dsh-ios](https://github.com/everettjf/dsh-ios) —— DSH —— 在 iPad 与 iPhone 上运行 DeepSeek Harness。
 - [limlnx523/dsh-plus-plus](https://github.com/limlnx523/dsh-plus-plus) —— DSH++ —— 面向 DeepSeek Harness (dsh) 的本地优先生命周期与 provider 管理器。
 - [Lunatic029/dsh-clash-proxy](https://github.com/Lunatic029/dsh-clash-proxy) —— 让 DeepSeek Harness 的出站网络（LLM、web 搜索/抓取及 shell 命令）都走本机 Clash 代理。
