@@ -675,6 +675,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [Liu-Bot24/dsh-tunnel-client](https://github.com/Liu-Bot24/dsh-tunnel-client) —— DSH Tunnel：启动本机 DeepSeek Harness（DSH），并通过系统 OpenSSH 安全访问远程 DSH 的跨平台桥接客户端。
 - [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) —— DeepSeek Harness 计划任务插件包。
 - [soarGuo/dsh-auto-vision](https://github.com/soarGuo/dsh-auto-vision) —— 为不支持视觉的 DeepSeek Harness 模型把图片桥接为文本——消息本身保持不变，零人工配置。
+- [Shyboy0499/DeepSeek-Obsidian](https://github.com/Shyboy0499/DeepSeek-Obsidian) —— 面向 Obsidian 库的 DeepSeek 优先终端工具：语义搜索、笔记图谱、标签/链接管理，以及带权限控制的笔记编辑，基于 Textual TUI。
 - [SuperMate-Ai/SuperMate-Harness-System](https://github.com/SuperMate-Ai/SuperMate-Harness-System) —— 给 DeepSeek 装眼睛：一个 DeepSeek Harness（DSH）Skill，接入本地视觉模型或视觉 API，让 DeepSeek 能读图片与图形文件。
 
 - [0231071/llm-as-a-verifier](https://github.com/0231071/llm-as-a-verifier) —— DeepSeek Harness (DSH) 的 LLM-as-a-Verifier 插件：best-of-N 候选并行生成 + 概率枢轴锦标赛（PPT）验证器择优，官方风格设置卡片，lav_status/lav_set 会话工具。
@@ -3627,6 +3628,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [papachong/deepseek-harness-tui](https://github.com/papachong/deepseek-harness-tui) —— 一个面向 deepseek-harness 的独立终端（插件式设计），与官方 deepseek-harness 仓库同步更新，继承官方产品能力。
 - [shawnlone/dsh-theme-tuner](https://github.com/shawnlone/dsh-theme-tuner) —— 面向 DeepSeek Harness 的主题调节插件。
 - [sqfcyily/dsh-workspace-files](https://github.com/sqfcyily/dsh-workspace-files) —— 在 DeepSeek Harness Web GUI 中浏览工作区目录/文件，并结合 Git 显示文件变动。
+- [Shyboy0499/deepseek-bot](https://github.com/Shyboy0499/deepseek-bot) —— Obsidian 内的 DeepSeek 聊天：基于库内笔记作答、引用笔记标签、流式输出，以及一键另存为笔记的侧边栏插件。
 - [dshworks/dshthemes](https://github.com/dshworks/dshthemes) —— dshthemes.com —— 汇集所有 DeepSeek Harness 主题的展示站，一个 dshworks/awesome-dsh-themes 的阅读器。
 - [kaijia323/dsh-sidebar](https://github.com/kaijia323/dsh-sidebar) —— DSH Web Client 的 VSCode 风格文件树侧栏插件：虚拟化懒加载文件树，支持文本 / Markdown / 图片预览。
 - [Lanzgale/dsh-repo-browser](https://github.com/Lanzgale/dsh-repo-browser) —— 面向 DeepSeek Harness 的 Repository Browser 插件：右侧 GitHub 仓库列表，支持本地分组与快捷操作（移动/设为私有/归档）。
