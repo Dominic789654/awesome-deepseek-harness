@@ -1292,6 +1292,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Movingtoleveltwo/dsh-revert](https://github.com/Movingtoleveltwo/dsh-revert) — Modern conversation revert/retry plugin for DeepSeek Harness: pure GUI interaction, in-place prompt tweaking, dual-engine safe recovery across workspace and external files.
 - [Yidien/dsh-capture-window](https://github.com/Yidien/dsh-capture-window) — Bypass-capture plugin for DeepSeek Harness: drop stray ideas into an isolated quiet new session without breaking the main-line context.
 - [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) — Auto-wakes the main agent after a DSH service restart — compares last-run timestamps, posts a recovery notice with humanized downtime, and delivers it so interrupted work picks itself back up. Runs on plain cordis ctx, packaged-DSH-Desktop ready.
+- [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) — Brain-inspired cognitive plugin: episodic, semantic, procedural and emotional memory, goal stack with time triggers, curiosity-driven autonomous research and proactive initiatives.
 
 ## Cost & Usage Tracking
 
