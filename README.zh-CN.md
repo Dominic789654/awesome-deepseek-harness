@@ -805,6 +805,17 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [Mvyvn/dsh-desktop-notify](https://github.com/Mvyvn/dsh-desktop-notify) —— DeepSeek Harness (dsh) 桌面通知插件。
 - [squirrel20/dsh-cron](https://github.com/squirrel20/dsh-cron) —— 面向 DeepSeek Harness (dsh) 的无人值守定时任务插件：按 cron 计划执行 agent/命令任务。
 - [Rycbartbad/dsh-key-manager](https://github.com/Rycbartbad/dsh-key-manager) —— 面向 DeepSeek Harness 的多 API Key 管理：按提供方建池并附注释，真正生效的一键切换。
+- [fly3366/dsh-o11y-plugin](https://github.com/fly3366/dsh-o11y-plugin) —— 面向 deepseek-harness 的插件维度统一可观测方案（trace/log/metric）：注册全局 OTel provider + OTLP 导出，桥接 dsh 会话遥测数据，兼容 GenAI semconv。
+- [hyperion2144/dsh-hashline-edittool](https://github.com/hyperion2144/dsh-hashline-edittool) —— 面向 DeepSeek Harness (dsh) 的哈希锚定式 read/edit/undo_last_edit 工具。
+- [m1khal3v/dsh-tool-codegraph](https://github.com/m1khal3v/dsh-tool-codegraph) —— 面向 DeepSeek Harness 的 CodeGraph 代码导航工具。
+- [N9-Developer-Empowerment/DSH-Vibeify](https://github.com/N9-Developer-Empowerment/DSH-Vibeify) —— 把 AI 工作变成一本持续更新的本地杂志，适用于 DeepSeek Harness。支持 DeepSeek、ChatGPT 或两者并用。
+- [173787247/dsh-wsl-cred](https://github.com/173787247/dsh-wsl-cred) —— DeepSeek Harness 工具：在 WSL 中安全提示 Windows GCM 的 Git 凭据信息。
+- [173787247/dsh-wsl-distro](https://github.com/173787247/dsh-wsl-distro) —— DeepSeek Harness 插件：当前 WSL 发行版信息与多发行版告警。
+- [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) —— DeepSeek Harness 工具：在 WSL 内探测 nvidia-smi / GPU 可见性。
+- [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) —— DeepSeek Harness 工具：从 WSL 启动白名单内的 Windows 应用。
+- [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) —— DeepSeek Harness 工具：从 WSL 发出 Windows MessageBox 通知。
+- [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) —— DeepSeek Harness 工具：转换 WSL Linux 与 Windows 路径，处理 /mnt/c 的踏坑情况。
+- [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) —— DeepSeek Harness 工具：证断 WSL 端口监听与 Windows 本地 localhost 转发问题。
 
 ## 安全与权限
 
@@ -962,6 +973,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [unknowbug/dsh-thinking-loop-guard](https://github.com/unknowbug/dsh-thinking-loop-guard) —— 在回合边界检测并打断 DSH agent 的思考链循环（无需代理）。移植自 ollama-loop-guard。
 - [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) —— 任务合同与完成认证层:八个生命周期 hook 维护不可变需求账本,/compact 或会话恢复后重建有界合同,完成声明必须通过 checkpoint 绑定匹配证据,否则 fail-closed 阻止 Goal 与整任务完成;证据有界脱敏存储。
 - [dengyier/openworkproof-dsh-plugin](https://github.com/dengyier/openworkproof-dsh-plugin) —— 社区 DeepSeek Harness 插件，提供可验证的 AI agent 授权、执行证据与离线交付验证。
+- [rogerdigital/dsh-vet](https://github.com/rogerdigital/dsh-vet) —— 面向 DeepSeek Harness (DSH) 插件的安全尽查：安装前的权限与供应链安全审计，按开放的 dsh-vet/v1 报告标准评分。
 
 ## 会话与记忆管理
 
@@ -1309,6 +1321,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) —— 检测 DSH 服务重启后自动唤醒主 agent —— 对比上次运行时间、人性化播报中断时长，并把提示消息投递回来让中断的工作自动恢复。仅依赖 cordis ctx 服务，兼容 DSH Desktop 打包环境。
 
 - [166767/dsh-error-audit](https://github.com/166767/dsh-error-audit) —— DeepSeek Harness 实时 AI 自审插件：任何报错/警告第一时间连同时间、错误码、会话、用户原话、AI 动作与工作区写入专用日志目录，并主动通知 AI、内建 read_error_logs 工具随时读取。
+- [AndyWipe13/dsh-session-management](https://github.com/AndyWipe13/dsh-session-management) —— 一个管理 DeepSeek Harness 会话的插件，可自由删除旧会话，并支持从其他第三方 Agent（Claude Code、Codex）导入会话。
+- [lovezi0/dsh-memory-palace](https://github.com/lovezi0/dsh-memory-palace) —— 把 WorkBuddy 的文件式记忆系统移植进 DeepSeek Harness —— 为 Harness 提供跨会话持久化、人类可直接编辑的 Markdown 记忆。
 
 ## 成本与用量统计
 
@@ -1541,6 +1555,8 @@ _token 用量、成本看板与预算告警插件。_
 - [Young4ever33/dsh-token-attention](https://github.com/Young4ever33/dsh-token-attention) —— Token Check · 词元管理：DeepSeek Harness (DSH) 的 token 注意力管理面板——按任务/日/周/月记录 token 消耗与费用（命中/未命中/输出/推理），支持 DeepSeek 峰谷计价，并给出换对话、写 hand-off 的执行时机建议。
 - [rayadesune/DeepSeek-Harness-chat-billing](https://github.com/rayadesune/DeepSeek-Harness-chat-billing) —— 类原生计费插件（DeepSeek Harness 聊天计费）。
 - [zhm20001/dsh-usage-board](https://github.com/zhm20001/dsh-usage-board) —— dsh-usage-board 是专为 DSH (DeepSeek Harness) 设计的用量与成本可视化看板插件。插件能实时捕获会话内的 Token 消耗、Step 耗时和异常指标，支持冷启动增量回溯历史全量会话，并按 Sub-agent DAG 调用关系进行树状归集与反向明细穿透。
+- [AiLi1337/dsh-context-length](https://github.com/AiLi1337/dsh-context-length) —— dsh-context-length 是一个 DSH（DeepSeek Harness）设置页插件。它会在设置面板「模型」的正下方新增一个「上下文长度」页面：从已配置的渠道（提供方）中选一个，再选该渠道下的某个模型，填一个上下文窗口数值（支持 131072、256K、1M 等写法），点击「保存」后才会写入 settings.yaml 并立即生效。未配置的内建渠道不会出现在列表里；已自定义的模型会集中展示在页面底部，并支持一键「恢复默认」。整个页面完全走官方设置接口，宿主端始终是唯一事实源，安全且无副作用。
+- [Zhanxueyou/deepseek-balance](https://github.com/Zhanxueyou/deepseek-balance) —— 零依赖 Python CLI 查询 DeepSeek API 余额，低余额自动提醒并发送 macOS 通知；附带 DSH 侧边栏插件，实时展示余额、今日/本月用量与缓存命中率。
 
 ## Channel / IM 桥接
 
@@ -2706,6 +2722,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [luca3xxvsoo/dsh-extra-plan](https://github.com/luca3xxvsoo/dsh-extra-plan) —— 为 DeepSeek Harness agent 工作流新增额外规划模式/层的 dsh 插件。
 - [ddtcorex/dsh-maestro-supervisor](https://github.com/ddtcorex/dsh-maestro-supervisor) —— 面向 DSH Web 高可用性的监控守护进程：自动检测崩溃、回滚至最后已知良好状态（LKG）并上报。
 - [CodermanYHZ/dsh-node-flow](https://github.com/CodermanYHZ/dsh-node-flow) —— 节点式 DSH 工作流画布：编排子代理、代码、条件、循环与定时任务，支持模型路由与 AI 生成指南。
+- [qinglang8609/deepseek_herdr](https://github.com/qinglang8609/deepseek_herdr) —— 多智能体总指挥插件（DeepSeek Harness 原生版） ——让 DeepSeek 高效打开并指挥一个 claude / opencode / codex 智能体团队，实时看到每个智能体在做什么，通过共享记忆与任务看板编排多人协作。
 
 ## UI / 客户端
 
@@ -3776,6 +3793,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [FraYoshi/dsh-ui-models-invert-selection](https://github.com/FraYoshi/dsh-ui-models-invert-selection) —— 在选择模型时为 DeepSeek Harness 提供反选功能。
 - [Minomiao/deepseek-harness-desktop](https://github.com/Minomiao/deepseek-harness-desktop) —— DeepSeek Harness 桌面客户端。
 - [xiaoguomeiyitian/dsh-qr-share](https://github.com/xiaoguomeiyitian/dsh-qr-share) —— DSH web 插件：侧边栏底部二维码按钮，手机扫码即可重新领取当前浏览器已鉴权的启动 URL。
+- [xiaoge200/dsh-desktop](https://github.com/xiaoge200/dsh-desktop) —— 把 DeepSeek Harness（DSH）装进桂面的跨平台应用 —— 下载、双击、开聊。
+- [lhh010/dsh-file-trace](https://github.com/lhh010/dsh-file-trace) —— DSH Web UI 文件追踪插件：记录并查看模型读取/写入/编辑的文件，带行号内容与终端风逐行 diff（红删绿增蓝改）、hunk 上下文折叠、可拖拽高度。适配 DSH dsh-v0.1.2-alpha.1，纯客户端零核心改动。
+- [omdsh-dev/dsh-file-trace](https://github.com/omdsh-dev/dsh-file-trace) —— DSH Web UI 文件追踪插件：记录并查看模型读取/写入/编辑的文件，带行号内容与终端风逐行 diff（红删绿增蓝改）、hunk 上下文折叠、可拖拽高度。适配 DSH dsh-v0.1.2-alpha.1，纯客户端零核心改动。
+- [wjf1/dsh-commandcode](https://github.com/wjf1/dsh-commandcode) —— DSH-Desktop 面向 Command Code 的 LLM provider 插件，带模型目录同步、请求重试、多凭证支持与设置 UI。
 
 ## Skill
 
