@@ -793,6 +793,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [asdf17128/dsh-doctor](https://github.com/asdf17128/dsh-doctor) — Find what your DeepSeek Harness (dsh) patches silently broke — dead patches, config fields dropped by whole-config replacement, unmaintained plugins. Read-only, zero deps.
 - [bruc3van/dsh-doctor](https://github.com/bruc3van/dsh-doctor) — Diagnoses common DeepSeek Harness problems: startup failures, corrupted config, and third-party plugin incompatibilities. Runs fully read-only by default; only applies reversible fixes with `--fix` after showing an exact file/command plan and confirmation.
 - [JimyuAn-98/dsh-console-aio](https://github.com/JimyuAn-98/dsh-console-aio) — All-in-one Windows console for DeepSeek Harness (dsh): SSH tunnel manager, one-click install/update, environment check, session/plugin/profile/usage management. Zero-dependency tkinter GUI.
+- [mengnanxyyyy/dsh-markdown-xyy](https://github.com/mengnanxyyyy/dsh-markdown-xyy) — Markdown theme plugin for DeepSeek Harness (dsh).
+- [Mvyvn/dsh-desktop-notify](https://github.com/Mvyvn/dsh-desktop-notify) — Desktop notification plugin for DeepSeek Harness (dsh).
+- [squirrel20/dsh-cron](https://github.com/squirrel20/dsh-cron) — Unattended scheduled jobs for the DeepSeek Harness (dsh): agent/command tasks on cron schedules.
 
 ## Security & Permissions
 
@@ -1286,6 +1289,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [qwertyuiop314/dsh-workspace-picker-enhance](https://github.com/qwertyuiop314/dsh-workspace-picker-enhance) — Enhanced DSH workspace directory picker plugin.
 - [drscrewdriver/dsh-session-guard](https://github.com/drscrewdriver/dsh-session-guard) — Session-guard plugin for DeepSeek Harness (dsh).
 - [Rottenwooood/dsh-mnemos](https://github.com/Rottenwooood/dsh-mnemos) — Agent-memory plugin for DeepSeek Harness (dsh).
+- [Movingtoleveltwo/dsh-revert](https://github.com/Movingtoleveltwo/dsh-revert) — Modern conversation revert/retry plugin for DeepSeek Harness: pure GUI interaction, in-place prompt tweaking, dual-engine safe recovery across workspace and external files.
+- [Yidien/dsh-capture-window](https://github.com/Yidien/dsh-capture-window) — Bypass-capture plugin for DeepSeek Harness: drop stray ideas into an isolated quiet new session without breaking the main-line context.
 - [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) — Auto-wakes the main agent after a DSH service restart — compares last-run timestamps, posts a recovery notice with humanized downtime, and delivers it so interrupted work picks itself back up. Runs on plain cordis ctx, packaged-DSH-Desktop ready.
 
 ## Cost & Usage Tracking
@@ -1516,6 +1521,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [kober-basket/dsh-cachescope](https://github.com/kober-basket/dsh-cachescope) — Prompt-cache observability and logical-input diagnostics for DeepSeek Harness.
 - [Young4ever33/dsh-token-attention](https://github.com/Young4ever33/dsh-token-attention) — Token Check: a token-attention management panel for DeepSeek Harness (DSH) — tracks token spend and cost by task/day/week/month (hit/miss/output/reasoning), supports DeepSeek peak/off-peak pricing, and suggests when to switch conversations or write a hand-off.
 - [rayadesune/DeepSeek-Harness-chat-billing](https://github.com/rayadesune/DeepSeek-Harness-chat-billing) — Native-look chat billing plugin for DeepSeek Harness.
+- [zhm20001/dsh-usage-board](https://github.com/zhm20001/dsh-usage-board) — Usage and cost visualization dashboard plugin for DSH (DeepSeek Harness): real-time capture of session token consumption, step duration, and anomaly metrics, with cold-start incremental backfill of historical sessions and tree-structured aggregation/drill-down by sub-agent DAG call relationships.
 
 ## Channel / IM Bridges
 
@@ -1784,6 +1790,9 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [dennisrongo/dsh-plugins](https://github.com/dennisrongo/dsh-plugins) — Dennis Rongo's plugin collection for DeepSeek Harness (dsh).
 - [neil-ji/dsh-spark-plugins](https://github.com/neil-ji/dsh-spark-plugins) — Third-party DeepSeek Harness (DSH) plugin monorepo: GitHub/npm connectors, cost-tracking stats, cross-session memory, and a UI component library.
 - [123twtd/dsh-plugin-manager](https://github.com/123twtd/dsh-plugin-manager) — Independent DSH plugin inventory and transactional Profile manager: 7-class conflict engine, snapshot-validate-rollback transactions, layered verification (syntax/config/loader), and a discovery market.
+- [Evhye38496/dsh-perfscope](https://github.com/Evhye38496/dsh-perfscope) — One-click health check & score for your DeepSeek Harness plugins. Scan -> Score -> Fix -> Share.
+- [nowanti/dsh-keeper](https://github.com/nowanti/dsh-keeper) — Safe lifecycle and compatibility manager for DeepSeek Harness.
+- [xiaoxiao44443/dfy-dsh-plugins](https://github.com/xiaoxiao44443/dfy-dsh-plugins) — Personal plugin collection for DeepSeek Harness.
 
 ## Visualization
 
@@ -2203,6 +2212,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [FeatureAgents/AgentsGitFlowController](https://github.com/FeatureAgents/AgentsGitFlowController) — Configurable branch-role GitFlow guard for AI coding agents (Claude Code, Codex, OpenCode, Antigravity, DeepSeek Harness (DSH), Pi): define your own integration/preview/production/archive branches with their own update rules so agents can't skip the flow.
 - [kui123456789/dsh-codex-workflow](https://github.com/kui123456789/dsh-codex-workflow) — DSH plugin that coordinates Codex planning and independent review while DSH executes.
 - [xiaoso456/dsh-run-config](https://github.com/xiaoso456/dsh-run-config) — Run configuration management for DeepSeek Harness (DSH) — IDEA-style run control for the web GUI: reusable LLM prompts and background commands, one click to launch.
+- [Winter-And-You-Gone/dsh-turn-fold](https://github.com/Winter-And-You-Gone/dsh-turn-fold) — Completed-turn folding plugin for DeepSeek Harness.
 
 ## Agents
 
@@ -3966,6 +3976,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [xby-skill/xby-atlas-docs](https://github.com/xby-skill/xby-atlas-docs) — DSH skill for querying Atlas documentation.
 - [Vladimir-Human/humanizer-ru](https://github.com/Vladimir-Human/humanizer-ru) — Agent skill that finds and removes machine-generation traces from Russian text without touching genuine content or adding facts: 56 patterns, 40 regex markers (evidence registry 38/40), a before/after detectability-delta axis with false-positive control, C2PA/EXIF/XMP mark removal, a PyPI package, and an online demo. Ships a DSH-installable bundle (`dsh plugin --profile web add`).
 - [Ansonfishing/dsh-ca-ref](https://github.com/Ansonfishing/dsh-ca-ref) — Clean Architecture reference library for DSH: 8 pinned reference repos with FTS5 search, assertion rules, and a review ledger for architecture reviews.
+- [hellogit2021/avoid-ai-writing-cn](https://github.com/hellogit2021/avoid-ai-writing-cn) — Free Chinese anti-AI-flavor writing skill from the Zhihu "remove AI flavor" community (AI-isms / AI writing / humanize). Say "remove the AI flavor" to trigger a rewrite; say "well written" to auto-learn new AI-flavor terms. Install: `dsh plugin --profile web add github:hellogit2021/avoid-ai-writing-cn`.
+- [wenyixiaoqingnian/screenshot-review](https://github.com/wenyixiaoqingnian/screenshot-review) — DSH skill: screenshot review — the model takes its own screenshot, looks at it, and iterates on front-end code accordingly.
 
 ## Resources
 
