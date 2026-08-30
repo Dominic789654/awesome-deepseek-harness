@@ -1954,7 +1954,6 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 - [baiyuscc13724-max/dsh-godot-preview](https://github.com/baiyuscc13724-max/dsh-godot-preview) —— DeepSeek Harness 的独立 Godot 4 Web 及原生预览插件。
 - [better-er/dsh-classic-coding](https://github.com/better-er/dsh-classic-coding) —— dsh·古法编程插件。
-- [Flan246/dsh-lit-search](https://github.com/Flan246/dsh-lit-search) —— 面向 DeepSeek Harness 及任意 agent 的学术文献检索、引文格式化（GB/T 7714 / APA / BibTeX）与相关文献工具，基于 Crossref + OpenAlex，无需 API Key。支持 `dsh plugin add dsh-lit-search`。
 - [shine-233/dsh-codex](https://github.com/shine-233/dsh-codex) —— 把 openai/codex 能力移植进 DeepSeek Harness (dsh) 的 monorepo：线协议契约、沙箱、策略引擎、会话套件、编辑融合、提示词资产、移植台账与集成装配。
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) —— 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。
 - [ByxHuster/DSH-Paper-Highlighting-Agent](https://github.com/ByxHuster/DSH-Paper-Highlighting-Agent) —— 基于 DeepSeek Harness (DSH) 构建的交互式论文高亮工具，仍在开发中。
@@ -2019,7 +2018,6 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [anoslide/dsh-vscode-layout](https://github.com/anoslide/dsh-vscode-layout) — 把 DeepSeek Harness（dsh）Web 界面改造成 VS Code 式 IDE：三栏布局、文件树、多标签查看器/编辑器、桌面启动器，全部补丁可重放（MIT）。
 - [weinibuliu/deepseek-harness-vsc-extension](https://github.com/weinibuliu/deepseek-harness-vsc-extension) — 将 DeepSeek Harness 作为 VS Code 扩展使用。
 - [chenw2759-wq/dsh-mindmap](https://github.com/chenw2759-wq/dsh-mindmap) — DSH 思维导图模式插件：课件(PPT/PDF/Word)+电子书 → 打印级复习思维导图 HTML（A3 横向、每主干一页、大括号式横向、宋体、右栏笔记区、封面总览 + 交互式测试题）。
-- [Flan246/dsh-latex-guard](https://github.com/Flan246/dsh-latex-guard) —— 面向 DeepSeek Harness 及任意 agent 的 LaTeX 编译检查（自动识别 xelatex/lualatex）与 BibTeX 检查、字段补全、引文审计工具。支持 `dsh plugin add dsh-latex-guard`。
 - [SamFirefly096/dsh-docflow-workflow](https://github.com/SamFirefly096/dsh-docflow-workflow) — DSH 文档工作流：上传/解析/生成/修改 docx·pptx·pdf + 真实文献检索核查（PubMed/Crossref）+ GB/T 7714 引文格式。
 - [TT432/dsh-mcmcp](https://github.com/TT432/dsh-mcmcp) —— omp mcmcp 扩展到 dsh 插件体系的移植：MC 客户端调试驱动，读取项目 `.mcmcp` 启动配置，驱动 clientsmoke mod 内的 AIDebugServer，提供 `mcmcp_*` 工具与同名 runtime skill。
 - [zoahdev/dsh-plugin-template](https://github.com/zoahdev/dsh-plugin-template) —— 简洁且经过验证的 DeepSeek Harness 插件模板：bundle manifest、一个工具、测试与 CI 冒烟加载（dsh 0.1.0-rc.6）。
