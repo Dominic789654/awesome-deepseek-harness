@@ -2489,7 +2489,6 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [alin-ever/dsh-plugin-autoqueue](https://github.com/alin-ever/dsh-plugin-autoqueue) — Unattended task-queue plugin for DeepSeek Harness: drop a `.md` file into an inbox, the AI executes it automatically, and it produces a report.
 - [weibaohui/dsh-continue](https://github.com/weibaohui/dsh-continue) — Auto-continue plugin for DeepSeek Harness — ordered rule table routing by failure type: keep going / switch model / compact then continue / stop.
 - [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) — DeepSeek Harness plugin: Hermes loop — review/curator automation and session-loop management.
-- [weibaohui/scheduled-items](https://github.com/weibaohui/scheduled-items) — DeepSeek Harness plugin: cron scheduled items — scheduled/immediate new-agent-session prompt submission with a full-screen management UI.
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) — DeepSeek Harness plugin: cron scheduled items — scheduled/immediate new-agent-session prompt submission with a full-screen management UI.
 ## MCP Servers
 
