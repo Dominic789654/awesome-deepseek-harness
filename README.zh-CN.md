@@ -1537,7 +1537,6 @@ _token 用量、成本看板与预算告警插件。_
 - [AnakinCao/dsh-cost-meter](https://github.com/AnakinCao/dsh-cost-meter) —— DSH Web GUI 插件：底部状态栏展示 DeepSeek 会话费用估算 + 账户余额（实时官方定价，按会话/按模型计费）。
 - [WSL043/dsh-deepseek-dashboard](https://github.com/WSL043/dsh-deepseek-dashboard) —— 精巧、隐私的 DeepSeek Harness DeepSeek API 现金余额插件。
 - [Phant0Meow/dsh-meow-cachebilling](https://github.com/Phant0Meow/dsh-meow-cachebilling) — 一个能帮你省钱的插件！缓存其实比你想象的贵！换窗口可以省缓存钱，但换窗口有顾虑，或许你懒得重新描述项目和规则，或者你还需要那个上下文。所以这个插件，就是为了告诉你，当前轮，纯粹上下文缓存的部分，到底花了你多少钱。这样你才心里有个底，判断什么时候该换窗口。
-- [statem-li/dsh-usage-skill](https://github.com/statem-li/dsh-usage-skill) — 面向 dsh Web GUI 的 Token 用量分析、供应商余额查询与技能包管理。
 - [xuanfengtechx/dsh-openrouter-provider-advisor](https://github.com/xuanfengtechx/dsh-openrouter-provider-advisor) —— DSH 插件：按成本、速度、上下文与可靠性对 OpenRouter 供应商排名，并切换当前使用的路由。
 - [anonRTtty/dsh-api-balance-displayer-plugin](https://github.com/anonRTtty/dsh-api-balance-displayer-plugin) —— DeepSeek API 余额显示插件，适用于 DeepSeek Harness。
 - [DDA-DIGITAL/dsh-deepseek-peak-indicator](https://github.com/DDA-DIGITAL/dsh-deepseek-peak-indicator) —— 面向 DeepSeek Harness 的 DeepSeek 峰谷计费指示器插件。
@@ -3030,7 +3029,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [xiaoshihou514/dsh-desktop-pet](https://github.com/xiaoshihou514/dsh-desktop-pet) —— DeepSeek Harness：鲸鱼娘桌宠！
 - [Traveritas/petween](https://github.com/Traveritas/petween) —— DeepSeek Harness (dsh) 的 Agent 宠物插件：输入几张姿态图，输出漫画式表情动作 —— WAAPI 时间轴引擎、自定义动画编辑器、姿态预设，并为同伴插件提供扩展服务。
 - [xuender/dsh-history](https://github.com/xuender/dsh-history) —— 在 DSH Web 输入框中用 ↑/↓ 键回想并重新运行当前会话的命令历史。
-- [xydadada/adhd-one](https://github.com/xydadada/adhd-one) —— 面向 DeepSeek Harness 的非官方、固电全套的 Windows 桌面应用。
 - [zprolab/WhaleKit](https://github.com/zprolab/WhaleKit) —— 面向 DeepSeek Harness 定制的 Superpowers。
 - [a903067276-rgb/dsh-file-mentions](https://github.com/a903067276-rgb/dsh-file-mentions) —— 让 DSH 回复中的文件路径可点击：Codex 风格内联打开、文件管理器中显示、被提及文件的芯片列表。零依赖 DSH 网页插件。
 - [Asaiuta/dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) —— 多服务器 DSH 会话聚合与原生操控：一个官方 Web UI 聚合网关，桥接多台远程 DSH 服务器的会话。
@@ -3585,7 +3583,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Pluszzz/dsh-desktop-launcher](https://github.com/Pluszzz/dsh-desktop-launcher) —— deepseek-harness 的桌面快捷启动插件。
 - [songying2024/dsh-bookmarks-dock](https://github.com/songying2024/dsh-bookmarks-dock) —— DeepSeek Harness (DSH) 左侧书签导航栏插件。
 - [Willmylife/dsh-dynamic-wallpaper](https://github.com/Willmylife/dsh-dynamic-wallpaper) —— DSH 动态壁纸插件：6+ 种动态背景（粒子、流星雨等），支持自定义导入，可调透明度/模糊/速度。
-- [Cheerwhy/dsh-chat-anchors](https://github.com/Cheerwhy/dsh-chat-anchors) —— dsh（DeepSeek Harness）网页客户端插件：聊天锚点缩略导航条，视觉风格贴合官方站点——折叠刻度、悬停展开、点击跳转。
 - [smanx/dsh-desktop](https://github.com/smanx/dsh-desktop) —— 轻量的 DeepSeek Harness 桌面端。
 - [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) —— DeepSeek Harness 主题皮肤插件——内置主题 / 静态图片 / 动态 360° 跟随视频背景。
 - [EternalNight996/dsh-ui-three-body](https://github.com/EternalNight996/dsh-ui-three-body) —— 把「人话」翻译给智能体的 DSH 插件。开启后，每一次对话都注入「驯兽师内核」——第一性原理 + 需求剖析 + 极简沟通 + 最少 token，让智能体真正「开智」、更懂人类；左上角悬浮一只萌宠做开关，设置面板里可配置内核档位。

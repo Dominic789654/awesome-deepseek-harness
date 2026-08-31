@@ -1535,7 +1535,6 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [AnakinCao/dsh-cost-meter](https://github.com/AnakinCao/dsh-cost-meter) — DSH Web GUI plugin: DeepSeek session cost estimate + account balance in the bottom status bar (live official pricing, per-session/per-model billing).
 - [WSL043/dsh-deepseek-dashboard](https://github.com/WSL043/dsh-deepseek-dashboard) — Compact, private DeepSeek API cash balance widget for DeepSeek Harness.
 - [Phant0Meow/dsh-meow-cachebilling](https://github.com/Phant0Meow/dsh-meow-cachebilling) — Money-saving cache billing plugin for DeepSeek Harness: shows exactly how much the current turn's pure context-cache portion has cost you, so you know when it's worth switching windows.
-- [statem-li/dsh-usage-skill](https://github.com/statem-li/dsh-usage-skill) — Token usage analytics, provider balances, and skill bundle management for the dsh web GUI.
 - [xuanfengtechx/dsh-openrouter-provider-advisor](https://github.com/xuanfengtechx/dsh-openrouter-provider-advisor) — DSH plugin that ranks OpenRouter providers by cost, speed, context, and reliability, then switches the active route.
 - [anonRTtty/dsh-api-balance-displayer-plugin](https://github.com/anonRTtty/dsh-api-balance-displayer-plugin) — DeepSeek API balance display plugin for DeepSeek Harness.
 - [DDA-DIGITAL/dsh-deepseek-peak-indicator](https://github.com/DDA-DIGITAL/dsh-deepseek-peak-indicator) — DeepSeek peak/off-peak billing indicator plugin for DeepSeek Harness.
@@ -3039,7 +3038,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [xiaoshihou514/dsh-desktop-pet](https://github.com/xiaoshihou514/dsh-desktop-pet) — DeepSeek Harness: a whale-girl desktop pet!
 - [Traveritas/petween](https://github.com/Traveritas/petween) — Agent pet plugin for DeepSeek Harness (dsh): a few pose images in, expressive comic-style motion out — WAAPI timeline engine, custom animation editor, pose presets, and extension services for companion plugins.
 - [xuender/dsh-history](https://github.com/xuender/dsh-history) — Recall and re-run the current session's command history with ↑/↓ keys in the DSH Web composer.
-- [xydadada/adhd-one](https://github.com/xydadada/adhd-one) — An unofficial, batteries-included Windows desktop for DeepSeek Harness.
 - [zprolab/WhaleKit](https://github.com/zprolab/WhaleKit) — Superpowers customized for DeepSeek Harness.
 - [a903067276-rgb/dsh-file-mentions](https://github.com/a903067276-rgb/dsh-file-mentions) — Clickable file paths in DSH replies: Codex-style inline open, a reveal-in-file-manager button, and a mentioned-files chip list. Zero-dependency DSH web plugin.
 - [Asaiuta/dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) — Aggregate and natively control multiple remote DeepSeek Harness (DSH) servers' sessions from one official Web UI — hub gateway + official-UI bridge.
@@ -3588,7 +3586,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Pluszzz/dsh-desktop-launcher](https://github.com/Pluszzz/dsh-desktop-launcher) — Desktop quick-launch plugin for DeepSeek Harness.
 - [songying2024/dsh-bookmarks-dock](https://github.com/songying2024/dsh-bookmarks-dock) — DeepSeek Harness (DSH) left-side bookmark dock plugin.
 - [Willmylife/dsh-dynamic-wallpaper](https://github.com/Willmylife/dsh-dynamic-wallpaper) — DSH dynamic wallpaper plugin: 6+ animated backgrounds (particles, meteor shower, etc.), custom import, opacity/blur/speed controls.
-- [Cheerwhy/dsh-chat-anchors](https://github.com/Cheerwhy/dsh-chat-anchors) — dsh (DeepSeek Harness) web client plugin: chat anchor minimap rail, matching the official site's chat look and feel — collapsed ticks, hover to expand, click to jump.
 - [smanx/dsh-desktop](https://github.com/smanx/dsh-desktop) — Lightweight desktop client for DeepSeek Harness.
 - [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) — DeepSeek Harness theme skin plugin — built-in themes, static images, or dynamic 360°-follow video backgrounds.
 - [EternalNight996/dsh-ui-three-body](https://github.com/EternalNight996/dsh-ui-three-body) — Translates "human speech" for the agent. Once enabled, every conversation is injected with a "beast-tamer kernel" — first-principles thinking, needs analysis, minimal-token concise communication — helping the agent truly "open its mind"; a floating pet icon toggles it, with a settings panel to configure kernel tiers.
