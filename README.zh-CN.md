@@ -144,6 +144,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [runfali/dsh-prompt-injector](https://github.com/runfali/dsh-prompt-injector) —— dsh 通用每轮上下文注入插件：设置页管理提示词清单，每轮对话把每条启用提示词以「上下文注入」提醒行注入模型上下文，让纪律规则（例如 图谱消费/wiki 先查/记忆召回）可靠生效。
 - [zhongjie10086/dsh-adaptive-native](https://github.com/zhongjie10086/dsh-adaptive-native) —— 面向 DeepSeek Harness 的 Windows 原生 Adaptive 预设。
 - [masknull/dsh-session-prompt](https://github.com/masknull/dsh-session-prompt) —— DSH 插件：在每个会话的系统提示词最顶部注入自定义提示词，并可在 Web 设置页即时编辑。
+- [huanghai-lab/dsh-custom-instructions](https://github.com/huanghai-lab/dsh-custom-instructions) —— DSH Web 安全自定义指令管理器：编辑全局 AGENTS.md，支持模板、Markdown 预览、历史恢复、导入导出与并发保护。
 
 ## Harness 与运行时
 
@@ -820,6 +821,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [gao-gao-zai/http-request-dsh-plugin](https://github.com/gao-gao-zai/http-request-dsh-plugin) —— 原生 DSH HTTP 请求插件，带可配置的凭据白名单与使用技能。
 - [Yvesgao/dsh-desktop-launcher](https://github.com/Yvesgao/dsh-desktop-launcher) —— DSH 启动器- 在 DSH 设置页一键创建 Windows 桅面快捷方式，自动打开浏览器、可固定任务栏。
 - [yx222yx/DSH-Feedback-Bridge](https://github.com/yx222yx/DSH-Feedback-Bridge) —— 一个 DeepSeek Harness 插件，帮助用户将功能想法和错误反馈整理为清晰、注重隐私的 GitHub Discussions。
+- [HanyangZZZ/local-agent-stack](https://github.com/HanyangZZZ/local-agent-stack) —— 面向 Ollama、DeepSeek Harness 与本地 AI agent 环境的开源桌面控制面。
 
 ## 安全与权限
 
@@ -981,6 +983,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [0QwQ0/dsh-ui-auth](https://github.com/0QwQ0/dsh-ui-auth) —— DeepSeek Harness Web UI 认证网关插件：登录门禁、用户管理、管理员专属模型/Key 配置、数据隔离。
 - [goldgish/dsh-gamepad-approval](https://github.com/goldgish/dsh-gamepad-approval) —— Xbox 手柄硬件审批插件 for DeepSeek Harness (dsh) —— Agent 高危工具调用需物理按键确认，A 批准 / B 驳回。
 - [PKUfudawei/dsh-capability-menu](https://github.com/PKUfudawei/dsh-capability-menu) —— DeepSeek Harness 的统一能力菜单：通过 Exposed/Progressive/Blocked 三档管理 MCP 工具与 Skill 的暴露级别（上下文占用）与执行模式。
+- [nicecx/dsh-auto-approver](https://github.com/nicecx/dsh-auto-approver) —— 面向 DeepSeek Harness 的可配置自动审批插件：拦截审批请求并按策略（allow-all/allowlist/off + denyAlways）回答 allowed-once/rejected，附完整审计日志。
 
 ## 会话与记忆管理
 
@@ -1335,6 +1338,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Lsc-91-69/dsh-brain-compaction](https://github.com/Lsc-91-69/dsh-brain-compaction) —— 人脑式上下文压缩逻辑，大幅减少长任务上下文占用以及 token 消耗。
 - [PolinniZhong/dsh-session-workbench](https://github.com/PolinniZhong/dsh-session-workbench) —— DeepSeek Harness 会话工作台：会话库（历史会话全文搜甩与召回）+ 会话视图（标签栏显示/隐藏 + 拖拽排序）。
 - [Yvesgao/dsh-env-profile](https://github.com/Yvesgao/dsh-env-profile) —— DSH 全局经验插件：自动探测环境 + 跨会话档案 + 低开销注入，减少重复探测、加快会话、降低 token。
+- [d3vmeh/dsh-logbook](https://github.com/d3vmeh/dsh-logbook) —— DeepSeek Harness 日志本（logbook）插件（dsh-plugin）。
 
 ## 成本与用量统计
 
@@ -2425,6 +2429,10 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [meng-114/dsh-image-tiler](https://github.com/meng-114/dsh-image-tiler) —— DSH 插件：将大图像分割成带标签的 800 像素图块，并保留概览图，同时保留视觉模型所需的细节。包含设置卡。
 - [ZavionWang/dsh-subagent-router](https://github.com/ZavionWang/dsh-subagent-router) —— dsh 子代理 LLM 路由隔离插件：subagent/subagent_fork 走独立 provider/model，防烧主渠道额度。含一键注入(dsr-inject)与验证(dsr-verify)工具。
 - [ZoriaSoft/dsh-subagents](https://github.com/ZoriaSoft/dsh-subagents) —— DeepSeek Harness 的 ZCode 风格自定义子代理：Markdown 定义的角色变成模型可委托的 agent 工具 —— 可固定模型路线或连接外部 CLI（cmdc、pi、claude…），内建管理 UI。
+- [gameswu/dsh-cross-collaboration](https://github.com/gameswu/dsh-cross-collaboration) —— dsh 跨设备 agent 协作插件。
+- [GengDaPeng/dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) —— DeepSeek Harness 跨会话 Agent 通信插件，支持离线投递、送达回执与会话导航。
+- [xi-zhao/OpenQuantum](https://github.com/xi-zhao/OpenQuantum) —— 开源量子 Agent 工作空间：桌面客户端、Web UI、消息、Qiskit/MCP 工具，支持科学验证。
+- [ZhuYanTech/dsh-biomni](https://github.com/ZhuYanTech/dsh-biomni) —— DeepSeek Harness biomni 插件。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -2597,6 +2605,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [kenny2077/dsh-web-search-doubao](https://github.com/kenny2077/dsh-web-search-doubao) —— 面向 DeepSeek Harness 的豆包搜索（Doubao Search）provider。
 - [my-dsh/dsh-web-search-tavily](https://github.com/my-dsh/dsh-web-search-tavily) —— 面向 DeepSeek Harness (dsh) 的 Tavily 网页搜索提供商插件 —— 注册进 ctx.web，使模型面向的 web_search 工具使用 Tavily。
 - [zzy-12345678/dsh-file-convert](https://github.com/zzy-12345678/dsh-file-convert) —— 面向 DeepSeek Harness 的本地优先文件转换：图像、PDF、数据、音频/视频与办公文档。共 7 个工具、26 种转换，无需 API Key，无上传。
+- [morluto/leantoken](https://github.com/morluto/leantoken) —— 面向 agent 的代码智能工具：找到重要代码，保持上下文窗口与 token 精简（DSH MCP server）。
+- [Yuuz12/dsh-tavily](https://github.com/Yuuz12/dsh-tavily) —— 面向 DeepSeek Harness (DSH) 的 Tavily 网页搜索提供商插件 —— 多 key 负载均衡轮换与故障切换，可在 DSH web 设置中管理。
 
 ## 编排器与聚合器
 
@@ -3820,6 +3830,16 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [madearga/dsh-studio](https://github.com/madearga/dsh-studio) —— dsh coding agent 的原生桅面应用 —— Tauri 外壳，带 profile 选择器、监控后台与崩溃诊断。
 - [summer-521/deepseek-harness-swift](https://github.com/summer-521/deepseek-harness-swift) —— 基于 AppKit、SwiftUI 与 WKWebView 的 DSH 原生 macOS 桅面壳，提供设置中心、DSH 版本管理、插件管理、通知和 Sparkle 应用更新。
 - [tieJiangW/deepseek-harness-idea](https://github.com/tieJiangW/deepseek-harness-idea) —— 为DeepSeek Harness开发的Idea插件。
+- [gameswu/dsh-notifacation-frame](https://github.com/gameswu/dsh-notifacation-frame) —— dsh 通知消息统一管理框架。
+- [gameswu/dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) —— dsh 壁纸插件。
+- [gameswu/dsh-plugin-vscode-sidebar](https://github.com/gameswu/dsh-plugin-vscode-sidebar) —— 为 DeepSeek Harness 提供 VS Code 风格和功能的侧栏。
+- [hoobooyoo/deepseek-harness-tui](https://github.com/hoobooyoo/deepseek-harness-tui) —— DeepSeek Harness 终端 TUI 客户端。
+- [Ruiming-cn/dsh-better-at](https://github.com/Ruiming-cn/dsh-better-at) —— 缓存 DSH Web 文件与会话引用索引，用于本地 @ 过滤，同时保留原生的提及插入行为。
+- [sopaco/CLV3000-Plus](https://github.com/sopaco/CLV3000-Plus) —— 唯一懂 agent 工作方式的磁盘清理工具，基于 GPUI，快速且安全（DSH 感知）。
+- [tianhanly/dsh-genshin-redirect](https://github.com/tianhanly/dsh-genshin-redirect) —— 完成任务自动跳转到原神。
+- [tianhanly/dsh-verification-meme](https://github.com/tianhanly/dsh-verification-meme) —— 每按一个 harness 的按键都会跳出一个安全验证。
+- [xiaokaizhou/dsh-media-preview](https://github.com/xiaokaizhou/dsh-media-preview) —— DSH 插件：在聊天记录中自动将本地音视频路径渲染为可播放的预览组件。
+- [yaodongH/dsh-doc-review](https://github.com/yaodongH/dsh-doc-review) —— DeepSeek Harness Web 文档审阅弹窗插件：设计文档与方案审阅以全幅渲染 Markdown 弹窗呈现。
 
 ## Skill
 
