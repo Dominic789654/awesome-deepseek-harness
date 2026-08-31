@@ -3602,6 +3602,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [iyam-x/iyam-dsh-desktop](https://github.com/iyam-x/iyam-dsh-desktop) —— DeepSeek Harness（DSH）的跨平台原生桌面客户端。内置完整 DSH 内核与 Node.js 运行时，无需联网、无需预先安装 Node.js 即可开箱即用，带有系统通知，自定义主题。
 - [Pluszzz/dsh-desktop-launcher](https://github.com/Pluszzz/dsh-desktop-launcher) —— deepseek-harness 的桌面快捷启动插件。
 - [songying2024/dsh-bookmarks-dock](https://github.com/songying2024/dsh-bookmarks-dock) —— DeepSeek Harness (DSH) 左侧书签导航栏插件。
+- [warment/deepseek-harness-locale-ru](https://github.com/warment/deepseek-harness-locale-ru) —— DSH Web UI 的俄语（Русский）语言包：33 个命名空间 / 1061 条字符串（100% 覆盖），通过官方 dsh-client-locale 插件 API 注册；无需刷新即可实时切换语言、正式语域、统一术语表、CI 与上游漂移检查，并经配置层本地化权限预设显示名。MIT。安装：`dsh plugin --profile web add github:warment/deepseek-harness-locale-ru`。
 - [Willmylife/dsh-dynamic-wallpaper](https://github.com/Willmylife/dsh-dynamic-wallpaper) —— DSH 动态壁纸插件：6+ 种动态背景（粒子、流星雨等），支持自定义导入，可调透明度/模糊/速度。
 - [smanx/dsh-desktop](https://github.com/smanx/dsh-desktop) —— 轻量的 DeepSeek Harness 桌面端。
 - [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) —— DeepSeek Harness 主题皮肤插件——内置主题 / 静态图片 / 动态 360° 跟随视频背景。
