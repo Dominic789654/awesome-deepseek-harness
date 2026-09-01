@@ -846,7 +846,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
-- [KeS1Ke/dsh-start-and-exit](https://github.com/KeS1Ke/dsh-start-and-exit) —— 一个专注安全的 DeepSeek Harness Web 插件，提供安全、需确认的宿机退出控制。
+- [KeS1Ke/dsh-start-and-exit](https://github.com/KeS1Ke/dsh-start-and-exit)
+- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 面向 AI 编程 Agent 的提交时治理 harness：24 条确定性规则审查 git diff（密钥、越权改动、盲改、提示注入痕迹），HMAC 链式防篡改审计记录，附 9 插件 DSH 家族。 —— 一个专注安全的 DeepSeek Harness Web 插件，提供安全、需确认的宿机退出控制。
 - [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) —— DeepSeek Harness 的本地注意力管控插件：证据优先的信号、静默提醒与可操作收件箱。
 - [developerdh/dsh-sandbox-allowlist](https://github.com/developerdh/dsh-sandbox-allowlist) —— 为 DSH 默认沙箱增加可配置的「沙箱授权目录」，允许工作区外的受信修改。
 - [HakureiMonika/dsh-sandbox-escalation-fix](https://github.com/HakureiMonika/dsh-sandbox-escalation-fix) —— DeepSeek Harness/DSH 第三方模型会话沙箱升级兼容插件，会话感知的沙箱升级兼容修复。
