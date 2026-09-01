@@ -840,6 +840,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [raomaiping-hash/dsh-self-upgrade](https://github.com/raomaiping-hash/dsh-self-upgrade) — DSH 插件：DeepSeek Harness 原地自升级——官方版本检测、自动备份、升级/回滚、空闲感知自动重启。安装：`dsh plugin --profile web add github:raomaiping-hash/dsh-self-upgrade`。
 - [STARDUSTLC666/dsh-docker](https://github.com/STARDUSTLC666/dsh-docker) — DeepSeek Harness 容器管理插件：docker_ps/images/logs/inspect/exec/manage/health 七工具，官方 subprocess 服务、argv 无 shell 注入、exec 审批门、零运行时依赖。
 - [STARDUSTLC666/dsh-rss](https://github.com/STARDUSTLC666/dsh-rss) — DeepSeek Harness RSS 订阅插件：九工具（订阅管理/校验/抓取解析/跨订阅搜索/增量抓取/OPML 导入导出/健康自检），RSS/Atom 归一化解析，订阅持久化到 settings；纯 Node 全平台。
+- [GoldVelen/DuraSH](https://github.com/GoldVelen/DuraSH) — 一个以可靠性为重心、跟踪最新经验证兼容 upstream 的 DeepSeek Harness 下游发行版。
+- [supersealwqas/dsh-custom-provider-settings](https://github.com/supersealwqas/dsh-custom-provider-settings) — DeepSeek Harness 第三方 API 与自定义模型设置插件：支持请求头、User-Agent、模型列表、图像输入与思考等级。
 
 ## 安全与权限
 
@@ -868,6 +870,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [agentic-control-plane/dsh-acp-plugin](https://github.com/agentic-control-plane/dsh-acp-plugin) —— 工具调用前的 policy-check。
 - [securstack/securstack-dsh-plugin](https://github.com/securstack/securstack-dsh-plugin) —— 仓库安全扫描适配器。
 - [Xinlong-Wu/dsh-auto-review](https://github.com/Xinlong-Wu/dsh-auto-review) —— 为 DeepSeek Harness 添加一个自动审核权限预设，对标 Codex 的自动审核。
+- [rrrrrredy/beforedone](https://github.com/rrrrrredy/beforedone) — 一套证据门与事故回放工具包，要求编程 agent 在声称完成前提交新鲜且与文件绑定的验证证据；DeepSeek Harness 社区 Bundle 评估原生回合轮边界，并可启动一次有界的纠正性继续。
 - [Areium/dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) —— 自动记录工具调用失败原因并沉淀改进建议。
 - [lonelymoon87/dsh-guardian](https://github.com/lonelymoon87/dsh-guardian) —— DeepSeek Harness 的运行时工具策略、危险命令拦截与输出脱敏。
 - [cyzlmh/dsh-cyber-sec](https://github.com/cyzlmh/dsh-cyber-sec) —— 面向 DeepSeek Harness 的授权安全评估 profile：限范围网络工具、容器化 shell、授权护栏、持久证据、21 个安全 skill 与 7 个专家子 agent。
@@ -1377,6 +1380,10 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [chocobo77/dsh-infinite-context](https://github.com/chocobo77/dsh-infinite-context) — DeepSeek Harness 插件：多层记忆管理、语义检索、结构化记忆与模型上下文感知，支持无限上下文。
 - [seriousz158/dsh-memory](https://github.com/seriousz158/dsh-memory) — DeepSeek Harness 记忆插件（dsh-plugin、dsh-bundle）。
 - [xiaoshi7915/dsh-kb-manager](https://github.com/xiaoshi7915/dsh-kb-manager) — DSH 本地知识库插件：多格式导入、智能分块、向量索引、混合检索（BM25 + sqlite-vec + RRF），为 agent 提供长期记忆。
+- [abc12524/dsh-openviking](https://github.com/abc12524/dsh-openviking) — DeepSeek Harness（dsh）的 OpenViking 长期记忆集成插件：宿主侧在每次用户提问后自动检索候选记忆作为背景上下文注入，浏览器侧提供配置卡片，另提供一套 REST `openviking_*` 工具（搜索/读写/Session 归档）；检索是提示而非闸门，失败只记警告不阻塞对话。
+- [leogottadothebest/DSH-Archived-Delete](https://github.com/leogottadothebest/DSH-Archived-Delete) — DSH 插件：在设置界面管理已归档对话——取消归档与永久删除。
+- [rrrrrredy/agent-memory-system](https://github.com/rrrrrredy/agent-memory-system) — Local-first、证据驱动的编程 agent 持续记忆系统：仅追加的 SHA-256 证据链、验证与晋升两级签核、不可变记忆快照集，并提供 DeepSeek Harness 记忆集成适配器。
+- [yxv1203-collab/dsh-conversation-archive](https://github.com/yxv1203-collab/dsh-conversation-archive) — DeepSeek Harness 工作区管理插件，提供原生归档会话管理、安全缓存回收、AI 重要文件保护、本地备份与可追溯的工作区组织。
 
 ## 成本与用量统计
 
@@ -1620,6 +1627,7 @@ _token 用量、成本看板与预算告警插件。_
 - [AnLifeX/dsh-credits](https://github.com/AnLifeX/dsh-credits) — DeepSeek Harness（dsh web）额度插件：跟随当前模型显示官方余额或 OpenCode Go 订阅用量，支持本会话估算、跨会话累计消耗与可视化设置。
 - [162568316/dsh-tokenrhythm-bill](https://github.com/162568316/dsh-tokenrhythm-bill) — DeepSeek Harness（DSH）插件：基元律动模型 / 余额 / 密钥面板 —— 侧栏入口，含模型分类清单、余额与花费图表、密钥管理。
 - [doublemolu/dsh-balance-dock](https://github.com/doublemolu/dsh-balance-dock) — DeepSeek Harness balance dock：余额卡片、按会话统计花费/token、50 元分段进度条、充值按钮、位置守护。
+- [jwilson411/dsh-result-cap](https://github.com/jwilson411/dsh-result-cap) — DeepSeek Harness 插件：确定性工具结果字节上限，并对被截断的尾部进行 SHA-256 摘要。不是一个压缩模型。
 - [linfengyu94/dsh-balance-panel](https://github.com/linfengyu94/dsh-balance-panel) — DeepSeek 充值余额悬浮面板 - DSH 插件：悬浮显示充值余额，带可视化进度条与动态按钮动画。
 - [HOWILLMAKEIT/dsh-model-context-catalog](https://github.com/HOWILLMAKEIT/dsh-model-context-catalog) — DeepSeek Harness 插件：维护 llm-pi-ai 模型的准确上下文窗口，避免长会话被误判为上下文溢出。
 
@@ -2054,6 +2062,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [zuodazuoqiang001/dsh-pet](https://github.com/zuodazuoqiang001/dsh-pet) — DeepSeek Harness 的 Windows 桌面宠物插件：兼容 Codex 的分层浮窗宠物，附插件设置卡片。
 - [Mason-1011/dsh-schematic](https://github.com/Mason-1011/dsh-schematic) — DeepSeek Harness 的实时插件拓扑查看器——已挂载插件的连线图、运行时活动，以及作曲侧的星图视图。纯观察者，不介入。
 - [xusuyang030218/dsh-session-viz](https://github.com/xusuyang030218/dsh-session-viz) — DSH（DeepSeek Harness）会话日志可视化插件：三层渐进式查看器（摘要卡片 / 执行故事线 / 技术事件树），随 harness 启动。
+- [GooDAnDReaDY/dsh-live-canvas](https://github.com/GooDAnDReaDY/dsh-live-canvas) — DeepSeek Harness 的浏览器内交互式画布，实时预览 HTML、React 组件、SVG 与图表，支持 SSE 热重载。
 ## 幻灯片 / PPT
 
 _生成演示文稿、幻灯片、导出 PPT。_
@@ -2070,6 +2079,7 @@ _生成演示文稿、幻灯片、导出 PPT。_
 - [zbc0315/dsh-synomega](https://github.com/zbc0315/dsh-synomega) —— DeepSeek Harness 的有机反应预测插件：逆合成、正向预测、路线规划、SynScore 及多组分演化——支持在对话中可视化分子、反应与路线树，完全本地运行。
 - [yejiming/dsh-ppt](https://github.com/yejiming/dsh-ppt) — DeepSeek Harness 的 PPT 设计预设与可编辑 PPTX 生成工具。
 - [STARDUSTLC666/dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) — DSH 技能插件：一句话生成完整演示文稿（HTML 放映 + PPTX 导出 + manifest），5 套视觉主题，中英双语，零运行时依赖。
+- [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — 让 AI 做 PPT 的副驶，而非自动驶驶。DSH 预设，六步专家工作流，支持双路径触发，SVG 中间态 + PPT-safe 约束。
 ## 写代码
 
 _代码生成、重构、审查、仓库级工程插件。_
@@ -2343,6 +2353,9 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [benz-ai-x/dsh-md-preview](https://github.com/benz-ai-x/dsh-md-preview) — DSH（DeepSeek Harness）Web GUI 插件：在对话旁预览、编辑、浏览工作区 markdown/文本文件——富预览面板、带冲突检测的守护式编辑、惰性加载的工作区文件树。
 - [AuraxM/dsh-plugin-doc-present](https://github.com/AuraxM/dsh-plugin-doc-present) — DeepSeek Harness 方案展示插件：agent 把方案做成自包含 HTML 动态演示页（状态机/时序/曲线/UI 四类动图配方），在 GUI 内嵌面板或浏览器中查看，替代对话框长文。
 - [CaiZongyuan/dsh-react-surface](https://github.com/CaiZongyuan/dsh-react-surface) — 让现有的客户端 React 应用以原生 DeepSeek Harness surface 的形式运行。
+- [FlameTN7/dsh-tui-browser-use](https://github.com/FlameTN7/dsh-tui-browser-use) — dsh-tui 的浏览器自动化桥接子插件。
+- [QuantumKuba/dsh-graphify-plugin](https://github.com/QuantumKuba/dsh-graphify-plugin) — 面向 DeepSeek Harness（DSH）的原生 Graphify 知识图插件：代码智能、“神节点”与拓扑 agent 工具。
+- [STARDUSTLC666/dsh-ffmpeg](https://github.com/STARDUSTLC666/dsh-ffmpeg) — DeepSeek Harness 视频处理插件：九工具（探测/剪辑/拼接/转码/字幕烧录/抽帧/批量抽帧/GIF/健康自检），官方 subprocess 服务、argv 无 shell 注入、零运行时依赖；纯 Node 全平台。
 
 ## Agent
 
@@ -2508,6 +2521,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [Lohaslee/dsh-super-pm](https://github.com/Lohaslee/dsh-super-pm) — 把 Super PM 产品思维技能打包成的 DeepSeek Harness 插件。
 - [YippeeXuXu/dsh-collab-mode](https://github.com/YippeeXuXu/dsh-collab-mode) — DSH 协作模式 preset：双停点确认、版本化状态、候选冻结与独立审查的多 Agent 协作规范。
 - [ytmaps/dsh-subagent-flowtext](https://github.com/ytmaps/dsh-subagent-flowtext) — 注册一个由 Obsidian FlowText Agent Gateway 支撑的远程一次性 DeepSeek Harness SubagentProvider：一次委派创建一个 FlowText 任务，仅通过共享 subagent 结果 API 返回最终答案。
+- [duhu2000/dsh-data-cleaning-agent](https://github.com/duhu2000/dsh-data-cleaning-agent) — 面向 DeepSeek Harness 的数据清洗与企业信息富化 agent 插件。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -2688,6 +2702,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [umbrella22/xuanling](https://github.com/umbrella22/xuanling) — XuanLing MCP：面向编程 agent 的跨平台本地 Model Context Protocol 服务器，通过 stdio 暴露 42 个类型化工具（文件系统、进程执行、项目发现、持久记忆、产物、长会话），并提供 DeepSeek Harness（DSH）集成。
 - [Wlain/deepseek-plugin](https://github.com/Wlain/deepseek-plugin) — DeepSeek Harness 的可灵 AI（Kling AI）远程 MCP 插件。
 - [auggie246/dsh-synthetic-web-search](https://github.com/auggie246/dsh-synthetic-web-search) — 使用 synthetic.new 网页搜索代替 DeepSeek 内置网页搜索的 DeepSeek Harness 插件。
+- [qixin-ai-data/dsh-qixin-insight-mcp-oauth](https://github.com/qixin-ai-data/dsh-qixin-insight-mcp-oauth) — DeepSeek Harness 插件：一键 OAuth 2.1（PKCE）授权，将启信惧眼 MCP 服务端挂载进 harness，让模型直接触达企业工商、股权、司法与风险等智能数据。
 
 ## 编排器与聚合器
 
@@ -3944,6 +3959,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [nabin-qq273274877/dsh-desktop](https://github.com/nabin-qq273274877/dsh-desktop) — DeepSeek Harness Desktop 桌面启动器（Tauri 2 + 内置 Node + 自动更新）。
 - [mrRisega/dsh-remote](https://github.com/mrRisega/dsh-remote) — 从任意手机浏览器远程控制 DeepSeek Harness（dsh web）：隧道模式中继客户端，一条命令安装，支持自托管。
 - [lanmengSakura/diana-dsh-theme](https://github.com/lanmengSakura/diana-dsh-theme) — 嘉然 Diana 的 DSH 日间/暗夜源码覆盖层与最小导入补丁（预发布）。
+- [0x5446/rowel](https://github.com/0x5446/rowel) — DeepSeek Harness（dsh）的原生 iOS 客户端，随时随地用手机回复你的 agent —— relay 自始至终只看到密文。
+- [Astro-Han/pawwork](https://github.com/Astro-Han/pawwork) — PawWork — 基于 DeepSeek Harness（DSH）的开源免费 macOS/Windows 桌面 AI agent，自带免费模型，无需 API key 或终端，内建办公文件、网页搜索与定时自动化。Codex App / Claude Cowork 的开源替代。
+- [darer5/gobuddy](https://github.com/darer5/gobuddy) — GoBuddy — 基于 DeepSeek Harness 的 Electron 桌面助手应用。
+- [svier0/simple-tauri-demo](https://github.com/svier0/simple-tauri-demo) — 基于 simple-tauri 库的 Tauri 2 桌面应用示例。本示例演示了几十行代码快速将 Deepseek-Harness 打包为桌面客户端。安装包附带完整环境，运行程序仅 2.99M，小白一键安装一键启动。
 
 ## Skill
 
@@ -3960,6 +3979,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [guyuefangyuanl/deepseek-better-harness](https://github.com/guyuefangyuanl/deepseek-better-harness) —— 将 Better Harness 的证据链拆分为三个可单独安装的 DeepSeek Harness skill 包，零运行依赖。
 - [JularDepick/dsh-plugin-dev-agent-template](https://github.com/JularDepick/dsh-plugin-dev-agent-template) —— 通用的 dsh 插件开发模板。
 - [ShanHaiFish/Shimmering-dsh-skills](https://github.com/ShanHaiFish/Shimmering-dsh-skills) —— DeepSeek Harness（dsh）agent skill 合集，每个可单独安装。
+- [jwilson411/dsh-plugin-kit](https://github.com/jwilson411/dsh-plugin-kit) — 一个极简、经过测试的 DeepSeek Harness 插件模板。
+- [rrrrrredy/skill-security-guard](https://github.com/rrrrrredy/skill-security-guard) — Agent skill 包静态安全扫描器：确定性 7 维度扫描、A-F 风险评级、安全 zip 扫描、CI 测试规则，并提供一个通过原生 Cordis Skill Provider API 注册同一扫描器的 DeepSeek Harness 社区插件。
 - [FeatherHunter/dsh-chinese-skill-patch](https://github.com/FeatherHunter/dsh-chinese-skill-patch) —— DSH 插件：允许 SKILL.md 使用中文（Unicode 字母）skill 名称，无需改名为 kebab-case。
 - [Andiii208/dsh-ultramath](https://github.com/Andiii208/dsh-ultramath) —— 数学建模竞赛多 Agent 求解技能包：「UltraMath」主控预设一个预设跑通 读题→框架→推导→编码→验算→论文→审稿 全流程，另有 数学家/工程师/作家/审稿人 4 个单阶段角色预设与 33 篇模型库技能文档。
 - [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) —— 数学建模技能：面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流——建模分析、Python/MATLAB 编程与 DOCX 论文生成，内含丰富算法资源库（优化/预测/评价/图论/机器学习等）、角色指导文档、论文模板和实用工具脚本。
