@@ -846,8 +846,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
-- [KeS1Ke/dsh-start-and-exit](https://github.com/KeS1Ke/dsh-start-and-exit)
-- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 面向 AI 编程 Agent 的提交时治理 harness：24 条确定性规则审查 git diff（密钥、越权改动、盲改、提示注入痕迹），HMAC 链式防篡改审计记录，附 9 插件 DSH 家族。 —— 一个专注安全的 DeepSeek Harness Web 插件，提供安全、需确认的宿机退出控制。
+- [KeS1Ke/dsh-start-and-exit](https://github.com/KeS1Ke/dsh-start-and-exit) —— 一个专注安全的 DeepSeek Harness Web 插件，提供安全、需确认的宿机退出控制。
 - [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) —— DeepSeek Harness 的本地注意力管控插件：证据优先的信号、静默提醒与可操作收件箱。
 - [developerdh/dsh-sandbox-allowlist](https://github.com/developerdh/dsh-sandbox-allowlist) —— 为 DSH 默认沙箱增加可配置的「沙箱授权目录」，允许工作区外的受信修改。
 - [HakureiMonika/dsh-sandbox-escalation-fix](https://github.com/HakureiMonika/dsh-sandbox-escalation-fix) —— DeepSeek Harness/DSH 第三方模型会话沙箱升级兼容插件，会话感知的沙箱升级兼容修复。
@@ -2468,7 +2467,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [jing-hy/picturereader](https://github.com/jing-hy/picturereader) — DSH 插件：为纯文本模型提供像素转文本的图片阅读能力。提供 image_scan/image_ocr/image_sample 工具 + 图片阅读技能（基于 34 张图片训练的方法论），纯本地运行，可选 PaddleOCR。
 - [AgentDebugX/AgentDebugX](https://github.com/AgentDebugX/AgentDebugX) —— 面向 agentic AI 系统的调试框架：诊断失败、归因到根本环节、基于证据恢复、并通过重跑验证修复；以 DeepSeek Harness 的 `dsh-agentdebugx` 插件形式发布。
 - [Rtyyy233/dsh-factor-mining-plugin](https://github.com/Rtyyy233/dsh-factor-mining-plugin) —— 面向 DSH 的 agentic 因子挖掘插件，适合像 Qwen 这样的小模型；核心包也可独立使用。
-- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 开源 FDE Agent 与企业 AI 约束层：24 条规则的 git-diff 审计、自动快照回滚、规则注入、自我演化。以 9 个 DeepSeek Harness 插件 + MCP 服务器（66 个工具）形式发布。MIT 许可。
+- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 开源 FDE Harness（企业 AI 约束层）：提交时审计以 24 条确定性规则审查 git diff，HMAC 链式防篡改审计记录、自动快照回滚、规则注入、自我演化。以 GitHub Action、MCP 服务器（79 个工具）与 9 个 DeepSeek Harness 插件形式发布。MIT 许可。
 - [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG) —— 基于DeepSeek-Harness的知识问答，支持自定义模型、上传图片、上传文件等。
 - [aalvsz/dsh-hermes-bridge](https://github.com/aalvsz/dsh-hermes-bridge) —— Literal Hermes Agent → DeepSeek Harness 桥接插件：共享记忆、Skills、实时工具、MCP 与完整 Agent 委托。
 - [gulagala001/dsh-trisoul](https://github.com/gulagala001/dsh-trisoul) —— TriSoul —— 三魂共识 Agent：三个灵魂盲写+匿名互评，三官（对齐/博识/实证）补偿生成，画布式上下文，记忆中枢。DeepSeek Harness 插件套件，一键装/独立端口/一键卸载。
