@@ -3660,6 +3660,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Nkjv2/dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) — A canvas sprite-sheet pet plugin for the DeepSeek Harness web GUI. A dsh bundle + client plugin that renders a pointer-following mascot in the shell.overlay layer. MIT licensed.
 - [sidleo/dsh-desktop](https://github.com/sidleo/dsh-desktop) — DeepSeek Harness desktop shell: opening the app launches the dsh web service and loads the UI; closing it auto-stops the service. Electron desktop shell for DeepSeek Harness (DSH).
 - [zhengjy01/dsh-cubox](https://github.com/zhengjy01/dsh-cubox) — Cubox sync for DeepSeek Harness: scheduled sync of your bookmarks, an AI daily brief generated from your own prompt template straight into Obsidian, and per-card markdown export.
+- [zhengjy01/dsh-qqbot-panel](https://github.com/zhengjy01/dsh-qqbot-panel) — Visual web settings panel for the official @tencent-connect/dsh-qqbot plugin (manage credentials, access modes/allowlists, workspace picker, scan-to-bind). Install: `dsh plugin add github:zhengjy01/dsh-qqbot-panel`.
 - [ChuanTianML/prompt-for-me](https://github.com/ChuanTianML/prompt-for-me) — Automatic ghost suggestions and one-click next-message drafting for the DeepSeek Harness composer.
 - [dickpy/dsh-imagegen](https://github.com/dickpy/dsh-imagegen) — DSH Web GUI AI image-generation plugin: text-to-image & image-to-image via OpenAI-compatible endpoints (gpt-image-2), with shared cross-device history.
 - [DrFly-12/DSH-Desktop](https://github.com/DrFly-12/DSH-Desktop) — DSH desktop shell wrapper.

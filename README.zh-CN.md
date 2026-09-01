@@ -3658,6 +3658,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Nkjv2/dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) —— 面向 DeepSeek Harness web GUI 的 canvas 序列帧桌宠插件：一个 dsh bundle + 客户端插件，在 shell.overlay 层渲染跟随鼠标的看板娘。MIT 协议。
 - [sidleo/dsh-desktop](https://github.com/sidleo/dsh-desktop) —— DeepSeek Harness 桌面壳：打开应用=启动 dsh web 服务并加载界面，关闭应用=自动停止服务。Electron desktop shell for DeepSeek Harness (DSH)。
 - [zhengjy01/dsh-cubox](https://github.com/zhengjy01/dsh-cubox) —— DeepSeek Harness 的 Cubox 收藏同步插件：定时同步收藏，按你的 prompt 用 LLM 生成今日收藏简报直接写入 Obsidian，并可导出每张收藏为 Markdown。
+- [zhengjy01/dsh-qqbot-panel](https://github.com/zhengjy01/dsh-qqbot-panel) —— 为官方 @tencent-connect/dsh-qqbot 提供的可视化配置面板（管理凭据、访问模式与白名单、工作区选择、扫码绑定）。安装：`dsh plugin add github:zhengjy01/dsh-qqbot-panel`。
 - [ChuanTianML/prompt-for-me](https://github.com/ChuanTianML/prompt-for-me) —— 为 DeepSeek Harness 输入框提供自动幽靈建议与一键草拟下一条消息。
 - [dickpy/dsh-imagegen](https://github.com/dickpy/dsh-imagegen) —— DSH Web GUI AI 图像生成插件：通过 OpenAI 兼容接口（gpt-image-2）实现文生图与图生图，支持跨设备共享历史记录。
 - [DrFly-12/DSH-Desktop](https://github.com/DrFly-12/DSH-Desktop) —— DSH 桌面套壳。
