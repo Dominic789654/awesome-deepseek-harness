@@ -4203,6 +4203,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 - [warmsum/deepseek-harness-python-tutorial](https://github.com/warmsum/deepseek-harness-python-tutorial) — DeepSeek Harness (DSH) Python 教程：17 章从零实现 Agent Loop、插件系统、工具调用、Session、上下文工程、Subagent 与 Headless CLI。
 - [awesome-deepseekharness/deepseek-official-tracker](https://github.com/awesome-deepseekharness/deepseek-official-tracker) — DeepSeek 官方动态追踪，覆盖 6 个信息源（API changelog、API news、deepseek.com 博客、GitHub releases、HuggingFace、npm dsh），GitHub Actions 每 6 小时自动更新。
+- [awesome-deepseek-mcp](https://github.com/Shyboy0499/awesome-deepseek-mcp) —— 精选且自动维护的 DeepSeek MCP 服务器与工具清单。
 - [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book) — 《从零开始玩转 DeepSeek Harness》——DeepSeek Harness 实战指南。
 
 ## 贡献指南

@@ -4202,6 +4202,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 
 - [warmsum/deepseek-harness-python-tutorial](https://github.com/warmsum/deepseek-harness-python-tutorial) — DeepSeek Harness (DSH) Python tutorial: a 17-chapter from-scratch implementation of the Agent Loop, plugin system, tool calling, Session, context engineering, Subagent, and Headless CLI.
 - [awesome-deepseekharness/deepseek-official-tracker](https://github.com/awesome-deepseekharness/deepseek-official-tracker) — DeepSeek official tracker across 6 sources (API changelog, API news, deepseek.com blog, GitHub releases, HuggingFace, npm dsh); auto-updated every 6h by GitHub Actions.
+- [awesome-deepseek-mcp](https://github.com/Shyboy0499/awesome-deepseek-mcp) — A curated, auto-maintained list of MCP servers and tools for DeepSeek.
 - [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book) — 《从零开始玩转 DeepSeek Harness》— a practical DeepSeek Harness field guide.
 
 ## Contributing
