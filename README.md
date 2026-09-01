@@ -845,8 +845,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 
 _Permission rules, approval review, security audits, and policy-check plugins._
 
-- [KeS1Ke/dsh-start-and-exit](https://github.com/KeS1Ke/dsh-start-and-exit)
-- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) — Commit-time governance harness for AI coding agents: 24 deterministic audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), HMAC-chained audit history, and a 9-plugin DSH family. — A focused DeepSeek Harness web plugin that adds a safe, confirmed host-exit control.
+- [KeS1Ke/dsh-start-and-exit](https://github.com/KeS1Ke/dsh-start-and-exit) — A focused DeepSeek Harness web plugin that adds a safe, confirmed host-exit control.
 - [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) — Local attention supervision for DeepSeek Harness: evidence-first signals, quiet notifications, and an actionable inbox.
 - [developerdh/dsh-sandbox-allowlist](https://github.com/developerdh/dsh-sandbox-allowlist) — Adds a configurable "sandbox-authorized directory" allowlist to DSH's default sandbox, letting trusted edits happen outside the workspace.
 - [HakureiMonika/dsh-sandbox-escalation-fix](https://github.com/HakureiMonika/dsh-sandbox-escalation-fix) — Session-aware sandbox escalation compatibility plugin for third-party models in DeepSeek Harness/DSH.
@@ -2350,7 +2349,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [hviana/dsh-cli-bridge](https://github.com/hviana/dsh-cli-bridge) — DeepSeek Harness (DSH) plugin that delegates coding tasks to the Claude Code and Codex agent CLIs and streams the whole run live — autonomous control, multi-account, automatic install, git worktrees, and any Anthropic-compatible endpoint.
 - [OpenCnid/deepseek-dovetail](https://github.com/OpenCnid/deepseek-dovetail) — Eight OpenCnid Dovetail agent skills for DeepSeek Harness — packaged as a hardened, reproducible Cordis plugin with evaluation evidence.
 - [JingHao-Leon/dsh-alpha-desk](https://github.com/JingHao-Leon/dsh-alpha-desk) — Alpha Desk — a deepseek-harness (dsh) skill pack that turns an agent session into a compliance-first AI investment desk: multi-strategy fund backtesting via ai-hedge-fund, a tools/pre-execute risk gate, cron monitoring and thesis memory.
-- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) — Open-source FDE Agent & constraint layer for enterprise AI: 24-rule git-diff audit, auto snapshot rollback, rule injection, self-evolution. Ships as 9 DeepSeek Harness plugins + MCP server (66 tools). MIT.
+- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) — Open-source FDE Harness (constraint layer) for enterprise AI: commit-time audit with 24 deterministic rules over git diffs, HMAC-chained audit history, auto snapshot rollback, rule injection, self-evolution. Ships as a GitHub Action, an MCP server (79 tools), and 9 DeepSeek Harness plugins. MIT.
 - [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG) — Knowledge Q&A built on DeepSeek Harness, supporting custom models, image upload, and file upload.
 - [aalvsz/dsh-hermes-bridge](https://github.com/aalvsz/dsh-hermes-bridge) — Literal Hermes Agent → DeepSeek Harness bridge: shared memory, skills, live tools, MCP, and full-agent delegation.
 - [gulagala001/dsh-trisoul](https://github.com/gulagala001/dsh-trisoul) — TriSoul — three-soul consensus agent: three souls blind-write and cross-review anonymously, three overseers (alignment/erudition/verification) compensate and generate, canvas-style context, memory hub. DeepSeek Harness plugin suite, one-click install / independent port / one-click uninstall.
