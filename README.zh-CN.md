@@ -1372,7 +1372,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [nickkkkkk123123/dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) —— 检测 DSH 服务重启后自动唤醒主 agent —— 对比上次运行时间、人性化播报中断时长，并把提示消息投递回来让中断的工作自动恢复。仅依赖 cordis ctx 服务，兼容 DSH Desktop 打包环境。
 
 - [166767/dsh-error-audit](https://github.com/166767/dsh-error-audit) —— DeepSeek Harness 实时 AI 自审插件：任何报错/警告第一时间连同时间、错误码、会话、用户原话、AI 动作与工作区写入专用日志目录，并主动通知 AI、内建 read_error_logs 工具随时读取。
-- [AndyWipe13/dsh-session-management](https://github.com/AndyWipe13/dsh-session-management) —— 一个管理 DeepSeek Harness 会话的插件，可自由删除旧会话，并支持从其他第三方 Agent（Claude Code、Codex）导入会话。
 - [lovezi0/dsh-memory-palace](https://github.com/lovezi0/dsh-memory-palace) —— 把 WorkBuddy 的文件式记忆系统移植进 DeepSeek Harness —— 为 Harness 提供跨会话持久化、人类可直接编辑的 Markdown 记忆。
 - [benz-ai-x/dsh-session-graph](https://github.com/benz-ai-x/dsh-session-graph) —— DeepSeek Harness 的可视化会话图插件 —— 在交互式画布上浏览、排列、分枝、合并与汇总 AI agent 会话。
 - [ErrorLst/dsh-notes](https://github.com/ErrorLst/dsh-notes) —— DeepSeek Harness (dsh) 笔记插件。
@@ -1384,7 +1383,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [JJXjustin/dsh-session-rewind](https://github.com/JJXjustin/dsh-session-rewind) — DSH 会话与文件回溯插件（影子 git 仓库）。
 - [StvLi/dsh-phoenix](https://github.com/StvLi/dsh-phoenix) — DeepSeek Harness（dsh）永不中断、可续跑的生命周期管理：优雅重启 + 客户端自动重连 + 跨重启目标续跑。
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) — DeepSeek Harness 插件：会话同步与冲突解决（apiproxy、token 内联）。
-- [xie-tj/dsh-easy-exit](https://github.com/xie-tj/dsh-easy-exit) — DeepSeek Harness 最新用户消息编辑与重发插件（Host / Client 解耦）。
 - [Choco-Zz/dsh-image-amnesia](https://github.com/Choco-Zz/dsh-image-amnesia) — 在 DeepSeek Harness 转发请求前丢弃历史图片，只对最新一张图片保留原生视觉能力。
 - [rrrrrredy/intent-loop](https://github.com/rrrrrredy/intent-loop) — 面向 Codex 与 DeepSeek Harness 的本地优先、可追溯当前意图状态插件：把需求、猜测、证据、未知项与分歧分开记录，纠正时更新当前视图而不抹去历史。
 - [wangxiang0605qvq/dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — DeepSeek Harness 自动压缩插件：模型工具 compact_now，回合结束后自动压缩上下文。
@@ -2522,7 +2520,6 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG) —— 基于DeepSeek-Harness的知识问答，支持自定义模型、上传图片、上传文件等。
 - [aalvsz/dsh-hermes-bridge](https://github.com/aalvsz/dsh-hermes-bridge) —— Literal Hermes Agent → DeepSeek Harness 桥接插件：共享记忆、Skills、实时工具、MCP 与完整 Agent 委托。
 - [gulagala001/dsh-trisoul](https://github.com/gulagala001/dsh-trisoul) —— TriSoul —— 三魂共识 Agent：三个灵魂盲写+匿名互评，三官（对齐/博识/实证）补偿生成，画布式上下文，记忆中枢。DeepSeek Harness 插件套件，一键装/独立端口/一键卸载。
-- [quantskills/quantskills-dsh-plugin](https://github.com/quantskills/quantskills-dsh-plugin) —— QuantSkills 面向 DSH 的插件——专业级 Skills、Agents、Agent Teams 以及 PandaData 集成。
 - [chen731215-dev/dsh-muv-engine](https://github.com/chen731215-dev/dsh-muv-engine) —— DSH Native MUV Engine 酒馆式伴侣插件：正则脚本执行、变量状态追踪与 iframe 状态栏渲染。
 - [chen731215-dev/dsh-muv-table](https://github.com/chen731215-dev/dsh-muv-table) —— MUV 变量表编辑器，酒馆式 DeepSeek Harness 伴侣插件：面向 UpdateVariable 块的结构化表格编辑。
 - [chen731215-dev/dsh-tavern-v2](https://github.com/chen731215-dev/dsh-tavern-v2) —— DeepSeek Harness 酒馆插件：角色卡扮演、世界书管理、预设切换、暗色主题、记忆摘要与关系图。
@@ -4015,10 +4012,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [VioletScar-Hui/dsh-chat-history](https://github.com/VioletScar-Hui/dsh-chat-history) — 给 DSH 聊天输入框加上 CLI 风格历史记忆：上下键召回之前发送过的内容（纯客户端插件，重启不丢）。
 - [lrplrplrp/dsh-live2d](https://github.com/lrplrplrp/dsh-live2d) — deepseek-harness 对 live2d 的支持。
 - [penglai-doll/LocalWhale](https://github.com/penglai-doll/LocalWhale) — 官方 DeepSeek Harness WebUI 的 Fluent 风格 Windows 11 桌面外壳。
-- [tntcannon5000/edit-chat-dsh](https://github.com/tntcannon5000/edit-chat-dsh) — 从 DSH Web GUI 分叉并重发消息，编辑 DeepSeek Harness 聊天提示词（DSH 0.1.2-alpha.4 插件）。
 - [wszhoho/dsh-file-attachment](https://github.com/wszhoho/dsh-file-attachment) — 拖入 / 粘贴 / 工具栏上传按钮（📎，可多选）为输入框附加文件：图片走既有草稿图片流程（不落盘）；文档全文落盘到会话工作区 `.dsh-file-attachment/` 并插入 @绝对路径引用。
 - [Yancey2023/dsh-fold](https://github.com/Yancey2023/dsh-fold) — 为内容添加简洁灵活的折叠功能，让内容保持紧凑、有序、易于浏览。
-- [Yaron42/DeepSeek-Harness-Desktop](https://github.com/Yaron42/DeepSeek-Harness-Desktop) — 为官方 DeepSeek Harness 打造的 Windows 原生桌面外壳。
 
 ## Skill
 
