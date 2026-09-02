@@ -844,6 +844,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [STARDUSTLC666/dsh-rss](https://github.com/STARDUSTLC666/dsh-rss) — RSS/Atom subscription plugin for DeepSeek Harness: nine tools (subscription management/validation/fetch-and-parse/cross-feed search/incremental fetch/OPML import-export/health check), normalized RSS/Atom parsing, subscriptions persisted to settings; pure Node, cross-platform.
 - [GoldVelen/DuraSH](https://github.com/GoldVelen/DuraSH) — A reliability-focused downstream distribution of DeepSeek Harness that tracks the latest verified-compatible upstream.
 - [supersealwqas/dsh-custom-provider-settings](https://github.com/supersealwqas/dsh-custom-provider-settings) — Third-party API and custom-model settings plugin for DeepSeek Harness: supports custom request headers, User-Agent, model lists, image input, and reasoning-effort levels.
+- [fan56/dsh-llm-proxy](https://github.com/fan56/dsh-llm-proxy) — dsh plugin: per-host LLM outbound HTTP proxy routing (undici ProxyAgent) with a bundled dsh skill.
 
 ## Security & Permissions
 
@@ -1007,6 +1008,9 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [alone-tree/dsh-skill-mcp-manager](https://github.com/alone-tree/dsh-skill-mcp-manager) — One-stop visual management of DSH Skills & MCP: on-demand MCP loading, in-session hot reload, and SKILL/MCP descriptions viewable in the plugin.
 - [STARDUSTLC666/dsh-code-security](https://github.com/STARDUSTLC666/dsh-code-security) — DSH AI code-security review plugin: ten deterministic scanning tools (40+ rules, secret-entropy detection, staged-diff review, SARIF export), baseline acceptance, SBOM-lite dependency manifest, and a health self-check, with zero runtime dependencies.
 - [GDWhisper/dsh-web-startup-auth](https://github.com/GDWhisper/dsh-web-startup-auth) — DeepSeek Harness Remote-Web-Launch plugin with username/password authentication.
+- [fan56/dsh-vault](https://github.com/fan56/dsh-vault) — dsh plugin: encrypted backup / restore / migration of the dsh home config through a private GitHub repo.
+- [Jiao-XXX/dsh-auto-approve](https://github.com/Jiao-XXX/dsh-auto-approve) — An auto-approval permission preset between workspace-write and full access for DeepSeek Harness; dangerous or uncertain operations still route to manual approval.
+- [jmche/dsh-llm-verifier-pro](https://github.com/jmche/dsh-llm-verifier-pro) — LLM-as-a-Verifier plugin for DeepSeek Harness — fine-grained reward tools (verify_compare / verify_select / verify_track) with Probabilistic Pivot Tournament, plus a Best-of-N conversation mode with a web settings panel.
 
 ## Session & Memory Management
 
@@ -1385,6 +1389,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [DDDFXYqiming/dsh-session-recap](https://github.com/DDDFXYqiming/dsh-session-recap) — Session recap plugin for DeepSeek Harness (Claude Code-style away summaries).
 - [kalifun/dsh-cwl](https://github.com/kalifun/dsh-cwl) — Structured context eviction for DeepSeek Harness — deterministic, zero-LLM, no summarization lossiness.
 - [myYangyunfan/dsh_cardian](https://github.com/myYangyunfan/dsh_cardian) — cardian — DeepSeek Harness knowledge-center plugin: RepoWiki notes / flashcards / memory in a local Obsidian vault.
+- [fan56/dsh-llmwiki-memory](https://github.com/fan56/dsh-llmwiki-memory) — dsh plugin: OKF v0.2 topic memory for dsh — local-first git-tracked bundle, hot-path LLM-free injection, two-stage observer with background distill.
+- [Yu-Zhuang1/dsh-workspace-snapshot-fork](https://github.com/Yu-Zhuang1/dsh-workspace-snapshot-fork) — Fork DeepSeek Harness sessions together with their historical workspace state.
 
 ## Cost & Usage Tracking
 
@@ -1765,6 +1771,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [evlon/dsh-matrix-agent](https://github.com/evlon/dsh-matrix-agent) — Matrix bridge plugin for DeepSeek Harness (dsh): bridges Matrix rooms to harness agent sessions (one room per session), supporting remote monitoring, approvals, and follow-up instructions from chat; multi-persona architecture with full media/rich-text/reply/edit handling.
 - [addozhang/dsh-discord](https://github.com/addozhang/dsh-discord) — Discord-first adapter for DeepSeek Harness — sessions, streaming, approvals and controls from a Discord guild.
 - [zyfgood/dsh-feishu-bot](https://github.com/zyfgood/dsh-feishu-bot) — Feishu (Lark) bot for commanding a DeepSeek Harness agent to work.
+- [HiQ-AI/dingtalk-dsh-assistant](https://github.com/HiQ-AI/dingtalk-dsh-assistant) — DingTalk group-chat resident personal assistant plugin built on DeepSeek Harness.
+- [kittcat-lab/dsh-kitt-voice](https://github.com/kittcat-lab/dsh-kitt-voice) — Voice for the DeepSeek Harness: speak to the agent, hear it back, and see what it is doing from a floating window that stays on top of whatever you are running.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -3992,6 +4000,12 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [meyaomiao/dsh-files-native](https://github.com/meyaomiao/dsh-files-native) — DSH plugin: near-native attachment uploads (drag-and-drop / paste / paperclip, mixed image and file display).
 - [runcat-tommy/dsh-chinese-poetry](https://github.com/runcat-tommy/dsh-chinese-poetry) — A token-free Chinese classical poetry plugin for DeepSeek Harness Web: search, filters, Feihua, daily poem, favorites, and AI explain. Powered by the free public chinese-poetry-api.
 - [VioletScar-Hui/dsh-chat-history](https://github.com/VioletScar-Hui/dsh-chat-history) — Adds CLI-style history recall to the DSH chat input box: up/down arrows recall previously sent content (client-only plugin, survives restarts).
+- [lrplrplrp/dsh-live2d](https://github.com/lrplrplrp/dsh-live2d) — Live2D support for DeepSeek Harness.
+- [penglai-doll/LocalWhale](https://github.com/penglai-doll/LocalWhale) — A Fluent Windows 11 desktop shell for the official DeepSeek Harness WebUI.
+- [tntcannon5000/edit-chat-dsh](https://github.com/tntcannon5000/edit-chat-dsh) — Edit DeepSeek Harness chat prompts by branching and resending from the DSH Web GUI (DSH 0.1.2-alpha.4 plugin).
+- [wszhoho/dsh-file-attachment](https://github.com/wszhoho/dsh-file-attachment) — Drag / paste / toolbar-upload button (📎, multi-select) to attach files to the composer: images use the existing draft-image flow (no disk write); documents are written in full to the session workspace's `.dsh-file-attachment/` and inserted as `@absolute-path` references.
+- [Yancey2023/dsh-fold](https://github.com/Yancey2023/dsh-fold) — Adds clean, flexible folding to keep content compact, organized, and easy to navigate.
+- [Yaron42/DeepSeek-Harness-Desktop](https://github.com/Yaron42/DeepSeek-Harness-Desktop) — Native Windows desktop shell for the official DeepSeek Harness.
 
 ## Skills
 
@@ -4239,6 +4253,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) — DeepSeek Harness plugin: skill marketplace — install/delete/detail API plus a management UI.
 - [bychv/dsh-stcardwriter](https://github.com/bychv/dsh-stcardwriter) — SillyTavern character-card, world-book, and preset authoring plugin for DeepSeek Harness, integrating Preset Plus.
 - [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) — Full-lifecycle FastHTML + pywebview desktop-app Agent Skill, also shipped as an installable DeepSeek Harness plugin (`dsh-fasthtml-desktop`): local HTTP + WebView2 + PyInstaller, 20+ reference implementations.
+- [runfali/dsh-skill-curator](https://github.com/runfali/dsh-skill-curator) — Automatic skill-curation plugin for dsh: every N real conversation turns, a background reviewer subagent reads the session summary and proactively distills what's worth keeping into `~/.dsh/skills/<name>/SKILL.md` — porting Hermes's "background-review self-improvement" loop to DSH as a zero-intrusion bundle plugin, no dsh source changes required.
 
 ## Resources
 
