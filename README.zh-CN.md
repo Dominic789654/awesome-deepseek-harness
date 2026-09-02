@@ -1042,6 +1042,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 _跨会话记忆、checkpoint、会话置顶与导航插件。_
 
 - [TsFreddie/dsh-compaction-instant](https://github.com/TsFreddie/dsh-compaction-instant) —— 面向 DeepSeek Harness 的无 LLM、无损（近似）压缩引擎。
+- [hardes11/dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) —— 手动、面向 token 预算的上下文压缩插件：由对话模型圈定要总结的范围，廉价的 flash 级模型路由生成检查点摘要。安装：`dsh plugin add dsh-squeeze-command`（npm）。
 - [warrenop/open-preset-harness](https://github.com/warrenop/open-preset-harness) —— DSH Memory 插件（`dsh-tool-project-memory`）：跨 preset 共享的项目组织记忆——recall、remember、memory_status。
 - [a903067276-rgb/dsh-backup](https://github.com/a903067276-rgb/dsh-backup) —— DSH 会话、配置与自定义目录的自动化备份——定时或手动触发，打包为带轮转的 tgz。
 - [anweat/dsh-context-console](https://github.com/anweat/dsh-context-console) —— 面向 DeepSeek Harness 的完整上下文工作台：会话轨迹砖墙、Prompt/Skill/MCP/Tools 双栏管理、缓存与历史记录、模拟消息注入与 sessionlog 修复。

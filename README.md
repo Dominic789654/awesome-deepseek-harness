@@ -1046,6 +1046,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 
 - [TsFreddie/dsh-compaction-instant](https://github.com/TsFreddie/dsh-compaction-instant) — LLM-free lossless* compaction engine for DeepSeek Harness.
+- [hardes11/dsh-squeeze-command](https://github.com/hardes11/dsh-squeeze-command) — Manual budget-targeted context compression for DeepSeek Harness: the conversation model picks the ranges to summarize and a cheap flash-tier model route writes the checkpoint summaries. Install: `dsh plugin add dsh-squeeze-command` (npm).
 - [warrenop/open-preset-harness](https://github.com/warrenop/open-preset-harness) — DSH memory plugin (`dsh-tool-project-memory`): shared project organizational memory across presets — recall, remember, memory_status.
 - [a903067276-rgb/dsh-backup](https://github.com/a903067276-rgb/dsh-backup) — Automated backups of DSH sessions, config and custom directories — scheduled or manual, packed as tgz with rotation.
 - [anweat/dsh-context-console](https://github.com/anweat/dsh-context-console) — Complete context workbench for DeepSeek Harness: trajectory brick wall, Prompt/Skill/MCP/Tools management, cache history, message forge, and session-log recovery.
