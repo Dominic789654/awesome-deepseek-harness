@@ -2736,6 +2736,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 _Multi-step / multi-agent schedulers and output aggregators._
 
+- [dsh-wps](https://github.com/zhengjy01/dsh-wps) — WPS / 金山文档 cloud-docs integration via the official Kingsoft SkillHub MCP (mcp__wps__* tools).
 - [Walvez/dsh-codex-sync](https://github.com/Walvez/dsh-codex-sync) — One-stop bidirectional sync between OpenAI Codex and DeepSeek Harness (dsh): first-class skills, session import, workspace attach, MCP auto-mirror + Codex-side reverse MCP installer.
 - [omdsh-dev/dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) — Upgrades DSH's one-shot multi-agent dispatch into a workflow layer that can be generated, saved, governed, observed, and resumed (UltraCode-style).  `⭐35`
 - [MistyBridge/dsh-agent-bus](https://github.com/MistyBridge/dsh-agent-bus) — Stop being the messenger. DeepSeek Harness agents in one workspace assign work, review it, and run multi-step DAG workflows on their own.
