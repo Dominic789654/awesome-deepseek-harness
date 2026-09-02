@@ -146,6 +146,8 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [zhongjie10086/dsh-adaptive-native](https://github.com/zhongjie10086/dsh-adaptive-native) —— 面向 DeepSeek Harness 的 Windows 原生 Adaptive 预设。
 - [masknull/dsh-session-prompt](https://github.com/masknull/dsh-session-prompt) —— DSH 插件：在每个会话的系统提示词最顶部注入自定义提示词，并可在 Web 设置页即时编辑。
 - [huanghai-lab/dsh-custom-instructions](https://github.com/huanghai-lab/dsh-custom-instructions) —— DSH Web 安全自定义指令管理器：编辑全局 AGENTS.md，支持模板、Markdown 预览、历史恢复、导入导出与并发保护。
+- [cloga/dsh-github-copilot](https://github.com/cloga/dsh-github-copilot) — 为 DeepSeek Harness 提供一级 GitHub Copilot 模型集成，支持模型发现、推理、视觉以及托管搜索。
+- [ptonlix/dsh-forge](https://github.com/ptonlix/dsh-forge) — 基于 DeepSeek Harness（DSH）构建一个可审计的桌面发行版。
 
 ## Harness 与运行时
 
@@ -1386,6 +1388,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [leogottadothebest/DSH-Archived-Delete](https://github.com/leogottadothebest/DSH-Archived-Delete) — DSH 插件：在设置界面管理已归档对话——取消归档与永久删除。
 - [rrrrrredy/agent-memory-system](https://github.com/rrrrrredy/agent-memory-system) — Local-first、证据驱动的编程 agent 持续记忆系统：仅追加的 SHA-256 证据链、验证与晋升两级签核、不可变记忆快照集，并提供 DeepSeek Harness 记忆集成适配器。
 - [yxv1203-collab/dsh-conversation-archive](https://github.com/yxv1203-collab/dsh-conversation-archive) — DeepSeek Harness 工作区管理插件，提供原生归档会话管理、安全缓存回收、AI 重要文件保护、本地备份与可追溯的工作区组织。
+- [DDDFXYqiming/dsh-session-recap](https://github.com/DDDFXYqiming/dsh-session-recap) — DeepSeek Harness 会话回顾插件（类 Claude Code 的离开期间摘要总结）。
+- [kalifun/dsh-cwl](https://github.com/kalifun/dsh-cwl) — 为 DeepSeek Harness 提供结构化上下文驱逐：确定性、零 LLM 调用、无摘要信息损失。
+- [myYangyunfan/dsh_cardian](https://github.com/myYangyunfan/dsh_cardian) — cardian — DeepSeek Harness 知识中心插件：在本地 Obsidian 仓库中提供 RepoWiki 笔记/闪卡/记忆。
 
 ## 成本与用量统计
 
@@ -1632,6 +1637,7 @@ _token 用量、成本看板与预算告警插件。_
 - [jwilson411/dsh-result-cap](https://github.com/jwilson411/dsh-result-cap) — DeepSeek Harness 插件：确定性工具结果字节上限，并对被截断的尾部进行 SHA-256 摘要。不是一个压缩模型。
 - [linfengyu94/dsh-balance-panel](https://github.com/linfengyu94/dsh-balance-panel) — DeepSeek 充值余额悬浮面板 - DSH 插件：悬浮显示充值余额，带可视化进度条与动态按钮动画。
 - [HOWILLMAKEIT/dsh-model-context-catalog](https://github.com/HOWILLMAKEIT/dsh-model-context-catalog) — DeepSeek Harness 插件：维护 llm-pi-ai 模型的准确上下文窗口，避免长会话被误判为上下文溢出。
+- [kongshan-zhuyu/dsh-balance-quota](https://github.com/kongshan-zhuyu/dsh-balance-quota) — 一款可以配置余额、监测模型监控状态、以及配置模型多模态设置的插件。
 
 ## Channel / IM 桥接
 
@@ -1771,6 +1777,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) —— DeepSeek Harness 小说写作助手插件：章节库、句式分析（9 类/情绪曲线/文风指纹）、文风检查、剧情追踪、批量导入与 AI 续写，带逐工具 Web UI 开关；已发布到 npm 名为 `dsh-novel-writer`。
 - [evlon/dsh-matrix-agent](https://github.com/evlon/dsh-matrix-agent) — DeepSeek Harness（dsh）的 Matrix agent 桥接插件：把 Matrix 房间桥接到 harness agent 会话，每个房间一个会话，支持在聊天里远程监控、审批和追加指令；多分身架构 + 媒体/富文本/回复/编辑信息完整处理。
 - [addozhang/dsh-discord](https://github.com/addozhang/dsh-discord) — Discord 优先适配器：在 Discord 频道中管理 DeepSeek Harness 的会话、流式输出、审批与控制。
+- [zyfgood/dsh-feishu-bot](https://github.com/zyfgood/dsh-feishu-bot) — 飞书机器人指挥 DeepSeek Harness 工作。
 ## 插件市场与生态
 
 _插件市场、安装管理器、索引与生态工具。_
@@ -2066,6 +2073,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [Mason-1011/dsh-schematic](https://github.com/Mason-1011/dsh-schematic) — DeepSeek Harness 的实时插件拓扑查看器——已挂载插件的连线图、运行时活动，以及作曲侧的星图视图。纯观察者，不介入。
 - [xusuyang030218/dsh-session-viz](https://github.com/xusuyang030218/dsh-session-viz) — DSH（DeepSeek Harness）会话日志可视化插件：三层渐进式查看器（摘要卡片 / 执行故事线 / 技术事件树），随 harness 启动。
 - [GooDAnDReaDY/dsh-live-canvas](https://github.com/GooDAnDReaDY/dsh-live-canvas) — DeepSeek Harness 的浏览器内交互式画布，实时预览 HTML、React 组件、SVG 与图表，支持 SSE 热重载。
+- [Stellum-Waq/dsh-pet-ronaldo](https://github.com/Stellum-Waq/dsh-pet-ronaldo) — C罗桌宠 · DeepSeek Harness 桌面宠物插件：葡萄牙 7 号 chibi 吉祥物，随 Agent 状态切换动画，对话完成 SIU 庆祝 + 提示音，支持导入自定义 spritesheet 统一管理。
 ## 幻灯片 / PPT
 
 _生成演示文稿、幻灯片、导出 PPT。_
@@ -2361,6 +2369,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [FlameTN7/dsh-tui-browser-use](https://github.com/FlameTN7/dsh-tui-browser-use) — dsh-tui 的浏览器自动化桥接子插件。
 - [QuantumKuba/dsh-graphify-plugin](https://github.com/QuantumKuba/dsh-graphify-plugin) — 面向 DeepSeek Harness（DSH）的原生 Graphify 知识图插件：代码智能、“神节点”与拓扑 agent 工具。
 - [STARDUSTLC666/dsh-ffmpeg](https://github.com/STARDUSTLC666/dsh-ffmpeg) — DeepSeek Harness 视频处理插件：九工具（探测/剪辑/拼接/转码/字幕烧录/抽帧/批量抽帧/GIF/健康自检），官方 subprocess 服务、argv 无 shell 注入、零运行时依赖；纯 Node 全平台。
+- [guchang/draw2code](https://github.com/guchang/draw2code) — 为 DeepSeek Harness 提供人机协作式原型设计。
 
 ## Agent
 
@@ -2571,6 +2580,8 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [weibaohui/dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑插件 for DeepSeek Harness — 有序规则表：按失败类型路由 继续续跑 / 换模型 / 压缩后继续 / 停止。
 - [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) — DeepSeek Harness 插件：Hermes 循环——review/curator 自动化与会话循环管理。
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) — DeepSeek Harness 插件：cron 定时事项——定时/立即执行新建 agent 会话提交提示词，全屏管理界面。
+- [BitDG/dsh-TableRAG](https://github.com/BitDG/dsh-TableRAG) — DeepSeek Harness 插件，将本地只读 TableRAG 目录暴露为原生工具。
+- [Modellix/dsh-modellix](https://github.com/Modellix/dsh-modellix) — 适配 Modellix Web Search 与 Web Fetch 的 DeepSeek Harness 插件。
 ## MCP Server
 
 _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
@@ -3976,6 +3987,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Astro-Han/pawwork](https://github.com/Astro-Han/pawwork) — PawWork — 基于 DeepSeek Harness（DSH）的开源免费 macOS/Windows 桌面 AI agent，自带免费模型，无需 API key 或终端，内建办公文件、网页搜索与定时自动化。Codex App / Claude Cowork 的开源替代。
 - [darer5/gobuddy](https://github.com/darer5/gobuddy) — GoBuddy — 基于 DeepSeek Harness 的 Electron 桌面助手应用。
 - [svier0/simple-tauri-demo](https://github.com/svier0/simple-tauri-demo) — 基于 simple-tauri 库的 Tauri 2 桌面应用示例。本示例演示了几十行代码快速将 Deepseek-Harness 打包为桌面客户端。安装包附带完整环境，运行程序仅 2.99M，小白一键安装一键启动。
+- [keman-ai/dsh-pocket](https://github.com/keman-ai/dsh-pocket) — 通过手机浏览器观察并操控你的 DSH agent：批准工具调用、发送消息、终止当前回合。
+- [meyaomiao/dsh-files-native](https://github.com/meyaomiao/dsh-files-native) — DSH 插件：接近原生质感的附件上传（拖入/粘贴/回形针，图片与文件混排）。
+- [runcat-tommy/dsh-chinese-poetry](https://github.com/runcat-tommy/dsh-chinese-poetry) — 面向 DeepSeek Harness Web 的免 token 中国古典诗词插件：搜索、筛选、飞花令、每日一诗、收藏与 AI 讲解，基于免费公开的 chinese-poetry-api。
+- [VioletScar-Hui/dsh-chat-history](https://github.com/VioletScar-Hui/dsh-chat-history) — 给 DSH 聊天输入框加上 CLI 风格历史记忆：上下键召回之前发送过的内容（纯客户端插件，重启不丢）。
 
 ## Skill
 
