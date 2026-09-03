@@ -2758,6 +2758,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 _多步 / 多 agent 调度器与输出聚合器。_
 
+- [zhengjy01/dsh-wps](https://github.com/zhengjy01/dsh-wps) —— WPS / 金山文档云文档集成插件：官方 SkillHub MCP，自定义浏览器授权，云盘操作 + 文字/表格/演示/PDF 内容读写（mcp__wps__*）。
 - [Walvez/dsh-codex-sync](https://github.com/Walvez/dsh-codex-sync) —— OpenAI Codex 与 DeepSeek Harness (dsh) 之间的一站式双向同步：一等公民 skills、会话导入、工作区挂接、MCP 自动镜像，以及 Codex 侧反向 MCP 安装器。
 - [omdsh-dev/dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) —— 把 DSH 的一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层（UltraCode 风格）。  `⭐35`
 - [MistyBridge/dsh-agent-bus](https://github.com/MistyBridge/dsh-agent-bus) —— 不再当传话筒。同一工作区中的 DeepSeek Harness agent 可自行分配任务、相互审核，并运行多步 DAG 工作流。
