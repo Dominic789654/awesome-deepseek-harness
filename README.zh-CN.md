@@ -1414,6 +1414,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [myYangyunfan/dsh_cardian](https://github.com/myYangyunfan/dsh_cardian) — cardian — DeepSeek Harness 知识中心插件：在本地 Obsidian 仓库中提供 RepoWiki 笔记/闪卡/记忆。
 - [fan56/dsh-llmwiki-memory](https://github.com/fan56/dsh-llmwiki-memory) — dsh 插件：为 dsh 提供 OKF v0.2 主题记忆——本地优先、git 跟踪的记忆包，热路径无 LLM 注入，配合后台蒸馏的两阶段观察者。
 - [Yu-Zhuang1/dsh-workspace-snapshot-fork](https://github.com/Yu-Zhuang1/dsh-workspace-snapshot-fork) — 连同历史工作区状态一起 fork DeepSeek Harness 会话。
+- [PerryLink/dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) —— 个人指令：系统提示词注入、工具与顶部运行时开关。
 
 ## 成本与用量统计
 
@@ -4036,6 +4037,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [penglai-doll/LocalWhale](https://github.com/penglai-doll/LocalWhale) — 官方 DeepSeek Harness WebUI 的 Fluent 风格 Windows 11 桌面外壳。
 - [wszhoho/dsh-file-attachment](https://github.com/wszhoho/dsh-file-attachment) — 拖入 / 粘贴 / 工具栏上传按钮（📎，可多选）为输入框附加文件：图片走既有草稿图片流程（不落盘）；文档全文落盘到会话工作区 `.dsh-file-attachment/` 并插入 @绝对路径引用。
 - [Yancey2023/dsh-fold](https://github.com/Yancey2023/dsh-fold) — 为内容添加简洁灵活的折叠功能，让内容保持紧凑、有序、易于浏览。
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) —— Web 编辑器终端式输入历史：方向键回溯、Ctrl+R 反查、按工作区隔离。
 
 ## Skill
 
@@ -4313,6 +4315,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [warmsum/deepseek-harness-python-tutorial](https://github.com/warmsum/deepseek-harness-python-tutorial) — DeepSeek Harness (DSH) Python 教程：17 章从零实现 Agent Loop、插件系统、工具调用、Session、上下文工程、Subagent 与 Headless CLI。
 - [awesome-deepseekharness/deepseek-official-tracker](https://github.com/awesome-deepseekharness/deepseek-official-tracker) — DeepSeek 官方动态追踪，覆盖 6 个信息源（API changelog、API news、deepseek.com 博客、GitHub releases、HuggingFace、npm dsh），GitHub Actions 每 6 小时自动更新。
 - [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book) — 《从零开始玩转 DeepSeek Harness》——DeepSeek Harness 实战指南。
+- [PerryLink/dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) —— DSH 插件开发知识库与 dsh-plugin-dev CLI 工具链。
 
 ## 贡献指南
 

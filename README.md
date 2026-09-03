@@ -1408,6 +1408,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [myYangyunfan/dsh_cardian](https://github.com/myYangyunfan/dsh_cardian) — cardian — DeepSeek Harness knowledge-center plugin: RepoWiki notes / flashcards / memory in a local Obsidian vault.
 - [fan56/dsh-llmwiki-memory](https://github.com/fan56/dsh-llmwiki-memory) — dsh plugin: OKF v0.2 topic memory for dsh — local-first git-tracked bundle, hot-path LLM-free injection, two-stage observer with background distill.
 - [Yu-Zhuang1/dsh-workspace-snapshot-fork](https://github.com/Yu-Zhuang1/dsh-workspace-snapshot-fork) — Fork DeepSeek Harness sessions together with their historical workspace state.
+- [PerryLink/dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) — Personal directives: system-prompt injection, tools, and a top-bar runtime toggle.
 
 ## Cost & Usage Tracking
 
@@ -4037,6 +4038,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [penglai-doll/LocalWhale](https://github.com/penglai-doll/LocalWhale) — A Fluent Windows 11 desktop shell for the official DeepSeek Harness WebUI.
 - [wszhoho/dsh-file-attachment](https://github.com/wszhoho/dsh-file-attachment) — Drag / paste / toolbar-upload button (📎, multi-select) to attach files to the composer: images use the existing draft-image flow (no disk write); documents are written in full to the session workspace's `.dsh-file-attachment/` and inserted as `@absolute-path` references.
 - [Yancey2023/dsh-fold](https://github.com/Yancey2023/dsh-fold) — Adds clean, flexible folding to keep content compact, organized, and easy to navigate.
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) — Terminal-style input history for the web composer: arrow recall, Ctrl+R reverse search, workspace-scoped.
 
 ## Skills
 
@@ -4312,6 +4314,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [warmsum/deepseek-harness-python-tutorial](https://github.com/warmsum/deepseek-harness-python-tutorial) — DeepSeek Harness (DSH) Python tutorial: a 17-chapter from-scratch implementation of the Agent Loop, plugin system, tool calling, Session, context engineering, Subagent, and Headless CLI.
 - [awesome-deepseekharness/deepseek-official-tracker](https://github.com/awesome-deepseekharness/deepseek-official-tracker) — DeepSeek official tracker across 6 sources (API changelog, API news, deepseek.com blog, GitHub releases, HuggingFace, npm dsh); auto-updated every 6h by GitHub Actions.
 - [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book) — 《从零开始玩转 DeepSeek Harness》— a practical DeepSeek Harness field guide.
+- [PerryLink/dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) — DSH plugin development knowledge base plus the dsh-plugin-dev CLI toolchain.
 
 ## Contributing
 
