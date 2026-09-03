@@ -2412,7 +2412,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
-- [MajidAsghariTabrizi/universal-engineering-agent](https://github.com/MajidAsghariTabrizi/universal-engineering-agent) — Profile-agnostic, runnable, MIT reference implementation of the UEA 9-stage operating-kernel contract for coding agents. Zero deps, 31 self-tests.
+- [MajidAsghariTabrizi/universal-engineering-agent](https://github.com/MajidAsghariTabrizi/universal-engineering-agent) — Profile-agnostic, runnable implementation of the UEA 9-stage operating-kernel contract for coding agents (MIT).
 - [1339190177/dsh-consult](https://github.com/1339190177/dsh-consult) — Cross-provider second opinions for DeepSeek Harness (dsh): consult tool, OpenAI-compatible endpoint, DSH_MODEL rerouting, scout (web-search investigation), structured output, upstream transparency, JSONL audit. Distinct from btspoony/dsh-advisor (passive per-turn review).
 - [peterwangze/dsh-agent-router](https://github.com/peterwangze/dsh-agent-router) — Multi-model routing plugin for DeepSeek Harness: bind custom vision/translation/voice/subagent specialist agents to independent models, one-click multimodal account login, account-pool health routing, and real-time usage stats.
 - [daydreamer0213/Tian-wen](https://github.com/daydreamer0213/Tian-wen) — An auditable learning control plane for long-running agents, built on DSH.
