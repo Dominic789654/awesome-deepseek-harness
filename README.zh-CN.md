@@ -851,6 +851,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [NinjaSln-labs/dsh-imgdraw](https://github.com/NinjaSln-labs/dsh-imgdraw) — DeepSeek Harness 文生图插件：`draw_image` 模型工具 + 输入框生图按钮（异步生成/4 格网格/下载保留删除）+ `/imgdraw` 路由 + 持久化历史。
 - [opdsh/unity-plugin](https://github.com/opdsh/unity-plugin) — DeepSeek Harness 插件：通过 unity CLI 控制 Unity Editor。
 - [wenbuer/opc-web-dsh](https://github.com/wenbuer/opc-web-dsh) — OPC（一人公司）智能体协同工作台，多 agent 协助核心由 DeepSeek Harness 打造实现。
+- [yyxcnasd/amadeus-for-dsh](https://github.com/yyxcnasd/amadeus-for-dsh) — 为 DeepSeek Harness 打造的 Amadeus（《命运石之门 0》AI 助手）人设插件。
 
 ## 安全与权限
 
@@ -1027,6 +1028,16 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [fan56/dsh-vault](https://github.com/fan56/dsh-vault) — dsh 插件：通过私有 GitHub 仓库对 dsh home 配置进行加密备份 / 还原 / 迁移。
 - [Jiao-XXX/dsh-auto-approve](https://github.com/Jiao-XXX/dsh-auto-approve) — 为 DeepSeek Harness 增加介于 Workspace Write 与 Full access 之间的自动批准权限档，危险或不确定操作仍转人工审批。
 - [jmche/dsh-llm-verifier-pro](https://github.com/jmche/dsh-llm-verifier-pro) — DeepSeek Harness 的 LLM-as-a-Verifier 插件——细粒度奖励工具（verify_compare / verify_select / verify_track），配合 Probabilistic Pivot Tournament，以及带 Web 设置面板的 Best-of-N 对话模式。
+- [ankye/dsh-client-vision](https://github.com/ankye/dsh-client-vision) — 为 DeepSeek Harness 智能体装上眼睛：截屏（或指定任意图片）后通过可插拔通道交给具备视觉能力的模型识别，再以纯文本形式返回——不需要多模态模型。
+- [ankye/dsh-image-generation](https://github.com/ankye/dsh-image-generation) — DeepSeek Harness 文生图插件：智能体用文本描述图像，由设置中选定的生成通道通过可插拔后端生成，文件路径写入磁盘——全过程在模型外完成，不需要具备图像能力的模型。
+- [astra3294/dsh-doctor](https://github.com/astra3294/dsh-doctor) — 为 DeepSeek Harness 提供确定性的诊断与恢复能力。
+- [caomengxuan666/dsh-winuxsh](https://github.com/caomengxuan666/dsh-winuxsh) — 为 DeepSeek Harness 打造的 Winuxsh 运行时/沙箱/profile 整合包以及 Web UI 插件。
+- [huhaodong/dsh-auto-driving](https://github.com/huhaodong/dsh-auto-driving) — 让 DeepSeek Harness 智能体进入自动驶驶：模型故障自动回退、静默卡死自动保活重试、权限/提问/方案审批自动放行，AUTO-MODE.md 全程审计——无人值守、永不停摆的自愈式 AI 编码会话。
+- [jiesou/dsh-commandcode-go-provider](https://github.com/jiesou/dsh-commandcode-go-provider) — dsh 的 Command Code Go API provider。Command Code 订阅 + DeepSeek Harness 兼容层。
+- [jiesou/dsh-opencode-zen-free-provider](https://github.com/jiesou/dsh-opencode-zen-free-provider) — OpenCode Zen 免费模型接入 DeepSeek Harness。1M 上下文，同步全部元数据。
+- [mkiea/dsh-forge](https://github.com/mkiea/dsh-forge) — DeepSeek Harness 插件（dsh-plugin）。
+- [taoshi1999/dsh-workspace-hygiene](https://github.com/taoshi1999/dsh-workspace-hygiene) — 面向 agent 工作区卫生的 DeepSeek Harness 插件：产物价值评估、元数据索引与可审计清理。
+- [xxww0098/dsh-plugin-oauth-subs](https://github.com/xxww0098/dsh-plugin-oauth-subs) — 为 DeepSeek Harness 提供 ChatGPT Codex 与 xAI Grok 订阅 OAuth——PKCE / 设备码登录、本地 Responses 代理、llm-pi-ai 同步。
 
 ## 会话与记忆管理
 
@@ -1415,6 +1426,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [fan56/dsh-llmwiki-memory](https://github.com/fan56/dsh-llmwiki-memory) — dsh 插件：为 dsh 提供 OKF v0.2 主题记忆——本地优先、git 跟踪的记忆包，热路径无 LLM 注入，配合后台蒸馏的两阶段观察者。
 - [Yu-Zhuang1/dsh-workspace-snapshot-fork](https://github.com/Yu-Zhuang1/dsh-workspace-snapshot-fork) — 连同历史工作区状态一起 fork DeepSeek Harness 会话。
 - [PerryLink/dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) —— 个人指令：系统提示词注入、工具与顶部运行时开关。
+- [bbqisbbq/dsh-tiddlywiki](https://github.com/bbqisbbq/dsh-tiddlywiki) — 基于 TiddlyWiki 的 DeepSeek Harness 知识库/笔记插件，支持 git 同步。
+- [fan56/dsh-topics-memory](https://github.com/fan56/dsh-topics-memory) — 为 dsh 提供 OKF v0.2 主题记忆——本地优先、git 跟踪的记忆包，热路径无 LLM 注入，配合后台蒸馏的两阶段观察者。
 
 ## 成本与用量统计
 
@@ -2123,6 +2136,9 @@ _生成演示文稿、幻灯片、导出 PPT。_
 - [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — 让 AI 做 PPT 的副驶，而非自动驶驶。DSH 预设，六步专家工作流，支持双路径触发，SVG 中间态 + PPT-safe 约束。
 ## 写代码
 
+- [enoughpower/dsh-git-graph](https://github.com/enoughpower/dsh-git-graph) — 为 DeepSeek Harness 打造的 Git 图形化插件（dsh-plugin）。
+- [jo32/dsh-strudel-studio](https://github.com/jo32/dsh-strudel-studio) — 面向 DeepDeck 的专业级歌曲级 Strudel 可视化序列器，带结构化 AI 编排能力。
+
 _代码生成、重构、审查、仓库级工程插件。_
 
 - [GooDAnDReaDY/dsh-gitea](https://github.com/GooDAnDReaDY/dsh-gitea) —— 面向 DeepSeek Harness 的 Gitea/Forgejo 工具集：issue、PR、CI、release、运维操作。
@@ -2567,6 +2583,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [YippeeXuXu/dsh-collab-mode](https://github.com/YippeeXuXu/dsh-collab-mode) — DSH 协作模式 preset：双停点确认、版本化状态、候选冻结与独立审查的多 Agent 协作规范。
 - [ytmaps/dsh-subagent-flowtext](https://github.com/ytmaps/dsh-subagent-flowtext) — 注册一个由 Obsidian FlowText Agent Gateway 支撑的远程一次性 DeepSeek Harness SubagentProvider：一次委派创建一个 FlowText 任务，仅通过共享 subagent 结果 API 返回最终答案。
 - [duhu2000/dsh-data-cleaning-agent](https://github.com/duhu2000/dsh-data-cleaning-agent) — 面向 DeepSeek Harness 的数据清洗与企业信息富化 agent 插件。
+- [tangivis/quant-trade-agent-tools](https://github.com/tangivis/quant-trade-agent-tools) — 面向量化交易分析的厂商中立智能平面，提供 REST、MCP、CLI、pi 以及实验性的 dsh 适配层。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -2754,6 +2771,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Wlain/deepseek-plugin](https://github.com/Wlain/deepseek-plugin) — DeepSeek Harness 的可灵 AI（Kling AI）远程 MCP 插件。
 - [auggie246/dsh-synthetic-web-search](https://github.com/auggie246/dsh-synthetic-web-search) — 使用 synthetic.new 网页搜索代替 DeepSeek 内置网页搜索的 DeepSeek Harness 插件。
 - [qixin-ai-data/dsh-qixin-insight-mcp-oauth](https://github.com/qixin-ai-data/dsh-qixin-insight-mcp-oauth) — DeepSeek Harness 插件：一键 OAuth 2.1（PKCE）授权，将启信惧眼 MCP 服务端挂载进 harness，让模型直接触达企业工商、股权、司法与风险等智能数据。
+- [rogerdigital/dsh-searxng](https://github.com/rogerdigital/dsh-searxng) — 为 DeepSeek Harness (dsh) 的 ctx.web 接口提供基于 SearXNG 的 web_search provider —— 免费、自建、无需密钥，取代付费的 Exa/Perplexity API。
 
 ## 编排器与聚合器
 
@@ -4038,6 +4056,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [wszhoho/dsh-file-attachment](https://github.com/wszhoho/dsh-file-attachment) — 拖入 / 粘贴 / 工具栏上传按钮（📎，可多选）为输入框附加文件：图片走既有草稿图片流程（不落盘）；文档全文落盘到会话工作区 `.dsh-file-attachment/` 并插入 @绝对路径引用。
 - [Yancey2023/dsh-fold](https://github.com/Yancey2023/dsh-fold) — 为内容添加简洁灵活的折叠功能，让内容保持紧凑、有序、易于浏览。
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) —— Web 编辑器终端式输入历史：方向键回溯、Ctrl+R 反查、按工作区隔离。
+- [djs326/dsh-plugin-width-slider](https://github.com/djs326/dsh-plugin-width-slider) — 对话宽度滑块插件：DSH Desktop 设置面板滑块，按下即全屏预览实时调节对话宽度，自动隐藏原生拖拽手柄。
+- [Ephemeral-AI-Lab/mayfly](https://github.com/Ephemeral-AI-Lab/mayfly) — 为 DeepSeek Harness 打造的 Mayfly 终端 UI 整合包。
+- [qingtan-labs/deepseek-harness-macos](https://github.com/qingtan-labs/deepseek-harness-macos) — 为 DeepSeek Harness (DSH) 打造的原生 macOS Dock 与菜单栏控制器，支持单页复用、服务健康检查以及可选内嵌应用窗口。
+- [wbin0001/dsh-comfyui-canvas](https://github.com/wbin0001/dsh-comfyui-canvas) — 将 ComfyUI 实例以分屏画布形式嵌入 DeepSeek Harness Web：智能体在对话中直接编写提词、编辑节点，实时应用到你正在观察的画布上，无需切换前端即可将创意变为图像、视频与 3D。
 
 ## Skill
 
@@ -4288,6 +4310,14 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [bychv/dsh-stcardwriter](https://github.com/bychv/dsh-stcardwriter) — 面向 DeepSeek Harness 的 SillyTavern 角色卡、世界书与预设创作插件，集成 Preset Plus。
 - [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) — FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller），同时已打包为可直接安装的 DeepSeek Harness 插件（dsh-fasthtml-desktop），含 20+ 参考实现。
 - [runfali/dsh-skill-curator](https://github.com/runfali/dsh-skill-curator) — 为 dsh 打造的自动技能策展插件：每 N 轮真实对话，后台起一个评审子代理阅读会话摘要，主动把值得沉淀的经验提炼为 `~/.dsh/skills/<name>/SKILL.md` - 把 Hermes 的「后台评审自我改进」闭环移植到 DSH，零侵入 bundle 插件，不改 dsh 源码。
+- [xingtu1996/xingtu-ai-engineering](https://github.com/xingtu1996/xingtu-ai-engineering) — 一线 AI 工程化方法论旗航仓：理念/方法/五大工程/治理/会话/样板（73 资产），DSH 兼容。
+- [xingtu1996/xingtu-harness](https://github.com/xingtu1996/xingtu-harness) — 一线 AI 工程化脚掉架：一键拉全 skills/hooks/rules/specs/MCP/CLI 完整 agent 资产堆叠，DSH 兼容。
+- [xingtu1996/xingtu-hooks](https://github.com/xingtu1996/xingtu-hooks) — 生产级 AI Agent 钩子集合（安全拦截/会话提醒/交付检视），Claude Code 与 DeepSeek Harness 兼容。
+- [xingtu1996/xingtu-mcps](https://github.com/xingtu1996/xingtu-mcps) — 生产级 MCP 服务集合，供 AI Agent 工具调用（DSH 兼容）。
+- [xingtu1996/xingtu-rules](https://github.com/xingtu1996/xingtu-rules) — AI 协作规则工程化：scoped/on-demand 分层规则库（DSH 兼容）。
+- [xingtu1996/xingtu-sdd](https://github.com/xingtu1996/xingtu-sdd) — 规格驱动开发（SDD）方法论：no specs, no code（DSH 兼容）。
+- [xingtu1996/xingtu-skills](https://github.com/xingtu1996/xingtu-skills) — AI Agent 技能聚合仓：26 个生产级 SKILL.md（跨工具 + DSH 兼容）。
+- [xingtu1996/xingtu-tools](https://github.com/xingtu1996/xingtu-tools) — 从真实生产 harness 蒸馏的工程脚本工具集。
 
 ## 资源
 
