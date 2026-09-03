@@ -1454,7 +1454,6 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [oxgbl/dsh-deepseek-price](https://github.com/oxgbl/dsh-deepseek-price) — Sidebar peak/off-peak pricing badge with half-price countdown, a click-through detail panel, and a `/price` command.
 - [Ethanz11-creat/dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) — Peak/off-peak billing plugin for DeepSeek Harness (dsh): real-time token costing, ASCII whale receipts, TUI status line, and a `/billing` command.
 - [fancr-code/dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) — DeepSeek Harness Web plugin: API usage/cost/balance dashboard — today/last-7-days stacked bar chart by model, budget alerts, cross-session ledger.
-- [shiyazhou666/dsh-token-plan-compare](https://github.com/shiyazhou666/dsh-token-plan-compare) — DeepSeek Harness (DSH) plugin: compares token-plan cost-effectiveness across LLM providers.
 - [Wanbinyu/dsh-concurrency-meter](https://github.com/Wanbinyu/dsh-concurrency-meter) — Read-only model request concurrency monitoring for DeepSeek Harness.
 - [CyBerKitTen0009/dsh-quota-dashboard](https://github.com/CyBerKitTen0009/dsh-quota-dashboard) — Billing, cost, and token-usage quota dashboard plugin for DeepSeek Harness.
 - [zhouchengke2046/dsh-sidebar-balance](https://github.com/zhouchengke2046/dsh-sidebar-balance) — Minimalist native-style DSH balance plugin: sidebar-resident DeepSeek balance plus an OpenCode Go plan-usage ring, a frosted-glass floating card, and one-click restart.
@@ -2550,7 +2549,6 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [maxwell-feng/dsh-searxng-web](https://github.com/maxwell-feng/dsh-searxng-web) — DeepSeek Harness plugin: backs the native web_search / web_fetch tools with your self-hosted SearXNG instance — keyless, private, no third-party search vendor.
 - [PyModel/dsh-research-plugins](https://github.com/PyModel/dsh-research-plugins) — Research plugins for DeepSeek Harness — a pnpm monorepo adding web search and MCP bridges for AI research, web scraping, and live documentation to your DSH agent.
 - [240xu/dsh-websearch](https://github.com/240xu/dsh-websearch) — Unified web search provider for DSH.
-- [AFANman/dsh-work-board](https://github.com/AFANman/dsh-work-board) — Kanban-style agent-workflow work board plugin for DeepSeek Harness.
 - [ZekaiShi/evo-subagent](https://github.com/ZekaiShi/evo-subagent) — Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution (prefercmd/memory as knowledge allow/deny lists), so repeated tasks start from proven commands and save tokens.
 - [picoaide/picoaide-harness](https://github.com/picoaide/picoaide-harness) — PicoAide Harness: an enterprise-grade all-in-one DeepSeek Harness platform — desktop client + local agent engine + admin console, with private-deployment support.
 - [MaRi23333/dsh-subagent-library](https://github.com/MaRi23333/dsh-subagent-library) — Named subagent roster plugin for DeepSeek Harness: settings-driven role roster with list_subagents / delegate tools and a settings page.
