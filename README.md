@@ -858,10 +858,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [suntianc/dsh-codex-auth](https://github.com/suntianc/dsh-codex-auth) — DeepSeek Harness plugin that reuses the local Codex CLI ChatGPT login and adds a native GPT Auth settings card.
 - [TaylorSwitiger/dsh-plan-bridge](https://github.com/TaylorSwitiger/dsh-plan-bridge) — DeepSeek Harness (dsh) plugin: one local bridge for ChatGPT Codex / Claude / ZCode (GLM) / Qwen subscription plans — settings status card, one-click provisioning, zero core changes.
 - [tchivs/agentsw](https://github.com/tchivs/agentsw) — CLI provider switcher for coding agents: manage OpenAI/Anthropic-protocol providers in one place and sync them, with models.dev metadata, into 9 agents — Claude Code, Codex, omp, pi, prime-agent, opencode, Hermes, WorkBuddy, DeepSeek Harness. Imports from cc-switch. Non-destructive: your hand-tuned settings survive.
-- [Minglink/dsh-infinite-gen-3](https://github.com/Minglink/dsh-infinite-gen-3) — dsh-infinite-gen-3 ("无限三代") — an armor-breaking/jailbreak-style plugin for DeepSeek: stabilized armor-breaking build.
 - [shangdi178/dsh-versions](https://github.com/shangdi178/dsh-versions) — dsh (DeepSeek Harness) main-program version-management plugin: version overview + npm update check + online upgrade/downgrade/reinstall + auto snapshot before upgrade, one-click rollback to any historical version.
 - [yidapan666-creator/dsh-gate](https://github.com/yidapan666-creator/dsh-gate) — A thin, durable Codex supervisor bridge for DeepSeek Harness.
-- [yu-wenchao/dsh-opencode-free-models](https://github.com/yu-wenchao/dsh-opencode-free-models) — Unlimited free-quota DeepSeek Harness (DSH) model plugin — shows OpenCode Zen's latest free models live in the chat model picker, no login or API key needed; switch networks for effectively unlimited free tokens.
 
 ## Security & Permissions
 
