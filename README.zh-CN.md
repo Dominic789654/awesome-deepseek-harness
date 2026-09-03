@@ -1047,6 +1047,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [xxww0098/dsh-plugin-oauth-subs](https://github.com/xxww0098/dsh-plugin-oauth-subs) — 为 DeepSeek Harness 提供 ChatGPT Codex 与 xAI Grok 订阅 OAuth——PKCE / 设备码登录、本地 Responses 代理、llm-pi-ai 同步。
 - [AndKinoko/DSH-Search-Citation-Auditor](https://github.com/AndKinoko/DSH-Search-Citation-Auditor) — 对 AI 回复中引用来源进行审计：提取回复中的 URL，按威胁级别评分排序，并输出详细报告。你黑名单中的域名会被真正屏蔽——web_search、web_fetch 等工具会直接拒绝访问，黑名单完全由你自行维护。
 
+- [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) —— dsh 本地加密凭据保险库：Web 设置页与 vault_* 工具，存取与复制密码、API 密钥、TOTP、银行卡信息，支持健康审计、到期轮换、导入导出与只读/询问访问模式。
+
 ## 会话与记忆管理
 
 - [ddtcorex/dsh-maestro-sync](https://github.com/ddtcorex/dsh-maestro-sync) —— Maestro harness 同步插件：跨机器合并记忆与会话（可发布版）。
