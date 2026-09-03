@@ -2914,6 +2914,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [Army1900/dsh-e2e-dev-sdd](https://github.com/Army1900/dsh-e2e-dev-sdd) — dsh插件，用于驱动定制的e2e开发。
 - [ChenYiming-aaa/dsh-github](https://github.com/ChenYiming-aaa/dsh-github) — DeepSeek Harness（DSH）GitHub 集成插件：一次认证（GITHUB_TOKEN 或 OAuth Device Flow）后，模型可直接调用 45 个 github_* 工具完成建仓、推送、提 PR、管 issue、搜索代码等；常规读写直接放行，危险操作（删除/force push/合并 PR/关 issue）保留审批门；token 存于 DSH credentials 服务，不落日志。对标 opencode GitHub MCP。
 - [chuankris/dsh-smart-model-router](https://github.com/chuankris/dsh-smart-model-router) — 面向 DeepSeek Harness 的任务与配额感知虚拟 Auto 模型路由插件。
+- [MajidAsghariTabrizi/free-best-router](https://github.com/MajidAsghariTabrizi/free-best-router) —— OpenAI 兼容的免费 LLM 路由层，覆盖 7 个免费 LLM 提供商（OpenRouter、OpenCode/Zen、Groq、Cerebras、Mistral、DeepSeek、本地），采用 Wilson + 贝叶斯评分、按失败类型冷却、有界 4 次回退。52 个测试，MIT，零遥测。
 - [LJH-snow/dsh-tool-linear](https://github.com/LJH-snow/dsh-tool-linear) — 面向 DeepSeek Harness 的 Linear 任务追踪工具插件。
 - [starsinc1708/dsh-tool-council](https://github.com/starsinc1708/dsh-tool-council) — 面向 DeepSeek Harness 的 subagent map-reduce 议事会：一个任务分发给多个独立成员，去重后由独立评审面板核验，最终归约为一份共识报告。
 - [chumingjun/dsh-harness-one](https://github.com/chumingjun/dsh-harness-one) —— 面向 DeepSeek Harness (dsh) 的可视化 AI 工作流编排引擎：多 agent DAG、实时执行、故障恢复与飞书集成。
