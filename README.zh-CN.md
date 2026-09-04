@@ -1383,7 +1383,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [klarkxy/dsh-spaces](https://github.com/klarkxy/dsh-spaces) —— DeepSeek Harness 的 Spaces —— 像切换 Discord 服务器一样切换 DSH 工作区。
 - [lumose0/dsh-file-reference-everything](https://github.com/lumose0/dsh-file-reference-everything) —— 面向 DeepSeek Harness 的全盘 @ 文件引用 —— 基于 Everything 的即时搜索，支持模糊/正则匹配，并有跨平台回退索引。
 - [NickUserVorname/dsh-durable-context](https://github.com/NickUserVorname/dsh-durable-context) —— 面向 DeepSeek Harness 的宿主托管持久化调查状态与覆盖率门控上下文回收，并以实时运行证据保存。
-- [CJYLZS/dsh-commandcode-plan-autosync](https://github.com/CJYLZS/dsh-commandcode-plan-autosync) —— 在 DSH 中自动同步 CommandCode 编码计划模型。
+- [CJYLZS/dsh-commandcode-provider](https://github.com/CJYLZS/dsh-commandcode-provider) —— 在 DSH 中自动同步 CommandCode 编码计划模型。
 - [Yur0918/dsh-user-addons](https://github.com/Yur0918/dsh-user-addons) —— 社区 DSH web 插件，支持文件上传、归档会话管理、图片能力检测以及模型/token 用量洞察。
 - [ailiasdesu/dsh-session-manager](https://github.com/ailiasdesu/dsh-session-manager) —— DSH 会话迁移插件：在 Web UI 设置面板里拖拽会话跨工作区迁移，自动备份/回滚，并与官方 workspaceRegistry 同步。
 - [memorax-ai/dsh-patchouli](https://github.com/memorax-ai/dsh-patchouli) —— Agent 知识中心，也是一个 deepseek-harness 插件。
@@ -1425,7 +1425,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [seriousz158/dsh-memory](https://github.com/seriousz158/dsh-memory) — DeepSeek Harness 记忆插件（dsh-plugin、dsh-bundle）。
 - [xiaoshi7915/dsh-kb-manager](https://github.com/xiaoshi7915/dsh-kb-manager) — DSH 本地知识库插件：多格式导入、智能分块、向量索引、混合检索（BM25 + sqlite-vec + RRF），为 agent 提供长期记忆。
 - [abc12524/dsh-openviking](https://github.com/abc12524/dsh-openviking) — DeepSeek Harness（dsh）的 OpenViking 长期记忆集成插件：宿主侧在每次用户提问后自动检索候选记忆作为背景上下文注入，浏览器侧提供配置卡片，另提供一套 REST `openviking_*` 工具（搜索/读写/Session 归档）；检索是提示而非闸门，失败只记警告不阻塞对话。
-- [leogottadothebest/DSH-Archived-Delete](https://github.com/leogottadothebest/DSH-Archived-Delete) — DSH 插件：在设置界面管理已归档对话——取消归档与永久删除。
+- [leogottadothebest/dsh-plugin-archived-conversations](https://github.com/leogottadothebest/dsh-plugin-archived-conversations) — DSH 插件：在设置界面管理已归档对话——取消归档与永久删除。
 - [rrrrrredy/agent-memory-system](https://github.com/rrrrrredy/agent-memory-system) — Local-first、证据驱动的编程 agent 持续记忆系统：仅追加的 SHA-256 证据链、验证与晋升两级签核、不可变记忆快照集，并提供 DeepSeek Harness 记忆集成适配器。
 - [yxv1203-collab/dsh-conversation-archive](https://github.com/yxv1203-collab/dsh-conversation-archive) — DeepSeek Harness 工作区管理插件，提供原生归档会话管理、安全缓存回收、AI 重要文件保护、本地备份与可追溯的工作区组织。
 - [DDDFXYqiming/dsh-session-recap](https://github.com/DDDFXYqiming/dsh-session-recap) — DeepSeek Harness 会话回顾插件（类 Claude Code 的离开期间摘要总结）。
@@ -1680,7 +1680,7 @@ _token 用量、成本看板与预算告警插件。_
 - [wkscc310/dsh-client-ui-cpa-quota](https://github.com/wkscc310/dsh-client-ui-cpa-quota) —— 在 DeepSeek Harness 中方便查看你的 CLiProxyAPI 额度。
 - [AnLifeX/dsh-credits](https://github.com/AnLifeX/dsh-credits) — DeepSeek Harness（dsh web）额度插件：跟随当前模型显示官方余额或 OpenCode Go 订阅用量，支持本会话估算、跨会话累计消耗与可视化设置。
 - [162568316/dsh-tokenrhythm-bill](https://github.com/162568316/dsh-tokenrhythm-bill) — DeepSeek Harness（DSH）插件：基元律动模型 / 余额 / 密钥面板 —— 侧栏入口，含模型分类清单、余额与花费图表、密钥管理。
-- [doublemolu/dsh-balance-dock](https://github.com/doublemolu/dsh-balance-dock) — DeepSeek Harness balance dock：余额卡片、按会话统计花费/token、50 元分段进度条、充值按钮、位置守护。
+- [doublemolu/dsh-costometer](https://github.com/doublemolu/dsh-costometer) — DeepSeek Harness balance dock：余额卡片、按会话统计花费/token、50 元分段进度条、充值按钮、位置守护。
 - [jwilson411/dsh-result-cap](https://github.com/jwilson411/dsh-result-cap) — DeepSeek Harness 插件：确定性工具结果字节上限，并对被截断的尾部进行 SHA-256 摘要。不是一个压缩模型。
 - [linfengyu94/dsh-balance-panel](https://github.com/linfengyu94/dsh-balance-panel) — DeepSeek 充值余额悬浮面板 - DSH 插件：悬浮显示充值余额，带可视化进度条与动态按钮动画。
 - [HOWILLMAKEIT/dsh-model-context-catalog](https://github.com/HOWILLMAKEIT/dsh-model-context-catalog) — DeepSeek Harness 插件：维护 llm-pi-ai 模型的准确上下文窗口，避免长会话被误判为上下文溢出。
