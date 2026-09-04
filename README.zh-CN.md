@@ -159,6 +159,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [hongbaiqi/dsh-model-account-login](https://github.com/hongbaiqi/dsh-model-account-login) —— 面向 ChatGPT、Claude 等 llm-pi-ai 登录流程的持久化 DSH 模型账号授权 UI。
 - [lemoncat7/dsh-ssh](https://github.com/lemoncat7/dsh-ssh) —— 面向 DeepSeek Harness 的 SSH 会话、SFTP、终端、代理与端口转发插件。
 - [tingao/dsh-peaktime-clock](https://github.com/tingao/dsh-peaktime-clock) —— 面向 DeepSeek Harness 的峰时时钟插件（打有 deepseek-harness、dsh-plugin 标签）。
+- [chai1110/dsh-ssh-remote](https://github.com/chai1110/dsh-ssh-remote) —— DeepSeek Harness SSH 远程工作区插件（多机并行）：同时连接多台服务器，Agent 直接查看/编辑/执行远程文件。基于 flymysql/dsh-remote (MIT) 适配 0.1.1-rc.2。
+- [IceApriler/dsh-remote-mobile](https://github.com/IceApriler/dsh-remote-mobile) —— DeepSeek Harness 远程与移动端安全网关插件：零修改 DSH 底层代码，安全开放局域网与 Tailscale 连接，支持二维码扫码认证、RSA 加密与防暴力破解。
+- [ma-harness/ma-harness.rs](https://github.com/ma-harness/ma-harness.rs) —— 基于 deepseek-harness 开发的 Rust 版本实现。
+- [songoao25/dsh-plugin-guardian](https://github.com/songoao25/dsh-plugin-guardian) —— 面向 DeepSeek Harness 插件的安全卸载工具：快照回滚、清理残留、健康检查，无需命令行。
 - [173787247/dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit) —— DeepSeek Harness WSL 工具包（中英双语）：文档 + install.sh + cordis.patch，适配 Windows 浏览器与 WSL 中的 agent 插件。
 - [Mortal520/dsh-provider-pro](https://github.com/Mortal520/dsh-provider-pro) —— 面向 DeepSeek Harness 的模型供应商（provider）插件（dsh-plugin）。
 - [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) —— DeepSeek Harness (dsh) 的一行 AI Agent 脚架生成器：`npx create-dsh-app my-agent` 即可脚架一个预先接入 MCP 工具、长期记忆与网页浏览的生产可用 agent。
@@ -878,6 +882,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [robbin810130/dsh-vault-plugin](https://github.com/robbin810130/dsh-vault-plugin) —— DSH 保险箱插件：项目与对话的前台隐私锁。
+- [delef/dsh-plugin-auto-review](https://github.com/delef/dsh-plugin-auto-review) —— 面向 DeepSeek Harness 的 provider 驱动自动审核插件。
+- [XiaoYuOvO/dsh-llm-injection-filter](https://github.com/XiaoYuOvO/dsh-llm-injection-filter) —— DSH LLM 响应流注入过滤器：在 llm/stream 瓦流上强制屏蓽略见 Unicode 脚本（Track A），并对控制字符/协议标记/脚本混合/垃圾关键词进行评分处理（Track B）。
 - [CharlotteN7/dsh-dlp](https://github.com/CharlotteN7/dsh-dlp) — 防止 DeepSeek Harness agent 读取你的凭据文件、并在工具调用中泄露密钥。
 - [CharlotteN7/dsh-ocsf-forwarder](https://github.com/CharlotteN7/dsh-ocsf-forwarder) — 把 DeepSeek Harness 会话活动以 OCSF 1.9.0 记录格式上报到你的 SIEM。
 - [pavangupta352/stalegreen](https://github.com/pavangupta352/stalegreen) — 让编程 agent 的"绿灯"结论更可信：验证运行结果不可伪装地记录下来，证据过期、失败或被遮蔽时阻止标记完成。
@@ -2172,6 +2178,7 @@ _生成演示文稿、幻灯片、导出 PPT。_
 ## 写代码
 
 - [shengbinxu/dsh-open-code-review](https://github.com/shengbinxu/dsh-open-code-review) — 面向 DeepSeek Harness (dsh) 的代码审查插件：open-code-review（ocr）委托——确定性文件选择与规则解析，由你自己的模型审查（无需额外 API Key）。
+- [magian1127/deepseek-harness-hashline](https://github.com/magian1127/deepseek-harness-hashline) — DeepSeek Harness hashline — 哈希锚点编辑。
 - [tntcannon5000/dsh-chat-fold](https://github.com/tntcannon5000/dsh-chat-fold) — 面向 DeepSeek Harness Web 的精简回合插件：在原生回合保持关闭的长会话中，恢复已完成回合的折叠显示。
 - [enoughpower/dsh-git-graph](https://github.com/enoughpower/dsh-git-graph) — 为 DeepSeek Harness 打造的 Git 图形化插件（dsh-plugin）。
 - [jo32/dsh-strudel-studio](https://github.com/jo32/dsh-strudel-studio) — 面向 DeepDeck 的专业级歌曲级 Strudel 可视化序列器，带结构化 AI 编排能力。
@@ -2468,6 +2475,10 @@ _代码生成、重构、审查、仓库级工程插件。_
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
 - [MajidAsghariTabrizi/universal-engineering-agent](https://github.com/MajidAsghariTabrizi/universal-engineering-agent) —— UEA 9 阶段编码代理操作内核的可运行实现（MIT）。
+- [ndzuki/obsidian-task-runner](https://github.com/ndzuki/obsidian-task-runner) —— 在 Obsidian 写需求，AI 在真实仓库里完成剩下的一切。计划、实现、测试、PR、合并全自动；只有「方向」和「验收」两扇人门。决策 ADR 化，踩坑自动沉淀回知识库；Agent Town 像素小镇实时监控并发会话。Go 单二进制 + DSH 插件生态。
+- [thomasvvugt/dsh-kanban-flow](https://github.com/thomasvvugt/dsh-kanban-flow) —— 面向 DeepSeek Harness 的 agent 驱动看板：每个工作区一块看板、按任务分配 agent 会话、有人/agent 双重守护的工作流。
+- [weixshaw/dsh-plugin-task-runner](https://github.com/weixshaw/dsh-plugin-task-runner) —— Task Runner 任务拆解模式：主代理拆解任务、子代理（默认本地模型）并行执行再综合结果，并发/模型可按机器配置。Decompose-and-dispatch agent preset for DeepSeek Harness.
+- [Xplore-LAB/dsh-plugin-office](https://github.com/Xplore-LAB/dsh-plugin-office) —— 面向 DeepSeek Harness 的办公文档插件：DOCX/XLSX/CSV 处理与邮件合并办公工具（agent-tools、cordis-plugin 标签）。
 - [1339190177/dsh-consult](https://github.com/1339190177/dsh-consult) —— 为 DeepSeek Harness (dsh) 提供跨供应商的第二意见：consult 工具、OpenAI 兼容端点、DSH_MODEL 重定向、scout（网搜调查）、结构化输出、上游透明化、JSONL 审计。与被动的每回合审查型插件 btspoony/dsh-advisor 区分。
 - [peterwangze/dsh-agent-router](https://github.com/peterwangze/dsh-agent-router) —— DeepSeek Harness 多模型路由插件：让专业的事情交给专业的 agent——自定义视觉/翻译/语音/子代理等专业 agent 并绑定独立模型，多模态账号一键登录、账号池健康路由与实时用量统计。
 - [daydreamer0213/Tian-wen](https://github.com/daydreamer0213/Tian-wen) —— 基于 DSH 构建的、可审计的长时运行 agent 学习控制平面。
@@ -2990,6 +3001,11 @@ _多步 / 多 agent 调度器与输出聚合器。_
 
 _DSH 的桌面、网页、终端或编辑器前端。_
 - [d4551/DeepTail](https://github.com/d4551/DeepTail) —— 一个 Tauri 2 客户端（桌面 / iOS / Android），连接多台 DeepSeek Harness host，在一个控制面里统一管理所有机器上运行的 agent 会话。
+- [MurasakiIzumi/dsh-ticker-jp](https://github.com/MurasakiIzumi/dsh-ticker-jp) —— DeepSeek Harness 的悬浮行情插件（日股改版）：在页面右上角显示一个可拖拽、可收起的半透明小窗，实时展示 TOPIX 联动 ETF 与日经225，并可自选任意 Yahoo 代码（支持自定义显示名）。
+- [softspark/dsh-file-preview](https://github.com/softspark/dsh-file-preview) —— 面向 DeepSeek Harness 的只读对话内文件预览：会话授权的 host Remote + 消毒浏览器弹框，以单一 profile bundle 形式安装。
+- [statem-li/dsh-think-tools](https://github.com/statem-li/dsh-think-tools) —— DSH 思考与工具调用聚合：回合级思考 chip（实时时长/实时文字滚动）+ 工具调用聚合 chip + 共享活动抽屉 + 对话流卡片（步骤卡/汇总卡，回合结束后才出现）—— 自 dsh-webui 移植。零 DSH 源码修改。
+- [wenyifeng2026qq/dsh-client-ui-glass](https://github.com/wenyifeng2026qq/dsh-client-ui-glass) —— DeepSeek（DSH）Web 端可开关的玻璃拟态皮肤插件。
+- [White-Egret/DSH-Desktop](https://github.com/White-Egret/DSH-Desktop) —— 基于 Tauri v2、Rust 与 Vanilla JS 构建的现代 Windows 桌面应用，适配 DSH。
 - [DaydreAmRing/dsh-cho-kaguya-plugin-public](https://github.com/DaydreAmRing/dsh-cho-kaguya-plugin-public) —— DSH 皮肤插件，含超时空辉夜姬概念元素。
 - [Roxy-gl373/dsh-desktop](https://github.com/Roxy-gl373/dsh-desktop) —— 面向 DeepSeek Harness 的桌面客户端插件（dsh-plugin）。
 - [youridol/dsh-launcher](https://github.com/youridol/dsh-launcher) —— DeepSeek Harness 启动器与运行环境管理器（Tauri 2 + Rust + React）。
