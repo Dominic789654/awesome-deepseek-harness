@@ -153,6 +153,11 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 
 _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运行时级基建（诊断、运维、会话管理、审批策略）。_
 
+- [502399493zjw-lgtm/dsh-codex-shared-pool](https://github.com/502399493zjw-lgtm/dsh-codex-shared-pool) —— 社区版 DeepSeek Harness 插件包：Codex 账号池共享集成。
+- [cloga/dsh-windows-ops](https://github.com/cloga/dsh-windows-ops) —— 面向 DeepSeek Harness 的 Windows 部署锁、先检查再安装器、回放、恢复与插件治理，已验证可用。
+- [hongbaiqi/dsh-model-account-login](https://github.com/hongbaiqi/dsh-model-account-login) —— 面向 ChatGPT、Claude 等 llm-pi-ai 登录流程的持久化 DSH 模型账号授权 UI。
+- [lemoncat7/dsh-ssh](https://github.com/lemoncat7/dsh-ssh) —— 面向 DeepSeek Harness 的 SSH 会话、SFTP、终端、代理与端口转发插件。
+- [tingao/dsh-peaktime-clock](https://github.com/tingao/dsh-peaktime-clock) —— 面向 DeepSeek Harness 的峰时时钟插件（打有 deepseek-harness、dsh-plugin 标签）。
 - [173787247/dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit) —— DeepSeek Harness WSL 工具包（中英双语）：文档 + install.sh + cordis.patch，适配 Windows 浏览器与 WSL 中的 agent 插件。
 - [Mortal520/dsh-provider-pro](https://github.com/Mortal520/dsh-provider-pro) —— 面向 DeepSeek Harness 的模型供应商（provider）插件（dsh-plugin）。
 - [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) —— DeepSeek Harness (dsh) 的一行 AI Agent 脚架生成器：`npx create-dsh-app my-agent` 即可脚架一个预先接入 MCP 工具、长期记忆与网页浏览的生产可用 agent。
@@ -1053,6 +1058,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 ## 会话与记忆管理
 
+- [yihefeikong-rgb/dsh-cc-haha-dream](https://github.com/yihefeikong-rgb/dsh-cc-haha-dream) —— DSH 自动做梦插件：后台定期回顾会话与记忆整合去重（复刻 CC-HAHA autoDream）· Auto memory consolidation (dream) plugin for DeepSeek Harness, inspired by CC-HAHA.
 - [ddtcorex/dsh-maestro-sync](https://github.com/ddtcorex/dsh-maestro-sync) —— Maestro harness 同步插件：跨机器合并记忆与会话（可发布版）。
 - [yindf/taskfold](https://github.com/yindf/taskfold) —— 让长时间编程 agent 会话保持精简：把一段工作包成命名任务，完成后将其整段折叠为一句带标题的摘要，对话保持可读、上下文成本降低，且任意折叠的原始内容都可按需展开重读。面向 [DeepSeek Harness](https://www.npmjs.com/package/@deepseek-ai/dsh)（DSH）。
 - [lnabc03/bright-drift](https://github.com/lnabc03/bright-drift) —— 面向 AI 编程 agent 的工作区漂移感知插件：监视工作区，在每个步骤边界把外部/用户改动的预算化、可归因 diff 注入 agent 上下文。
@@ -2154,6 +2160,8 @@ _生成演示文稿、幻灯片、导出 PPT。_
 - [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — 让 AI 做 PPT 的副驶，而非自动驶驶。DSH 预设，六步专家工作流，支持双路径触发，SVG 中间态 + PPT-safe 约束。
 ## 写代码
 
+- [shengbinxu/dsh-open-code-review](https://github.com/shengbinxu/dsh-open-code-review) — 面向 DeepSeek Harness (dsh) 的代码审查插件：open-code-review（ocr）委托——确定性文件选择与规则解析，由你自己的模型审查（无需额外 API Key）。
+- [tntcannon5000/dsh-chat-fold](https://github.com/tntcannon5000/dsh-chat-fold) — 面向 DeepSeek Harness Web 的精简回合插件：在原生回合保持关闭的长会话中，恢复已完成回合的折叠显示。
 - [enoughpower/dsh-git-graph](https://github.com/enoughpower/dsh-git-graph) — 为 DeepSeek Harness 打造的 Git 图形化插件（dsh-plugin）。
 - [jo32/dsh-strudel-studio](https://github.com/jo32/dsh-strudel-studio) — 面向 DeepDeck 的专业级歌曲级 Strudel 可视化序列器，带结构化 AI 编排能力。
 
@@ -2658,6 +2666,9 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 <!-- 在此添加条目。 -->
+- [xiaokaizhou/dsh-llm-multimodal](https://github.com/xiaokaizhou/dsh-llm-multimodal) —— DSH 插件：在聊天中提供图像/视频生成工具，基于 OpenAI 兼容 API。
+- [ZIye1208/dsh-github-mcp](https://github.com/ZIye1208/dsh-github-mcp) —— DSH 插件：GitHub MCP 连接插件，token 存 DSH 凭据中心(.credentials.yaml)，自动捆绑安装面板插件 dsh-github-mcp-hint（可独立卸载）。
+- [ZIye1208/dsh-github-mcp-hint](https://github.com/ZIye1208/dsh-github-mcp-hint) —— DSH 插件：GitHub MCP 示例提示面板（设置→插件，随机 4/30 条可复制）+ 公开仓库统计（星/fork）+ gh_repo_stats 模型工具（星数/近14天克隆量）。
 - [corrinehu/dsh-workbuddy-connect](https://github.com/corrinehu/dsh-workbuddy-connect) —— 将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness，零配置使用。
 - [UnKnownFish125/dsh-literature](https://github.com/UnKnownFish125/dsh-literature) —— DSH 文献/知识插件：文献→证据→知识管理（独立 literatum server + Web UI + agent 工具）。
 - [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) —— DeepSeek Harness 的 Vercel MCP 连接插件：官方 OAuth 2.0 客户端流程（动态客户端注册 + PKCE）对接 mcp.vercel.com，Vercel 平台工具以 mcp__vercel__* 在会话中可用，另有可视化设置面板。

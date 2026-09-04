@@ -153,6 +153,11 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 
 _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime-level infrastructure (diagnostics, ops, session management, approval policies)._
 
+- [502399493zjw-lgtm/dsh-codex-shared-pool](https://github.com/502399493zjw-lgtm/dsh-codex-shared-pool) — Community DeepSeek Harness bundle for Codex account-pool integration.
+- [cloga/dsh-windows-ops](https://github.com/cloga/dsh-windows-ops) — Verified Windows deployment locks, check-first installers, replay, recovery, and plugin governance for DeepSeek Harness.
+- [hongbaiqi/dsh-model-account-login](https://github.com/hongbaiqi/dsh-model-account-login) — Persistent DSH model-account authorization UI for ChatGPT, Claude, and other llm-pi-ai login flows.
+- [lemoncat7/dsh-ssh](https://github.com/lemoncat7/dsh-ssh) — SSH sessions, SFTP, terminals, proxies and port forwarding for DeepSeek Harness.
+- [tingao/dsh-peaktime-clock](https://github.com/tingao/dsh-peaktime-clock) — Peak-time clock plugin for DeepSeek Harness (deepseek-harness, dsh-plugin).
 - [173787247/dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit) — DeepSeek Harness WSL kit (EN/ZH): docs + install.sh + cordis.patch for Windows browser + WSL agent plugins.
 - [Mortal520/dsh-provider-pro](https://github.com/Mortal520/dsh-provider-pro) — Model provider plugin for DeepSeek Harness (dsh-plugin).
 - [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) — 1-Line AI Agent Scaffolding Generator for DeepSeek Harness (dsh): `npx create-dsh-app my-agent` scaffolds a production-ready agent pre-wired with MCP tools, long-term memory, and web browsing.
@@ -1047,6 +1052,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 ## Session & Memory Management
 
+- [yihefeikong-rgb/dsh-cc-haha-dream](https://github.com/yihefeikong-rgb/dsh-cc-haha-dream) — DSH auto-dream plugin: background periodic session/memory review and consolidation/dedup (a port of CC-HAHA autoDream). Auto memory consolidation (dream) plugin for DeepSeek Harness, inspired by CC-HAHA.
 - [ddtcorex/dsh-maestro-sync](https://github.com/ddtcorex/dsh-maestro-sync) — Maestro harness sync — merge memories and sessions across machines (publishable).
 - [yindf/taskfold](https://github.com/yindf/taskfold) — Keeps long coding-agent sessions lean: wrap work in named tasks and, when one is done, fold its whole span into a short titled summary. The conversation stays readable, context costs stay low, and every fold's original content can be read back on demand. For [DeepSeek Harness](https://www.npmjs.com/package/@deepseek-ai/dsh) (DSH).
 - [lnabc03/bright-drift](https://github.com/lnabc03/bright-drift) — Workspace drift awareness for AI coding agents — watches the workspace and injects a budgeted, attributed diff of external/user changes into the agent's context at each step boundary.
@@ -2142,6 +2148,8 @@ _Generate presentations, decks, slide exports._
 - [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — A DSH preset that makes the AI a PPT co-pilot rather than an autopilot: a six-step expert workflow supporting dual-path triggers, an SVG intermediate state, and PPT-safe constraints.
 ## Coding
 
+- [shengbinxu/dsh-open-code-review](https://github.com/shengbinxu/dsh-open-code-review) — A DeepSeek Harness (dsh) plugin for code review: open-code-review (ocr) delegation — deterministic file selection & rule resolution, reviewed by your own model (zero extra API key).
+- [tntcannon5000/dsh-chat-fold](https://github.com/tntcannon5000/dsh-chat-fold) — Compact turn folding for DeepSeek Harness Web: restores collapsed completed turns in long sessions where stock folding stays disabled.
 - [enoughpower/dsh-git-graph](https://github.com/enoughpower/dsh-git-graph) — Git graph visualization plugin for DeepSeek Harness (dsh-plugin).
 - [jo32/dsh-strudel-studio](https://github.com/jo32/dsh-strudel-studio) — A professional song-level Strudel visual sequencer with structured AI arrangement for DeepDeck.
 
@@ -2643,6 +2651,9 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 _Model Context Protocol servers that contribute tools / prompts / resources to DSH._
 
 <!-- Add entries here. -->
+- [xiaokaizhou/dsh-llm-multimodal](https://github.com/xiaokaizhou/dsh-llm-multimodal) — DSH plugin: image/video generation tools in chat, backed by an OpenAI-compatible API.
+- [ZIye1208/dsh-github-mcp](https://github.com/ZIye1208/dsh-github-mcp) — DSH plugin: GitHub MCP connection plugin, token stored in the DSH credentials center (.credentials.yaml), auto-bundles the companion panel plugin dsh-github-mcp-hint (independently uninstallable).
+- [ZIye1208/dsh-github-mcp-hint](https://github.com/ZIye1208/dsh-github-mcp-hint) — DSH plugin: GitHub MCP example-prompt panel (Settings → Plugins, random 4/30 copyable prompts) + public repo stats (stars/forks) + a gh_repo_stats model tool (star count / 14-day clone count).
 - [corrinehu/dsh-workbuddy-connect](https://github.com/corrinehu/dsh-workbuddy-connect) — Bring the models in the WorkBuddy desktop app into DeepSeek Harness with zero configuration.
 - [UnKnownFish125/dsh-literature](https://github.com/UnKnownFish125/dsh-literature) — DSH literature/knowledge plugin: literature → evidence → knowledge management (standalone literatum server + Web UI + agent tools).
 - [zhengjy01/dsh-vercel-mcp](https://github.com/zhengjy01/dsh-vercel-mcp) — Vercel MCP connection for DeepSeek Harness: official OAuth 2.0 flow (dynamic client registration + PKCE) against mcp.vercel.com, Vercel platform tools under mcp__vercel__* in agent sessions, with a web settings panel.
