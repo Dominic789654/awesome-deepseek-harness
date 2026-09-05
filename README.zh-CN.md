@@ -4171,6 +4171,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [ijry/DeepSeek-Harness-Desktop-Ultra](https://github.com/ijry/DeepSeek-Harness-Desktop-Ultra) —— DeepSeek Harness 桌面客户端封装版本，基于 Tauri 而不是 Electron，体积更小。
 - [Olympianz/dsh-xiaomili](https://github.com/Olympianz/dsh-xiaomili) —— 小米粒（dsh-xiaomili）—— 常驻 chatbox 右侧的金毛秘书插件：实时旁听对话、识别意图、提取关键词/概念、自动生成秘书简报，记忆可持久化。
 - [WLV-ZEDD/dsh-btw](https://github.com/WLV-ZEDD/dsh-btw) —— DeepSeek Harness 侧边助手 Dock 与抽屉。
+- [ice5kysl/dsh-workspace-kit](https://github.com/ice5kysl/dsh-workspace-kit) —— 增强 DSH Web UI 工作区侧栏：⌘K Spotlight 搜索、工作区软归档/恢复、每工作区 SVG 图标与强调色、拖拽排序。
 
 ## Skill
 
