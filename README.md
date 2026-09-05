@@ -4173,6 +4173,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [ijry/DeepSeek-Harness-Desktop-Ultra](https://github.com/ijry/DeepSeek-Harness-Desktop-Ultra) — DeepSeek Harness desktop client wrapper built on Tauri instead of Electron for a much smaller footprint.
 - [Olympianz/dsh-xiaomili](https://github.com/Olympianz/dsh-xiaomili) — Xiaomili (dsh-xiaomili) — a golden-retriever secretary plugin docked beside your chatbox: listens in on conversations in real time, detects intent, extracts keywords/concepts, auto-generates secretary briefings, with persistent memory.
 - [WLV-ZEDD/dsh-btw](https://github.com/WLV-ZEDD/dsh-btw) — DeepSeek Harness side-assistant dock & drawer.
+- [ice5kysl/dsh-workspace-kit](https://github.com/ice5kysl/dsh-workspace-kit) — Enhanced workspace sidebar for the DSH Web UI: ⌘K Spotlight search, soft workspace archive/restore, per-workspace SVG icons & colors, drag-to-reorder.
 
 ## Skills
 
