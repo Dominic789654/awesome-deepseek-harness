@@ -1878,6 +1878,7 @@ _Bridges DSH into chat platforms and messaging channels._
 
 _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) — A permanent DeepSeek Harness plugin that ships a project run & code viewer, program snapshots, a VTD conversation tree (edit / retry / branches) with message micro-versions, plus a DET feature manager and global plugin control.
+- [luoxin10086/dsh-tip-jar](https://github.com/luoxin10086/dsh-tip-jar) — 🫙 Tip jar for DeepSeek Harness: contributors declare USDC / fiat / subscription / sponsor-slot channels once in `sponsors.json`; users tip from the sponsor-center panel, the settings page, or tool-card credits. Pure P2P (no custody), privacy by default, on-chain radar + ethics badges. 打赏罐：开源贡献者的赞助入口。
 - [DSHPlugin.app](https://dshplugin.app/) — Independent DeepSeek Harness plugin directory with source-backed capability summaries, install information, repository activity, and security signals.
 - [YELEBAI/dsh-plugin-marketplace](https://github.com/YELEBAI/dsh-plugin-marketplace) — Verified plugin marketplace and autonomous registry for DeepSeek Harness
 
