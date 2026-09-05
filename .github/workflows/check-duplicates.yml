@@ -1,0 +1,147 @@
+name: Check Duplicates
+
+# Catches new entries that are already listed in the same section. Duplicate
+# rows used to accumulate because two copies of the same project, added weeks
+# apart, read as normal in a ~3,400-entry list (see PRs #277 and #280).
+#
+# Complements validate-pr.yml, which checks format / link / topic but has no
+# notion of "already present". This check posts an advisory comment; it does
+# not fail the run, so it can never block an otherwise-valid contribution.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: check-duplicates-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    # Single-tenant guard, matching star-history.yml: never run on forks, where
+    # the upstream README would be wrong and commenting would target a fork PR.
+    if: github.repository == 'Dominic789654/awesome-deepseek-harness'
+    outputs:
+      report: ${{ steps.detect.outputs.report }}
+      count: ${{ steps.detect.outputs.count }}
+    steps:
+      - name: Checkout base
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch PR head
+        env:
+          PR_NUM: ${{ github.event.pull_request.number }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git fetch origin "pull/${PR_NUM}/head:pr-head"
+          base_sha="$(git merge-base "origin/${BASE_REF}" pr-head)"
+          echo "BASE_SHA=$base_sha" >> "$GITHUB_ENV"
+
+      - name: Detect duplicate entries
+        id: detect
+        env:
+          BASE_SHA: ${{ env.BASE_SHA }}
+        run: |
+          set -uo pipefail
+
+          # Added entry lines from this PR.
+          git diff --unified=0 "$BASE_SHA" pr-head -- README.md README.zh-CN.md \
+            | grep -E '^\+' | grep -v -E '^\+\+\+' | sed 's/^+//' > /tmp/added.txt || true
+          grep -E '^\s*-\s*\[' /tmp/added.txt > /tmp/entries.txt || true
+
+          added_count=$(wc -l < /tmp/entries.txt | tr -d ' ')
+          echo "Added entry lines: $added_count"
+
+          python3 - <<'PY'
+          import re
+
+          SKIP = {'Quick Start', 'Contents', 'Contributing', 'Star History', 'License'}
+          ENTRY = re.compile(r'^- \[[^\]]+\]\((https?://[^)]+)\)')
+          GH = re.compile(r'https?://github\.com/([^/)]+)/([^/)]+)', re.I)
+
+          def key_of(url):
+              url = url.strip().rstrip('/')
+              if m := GH.match(url):
+                  return f"{m.group(1)}/{m.group(2)}".lower()
+              return url.lower()
+
+          # Build base index: normalized URL -> list of (section, line).
+          index = {}
+          section = '(uncategorised)'
+          for lineno, line in enumerate(open('README.md', encoding='utf-8'), 1):
+              line = line.rstrip('\n')
+              if line.startswith('## '):
+                  section = line[3:].strip()
+                  continue
+              if section in SKIP or not line.startswith('- ['):
+                  continue
+              if m := ENTRY.match(line):
+                  index.setdefault(key_of(m.group(1)), []).append((section, lineno))
+
+          added = [l for l in open('/tmp/entries.txt', encoding='utf-8') if l.strip()]
+
+          # A URL already listed in exactly ONE section is a same-section
+          # duplicate. Listed in MULTIPLE sections is a legitimate cross-listing
+          # (e.g. a project under both "Skills" and "Coding") and is left alone.
+          report, seen = [], set()
+          for line in added:
+              m = ENTRY.match(line.strip())
+              if not m:
+                  continue
+              key = key_of(m.group(1))
+              if key in seen:
+                  continue
+              hits = index.get(key, [])
+              sections = {s for s, _ in hits}
+              if len(hits) == 1:
+                  section, base_line = hits[0]
+                  seen.add(key)
+                  report.append(
+                      f'- ⚠️ **Duplicate** — `{key}` is already listed under **{section}** (base line {base_line}). '
+                      'If it is the same project, remove the new copy; if it is a distinct project, it needs a different name/URL.'
+                  )
+
+          with open('/tmp/report.md', 'w') as fh:
+              fh.write('\n'.join(report))
+          print(f'Duplicates detected: {len(report)}')
+          PY
+
+          count="$(grep -c '^\- ⚠️' /tmp/report.md || true)"
+          count="${count:-0}"
+          delimiter="EOF_$(cat /proc/sys/kernel/random/uuid 2>/dev/null || date +%s)_$$"
+          {
+            echo "report<<${delimiter}"
+            cat /tmp/report.md
+            echo "${delimiter}"
+            echo "count=$count"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Comment findings
+        if: steps.detect.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUM: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          REPORT: ${{ steps.detect.outputs.report }}
+        run: |
+          {
+            echo "🐋 **Duplicate-entry check** found a possible duplicate:"
+            echo
+            echo "$REPORT"
+            echo
+            echo "<details><summary>Why this matters</summary>"
+            echo
+            echo "Duplicate rows make two descriptions of the same project disagree, inflate category counts, and confuse anyone parsing the list. Cross-section listings (same project under two different categories) are fine and are not flagged."
+            echo
+            echo "Remove the duplicate line (or rename it if it is a genuinely different project) and the flag clears on the next push."
+            echo
+            echo "</details>"
+          } > /tmp/comment.md
+          gh pr comment "$PR_NUM" --repo "$REPO" --body-file /tmp/comment.md
