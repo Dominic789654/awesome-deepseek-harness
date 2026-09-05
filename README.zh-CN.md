@@ -887,6 +887,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [misaka-link/deepseek-harness-docker](https://github.com/misaka-link/deepseek-harness-docker) —— dsh 一键 docker 梭哈！集成可视化 Admin 管理后台、访问认证、容器内 Chromium 浏览器桌面（noVNC）与插件应用市场，免回环开箱即用。
 - [tianjiqx/dsh-runtime-observability](https://github.com/tianjiqx/dsh-runtime-observability) —— DeepSeek Harness 运行时可观测性插件。基于 OpenTelemetry 采集事件循环、内存、CPU、工作负载与子代理生命周期指标；支持断路器、ELU 降级联动及可选 Pyroscope 连续 Profiling。
 - [TT-Wang/dsh-eval-infra](https://github.com/TT-Wang/dsh-eval-infra) —— 面向 DeepSeek Harness (dsh) 组件的配对 A/B 评测基础设施：真实运行时下的交替重复运行、验证器自检、单变量对照组、回归门控、缓存与日历感知成本、CLI + Web UI。
+- [po-et/dsh-http-probe](https://github.com/po-et/dsh-http-probe) —— DeepSeek Harness 插件：http_probe 工具——检查任意 HTTP 端点的状态、延时与响应头。
 
 ## 安全与权限
 
@@ -1079,6 +1080,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) —— dsh 本地加密凭据保险库：Web 设置页与 vault_* 工具，存取与复制密码、API 密钥、TOTP、银行卡信息，支持健康审计、到期轮换、导入导出与只读/询问访问模式。
 - [Wisdoverse/dsh-git-auth-plugin](https://github.com/Wisdoverse/dsh-git-auth-plugin) —— 通过 DSH 凭据或环境变量完成 GitHub 与 GitLab CLI 鉴权，支持工作区本地 SSH 部署密钥与插件设置。
+- [njjpro/dsh-vault](https://github.com/njjpro/dsh-vault) —— 面向 DeepSeek Harness (DSH) 的持久化凭据保险库插件，在一个设置面板中管理 API 令牌、服务器登录信息与站点凭据。
+- [weibaohui/user-management](https://github.com/weibaohui/user-management) —— dsh 插件 · 用户管理：dsh web 登录门禁 + 用户/角色/登录记录/访问记录管理，首个注册者即管理员。
 
 ## 会话与记忆管理
 
@@ -1484,6 +1487,10 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [haitang1/dsh-memory](https://github.com/haitang1/dsh-memory) —— 类 Codex 持久记忆插件，适配 DeepSeek Harness：自动注入记忆摘要、记忆工具、按会话的 rollout 摘要，以及本地化的 Web 设置卡。
 - [niushuanan/dsh-chat-migration](https://github.com/niushuanan/dsh-chat-migration) —— DeepSeek Harness 原生聊天迁移与无工作区聊天模式。
 - [niushuanan/dsh-selection-memory](https://github.com/niushuanan/dsh-selection-memory) —— 引用、讨论或记住选中的对话文本，在可分别编辑的用户与 AI 记忆中持久保存上下文。
+- [po-et/dsh-session-guard](https://github.com/po-et/dsh-session-guard) —— 会话级安道锁，防止两个 dsh 进程同时写入导致同一会话日志损坏，与 dsh-session-rescue 配套使用。
+- [po-et/dsh-session-rescue](https://github.com/po-et/dsh-session-rescue) —— 修复 DeepSeek Harness 中的“会话日志损坏”问题：诊断、安全修复并打救损坏的 dsh 会话，零依赖。
+- [po-et/dsh-session-snapshot](https://github.com/po-et/dsh-session-snapshot) —— 在每个回合边界对每个 dsh 会话进行滚动、完整性校验的备份——损坏最大代价仅为当前未完成的一个回合，属于 session-integrity 套件的一部分。
+- [quqxui/dsh-memgas](https://github.com/quqxui/dsh-memgas) —— DeepSeek Harness 长期记忆插件：四通道检索融合 + 记忆演化闭环，检索方法来自 ICLR 2026 论文 MemGAS。
 
 ## 成本与用量统计
 
@@ -3023,6 +3030,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [batteryshark/orchestra-next](https://github.com/batteryshark/orchestra-next) —— 基于 DeepSeek Harness (dsh) 构建的本地集群持久化 agent 运行方案。Orchestra 精简重写版：单一执行路径、stdlib Python、SQLite、三文件控制台。
 - [Erick114514/dsh-agent-hub](https://github.com/Erick114514/dsh-agent-hub) —— DeepSeek Harness 宿主插件：deepseek / claude-code / codex 共享的 Agent Hub 信箱工具。
 - [Momojie-S/dsh-subagent-model](https://github.com/Momojie-S/dsh-subagent-model) —— DSH 插件：subagent_model 工具——委派子代理时按调用选择模型路由（dsh-tool-subagent 的最小化分支）。
+- [onclaw-dev/dsh-workflow-designer](https://github.com/onclaw-dev/dsh-workflow-designer) —— 面向 DeepSeek Harness 的提示词优先工作流设计插件。它收集当前 Agent 可见的本地 Skill、原生 Tool 与 MCP Tool，提供必要的可视化编排和约束编辑能力，并导出稳定的 YAML 中间表示。后续可由大模型及对应框架把 YAML 生成 Python、`workflow.mjs` 或其他代码工作流。
 
 ## UI / 客户端
 
@@ -4192,6 +4200,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [niushuanan/dsh-whale-girl](https://github.com/niushuanan/dsh-whale-girl) —— 添加一个跨页面的原生伴侣角色，其存在感、快捷键与反馈随当前 DSH 会话状态变化。
 - [statem-li/dsh-chat-flow](https://github.com/statem-li/dsh-chat-flow) —— DSH 思考与工具调用聚合：回合级思考 chip（实时时长/实时文字滚动）+ 工具调用聚合 chip + 共享活动抽屉 + 对话流卡片（步骤卡/总结卡，回合结束后才出现）——自 dsh-webui 移植。零 DSH 源码改动。
 - [bitxeno/dsh-github-picker](https://github.com/bitxeno/dsh-github-picker) —— 为 DeepSeek Harness web GUI 提供 GitHub issue 与 pull request 引用功能。
+- [oxlyn/dsh-flyout-sidebar](https://github.com/oxlyn/dsh-flyout-sidebar) —— DeepSeek Harness 的浮出式侧边栏插件。
+- [simune/dsh-desktop](https://github.com/simune/dsh-desktop) —— 面向 DeepSeek Harness 的插件管理工作区，及一个基于 Tauri 的桂面客户端（dsh-desktop），将 dsh Web 服务打包并以原生窗口展现，简化桂面端部署与使用体验。
+- [weibaohui/dsh-file-share](https://github.com/weibaohui/dsh-file-share) —— dsh 插件 · 目录共享：任意可配置目录经 HTTP 在线浏览/上传/下载 + 对话框中 @ 文件交给 agent 处理。
+- [xi-kari/dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) —— 翁法罗斯 × DSH：黄金裔席位工作区与画布工作台（基于 DeepSeek Harness 构建，非官方）。
 
 ## Skill
 
