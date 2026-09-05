@@ -1882,6 +1882,8 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [HiQ-AI/dingtalk-dsh-assistant](https://github.com/HiQ-AI/dingtalk-dsh-assistant) — 基于 DeepSeek Harness 的钉钉群聊常驻个人助理插件。
 - [kittcat-lab/dsh-kitt-voice](https://github.com/kittcat-lab/dsh-kitt-voice) — 为 DeepSeek Harness 提供语音能力：对话主体，听到回复，并通过一个始终置顶的悬浮窗查看它在做什么。
 - [wzj998/ChatCCC](https://github.com/wzj998/ChatCCC) — 飞书（Lark）或微信（WeChat）聊天控制 DeepSeek Harness / Claude Code / Cursor / Codex / CCC Agent。
+- [PerryLink/dsh-reach](https://github.com/PerryLink/dsh-reach) —— 将 DSH 的审批卡与提问卡推送到 IM 渠道（先微信）并在聊天中作答，带逐渠道安全与开放推送服务。
+- [PerryLink/dsh-wechat](https://github.com/PerryLink/dsh-wechat) —— 将微信私聊消息桥接到 DSH，支持文本、图片、文件与音视频双向传输。
 ## 插件市场与生态
 
 _插件市场、安装管理器、索引与生态工具。_
@@ -2865,6 +2867,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [yu-tengguo/dsh-browser-tool](https://github.com/yu-tengguo/dsh-browser-tool) —— 面向 DeepSeek Harness Agent 的零依赖内置浏览器工具（基于本地 Chrome/Edge 的 CDP）。
 - [HTian-qwq/prts-terrarchive](https://github.com/HTian-qwq/prts-terrarchive) —— 为明日方舟的长篇剧情打造的 RAG 类 DSH 插件，拥有多种快速检索能力。
 - [shenkonghui/dsh-llm-acp](https://github.com/shenkonghui/dsh-llm-acp) —— DeepSeek Harness 的 ACP 客户端 LLM 适配器 + ACP 服务设置界面。通过外部 [Agent Client Protocol](https://agentclientprotocol.com) 服务器作为模型提供方接入 harness 的 LLM 层，并提供一个 Web 设置页用于浏览 ACP 注册表和管理已配置的服务器。
+- [PerryLink/dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) —— TickTick（滴答清单）任务桥：会话页头部任务面板与精选代理工具，走官方 TickTick MCP 端点。
+- [PerryLink/dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) —— 暴露 DSH 插件认证注册表与规范的 MCP 服务器。
 
 ## 编排器与聚合器
 
