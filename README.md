@@ -1876,6 +1876,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [wzj998/ChatCCC](https://github.com/wzj998/ChatCCC) — Control DeepSeek Harness / Claude Code / Cursor / Codex / CCC Agent from Feishu (Lark) or WeChat chat.
 - [lemoncat7/dsh-partner](https://github.com/lemoncat7/dsh-partner) — Long-lived AI companions with WeChat channel routing for DeepSeek Harness.
 - [azure5100/huahua-dsh-chatroom](https://github.com/azure5100/huahua-dsh-chatroom) — dsh-chat/dsh-weave cross-machine group chat: Fix1-Fix4 adaptation patches plus an ops documentation set (sanitized).
+- [PerryLink/dsh-reach](https://github.com/PerryLink/dsh-reach) — Pushes DSH approval and question cards to IM channels (WeChat first) and answers them from chat, with per-channel security and an open push service.
+- [PerryLink/dsh-wechat](https://github.com/PerryLink/dsh-wechat) — Bridges WeChat private messages to DSH with two-way text, image, file, and media transfer.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -2863,6 +2865,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [HTian-qwq/prts-terrarchive](https://github.com/HTian-qwq/prts-terrarchive) — A RAG-style DSH plugin built for the long-form story content of Arknights, with multiple fast-retrieval capabilities.
 - [shenkonghui/dsh-llm-acp](https://github.com/shenkonghui/dsh-llm-acp) — ACP client LLM adapter + ACP service settings UI for DeepSeek Harness. Connects an external [Agent Client Protocol](https://agentclientprotocol.com) server as a model provider for the harness's LLM layer, with a web settings page to browse the ACP registry and manage configured servers.
 - [xuanyuanchumo/dsh-codegraph-visualizer](https://github.com/xuanyuanchumo/dsh-codegraph-visualizer) — Code-graph visualizer for DSH.
+- [PerryLink/dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) — TickTick (Dida365) task bridge: a session-header task panel and curated agent tools over the official TickTick MCP endpoint.
+- [PerryLink/dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) — MCP server exposing the DSH plugin certification registry and spec.
 
 ## Orchestrators & Aggregators
 
