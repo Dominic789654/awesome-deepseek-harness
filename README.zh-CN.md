@@ -1749,6 +1749,8 @@ _token 用量、成本看板与预算告警插件。_
 - [305037991x-pixel/dsh-account-balance](https://github.com/305037991x-pixel/dsh-account-balance) —— DeepSeek Harness Web 的 DeepSeek 账户余额小组件：3 分钟自动刷新，展示总额/充值/赠送明细。
 - [305037991x-pixel/dsh-opencode-go](https://github.com/305037991x-pixel/dsh-opencode-go) —— DeepSeek Harness Web 的 OpenCode GO 套餐用量小组件：双账户滚动/周/月配额，3 分钟自动刷新，悬浮查看单账户明细。
 - [KIDLi1412/dsh-token-heatmap](https://github.com/KIDLi1412/dsh-token-heatmap) —— DSH web 插件：在新会话页展示 GitHub 风格的每日 Token 用量热力图，支持日历年视图切换、绿/蓝配色与显示开关，附今日/本月/全部时间总量。
+- [Liora2050348900/dsh-token-optimizer](https://github.com/Liora2050348900/dsh-token-optimizer) — DeepSeek Harness 分层 Token 优化管道：长文本转图摘要、输出阶梯压缩、重复读文件 diff、工具裁剪 + MCP 懒加载、压缩调度器、会话统计（含缓存命中率）。
+- [Liora2050348900/dsh-behavior-enhancer](https://github.com/Liora2050348900/dsh-behavior-enhancer) — 配套行为管理插件：工具调用纪律提示、失败触发的并行度收敛（降为 1、自动恢复）、连续失败用户介入。与 dsh-token-optimizer 互补。
 
 ## Channel / IM 桥接
 
