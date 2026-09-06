@@ -1759,6 +1759,9 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [305037991x-pixel/dsh-opencode-go](https://github.com/305037991x-pixel/dsh-opencode-go) — OpenCode GO plan usage chip for DeepSeek Harness Web: dual-account rolling/weekly/monthly quota, 3-min auto refresh, per-account hover breakdown.
 - [KIDLi1412/dsh-token-heatmap](https://github.com/KIDLi1412/dsh-token-heatmap) — DSH web plugin: GitHub-style daily token-usage heatmap on the new-session screen with a selectable calendar-year view, green/blue color schemes and a display switch, plus today / this-month / all-time totals.
 
+- [Liora2050348900/dsh-token-optimizer](https://github.com/Liora2050348900/dsh-token-optimizer) — Layered token-optimization pipeline for DSH: long-text-to-image summarization, output-ladder compression, repeated-read diff, tool-trim + lazy MCP load, compaction driver, session stats with cache-hit rate.
+- [Liora2050348900/dsh-behavior-enhancer](https://github.com/Liora2050348900/dsh-behavior-enhancer) — Companion behavior-management plugin: tool-call discipline prompt, failure-triggered parallelism convergence (drop to 1, auto-restore), consecutive-failure user intervention. Complements dsh-token-optimizer
+
 ## Channel / IM Bridges
 
 _Bridges DSH into chat platforms and messaging channels._
