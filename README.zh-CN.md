@@ -2221,6 +2221,7 @@ _生成演示文稿、幻灯片、导出 PPT。_
 - [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — 让 AI 做 PPT 的副驶，而非自动驶驶。DSH 预设，六步专家工作流，支持双路径触发，SVG 中间态 + PPT-safe 约束。
 ## 写代码
 
+- [HorusJiang/dsh-map-tools](https://github.com/HorusJiang/dsh-map-tools) — DeepSeek Harness 原生地图工具：驾车/公交/步行/骑行路线规划、地理编码、逆地理编码与 POI 搜索，高德数据为主，OSM/OSRM 免费兜底。
 - [shengbinxu/dsh-open-code-review](https://github.com/shengbinxu/dsh-open-code-review) — 面向 DeepSeek Harness (dsh) 的代码审查插件：open-code-review（ocr）委托——确定性文件选择与规则解析，由你自己的模型审查（无需额外 API Key）。
 - [magian1127/deepseek-harness-hashline](https://github.com/magian1127/deepseek-harness-hashline) — DeepSeek Harness hashline — 哈希锚点编辑。
 - [tntcannon5000/dsh-chat-fold](https://github.com/tntcannon5000/dsh-chat-fold) — 面向 DeepSeek Harness Web 的精简回合插件：在原生回合保持关闭的长会话中，恢复已完成回合的折叠显示。
