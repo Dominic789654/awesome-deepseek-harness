@@ -98,6 +98,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [baihejiangnan/dsh-plugin-pack-web](https://github.com/baihejiangnan/dsh-plugin-pack-web) —— DeepSeek Harness 插件包：Profile/Web 一键复刻（DSH Plugin Pack）。
 - [hili986/dshpack](https://github.com/hili986/dshpack) —— 把一个 dsh 场景导出成可安装、可分享、可审计的 pack，再将 pack 安装为标准 dsh profile。
 - [Kaalia0912/dsh-whale-musume-persona](https://github.com/Kaalia0912/dsh-whale-musume-persona) —— DeepSeek Harness 全局鲸鱼娘（大肥鱼）人设插件。
+- [keeshakulbida948-tech/dsh-plugin-fun](https://github.com/keeshakulbida948-tech/dsh-plugin-fun) —— 「阿蓝」人格插件：给 AI 注入热情不油腻、爱玩梗、短句优先的蓝色小鱼娘性格，内建表情包使用铁律（开心/吐槽/干饭/求夸时主动发、每轮最多 1 张、严肃话题不发），配合 dsh-plugin-sticker 效果最佳。
 - [xingyingyuzhui/dsh-agent-identity](https://github.com/xingyingyuzhui/dsh-agent-identity) —— 面向 DeepSeek Harness 的 Claw 人设文件：把 SOUL / AGENTS 等人设打进提示词。
 - [xingyingyuzhui/dsh-claw-suite](https://github.com/xingyingyuzhui/dsh-claw-suite) —— 面向 DeepSeek Harness 的 Claw Agent 治理套件：人设、权限、闸、委托、记忆。
 - [KannaKuron/dsh-ptc-cordis-preset](https://github.com/KannaKuron/dsh-ptc-cordis-preset) —— PTC 模式基础上的创造模式：DSH 插件，合成 Code Mode 工具编排 + 自引用 Cordis 工具与 preset 创作指导，物化为 'ptc-cordis' 用户 preset。
