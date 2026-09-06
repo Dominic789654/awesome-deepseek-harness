@@ -705,6 +705,11 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [Liu-Bot24/dsh-tunnel-client](https://github.com/Liu-Bot24/dsh-tunnel-client) —— DSH Tunnel：启动本机 DeepSeek Harness（DSH），并通过系统 OpenSSH 安全访问远程 DSH 的跨平台桥接客户端。
 - [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) —— DeepSeek Harness 计划任务插件包。
 - [soarGuo/dsh-auto-vision](https://github.com/soarGuo/dsh-auto-vision) —— 为不支持视觉的 DeepSeek Harness 模型把图片桥接为文本——消息本身保持不变，零人工配置。
+- [d4551/cloudflare-dsh](https://github.com/d4551/cloudflare-dsh) —— 面向 DeepSeek Harness 的 Cloudflare 工具集、AI Gateway 模型提供方与 MCP 透传。
+- [d4551/deepseek-harness](https://github.com/d4551/deepseek-harness) —— DeepSeek Harness 的 TS7 与 Bun 原生移植版本。
+- [dangpangch/dsh-acp](https://github.com/dangpangch/dsh-acp) —— DeepSeek Harness Cordis 插件（dsh、dsh-plugin）。
+- [grloper/dsh-claude-oauth](https://github.com/grloper/dsh-claude-oauth) —— 面向 DeepSeek Harness 的 Claude Pro/Max OAuth 模型提供方：设置页内 Google/Gmail 登录、自动刷新 token、实时模型发现与配额监控。
+- [WSK-build/DSHBox](https://github.com/WSK-build/DSHBox) —— 在 Android 手机上本机运行完整 DSH：一个 APK 内置 Debian、Node.js、DSH 与 WebView，无需 root 或 Termux。
 - [Shyboy0499/DeepSeek-Obsidian](https://github.com/Shyboy0499/DeepSeek-Obsidian) —— 面向 Obsidian 库的 DeepSeek 优先终端工具：语义搜索、笔记图谱、标签/链接管理，以及带权限控制的笔记编辑，基于 Textual TUI。
 - [SuperMate-Ai/SuperMate-Harness-System](https://github.com/SuperMate-Ai/SuperMate-Harness-System) —— 给 DeepSeek 装眼睛：一个 DeepSeek Harness（DSH）Skill，接入本地视觉模型或视觉 API，让 DeepSeek 能读图片与图形文件。
 
@@ -1112,6 +1117,12 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) —— 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
 - [AndrasSama/dsh-omp-advisor](https://github.com/AndrasSama/dsh-omp-advisor) —— 将 oh-my-pi 的 advisor 子系统移植到 DeepSeek Harness：独立的审阅模型在旁观察你的 agent 并提供建议（nit 注入、concern/blocker 提醒）。
+- [chuxindd/dsh-context-enhancement](https://github.com/chuxindd/dsh-context-enhancement) —— 面向 DeepSeek Harness 编码会话的持久化任务状态与上下文感知压缩。
+- [Icstick/dsh-adaptive-context](https://github.com/Icstick/dsh-adaptive-context) —— DeepSeek Harness 的 AdaptiveContextPlane（ACP）插件——带治理机制的长期记忆系统。
+- [Icstick/dsh-work-continuity](https://github.com/Icstick/dsh-work-continuity) —— DeepSeek Harness 的 Work Continuity 插件——跨会话工作状态显式持久化，与通用记忆解耦。
+- [polohot/dsh-adrian-inject-context](https://github.com/polohot/dsh-adrian-inject-context) —— 面向 DeepSeek Harness 的上下文注入插件：在 agent 启动时注入 system-prompt 上下文（agent、context-injection、dsh-plugin）。
+- [xiyiyiru/dsh-mode](https://github.com/xiyiyiru/dsh-mode) —— dsh 插件：switch_mode —— 五种工作模式，切换时即时注入对应方法论。
+- [xiyiyiru/dsh-state](https://github.com/xiyiyiru/dsh-state) —— dsh 插件：会话状态笔记本 + 任务栈——基于日志事件的 add/read/compact_state，零自动注入。
 - [ddtcorex/dsh-maestro-memory](https://github.com/ddtcorex/dsh-maestro-memory) —— 为 DeepSeek Harness 提供持久、跨会话的记忆与待办插件：五个轨道（全局/用户/项目/关键字/日常）、确认式写入门控、Git 后端同步，可原地遵循 ~/.dsh/memories 。
 - [hanshanyike/dsh-yolo](https://github.com/hanshanyike/dsh-yolo) —— 把对话里说过的重要事情，变成持续可跟进的计划。为 deepseek-harness 打造的个人助手：从对话中整理事项、跟踪变化，并在需要时提醒你。
 - [etony668/dsh-task-board](https://github.com/etony668/dsh-task-board) —— DSH 项目任务看板插件：会话「任务看板」视图 + 父子任务树工具与技能 + 本地 JSON 存储（从 CodexFF 移植）。
@@ -1515,6 +1526,7 @@ _token 用量、成本看板与预算告警插件。_
 - [1841220388zzzcccxxx-star/dsh-token-stats](https://github.com/1841220388zzzcccxxx-star/dsh-token-stats) —— DeepSeek Harness Token 用量统计插件：按模型/日期/会话统计用量与费用（USD/CNY），支持 CSV/JSON 导出。
 - [lninghaha/dsh-hub-oauth-gateway](https://github.com/lninghaha/dsh-hub-oauth-gateway) —— DSH Web 插件：带 Hub 快照与费用分析的用量中心、coding-plan OAuth，以及可选的本地回环 OpenAI 兼容网关。
 - [z-col/dsh-deepseek-peak-valley](https://github.com/z-col/dsh-deepseek-peak-valley) —— DeepSeek 分时段计费小组件 · DSH client 插件（platform=web）：按北京时间自动判定高峰/空闲时段，10 款风格侧边栏小组件 + 设置页。
+- [xiyi123465/dsh-usage-calendar](https://github.com/xiyi123465/dsh-usage-calendar) —— DeepSeekAPI 余额查询插件。
 - [Glazyonyt/dsh-lowtide](https://github.com/Glazyonyt/dsh-lowtide) —— 用 dsh-lowtide 把 AI 任务排队到空闲时段执行，为 DeepSeek Harness 降低成本并自动化运行。
 - [qwert702/dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) —— CC Switch 风格的 Token 消耗统计插件：按请求记录逐条统计、真实消耗英雄卡（含缓存命中率）、按请求时间分桶趋势图、从官网实时拉取并显示按模型的峰谷定价列表、按项目和模型汇总统计，以及账户余额。
 - [PolinniZhong/dsh-personal-center](https://github.com/PolinniZhong/dsh-personal-center) —— DeepSeek Harness 个人中心插件：个人资料统计（Token/工具调用/按模型分布/Token 活动）+ 个性化自定义指令。本地运行，不联网。
@@ -2045,6 +2057,7 @@ _插件市场、安装管理器、索引与生态工具。_
 
 - [lamost423/dsh-maze](https://github.com/lamost423/dsh-maze) —— DSH agent 的执行迷宫（原 dsh-trace-compare）：主路径、失败岔路与回退全部落在一条墙上时钟时间轴上，逐步数据轨道（工具密度 / token 脉冲 / 上下文压力）、可点击取证式的确定性执行分析，最多 5 次运行同轴对比；附带实时生长的会话级迷宫标签页。
 - [KevinZhangNothing/dsh-task-graph](https://github.com/KevinZhangNothing/dsh-task-graph) — DeepSeek Harness (DSH) 的任务流 / 执行图谱插件 —— 可视化单个任务的完整运行：agent、工具、skill、子任务、重试、实时状态。DSH 单任务执行流程图谱插件。
+- [momo-gen/dsh-canvas](https://github.com/momo-gen/dsh-canvas) —— 覆盖在 DSH 对话壳之上的可开关无限进程画布——对实时进程进行平移/缩放、标注偏离、引导纠偏。
 - [KL3jd/handwritten-ocr](https://github.com/KL3jd/handwritten-ocr) — 本地 OCR 的 DSH 插件：手写中文 + 数学公式 → 带 LaTeX 的 Markdown，支持 GPU / CPU 后端。
 - [a1303845406/dsh-comfy-video-studio](https://github.com/a1303845406/dsh-comfy-video-studio) — DeepSeek Harness 的 ComfyUI MiniMax H3 视频工作台。
 - [Reseezhang/vizcb-codeblock-visualizer](https://github.com/Reseezhang/vizcb-codeblock-visualizer) —— DeepSeek Harness 可视化插件：svg/html/mermaid 代码块渲染为图表卡片（宿主端 mermaid、深色主题配色、节点文字自适应、灯箱、保存导出）。
@@ -4250,6 +4263,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [JochenYang/dsh-app](https://github.com/JochenYang/dsh-app) —— 社区维护的 DeepSeek Harness 品牌化桌面端客户端，支持 Windows / macOS / Linux。
 - [KyoMio/dsh-zen-remote](https://github.com/KyoMio/dsh-zen-remote) —— 让 DSH 变成可公网安全访问的手机 App：极简的移动端 UI 重构 + 配对码网关 + PWA + Web Push。
 - [yunmin311/dsh-universal-palette](https://github.com/yunmin311/dsh-universal-palette) —— 面向 DeepSeek Harness Web 的半透明毛玻璃式通用命令面板，整合命令、会话、模型、对话命中结果，带丰富的二级操作与确定性的 context/frecency 排序。
+- [DepressionL/fortune-assistant](https://github.com/DepressionL/fortune-assistant) —— dsh 算命插件。
+- [frank-fan-818/dsh-f1-skin](https://github.com/frank-fan-818/dsh-f1-skin) —— 面向 DeepSeek Harness Web UI 的 F1 赛事控制主题皮肤——Red Bull、Ferrari、McLaren 与 Mercedes 团队主题、转播现场背景图与原生设置面板，支持暗色/亮色两种模式。
+- [OuYangxin12/dsh-status-bar](https://github.com/OuYangxin12/dsh-status-bar) —— 面向 DeepSeek Harness Web GUI 的实时执行状态栏：实时活动 + 事件驱动的 LLM 成果摘要，带可展开的详情报告。
+- [shengmk/godsh](https://github.com/shengmk/godsh) —— DeepSeek Harness (dsh) 的 GUI 启动器：管理 profile、插件、kernel 与 dsh 版本。
 
 ## Skill
 
