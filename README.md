@@ -2872,6 +2872,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Modellix/dsh-modellix](https://github.com/Modellix/dsh-modellix) — DeepSeek Harness plugin for Modellix Web Search and Web Fetch.
 - [rogerdigital/dsh-searxng](https://github.com/rogerdigital/dsh-searxng) — DeepSeek Harness plugin that adds a SearXNG-backed web_search provider to the ctx.web seam — free, self-hosted, key-less search instead of paid Exa/Perplexity APIs.
 - [RailgunHamster/dsh-web-search](https://github.com/RailgunHamster/dsh-web-search) — A DeepSeek Harness plugin for selecting and routing web search providers.
+- [Shyboy0499/dsh-web-search](https://github.com/Shyboy0499/dsh-web-search) — Web search tool for DeepSeek Harness: query + ranked results.
 - [Yinxe/dsh-tavily-search](https://github.com/Yinxe/dsh-tavily-search) — Tavily AI search provider for DeepSeek Harness.
 - [yu-tengguo/dsh-browser-tool](https://github.com/yu-tengguo/dsh-browser-tool) — Zero-dependency built-in browser tools (CDP over local Chrome/Edge) for DeepSeek Harness agents.
 - [HTian-qwq/prts-terrarchive](https://github.com/HTian-qwq/prts-terrarchive) — A RAG-style DSH plugin built for the long-form story content of Arknights, with multiple fast-retrieval capabilities.
