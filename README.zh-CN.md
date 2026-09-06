@@ -1084,6 +1084,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Wisdoverse/dsh-git-auth-plugin](https://github.com/Wisdoverse/dsh-git-auth-plugin) —— 通过 DSH 凭据或环境变量完成 GitHub 与 GitLab CLI 鉴权，支持工作区本地 SSH 部署密钥与插件设置。
 - [njjpro/dsh-vault](https://github.com/njjpro/dsh-vault) —— 面向 DeepSeek Harness (DSH) 的持久化凭据保险库插件，在一个设置面板中管理 API 令牌、服务器登录信息与站点凭据。
 - [weibaohui/user-management](https://github.com/weibaohui/user-management) —— dsh 插件 · 用户管理：dsh web 登录门禁 + 用户/角色/登录记录/访问记录管理，首个注册者即管理员。
+- [pure-craft/dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) —— DeepSeek Harness 插件：看清 agent 实际能触达什么——skills、MCP server、系统工具的真实上下文内状态，支持按会话/按 preset 单独开关。
 
 ## 会话与记忆管理
 
@@ -1495,6 +1496,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [quqxui/dsh-memgas](https://github.com/quqxui/dsh-memgas) —— DeepSeek Harness 长期记忆插件：四通道检索融合 + 记忆演化闭环，检索方法来自 ICLR 2026 论文 MemGAS。
 - [hpyperry/dsh-ref-lib](https://github.com/hpyperry/dsh-ref-lib) —— 给 DeepSeek Harness 的每个会话挂一个「只读参考库」：把本地目录（项目源码、内部文档）登记为参考库后，agent 回答前会先去这些目录里查证，查不到才允许走外部途径；按会话独立生效，分支会话自动继承。
 - [sharedcare/dsh-conversation-rollback](https://github.com/sharedcare/dsh-conversation-rollback) —— 面向 DeepSeek Harness (DSH) Web UI 的 Codex 风格对话回滚与编辑重发插件。
+- [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) —— 面向 DSH 的贴心记忆伙伴插件：三层自动记忆、主动日程提醒、暖心 AI 问候、逐轮自动整理归档，并可继承其他 AI 工具留下的记忆。
+- [GooDAnDReaDY/dsh-context-lens](https://github.com/GooDAnDReaDY/dsh-context-lens) —— DSH 插件：AST 上下文压缩、测试日志过滤与 token 预算守卫。
 
 ## 成本与用量统计
 
@@ -2194,6 +2197,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [Stellum-Waq/dsh-pet-ronaldo](https://github.com/Stellum-Waq/dsh-pet-ronaldo) — C罗桌宠 · DeepSeek Harness 桌面宠物插件：葡萄牙 7 号 chibi 吉祥物，随 Agent 状态切换动画，对话完成 SIU 庆祝 + 提示音，支持导入自定义 spritesheet 统一管理。
 - [xuanyuanchumo/dsh-codegraph-visualizer](https://github.com/xuanyuanchumo/dsh-codegraph-visualizer) —— dsh 的代码图谱可视化。
 - [mokuyoaxis/dsh-iris](https://github.com/mokuyoaxis/dsh-iris) —— 面向 DeepSeek Harness 的多媒体生成与视觉理解插件，支持多供应商路由与集成的 Iris 工作台。
+- [abiddotdev/dsh-visualizer](https://github.com/abiddotdev/dsh-visualizer) —— 面向 DSH 的会话/数据可视化插件（上游描述较简略）。
 ## 幻灯片 / PPT
 
 _生成演示文稿、幻灯片、导出 PPT。_
@@ -3042,6 +3046,9 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [Erick114514/dsh-agent-hub](https://github.com/Erick114514/dsh-agent-hub) —— DeepSeek Harness 宿主插件：deepseek / claude-code / codex 共享的 Agent Hub 信箱工具。
 - [Momojie-S/dsh-subagent-model](https://github.com/Momojie-S/dsh-subagent-model) —— DSH 插件：subagent_model 工具——委派子代理时按调用选择模型路由（dsh-tool-subagent 的最小化分支）。
 - [onclaw-dev/dsh-workflow-designer](https://github.com/onclaw-dev/dsh-workflow-designer) —— 面向 DeepSeek Harness 的提示词优先工作流设计插件。它收集当前 Agent 可见的本地 Skill、原生 Tool 与 MCP Tool，提供必要的可视化编排和约束编辑能力，并导出稳定的 YAML 中间表示。后续可由大模型及对应框架把 YAML 生成 Python、`workflow.mjs` 或其他代码工作流。
+- [AllDurham/foreman-dsh](https://github.com/AllDurham/foreman-dsh) —— 贵脑+贱手：面向 DeepSeek Harness 的 cloud-orchestrator + local-worker 双通道（delegate 与只读侦察）| 社区 Agent 预设。
+- [Canary-Builds/dhs-connect](https://github.com/Canary-Builds/dhs-connect) —— DSH Connect：基于 Codex app-server 的 DeepSeek Harness ChatGPT 模型连接器。
+- [Wecury/dsh-owui-chat2api](https://github.com/Wecury/dsh-owui-chat2api) —— 把 Open WebUI 上的模型转成 OpenAI 兼容 API 供 DeepSeek Harness 使用，附控制面板与用量看板。
 
 ## UI / 客户端
 
@@ -4217,6 +4224,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [hpyperry/dsh-cajita](https://github.com/hpyperry/dsh-cajita) —— deepseek-harness 小工具合集插件：用户消息旁的内联编辑按钮、web_fetch 内网放行开关（web-fetch-policy），以及回合完成/审批的浏览器系统通知（turn-notify）。
 - [Small-tailqwq/dsh-internet-angel-desktop](https://github.com/Small-tailqwq/dsh-internet-angel-desktop) —— 一款基于主播女孩重度依赖创建的、适用于 DSH 的实验性主题皮肤，非商业同人项目。
 - [weibaohui/dsh-xiuxian](https://github.com/weibaohui/dsh-xiuxian) —— dsh 插件 · 修仙陪伴：随机唤醒一位《凡人修仙传》角色，Q版电子宠物悬浮陪伴你写代码（自带2496角色数据集）。
+- [AliceLJY/dsh-thumb](https://github.com/AliceLJY/dsh-thumb) —— 面向 DeepSeek Harness (dsh) 网页端的手机壳：侧边栏变成覆盖式抽拉抽屉，设置页变成全屏单列，不硬编码 host 类名哈希。
+- [AQian0/dsh-desktop](https://github.com/AQian0/dsh-desktop) —— 基于 Tauri 的简易 dsh 桌面端套壳。
+- [JochenYang/dsh-app](https://github.com/JochenYang/dsh-app) —— 社区维护的 DeepSeek Harness 品牌化桌面端客户端，支持 Windows / macOS / Linux。
+- [KyoMio/dsh-zen-remote](https://github.com/KyoMio/dsh-zen-remote) —— 让 DSH 变成可公网安全访问的手机 App：极简的移动端 UI 重构 + 配对码网关 + PWA + Web Push。
+- [yunmin311/dsh-universal-palette](https://github.com/yunmin311/dsh-universal-palette) —— 面向 DeepSeek Harness Web 的半透明毛玻璃式通用命令面板，整合命令、会话、模型、对话命中结果，带丰富的二级操作与确定性的 context/frecency 排序。
 
 ## Skill
 
