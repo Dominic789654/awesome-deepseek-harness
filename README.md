@@ -2213,6 +2213,7 @@ _Generate presentations, decks, slide exports._
 - [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — A DSH preset that makes the AI a PPT co-pilot rather than an autopilot: a six-step expert workflow supporting dual-path triggers, an SVG intermediate state, and PPT-safe constraints.
 ## Coding
 
+- [HorusJiang/dsh-map-tools](https://github.com/HorusJiang/dsh-map-tools) — Native map tools for DeepSeek Harness: driving/transit/walking/bicycling route planning, geocoding, reverse geocoding and POI search, powered by Amap with a free OSM/OSRM fallback.
 - [shengbinxu/dsh-open-code-review](https://github.com/shengbinxu/dsh-open-code-review) — A DeepSeek Harness (dsh) plugin for code review: open-code-review (ocr) delegation — deterministic file selection & rule resolution, reviewed by your own model (zero extra API key).
 - [magian1127/deepseek-harness-hashline](https://github.com/magian1127/deepseek-harness-hashline) — DeepSeek Harness hashline: hash-anchor editing.
 - [tntcannon5000/dsh-chat-fold](https://github.com/tntcannon5000/dsh-chat-fold) — Compact turn folding for DeepSeek Harness Web: restores collapsed completed turns in long sessions where stock folding stays disabled.
