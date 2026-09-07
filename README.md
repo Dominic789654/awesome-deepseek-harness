@@ -150,6 +150,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [ptonlix/dsh-forge](https://github.com/ptonlix/dsh-forge) — Building an auditable desktop distribution around DeepSeek Harness (DSH).
 - [tianyuegithub/dsh-pactflow](https://github.com/tianyuegithub/dsh-pactflow) — DSH PactFlow (zero-pulse mode) external Profile Bundle.
 - [zachshi-ai/newmind](https://github.com/zachshi-ai/newmind) — Old-wisdom × new-intelligence lab: each classical school of thought solves one real AI problem. #1 zhizhi (知止) — a behavior-moderation layer for DeepSeek Harness inspired by the Tao Te Ching, aimed at agent reliability.
+- [chr003/dsh-subagent-model-picker](https://github.com/chr003/dsh-subagent-model-picker) — Separate per-session model and reasoning effort controls for DeepSeek Harness subagents.
 
 ## Harnesses & Runtimes
 
@@ -1091,6 +1092,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [taoshi1999/dsh-workspace-hygiene](https://github.com/taoshi1999/dsh-workspace-hygiene) — DeepSeek Harness plugin for agent workspace hygiene: artifact value assessment, metadata indexing, and auditable cleanup.
 - [xxww0098/dsh-plugin-oauth-subs](https://github.com/xxww0098/dsh-plugin-oauth-subs) — ChatGPT Codex and xAI Grok subscription OAuth for DeepSeek Harness — PKCE / device-code, local Responses proxy, llm-pi-ai sync.
 - [AndKinoko/DSH-Search-Citation-Auditor](https://github.com/AndKinoko/DSH-Search-Citation-Auditor) — Audit citation sources in AI responses: extract URLs from the reply, score and rank them by threat level, and output a detailed report. Domains on your blocklist are genuinely blocked — web tools such as web_search and web_fetch will directly refuse to access them, with the blocklist fully maintained by you.
+- [bailong-Hakuryu/dsh-security-assurance](https://github.com/bailong-Hakuryu/dsh-security-assurance) — Policy-driven repository security assurance plugin for DeepSeek Harness with package lifecycle assessments, evidence, findings, verdicts, exports, and /security routing.
 
 - [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) — Encrypted local credentials vault for dsh: a web settings page and vault_* tools for passwords, API keys, TOTP secrets and cards, with health audits, expiry rotation, imports/exports and read-only/ask access modes.
 - [Wisdoverse/dsh-git-auth-plugin](https://github.com/Wisdoverse/dsh-git-auth-plugin) — GitHub and GitLab CLI authentication through DSH credentials or environment tokens, with workspace-local SSH deploy keys and plugin settings.
@@ -1522,6 +1524,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) — A caring memory companion for DSH — three-layer auto memory, proactive calendar reminders, warm AI greetings, per-turn auto-consolidation, and inheritance of memories from other AI tools.
 - [GooDAnDReaDY/dsh-context-lens](https://github.com/GooDAnDReaDY/dsh-context-lens) — DSH plugin for AST context compression, test log filtering, and token budget guard.
 - [bainianlaoyao/dsh-session-robustness](https://github.com/bainianlaoyao/dsh-session-robustness) — DSH plugin: after official llm-retry (n/5) exhausts, keep retrying transient API failures on the same open step until success, cancel, or pause.
+- [leolee9086/dsh-better-retry](https://github.com/leolee9086/dsh-better-retry) — Smarter exponential retry rules for DeepSeek Harness.
 - [haichangcharles/dsh-context-map](https://github.com/haichangcharles/dsh-context-map) — Visual, user-controlled conversation context for long-horizon agents, built on DeepSeek Harness.
 - [jonah791/dsh-agent-checkpoint](https://github.com/jonah791/dsh-agent-checkpoint) — Checkpoint manager: a last-resort survival mechanism plus a trial-and-rollback tool. Creates health checkpoints (memory store + soul + checksum) on schedule/event/owner command, validates that a checkpoint can actually boot, and one-click restores the most recent healthy checkpoint after a failure.
 
@@ -1922,6 +1925,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [PerryLink/dsh-reach](https://github.com/PerryLink/dsh-reach) — Pushes DSH approval and question cards to IM channels (WeChat first) and answers them from chat, with per-channel security and an open push service.
 - [PerryLink/dsh-wechat](https://github.com/PerryLink/dsh-wechat) — Bridges WeChat private messages to DSH with two-way text, image, file, and media transfer.
 - [gcry13067381632-jpg/dsh-qqbot](https://github.com/gcry13067381632-jpg/dsh-qqbot) — DSH integration for the official QQ bot: rich media send/receive, sticker library, multi-preset multi-instance, scheduled wakeups, remote approval, delayed reply aggregation, and autonomous silence/reply.
+- [FeatherHunter/dsh-im-companion](https://github.com/FeatherHunter/dsh-im-companion) — Enhances dsh-im with the concept of an assistant and a home: see at a glance which workspace each assistant is managing and whether it is online, and drag to move it between workspaces.
+- [V-Reason/dsh-task-notify](https://github.com/V-Reason/dsh-task-notify) — Push notifications (WeChat + Windows notifications) for DeepSeek Harness when a task completes.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -2727,6 +2732,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [Angel2518975237/captain-ai](https://github.com/Angel2518975237/captain-ai) — Captain AI — a resumable, multi-agent DeepSeek Harness workflow for job-hunting company screening: a fearless captain's-log-style navigator for career direction in a tough job market.
 - [flg1217/dsh-subagent-codebuddy](https://github.com/flg1217/dsh-subagent-codebuddy) — CodeBuddy CLI ACP subagent plugin for DSH: subagent provider + subagent_codebuddy tool.
 - [gongyijie85/dsh-agent-frugality](https://github.com/gongyijie85/dsh-agent-frugality) — Multi-agent frugality defense plugin for DeepSeek Harness: read-ledger dedup, compaction-immune rules, completion gate, cheap-review lane.
+- [GooDAnDReaDY/dsh-moa](https://github.com/GooDAnDReaDY/dsh-moa) — Mixture of Agents (MoA) plugin for DeepSeek Harness with /moa slash command, file workspaces, and Live Canvas integration.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4315,6 +4321,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [WongYuYe/dsh-composer-recall](https://github.com/WongYuYe/dsh-composer-recall) — Arrow-key input history for the DSH web composer on 0.1.2-alpha.1.
 - [tr1v3r/dsh-quote-followup](https://github.com/tr1v3r/dsh-quote-followup) — Quote selected conversation content into a targeted follow-up turn for DeepSeek Harness — TUI face (message picker) + Web face (selection quote button), public seams only.
 - [zhaoxuejie/dsh-plugin-internet-meme](https://github.com/zhaoxuejie/dsh-plugin-internet-meme) — Local internet-meme danmu/subtitle overlay plugin for the DeepSeek Harness Web UI, with themes, custom captions, and optional alert sounds.
+- [Elave-66/dsh-blue-sea-launcher](https://github.com/Elave-66/dsh-blue-sea-launcher) — Anime/Galgame-style launcher icon for DeepSeek Harness, featuring a whale-girl character.
+- [moxingovo/dsh-web-panel](https://github.com/moxingovo/dsh-web-panel) — Embed the DeepSeek Harness (dsh) web GUI in VS Code — zero-config auto-start, workspace follow, self-healing.
+- [Wanbinyu/dsh-launcher](https://github.com/Wanbinyu/dsh-launcher) — Double-click Windows launcher and tray app for DeepSeek Harness Web.
 
 ## Skills
 
