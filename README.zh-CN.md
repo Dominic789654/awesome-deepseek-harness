@@ -458,6 +458,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [1710782766/dsh-llm-vision](https://github.com/1710782766/dsh-llm-vision) —— 为 DeepSeek Harness 上的纯文本模型提供可靠的视觉 + OCR 能力：`describe_image`（普通/关键模式）+ `extract_text` 工具，自动预处理、重试机制以及持久化结果缓存。
 - [AbdullahElTiby/dsh-vision-bridge](https://github.com/AbdullahElTiby/dsh-vision-bridge) —— 面向纯文本模型（DeepSeek、pi-ai 路线）的视觉桥接插件：在 llm 流接口处由 Gemini Flash 描述附件图像，并提供 `describe_image` 工具。
 - [welsione/dsh-mmx-bridge](https://github.com/welsione/dsh-mmx-bridge) —— 为 DeepSeek Harness (DSH) 提供的 MiniMax 全能力桥接中心：图像理解（VLM）、文生/图生视频、语音、音乐、音频封面、网络搜索、额度查询——封装为一个包装 mmx-cli 的 `mmx_multimodal` 模型工具。
+- [nvbb/dsh-ollama-vision-bridge](https://github.com/nvbb/dsh-ollama-vision-bridge) —— DSH（≥ 0.1.2-rc.1）插件：聊天选中纯文本模型发图时，本地 Ollama VL 模型（默认 qwen3-vl:8b）自动描述图片并在同一模型步骤注入——全本地、无需云端，keep_alive 空闲即卸载（显存冷却）。
 - [xinyuehtx/dsh-plugin-hooks-ordering](https://github.com/xinyuehtx/dsh-plugin-hooks-ordering) —— 为 DeepSeek Harness 的 waterfall 和 serial 执行提供确定性的 hooks 监听排序。
 - [abhishekgahlot2/pi-dsh](https://github.com/abhishekgahlot2/pi-dsh) — Pi 编程代理 harness 桥接到 DeepSeek Harness：持久会话、因果历史、可逆组件与审批门控的宿主自扩展。
 - [Acidmoon/DIzzy-DSH](https://github.com/Acidmoon/DIzzy-DSH) — 个人 DSH 插件合集。
