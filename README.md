@@ -1914,7 +1914,6 @@ _Bridges DSH into chat platforms and messaging channels._
 
 _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) — A permanent DeepSeek Harness plugin that ships a project run & code viewer, program snapshots, a VTD conversation tree (edit / retry / branches) with message micro-versions, plus a DET feature manager and global plugin control.
-- [luoxin10086/dsh-tip-jar](https://github.com/luoxin10086/dsh-tip-jar) — 🫙 Tip jar for DeepSeek Harness: contributors declare USDC / fiat / subscription / sponsor-slot channels once in `sponsors.json`; users tip from the sponsor-center panel, the settings page, or tool-card credits. Pure P2P (no custody), privacy by default, on-chain radar + ethics badges. 打赏罐：开源贡献者的赞助入口。
 - [DSHPlugin.app](https://dshplugin.app/) — Independent DeepSeek Harness plugin directory with source-backed capability summaries, install information, repository activity, and security signals.
 - [YELEBAI/dsh-plugin-marketplace](https://github.com/YELEBAI/dsh-plugin-marketplace) — Verified plugin marketplace and autonomous registry for DeepSeek Harness
 
@@ -3060,7 +3059,6 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [timothysong0w0/dsh-loopback-serve](https://github.com/timothysong0w0/dsh-loopback-serve) — Minimal, upgrade-safe remote access to the DeepSeek Harness (dsh) Web UI over Tailscale Serve — dsh stays on loopback.
 - [Zouu-X/dsh_remote](https://github.com/Zouu-X/dsh_remote) — Mobile-first remote control workspace for DeepSeek Harness over your private Tailscale network: launch tasks, follow agents live, handle approvals, and read results from your phone without exposing the Harness to the public internet.
 - [HarcoChen/deepseek-harness-vscode](https://github.com/HarcoChen/deepseek-harness-vscode) — DeepSeek Harness (DSH) for VS Code — AI coding with native diffs, tool approvals, persistent sessions, and Trace insights.
-- [moonwellxh/DSH-Launcher](https://github.com/moonwellxh/DSH-Launcher) — DSH one-click launcher tray app (DeepSeek Harness launcher / tray).
 - [unswept-matchstick7542/DeepSeek-Harness-Token-Free](https://github.com/unswept-matchstick7542/DeepSeek-Harness-Token-Free) — Token-free desktop client built for the DeepSeek Harness ecosystem, supporting macOS and Windows, unlocking an efficient AI workflow at zero cost.
 - [d4551/DeepTail](https://github.com/d4551/DeepTail) — A Tauri 2 client — desktop, iOS, and Android — that connects to DeepSeek Harness hosts and gives you one control plane over the agent sessions running on all of them.
 - [MurasakiIzumi/dsh-ticker-jp](https://github.com/MurasakiIzumi/dsh-ticker-jp) — Floating ticker plugin for DeepSeek Harness (JP-stocks edition): a draggable, collapsible, semi-transparent widget in the top-right corner showing TOPIX-linked ETFs and the Nikkei 225 in real time, with custom Yahoo tickers and display names.
