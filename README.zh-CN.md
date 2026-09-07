@@ -3095,7 +3095,6 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [timothysong0w0/dsh-loopback-serve](https://github.com/timothysong0w0/dsh-loopback-serve) —— 基于 Tailscale Serve 对 DeepSeek Harness（dsh）Web UI 的极简、可安全升级远程访问方案——dsh 仍留在 loopback。
 - [Zouu-X/dsh_remote](https://github.com/Zouu-X/dsh_remote) —— 基于你自己的私有 Tailscale 网络，为 DeepSeek Harness 提供专为手机设计的工作界面：离开电脑也能发起任务、实时跟进 Agent、处理审批与阅读结果，同时不将 Harness 暴露到公网。
 - [HarcoChen/deepseek-harness-vscode](https://github.com/HarcoChen/deepseek-harness-vscode) —— DeepSeek Harness (DSH) for VS Code —— AI 编程助手：原生 Diff、工具审批、持久会话与 Trace 分析。
-- [moonwellxh/DSH-Launcher](https://github.com/moonwellxh/DSH-Launcher) —— DSH 魔偶助手（DSH 一键启动托盘）(DeepSeek Harness launcher / tray)。
 - [unswept-matchstick7542/DeepSeek-Harness-Token-Free](https://github.com/unswept-matchstick7542/DeepSeek-Harness-Token-Free) —— 为 DeepSeek Harness 生态打造的免 Token 费桌面端，支持 macOS 与 Windows，零成本解锁高效 AI 工作流。
 - [d4551/DeepTail](https://github.com/d4551/DeepTail) —— 一个 Tauri 2 客户端（桌面 / iOS / Android），连接多台 DeepSeek Harness host，在一个控制面里统一管理所有机器上运行的 agent 会话。
 - [MurasakiIzumi/dsh-ticker-jp](https://github.com/MurasakiIzumi/dsh-ticker-jp) —— DeepSeek Harness 的悬浮行情插件（日股改版）：在页面右上角显示一个可拖拽、可收起的半透明小窗，实时展示 TOPIX 联动 ETF 与日经225，并可自选任意 Yahoo 代码（支持自定义显示名）。
