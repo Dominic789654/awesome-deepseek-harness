@@ -898,6 +898,12 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [po-et/dsh-http-probe](https://github.com/po-et/dsh-http-probe) —— DeepSeek Harness 插件：http_probe 工具——检查任意 HTTP 端点的状态、延时与响应头。
 - [hyzyn/dsh-safe](https://github.com/hyzyn/dsh-safe) —— dsh 启动保险丝：社区插件不兼容导致 dsh 启动失败时，自动禁用坏插件并重试。
 - [wentao75/dsh-remote-auth](https://github.com/wentao75/dsh-remote-auth) —— 面向 DeepSeek Harness 的移动端远程访问鉴权插件。
+- [baihejiangnan/deepseek-harness-desktop](https://github.com/baihejiangnan/deepseek-harness-desktop) —— DeepSeek Harness 三端兼容桌面启动器：多实例完全隔离、并行协作，协作画布编排 Agent 工作流；便携版 Exe 一键启动、仅约 18M（不超过 20M）；双隔离机制让兼容性极强，无论 DSH 本体如何更新，兼容原生到野生狗奶。
+- [dll61/remote-coding-workstation-template](https://github.com/dll61/remote-coding-workstation-template) —— 电脑跑 DSH 和 CloudCLI，手机/平板通过 xEdge 或 Tailscale 私网远程使用；CloudCLI 按授权可接 Codex、Claude Code、DeepSeek，RustDesk 可控 Windows 桌面。
+- [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) —— 电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DSH 插件。
+- [Kaizin0226/dsh-supergrok](https://github.com/Kaizin0226/dsh-supergrok) —— 非官方 SuperGrok 接入与 Grok 优化模式，适配 DSH 0.1.2-rc.1 及配套核心补丁。
+- [MichengAI/dsh-btw](https://github.com/MichengAI/dsh-btw) —— DSH 一次性只读旁问插件：基于当前上下文回答，独立气泡，不执行工具。
+- [rickylabs/harness](https://github.com/rickylabs/harness) —— DeepSeek Harness (dsh) 插件包 Monorepo —— 确定性协调层。
 
 ## 安全与权限
 
@@ -1400,6 +1406,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [kanchengw/dsh-assembly.resume](https://github.com/kanchengw/dsh-assembly.resume) —— 将本地 Codex 和 Claude 会话导入 DeepSeek Harness。
 - [leonardoxr/dsh-companion](https://github.com/leonardoxr/dsh-companion) —— 为 DeepSeek Harness 原生客户端提供的只读工作区与会话 JSON API 插件。
 - [DDDonzy/dsh-history-rewind](https://github.com/DDDonzy/dsh-history-rewind) —— DSH 会话与工作区分支历史管理插件：支持对话/工作区快照，多分支自由分支跳转，回退（仅会话/仅代码/双轨全回退），同窗口原地热重载，影子 Git 仓库零污染、秒级快照、KV Cache 友好。
+- [GooDAnDReaDY/dsh-session-control](https://github.com/GooDAnDReaDY/dsh-session-control) —— 面向 DeepSeek Harness 侧边栏的会话管理插件：固定对话、搜索对话内容、读取已归档的逗字稿并隐藏噪音。
 - [Starry0214/dsh-memory](https://github.com/Starry0214/dsh-memory) —— DeepSeek Harness (DSH) 全局自动记忆插件：会话开始注入记忆、memory_search 检索工具、压缩检查点归档提醒（零写入提醒制）。
 - [EarzuChan/DshVibeLearning](https://github.com/EarzuChan/DshVibeLearning) —— 一个为 DeepSeek Harness 打造的 Vibe Learning 插件。
 - [chenhw7/dsh-memory](https://github.com/chenhw7/dsh-memory) —— Cairn —— 面向 DeepSeek Harness 的长期记忆插件（@chenhw7/dsh-memory）。持久化跨会话记忆：事实、偏好、纠错、经验教训。BM25 检索、三层作用域、人工确认写入。
@@ -1539,6 +1546,7 @@ _token 用量、成本看板与预算告警插件。_
 - [boNeXY226/dsh-cost-chip](https://github.com/boNeXY226/dsh-cost-chip) —— `/cost` 命令 + 悬浮费用胶囊，展示会话花费。
 - [better-er/dsh-live-token-stats](https://github.com/better-er/dsh-live-token-stats) —— DSH Web 插件：基于 DeepSeek 官方 BPE 分词器，在 composer 下方实时渲染 token 状态带，显示流式 TPS、输出 token 与首字延迟，并对比上一次 step 的估算与实际偏差；纯插件自包含，不改 DSH 源码。
 - [my-dsh/dsh-token-usage-dashboard](https://github.com/my-dsh/dsh-token-usage-dashboard) —— DeepSeek Harness 跨会话 Token 用量仪表盘插件：SQLite 后端采集 + 浏览器仪表盘面板。
+- [zouxiaoyang/dsh-commandcode-usage](https://github.com/zouxiaoyang/dsh-commandcode-usage) —— DSH 的 CommandCode 用量与余额面板。
 - [misakimiku2/dsh-cost-display](https://github.com/misakimiku2/dsh-cost-display) —— 成本显示。
 - [suimi8/dsh-cost-ledger](https://github.com/suimi8/dsh-cost-ledger) —— 成本账本。
 - [xie-tj/dsh-token-usage-ledger](https://github.com/xie-tj/dsh-token-usage-ledger) —— DeepSeek Harness 的持久化用量账本与 Web 用量仪表盘插件。
@@ -2257,6 +2265,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [shine-233/dsh-codex](https://github.com/shine-233/dsh-codex) —— 把 openai/codex 能力移植进 DeepSeek Harness (dsh) 的 monorepo：线协议契约、沙箱、策略引擎、会话套件、编辑融合、提示词资产、移植台账与集成装配。
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) —— 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。
 - [ByxHuster/DSH-Paper-Highlighting-Agent](https://github.com/ByxHuster/DSH-Paper-Highlighting-Agent) —— 基于 DeepSeek Harness (DSH) 构建的交互式论文高亮工具，仍在开发中。
+- [Mekansm1/DSH-WebGIS](https://github.com/Mekansm1/DSH-WebGIS) —— DeepSeek Harness (DSH) WebGIS 插件：地图阅读、地图操作与三维世界理解。
 
 - [lemonxiny55/dsh-code-index](https://github.com/lemonxiny55/dsh-code-index) —— 语义代码仓索引插件：基于 tree-sitter 的符号索引、排序符号搜索，并将有界的自动更新仓库地图注入系统提示词 —— 补充 dsh 缺失的类似 aider repo-map / Cursor `@Codebase` 能力。
 - [lvxinrong/dsh-archscope](https://github.com/lvxinrong/dsh-archscope) —— 面向 DeepSeek Harness 的证据驱动式系统架构侦察。
@@ -2738,6 +2747,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [maskshell/solidforge-dsh](https://github.com/maskshell/solidforge-dsh) —— 面向 DeepSeek Harness 的收敛工程（Loop-Engineering）系统，以 DSH 预设与任意会话皮可使用的全局插件两种形式交付。收敛 → 规格化 → 实现：并行 TDD 双环收敛门禁、对抗式跨源评审、对源逐条引用核查、先行技术碰撞检索——每道门控均提供诚实记录，绝不静默转绥。
 - [leinasi2014/dsh-rlm](https://github.com/leinasi2014/dsh-rlm) —— 面向 DeepSeek Harness 的极简持久化 Python RLM 循环插件。
 - [que3sui/dsh-darwin](https://github.com/que3sui/dsh-darwin) —— DeepSeek Harness (dsh) 双插件自进化架构：dsh-sentinel 机械挖掘会话日志生成问题工单 + dsh-forge 分级合成/评测门/确定性回滚。
+- [grloper/dsh-deep-research](https://github.com/grloper/dsh-deep-research) —— Kestrel —— 一个不会引用来源中不存在说法的研究引擎：只有引文在源中可被机械定位时才能被引用，企及以独立来源数而非来源总数计量交叉验证。DeepSeek Harness 插件 + 独立库，零依赖。
 
 - [2672243194/dsh-read-url](https://github.com/2672243194/dsh-read-url) —— DeepSeek Harness 网页阅读器：抓取任意网页并返回干净的正文文本/Markdown。自动识别编码（GBK/GB2312/UTF-8/Big5），省 token（6000 字符上限、缓存、offset），零依赖，无需 API key。
 - [guo6x/dsh-pilot](https://github.com/guo6x/dsh-pilot) —— 给你的 DSH agent 一双手：在对话中驱动真实浏览器（通过 CDP 连接 Edge/Chrome）——基于 ref 的点击、按会话隔离的浏览器实例，以及一个实时驾驶舱面板。零运行时依赖，无需 API key。
@@ -3098,6 +3108,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [youridol/dsh-launcher](https://github.com/youridol/dsh-launcher) —— DeepSeek Harness 启动器与运行环境管理器（Tauri 2 + Rust + React）。
 - [776138506/pinpoint](https://github.com/776138506/pinpoint) —— 指哪打哪：在任意网页标记元素并评论，截图+结构化文本直达 dsh 会话（dsh 插件 + 浏览器扩展）。
 - [Jstn-1g/dsh-live-voice](https://github.com/Jstn-1g/dsh-live-voice) —— DSH Live Voice 预览版：面向 DeepSeek Harness 的合规语音附加组件，精确会话隔离，支持一次受限的手动语音回合。
+- [zhm20001/dsh-diary](https://github.com/zhm20001/dsh-diary) —— dsh 日记插件：纸感信笺风 web 页写日记，原文先落盘、AI 评注后生成。
 - [tianhanly/dsh-official-port-nav](https://github.com/tianhanly/dsh-official-port-nav) —— 在 Harness 中完美复刻 DeepSeek 官方右侧聊天导航。
 - [TussalZeus18028/dsh-open-folder](https://github.com/TussalZeus18028/dsh-open-folder) —— DeepSeek Harness 打开文件夹插件（dsh-plugin）。
 - [LamplitIsles/dsh-companion](https://github.com/LamplitIsles/dsh-companion) —— 基于 Svelte 构建的 dsh 伴侣式 AI 前端。
