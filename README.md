@@ -2776,6 +2776,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 _Model Context Protocol servers that contribute tools / prompts / resources to DSH._
 
 <!-- Add entries here. -->
+- [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) — Connects DeepSeek Harness to Busabase knowledge and structured data over MCP, renders records and ChangeRequests in a live inspector, and keeps agent writes behind human review.
 - [xiaokaizhou/dsh-llm-multimodal](https://github.com/xiaokaizhou/dsh-llm-multimodal) — DSH plugin: image/video generation tools in chat, backed by an OpenAI-compatible API.
 - [ZIye1208/dsh-github-mcp](https://github.com/ZIye1208/dsh-github-mcp) — DSH plugin: GitHub MCP connection plugin, token stored in the DSH credentials center (.credentials.yaml), auto-bundles the companion panel plugin dsh-github-mcp-hint (independently uninstallable).
 - [ZIye1208/dsh-github-mcp-hint](https://github.com/ZIye1208/dsh-github-mcp-hint) — DSH plugin: GitHub MCP example-prompt panel (Settings → Plugins, random 4/30 copyable prompts) + public repo stats (stars/forks) + a gh_repo_stats model tool (star count / 14-day clone count).
