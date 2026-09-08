@@ -3952,7 +3952,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [hytime/dsh-client-ui-shortcuts](https://github.com/hytime/dsh-client-ui-shortcuts) —— 面向 DeepSeek Harness Web Client 的按 Profile 区分的键盘快捷键。
 - [Kreatur-ECHO/dsh-task-complete-notifier](https://github.com/Kreatur-ECHO/dsh-task-complete-notifier) —— DeepSeek Harness 任务完成通知插件——DSH任务完成提醒：任务真正结束时右下角弹出置顶深色卡片，无音频。
 - [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) —— 面向 DeepSeek Harness 的可视化、非线性对话工作区插件：基于画布的会话探稢器与分支工作区。
-- [zexadev/dsh-tether](https://github.com/zexadev/dsh-tether) —— 从手机跨网络访问你开发机上的 DeepSeek Harness——完全不经服务器（iroh P2P）。
+- [zexadev/dsh-tether](https://github.com/zexadev/dsh-tether) —— 通过 iroh 点对点连接远程访问开发机 DSH Web 界面的 Android 客户端，支持中继回退；iOS 构建为测试版。
 - [ardli-firman/dsh-model-search-plugin](https://github.com/ardli-firman/dsh-model-search-plugin) —— DeepSeek Harness 可搜索模型选择器——按名称搜索模型，无需滚动列表。
 - [kasparovabi/dsh-studio](https://github.com/kasparovabi/dsh-studio) —— 非官方的 dsh（DeepSeek agent harness）原生 macOS（SwiftUI）客户端——会话、实时轨迹、工具审批、模型、目标、子代理。
 - [chengoak/dsh-font-size](https://github.com/chengoak/dsh-font-size) —— DSH Web GUI 插件：在 Settings → General 中提供“对话字体大小”滑块（12-22 px）。
