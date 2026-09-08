@@ -1480,7 +1480,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [lovezi0/dsh-memory-palace](https://github.com/lovezi0/dsh-memory-palace) —— 把 WorkBuddy 的文件式记忆系统移植进 DeepSeek Harness —— 为 Harness 提供跨会话持久化、人类可直接编辑的 Markdown 记忆。
 - [benz-ai-x/dsh-session-graph](https://github.com/benz-ai-x/dsh-session-graph) —— DeepSeek Harness 的可视化会话图插件 —— 在交互式画布上浏览、排列、分枝、合并与汇总 AI agent 会话。
 - [ErrorLst/dsh-notes](https://github.com/ErrorLst/dsh-notes) —— DeepSeek Harness (dsh) 笔记插件。
-- [jingchangzhao-gif/dsh-note](https://github.com/jingchangzhao-gif/dsh-note) —— 跨编辑器 AI 写作助手：维护长期文档上下文、总结先前内容、规划后续章节、提取关键信息，并支持语义化文档问答。
+- [jingchangzhao-gif/dsh-note](https://github.com/jingchangzhao-gif/dsh-note) —— 面向 DeepSeek Harness 的本地 Markdown 笔记与跨会话记忆插件，支持关键词搜索、笔记编辑、限量上下文召回与记忆压缩。
 - [Lsc-91-69/dsh-brain-compaction](https://github.com/Lsc-91-69/dsh-brain-compaction) —— 人脑式上下文压缩逻辑，大幅减少长任务上下文占用以及 token 消耗。
 - [PolinniZhong/dsh-session-workbench](https://github.com/PolinniZhong/dsh-session-workbench) —— DeepSeek Harness 会话工作台：会话库（历史会话全文搜甩与召回）+ 会话视图（标签栏显示/隐藏 + 拖拽排序）。
 - [Yvesgao/dsh-env-profile](https://github.com/Yvesgao/dsh-env-profile) —— DSH 全局经验插件：自动探测环境 + 跨会话档案 + 低开销注入，减少重复探测、加快会话、降低 token。
