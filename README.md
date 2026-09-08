@@ -908,6 +908,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [WLV-ZEDD/dsh-chatgpt-web](https://github.com/WLV-ZEDD/dsh-chatgpt-web) — DSH ChatGPT Free bridges standard ChatGPT Web directly into DeepSeek Harness.
 - [Lee-Si-Yoon/dsh-llm-friendli](https://github.com/Lee-Si-Yoon/dsh-llm-friendli) — FriendliAI serverless LLM adapter for DeepSeek Harness — OpenAI-compatible chat completions with dynamic model discovery and reasoning.
 - [superfish058/dsh-llm-proxy](https://github.com/superfish058/dsh-llm-proxy) — DSH model-proxy plugin: per-model routing through proxies (Clash, etc.), automatic retry on failure, multimodal model mirroring, per-model connection testing, model list synced with official releases, live-applied settings page.
+- [marcosmmjr2023/dsh-h-v1](https://github.com/marcosmmjr2023/dsh-h-v1) — FreeDSH: free-first multi-model routing, automatic fallback, safe updates and Brazilian Portuguese support for DeepSeek Harness.
+- [Rainflowers686/deepseek-harness-minimal-omni](https://github.com/Rainflowers686/deepseek-harness-minimal-omni) — DeepSeek Harness Minimal Omni developer preview: minimal-by-default runtime with on-demand capabilities and model-invisible governance.
 
 ## Security & Permissions
 
@@ -1531,6 +1533,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [eehcx/dsh-gentle-engram](https://github.com/eehcx/dsh-gentle-engram) — DSH adapter for Engram: a persistent memory bridge built with Cordis.
 - [IKEASven69/dsh-intelhub](https://github.com/IKEASven69/dsh-intelhub) — Personal intel station for DeepSeek Harness: turns encountered information into a searchable knowledge base with semantic/keyword hybrid retrieval, source citations, and Obsidian integration; zvec-native, no daemon or API key.
 - [robiteame/dsh-session-tree-extension](https://github.com/robiteame/dsh-session-tree-extension) — Append-only, multi-branch conversation trees for DeepSeek Harness: immutable history nodes, forks from any historical node, standard LLM message reconstruction, versioned JSON snapshots, and an embedded Web UI tree panel.
+- [chenqiuyushuang/dsh-nexus](https://github.com/chenqiuyushuang/dsh-nexus) — Zero-configuration, cost-aware memory layer for DeepSeek Harness; design finalized, with Phase 0 scaffolding in development.
+- [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) — DSH smart session-title plugin: uses an LLM to summarize and rewrite the title automatically after each conversation turn.
 
 ## Cost & Usage Tracking
 
@@ -2560,6 +2564,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [fangqian616/dsh-local-search](https://github.com/fangqian616/dsh-local-search) — Zero-dependency local Bing search DSH plugin.
 - [HaoyueQin/dsh-git-review](https://github.com/HaoyueQin/dsh-git-review) — DSH Git Review — a review tab + fenced git workbench for DeepSeek Harness: file tree, diffs, lane graph, and guarded git ops.
 - [Aealen/dsh-coding-workspace](https://github.com/Aealen/dsh-coding-workspace) — Coding workspace built on git worktrees for parallel development, adding cross-session collaboration primitives, a project-grouped sidebar, and a docked workspace panel — turns DSH's single-session UI into a multi-workspace parallel-development cockpit.
+- [zhaoxuejie/dsh-plugin-todo-scanner](https://github.com/zhaoxuejie/dsh-plugin-todo-scanner) — DeepSeek Harness TODO code scanner: recursively scans local code markers into structured lists, with status management, Markdown export and a TODO Radar sidebar panel.
 
 ## Agents
 
@@ -3096,6 +3101,8 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [Canary-Builds/dhs-connect](https://github.com/Canary-Builds/dhs-connect) — DSH Connect — ChatGPT model connector for DeepSeek Harness, powered by the Codex app-server.
 - [Wecury/dsh-owui-chat2api](https://github.com/Wecury/dsh-owui-chat2api) — Open WebUI models as an OpenAI-compatible API for DeepSeek Harness, with a control panel and usage dashboard.
 - [Kayungko/dsh-plugin-task-coordinator](https://github.com/Kayungko/dsh-plugin-task-coordinator) — Codex-style cross-task coordination for DeepSeek Harness: list, inspect, spawn, message and steer top-level sessions from a supervisor agent.
+- [edisontaisite/codex-harness-control](https://github.com/edisontaisite/codex-harness-control) — Open-source multi-model coordinator connecting Codex with DeepSeek Harness for automatic dispatch, review, and progress reporting.
+- [TIREEDMAN/dsh-mulanci](https://github.com/TIREEDMAN/dsh-mulanci) — MulanCi: multi-agent orchestration and per-agent authentication management; third-party DeepSeek Harness source preview.
 
 ## UI / Clients
 - [Miasakiii/dsh-miasaki](https://github.com/Miasakiii/dsh-miasaki) — Personal DSH (DeepSeek Harness) companion-project monorepo: desktop client (thin Tauri 2 shell + Win32 desktop pet + three themes) × Fleet multi-agent orchestration × Canvas plugin, three zero-coupled tracks.
@@ -4336,6 +4343,12 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [ice5kysl/dsh-file-explorer-kit](https://github.com/ice5kysl/dsh-file-explorer-kit) — Cordis bundle plugin to browse the active DSH workspace and preview Markdown, images, PDFs, text, and binary files inside the chat GUI, using read-only host routes and a conversation file tab.
 - [langyo/dsh-mobile-upgrade](https://github.com/langyo/dsh-mobile-upgrade) — Mobile UI fixes for the DeepSeek Harness web profile: composer uploads, restart row, narrow-screen drawer and tabs, and a full-width model menu.
 - [raomaiping-hash/dsh-codex-webui](https://github.com/raomaiping-hash/dsh-codex-webui) — DSH bundle plugin that adds a ChatGPT tab to the conversation view, embedding the local Codex desktop Web UI.
+- [aa2246740/dsh-dragndrop-attachments](https://github.com/aa2246740/dsh-dragndrop-attachments) — Codex-style drag-and-drop files, folders, ZIP and Office attachments for DeepSeek Harness.
+- [azazo1/dsh-think-window](https://github.com/azazo1/dsh-think-window) — DSH Web plugin that caps expanded thinking blocks with a bounded scroll window.
+- [HarnessDesk/HarnessDesk](https://github.com/HarnessDesk/HarnessDesk) — Open-source coding-agent control plane with shared history, permissions, handoffs and audit logs; connects DeepSeek Harness through a custom-command dsh-acp server.
+- [jypjypjypjyp/dsh-notifier](https://github.com/jypjypjypjyp/dsh-notifier) — DSH approval, completion and error notifications via browser Notification and native Windows/macOS/Linux toasts; configurable sounds, independent notifications and a banner fallback in non-secure contexts.
+- [lnyuqian/dsh-quick-prompts](https://github.com/lnyuqian/dsh-quick-prompts) — DSH Web quick-prompt plugin: select and send preset prompts beside the permission switch, with editable prompts persisted in the project root.
+- [loyalchiiina/dsh-todo-float-ball](https://github.com/loyalchiiina/dsh-todo-float-ball) — Floating progress ball for DeepSeek Harness: keeps the agent's todo_write checklist on a persistent, draggable ball with live status colors and English/Chinese support.
 
 ## Skills
 
