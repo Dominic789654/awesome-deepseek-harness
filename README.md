@@ -914,6 +914,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [GooDAnDReaDY/dsh-model-sync](https://github.com/GooDAnDReaDY/dsh-model-sync) — DSH plugin for scheduled API-key provider model-catalog discovery, configurable catalog updates, and endpoint-health checks.
 - [mo-n/dsh-provider-qoder](https://github.com/mo-n/dsh-provider-qoder) — Qoder subscription-provider adapter for DSH, with credential-backed model discovery and streamed chat through Qoder endpoints.
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) — DSH BigModel/GLM adapter with selectable Coding Plan or standard API endpoints, thinking-effort mapping, live catalog filtering, and a Web settings card; source builds require a compatible DSH workspace.
+- [weibaohui/dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — Host-side WebDAV directory-sharing plugin with token authentication, optional read-only access, and listener reconfiguration from DSH settings.
 
 ## Security & Permissions
 
@@ -1107,6 +1108,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [pure-craft/dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) — DeepSeek Harness plugin: see what your agent can actually reach — skills, MCP servers, system tools with true in-context state, and per-session / per-preset switches.
 - [jonah791/dsh-agent-preflight](https://github.com/jonah791/dsh-agent-preflight) — Sandbox preflight plugin (split off from dsh-agent-watch): mandatory pre-restart/pre-launch checks — plugin static health (lib/src freshness / schema DSL), disk space, profile-manifest validation, patch-file validation, peer dependencies, and environment variables.
 - [azazo1/dsh-write-protect](https://github.com/azazo1/dsh-write-protect) — DSH write/edit path protection with additional writable roots; sandboxed-command protection is supported through Linux bubblewrap and macOS Seatbelt.
+- [stadeummwt/dsh-supreme](https://github.com/stadeummwt/dsh-supreme) — Host-side governance bundle providing tool-call policy hooks, event logging, benchmark records, model-route selection, artifact validators, scoped memory selection, and workflow admission APIs; requires profile configuration.
 
 ## Session & Memory Management
 
@@ -4367,6 +4369,12 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [agent-mobile/dsh-speech](https://github.com/agent-mobile/dsh-speech) — DSH Web speech service with HTTP transcription/synthesis and WebSocket live transcription through configured speech providers.
 - [LengMu-Cloud/dsh-whale-assistant](https://github.com/LengMu-Cloud/dsh-whale-assistant) — DSH whale companion UI with cross-session task notifications, usage summaries, and shared on-host history; requires manual linking and profile registration.
 - [rye567/dsh-desktop](https://github.com/rye567/dsh-desktop) — Electron desktop client for local DSH Web on macOS and Windows, with npm-based core updates that restart the backend and reload the UI.
+- [hotpot-labs/dsh-notifier-plugin](https://github.com/hotpot-labs/dsh-notifier-plugin) — Client-side notifications for DSH run results, questions, and approval requests, with a settings panel; browser notifications by default and a separately built Tauri backend with platform-specific prerequisites.
+- [lucagiftzek/dsh-artifacts](https://github.com/lucagiftzek/dsh-artifacts) — Artifacts tab for dsh-better-sidebar that polls a separately supplied HTTP index and previews linked files in an iframe; HTML live reload depends on the serving endpoint.
+- [Manfredss/deepseek-blue-tui](https://github.com/Manfredss/deepseek-blue-tui) — Independent DeepSeek API terminal client with streaming Markdown, saved-session tools, and reasoning-effort/cost comparisons; optionally manages a local DSH Web process or delegates tasks to DSH headless.
+- [supergameboy/dsh-chat-focus](https://github.com/supergameboy/dsh-chat-focus) — DSH Web chat-layer plugin that replaces the host ui-chat row while retaining ui-conversation, grouping runtime activity into expandable boxes with configurable chat bubbles; source builds require a compatible DSH workspace.
+- [tuantuan0218/TDSH](https://github.com/tuantuan0218/TDSH) — Electron shell that attaches to or starts a local DSH Web UI, with scheduled update checks and user-triggered download/install actions; a separate agent-loop continuation patch requires manual application. Its loopback control API exposes AGENTS.md writes and update actions with permissive CORS and no explicit authentication or Origin check in the reviewed handler.
+- [tylina/dsh-tylina](https://github.com/tylina/dsh-tylina) — DSH integration for the proprietary Tylina Typst editor, sharing a session workspace and document tools; offers browser-WASM or native-runtime bundles with separately distributed editor assets.
 
 ## Skills
 
@@ -4641,6 +4649,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [VanadisGithub/dsh-skill-evolution](https://github.com/VanadisGithub/dsh-skill-evolution) — Hermes-style skill self-evolution plugin for DeepSeek Harness (DSH): crystallizes reusable agent skills from successful turns via signal-triggered LLM review, progressively improves them, and manages everything in a Settings panel.
 - [Fabian-698/dsh-upgrade-fix-012](https://github.com/Fabian-698/dsh-upgrade-fix-012) — Agent skill to diagnose and repair DeepSeek Harness 0.1.2-rc.x upgrade issues (UNKNOWN_MODEL, Session.events removal, and preset-missing resume), with a one-shot scan and dual verification gates.
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) — Video, audio, and screen understanding with timestamped evidence; DeepWatch brings that evidence and independent verification into a workspace built on official DeepSeek Harness, via MCP, CLI, REST, and Web.
+- [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — Manually registered DSH tool pack for renovation Q&A and inspection checklists, using keyword retrieval from user-supplied JSON knowledge files and rule-based risk labels.
 
 ## Resources
 
@@ -4670,6 +4679,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [awesome-deepseekharness/deepseek-official-tracker](https://github.com/awesome-deepseekharness/deepseek-official-tracker) — DeepSeek official tracker across 6 sources (API changelog, API news, deepseek.com blog, GitHub releases, HuggingFace, npm dsh); auto-updated every 6h by GitHub Actions.
 - [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book) — 《从零开始玩转 DeepSeek Harness》— a practical DeepSeek Harness field guide.
 - [PerryLink/dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) — DSH plugin development knowledge base plus the dsh-plugin-dev CLI toolchain.
+- [ddtcorex/dsh-maestro-ci](https://github.com/ddtcorex/dsh-maestro-ci) — Reusable GitHub Actions workflows for Maestro/DSH plugin build and test jobs, package-entry checks, publish dry-runs, and npm/GitHub releases; CI infrastructure rather than a runtime plugin.
+- [siweimofang/dsh-plugin-zhishe-common](https://github.com/siweimofang/dsh-plugin-zhishe-common) — Shared JavaScript library for Zhishe DSH plugins, exposing JSON knowledge lookup, bundled reference-price matching, and heuristic risk labels; not a standalone DSH plugin.
 
 ## Contributing
 

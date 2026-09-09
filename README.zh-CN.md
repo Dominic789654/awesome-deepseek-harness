@@ -915,6 +915,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [GooDAnDReaDY/dsh-model-sync](https://github.com/GooDAnDReaDY/dsh-model-sync) — DSH 模型目录插件，支持定时发现 API-key 供应商模型、按配置更新目录及检查端点健康状态。
 - [mo-n/dsh-provider-qoder](https://github.com/mo-n/dsh-provider-qoder) — DSH 的 Qoder 订阅模型适配器，通过凭据访问 Qoder 端点，提供模型发现与流式对话。
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) — DSH BigModel/GLM 适配器，可选择 Coding Plan 或普通 API 端点，提供思考强度映射、在线目录过滤与 Web 设置卡片；源码构建需要兼容的 DSH workspace。
+- [weibaohui/dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — 宿主侧 WebDAV 目录共享插件，提供令牌认证、可选只读访问，并根据 DSH 设置变更重建监听器。
 
 ## 安全与权限
 
@@ -1113,6 +1114,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [pure-craft/dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) —— DeepSeek Harness 插件：看清 agent 实际能触达什么——skills、MCP server、系统工具的真实上下文内状态，支持按会话/按 preset 单独开关。
 - [jonah791/dsh-agent-preflight](https://github.com/jonah791/dsh-agent-preflight) —— 沙盒预检插件（从 dsh-agent-watch 拆分）：重启/启动前强制预检——插件静态健康（lib/src 时效/schema DSL）、磁盘、profile manifest 校验、patch 文件校验、peer 依赖、环境变量。
 - [azazo1/dsh-write-protect](https://github.com/azazo1/dsh-write-protect) — DSH write/edit 路径写保护与额外可写目录配置；沙箱命令的路径保护通过 Linux bubblewrap 和 macOS Seatbelt 实现。
+- [stadeummwt/dsh-supreme](https://github.com/stadeummwt/dsh-supreme) — 宿主侧治理套件，提供工具调用策略钩子、事件日志、基准记录、模型路由选择、产物校验、按作用域选择记忆及工作流准入 API；需按 profile 配置。
 
 ## 会话与记忆管理
 
@@ -4364,6 +4366,12 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [agent-mobile/dsh-speech](https://github.com/agent-mobile/dsh-speech) — DSH Web 语音服务，通过已配置的语音供应商提供 HTTP 转写/合成及 WebSocket 实时转写。
 - [LengMu-Cloud/dsh-whale-assistant](https://github.com/LengMu-Cloud/dsh-whale-assistant) — DSH 小鲸鱼陪伴界面，提供跨会话任务通知、用量摘要与同一宿主共享的历史记录；需手工链接并注册到 profile。
 - [rye567/dsh-desktop](https://github.com/rye567/dsh-desktop) — 面向 macOS 和 Windows 的本地 DSH Web Electron 桌面客户端，通过 npm 更新核心后重启后端并重载界面。
+- [hotpot-labs/dsh-notifier-plugin](https://github.com/hotpot-labs/dsh-notifier-plugin) — DSH 运行结果、提问与审批请求的客户端通知插件，带设置面板；默认使用浏览器通知，另可构建带平台前提的 Tauri 后端。
+- [lucagiftzek/dsh-artifacts](https://github.com/lucagiftzek/dsh-artifacts) — 为 dsh-better-sidebar 添加 Artifacts 标签页，轮询另行提供的 HTTP 索引并通过 iframe 预览链接文件；HTML 实时刷新依赖文件服务端支持。
+- [Manfredss/deepseek-blue-tui](https://github.com/Manfredss/deepseek-blue-tui) — 独立 DeepSeek API 终端客户端，提供流式 Markdown、会话保存与操作、推理强度及成本估算对比；可选管理本地 DSH Web 进程或将任务交给 DSH headless。
+- [supergameboy/dsh-chat-focus](https://github.com/supergameboy/dsh-chat-focus) — DSH Web 聊天层插件，替换宿主 ui-chat 条目并保留 ui-conversation，将运行活动归入可展开框并提供可配置聊天气泡；源码构建需兼容的 DSH workspace。
+- [tuantuan0218/TDSH](https://github.com/tuantuan0218/TDSH) — Electron 桌面壳，可连接已有或启动本地 DSH Web 界面，定期检查更新并由用户触发下载/安装；另附需手工应用的 agent-loop 续跑补丁。 本次审查的 loopback 控制接口开放 AGENTS.md 写入与更新操作，使用宽松 CORS，处理器未见显式鉴权或 Origin 校验。
+- [tylina/dsh-tylina](https://github.com/tylina/dsh-tylina) — 专有 Tylina Typst 编辑器的 DSH 集成，共享会话工作区与文档工具；提供浏览器 WASM 或原生运行时 bundle，编辑器资产另行分发。
 
 ## Skill
 
@@ -4640,6 +4648,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [VanadisGithub/dsh-skill-evolution](https://github.com/VanadisGithub/dsh-skill-evolution) —— 面向 DeepSeek Harness (DSH) 的 Hermes 式技能自我进化插件：从成功的对话回合中提练可复用的 agent 技能（信号触发的 LLM 审阅），持续改进，并在 Settings 面板中统一管理。
 - [Fabian-698/dsh-upgrade-fix-012](https://github.com/Fabian-698/dsh-upgrade-fix-012) —— 诊断并修复 DeepSeek Harness 0.1.2-rc.x 升级问题的 Agent Skill：覆盖 UNKNOWN_MODEL、Session.events 移除和恢复会话时预设缺失，提供一次扫描与双重验证门。
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) —— 提供带时间戳证据的视频、音频与屏幕理解能力；DeepWatch 将这些证据与独立验证带入基于官方 DeepSeek Harness 的工作区，支持 MCP、CLI、REST 与 Web。
+- [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — 需手工注册的 DSH 装修问答与验收清单工具包，基于用户提供的 JSON 知识文件做关键词检索，并以规则生成风险标签。
 
 ## 资源
 
@@ -4669,6 +4678,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [awesome-deepseekharness/deepseek-official-tracker](https://github.com/awesome-deepseekharness/deepseek-official-tracker) — DeepSeek 官方动态追踪，覆盖 6 个信息源（API changelog、API news、deepseek.com 博客、GitHub releases、HuggingFace、npm dsh），GitHub Actions 每 6 小时自动更新。
 - [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book) — 《从零开始玩转 DeepSeek Harness》——DeepSeek Harness 实战指南。
 - [PerryLink/dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) —— DSH 插件开发知识库与 dsh-plugin-dev CLI 工具链。
+- [ddtcorex/dsh-maestro-ci](https://github.com/ddtcorex/dsh-maestro-ci) — 面向 Maestro/DSH 插件的可复用 GitHub Actions 工作流，涵盖构建、测试、包入口检查、发布预演及 npm/GitHub Release 发布；属于 CI 基础设施而非运行时插件。
+- [siweimofang/dsh-plugin-zhishe-common](https://github.com/siweimofang/dsh-plugin-zhishe-common) — 供知设 DSH 插件使用的共享 JavaScript 库，提供 JSON 知识检索、内置参考价格匹配与启发式风险标签；不是可独立挂载的 DSH 插件。
 
 ## 贡献指南
 
