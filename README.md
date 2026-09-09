@@ -23,6 +23,7 @@ This list collects the best of that ecosystem. Contributions welcome — see [Co
 npx @deepseek-ai/dsh web
 
 # Install a community plugin (from this list) into your profile
+- [col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) — Context Organization Layer for DSH/Cordis: `ctx.col` provides persistent organizational Contexts with replaceable executors (verified 3-tier write-back, audited history, model-callable `col.create_context` tool). Zero deps besides peer `@deepseek-ai/cordis`.
 dsh plugin --profile web add "github:owner/repo#main"
 ```
 
