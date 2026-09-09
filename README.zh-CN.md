@@ -3153,7 +3153,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [dushaobindoudou/dsh-bots](https://github.com/dushaobindoudou/dsh-bots) — 接入外部 sdk-bots 网关的 DSH Web 工作台，提供机器人与群组聊天、MCP 管理及逐机器人工作区设置。
 - [GooDAnDReaDY/dsh-kanban](https://github.com/GooDAnDReaDY/dsh-kanban) — DSH 看板，提供本地任务、Gitea issue 同步、工作流列及与任务关联的 Agent 会话。 本次审查源码的 worktree 任务详情存在渲染缺陷。
 - [EsonXie/dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) — 提供代理注册表、分层提示词、子代理委派、飞书机器人及 token 用量视图的 DSH 套件；源码构建依赖其 workspace 包。
-- [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) —— 面向 DSH/Cordis 的 Context Organization Layer（编排/组织层）：`ctx.col` 提供持久组织化 Context（职位）、可替换执行器、验证过的三层写回、可审计历史，以及可被模型调用的 `col.create_context` 工具。除 peer 依赖 `@deepseek-ai/cordis` 外零依赖。
+- [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) —— 面向 DSH/Cordis 的 Context Organization Layer（编排/组织层）：`ctx.col` 提供持久组织化 Context（职位）、可替换执行器、验证过的三层写回、可审计历史，以及可被模型调用的 `col.create_context` 工具。除 peer 依赖 `@deepseek-ai/cordis` 外零依赖。安装：npm i col-dsh-plugin.
 
 ## UI / 客户端
 
