@@ -916,6 +916,11 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [mo-n/dsh-provider-qoder](https://github.com/mo-n/dsh-provider-qoder) — DSH 的 Qoder 订阅模型适配器，通过凭据访问 Qoder 端点，提供模型发现与流式对话。
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) — DSH BigModel/GLM 适配器，可选择 Coding Plan 或普通 API 端点，提供思考强度映射、在线目录过滤与 Web 设置卡片；源码构建需要兼容的 DSH workspace。
 - [weibaohui/dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — 宿主侧 WebDAV 目录共享插件，提供令牌认证、可选只读访问，并根据 DSH 设置变更重建监听器。
+- [ChenYu1991ppak/Pydsh](https://github.com/ChenYu1991ppak/Pydsh) — DeepSeek Harness 的教学型 Python 重实现，提供插件装配、模型与工具循环及会话恢复。
+- [eskim2001/dsh-cloud](https://github.com/eskim2001/dsh-cloud) — 自托管 DSH 实例管理平台，提供逐实例 Docker 容器、持久存储、资源配额及基于所有者的访问检查。
+- [TencentCloudADP/Tencent-ADP-dsh-plugin](https://github.com/TencentCloudADP/Tencent-ADP-dsh-plugin) — 接入腾讯云 ADP 模型网关、混元搜索、可外部调用的 API/MCP 插件、技能及 ADP 应用子代理的 DSH 套件；需配置 ADP 凭据。
+- [yunxiyang/dsh-web-search-litellm](https://github.com/yunxiyang/dsh-web-search-litellm) — 通过已配置的 LiteLLM 代理发送 Responses API web_search 请求的 DSH 网页搜索 provider。
+- [zzzmmmnn/dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) — 通过本地 Python 辅助程序提供 OpenKapsel 远程工作区工具；bundle 启动入口安装专用预设，选用该预设时才启用工具与白名单守卫。
 
 ## 安全与权限
 
@@ -1115,6 +1120,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [jonah791/dsh-agent-preflight](https://github.com/jonah791/dsh-agent-preflight) —— 沙盒预检插件（从 dsh-agent-watch 拆分）：重启/启动前强制预检——插件静态健康（lib/src 时效/schema DSL）、磁盘、profile manifest 校验、patch 文件校验、peer 依赖、环境变量。
 - [azazo1/dsh-write-protect](https://github.com/azazo1/dsh-write-protect) — DSH write/edit 路径写保护与额外可写目录配置；沙箱命令的路径保护通过 Linux bubblewrap 和 macOS Seatbelt 实现。
 - [stadeummwt/dsh-supreme](https://github.com/stadeummwt/dsh-supreme) — 宿主侧治理套件，提供工具调用策略钩子、事件日志、基准记录、模型路由选择、产物校验、按作用域选择记忆及工作流准入 API；需按 profile 配置。
+- [lt9/dsh-simple-auth](https://github.com/lt9/dsh-simple-auth) — DSH 共享密钥登录门禁，支持可选的逐用户会话访问列表及由所有者管理的会话共享。
 
 ## 会话与记忆管理
 
@@ -1549,6 +1555,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [chenqiuyushuang/dsh-nexus](https://github.com/chenqiuyushuang/dsh-nexus) —— DeepSeek Harness 的零配置、成本自保记忆层；设计已定稿，处于 Phase 0 环境与骨架开发阶段。
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) —— DSH 会话智能标题插件：通过 LLM 总结改写会话标题，每轮对话后自动更新。
 - [xiazhenxin314-cpu/dsh-soul-memory](https://github.com/xiazhenxin314-cpu/dsh-soul-memory) — DSH 文件式跨会话记忆，提供 SOUL/MEMORY 提示注入、账号与项目日志、记忆读写工具和 Cordis 服务；以 ESM 交付，无需构建。
+- [azazo1/dsh-copy-session-ref](https://github.com/azazo1/dsh-copy-session-ref) — 为 DSH 会话菜单添加复制操作，将会话引用 mention 写入剪贴板。
+- [new-256/dsh-session-cleaner](https://github.com/new-256/dsh-session-cleaner) — DSH 会话回收站管理器，提供恢复、彻底清除、网页管理页及可配置的到期自动清理。
 
 ## 成本与用量统计
 
@@ -1956,6 +1964,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [gcry13067381632-jpg/dsh-qqbot](https://github.com/gcry13067381632-jpg/dsh-qqbot) — DSH 接入官方 QQ 机器人：富媒体收发 · 表情包图库 · 多预设多开 · 定时唤醒 · 远程审批 · 延迟聚合回复 · 自主静默or回复。
 - [FeatherHunter/dsh-im-companion](https://github.com/FeatherHunter/dsh-im-companion) —— 以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行。
 - [V-Reason/dsh-task-notify](https://github.com/V-Reason/dsh-task-notify) —— DeepSeek Harness 任务完成时进行消息推送提醒（微信 + Windows 通知）。
+- [bihangchi9-creator/dsh-lark-bridge](https://github.com/bihangchi9-creator/dsh-lark-bridge) — 将飞书/Lark 聊天桥接到代理会话的 DSH 插件，每个聊天对应持久项目目录；需配置机器人。
 ## 插件市场与生态
 
 _插件市场、安装管理器、索引与生态工具。_
@@ -2768,6 +2777,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [flg1217/dsh-subagent-codebuddy](https://github.com/flg1217/dsh-subagent-codebuddy) —— CodeBuddy CLI ACP 子代理插件：dsh subagent provider + subagent_codebuddy 工具。
 - [gongyijie85/dsh-agent-frugality](https://github.com/gongyijie85/dsh-agent-frugality) —— 面向 DeepSeek Harness 的多代理节约防护插件：读取账本去重、抵抗压缩的规则、完成门控、平价复审通道。
 - [GooDAnDReaDY/dsh-moa](https://github.com/GooDAnDReaDY/dsh-moa) —— 面向 DeepSeek Harness 的 Mixture of Agents（MoA）插件，提供 /moa 斜杠命令、文件工作区与 Live Canvas 集成。
+- [kvmem/dsh-super-advisor](https://github.com/kvmem/dsh-super-advisor) — 向已配置模型征求第二意见的 DSH 顾问工具，支持编辑请求预览与逐次审批。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -2973,6 +2983,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [STARDUSTLC666/dsh-calendar](https://github.com/STARDUSTLC666/dsh-calendar) — DeepSeek Harness 日历插件：CalDAV 日程查询、创建、修改、删除与搜索，支持 Google OAuth 2.0、iCloud、Nextcloud、自定义服务及离线配置自检。
 - [creativedswork/excalidraw-editor-mcp](https://github.com/creativedswork/excalidraw-editor-mcp) —— 一个以 MCP App 形式交付给 DeepSeek Harness 的 Excalidraw 画板。
 - [flg1217/dsh-web-search-openai](https://github.com/flg1217/dsh-web-search-openai) —— 面向 dsh 的 OpenAI Responses API 网页搜索 provider（web_search 工具）+ Web 设置卡。可热拔插插件。
+- [Across2005/harness-self-evolution-plugin](https://github.com/Across2005/harness-self-evolution-plugin) — 需从源码构建的插件扫描与提案管理 MCP 原型；默认 MoonBit 执行和验证为模拟实现，TypeScript 版本提供任务计划交接工具。
 
 ## 编排器与聚合器
 
@@ -3141,6 +3152,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [TIREEDMAN/dsh-mulanci](https://github.com/TIREEDMAN/dsh-mulanci) —— 木兰辞 MulanCi：多 Agent 编排与逐 Agent 认证管理，DeepSeek Harness 第三方源码预览。
 - [dushaobindoudou/dsh-bots](https://github.com/dushaobindoudou/dsh-bots) — 接入外部 sdk-bots 网关的 DSH Web 工作台，提供机器人与群组聊天、MCP 管理及逐机器人工作区设置。
 - [GooDAnDReaDY/dsh-kanban](https://github.com/GooDAnDReaDY/dsh-kanban) — DSH 看板，提供本地任务、Gitea issue 同步、工作流列及与任务关联的 Agent 会话。 本次审查源码的 worktree 任务详情存在渲染缺陷。
+- [EsonXie/dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) — 提供代理注册表、分层提示词、子代理委派、飞书机器人及 token 用量视图的 DSH 套件；源码构建依赖其 workspace 包。
 
 ## UI / 客户端
 
@@ -4372,6 +4384,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [supergameboy/dsh-chat-focus](https://github.com/supergameboy/dsh-chat-focus) — DSH Web 聊天层插件，替换宿主 ui-chat 条目并保留 ui-conversation，将运行活动归入可展开框并提供可配置聊天气泡；源码构建需兼容的 DSH workspace。
 - [tuantuan0218/TDSH](https://github.com/tuantuan0218/TDSH) — Electron 桌面壳，可连接已有或启动本地 DSH Web 界面，定期检查更新并由用户触发下载/安装；另附需手工应用的 agent-loop 续跑补丁。 本次审查的 loopback 控制接口开放 AGENTS.md 写入与更新操作，使用宽松 CORS，处理器未见显式鉴权或 Origin 校验。
 - [tylina/dsh-tylina](https://github.com/tylina/dsh-tylina) — 专有 Tylina Typst 编辑器的 DSH 集成，共享会话工作区与文档工具；提供浏览器 WASM 或原生运行时 bundle，编辑器资产另行分发。
+- [edgeseeker7/dsh-subagent-progress](https://github.com/edgeseeker7/dsh-subagent-progress) — 在对话输入框上方展示子会话活动及上报更新的 DSH 子代理进度面板。
+- [jaibhasin/dsh-browser-agent](https://github.com/jaibhasin/dsh-browser-agent) — 通过本地 WebSocket 连接提供页面快照、导航和交互的 Chrome 侧边栏客户端及 DSH 桥接插件；需构建两端组件。
+- [oh-summy/dsh-remote-control](https://github.com/oh-summy/dsh-remote-control) — 通过 Cloudflare Tunnel 与 Caddy 登录网关提供 DSH 远程访问的 macOS/Linux 脚本，支持可选飞书通知。
+- [yangcanbin31-coder/dsh-nazuna-wallpaper-engine](https://github.com/yangcanbin31-coder/dsh-nazuna-wallpaper-engine) — 衍生自 elysia395/dsh-wallpaper-engine 的荠主题 DSH 背景插件，提供紫色玻璃风格与吉祥物控件；应从本仓库安装而非使用上游同名 npm 包。
+- [zijun-T/dsh-sidebar-remote](https://github.com/zijun-T/dsh-sidebar-remote) — 为 DSH Better Sidebar 的文件操作、预览、终端与 Git 提供 SSH 远程工作区扩展；依赖兼容的 dsh-better-sidebar 与 dsh-ssh 插件。
 
 ## Skill
 
