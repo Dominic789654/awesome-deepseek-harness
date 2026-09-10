@@ -4668,6 +4668,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Fabian-698/dsh-upgrade-fix-012](https://github.com/Fabian-698/dsh-upgrade-fix-012) —— 诊断并修复 DeepSeek Harness 0.1.2-rc.x 升级问题的 Agent Skill：覆盖 UNKNOWN_MODEL、Session.events 移除和恢复会话时预设缺失，提供一次扫描与双重验证门。
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) —— 提供带时间戳证据的视频、音频与屏幕理解能力；DeepWatch 将这些证据与独立验证带入基于官方 DeepSeek Harness 的工作区，支持 MCP、CLI、REST 与 Web。
 - [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — 需手工注册的 DSH 装修问答与验收清单工具包，基于用户提供的 JSON 知识文件做关键词检索，并以规则生成风险标签。
+- [ybl2020/dsh-upgrade](https://github.com/ybl2020/dsh-upgrade) —— 可审核、可回滚、有证据的 DeepSeek Harness 升级流程技能：升级前评估、用户审核放行、强制备份与回滚手册、升级后证据驱动验证。
 
 ## 资源
 

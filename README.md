@@ -4669,6 +4669,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Fabian-698/dsh-upgrade-fix-012](https://github.com/Fabian-698/dsh-upgrade-fix-012) — Agent skill to diagnose and repair DeepSeek Harness 0.1.2-rc.x upgrade issues (UNKNOWN_MODEL, Session.events removal, and preset-missing resume), with a one-shot scan and dual verification gates.
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) — Video, audio, and screen understanding with timestamped evidence; DeepWatch brings that evidence and independent verification into a workspace built on official DeepSeek Harness, via MCP, CLI, REST, and Web.
 - [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — Manually registered DSH tool pack for renovation Q&A and inspection checklists, using keyword retrieval from user-supplied JSON knowledge files and rule-based risk labels.
+- [ybl2020/dsh-upgrade](https://github.com/ybl2020/dsh-upgrade) — Reviewable, rollback-safe DeepSeek Harness upgrade skill: pre-upgrade assessment, user approval gate, mandatory backup with rollback manual, and evidence-driven post-upgrade verification.
 
 ## Resources
 
