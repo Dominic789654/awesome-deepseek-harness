@@ -156,7 +156,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 
 _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime-level infrastructure (diagnostics, ops, session management, approval policies)._
 
-- [xingzhen199186/dsh-insight-tree](https://github.com/xingzhen199186/dsh-insight-tree) — DeepSeek Harness runtime observability and plugin diagnostics panel, combining profile, package, loader, and session evidence with installed-plugin controls and a standalone diagnostic page.
+- [xingzhen199186/dsh-insight-tree](https://github.com/xingzhen199186/dsh-insight-tree) — Runtime observability and plugin diagnostics panel for DeepSeek Harness, combining profile, package, loader, and session information with installed-plugin controls and a standalone diagnostic page.
 - [YJLTF/dsh-thinktune](https://github.com/YJLTF/dsh-thinktune) — Ollama adapter for DeepSeek Harness with configurable reasoning-effort levels, four thinking-control strategies, and multimodal image input.
 - [782042369/dsh-model-compat-guard](https://github.com/782042369/dsh-model-compat-guard) — DSH (DeepSeek Harness) compatibility guard plugin: fixes reasoning-model compaction truncation, doomed sandbox-escalation fail-close, and missing tool description for GPT/Qwen/third-party models.
 - [kristol07/dsh-discussions-digest](https://github.com/kristol07/dsh-discussions-digest) — A small, evidence-first DeepSeek Harness plugin for recent activity in the official GitHub Discussions.
@@ -3132,6 +3132,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [dushaobindoudou/dsh-bots](https://github.com/dushaobindoudou/dsh-bots) — DSH Web workbench for an external sdk-bots gateway, exposing bot/group chats, MCP management, and per-bot workspace settings.
 - [GooDAnDReaDY/dsh-kanban](https://github.com/GooDAnDReaDY/dsh-kanban) — DSH Kanban board with local tasks, Gitea issue synchronization, workflow columns, and agent sessions associated with tasks. The reviewed source has a rendering defect in worktree task details.
 - [EsonXie/dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) — DSH toolkit with an agent registry, layered prompts, subagent delegation, Feishu bots and token-usage views; source builds use its workspace packages.
+- [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) — Cordis service for DeepSeek Harness providing persistent contexts, executor bindings, confidence-label write-back rules, and event history; requires manual profile registration, with a separate example for model-tool registration.
 
 ## UI / Clients
 - [2021Heei/dsh-tts-flash](https://github.com/2021Heei/dsh-tts-flash) — Streaming reply read-aloud for DeepSeek Harness, with Edge TTS, OpenAI-compatible speech engines, and spoken waiting phrases.
