@@ -156,6 +156,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 
 _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime-level infrastructure (diagnostics, ops, session management, approval policies)._
 
+- [xingzhen199186/dsh-insight-tree](https://github.com/xingzhen199186/dsh-insight-tree) — Runtime observability and plugin diagnostics panel for DeepSeek Harness, combining profile, package, loader, and session information with installed-plugin controls and a standalone diagnostic page.
 - [782042369/dsh-model-compat-guard](https://github.com/782042369/dsh-model-compat-guard) — DSH (DeepSeek Harness) compatibility guard plugin: fixes reasoning-model compaction truncation, doomed sandbox-escalation fail-close, and missing tool description for GPT/Qwen/third-party models.
 - [kristol07/dsh-discussions-digest](https://github.com/kristol07/dsh-discussions-digest) — A small, evidence-first DeepSeek Harness plugin for recent activity in the official GitHub Discussions.
 - [MoriTang/dsh-plugins](https://github.com/MoriTang/dsh-plugins) — A collection of my DeepSeek Harness plugins.

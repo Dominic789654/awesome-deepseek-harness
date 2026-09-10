@@ -156,6 +156,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 
 _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运行时级基建（诊断、运维、会话管理、审批策略）。_
 
+- [xingzhen199186/dsh-insight-tree](https://github.com/xingzhen199186/dsh-insight-tree) —— DeepSeek Harness 运行可观测与插件诊断面板，汇总 profile、安装包、加载器及会话信息，提供已安装插件操作和独立诊断页。
 - [782042369/dsh-model-compat-guard](https://github.com/782042369/dsh-model-compat-guard) —— DSH（DeepSeek Harness）兼容性守卫插件：修复推理模型压缩截断问题、危险的沙箱越权 fail-close 缺陷，以及 GPT/Qwen/第三方模型缺失工具描述的问题。
 - [kristol07/dsh-discussions-digest](https://github.com/kristol07/dsh-discussions-digest) —— 一个小型的、以证据为先的 DeepSeek Harness 插件，用于追踪官方 GitHub Discussions 的最新动态。
 - [MoriTang/dsh-plugins](https://github.com/MoriTang/dsh-plugins) —— 个人 DeepSeek Harness 插件合集。
