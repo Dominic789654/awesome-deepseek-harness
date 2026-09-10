@@ -151,6 +151,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [tianyuegithub/dsh-pactflow](https://github.com/tianyuegithub/dsh-pactflow) —— DSH PactFlow（零脉模式）外部 Profile Bundle。
 - [zachshi-ai/newmind](https://github.com/zachshi-ai/newmind) —— 老思想 × 新智能实验室：每门经典思想精确解决一个 AI 真实问题。#1 知止 zhizhi —— DeepSeek Harness 的行为节制层（道德经 × Agent 可靠性）。
 - [chr003/dsh-subagent-model-picker](https://github.com/chr003/dsh-subagent-model-picker) —— 为 DeepSeek Harness 子代理提供独立的按会话模型与推理强度控制。
+- [clearnature/dsh-math-proof](https://github.com/clearnature/dsh-math-proof) —— DeepSeek Harness 数学证明 Agent 预设：以 Agda 内核校验证明，采用先计算后验证的流程，并用长程台账记录对象构造方式、证据档位与被否证的判断。
 
 ## Harness 与运行时
 
@@ -923,6 +924,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [TencentCloudADP/Tencent-ADP-dsh-plugin](https://github.com/TencentCloudADP/Tencent-ADP-dsh-plugin) — 接入腾讯云 ADP 模型网关、混元搜索、可外部调用的 API/MCP 插件、技能及 ADP 应用子代理的 DSH 套件；需配置 ADP 凭据。
 - [yunxiyang/dsh-web-search-litellm](https://github.com/yunxiyang/dsh-web-search-litellm) — 通过已配置的 LiteLLM 代理发送 Responses API web_search 请求的 DSH 网页搜索 provider。
 - [zzzmmmnn/dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) — 通过本地 Python 辅助程序提供 OpenKapsel 远程工作区工具；bundle 启动入口安装专用预设，选用该预设时才启用工具与白名单守卫。
+- [ice5kysl/dsh-why](https://github.com/ice5kysl/dsh-why) —— DeepSeek Harness 只读故障诊断 CLI：检查插件加载器注册、engines.dsh 兼容性及已知破坏性变更；零依赖，可离线使用。
 
 ## 安全与权限
 
@@ -1560,6 +1562,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [xiazhenxin314-cpu/dsh-soul-memory](https://github.com/xiazhenxin314-cpu/dsh-soul-memory) — DSH 文件式跨会话记忆，提供 SOUL/MEMORY 提示注入、账号与项目日志、记忆读写工具和 Cordis 服务；以 ESM 交付，无需构建。
 - [azazo1/dsh-copy-session-ref](https://github.com/azazo1/dsh-copy-session-ref) — 为 DSH 会话菜单添加复制操作，将会话引用 mention 写入剪贴板。
 - [new-256/dsh-session-cleaner](https://github.com/new-256/dsh-session-cleaner) — DSH 会话回收站管理器，提供恢复、彻底清除、网页管理页及可配置的到期自动清理。
+- [biubiu23333333/dsh-memorix-panel](https://github.com/biubiu23333333/dsh-memorix-panel) —— DSH Web GUI 的 Memorix 记忆面板：浏览项目与记忆、查看详情、归档/恢复及创建记忆；写入通过官方 Memorix CLI 完成。
 
 ## 成本与用量统计
 
@@ -2830,6 +2833,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [BitDG/dsh-TableRAG](https://github.com/BitDG/dsh-TableRAG) — DeepSeek Harness 插件，将本地只读 TableRAG 目录暴露为原生工具。
 - [Modellix/dsh-modellix](https://github.com/Modellix/dsh-modellix) — 适配 Modellix Web Search 与 Web Fetch 的 DeepSeek Harness 插件。
 - [TT-Wang/dsh-slice-agent-loop](https://github.com/TT-Wang/dsh-slice-agent-loop) — 一个可直插的 DeepSeek Harness agent 循环，其上下文引擎是一个有边界的切片，而不是不断增长的对话记录。
+- [HiccupGeng/whale-notebook](https://github.com/HiccupGeng/whale-notebook) —— DeepSeek Harness 经验学习插件：从会话日志中提炼踩坑经验，经人工确认后注入全局规则。
 ## MCP Server
 
 _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
@@ -4400,6 +4404,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [oh-summy/dsh-remote-control](https://github.com/oh-summy/dsh-remote-control) — 通过 Cloudflare Tunnel 与 Caddy 登录网关提供 DSH 远程访问的 macOS/Linux 脚本，支持可选飞书通知。
 - [yangcanbin31-coder/dsh-nazuna-wallpaper-engine](https://github.com/yangcanbin31-coder/dsh-nazuna-wallpaper-engine) — 衍生自 elysia395/dsh-wallpaper-engine 的荠主题 DSH 背景插件，提供紫色玻璃风格与吉祥物控件；应从本仓库安装而非使用上游同名 npm 包。
 - [zijun-T/dsh-sidebar-remote](https://github.com/zijun-T/dsh-sidebar-remote) — 为 DSH Better Sidebar 的文件操作、预览、终端与 Git 提供 SSH 远程工作区扩展；依赖兼容的 dsh-better-sidebar 与 dsh-ssh 插件。
+- [nobu121/dsh-go](https://github.com/nobu121/dsh-go) —— DeepSeek Harness 原生桌面窗口：封装官方 UI，并与 CLI 共用 ~/.dsh 目录。
 
 ## Skill
 
@@ -4678,6 +4683,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Fabian-698/dsh-upgrade-fix-012](https://github.com/Fabian-698/dsh-upgrade-fix-012) —— 诊断并修复 DeepSeek Harness 0.1.2-rc.x 升级问题的 Agent Skill：覆盖 UNKNOWN_MODEL、Session.events 移除和恢复会话时预设缺失，提供一次扫描与双重验证门。
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) —— 提供带时间戳证据的视频、音频与屏幕理解能力；DeepWatch 将这些证据与独立验证带入基于官方 DeepSeek Harness 的工作区，支持 MCP、CLI、REST 与 Web。
 - [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — 需手工注册的 DSH 装修问答与验收清单工具包，基于用户提供的 JSON 知识文件做关键词检索，并以规则生成风险标签。
+- [PerryLink/dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) —— 锁定版本的 DeepSeek Harness 插件迁移技能，面向 0.1.3-alpha.1 → 0.1.5-alpha.1，附零依赖扩展接缝扫描器；以 bundle skill 与 npx CLI 形式提供。
 
 ## 资源
 

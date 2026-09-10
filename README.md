@@ -151,6 +151,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [tianyuegithub/dsh-pactflow](https://github.com/tianyuegithub/dsh-pactflow) — DSH PactFlow (zero-pulse mode) external Profile Bundle.
 - [zachshi-ai/newmind](https://github.com/zachshi-ai/newmind) — Old-wisdom × new-intelligence lab: each classical school of thought solves one real AI problem. #1 zhizhi (知止) — a behavior-moderation layer for DeepSeek Harness inspired by the Tao Te Ching, aimed at agent reliability.
 - [chr003/dsh-subagent-model-picker](https://github.com/chr003/dsh-subagent-model-picker) — Separate per-session model and reasoning effort controls for DeepSeek Harness subagents.
+- [clearnature/dsh-math-proof](https://github.com/clearnature/dsh-math-proof) — Mathematical-proof agent preset for DeepSeek Harness using the Agda kernel as the proof checker, with compute-then-verify workflows and a long-horizon ledger of construction methods, evidence levels and refuted claims.
 
 ## Harnesses & Runtimes
 
@@ -922,6 +923,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [TencentCloudADP/Tencent-ADP-dsh-plugin](https://github.com/TencentCloudADP/Tencent-ADP-dsh-plugin) — DSH bundle for Tencent Cloud ADP model gateways, Hunyuan search, externally callable API/MCP plugins, skills and ADP app subagents; requires ADP credentials.
 - [yunxiyang/dsh-web-search-litellm](https://github.com/yunxiyang/dsh-web-search-litellm) — DSH web-search provider that sends Responses API web_search requests through a configured LiteLLM proxy.
 - [zzzmmmnn/dsh-openkapsel](https://github.com/zzzmmmnn/dsh-openkapsel) — OpenKapsel remote-workspace tools for DSH using local Python helpers; a bundle bootstrap installs the dedicated preset, whose tools and allowlist guard activate when selected.
+- [ice5kysl/dsh-why](https://github.com/ice5kysl/dsh-why) — Read-only failure-diagnostics CLI for DeepSeek Harness: checks plugin loader registration, engines.dsh compatibility and known breaking changes; zero dependencies and offline-capable.
 
 ## Security & Permissions
 
@@ -1555,6 +1557,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [xiazhenxin314-cpu/dsh-soul-memory](https://github.com/xiazhenxin314-cpu/dsh-soul-memory) — DSH file-backed cross-session memory with SOUL/MEMORY prompt injection, account/project logfiles, memory read/write tools, and a Cordis service; shipped as ESM without a build step.
 - [azazo1/dsh-copy-session-ref](https://github.com/azazo1/dsh-copy-session-ref) — Adds a DSH session-menu action that copies a session-reference mention to the clipboard.
 - [new-256/dsh-session-cleaner](https://github.com/new-256/dsh-session-cleaner) — DSH session trash manager with restore/purge actions, a web management page and configurable automatic expiry cleanup.
+- [biubiu23333333/dsh-memorix-panel](https://github.com/biubiu23333333/dsh-memorix-panel) — Memorix memory panel for the DSH Web GUI: browse projects and memories, view details, archive/restore and create memories; writes use the official Memorix CLI.
 
 ## Cost & Usage Tracking
 
@@ -2814,6 +2817,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) — DeepSeek Harness plugin: Hermes loop — review/curator automation and session-loop management.
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) — DeepSeek Harness plugin: cron scheduled items — scheduled/immediate new-agent-session prompt submission with a full-screen management UI.
 - [TT-Wang/dsh-slice-agent-loop](https://github.com/TT-Wang/dsh-slice-agent-loop) — A drop-in DeepSeek Harness agent loop whose context engine is a bounded slice instead of a growing transcript.
+- [HiccupGeng/whale-notebook](https://github.com/HiccupGeng/whale-notebook) — DeepSeek Harness experience-learning plugin that extracts lessons from session logs and injects them into global rules after human confirmation.
 ## MCP Servers
 
 _Model Context Protocol servers that contribute tools / prompts / resources to DSH._
@@ -4403,6 +4407,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [oh-summy/dsh-remote-control](https://github.com/oh-summy/dsh-remote-control) — macOS/Linux scripts exposing DSH through Cloudflare Tunnel and a Caddy login gateway, with optional Feishu notifications.
 - [yangcanbin31-coder/dsh-nazuna-wallpaper-engine](https://github.com/yangcanbin31-coder/dsh-nazuna-wallpaper-engine) — Nazuna-themed derivative of elysia395/dsh-wallpaper-engine for DSH backgrounds, with purple glass styling and mascot controls; install from this repository rather than the upstream npm package.
 - [zijun-T/dsh-sidebar-remote](https://github.com/zijun-T/dsh-sidebar-remote) — SSH remote-workspace overlay for DSH Better Sidebar file operations, previews, terminals and Git; requires compatible dsh-better-sidebar and dsh-ssh plugins.
+- [nobu121/dsh-go](https://github.com/nobu121/dsh-go) — Native desktop window for DeepSeek Harness that wraps the official UI and shares the ~/.dsh directory with the CLI.
 
 ## Skills
 
@@ -4679,6 +4684,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Fabian-698/dsh-upgrade-fix-012](https://github.com/Fabian-698/dsh-upgrade-fix-012) — Agent skill to diagnose and repair DeepSeek Harness 0.1.2-rc.x upgrade issues (UNKNOWN_MODEL, Session.events removal, and preset-missing resume), with a one-shot scan and dual verification gates.
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) — Video, audio, and screen understanding with timestamped evidence; DeepWatch brings that evidence and independent verification into a workspace built on official DeepSeek Harness, via MCP, CLI, REST, and Web.
 - [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — Manually registered DSH tool pack for renovation Q&A and inspection checklists, using keyword retrieval from user-supplied JSON knowledge files and rule-based risk labels.
+- [PerryLink/dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) — Version-locked DeepSeek Harness plugin migration skill for 0.1.3-alpha.1 to 0.1.5-alpha.1, with a zero-dependency extension-seam scanner; packaged as a bundle skill and an npx CLI.
 
 ## Resources
 
