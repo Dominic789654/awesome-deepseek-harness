@@ -2633,6 +2633,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [zhchxiao123/dsh-devflow-plugins](https://github.com/zhchxiao123/dsh-devflow-plugins) — File-backed development workflow for DeepSeek Harness with durable cards, append-only history, artifact and agent checks, human approvals, and a read-only web board.
 - [jiekesu967/dsh-markitdown](https://github.com/jiekesu967/dsh-markitdown) — Microsoft MarkItDown as a DeepSeek Harness tool: convert PDF, Word, Excel, PowerPoint, HTML, CSV, EPUB, or a URL into Markdown the model can read.
 - [lovy2004/dsh-molbio-tools](https://github.com/lovy2004/dsh-molbio-tools) — A group of DSH tools designed for molecular biology researchers.
+- [zhengjy01/dsh-npm](https://github.com/zhengjy01/dsh-npm) — NPM registry management for DSH: query package info, list versions, search packages, and publish/deprecate with optional token injection, plus a web settings panel.
+- [zhengjy01/dsh-backup-migrator](https://github.com/zhengjy01/dsh-backup-migrator) — Plugin environment backup and migration for DSH: backs up every profile's plugin list, plugin configs and local-source plugin tarballs into a git repo, and restores them on a new machine.
 
 ## Agents
 
@@ -2818,6 +2820,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [kvmem/dsh-super-advisor](https://github.com/kvmem/dsh-super-advisor) — DSH advisor tool for second opinions from a configured model, with editable request previews and per-call approval.
 - [cang6ng/dsh-life-assistant](https://github.com/cang6ng/dsh-life-assistant) — An extensible personal AI assistant built on DSH, starting with Chinook Music as its first user-data domain.
 - [victormshan/dsh-web-relay](https://github.com/victormshan/dsh-web-relay) — DeepSeek Harness (dsh) three-party collaboration protocol plugin: turns user / main-agent / external-AI collaboration into an executable protocol, with a Claude Code hybrid review chain and hands-off resume.
+- [zhengjy01/dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) — Knowledge Planet (知识星球 zsxq) integration for DSH: cookie/QR login against the unofficial web API, agent tools for groups / topic lists / topic detail / search / publish / comment / like, plus a web settings panel.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -3031,6 +3034,9 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [MikotoMyWife/dsh-mcp-loader](https://github.com/MikotoMyWife/dsh-mcp-loader) — Lazy-loading MCP tools for DSH: one loader tool per multi-tool MCP server, per-agent tool masking, and description presets.
 - [Across2005/harness-self-evolution-plugin](https://github.com/Across2005/harness-self-evolution-plugin) — Source-built MCP prototype for plugin scanning and proposal management; the default MoonBit execution and validation are simulated, while the TypeScript variant exposes task-plan handoff tools.
 - [Mempemp/DSH-runner-rlm-tools-bsl](https://github.com/Mempemp/DSH-runner-rlm-tools-bsl) — DeepSeek Harness plugin: the rlm-tools-bsl MCP server (1C code analysis) starts and stops together with DSH.
+- [zhengjy01/dsh-goofish-mcp](https://github.com/zhengjy01/dsh-goofish-mcp) — Xianyu (Goofish 闲鱼) read-only monitoring for DSH: drives the goofish-cli MCP server and exposes read-only tools (search, item detail, listings, chat history, category) with all write actions filtered out.
+- [zhengjy01/dsh-feishu-mcp](https://github.com/zhengjy01/dsh-feishu-mcp) — Feishu (Lark) OpenAPI MCP connection for DSH: bridges the official @larksuiteoapi/lark-mcp server, exposing IM, Bitable, Docs, Calendar and Drive APIs as mcp__feishu__* tools with OAuth user-token support.
+- [zhengjy01/dsh-aliyun-mcp](https://github.com/zhengjy01/dsh-aliyun-mcp) — Alibaba Cloud OpenAPI MCP connection for DSH: static-credential mode through the official OpenAPI MCP proxy, exposing ECS / OSS / DNS / Function Compute APIs as mcp__aliyun__* tools.
 ## Orchestrators & Aggregators
 
 _Multi-step / multi-agent schedulers and output aggregators._
@@ -4740,6 +4746,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [SCP-CN-1059/dsh-zhouli](https://github.com/SCP-CN-1059/dsh-zhouli) — Zhouli (Rites of Zhou) plugin: gives DeepSeek Harness a full-text search tool over the classic with stable coordinates (chapter.official-order), an official-post/duties index, cross-checked collation notes against two Kanripo editions, and an agent preset that acts per the Six Ministries' protocols. Citations are verifiable, never from memory.
 - [ybl2020/dsh-upgrade](https://github.com/ybl2020/dsh-upgrade) — DeepSeek Harness (dsh) upgrade-workflow skill: pre-upgrade assessment → user review & release → upgrade → post-upgrade verification, with mandatory backups, a rollback playbook, and third-party plugin/skill impact assessment. A reviewable, rollback-safe dsh upgrade skill.
 - [SH-9999/what-was-that](https://github.com/SH-9999/what-was-that) — A small DSH plugin for beginners pairing with AI development, explaining the jargon AI throws out.
+- [zhengjy01/dsh-skill-recommender](https://github.com/zhengjy01/dsh-skill-recommender) — Session-profile driven open-source skill recommender for DSH: scans local DSH / Codex / Claude sessions, builds a weighted profile (topics, tools, tasks, projects) and recommends matching skills with a tunable match index.
 
 ## Resources
 
