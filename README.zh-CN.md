@@ -3154,6 +3154,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [dushaobindoudou/dsh-bots](https://github.com/dushaobindoudou/dsh-bots) — 接入外部 sdk-bots 网关的 DSH Web 工作台，提供机器人与群组聊天、MCP 管理及逐机器人工作区设置。
 - [GooDAnDReaDY/dsh-kanban](https://github.com/GooDAnDReaDY/dsh-kanban) — DSH 看板，提供本地任务、Gitea issue 同步、工作流列及与任务关联的 Agent 会话。 本次审查源码的 worktree 任务详情存在渲染缺陷。
 - [EsonXie/dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) — 提供代理注册表、分层提示词、子代理委派、飞书机器人及 token 用量视图的 DSH 套件；源码构建依赖其 workspace 包。
+- [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) —— 面向 DeepSeek Harness 的 Cordis 服务，提供持久上下文、执行器绑定、基于置信度标签的写回规则及事件历史；需手工注册到 profile，模型工具注册另见示例。
 
 ## UI / 客户端
 
