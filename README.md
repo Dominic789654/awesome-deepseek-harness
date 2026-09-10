@@ -3127,7 +3127,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [dushaobindoudou/dsh-bots](https://github.com/dushaobindoudou/dsh-bots) — DSH Web workbench for an external sdk-bots gateway, exposing bot/group chats, MCP management, and per-bot workspace settings.
 - [GooDAnDReaDY/dsh-kanban](https://github.com/GooDAnDReaDY/dsh-kanban) — DSH Kanban board with local tasks, Gitea issue synchronization, workflow columns, and agent sessions associated with tasks. The reviewed source has a rendering defect in worktree task details.
 - [EsonXie/dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) — DSH toolkit with an agent registry, layered prompts, subagent delegation, Feishu bots and token-usage views; source builds use its workspace packages.
-- [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) — Context Organization Layer for DSH/Cordis: persistent organizational Contexts (`ctx.col`), replaceable executors, verified 3-tier write-back, audited history, model-callable `col.create_context`. Zero deps besides peer `@deepseek-ai/cordis`. Install: npm i col-dsh-plugin.
+- [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) — Cordis service for DeepSeek Harness providing persistent contexts, executor bindings, confidence-label write-back rules, and event history; requires manual profile registration, with a separate example for model-tool registration.
 
 ## UI / Clients
 - [Miasakiii/dsh-miasaki](https://github.com/Miasakiii/dsh-miasaki) — Personal DSH (DeepSeek Harness) companion-project monorepo: desktop client (thin Tauri 2 shell + Win32 desktop pet + three themes) × Fleet multi-agent orchestration × Canvas plugin, three zero-coupled tracks.
