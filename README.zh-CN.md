@@ -155,6 +155,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [ABccgh/dsh-smith](https://github.com/ABccgh/dsh-smith) — 用于构建 harness agent 与 Cordis 插件的 DSH agent preset：组合设计思维协议、四层记忆纪律，以及一支常驻的四人命名专家团队。
 - [PerryLink/dsh-autotier](https://github.com/PerryLink/dsh-autotier) — DeepSeek Harness 的强/廉模型分级自动路由：agent/request 瀑布流上的意图门控分级、plan 模式交接（强模型规划、廉价模型实现）、tools/pre-execute 上的确定性高风险防护、带 TTL 兼底的失败升级、/tier 命令与分级状态工具。
 - [Robin1987China/dsh-plugin-preset-default-guard](https://github.com/Robin1987China/dsh-plugin-preset-default-guard) — 修复过期的 agent-presets.default，避免 preset 重命名后新建会话静默失败（DeepSeek Harness 插件）。
+- [jarvislee90s-dot/dsh-foxbell-pet](https://github.com/jarvislee90s-dot/dsh-foxbell-pet) —— Foxbell 桌宠：DSH Web 右下角可拖拽小狐狸，多项目状态监控 + 完成语音提醒 + 显隐开关。
 
 ## Harness 与运行时
 
@@ -940,6 +941,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [dsh-cc/dsh-cc](https://github.com/dsh-cc/dsh-cc) — 面向 DeepSeek Harness 的全功能编码 agent —— Claude Code 风格工作流、可选模型、TUI、skills、subagents、hooks、MCP、记忆与 worktree。
 - [FMDD61/dsh-oauth-copilot](https://github.com/FMDD61/dsh-oauth-copilot) — 面向 DeepSeek Harness 的 GitHub Copilot OAuth 登录与模型路由插件。
 - [mikey-666/dsh-zen-spoof](https://github.com/mikey-666/dsh-zen-spoof) — 在 DeepSeek Harness 里直连 OpenCode Zen 免费模型的适配器插件：直接注册为 opencode provider，绕过 pi-ai 的 header 覆盖缺陷。
+- [cb2612129/dsh-butler](https://github.com/cb2612129/dsh-butler) —— DSH 启动器：本地 DeepSeek Harness (DSH) Web 服务的图形化启动器。
+- [cryptocurpays/dsh-remote-tools](https://github.com/cryptocurpays/dsh-remote-tools) —— DeepSeek Harness 的旁挂远程主机 bundle：主机发现、SSH PTY 终端后端，以及面向模型的 remote_search/remote_open/remote_exec 等工具。
+- [lmr233/dsh-git-update-notifier](https://github.com/lmr233/dsh-git-update-notifier) —— 每天首次启动 dsh 时用 git 检测上游提交并在 Web GUI 中询问是否更新（适配源码 checkout，不改 npm 依赖）。
+- [MateoBarbato/deepseek-peak-hour-banner](https://github.com/MateoBarbato/deepseek-peak-hour-banner) —— DeepSeek Harness Web GUI 的峰时提醒条：在 DeepSeek 按峰时计费的时段（UTC 周一至周五 01:00-04:00 与 06:00-10:00）显示警告。
 
 ## 安全与权限
 
@@ -1142,6 +1147,9 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [stadeummwt/dsh-supreme](https://github.com/stadeummwt/dsh-supreme) — 宿主侧治理套件，提供工具调用策略钩子、事件日志、基准记录、模型路由选择、产物校验、按作用域选择记忆及工作流准入 API；需按 profile 配置。
 - [lt9/dsh-simple-auth](https://github.com/lt9/dsh-simple-auth) — DSH 共享密钥登录门禁，支持可选的逐用户会话访问列表及由所有者管理的会话共享。
 - [SodaZheng/dsh-totp](https://github.com/SodaZheng/dsh-totp) — 为 DeepSeek Harness 加一道由你掌控的访问验证。
+- [Neutron3529/dsh-plugin-tool-gaming-host](https://github.com/Neutron3529/dsh-plugin-tool-gaming-host) —— 一个允许 agent 借助 gaming 程序直接访问宿主机的插件，目前只有最基础的功能。
+- [pricklywiggles/dsh-research-container](https://github.com/pricklywiggles/dsh-research-container) —— 在锁定的 Apple container 中运行 DeepSeek Harness agent：pf 默认拒绝出站流量、自托管网络研究，以及循环防护。
+- [zhang8019/dsh-permission-matrix](https://github.com/zhang8019/dsh-permission-matrix) —— DeepSeek Harness 的权限矩阵插件：3 种沙箱模式 × 4 种审批策略 = 9 套预设，含全局与 LLM 机器人默认值、三级风险策略、审计日志与 git checkpoint。
 
 ## 会话与记忆管理
 
@@ -1593,6 +1601,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Fishsb/dsh-project-nav](https://github.com/Fishsb/dsh-project-nav) — 面向 DSH 的项目反漂移治理插件：双向 feature-map、主线向量、架构优先协议。
 - [telagod/dsh-ledger-compact](https://github.com/telagod/dsh-ledger-compact) — dsh-plugin：面向 DeepSeek Harness 的 OMP 风格 ingress shaping，附带可选的本地 /fast-compact。
 - [ZSeven-W/dsh-noema](https://github.com/ZSeven-W/dsh-noema) — DSH 的 Noema 长期记忆插件：持久、可检视的 agent 记忆，配备召回工具与设置页。
+- [benz-ai-x/dsh-research-graph](https://github.com/benz-ai-x/dsh-research-graph) —— DSH Research Graph（研图）：面向研究主题的 DeepSeek Harness 插件，提供可追溯的知识卡片与可复用的 AI 讨论。
 
 ## 成本与用量统计
 
@@ -2645,6 +2654,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [lovy2004/dsh-molbio-tools](https://github.com/lovy2004/dsh-molbio-tools) — 一组面向分子生物学研究者设计的 DSH 工具集。
 - [zhengjy01/dsh-npm](https://github.com/zhengjy01/dsh-npm) —— NPM 包管理：查询包信息 / 版本列表 / 搜索包，并用本机或注入的 token 发布与弃用，附 Web 设置面板。
 - [zhengjy01/dsh-backup-migrator](https://github.com/zhengjy01/dsh-backup-migrator) —— 插件环境备份与迁移：把各 profile 的插件清单、插件配置与本地源插件打包备份进 git 仓库，换机一键还原。
+- [Blackman99/codsh](https://github.com/Blackman99/codsh) —— `/ship` 一句话直达已验证代码：面向 DeepSeek Harness（及任意 OpenAI 兼容端点）的终端编码 agent。
+- [xintaofei/deepseek-acp](https://github.com/xintaofei/deepseek-acp) —— 把 DeepSeek Harness 接成一个面向编辑器的完整编码 Agent，通过 Agent Client Protocol（ACP）与客户端通话。
 
 ## Agent
 
@@ -2833,6 +2844,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [cang6ng/dsh-life-assistant](https://github.com/cang6ng/dsh-life-assistant) — 基于 DSH 构建的可扩展个人 AI 助理，首个用户数据领域从 Chinook Music 起步。
 - [victormshan/dsh-web-relay](https://github.com/victormshan/dsh-web-relay) — DeepSeek Harness（dsh）三方协作协议插件：把「用户 / 主 agent / 外部 AI」的协作固化为可执行协议，并接入 Claude Code 混合审核链与无介入续跑。
 - [zhengjy01/dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) —— 知识星球（zsxq）集成：Cookie/扫码登录非官方 Web API，提供星球列表 / 主题列表 / 主题详情 / 搜索 / 发布 / 评论 / 点赞工具与 Web 设置面板。
+- [v587d/capital-generation](https://github.com/v587d/capital-generation) —— 面向中国股市散户、适用于日常证券研究的 DSH 插件：新增 Capital 人设模式，内含 data_collector/data_junior/data_analyst/web_retriever 四个子代理，完全基于 DSH 官方 subagent、persona、credentials 与 tools 基础设施构建。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -3045,6 +3057,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [zhengjy01/dsh-goofish-mcp](https://github.com/zhengjy01/dsh-goofish-mcp) —— 闲鱼只读监控：驱动 goofish-cli MCP 服务器，暴露搜索 / 商品详情 / 在售列表 / 会话历史 / 类目识别等只读工具，写操作一律过滤。
 - [zhengjy01/dsh-feishu-mcp](https://github.com/zhengjy01/dsh-feishu-mcp) —— 飞书（Lark）OpenAPI MCP 连接：桥接官方 @larksuiteoapi/lark-mcp，把 IM / 多维表格 / 云文档 / 日历 / 云盘 API 暴露为 mcp__feishu__* 工具，支持用户令牌 OAuth。
 - [zhengjy01/dsh-aliyun-mcp](https://github.com/zhengjy01/dsh-aliyun-mcp) —— 阿里云 OpenAPI MCP 连接：静态凭证 + 官方 MCP Proxy，把 ECS / OSS / 域名 / DNS / 函数计算等 OpenAPI 暴露为 mcp__aliyun__* 工具。
+- [wings1848/dsh-mcp-lazy](https://github.com/wings1848/dsh-mcp-lazy) —— DeepSeek Harness 的懒加载 MCP 网关：用一个稳定的代理工具取代 N 个工具 schema，服务器首次使用时才连接、空闲后自动断开，元数据缓存到磁盘。
 ## 编排器与聚合器
 
 _多步 / 多 agent 调度器与输出聚合器。_
