@@ -4483,7 +4483,6 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
-
 - [jacjackai/dsh-control](https://github.com/jacjackai/dsh-control) — DSH skill: let AI agents operate DSH itself via the official HTTP RPC — workspace/session control, task-card dispatch with acceptance criteria, resident workstations with blocking wait, and multi-model fan-out review with per-seat model assignment.
 - [Practice019/agent-skills](https://github.com/Practice019/agent-skills) — DSH user-level skill pack containing SKILL.md workflows for development, plugin authoring, research, document processing, and other tasks.
 - [Epiphany-Leon/dsh-skill-forge](https://github.com/Epiphany-Leon/dsh-skill-forge) — Multi-Agent collaborative skill forging system for DeepSeek Harness — distill conversational experience into verifiable, reusable Agent Skills.
