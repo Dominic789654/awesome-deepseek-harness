@@ -174,6 +174,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [lemoncat7/dsh-ssh](https://github.com/lemoncat7/dsh-ssh) —— 面向 DeepSeek Harness 的 SSH 会话、SFTP、终端、代理与端口转发插件。
 - [tingao/dsh-peaktime-clock](https://github.com/tingao/dsh-peaktime-clock) —— 面向 DeepSeek Harness 的峰时时钟插件（打有 deepseek-harness、dsh-plugin 标签）。
 - [chai1110/dsh-ssh-remote](https://github.com/chai1110/dsh-ssh-remote) —— DeepSeek Harness SSH 远程工作区插件（多机并行）：同时连接多台服务器，Agent 直接查看/编辑/执行远程文件。基于 flymysql/dsh-remote (MIT) 适配 0.1.1-rc.2。
+- [hutao562/dsh-remote-dsh](https://github.com/hutao562/dsh-remote-dsh) —— 在侧边栏顶部加一行，点击后整页切换成另一台 DSH 主机的 Web GUI（通过回环端口访问），并在该行显示那台主机的会话状态（运行中、有新活动、正等你回答）。
 - [IceApriler/dsh-remote-mobile](https://github.com/IceApriler/dsh-remote-mobile) —— DeepSeek Harness 远程与移动端安全网关插件：零修改 DSH 底层代码，安全开放局域网与 Tailscale 连接，支持二维码扫码认证、RSA 加密与防暴力破解。
 - [ma-harness/ma-harness.rs](https://github.com/ma-harness/ma-harness.rs) —— 基于 deepseek-harness 开发的 Rust 版本实现。
 - [songoao25/dsh-plugin-guardian](https://github.com/songoao25/dsh-plugin-guardian) —— 面向 DeepSeek Harness 插件的安全卸载工具：快照回滚、清理残留、健康检查，无需命令行。

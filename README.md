@@ -174,6 +174,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [lemoncat7/dsh-ssh](https://github.com/lemoncat7/dsh-ssh) — SSH sessions, SFTP, terminals, proxies and port forwarding for DeepSeek Harness.
 - [tingao/dsh-peaktime-clock](https://github.com/tingao/dsh-peaktime-clock) — Peak-time clock plugin for DeepSeek Harness (deepseek-harness, dsh-plugin).
 - [chai1110/dsh-ssh-remote](https://github.com/chai1110/dsh-ssh-remote) — Multi-machine remote workspace plugin for DeepSeek Harness: connect to several servers at once, with the agent viewing/editing/executing files directly on the remotes. Adapted from flymysql/dsh-remote (MIT) for 0.1.1-rc.2.
+- [hutao562/dsh-remote-dsh](https://github.com/hutao562/dsh-remote-dsh) — Adds a row at the top of the sidebar that switches the whole Web GUI to another DSH host reached over a loopback port, with that host's session state on the row (running, unread activity, or waiting for your answer).
 - [IceApriler/dsh-remote-mobile](https://github.com/IceApriler/dsh-remote-mobile) — Remote & mobile security gateway plugin for DeepSeek Harness (DSH): zero-modification safe exposure over LAN and Tailscale, QR-code auth, RSA encryption, and brute-force defense.
 - [ma-harness/ma-harness.rs](https://github.com/ma-harness/ma-harness.rs) — A Rust reimplementation developed based on deepseek-harness.
 - [songoao25/dsh-plugin-guardian](https://github.com/songoao25/dsh-plugin-guardian) — Safe uninstall with snapshot rollback for DeepSeek Harness plugins — clean residue, health check, no command line.
