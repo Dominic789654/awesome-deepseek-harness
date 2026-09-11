@@ -2643,6 +2643,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [zhchxiao123/dsh-devflow-plugins](https://github.com/zhchxiao123/dsh-devflow-plugins) —— DeepSeek Harness 文件化开发工作流，提供持久卡片、只追加历史、产物与代理检查、人工审批及只读 Web 看板。
 - [jiekesu967/dsh-markitdown](https://github.com/jiekesu967/dsh-markitdown) — 将 Microsoft MarkItDown 封装为 DeepSeek Harness 工具：把 PDF、Word、Excel、PowerPoint、HTML、CSV、EPUB 或 URL 转换成模型可读的 Markdown。
 - [lovy2004/dsh-molbio-tools](https://github.com/lovy2004/dsh-molbio-tools) — 一组面向分子生物学研究者设计的 DSH 工具集。
+- [zhengjy01/dsh-npm](https://github.com/zhengjy01/dsh-npm) —— NPM 包管理：查询包信息 / 版本列表 / 搜索包，并用本机或注入的 token 发布与弃用，附 Web 设置面板。
+- [zhengjy01/dsh-backup-migrator](https://github.com/zhengjy01/dsh-backup-migrator) —— 插件环境备份与迁移：把各 profile 的插件清单、插件配置与本地源插件打包备份进 git 仓库，换机一键还原。
 
 ## Agent
 
@@ -2830,6 +2832,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [kvmem/dsh-super-advisor](https://github.com/kvmem/dsh-super-advisor) — 向已配置模型征求第二意见的 DSH 顾问工具，支持编辑请求预览与逐次审批。
 - [cang6ng/dsh-life-assistant](https://github.com/cang6ng/dsh-life-assistant) — 基于 DSH 构建的可扩展个人 AI 助理，首个用户数据领域从 Chinook Music 起步。
 - [victormshan/dsh-web-relay](https://github.com/victormshan/dsh-web-relay) — DeepSeek Harness（dsh）三方协作协议插件：把「用户 / 主 agent / 外部 AI」的协作固化为可执行协议，并接入 Claude Code 混合审核链与无介入续跑。
+- [zhengjy01/dsh-zsxq](https://github.com/zhengjy01/dsh-zsxq) —— 知识星球（zsxq）集成：Cookie/扫码登录非官方 Web API，提供星球列表 / 主题列表 / 主题详情 / 搜索 / 发布 / 评论 / 点赞工具与 Web 设置面板。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -3039,6 +3042,9 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [MikotoMyWife/dsh-mcp-loader](https://github.com/MikotoMyWife/dsh-mcp-loader) —— 面向 DSH 的 MCP 工具懒加载插件：为每个多工具 MCP 服务提供一个加载工具，支持按代理屏蔽工具与描述预设。
 - [Across2005/harness-self-evolution-plugin](https://github.com/Across2005/harness-self-evolution-plugin) — 需从源码构建的插件扫描与提案管理 MCP 原型；默认 MoonBit 执行和验证为模拟实现，TypeScript 版本提供任务计划交接工具。
 - [Mempemp/DSH-runner-rlm-tools-bsl](https://github.com/Mempemp/DSH-runner-rlm-tools-bsl) — DeepSeek Harness 插件：MCP 服务器 rlm-tools-bsl（1C 代码分析）随 DSH 启动和停止。
+- [zhengjy01/dsh-goofish-mcp](https://github.com/zhengjy01/dsh-goofish-mcp) —— 闲鱼只读监控：驱动 goofish-cli MCP 服务器，暴露搜索 / 商品详情 / 在售列表 / 会话历史 / 类目识别等只读工具，写操作一律过滤。
+- [zhengjy01/dsh-feishu-mcp](https://github.com/zhengjy01/dsh-feishu-mcp) —— 飞书（Lark）OpenAPI MCP 连接：桥接官方 @larksuiteoapi/lark-mcp，把 IM / 多维表格 / 云文档 / 日历 / 云盘 API 暴露为 mcp__feishu__* 工具，支持用户令牌 OAuth。
+- [zhengjy01/dsh-aliyun-mcp](https://github.com/zhengjy01/dsh-aliyun-mcp) —— 阿里云 OpenAPI MCP 连接：静态凭证 + 官方 MCP Proxy，把 ECS / OSS / 域名 / DNS / 函数计算等 OpenAPI 暴露为 mcp__aliyun__* 工具。
 ## 编排器与聚合器
 
 _多步 / 多 agent 调度器与输出聚合器。_
@@ -4742,6 +4748,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [SCP-CN-1059/dsh-zhouli](https://github.com/SCP-CN-1059/dsh-zhouli) — 《周礼》插件：给 DeepSeek Harness 提供带稳定坐标（篇序.职官序）的全文检索工具，含职官员额／职掌索引与 Kanripo 两本互校勘记，并附一套依六官法度行事的 agent 预设。引文可核，不凭记忆。
 - [ybl2020/dsh-upgrade](https://github.com/ybl2020/dsh-upgrade) — DeepSeek Harness (dsh) 升级流程技能：升级前评估 → 用户审核放行 → 升级 → 升级后验证。含强制备份、回滚手册、第三方插件与技能影响评估。A reviewable, rollback-safe dsh upgrade skill.
 - [SH-9999/what-was-that](https://github.com/SH-9999/what-was-that) — 小白+AI开发，for小白的dsh小插件，解释AI吐出的“黑话”。
+- [zhengjy01/dsh-skill-recommender](https://github.com/zhengjy01/dsh-skill-recommender) —— 会话画像驱动的开源 skill 推荐器：扫描本地 DSH/Codex/Claude 会话建立加权画像（主题/工具/任务/项目），按可调匹配指数推荐开源 skill。
 
 ## 资源
 
