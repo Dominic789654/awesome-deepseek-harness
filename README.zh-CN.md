@@ -945,6 +945,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [cryptocurpays/dsh-remote-tools](https://github.com/cryptocurpays/dsh-remote-tools) —— DeepSeek Harness 的旁挂远程主机 bundle：主机发现、SSH PTY 终端后端，以及面向模型的 remote_search/remote_open/remote_exec 等工具。
 - [lmr233/dsh-git-update-notifier](https://github.com/lmr233/dsh-git-update-notifier) —— 每天首次启动 dsh 时用 git 检测上游提交并在 Web GUI 中询问是否更新（适配源码 checkout，不改 npm 依赖）。
 - [MateoBarbato/deepseek-peak-hour-banner](https://github.com/MateoBarbato/deepseek-peak-hour-banner) —— DeepSeek Harness Web GUI 的峰时提醒条：在 DeepSeek 按峰时计费的时段（UTC 周一至周五 01:00-04:00 与 06:00-10:00）显示警告。
+- [CatheadOwl/dsh-extras](https://github.com/CatheadOwl/dsh-extras) — deepseek-harness (dsh) 的树外插件套件：markdown 工具、relates 表格与 review-evals 调度。
+- [cv-superding/dsh-deepseek-web-login](https://github.com/cv-superding/dsh-deepseek-web-login) — 非官方 DSH（DeepSeek Harness）插件：把 chat.deepseek.com 网页模型接入为 LLM 供应商——浏览器登录捕获、PoW 求解、SSE 流式输出、基于提示的工具调用。
+- [eibednejo/dsh-llm-commandcode](https://github.com/eibednejo/dsh-llm-commandcode) — Command Code 的 DeepSeek Harness（dsh）LLM 适配器——把模型调用路由到 Go 套餐可访问的 generate 端点，支持图片输入。
+- [UnforgetMemory/um-dsh-azimg](https://github.com/UnforgetMemory/um-dsh-azimg) — 给 DeepSeek Harness (DSH) 的 Agent 装上眼睛：通过视觉模型做本地图片分析——um_analyze_img 工具、模型能力识别、热切换设置 UI。
 
 ## 安全与权限
 
@@ -1150,6 +1154,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Neutron3529/dsh-plugin-tool-gaming-host](https://github.com/Neutron3529/dsh-plugin-tool-gaming-host) —— 一个允许 agent 借助 gaming 程序直接访问宿主机的插件，目前只有最基础的功能。
 - [pricklywiggles/dsh-research-container](https://github.com/pricklywiggles/dsh-research-container) —— 在锁定的 Apple container 中运行 DeepSeek Harness agent：pf 默认拒绝出站流量、自托管网络研究，以及循环防护。
 - [zhang8019/dsh-permission-matrix](https://github.com/zhang8019/dsh-permission-matrix) —— DeepSeek Harness 的权限矩阵插件：3 种沙箱模式 × 4 种审批策略 = 9 套预设，含全局与 LLM 机器人默认值、三级风险策略、审计日志与 git checkpoint。
+- [Wisper-beep/dsh-runbox](https://github.com/Wisper-beep/dsh-runbox) — DeepSeek Harness (dsh) 的隔离执行底座：在一次性容器里运行 Agent 的 shell / fs / 进程 / 终端 / 任务。
 
 ## 会话与记忆管理
 
@@ -1602,6 +1607,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [telagod/dsh-ledger-compact](https://github.com/telagod/dsh-ledger-compact) — dsh-plugin：面向 DeepSeek Harness 的 OMP 风格 ingress shaping，附带可选的本地 /fast-compact。
 - [ZSeven-W/dsh-noema](https://github.com/ZSeven-W/dsh-noema) — DSH 的 Noema 长期记忆插件：持久、可检视的 agent 记忆，配备召回工具与设置页。
 - [benz-ai-x/dsh-research-graph](https://github.com/benz-ai-x/dsh-research-graph) —— DSH Research Graph（研图）：面向研究主题的 DeepSeek Harness 插件，提供可追溯的知识卡片与可复用的 AI 讨论。
+- [SunshineR04/dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) — DeepSeek Harness (DSH) 插件：管理归档会话——列出、恢复、永久删除；设置页 + 会话右键菜单中的红色删除项。
 
 ## 成本与用量统计
 
@@ -1860,6 +1866,7 @@ _token 用量、成本看板与预算告警插件。_
 - [teethyachi/dsh-usage-mini](https://github.com/teethyachi/dsh-usage-mini) —— DeepSeek Harness 迷你用量窗口插件，目前支持 Claude/Codex 订阅和 DeepSeek API。
 - [fishOfOUC/dsh-price-monitor](https://github.com/fishOfOUC/dsh-price-monitor) — DeepSeek Harness 会话成本监控插件——一个 dsh-better-sidebar 标签页（依赖该 sidebar，本包不自带 UI），按官方或手动定价展示每轮/每次尝试的 token 成本。
 - [rickyfu0625-cell/dsh-billing-dashboard](https://github.com/rickyfu0625-cell/dsh-billing-dashboard) — DeepSeek Harness 用量看板插件：余额 / 消费 / token / 7 日趋势 / 一键充值。
+- [mathangler/dsh-token-stats](https://github.com/mathangler/dsh-token-stats) — DeepSeek Harness 的 Token 用量统计：设置页提供贡献热力图、按模型趋势与模型占比。
 
 ## Channel / IM 桥接
 
@@ -2012,6 +2019,8 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [FeatherHunter/dsh-im-companion](https://github.com/FeatherHunter/dsh-im-companion) —— 以助理和家的概念增强 dsh-im——哪个工作区有助理在管、在不在线尽收眼底，搬家拖一下就行。
 - [V-Reason/dsh-task-notify](https://github.com/V-Reason/dsh-task-notify) —— DeepSeek Harness 任务完成时进行消息推送提醒（微信 + Windows 通知）。
 - [bihangchi9-creator/dsh-lark-bridge](https://github.com/bihangchi9-creator/dsh-lark-bridge) — 将飞书/Lark 聊天桥接到代理会话的 DSH 插件，每个聊天对应持久项目目录；需配置机器人。
+- [sprog-xhy/dsh-im-bridge](https://github.com/sprog-xhy/dsh-im-bridge) — 让 DeepSeek Harness (dsh) 通过 QQ / 飞书收发消息、在 IM 里指挥本机 AI 助手的桥接项目（dsh 插件 + Python 桥接）。
+
 ## 插件市场与生态
 
 _插件市场、安装管理器、索引与生态工具。_
@@ -3227,6 +3236,8 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [GooDAnDReaDY/dsh-kanban](https://github.com/GooDAnDReaDY/dsh-kanban) — DSH 看板，提供本地任务、Gitea issue 同步、工作流列及与任务关联的 Agent 会话。 本次审查源码的 worktree 任务详情存在渲染缺陷。
 - [EsonXie/dsh-agent-toolkit](https://github.com/EsonXie/dsh-agent-toolkit) — 提供代理注册表、分层提示词、子代理委派、飞书机器人及 token 用量视图的 DSH 套件；源码构建依赖其 workspace 包。
 - [laodonge/col-dsh-plugin](https://github.com/laodonge/col-dsh-plugin) —— 面向 DeepSeek Harness 的 Cordis 服务，提供持久上下文、执行器绑定、基于置信度标签的写回规则及事件历史；需手工注册到 profile，模型工具注册另见示例。
+- [BadAppleD/helpme-dsh](https://github.com/BadAppleD/helpme-dsh) — Codex 插件：通过 MCP 把工作委派给本地 DeepSeek Harness 会话。
+- [rootkiller6788/dsh-launcher](https://github.com/rootkiller6788/dsh-launcher) — 在 DeepSeek Harness 插件化内核之上统一编排 Runtime、Provider、Plugin、Skill、MCP，让 Harness 成为可扩展、可组合、可管理的本地 AI 运行平台。
 
 ## UI / 客户端
 
@@ -4478,6 +4489,12 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [nobu121/dsh-go](https://github.com/nobu121/dsh-go) —— DeepSeek Harness 原生桌面窗口：封装官方 UI，并与 CLI 共用 ~/.dsh 目录。
 - [Yijia-Zhou/session-analyzer](https://github.com/Yijia-Zhou/session-analyzer) — 面向 Codex、Claude Code 和 DeepSeek Harness 的本地会话历史查看器：回顾 agent 工作、检查工具调用与结果，并按项目搜索会话。
 - [tianyagk/dsh-tradewatcher](https://github.com/tianyagk/dsh-tradewatcher) — DeepSeek Harness (DSH) web 插件：盯盘 market-dashboard 侧边栏标签——三条报价条带 hover 分时图、带行业 alpha 的自选股、账本驱动的持仓盈亏、A股板块与详情抽屉、host 端东方财富中继与只读 agent 工具。
+- [FiretrUCK666/dsh-task-board](https://github.com/FiretrUCK666/dsh-task-board) — DSH Web GUI 的任务看板插件：侧边栏入口 + 五列看板，任务经 DSH 会话真实执行，host 端持久化并跨设备实时同步。
+- [G-pledge/dsh-side-panels](https://github.com/G-pledge/dsh-side-panels) — DSH 会话工作台：对话旁边的文件树和终端（社区插件）。
+- [realguan/dsh-dock](https://github.com/realguan/dsh-dock) — 专为 DeepSeek Harness (DSH) 打造的跨平台桌面控制中心：多工作台管理、3,400+ 社区插件市场、会话自愈、凭据与系统诊断（Tauri v2 + Rust + React 19，支持 macOS / Windows / Linux）。
+- [wuwaka/dsh-clipboard-menu](https://github.com/wuwaka/dsh-clipboard-menu) — 为 DeepSeek Harness 输入框添加右键剪切/复制/粘贴/全选菜单。
+- [XMeowchan/dsh-agent-team-model](https://github.com/XMeowchan/dsh-agent-team-model) — 为 DeepSeek Harness Agent Teams 提供可视化的供应商、模型与推理强度默认值。
+- [ZIye1208/dsh-approval-voice](https://github.com/ZIye1208/dsh-approval-voice) — DSH Web GUI 审批语音提示面板插件：需要审批/回答的弹窗出现时播放提示音并语音播报。
 
 ## Skill
 
@@ -4762,6 +4779,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [ybl2020/dsh-upgrade](https://github.com/ybl2020/dsh-upgrade) — DeepSeek Harness (dsh) 升级流程技能：升级前评估 → 用户审核放行 → 升级 → 升级后验证。含强制备份、回滚手册、第三方插件与技能影响评估。A reviewable, rollback-safe dsh upgrade skill.
 - [SH-9999/what-was-that](https://github.com/SH-9999/what-was-that) — 小白+AI开发，for小白的dsh小插件，解释AI吐出的“黑话”。
 - [zhengjy01/dsh-skill-recommender](https://github.com/zhengjy01/dsh-skill-recommender) —— 会话画像驱动的开源 skill 推荐器：扫描本地 DSH/Codex/Claude 会话建立加权画像（主题/工具/任务/项目），按可调匹配指数推荐开源 skill。
+- [niobium617/prompt-reverse-engineer-skill](https://github.com/niobium617/prompt-reverse-engineer-skill) — 多模态 Prompt 逆向工程 Skill：把文本 / 图片 / 视频 / 剧本逆向拆解为可复用 Prompt，适配 Midjourney / Stable Diffusion / GPT-4·Claude / DeepSeek / Sora 五种模型格式，支持 Claude Code / Cursor / Codex / DeepSeek Harness / 豆包五大平台，附百分制质量评分。
 
 ## 资源
 
