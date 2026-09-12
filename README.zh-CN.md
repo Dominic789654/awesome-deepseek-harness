@@ -4603,7 +4603,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [StyleJeke/dsh-tunnel-plugin](https://github.com/StyleJeke/dsh-tunnel-plugin) —— 把本机的 DeepSeek Harness Web GUI 安全地发布到公网，让你在外面用浏览器就能用家里那台机器。
 - [wwwwangpengggg/dsh-api-balance](https://github.com/wwwwangpengggg/dsh-api-balance) —— DSH 桌面插件：在桌面角落常驻一个置顶小窗，实时显示 DeepSeek API 余额与本次开机消耗的 token。七套配色、可用自己的图片当背景、× 收进托盘。
 - [zhubingzuo/dsh-oneclick-launcher](https://github.com/zhubingzuo/dsh-oneclick-launcher) —— Windows 一键启动 DeepSeek Harness 网页版：双击静默启动、只开一个干净 Chrome 窗口、关窗即停，全程无控制台窗口。通过可编辑配置文件适配 DSH 更新。
-- [catcatchcatast/dsh-t-remote-android](https://github.com/catcatchcatast/dsh-t-remote-android) — DSH 安卓/手机端多机 SSH 与 Tailscale 客户端（0.1.2 预览，适配 0.1.5）。
+- [catcatchcatast/dsh-t-remote-android](https://github.com/catcatchcatast/dsh-t-remote-android) — DSH 安卓/手机端多机 SSH 与 Tailscale 客户端（预览版）。
 - [cbg33695/dsh-screen-reader](https://github.com/cbg33695/dsh-screen-reader) — 让纯文本模型“看见”屏幕：桌面/窗口/区域截图、视觉转写、数分钟滚动屏幕记忆、本地像素级 diff 与视觉自校准。仅 Windows，实验性。
 - [LBurny/deepseek-harness-desktop-releases](https://github.com/LBurny/deepseek-harness-desktop-releases) — DSH CLI（dsh）的 Windows 桌面壳：安装包内置 Node.js 与 dsh，官方 Web UI 以原生应用运行，支持托盘、通知与跟随主题，零前置依赖。
 - [linksdeact-sys/dsh-tab-status-dot](https://github.com/linksdeact-sys/dsh-tab-status-dot) — DSH Web 客户端插件：浏览器标签页 favicon 状态点——会话跑完没查看显示淡绿小点，等你选择/审批显示浅蓝小点；后台标签页也更新，刷新不丢未读。
