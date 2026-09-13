@@ -988,6 +988,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [MIHassan3/DSH-Launcher](https://github.com/MIHassan3/DSH-Launcher) — A launcher for the official DeepSeek Harness — no modifications, it just launches what DeepSeek develops.
 - [Nyasers/dshana](https://github.com/Nyasers/dshana) — Runs DSH inside Hana as a managed subagent executor: a managed Node runtime hosts the DSH web service, the DSH front end is injected into a DSHana card, and DSH plus its dependency tree ship with the package.
 - [rayfalling/dsh-tool-visibility](https://github.com/rayfalling/dsh-tool-visibility) — Static plugin to control which tool schemas are injected into the DSH model context: a Settings page plus a `tool_visibility` manager tool, persisted state, and the framework-native `tools.restrict` filter.
+- [zhengjy01/dsh-updater](https://github.com/zhengjy01/dsh-updater) — Release tracking and one-click update for DeepSeek Harness itself: reads npm dist-tags and the GitHub changelog, lists every change between the running build and the target, grades the risk (prerelease, breaking-change wording, duplicate installs, plugin range compatibility, backup and rollback readiness), then hands the install to a detached helper that backs the current install up with an atomic rename, runs npm, verifies what landed, relaunches, and rolls back when the new build does not come up (`dsh plugin --profile web add @zhengjunyao/dsh-updater`).
 
 ## Security & Permissions
 
