@@ -4679,6 +4679,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [iwinoid/dsh-kde-tint](https://github.com/iwinoid/dsh-kde-tint) — Tint the DSH web UI with the KDE system accent color.
 - [kk112222/dsh-chat-index](https://github.com/kk112222/dsh-chat-index) — DSH web plugin: a per-session question index — a rail plus chain panel over main and branch sessions, click to jump and highlight.
 - [Nothree-code/dsh-workspace-tools](https://github.com/Nothree-code/dsh-workspace-tools) — DSH web sidebar workspace layer: per-workspace cover images, one-click collapse-all, and nested session grouping — each with a toggle in Settings.
+- [hmr-BH/dsh-round-rightclick](https://github.com/hmr-BH/dsh-round-rightclick) — DeepSeek Harness Web GUI plugin that adds a radial right-click menu on conversation turns, with six actions: fork a new session from the chosen turn, interrupt the running generation, copy the working directory path, copy the session ID, open the working directory in the file manager, and export the session log as a ZIP.
 
 ## Skills
 

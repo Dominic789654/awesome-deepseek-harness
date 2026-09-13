@@ -4679,6 +4679,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [iwinoid/dsh-kde-tint](https://github.com/iwinoid/dsh-kde-tint) —— 用 KDE 系统强调色给 DSH Web UI 染色。
 - [kk112222/dsh-chat-index](https://github.com/kk112222/dsh-chat-index) —— DSH web 插件：按会话生成问题索引——主会话与分支会话的侧栏 + 链路面板，点击跳转并高亮。
 - [Nothree-code/dsh-workspace-tools](https://github.com/Nothree-code/dsh-workspace-tools) —— DSH web 侧栏工作区层：按工作区封面图、一键全部折叠、嵌套会话分组——每项都可在设置中开关。
+- [hmr-BH/dsh-round-rightclick](https://github.com/hmr-BH/dsh-round-rightclick) —— 一个 DeepSeek Harness（DSH）Web GUI 插件，在对话回合上添加环形右键菜单，提供六项操作：从所选回合 fork 新会话、中断正在运行的生成、复制工作目录路径、复制会话 ID、在文件管理器中打开工作目录、将会话日志导出为 ZIP。
 
 ## Skill
 
