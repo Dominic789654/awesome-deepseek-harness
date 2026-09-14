@@ -159,6 +159,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [gdrpzym/dsh-loomy-connect](https://github.com/gdrpzym/dsh-loomy-connect) — Use the models that ship with the Loomy desktop app inside DeepSeek Harness — no API key; also adds a Settings card showing the signed-in account and Loomy credits (permanent + daily gift).
 - [persevere-dsh/perse-updater](https://github.com/persevere-dsh/perse-updater) — perse-updater: carry DSH to its next version safely, with rollback (part of the "Persevere with DSH" project).
 - [67-68/dsh-plugins](https://github.com/67-68/dsh-plugins) — A dotfiles-style paradigm for a whole DSH configuration: a git repo is the source of truth and one idempotent `install.sh` syncs presets, plugins and experience docs to `~/.dsh`, with a `requirements.txt` version lock.
+- [n0pe-sled/system-prompt-editor](https://github.com/n0pe-sled/system-prompt-editor) — dsh plugin: edit the assembled system prompt of every new session (custom text, persona, tool guidance) with live preview.
 
 ## Harnesses & Runtimes
 
@@ -989,6 +990,12 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [Nyasers/dshana](https://github.com/Nyasers/dshana) — Runs DSH inside Hana as a managed subagent executor: a managed Node runtime hosts the DSH web service, the DSH front end is injected into a DSHana card, and DSH plus its dependency tree ship with the package.
 - [rayfalling/dsh-tool-visibility](https://github.com/rayfalling/dsh-tool-visibility) — Static plugin to control which tool schemas are injected into the DSH model context: a Settings page plus a `tool_visibility` manager tool, persisted state, and the framework-native `tools.restrict` filter.
 - [zhengjy01/dsh-updater](https://github.com/zhengjy01/dsh-updater) — Release tracking and one-click update for DeepSeek Harness itself: reads npm dist-tags and the GitHub changelog, lists every change between the running build and the target, grades the risk (prerelease, breaking-change wording, duplicate installs, plugin range compatibility, backup and rollback readiness), then hands the install to a detached helper that backs the current install up with an atomic rename, runs npm, verifies what landed, relaunches, and rolls back when the new build does not come up (`dsh plugin --profile web add @zhengjunyao/dsh-updater`).
+- [Kostas-Xafis/dsh-plugins](https://github.com/Kostas-Xafis/dsh-plugins) — Plugins for DeepSeek Harness (dsh web): a theme gallery, an API peak-hours indicator, and notification sounds.
+- [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) — Claude Code CLI as an LLM provider for dsh (DeepSeek Harness): live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes.
+- [Meaple-SFKY/dsh-model-orchestrator](https://github.com/Meaple-SFKY/dsh-model-orchestrator) — Model routing for DeepSeek Harness, with a standing capability-to-model assignment table, per-route reasoning levels, and a user-triggered sync that researches public model prices.
+- [n0pe-sled/configurable-subagents](https://github.com/n0pe-sled/configurable-subagents) — dsh plugin: default sub-agent provider, model, and reasoning effort plus per-delegation overrides.
+- [n0pe-sled/web-search-searxng](https://github.com/n0pe-sled/web-search-searxng) — dsh plugin: SEARXNG-backed web search provider for the dsh web_search tool (host-only, no Settings UI).
+- [ddtcorex/dsh-maestro-observe](https://github.com/ddtcorex/dsh-maestro-observe) — Observability / debug tooling for DeepSeek Harness: trace, cost, and health capture + client dashboard.
 
 ## Security & Permissions
 
@@ -1675,6 +1682,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [vlln/dsh-autofork](https://github.com/vlln/dsh-autofork) — Auto-fork the session while the agent is busy — a new instruction gets answered immediately in a new session while the old one finishes in the background and feeds its result back.
 - [Bionic-forest/dsh-memory_rollout](https://github.com/Bionic-forest/dsh-memory_rollout) — Codex-style persistent session memory for DSH: organized facts, preferences, decisions and project notes that survive across sessions and are recalled with sources when needed.
 - [kittimzhe/dsh-session-recall](https://github.com/kittimzhe/dsh-session-recall) — Cross-session full-text recall for DeepSeek Harness: a model-facing recall tool searches past session transcripts via `ctx.sessionQuery`, backed by a persistent FTS index.
+- [yihefeikong-rgb/dsh-cc-haha-memory](https://github.com/yihefeikong-rgb/dsh-cc-haha-memory) — CC-HAHA-inspired persistent memory plugin for DeepSeek Harness (DSH).
 
 ## Cost & Usage Tracking
 
@@ -2095,6 +2103,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [ltao0829/dsh-task-notify](https://github.com/ltao0829/dsh-task-notify) — Lifecycle notification layer for AI coding agents — a DeepSeek Harness plugin for turn, job, review and failure notifications.
 - [qzy033/dsh-astrbot-gateway](https://github.com/qzy033/dsh-astrbot-gateway) — AstrBot bridge plugin for DSH (大肥鱼桥): commands travel down to the agent while results are delivered as files instead of being pushed straight to users.
 - [Vergil-long/dsh-email-notify](https://github.com/Vergil-long/dsh-email-notify) — DeepSeek Harness email-notification plugin: emails you when a task finishes, a tool is waiting for your approval, or the assistant is waiting for your answer, with a Leave Mode switch — all settings integrated into the harness settings UI.
+- [ddtcorex/dsh-maestro-notifier](https://github.com/ddtcorex/dsh-maestro-notifier) — Maestro Notifier — pluggable notifier service for DeepSeek Harness (Telegram first; registry open to further providers).
+- [moluyao/dsh-minimax-asr](https://github.com/moluyao/dsh-minimax-asr) — MiniMax speech recognition (asr-1.0) + speech synthesis (speech-2.8-hd) as a global DeepSeek Harness plugin: transcription tool, post-task spoken announcements, hands-free realtime conversation, 303 selectable voices.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -2253,6 +2263,8 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [ddtcorex/dsh-maestro-config-lib](https://github.com/ddtcorex/dsh-maestro-config-lib) — Maestro settings-store library — an atomic, namespaced JSON store shared by the dsh-maestro-* plugins (embedded dependency, no Cordis row).
 - [f-infinite-z/dsh-plugin-ops](https://github.com/f-infinite-z/dsh-plugin-ops) — DeepSeek Harness plugin operations: pre-boot health gate, failure attribution, dependency governance and a web panel — a startup-lifecycle guard for the dsh plugin ecosystem.
 - [noteflowai/dsh-skills-anywhere](https://github.com/noteflowai/dsh-skills-anywhere) — Live skill provider for DeepSeek Harness: serves SKILL.md skills from 60+ coding agents' directories, Claude Code plugin marketplaces and any git skill repo in place, with zero copies and zero symlinks; web UI card to pin, hide or exclude skills.
+- [pax-beehive/dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) — Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub (dshpluginhub.ai): capture your whole DSH setup as a versioned, reproducible preset and apply it with one command.
+- [n0pe-sled/skill-mcp-manager](https://github.com/n0pe-sled/skill-mcp-manager) — dsh plugin: manage dsh skills and MCP servers from Settings > Skills & MCP, hot-reloaded without restarting the GUI.
 
 ## Visualization
 
@@ -2421,6 +2433,8 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [Limbo-137/dsh-typst-preview](https://github.com/Limbo-137/dsh-typst-preview) — Live Typst preview in the DeepSeek Harness Web UI's native right sidebar, rendered by a per-file tinymist preview server proxied over the app origin.
 - [Vithrive/dsh-livebench-panel](https://github.com/Vithrive/dsh-livebench-panel) — DSH web plugin: a LiveBench tab in the Trajectory view — run LiveBench evaluations against every model configured in DeepSeek Harness and read the scores in place.
 - [wqy-cell/dsh-task-flow](https://github.com/wqy-cell/dsh-task-flow) — DSH plugin: a sakura-themed task-flow star map — the agent's work lights up the map in real time and Goal lines stay linked; supports task history and multi-window sync, all data local.
+- [cxin21/dsh-comfyui-chenxin](https://github.com/cxin21/dsh-comfyui-chenxin) — DSH agent preset for local ComfyUI (Anima / MiniMax H3 AI art & video) — 5 CLI skills for prompt authoring, t2i/i2i images, t2v/i2v videos, and multi-view character cards.
+- [ddtcorex/dsh-maestro-diagram](https://github.com/ddtcorex/dsh-maestro-diagram) — DSH Maestro diagram studio — mermaid_verify + mermaid_drift.
 ## Slides / PPT
 
 _Generate presentations, decks, slide exports._
@@ -2956,6 +2970,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [9931666/dsh-plugin-roundtable](https://github.com/9931666/dsh-plugin-roundtable) — Roundtable (V0.2.35) — turn a DeepSeek Harness session from a one-on-one chat into a roundtable: you + a DeepSeek host + a ring of expert AI participants.
 - [brandon-nuttall/libreoffice-cowork](https://github.com/brandon-nuttall/libreoffice-cowork) — An AI agent that works on the document you have open in LibreOffice — it reads the real document structure, edits in place, renders the result to check its own work, and leaves everything undoable with one Ctrl-Z. Runs as a DSH profile.
 - [troytse/dsh-plugin-subagent-roles](https://github.com/troytse/dsh-plugin-subagent-roles) — Subagent Roles plugin for DeepSeek Harness.
+- [3121455692atou-sudo/dsh-tavern-mode](https://github.com/3121455692atou-sudo/dsh-tavern-mode) — DSH Tavern mode: character cards, presets, independent per-character memory, and shared avatars.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4681,6 +4696,13 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [kk112222/dsh-chat-index](https://github.com/kk112222/dsh-chat-index) — DSH web plugin: a per-session question index — a rail plus chain panel over main and branch sessions, click to jump and highlight.
 - [Nothree-code/dsh-workspace-tools](https://github.com/Nothree-code/dsh-workspace-tools) — DSH web sidebar workspace layer: per-workspace cover images, one-click collapse-all, and nested session grouping — each with a toggle in Settings.
 - [hmr-BH/dsh-round-rightclick](https://github.com/hmr-BH/dsh-round-rightclick) — DeepSeek Harness Web GUI plugin that adds a radial right-click menu on conversation turns, with six actions: fork a new session from the chosen turn, interrupt the running generation, copy the working directory path, copy the session ID, open the working directory in the file manager, and export the session log as a ZIP.
+- [daha1216/dsh-better-display](https://github.com/daha1216/dsh-better-display) — DeepSeek Harness immersive reading view (fork): auto-collapse execution steps + an MCP-App interaction sandbox, tuned for dsh-retrace retract/resend node display.
+- [fuguier001/dsh-imgnav](https://github.com/fuguier001/dsh-imgnav) — Click-to-zoom lightbox with arrow-key paging for DSH conversation images: ← prev / → next / Esc close, edge hints.
+- [fuguier001/dsh-progress](https://github.com/fuguier001/dsh-progress) — DSH web GUI floating water-ball progress indicator: Morandi colour water level, glow sync, and drag with a grab feel (plus a reusable drag template).
+- [n0pe-sled/herdr-themes](https://github.com/n0pe-sled/herdr-themes) — dsh plugin: the 18 herdr themes as Settings > Themes with live swatch cards and persistent selection.
+- [navid-kianfar/dsh-advanced-sidebar](https://github.com/navid-kianfar/dsh-advanced-sidebar) — Advanced sidebar operations for the DeepSeek Harness Web Client: git changes, a terminal, a file browser, a dev-server preview, background tasks, Open in, Archive and Delete.
+- [weibaohui/dsh-code-poem](https://github.com/weibaohui/dsh-code-poem) — dsh plugin · Code as Poetry: 4598 classical Chinese poems / idioms / Longwen Bianying allusions rendered as a random card that surfaces on session events.
+- [yunxiyang/dsh-wide-conversation](https://github.com/yunxiyang/dsh-wide-conversation) — DSH web client plugin: pins the conversation column to a configurable percentage of its width (default full width) instead of the built-in 680-920px reading measure.
 
 ## Skills
 
