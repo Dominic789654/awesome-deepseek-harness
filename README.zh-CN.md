@@ -162,6 +162,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [n0pe-sled/system-prompt-editor](https://github.com/n0pe-sled/system-prompt-editor) —— dsh 插件：编辑每个新会话组装后的 system prompt（自定义文本、人设、工具指引），带实时预览。
 - [my-dsh-plugin/agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) —— DeepSeek Harness 插件：模型回答后可切换当前会话的 agent 模式（preset），并继续当前对话。
 - [winston-hoo/dsh-spec-forge](https://github.com/winston-hoo/dsh-spec-forge) —— 一个 DeepSeek Harness（dsh）插件：动手前把模糊的编程需求锻造成可执行规格，任务完成后把这次的经验沉淀为可自动复用的个人提示词模板库（明文 Markdown，存于 ~/.dsh/spec-forge）。
+- [Haven-hvn/dsh-persona](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-persona) —— 可版本管理的 DSH agent 系统提示词 persona bundle：模型经 wallet_info 实时解析钱包地址与余额，不写死。
 
 ## Harness 与运行时
 
@@ -1220,6 +1221,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [mokuyoaxis/agent-guard](https://github.com/mokuyoaxis/agent-guard) — 让破坏性 AI Agent 操作默认可回滚——对 rm/git 等破坏性操作做隔离 + 审计 + 人工升级。属可靠性基础设施，不是沙箱。
 - [Jueze-2019/dsh-redteam-mode](https://github.com/Jueze-2019/dsh-redteam-mode) —— DSH RedTeam 模式：把 DeepSeek Harness 变成红队作战指挥台——输入一个靶标名称即可拉起信息收集/漏洞检测/漏洞利用/内网渗透四个角色，资产与战果实时落入本地 SQLite 事实库（仅供已授权测试）。
 - [jianghuifr/dsh-feishu-auth](https://github.com/jianghuifr/dsh-feishu-auth) —— DSH Web GUI 的飞书（Lark）OAuth 登录门：每个 HTTP 请求前校验签名会话 cookie。
+- [Haven-hvn/dsh-wallet](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet) —— DSH agent 的钱包托管：命名钱包 + 可插拔链适配器，经 ctx.wallet 逐次操作签名；配置只带凭证引用，不带私钥。
+- [Haven-hvn/dsh-wallet-ethereum](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet-ethereum) —— 基于 Open Wallet Standard 的 dsh-wallet 以太坊签名适配器：只签名、逐次操作、策略门控。
 
 ## 会话与记忆管理
 
@@ -1696,6 +1699,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [kittimzhe/dsh-session-recall](https://github.com/kittimzhe/dsh-session-recall) —— DSH 跨会话全文回忆：面向模型的 recall 工具通过 `ctx.sessionQuery` 检索历史会话逐字稿，带持久化 FTS 索引。
 - [yihefeikong-rgb/dsh-cc-haha-memory](https://github.com/yihefeikong-rgb/dsh-cc-haha-memory) —— 借鉴 CC-HAHA 的 DeepSeek Harness（DSH）持久记忆插件。
 - [liyixuan201211/dsh-rewind](https://github.com/liyixuan201211/dsh-rewind) —— 撤销 agent 对某个目录做过的改动：内容寻址快照、一条命令回滚，而且这次撤销本身还能撤销；任意目录可用（不依赖 git）。DSH 插件 + skill，零依赖。
+- [Haven-hvn/dsh-storage-synapse](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-storage-synapse) —— DSH 的 Filecoin Synapse 存储：ctx.synapse 存取/固定 + synapse_pin agent 工具，每次请求都经 dsh-wallet 逐次签名。
+- [Haven-hvn/dsh-arkiv](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-arkiv) —— DSH agent 的 Arkiv 实体存储：经 ctx.arkiv 用 @arkiv-network/sdk 创建/查询实体。
 
 ## 成本与用量统计
 
@@ -1964,6 +1969,7 @@ _token 用量、成本看板与预算告警插件。_
 - [Six6stRINgs/dsh-thinking-token-stat](https://github.com/Six6stRINgs/dsh-thinking-token-stat) —— 在底部 Dock 和每次对话尾部添加模型思考 token 统计的轻量化插件。
 - [igormel81/dsh-chat-cost](https://github.com/igormel81/dsh-chat-cost) —— 实时统计每条对话、其子代理与整个会话树的 token 成本：内置 DeepSeek / OpenAI / Anthropic / Gemini / Kimi / Grok / Mistral 价格目录，并在项目目录写入只追加的 JSONL 成本日志。
 - [looking321-rt/dsh-tps-meter](https://github.com/looking321-rt/dsh-tps-meter) —— 一款搭配 DSH 客户端的悬浮窗小工具，实时监测并显示会话的实时与平均 Token 输出速率（tokens/s）。
+- [Haven-hvn/dsh-treasury](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-treasury) —— 链上金库：FUNDED/LOW/CRITICAL/DEPLETED 四级存续水位；策略插件按 token 计量对 agent 请求与工具执行做门控。
 
 ## Channel / IM 桥接
 
@@ -2125,6 +2131,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [Vergil-long/dsh-email-notify](https://github.com/Vergil-long/dsh-email-notify) —— DSH 邮件通知插件：任务完成 / 工具等你授权 / 助手在等你回答时给你发邮件，配「离开模式」开关，设置全部集成在 harness 设置界面。
 - [ddtcorex/dsh-maestro-notifier](https://github.com/ddtcorex/dsh-maestro-notifier) —— Maestro Notifier：DeepSeek Harness 的可插拔通知服务（首支持 Telegram，注册表对更多提供方开放）。
 - [moluyao/dsh-minimax-asr](https://github.com/moluyao/dsh-minimax-asr) —— MiniMax 语音识别（asr-1.0）+ 语音合成（speech-2.8-hd）的 DeepSeek Harness 全局插件：转写工具、任务结束后用喇叭念一句的播报、实时免手对话、303 个音色可选。
+- [Haven-hvn/dsh-channel-xmtp](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-channel-xmtp) —— XMTP 消息桥：agent 与用户直聊，每会话一个 DSH agent，身份经 dsh-wallet 逐次签名。
 
 ## 插件市场与生态
 
@@ -2795,6 +2802,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [JohnXu22786/db-connector](https://github.com/JohnXu22786/db-connector) — DeepSeek Harness（dsh）数据库连接 bundle：SQLite/PostgreSQL/MySQL 连接、schema 内省、只读安全保障、写入审批门与会话可查的 JSONL SQL 审计。
 - [imroc/dsh-browser-panel](https://github.com/imroc/dsh-browser-panel) —— 运行在 DeepSeek Harness 宿主内的共享浏览器：AI 用 browser_panel_* 工具驱动它，而你在 DSH Web UI 里观看或直接接管同一个标签页——登录、2FA、二维码都能过。
 - [KannaKuron/dsh-ide-git](https://github.com/KannaKuron/dsh-ide-git) —— DSH 插件：IDE 级 Git 工具窗口，以 dsh-better-sidebar 原生 Tab 挂载——分支树 / 提交图谱 / 变更与提交详情 / JetBrains 风格操作，右侧栏与底部面板双布局自适应。
+- [Haven-hvn/dsh-wallet-tools](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet-tools) —— 面向模型的钱包工具（wallet_info）：把 ctx.wallet 的实时地址与余额暴露给 agent。
 
 ## Agent
 
@@ -2996,6 +3004,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [brandon-nuttall/libreoffice-cowork](https://github.com/brandon-nuttall/libreoffice-cowork) —— 在 LibreOffice 里直接操作你打开的文档的 AI agent：读取真实文档结构、就地编辑、渲染结果自检、一键 Ctrl-Z 全部撤销。以 DSH profile 运行。
 - [troytse/dsh-plugin-subagent-roles](https://github.com/troytse/dsh-plugin-subagent-roles) —— DeepSeek Harness 的子代理角色插件。
 - [3121455692atou-sudo/dsh-tavern-mode](https://github.com/3121455692atou-sudo/dsh-tavern-mode) —— DSH 酒馆模式：角色卡、预设、独立角色记忆与共享头像。
+- [Haven-hvn/dsh-erc8004](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-erc8004) —— ERC-8004 链上 agent 身份：agent 卡片固定到 Filecoin，经钱包门控签名流在 Base Sepolia 注册为 NFT。
 
 ## 循环（自动研究 / 自我改进等）
 

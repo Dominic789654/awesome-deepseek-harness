@@ -162,6 +162,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [n0pe-sled/system-prompt-editor](https://github.com/n0pe-sled/system-prompt-editor) — dsh plugin: edit the assembled system prompt of every new session (custom text, persona, tool guidance) with live preview.
 - [my-dsh-plugin/agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — Switch the current session's agent preset (mode) after the model answers, and keep chatting in the new mode.
 - [winston-hoo/dsh-spec-forge](https://github.com/winston-hoo/dsh-spec-forge) — Forge vague coding requirements into executable specs before any work starts, and distill each finished task into a reusable personal prompt-template library (plain Markdown under `~/.dsh/spec-forge`).
+- [Haven-hvn/dsh-persona](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-persona) — Versioned system-prompt persona bundle for DSH agents; the model resolves wallet address and balances live via wallet_info instead of hard-coded values.
 
 ## Harnesses & Runtimes
 
@@ -1214,6 +1215,8 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [mokuyoaxis/agent-guard](https://github.com/mokuyoaxis/agent-guard) — Make destructive AI-agent actions reversible by default — quarantine + audit + human escalation for rm/git destructive operations. Reliability infrastructure, not a sandbox.
 - [Jueze-2019/dsh-redteam-mode](https://github.com/Jueze-2019/dsh-redteam-mode) — DSH RedTeam mode: turns DeepSeek Harness into a red-team console — one target name launches four roles (recon, vulnerability detection, exploitation, internal pivoting) while assets and findings land in a local SQLite fact base. Authorized testing only.
 - [jianghuifr/dsh-feishu-auth](https://github.com/jianghuifr/dsh-feishu-auth) — Feishu (Lark) OAuth login gate for the DSH web GUI — a signed session cookie in front of every HTTP request.
+- [Haven-hvn/dsh-wallet](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet) — Wallet custody for DSH agents: named wallets over pluggable chain adapters, signed per-operation through ctx.wallet; configuration carries credential references, never keys.
+- [Haven-hvn/dsh-wallet-ethereum](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet-ethereum) — Ethereum signing adapter for dsh-wallet over Open Wallet Standard bindings: sign-only, per-operation, policy-gated.
 
 ## Session & Memory Management
 
@@ -1691,6 +1694,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [kittimzhe/dsh-session-recall](https://github.com/kittimzhe/dsh-session-recall) — Cross-session full-text recall for DeepSeek Harness: a model-facing recall tool searches past session transcripts via `ctx.sessionQuery`, backed by a persistent FTS index.
 - [yihefeikong-rgb/dsh-cc-haha-memory](https://github.com/yihefeikong-rgb/dsh-cc-haha-memory) — CC-HAHA-inspired persistent memory plugin for DeepSeek Harness (DSH).
 - [liyixuan201211/dsh-rewind](https://github.com/liyixuan201211/dsh-rewind) — Undo what an agent did to a directory: content-addressed snapshots, one-command rewind, and an undo you can undo — works in any folder, git or not (DSH plugin + skill, zero dependencies).
+- [Haven-hvn/dsh-storage-synapse](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-storage-synapse) — Filecoin Synapse storage for DSH: ctx.synapse store/retrieve/pin plus synapse_pin agent tools, every request signed per-operation by dsh-wallet.
+- [Haven-hvn/dsh-arkiv](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-arkiv) — Arkiv entity storage for DSH agents: create and query entities via @arkiv-network/sdk through ctx.arkiv.
 
 ## Cost & Usage Tracking
 
@@ -1957,6 +1962,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [Six6stRINgs/dsh-thinking-token-stat](https://github.com/Six6stRINgs/dsh-thinking-token-stat) — Lightweight plugin that adds model thinking-token statistics to the bottom dock and to the tail of every conversation.
 - [igormel81/dsh-chat-cost](https://github.com/igormel81/dsh-chat-cost) — Live token cost of every chat, its subagents and the whole session tree — DeepSeek, OpenAI, Anthropic, Gemini, Kimi, Grok and Mistral prices from a bundled catalog, plus an append-only JSONL cost log in your project folder.
 - [looking321-rt/dsh-tps-meter](https://github.com/looking321-rt/dsh-tps-meter) — Floating widget for the DSH client that shows the current session's live and average token output rate (tokens/s).
+- [Haven-hvn/dsh-treasury](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-treasury) — On-chain treasury with a FUNDED/LOW/CRITICAL/DEPLETED survival gradient; a policy plugin gates agent requests and tool execution, metered off the token meter.
 
 ## Channel / IM Bridges
 
@@ -2114,6 +2120,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [Vergil-long/dsh-email-notify](https://github.com/Vergil-long/dsh-email-notify) — DeepSeek Harness email-notification plugin: emails you when a task finishes, a tool is waiting for your approval, or the assistant is waiting for your answer, with a Leave Mode switch — all settings integrated into the harness settings UI.
 - [ddtcorex/dsh-maestro-notifier](https://github.com/ddtcorex/dsh-maestro-notifier) — Maestro Notifier — pluggable notifier service for DeepSeek Harness (Telegram first; registry open to further providers).
 - [moluyao/dsh-minimax-asr](https://github.com/moluyao/dsh-minimax-asr) — MiniMax speech recognition (asr-1.0) + speech synthesis (speech-2.8-hd) as a global DeepSeek Harness plugin: transcription tool, post-task spoken announcements, hands-free realtime conversation, 303 selectable voices.
+- [Haven-hvn/dsh-channel-xmtp](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-channel-xmtp) — XMTP messaging bridge: direct agent-user chat with one DSH agent per conversation and identity signed per-operation through dsh-wallet.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -2784,6 +2791,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [JohnXu22786/db-connector](https://github.com/JohnXu22786/db-connector) — Database connector bundle for DeepSeek Harness (dsh): SQLite/PostgreSQL/MySQL connections, schema introspection, read-only safety, a write approval gate and a JSONL SQL audit trail.
 - [imroc/dsh-browser-panel](https://github.com/imroc/dsh-browser-panel) — A shared browser inside the DeepSeek Harness host: the AI drives it with browser_panel_* tools while you watch or take over the same tab in the DSH Web UI — logins, 2FA and QR codes included.
 - [KannaKuron/dsh-ide-git](https://github.com/KannaKuron/dsh-ide-git) — IDE-grade Git tool window as a native dsh-better-sidebar tab: branch tree, commit graph, changes and commit details, JetBrains-style actions, in the right sidebar or the bottom panel.
+- [Haven-hvn/dsh-wallet-tools](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet-tools) — Model-facing wallet tools (wallet_info) exposing the live ctx.wallet address and balances to the agent.
 
 ## Agents
 
@@ -2983,6 +2991,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [brandon-nuttall/libreoffice-cowork](https://github.com/brandon-nuttall/libreoffice-cowork) — An AI agent that works on the document you have open in LibreOffice — it reads the real document structure, edits in place, renders the result to check its own work, and leaves everything undoable with one Ctrl-Z. Runs as a DSH profile.
 - [troytse/dsh-plugin-subagent-roles](https://github.com/troytse/dsh-plugin-subagent-roles) — Subagent Roles plugin for DeepSeek Harness.
 - [3121455692atou-sudo/dsh-tavern-mode](https://github.com/3121455692atou-sudo/dsh-tavern-mode) — DSH Tavern mode: character cards, presets, independent per-character memory, and shared avatars.
+- [Haven-hvn/dsh-erc8004](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-erc8004) — ERC-8004 on-chain agent identity: agent card pinned to Filecoin, registered as an NFT on Base Sepolia through a wallet-gated signing flow.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
