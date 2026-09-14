@@ -989,6 +989,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [MIHassan3/DSH-Launcher](https://github.com/MIHassan3/DSH-Launcher) —— 官方 DeepSeek Harness 的启动器——不做任何改动，只启动 DeepSeek 官方产物。
 - [Nyasers/dshana](https://github.com/Nyasers/dshana) —— 把 DSH 接进 Hana 作为受管子代理执行器：受管 Node runtime 承载 DSH web 服务，DSH 前端同文档注入 DSHana 卡，DSH 及其依赖树随包分发。
 - [rayfalling/dsh-tool-visibility](https://github.com/rayfalling/dsh-tool-visibility) —— 静态插件，控制哪些工具 schema 注入 DSH 模型上下文：设置页 + `tool_visibility` 管理工具，状态持久化，走框架原生 `tools.restrict` 过滤器。
+- [zhengjy01/dsh-updater](https://github.com/zhengjy01/dsh-updater) —— 跟踪 DSH 官方版本并一键更新：读取 npm dist-tags 与 GitHub 更新说明，列出当前版本到目标版本之间每一个版本的更新点，给出分级风险清单（预发布、破坏性变更措辞、多份安装与 PATH 不一致、插件 dsh.engines.dsh 兼容性、备份与回滚可用性），再把安装交给分离助手：用 rename 原子备份当前安装、执行 npm、校验落地结果、用原命令重启，新版本起不来就自动回滚（`dsh plugin --profile web add @zhengjunyao/dsh-updater`）。
 
 ## 安全与权限
 
