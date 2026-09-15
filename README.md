@@ -1016,6 +1016,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [moxiuren/DeepHarness](https://github.com/moxiuren/DeepHarness) — Supercharge DeepSeek Harness with a zero-cost official web engine (V4.1-Flash / R1), a 15ms Keccak PoW solver, DSML streaming tool calls and an anti-risk session pool.
 - [Niobium-41-nb/dsh-restart](https://github.com/Niobium-41-nb/dsh-restart) — Out-of-process restart supervisor for DeepSeek Harness: a small control agent on its own loopback port restarts dsh, rolls the profile configuration back to the last known-good snapshot when a new boot fails, and hands the failure report to the restarted harness.
 
+- [HarnessDesk/dsh-acp](https://github.com/HarnessDesk/dsh-acp) — A complete Agent Client Protocol server for DeepSeek Harness — streams reasoning, tool calls, plans and token usage that the harness's own automation bridge withholds.
+
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._
@@ -1229,6 +1231,8 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [Haven-hvn/dsh-wallet](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet) — Wallet custody for DSH agents: named wallets over pluggable chain adapters, signed per-operation through ctx.wallet; configuration carries credential references, never keys.
 - [Haven-hvn/dsh-wallet-ethereum](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-wallet-ethereum) — Ethereum signing adapter for dsh-wallet over Open Wallet Standard bindings: sign-only, per-operation, policy-gated.
 - [evanfang0054/dsh-tailscale-console](https://github.com/evanfang0054/dsh-tailscale-console) — Tailscale-based secure remote-access ops panel for DeepSeek Harness: one-click health checks, HTTPS serve toggle, macOS proxy bypass, relay-server operations and ACL generation.
+
+- [codebam/dsh-opensandbox](https://github.com/codebam/dsh-opensandbox) — Run DeepSeek Harness (dsh) command execution in OpenSandbox containers: an OpenSandbox-backed `ctx.subprocess` and a container-world `ctx.sandbox` for dsh.
 
 ## Session & Memory Management
 
@@ -1714,6 +1718,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [wangzhanchao883/dsh-lost-and-found](https://github.com/wangzhanchao883/dsh-lost-and-found) — Local file recall for DeepSeek Harness: watch the folders you choose, index what appeared (name/type/size/appeared-at/location/origin) into a local SQLite database, then search by keyword/time/type/folder with a live read-only fallback scan — read-only, never modifying, moving or deleting your files.
 - [sugarforever/dsh-plugins](https://github.com/sugarforever/dsh-plugins) — Community DeepSeek Harness plugin repo; dsh-zvec-grep adds workspace semantic search — a background index that follows file adds/changes/deletes, plus a `zvec_search` agent tool.
 
+- [HERO476/dsh-instruction-memory](https://github.com/HERO476/dsh-instruction-memory) — DSH instruction memory plugin: maintain long-term instructions in the DSH settings UI, auto-injected into every subsequent conversation's system prompt.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -1983,6 +1989,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [brittanistrehlowll-oss/dsh-quota-panel](https://github.com/brittanistrehlowll-oss/dsh-quota-panel) — Provider quota/balance capsule for DeepSeek Harness (Web + Desktop): a one-line pill in the bottom-left showing balance and usage that expands into a full card; the API key is resolved host-side only, zero dependencies.
 - [VviLliAm-qwq/dsh-peak-balance](https://github.com/VviLliAm-qwq/dsh-peak-balance) — Peak/off-peak billing clock with live DeepSeek balance and per-turn cost above the dsh-tui prompt, plus an optional flashing peak-hour warning frame.
 - [ZiqiaoFang/dsh-liangwen-tide](https://github.com/ZiqiaoFang/dsh-liangwen-tide) — Peak/off-peak tide indicator plus today's spend for the DSH Web GUI: 「梁文峰」at peak and 「梁文谷」off-peak, with periods and price table following the official pricing page.
+
+- [Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl](https://github.com/Witherwithwinter/DeepSeek-Balance-Whale-Widget-Bowl) — Persistent DeepSeek balance widget pinned to the bottom-right corner of the DSH Web UI; a "wok whale-girl" edition derived from MeteorNOX/DeepSeek-Balance-Whale-Widget.
 
 ## Channel / IM Bridges
 
@@ -2491,6 +2499,8 @@ _Generate presentations, decks, slide exports._
 - [STARDUSTLC666/dsh-ppt](https://github.com/STARDUSTLC666/dsh-ppt) — DSH skill plugin: generate a full presentation from one prompt (HTML slideshow + PPTX export + manifest), 5 visual themes, bilingual (EN/CN), zero runtime dependencies.
 - [chiang21fcb/dsh-ppt-guider](https://github.com/chiang21fcb/dsh-ppt-guider) — A DSH preset that makes the AI a PPT co-pilot rather than an autopilot: a six-step expert workflow supporting dual-path triggers, an SVG intermediate state, and PPT-safe constraints.
 - [zbsph/dsh-ppt-studio](https://github.com/zbsph/dsh-ppt-studio) — PPT studio for DeepSeek Harness (no upstream description provided).
+- [kitterfast/dsh-ppt-maker](https://github.com/kitterfast/dsh-ppt-maker) — DSH (DeepSeek Harness) web plugin: adds a "PPT 制作" entry to the composer and menu that kicks off a bundled, self-contained PPT workflow prompt — one menu pick, one short message, no repeated approval prompts.
+
 ## Coding
 
 - [fhidalgodev/dsh-odoo-sdd](https://github.com/fhidalgodev/dsh-odoo-sdd) — Specification-driven Odoo development plugin for DeepSeek Harness, with phased workflows, module validation, and JSON-RPC verification against an existing Odoo instance.
@@ -2820,6 +2830,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [qtaik/dsh-noname-kit](https://github.com/qtaik/dsh-noname-kit) — DeepSeek Harness 无名杀 plugin — a Noname (Sanguosha) extension workshop: the AI writes general skills and cards to spec (confirmation protocol, validation gates, block-wise writes).
 - [zhoupengyun572-cell/dsh-hana-research](https://github.com/zhoupengyun572-cell/dsh-hana-research) — A local literature review, PDF annotation, evidence synthesis and research-notes workbench for DeepSeek Harness.
 
+- [sdegongzuo/dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) — DeepSeek Harness client plugin for browser operation and debugging: multi-session, new-window and multi-tab control of web pages.
+
 ## Agents
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
@@ -3020,6 +3032,9 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [3121455692atou-sudo/dsh-tavern-mode](https://github.com/3121455692atou-sudo/dsh-tavern-mode) — DSH Tavern mode: character cards, presets, independent per-character memory, and shared avatars.
 - [Haven-hvn/dsh-erc8004](https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack/tree/main/dsh-erc8004) — ERC-8004 on-chain agent identity: agent card pinned to Filecoin, registered as an NFT on Base Sepolia through a wallet-gated signing flow.
 - [cagfriend/dsh-dual-ai](https://github.com/cagfriend/dsh-dual-ai) — Two models in one DeepSeek Harness session: a lead agent plus a strictly serial delegated coder, with a live transcript card.
+
+- [hansjone/netxops](https://github.com/hansjone/netxops) — DeepSeek Harness Netx Ops agent preset (UME alarms, NE, managed CLI).
+- [Phant0Meow/femo-plugin](https://github.com/Phant0Meow/femo-plugin) — FEMO, plugin edition — a multi-agent engine that plugs into dsh and can do almost anything: hunting hard bugs, refactoring, and even running werewolf games with your main agent; it also raised the main agent a pet.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -3243,6 +3258,9 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [xDJTomato/deepseek-harnessed](https://github.com/xDJTomato/deepseek-harnessed) — Turn a DeepSeek Harness (DSH) instance into a subagent any harness (Cursor / Claude Code / Codex / Gemini CLI ...) can call over MCP — plus a live monitor panel inside DSH Desktop.
 - [yxy050208/multisim-mcp](https://github.com/yxy050208/multisim-mcp) — Unofficial MCP server for AI-driven NI Multisim circuit generation, simulation, data export and reports.
 - [ZBber-lab/cau-portal-open](https://github.com/ZBber-lab/cau-portal-open) — CAU Portal: a China Agricultural University notice/announcement DSH plugin (sidebar panel + scraper/AI pipeline; data is self-hosted by each user) exposing six `mcp__cau__*` query tools to the conversation.
+- [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) — Connect locally signed-in WorkBuddy models to DeepSeek Harness with a read-only credits overview and model management.
+- [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) — You.com search + fetch provider plugin for DeepSeek Harness (dsh), plus a research-focused agent preset.
+
 ## Orchestrators & Aggregators
 
 _Multi-step / multi-agent schedulers and output aggregators._
@@ -4773,6 +4791,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [LyaxZ/dsh-fonttune](https://github.com/LyaxZ/dsh-fonttune) — DeepSeek Harness font plugin: body/code font families, global font-size offset, font weight, and separate Latin/CJK selection.
 - [RaulLazaro/dsh-preview-plugin](https://github.com/RaulLazaro/dsh-preview-plugin) — Live preview tab for DeepSeek Harness — embed any dev server in an iframe with transparent SPA proxying.
 
+- [hnmrxz/deepseek-harness-desktop-HarmonyOS](https://github.com/hnmrxz/deepseek-harness-desktop-HarmonyOS) — DeepSeek Harness multi-device client for HarmonyOS.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -5069,6 +5089,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [HOWILLMAKEIT/skills](https://github.com/HOWILLMAKEIT/skills) — Personal Agent Skills collection (better-notes, video-summary, undress, learn-by-running-code) shipped as SKILL.md packs, each with clear usage boundaries and verifiable completion criteria.
 - [tianwena/ai-eng-system](https://github.com/tianwena/ai-eng-system) — AI engineering capability system: a SKILL.md behaviour-spec set (skill library + gates + acceptance criteria) that takes one person plus an AI agent team from idea to commercial delivery.
 - [chenqg618/compliance-skills](https://github.com/chenqg618/compliance-skills) — Mechanical-check AI agent skills for contracts, invoices, tender/bidding documents and ad copy: every finding is recomputable evidence, fully offline — no model, no network.
+
+- [FiretrUCK666/project-forge](https://github.com/FiretrUCK666/project-forge) — Forge a project directory into a well-governed project in one pass: version control, remote repository, documentation set and release channel (general-purpose skill, works with any tech stack).
 
 ## Resources
 
