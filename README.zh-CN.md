@@ -1977,8 +1977,9 @@ _token 用量、成本看板与预算告警插件。_
 - [305037991x-pixel/dsh-account-balance](https://github.com/305037991x-pixel/dsh-account-balance) —— DeepSeek Harness Web 的 DeepSeek 账户余额小组件：3 分钟自动刷新，展示总额/充值/赠送明细。
 - [305037991x-pixel/dsh-opencode-go](https://github.com/305037991x-pixel/dsh-opencode-go) —— DeepSeek Harness Web 的 OpenCode GO 套餐用量小组件：双账户滚动/周/月配额，3 分钟自动刷新，悬浮查看单账户明细。
 - [KIDLi1412/dsh-token-heatmap](https://github.com/KIDLi1412/dsh-token-heatmap) —— DSH web 插件：在新会话页展示 GitHub 风格的每日 Token 用量热力图，支持日历年视图切换、绿/蓝配色与显示开关，附今日/本月/全部时间总量。
-- [Zoria-Lind/dsh-token-optimizer](https://github.com/Zoria-Lind/dsh-token-optimizer) — DeepSeek Harness 分层 Token 优化管道：长文本转图摘要（弹窗询问 + 经济账估算、动态分辨率分档、摘要磁盘缓存 + 分批视觉摘要）、输出阶梯压缩、重复读文件 diff、工具裁剪 + MCP 懒加载、压缩调度器、会话统计（含缓存命中率）。
-- [Zoria-Lind/dsh-behavior-enhancer](https://github.com/Zoria-Lind/dsh-behavior-enhancer) — 配套行为管理插件：工具调用纪律提示、失败触发的并行度收敛（降为 1、自动恢复）、连续失败用户介入、写后语法检查与 .bak 快照回滚。与 dsh-token-optimizer 互补。
+- [Zoria-Lind/dsh-token-optimizer](https://github.com/Zoria-Lind/dsh-token-optimizer) — DeepSeek Harness 分层 Token 优化管道：长文本转图摘要（弹窗询问 + 经济账估算、动态分辨率分档、摘要磁盘缓存 + 分批视觉摘要）、输出阶梯压缩、重复读文件 diff、工具裁剪 + MCP 懒加载、分层压缩（L0 观测 / L1 无损裁剪 / L2 有损 LLM 摘要）与 `/token-status` 状态命令、会话统计（含缓存命中率）。
+- [Zoria-Lind/dsh-behavior-enhancer](https://github.com/Zoria-Lind/dsh-behavior-enhancer) — 配套行为管理插件：工具调用纪律提示、失败触发的并行度收敛（降为 1、自动恢复）、连续失败用户介入、写后语法检查与 .bak 快照回滚、高风险命令闸门（带逃生计数）、验证环、遵守度统计（`/behavior-status`）与 git diff 工作区核验。与 dsh-token-optimizer 互补。
+- [Zoria-Lind/dsh-ecolink](https://github.com/Zoria-Lind/dsh-ecolink) — DeepSeek 网页版与 DSH 的跨端记忆生态：Chromium MV3 扩展（标签式收割 + 内容注入：会话首条全量 + diff）、零依赖本地记忆服务（唯一写者、token 鉴权、快照/diff 协议、一键压缩）与 DSH 适配层（记忆 skill、`/ecolink-push` 写回、`/ecolink-diff`）。两端共享同一份本地记忆池。
 - [teethyachi/dsh-usage-mini](https://github.com/teethyachi/dsh-usage-mini) —— DeepSeek Harness 迷你用量窗口插件，目前支持 Claude/Codex 订阅和 DeepSeek API。
 - [fishOfOUC/dsh-price-monitor](https://github.com/fishOfOUC/dsh-price-monitor) — DeepSeek Harness 会话成本监控插件——一个 dsh-better-sidebar 标签页（依赖该 sidebar，本包不自带 UI），按官方或手动定价展示每轮/每次尝试的 token 成本。
 - [rickyfu0625-cell/dsh-billing-dashboard](https://github.com/rickyfu0625-cell/dsh-billing-dashboard) — DeepSeek Harness 用量看板插件：余额 / 消费 / token / 7 日趋势 / 一键充值。
