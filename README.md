@@ -2866,6 +2866,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 - [sdegongzuo/dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) — DeepSeek Harness client plugin for browser operation and debugging: multi-session, new-window and multi-tab control of web pages.
 - [developerdh/dsh-jenkins-panel](https://github.com/developerdh/dsh-jenkins-panel) — Jenkins tools and a panel inside dsh: trigger build jobs, query logs, watch build status in a panel and follow live logs.
+- [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) — Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
 
 ## Agents
 
