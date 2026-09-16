@@ -2877,6 +2877,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 - [sdegongzuo/dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) —— DeepSeek Harness 客户端网页操作与调试插件：多会话、新窗口、多标签页调试和操作网页。
 - [developerdh/dsh-jenkins-panel](https://github.com/developerdh/dsh-jenkins-panel) —— 在 DSH 中集成 Jenkins 工具与面板：直接触发构建任务、查询日志、在面板里看构建状态与实时日志跟踪。
+- [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) —— 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
 
 ## Agent
 
