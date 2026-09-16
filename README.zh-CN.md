@@ -1032,6 +1032,12 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [mathangler/dsh-opencode-session-header](https://github.com/mathangler/dsh-opencode-session-header) —— 为 DeepSeek Harness 补上每会话的 x-opencode-session 头：OpenCode Go / Zen 路由不再返回 400 MissingSessionID，不改文件、DSH 升级后也无需重新打补丁。
 - [wushi2333/dsh-computer-use_codex-style](https://github.com/wushi2333/dsh-computer-use_codex-style) —— Codex 风格的 DSH Computer Use：官方 window2 的 13 个方法桌面面 + Chromium 自动化，可见遮罩层 + Esc 打断、逐应用审批与内置技能。Windows、MIT，无需 Codex。
 - [zsagi1368/dsh-webstack](https://github.com/zsagi1368/dsh-webstack) —— WebStack（网栈）：DeepSeek Harness (DSH) 的网页搜索 + 抓取一体化内核插件——免费池开箱即搜、SSRF 四道闸、双语诊断。
+- [catcatchcatast/dsh-remote-hosts](https://github.com/catcatchcatast/dsh-remote-hosts) —— DSH 远程插件：多主机远程开发，Web 与桌面端都可连远程主机（0.1.5-rc 预览版）。
+- [forestbiankiii/dsh-provider-extension](https://github.com/forestbiankiii/dsh-provider-extension) —— DSH Desktop 非官方 provider 扩展：在 composer 里管理 provider / 账号 / 模型，并按账号显示订阅额度。
+- [liangl1985/work-personal-secretary](https://github.com/liangl1985/work-personal-secretary) —— DSH 插件集成体「工作秘书」：强记忆 + 强文档处理（Word/Excel/PPT/PDF）+ 20 位专家库 + 桌宠定制层（MIT）。
+- [lyqteemo/dsh-wsl-remote](https://github.com/lyqteemo/dsh-wsl-remote) —— 在 Windows 宿主上把 DSH 的执行世界放进 WSL2：用 `wsl.exe` 实现 `ctx.ssh` 服务，复用官方 dsh-ssh provider 与 helper，不改动上游代码。
+- [wendou-chen/dsh-render-perf](https://github.com/wendou-chen/dsh-render-perf) —— DSH Web 公式渲染性能治理：运行时注入公式渲染结果缓存（不改安装目录）+ 视口外渲染跳过，实测长会话切换卡顿 1832ms → 455ms（-75%）。
+- [zhangjunjesse/dsh-claude-driver](https://github.com/zhangjunjesse/dsh-claude-driver) —— DSH 宿主插件：经 `llm/stream` 缝把本地 Claude Code 订阅（官方 Claude Agent SDK）当主模型用，工具活动以 DSH 原生卡片呈现，支持 resume 续接与子代理桥接。
 
 ## 安全与权限
 
@@ -2878,6 +2884,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [sdegongzuo/dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) —— DeepSeek Harness 客户端网页操作与调试插件：多会话、新窗口、多标签页调试和操作网页。
 - [developerdh/dsh-jenkins-panel](https://github.com/developerdh/dsh-jenkins-panel) —— 在 DSH 中集成 Jenkins 工具与面板：直接触发构建任务、查询日志、在面板里看构建状态与实时日志跟踪。
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) —— 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
+- [MichengAI/dsh-simplify](https://github.com/MichengAI/dsh-simplify) —— DSH 代码简化插件：限定 Git 变更范围，支持未跟踪文件、跨平台路径与可靠的 Git 异常处理。
 
 ## Agent
 
@@ -3090,6 +3097,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
 - [Clearailhc/clearai-dsh](https://github.com/Clearailhc/clearai-dsh) —— ClearAI：把「认知循环」（Epistemic Loop）带进 DeepSeek Harness 的原生插件——先说明什么能检验这个想法，再跑工作、记录结果、评估证据、修订结论，让结论必须自己挣来地位。
 - [shenhuanageshei/dsh-thincoder-suite](https://github.com/shenhuanageshei/dsh-thincoder-suite) —— 移植 thincoder 自律套件的 DSH 插件：advisor 收敛评审 / 工程模式 / 升级 / 咨询。
+- [a86582751/dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) —— 原生 Agent 驱动的长篇角色扮演：固定设定与硬切窗口、可追溯导演笔记、关键词与语义混合历史召回；支持交互式创作、世界书、多角色推演与小说导出，Windows / Linux 一键安装。
+- [tanweiping1012-source/DramaPilot](https://github.com/tanweiping1012-source/DramaPilot) —— 基于 DeepSeek Harness 的短剧本地化 Agent 离线原型：角色视觉、语言表演与文化改编。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -3143,6 +3152,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [toustifer/dsh-harvest](https://github.com/toustifer/dsh-harvest) —— DSH 原生多平台调研流水线插件：scout / extract / verify / audit 四件套，零依赖。
 - [CZ-ZL/duo](https://github.com/CZ-ZL/duo) —— DSH 评测与优化插件（自定义 evaluator）：让 Agent 在预算内尝试改进，用测试比较结果与花费，再决定是否采用。
 - [Porphyrioon/ironlaw](https://github.com/Porphyrioon/ironlaw) —— IronLaw：面向编码 agent 的证据驱动完成与修复层（支持 DSH / OpenCode / Claude / Codex / Qoder 等宿主）——把任务约束、事实证据、完成门与有界修复放在助手之外。
+- [ckk-09/dsh-refix](https://github.com/ckk-09/dsh-refix) —— DSH 自诊断 · 自修复 · 自迭代动态插件。
 
 ## MCP Server
 
@@ -4872,6 +4882,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [liceses/dsh-ds-tts](https://github.com/liceses/dsh-ds-tts) —— DSH TTS 插件：用 DeepSeek 官方朗读音色朗读文本、导出音频，或把它封装成本地接口。
 - [biliye/dsh-voice-call](https://github.com/biliye/dsh-voice-call) —— DeepSeek 专属语音通话插件：唤醒词 + 语音识别 + TTS 的免手语音聊天，另带情绪分析与子代理。
 - [Nath-Vikky/dsh-fisher](https://github.com/Nath-Vikky/dsh-fisher) —— 摸鱼海岸：面向 DeepSeek Harness 的轻操作钓鱼与收藏娱乐插件。
+- [666emmm/dsh-file-upload](https://github.com/666emmm/dsh-file-upload) —— DSH 上传文件管理（列表 / 详情 / 删除 / @路径）与零拷贝剪贴板路径读取。
+- [wcytjy/dsh-meal-picker](https://github.com/wcytjy/dsh-meal-picker) —— DSH「今天吃什么」插件：右下角可拖动悬浮气泡，从本地 4,423 道菜库里一次挑三道菜（0 token），带筛选、收藏、忌口与 AI 做法 / 热量 / 点评按钮。
 
 ## Skill
 

@@ -1031,6 +1031,12 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [mathangler/dsh-opencode-session-header](https://github.com/mathangler/dsh-opencode-session-header) — Per-conversation x-opencode-session header for DeepSeek Harness: OpenCode Go / Zen routes stop returning 400 MissingSessionID, with no file patching and no re-apply after a DSH upgrade.
 - [wushi2333/dsh-computer-use_codex-style](https://github.com/wushi2333/dsh-computer-use_codex-style) — Codex-style Computer Use for DeepSeek Harness: the official window2 13-method desktop surface plus Chromium automation, a visible overlay with Esc interrupt, per-app approvals and bundled skills. Windows, MIT, no Codex required.
 - [zsagi1368/dsh-webstack](https://github.com/zsagi1368/dsh-webstack) — WebStack (网栈) — integrated web search & fetch kernel plugin for DeepSeek Harness (DSH): free search pools ready out of the box, four SSRF gates, bilingual diagnostics.
+- [catcatchcatast/dsh-remote-hosts](https://github.com/catcatchcatast/dsh-remote-hosts) — DSH remote plugin for multi-host development: point the DSH Web & Desktop clients at remote hosts (0.1.5-rc preview).
+- [forestbiankiii/dsh-provider-extension](https://github.com/forestbiankiii/dsh-provider-extension) — Unofficial DSH Desktop provider extension: composer-side provider/account/model controls with per-account subscription quota.
+- [liangl1985/work-personal-secretary](https://github.com/liangl1985/work-personal-secretary) — DSH plugin bundle "work secretary": strong memory + heavy document processing (Word/Excel/PPT/PDF) + a 20-expert library + a desktop-pet layer (MIT).
+- [lyqteemo/dsh-wsl-remote](https://github.com/lyqteemo/dsh-wsl-remote) — Run the DSH execution world inside WSL2 from a Windows host: a `ctx.ssh` service backed by `wsl.exe` that reuses the official dsh-ssh providers and helper unchanged.
+- [wendou-chen/dsh-render-perf](https://github.com/wendou-chen/dsh-render-perf) — DSH Web formula-rendering performance work: runtime-injected render-result cache (no install-dir changes) plus off-viewport render skipping; long-session switch lag measured 1832ms → 455ms (-75%).
+- [zhangjunjesse/dsh-claude-driver](https://github.com/zhangjunjesse/dsh-claude-driver) — DSH host plugin that drives a local Claude Code subscription (official Claude Agent SDK) as the main model through the `llm/stream` seam, surfacing tool activity as native DSH cards.
 
 ## Security & Permissions
 
@@ -2867,6 +2873,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [sdegongzuo/dsh-webops-plugin](https://github.com/sdegongzuo/dsh-webops-plugin) — DeepSeek Harness client plugin for browser operation and debugging: multi-session, new-window and multi-tab control of web pages.
 - [developerdh/dsh-jenkins-panel](https://github.com/developerdh/dsh-jenkins-panel) — Jenkins tools and a panel inside dsh: trigger build jobs, query logs, watch build status in a panel and follow live logs.
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) — Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
+- [MichengAI/dsh-simplify](https://github.com/MichengAI/dsh-simplify) — DSH code-simplification plugin: constrains the scope to Git changes, supports untracked files, cross-platform paths and robust Git error handling.
 
 ## Agents
 
@@ -3077,6 +3084,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
 - [Clearailhc/clearai-dsh](https://github.com/Clearailhc/clearai-dsh) — ClearAI is a native DSH plugin that brings the Epistemic Loop to DeepSeek Harness: state what would test an idea, run the work, record what happened, evaluate the evidence, and revise what is believed.
 - [shenhuanageshei/dsh-thincoder-suite](https://github.com/shenhuanageshei/dsh-thincoder-suite) — DSH plugin porting the thincoder self-discipline suite: advisor convergent review / engineering mode / escalate / consult.
+- [a86582751/dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) — Native agent-driven long-form roleplay: fixed persona with hard context-window cuts, traceable director notes, keyword+semantic history recall; interactive writing, world books, multi-character simulation and novel export (Windows / Linux one-click install).
+- [tanweiping1012-source/DramaPilot](https://github.com/tanweiping1012-source/DramaPilot) — Offline prototype of a short-drama localization agent built on DeepSeek Harness: character visuals, language performance and cultural adaptation.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -3127,6 +3136,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [toustifer/dsh-harvest](https://github.com/toustifer/dsh-harvest) — DSH-native multi-platform research pipeline plugin: scout / extract / verify / audit, zero dependencies.
 - [CZ-ZL/duo](https://github.com/CZ-ZL/duo) — DSH evaluation and optimization plugin with custom evaluators: let an agent try improvements within budget, then compare the results and the cost before adopting a change.
 - [Porphyrioon/ironlaw](https://github.com/Porphyrioon/ironlaw) — IronLaw: host-agnostic, evidence-backed completion and repair layer for coding agents (DSH / OpenCode / Claude / Codex / Qoder …) — task constraints, factual evidence, a completion gate and bounded repair live outside the assistant.
+- [ckk-09/dsh-refix](https://github.com/ckk-09/dsh-refix) — Self-diagnosing, self-repairing, self-iterating dynamic plugin for DSH (DeepSeek Harness).
 
 ## MCP Servers
 
@@ -4872,6 +4882,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [liceses/dsh-ds-tts](https://github.com/liceses/dsh-ds-tts) — DSH TTS plugin: read text aloud with DeepSeek's official reading voices, export the audio, or expose it as a local interface.
 - [biliye/dsh-voice-call](https://github.com/biliye/dsh-voice-call) — Voice-call plugin for DeepSeek Harness: hands-free voice chat with wake word, speech recognition and TTS, plus sentiment analysis and subagents.
 - [Nath-Vikky/dsh-fisher](https://github.com/Nath-Vikky/dsh-fisher) — Slack-off Coast (摸鱼海岸): a light-touch fishing and collecting entertainment plugin for DeepSeek Harness.
+- [666emmm/dsh-file-upload](https://github.com/666emmm/dsh-file-upload) — Uploaded-file management for DSH (list / info / delete / @path) plus zero-copy clipboard path reading.
+- [wcytjy/dsh-meal-picker](https://github.com/wcytjy/dsh-meal-picker) — DSH "what to eat today" plugin: a draggable floating bubble that picks three dishes from a local 4,423-dish library at zero token cost, with filters, favourites, dietary taboos and AI how-to / calorie / review buttons.
 
 ## Skills
 
