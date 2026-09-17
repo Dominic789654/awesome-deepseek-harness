@@ -3386,6 +3386,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) —— 把本机已登录的 WorkBuddy 模型接入 DeepSeek Harness，附带只读的额度总览与模型管理。
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) —— 面向 DeepSeek Harness（dsh）的 You.com 搜索 + 抓取 provider 插件，另附一个研究型 agent 预设。
 - [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) —— 华为云官方 AI agent 插件：skills、MCP 工具、安全护栏与云沙箱；可直接装进 DSH（`npx --yes huaweicloud-devkit install --target dsh`，配合 DSH 的 MCP client 插件），让 agent 安全地构建、部署与运维华为云资源。
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) —— 在进程外、于模型提供方的 HTTP 边界录制 DSH 会话，再把录像放回去让同一次会话在断开提供方的情况下重跑；并通过 MCP 暴露 trace，用来追问「上一次运行到底做了什么」。
 
 ## 编排器与聚合器
 
