@@ -3547,6 +3547,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [peng456/dsh-plugin-mesh](https://github.com/peng456/dsh-plugin-mesh) — DSH LAN mesh plugin: auto-discovers other DSH instances on the same subnet, serves a peer control page, and dispatches tasks both ways across machines.
 
 ## UI / Clients
+- [jayantTang/DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) — 原生 iOS 客户端 + 电脑侧连接器 + 公网中转：手机不用公网 IP、4G/5G 就能连上电脑上的 DSH，同一批会话与同一条消息流。Native SwiftUI client, a DSH connector plugin, and a self-hosted relay (Python/aiohttp).
 - [2021Heei/dsh-tts-flash](https://github.com/2021Heei/dsh-tts-flash) — Streaming reply read-aloud for DeepSeek Harness, with Edge TTS, OpenAI-compatible speech engines, and spoken waiting phrases.
 - [desanv01/deepseek-harness-desktop-app](https://github.com/desanv01/deepseek-harness-desktop-app) — Native Windows desktop shell for DeepSeek Harness using WebView2; launches a project-scoped DSH server and stops it when the window closes.
 - [hyperion2144/dsh-desktop-tauriapp](https://github.com/hyperion2144/dsh-desktop-tauriapp) — Tauri 2 desktop shell wrapping the DeepSeek Harness Web GUI (macOS + Windows) — tray daemon, auto-launch/reuse of the local dsh, `--patch` plugin injection, and mobile access via LAN/tunnel pairing with a one-click cloudflared tunnel.
