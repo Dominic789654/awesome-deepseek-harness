@@ -4371,7 +4371,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Djokovical5294/DeepSeek-Harness-Token-Free](https://github.com/Djokovical5294/DeepSeek-Harness-Token-Free) —— 零 token 成本在桌面上运行 DeepSeek Harness——一个适用于 macOS 与 Windows 的免费开源 GUI。
 - [drmi5446/dsh-wallpaper-engine](https://github.com/drmi5446/dsh-wallpaper-engine) —— 将 Wallpaper Engine 壁纸转换为 DSH Web GUI 的液体玻璃背景，支持视频与网页形式。
 - [harismuna5268/DSH-Desktop](https://github.com/harismuna5268/DSH-Desktop) —— DeepSeek Harness 的 Electron 桌面壳，捆包 node、pnpm 与 DSH 运行时，一键进入 dsh web UI。
-- [泡泡猫 DSH 桌面版](https://github.com/zmm863-commits/dsh-desktop-pack) —— Windows NSIS 安装包：内置 Node.js 与 Git，预置含 17 个插件与泡泡猫玻璃主题的 `profiles/web` 配置，双击桌面快捷方式即启动 DSH Web UI。
+- [zmm863-commits/dsh-desktop-pack](https://github.com/zmm863-commits/dsh-desktop-pack) —— Windows NSIS 安装包：内置 Node.js 与 Git，预置含 17 个插件与泡泡猫玻璃主题的 `profiles/web` 配置，双击桌面快捷方式即启动 DSH Web UI。
 - [maiziman/cedardsh-desktop](https://github.com/maiziman/cedardsh-desktop) —— CedarDSH Desktop —— Windows 版 DeepSeek Harness。下载一个 ZIP，解压即运行，无需 Node.js 或安装器。
 - [niceberserker38/deepseek-harness-desktop](https://github.com/niceberserker38/deepseek-harness-desktop) —— 以极简、跨平台的桌面壳在本地解锁 DeepSeek Harness，适合隐私 AI 实验。
 - [KK-Irving/dsh-web-launcher](https://github.com/KK-Irving/dsh-web-launcher) — 面向 DeepSeek Harness Web UI 的 Windows 一键启动器——PowerShell 托盘模式或 Electron 桌面客户端，支持多标签浏览、Chrome 扩展与一键更新。
