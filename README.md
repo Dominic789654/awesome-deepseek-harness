@@ -3548,6 +3548,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 
 ## UI / Clients
 - [2021Heei/dsh-tts-flash](https://github.com/2021Heei/dsh-tts-flash) — Streaming reply read-aloud for DeepSeek Harness, with Edge TTS, OpenAI-compatible speech engines, and spoken waiting phrases.
+- [DanielW203/dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) — Native SwiftUI macOS client for DeepSeek Harness: several releases installed side by side, an 8-check self-test after each upgrade with one-shot rollback, safe-mode recovery, and a built-in WeChat/phone remote channel.
 - [desanv01/deepseek-harness-desktop-app](https://github.com/desanv01/deepseek-harness-desktop-app) — Native Windows desktop shell for DeepSeek Harness using WebView2; launches a project-scoped DSH server and stops it when the window closes.
 - [hyperion2144/dsh-desktop-tauriapp](https://github.com/hyperion2144/dsh-desktop-tauriapp) — Tauri 2 desktop shell wrapping the DeepSeek Harness Web GUI (macOS + Windows) — tray daemon, auto-launch/reuse of the local dsh, `--patch` plugin injection, and mobile access via LAN/tunnel pairing with a one-click cloudflared tunnel.
 - [mrSutivu/plugin-effort-slider](https://github.com/mrSutivu/plugin-effort-slider) — Reasoning-effort slider beside the DeepSeek Harness model picker, with discrete model-provided levels, theme support, and localized labels.
