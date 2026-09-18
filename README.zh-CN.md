@@ -3576,6 +3576,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 
 _DSH 的桌面、网页、终端或编辑器前端。_
 - [2021Heei/dsh-tts-flash](https://github.com/2021Heei/dsh-tts-flash) —— DeepSeek Harness 流式回复朗读插件，支持 Edge TTS、OpenAI 兼容语音引擎和思考等待期语音短语。
+- [DanielW203/dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) —— DeepSeek Harness 的原生 SwiftUI macOS 客户端：多版本并存，升级后跑 8 项自检与一次性回退，另有安全模式恢复与内置微信/手机远控。
 - [desanv01/deepseek-harness-desktop-app](https://github.com/desanv01/deepseek-harness-desktop-app) —— 基于 WebView2 的 DeepSeek Harness 原生 Windows 桌面外壳，启动项目专属 DSH 服务，并在窗口关闭时停止服务。
 - [hyperion2144/dsh-desktop-tauriapp](https://github.com/hyperion2144/dsh-desktop-tauriapp) —— 用 Tauri 2 桌面外壳封装 DeepSeek Harness Web GUI（macOS + Windows）：托盘常驻、自动拉起/复用本地 dsh、`--patch` 插件注入，并通过局域网/隧道配对 + cloudflared 一键隧道实现手机访问。
 - [mrSutivu/plugin-effort-slider](https://github.com/mrSutivu/plugin-effort-slider) —— 在 DeepSeek Harness 模型选择器旁添加推理强度滑块，支持模型提供的离散档位、主题适配和多语言标签。
