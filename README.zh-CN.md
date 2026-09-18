@@ -1055,6 +1055,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [GooDAnDReaDY/dsh-issue-reporter](https://github.com/GooDAnDReaDY/dsh-issue-reporter) —— DeepSeek Harness 的问题上报与诊断遥测工具，带 AI 优化、issue 监听和一键更新。
 - [makesandcrafts/firecrawl-harness](https://github.com/makesandcrafts/firecrawl-harness) —— DeepSeek Harness 的本地联网调研集成：自托管 Firecrawl + SearXNG，免密钥、仅回环、不改动上游。
 - [misswell/dsh-advanced-provider-settings](https://github.com/misswell/dsh-advanced-provider-settings) —— 面向 DeepSeek Harness (DSH) 的高级供应商配置界面：请求头、User-Agent、重试策略、超时、视觉、推理与兼容性，不用再手改 settings.yaml。
+- [ZFXing-lite/dsh-auto-continue](https://github.com/ZFXing-lite/dsh-auto-continue) —— 自动继续插件：当一回话因模型重试耗尽 / 供应商报错 / 超时 / 输出撞长度上限而异常结束时自动发送「继续」，并在聊天框「+」菜单加开关。
+- [knyazev741/knyazevai-dsh](https://github.com/knyazev741/knyazevai-dsh) —— KnyazevAI DSH Provider：把 KnyazevAI API 的模型接入 DeepSeek Harness 与兼容的 DSH Desktop 客户端，新增 knyazev-ai 路由与大上下文压缩设置。
+- [noetion/dsh-jev](https://github.com/noetion/dsh-jev) —— DSH bundle：注册 `jev_ask` 工具，让 DSH agent 向 TypeSafe Jev（System One 模型）发起 noul / 选择 / 打分三类结构化提问并取回结构化答案。
+- [pakgrou-porg/yardmaster](https://github.com/pakgrou-porg/yardmaster) —— 两级本地 LLM 路由器，以 DSH 插件形式内置：NVIDIA Switchyard 决定用哪个模型、PAIR 决定在哪台机器跑，对外只暴露一个本地端点。
 
 ## 安全与权限
 
@@ -2933,6 +2937,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [darrien1998/dsh-ditto](https://github.com/darrien1998/dsh-ditto) —— 先审后批的 DeepSeek Harness 批量自动化插件：先审 3 个样本 → 全量预览 → 确认 → 安全执行，同一改动套到 30 个文件也不必逐个盯着。
 - [adithyanraj03/dsh-graft-plugin](https://github.com/adithyanraj03/dsh-graft-plugin) — 把 graft（预构建的全符号图：每个符号、它的 file:line 位置、谁调用了谁）同时摆在人和模型面前的 DSH 插件。
 - [mays-hi/dsh-git-idea](https://github.com/mays-hi/dsh-git-idea) —— 装在 DSH 会话里的 git 面板：仓库标签、分支树、提交图、工作区与提交详情、设置页，外加 8 个 git 模型工具。
+- [zeta987/dsh-git-style-zeta](https://github.com/zeta987/dsh-git-style-zeta) —— DeepSeek Harness 的可配置 Git 提交 / PR 提示词指导：在设置页编辑两段可选的系统提示词段落（是提示、不是强制）。
 
 ## Agent
 
@@ -3386,6 +3391,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) —— 把本机已登录的 WorkBuddy 模型接入 DeepSeek Harness，附带只读的额度总览与模型管理。
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) —— 面向 DeepSeek Harness（dsh）的 You.com 搜索 + 抓取 provider 插件，另附一个研究型 agent 预设。
 - [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) —— 华为云官方 AI agent 插件：skills、MCP 工具、安全护栏与云沙箱；可直接装进 DSH（`npx --yes huaweicloud-devkit install --target dsh`，配合 DSH 的 MCP client 插件），让 agent 安全地构建、部署与运维华为云资源。
+- [anthonyyu-verkada/dsh-mcp-client-plus](https://github.com/anthonyyu-verkada/dsh-mcp-client-plus) —— DeepSeek Harness 的 MCP 客户端增强桥（基于内置 dsh-mcp-client 分支）：补上 OAuth 2.1、连接/发现超时上限、环境变量间接引用密钥、可选无限重连，以及 mcp_status 诊断工具。
 
 ## 编排器与聚合器
 
@@ -4967,6 +4973,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [ccll/dsh-activity-pane](https://github.com/ccll/dsh-activity-pane) —— DeepSeek Harness (DSH) Web 的活动会话总览窗格 —— 正在跑的会话、子代理、待处理提醒与最近历史一目了然。
 - [viyiviyi/dsh-quiet-mode](https://github.com/viyiviyi/dsh-quiet-mode) —— DeepSeek Harness 的安静模式 —— 少点废话，回复更短。
 - [zhang24xiao/dsh-snippets](https://github.com/zhang24xiao/dsh-snippets) —— DeepSeek Harness Web GUI 的 CSS / JS 代码片段管理器：侧边栏快捷开关 + 设置 → 代码片段独立页面，CodeMirror 6 编辑器，启用的 CSS 即时注入、JS 页面加载后执行。
+- [aklnaaw/dsh-claude-theme](https://github.com/aklnaaw/dsh-claude-theme) —— 把 DSH Web GUI 重做成 claude.ai 观感的主题：暖米色画布、衬线正文、珊瑚色强调，另附一只可点击的像素 Clawd 蟹。
+- [Doozqoo/dsh-pixel-office](https://github.com/Doozqoo/dsh-pixel-office) —— DSH Web GUI 的像素办公室主题：会话列表变成 6×4 工位网格，点进工位是 CRT 桌面正视图，里面就是真的对话界面，带扫描线、马赛克瓦片消除与 CRT 开机转场。
+- [idoall/dsh-notify](https://github.com/idoall/dsh-notify) —— 面向 DeepSeek Harness 的页内任务通知：toast 弹栈、铃铛历史、WebAudio 提示音、后台标签页标题闪烁；只做实时投递，不发 web push、不接系统通知矩阵。
+- [JshGao/dsh-tavern-server](https://github.com/JshGao/dsh-tavern-server) —— macOS 菜单栏启动器：一键在后台运行 dsh-tavern（DeepSeek Harness 文字游戏 Agent）服务，不占程序坞也不用每次手敲命令。
 
 ## Skill
 

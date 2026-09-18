@@ -1054,6 +1054,10 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [GooDAnDReaDY/dsh-issue-reporter](https://github.com/GooDAnDReaDY/dsh-issue-reporter) — Issue reporter and diagnostic telemetry tool for DeepSeek Harness with AI optimization, issue watcher, and one-click updater.
 - [makesandcrafts/firecrawl-harness](https://github.com/makesandcrafts/firecrawl-harness) — Local web-research integration for DeepSeek Harness: self-hosted Firecrawl + SearXNG. Keyless, loopback, upstream-pure.
 - [misswell/dsh-advanced-provider-settings](https://github.com/misswell/dsh-advanced-provider-settings) — Advanced provider configuration UI for DeepSeek Harness (DSH): headers, User-Agent, retry policy, timeouts, vision, reasoning and compatibility — without editing settings.yaml by hand.
+- [ZFXing-lite/dsh-auto-continue](https://github.com/ZFXing-lite/dsh-auto-continue) — Auto-sends 「继续」 when a turn ends abnormally (exhausted model retry, provider error, timeout or length cap), and adds on/off switches to the composer + menu.
+- [knyazev741/knyazevai-dsh](https://github.com/knyazev741/knyazevai-dsh) — KnyazevAI DSH Provider: adds KnyazevAI API models to DeepSeek Harness and compatible DSH Desktop clients, with a knyazev-ai route and large-context compaction settings.
+- [noetion/dsh-jev](https://github.com/noetion/dsh-jev) — DSH bundle that registers the jev_ask tool, letting a DSH agent send typed noul / choice / score questions to TypeSafe Jev, which returns structured answers only.
+- [pakgrou-porg/yardmaster](https://github.com/pakgrou-porg/yardmaster) — Two-stage local LLM router shipped as a DeepSeek Harness plugin: NVIDIA Switchyard decides which model, PAIR decides which node, exposed behind one local endpoint.
 
 ## Security & Permissions
 
@@ -2922,6 +2926,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [darrien1998/dsh-ditto](https://github.com/darrien1998/dsh-ditto) — Review-first batch automation plugin for DeepSeek Harness: 3 reviewed samples → full preview → approve → safe apply, so doing the same thing to 30 files needs no babysitting.
 - [adithyanraj03/dsh-graft-plugin](https://github.com/adithyanraj03/dsh-graft-plugin) — A DeepSeek Harness plugin that puts graft — a prebuilt graph of every symbol, its file:line span, and who calls what — in front of both you and the model.
 - [mays-hi/dsh-git-idea](https://github.com/mays-hi/dsh-git-idea) — A git panel inside the DSH session: repository chip, branch tree, commit graph, working tree and commit detail, a Settings page, and 8 git model tools.
+- [zeta987/dsh-git-style-zeta](https://github.com/zeta987/dsh-git-style-zeta) — Configurable Git commit and pull request prompt guidance for DeepSeek Harness: two optional system-prompt sections edited from their own Settings page.
 
 ## Agents
 
@@ -3377,6 +3382,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) — Connect locally signed-in WorkBuddy models to DeepSeek Harness with a read-only credits overview and model management.
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) — You.com search + fetch provider plugin for DeepSeek Harness (dsh), plus a research-focused agent preset.
 - [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) — Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails and a cloud sandbox; installs into DSH (`npx --yes huaweicloud-devkit install --target dsh`, paired with the DSH MCP client) so agents build, deploy and operate on Huawei Cloud safely.
+- [anthonyyu-verkada/dsh-mcp-client-plus](https://github.com/anthonyyu-verkada/dsh-mcp-client-plus) — MCP client bridge for DeepSeek Harness (fork of the built-in dsh-mcp-client) adding OAuth 2.1, bounded connect / discovery timeouts, environment-indirected secrets, optional indefinite reconnection and an mcp_status diagnostic tool.
 
 ## Orchestrators & Aggregators
 
@@ -4967,6 +4973,10 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [ccll/dsh-activity-pane](https://github.com/ccll/dsh-activity-pane) — Activity session overview pane for DeepSeek Harness (DSH) web — running sessions, sub-agents, waiting-for-action reminders & recent history at a glance.
 - [viyiviyi/dsh-quiet-mode](https://github.com/viyiviyi/dsh-quiet-mode) — Quiet mode for DeepSeek Harness — less chatter, shorter replies.
 - [zhang24xiao/dsh-snippets](https://github.com/zhang24xiao/dsh-snippets) — CSS / JS snippet manager for the DeepSeek Harness web GUI: a sidebar quick toggle plus a Settings → Code Snippets page, with a CodeMirror 6 editor and live CSS injection / JS execution.
+- [aklnaaw/dsh-claude-theme](https://github.com/aklnaaw/dsh-claude-theme) — Claude-style theme for the DeepSeek Harness Web GUI: warm cream canvas, serif reading text, coral accent, plus a clickable pixel Clawd crab.
+- [Doozqoo/dsh-pixel-office](https://github.com/Doozqoo/dsh-pixel-office) — Pixel-art workspace theme for the DeepSeek Harness Web GUI: the session list becomes a 6x4 pixel office grid, and each desk opens a CRT front view with the real chat inside.
+- [idoall/dsh-notify](https://github.com/idoall/dsh-notify) — In-page task notifications for DeepSeek Harness: toast stack, bell history, WebAudio cue and a flashing background tab title, with live delivery only.
+- [JshGao/dsh-tavern-server](https://github.com/JshGao/dsh-tavern-server) — macOS menu bar launcher for dsh-tavern (the DeepSeek Harness text-game agent): starts the server in the background with one click, no terminal needed.
 
 ## Skills
 
