@@ -171,6 +171,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [john-walks-slow/dsh-simulated-life](https://github.com/john-walks-slow/dsh-simulated-life) — 为 DeepSeek Harness 注入模拟生活上下文与世界演化：每轮注入过去 24 小时的模拟事件，并提供 `life_react` 工具。
 - [BOWLUNA/dsh-custom-mode](https://github.com/BOWLUNA/dsh-custom-mode) —— DeepSeek Harness (dsh) 的自定义模式：可编辑的系统提示词（下一步生效）、逐行插件开关，以及一个设置页。
 - [z91772524-ai/pojia-next](https://github.com/z91772524-ai/pojia-next) —— 把五套桌面端 AI 客户端破甲（人格改写）工具合并成一个脚本：一套人格、三个目标（DeepSeek Harness / Codex CLI / WorkBuddy），纯 Python 标准库零依赖，改前必留备份、随时可还原。
+- [lifecoder1988/dsh-agents-md-manager](https://github.com/lifecoder1988/dsh-agents-md-manager) —— DeepSeek Harness 的 AGENTS.md 管理器：按优先级列出会话真正加载的每一层指令文件（先用户全局，再从项目根逐级到当前目录），可在设置页或直接让模型就地编辑。
 
 ## Harness 与运行时
 
@@ -1062,6 +1063,11 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [aaronlei/dsh-web-search-diy](https://github.com/aaronlei/dsh-web-search-diy) — DeepSeek Harness（DSH）网页搜索提供方插件：把内置 web_search 工具接到 OpenAI 兼容 Responses API 及其原生 web_search 工具上。
 - [FishBottle7/opencode2dsh](https://github.com/FishBottle7/opencode2dsh) — DSH 插件：在 DeepSeek Harness 中使用 OpenCode Zen 免费模型，无需 API key。
 - [masknull/dsh-workbuddy-connect](https://github.com/masknull/dsh-workbuddy-connect) — 将 WorkBuddy（国内版 / 国际版）的模型接入 DeepSeek Harness——插件自带浏览器登录，无需 WorkBuddy 桌面 App；支持 DSH 0.1.5-rc.1+。
+- [jiangchuangege/xiaojiao-harnees](https://github.com/jiangchuangege/xiaojiao-harnees) —— 把智力从模型搬进载体的本地 AI 助手：换模型、助手不变（记忆 / 人格 / 工具 / 安全边界都不丢），100% 本地运行；与 DSH 双向兼容——既可当 DSH 的 OpenAI 兼容大脑，也能把 DSH 风格的工具清单转成自己的插件。
+- [jiawei322/dsh-pi-catalog-sync](https://github.com/jiawei322/dsh-pi-catalog-sync) —— 通过官方 settings 接缝把 pi.dev 模型目录同步进 DeepSeek Harness 的 llm-pi-ai provider 路由，无需改源码；像 OpenRouter 这类混合协议路由会把新模型挂到伴随路由上，内置路由保持不变。
+- [lifecoder1988/dsh-devspace](https://github.com/lifecoder1988/dsh-devspace) —— 把 DevSpace 远端节点接进 DeepSeek Harness：统一管理 N 个 MCP 端点（一个节点 = 一个 MCP 端点）、把远端目录「领养」成本地镜像工作区，并支持双向传文件。
+- [omni-/containerize-dsh](https://github.com/omni-/containerize-dsh) —— 在隔离的 Docker 沙箱里运行 DeepSeek Harness，支持外部项目插件与基于 Git 的宿主 / agent 变更传输。
+- [WuJiaoJue/dsh-later](https://github.com/WuJiaoJue/dsh-later) —— 给 DSH 加上定时发送：输入一句话，到点自动以你的身份送出，关掉网页也准时触发；服务端驱动、跨设备的会话内提醒，含 dock 倒计时与 `/later` 命令。
 
 ## 安全与权限
 
@@ -1289,6 +1295,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Tisitan/dsh-tool-guard](https://github.com/Tisitan/dsh-tool-guard) —— 面向 DeepSeek Harness 的、与 preset 无关的全局工具遮蔽：展示层过滤、执行层 guard 否决、自我保护闸门与 WebUI 编辑器。
 - [Jindom/dsh-bitwarden](https://github.com/Jindom/dsh-bitwarden) —— 在每个 DSH 会话里用上 Bitwarden / Vaultwarden 凭据：保险库工具 + 主动提示引导 + 主密码设置卡片。
 - [LAwLi3tCoding/dsh-approval-review](https://github.com/LAwLi3tCoding/dsh-approval-review) —— Codex 风格的 DSH 自动审批：由独立复核模型在审批应答链上裁决放行 / 拒绝，fail-closed，每次审批都把理由写进专门的 Approvals 标签页。
+- [lifecoder1988/dsh-secrets-manager](https://github.com/lifecoder1988/dsh-secrets-manager) —— DeepSeek Harness 的项目密钥管理：monorepo 的 .env 自动发现、保留注释的编辑，以及一个可被 shell 命令 source 的 DSH_ENV_FILES 指针。
 
 ## 会话与记忆管理
 
@@ -1791,6 +1798,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Dayi-Z/dsh-learn-wiki](https://github.com/Dayi-Z/dsh-learn-wiki) — 边做边学知识库：CRAG 式纠错检索（L1 Markdown wiki + L2 Hindsight）。agent 反复撞同一堵墙时后台限流联网补料，蒸馏落 staged，两段式 commit 才进召回。DSH 插件。
 - [john-walks-slow/dsh-message-datetime](https://github.com/john-walks-slow/dsh-message-datetime) —— DeepSeek Harness 的逐轮时钟上下文：每轮开头一行当前时间、收尾再报一次「本轮结束」，让模型始终知道现在几点。
 - [xswt442-cmd/dsh-ballast](https://github.com/xswt442-cmd/dsh-ballast) —— DSH 上下文窗口逐条归因面板 —— 看清到底是谁占了窗口。
+- [cn-scuo-oo/dsh-session-auto-title](https://github.com/cn-scuo-oo/dsh-session-auto-title) —— DSH 插件：每轮对话结束后按「月日｜类型｜主题」约定自动重命名会话。
 
 ## 成本与用量统计
 
@@ -2072,6 +2080,7 @@ _token 用量、成本看板与预算告警插件。_
 - [Saikel-Orado-Liu/dsh-cost-meter](https://github.com/Saikel-Orado-Liu/dsh-cost-meter) —— DeepSeek Harness Web GUI 的成本追踪插件：以快照为锚的逐轮计价、账户余额与实时费用估算。
 - [Jovan1666/dsh-commandcode-quota](https://github.com/Jovan1666/dsh-commandcode-quota) — 在 DSH 侧边栏查看 Command Code 套餐额度：5 小时 / 每周 / 每月三档额度与重置倒计时；支持 Go、GOAT、Pro、Max 与 Provider 套餐。
 - [zlZayn/dsh-ds-balance](https://github.com/zlZayn/dsh-ds-balance) — DSH 插件：在左侧栏底部显示 DeepSeek 账户余额（原生 UI），设置页提供连接、展示币种、预警阈值与刷新节奏的配置卡片。
+- [satan9394/dsh-usage-unified](https://github.com/satan9394/dsh-usage-unified) —— 全机 DSH 用量统计：趋势 / 自定义区间 / 模型四桶拆分 / 调用明细 / CSV·JSON 导出，中英双语、浅深色主题。
 
 ## Channel / IM 桥接
 
@@ -2239,6 +2248,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [picsky/dsh-pocket-console](https://github.com/picsky/dsh-pocket-console) —— DeepSeek Harness（DSH）插件：在手机上通过飞书批准工具调用、回答 ask_user_question 提问，桌面端始终排在最前。
 - [LitoMore/agent-discord-presence](https://github.com/LitoMore/agent-discord-presence) —— 为 Codex、Claude Code、OpenCode、Pi 与 DeepSeek Harness 提供 Discord Rich Presence：一个本地服务，让你手头在做的事始终显示在 Discord 上。
 - [masquerator-coder/dsh-im-gateway](https://github.com/masquerator-coder/dsh-im-gateway) —— DeepSeek Harness 的 IM 网关：把 DSH 会话桥接到即时通讯渠道。
+- [bihangchi9-creator/lark-agent-bridge](https://github.com/bihangchi9-creator/lark-agent-bridge) —— DSH 原生插件：把 DSH coding agent 接到飞书群聊——一个群对应一个项目目录。
 
 ## 插件市场与生态
 
@@ -3405,6 +3415,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) —— 面向 DeepSeek Harness（dsh）的 You.com 搜索 + 抓取 provider 插件，另附一个研究型 agent 预设。
 - [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) —— 华为云官方 AI agent 插件：skills、MCP 工具、安全护栏与云沙箱；可直接装进 DSH（`npx --yes huaweicloud-devkit install --target dsh`，配合 DSH 的 MCP client 插件），让 agent 安全地构建、部署与运维华为云资源。
 - [anthonyyu-verkada/dsh-mcp-client-plus](https://github.com/anthonyyu-verkada/dsh-mcp-client-plus) —— DeepSeek Harness 的 MCP 客户端增强桥（基于内置 dsh-mcp-client 分支）：补上 OAuth 2.1、连接/发现超时上限、环境变量间接引用密钥、可选无限重连，以及 mcp_status 诊断工具。
+- [lifecoder1988/dsh-mcp-manager](https://github.com/lifecoder1988/dsh-mcp-manager) —— DeepSeek Harness 的 MCP server 管理：注册 / 编辑 / 启用 / 停用 / 热挂载 MCP server，支持全局默认与按项目覆盖。
 
 ## 编排器与聚合器
 
@@ -4994,6 +5005,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Doozqoo/dsh-pixel-office](https://github.com/Doozqoo/dsh-pixel-office) —— DSH Web GUI 的像素办公室主题：会话列表变成 6×4 工位网格，点进工位是 CRT 桌面正视图，里面就是真的对话界面，带扫描线、马赛克瓦片消除与 CRT 开机转场。
 - [idoall/dsh-notify](https://github.com/idoall/dsh-notify) —— 面向 DeepSeek Harness 的页内任务通知：toast 弹栈、铃铛历史、WebAudio 提示音、后台标签页标题闪烁；只做实时投递，不发 web push、不接系统通知矩阵。
 - [JshGao/dsh-tavern-server](https://github.com/JshGao/dsh-tavern-server) —— macOS 菜单栏启动器：一键在后台运行 dsh-tavern（DeepSeek Harness 文字游戏 Agent）服务，不占程序坞也不用每次手敲命令。
+- [dsh-tauri/deepseek-harness-desktop](https://github.com/dsh-tauri/deepseek-harness-desktop) —— DeepSeek Harness 的 Tauri 桌面版：安装包仅 5MB、零环境配置、预置插件，支持 Windows / macOS / Linux。
+- [jinganwushideng/deepseek-harness-desktop](https://github.com/jinganwushideng/deepseek-harness-desktop) —— DeepSeek Harness 的 Windows 桌面壳与本地管理中心。
+- [jackchen13755/dsh-file-tree](https://github.com/jackchen13755/dsh-file-tree) —— DSH 原生右侧栏文件面板：工作区文件树 + 官方预览（着色）+ 一键把文件 @ 引用进输入框，适配 DSH 0.1.6。
+- [Mos0526/DSHarness-Tray](https://github.com/Mos0526/DSHarness-Tray) —— DSH 桌面客户端：可更新 DSH 最新版，一键安装 / 升级插件。
+- [lihang-lh/dsh-task-panel](https://github.com/lihang-lh/dsh-task-panel) —— DeepSeek Harness 的「老板任务面板」：把聊天气泡升级成任务流水线——你只负责发布和验收，领取 / 规划 / 开发 / 复核由插件动态调度子代理完成，发布时自动蒸馏历史会话并关联到任务。
 
 ## Skill
 
@@ -5311,6 +5327,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) —— You.com 的联网搜索、正文提取、调研、金融与集成发现 skill / 插件，打包适配多个 agent 平台，含 DeepSeek Harness 插件（`@youdotcom-oss/dsh-plugin`）。
 - [xia-sc/dsh-cc-studio](https://github.com/xia-sc/dsh-cc-studio) — dsh-cc-studio · CCv3 角色卡工坊：从一句话点子到可导入 SillyTavern / Risu 的 chara_card_v3，专治「只有点子、世界观薄弱」。
 - [lau4tin1/dsh-skill-router](https://github.com/lau4tin1/dsh-skill-router) —— DeepSeek Harness 的自动 Skill 路由插件。
+- [lifecoder1988/dsh-skill-manager](https://github.com/lifecoder1988/dsh-skill-manager) —— DeepSeek Harness 的 Skill 管理：在项目与用户目录中浏览 / 编写 / 启停 / 删除 skill，设置页和模型都能操作。
+- [fsrmqi/dsh-research-kit](https://github.com/fsrmqi/dsh-research-kit) —— 浏览器侧 DSH 插件：维护科研资源目录（317 条人工审核的工作流、86 个技能条目、122 个科学数据源），把工作流与用户参数组装成可编辑的 Prompt，实际发送与执行仍交给当前 DSH 会话。
 
 ## 资源
 
