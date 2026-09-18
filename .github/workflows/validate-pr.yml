@@ -21,9 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout base
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 (pinned)
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Fetch PR head
         env:
@@ -111,7 +112,7 @@ jobs:
             fi
 
             # --- link reachable
-            code=$(curl -sS -o /dev/null -w '%{http_code}' -L --max-time 25 \
+            code=$(curl -sS -o /dev/null -w '%{http_code}' -L --max-time 25 --proto '=http,https' --max-redirs 5 \
                     -H 'User-Agent: dsh-list-bot' "$url" 2>/dev/null || echo 000)
             echo "HTTP $code for $url"
             if [ "$code" = "404" ] || [ "$code" = "410" ] || [ "$code" = "000" ]; then
