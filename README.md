@@ -2167,6 +2167,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [keepview/dsh-lark](https://github.com/keepview/dsh-lark) — Minimal Lark/Feishu gateway plugin for DeepSeek Harness (dsh) — chat with your agent from Feishu, one topic = one session.
 - [omdsh-dev/dsh-lark](https://github.com/omdsh-dev/dsh-lark) — Lark/Feishu IM bot channel for DeepSeek Harness.
 - [lubaiUwU/DSH-WeChatClawBot](https://github.com/lubaiUwU/DSH-WeChatClawBot) — DSH plugin: WeChat floating-ball bridge (QR login, message relay to agent).
+- [zhengjy01/dsh-wechat-clawbot](https://github.com/zhengjy01/dsh-wechat-clawbot) — Maintained fork of lubaiUwU/DSH-WeChatClawBot: WeChat ClawBot floating-ball bridge for DSH with QR-code login, message relay to agent sessions, and reusable context tokens for out-of-window proactive push.
 - [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) — Connect IM bots to DeepSeek Harness via QR code or credentials, supporting 8 channels: Feishu, WeChat, DingTalk, WeCom, QQ, Telegram, Discord, and WhatsApp.
 - [s17179XTY/dsh-mobile](https://github.com/s17179XTY/dsh-mobile) — dsh-mobile — a mobile-device connector for DeepSeek Harness.
 - [tangwenhao616-netizen/dsh-weixin](https://github.com/tangwenhao616-netizen/dsh-weixin) — dsh-weixin enhanced fork: multi-session, slash commands, per-session models, concurrency fixes.
