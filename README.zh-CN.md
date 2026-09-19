@@ -1070,6 +1070,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [omni-/containerize-dsh](https://github.com/omni-/containerize-dsh) —— 在隔离的 Docker 沙箱里运行 DeepSeek Harness，支持外部项目插件与基于 Git 的宿主 / agent 变更传输。
 - [WuJiaoJue/dsh-later](https://github.com/WuJiaoJue/dsh-later) —— 给 DSH 加上定时发送：输入一句话，到点自动以你的身份送出，关掉网页也准时触发；服务端驱动、跨设备的会话内提醒，含 dock 倒计时与 `/later` 命令。
 - [aaronjmars/headless-harness-bench](https://github.com/aaronjmars/headless-harness-bench) —— 6 个编码 Agent harness（omp / pi / fx / opencode / dsh / crush）作为无头 agent loop、由控制平面驱动的基准测试：静态源码审计 + 实跑两层。
+- [JackAIStudio/dsh-grok-oauth](https://github.com/JackAIStudio/dsh-grok-oauth) —— DeepSeek Harness 的 Grok（xAI）订阅 provider：PKCE 登录、对话、用量角标，可选 Imagine。
+- [mhdimo/deepseek-code](https://github.com/mhdimo/deepseek-code) —— 只面向 DeepSeek 的 Claude Code 式编码 agent 尝试。
+- [Plocr/dsh-commandcode-goat](https://github.com/Plocr/dsh-commandcode-goat) —— DeepSeek Harness（dsh）插件：把 Command Code 订阅（GOAT / Pro / Max）发布为 llm-pi-ai provider 路由，同一凭据同时提供账号用量与网页搜索。
 
 ## 安全与权限
 
@@ -1298,6 +1301,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Jindom/dsh-bitwarden](https://github.com/Jindom/dsh-bitwarden) —— 在每个 DSH 会话里用上 Bitwarden / Vaultwarden 凭据：保险库工具 + 主动提示引导 + 主密码设置卡片。
 - [LAwLi3tCoding/dsh-approval-review](https://github.com/LAwLi3tCoding/dsh-approval-review) —— Codex 风格的 DSH 自动审批：由独立复核模型在审批应答链上裁决放行 / 拒绝，fail-closed，每次审批都把理由写进专门的 Approvals 标签页。
 - [lifecoder1988/dsh-secrets-manager](https://github.com/lifecoder1988/dsh-secrets-manager) —— DeepSeek Harness 的项目密钥管理：monorepo 的 .env 自动发现、保留注释的编辑，以及一个可被 shell 命令 source 的 DSH_ENV_FILES 指针。
+- [DWJZ/dsh-allow](https://github.com/DWJZ/dsh-allow) —— DeepSeek Harness 权限记忆插件：把某类命令加进允许列表，之后同类命令不再询问。
 
 ## 会话与记忆管理
 
@@ -1802,6 +1806,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [xswt442-cmd/dsh-ballast](https://github.com/xswt442-cmd/dsh-ballast) —— DSH 上下文窗口逐条归因面板 —— 看清到底是谁占了窗口。
 - [cn-scuo-oo/dsh-session-auto-title](https://github.com/cn-scuo-oo/dsh-session-auto-title) —— DSH 插件：每轮对话结束后按「月日｜类型｜主题」约定自动重命名会话。
 - [neufagents/dsh-healthcheck](https://github.com/neufagents/dsh-healthcheck) —— DeepSeek Harness 的运行时健康检查：会话库扫描 + 崩溃尾部日志检查，只读。
+- [GeoSyntax/dsh-plugin-time-machine](https://github.com/GeoSyntax/dsh-plugin-time-machine) —— 社区 DSH 插件：协调会话/工作区检查点、安全回退、DAG 分支与失败反思。
 
 ## 成本与用量统计
 
@@ -3196,6 +3201,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [ZSeven-W/dsh-computer](https://github.com/ZSeven-W/dsh-computer) —— 面向 macOS 桌面自动化的 DeepSeek Harness 插件：观察无障碍树、把有风险的操作挡在一次授权之后、对安全字段永久拒绝，并通过你自己本地编译并授权的原生 helper 返回有边界的视觉证据。
 - [ZSeven-W/dsh-qa](https://github.com/ZSeven-W/dsh-qa) —— DeepSeek Harness 的 QA 插件：Agent 像真实用户那样把你的应用走一遍并留下证据，随后把走过的路径导出成可确定性回放的场景，每次发版都跑一遍；统一编排浏览器、macOS 桌面、iOS 与 Android 驱动 —— 不做假绿。
 - [zwbao/dsh-plugin-longpi](https://github.com/zwbao/dsh-plugin-longpi) —— LongPi 1.0.0 for DeepSeek Harness：长寿顾问、个人基因组、VCF 摄入、多组学报告、s2f-agent 路由。
+- [mario841859784/dsh-expert-orchestrator](https://github.com/mario841859784/dsh-expert-orchestrator) —— DSH 专家编排模式 agent preset —— PM 主导规划、Agency 专家委派、闸门式交付、经验沉淀。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -3431,6 +3437,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) —— 华为云官方 AI agent 插件：skills、MCP 工具、安全护栏与云沙箱；可直接装进 DSH（`npx --yes huaweicloud-devkit install --target dsh`，配合 DSH 的 MCP client 插件），让 agent 安全地构建、部署与运维华为云资源。
 - [anthonyyu-verkada/dsh-mcp-client-plus](https://github.com/anthonyyu-verkada/dsh-mcp-client-plus) —— DeepSeek Harness 的 MCP 客户端增强桥（基于内置 dsh-mcp-client 分支）：补上 OAuth 2.1、连接/发现超时上限、环境变量间接引用密钥、可选无限重连，以及 mcp_status 诊断工具。
 - [lifecoder1988/dsh-mcp-manager](https://github.com/lifecoder1988/dsh-mcp-manager) —— DeepSeek Harness 的 MCP server 管理：注册 / 编辑 / 启用 / 停用 / 热挂载 MCP server，支持全局默认与按项目覆盖。
+- [xoykor/dsh-searxng](https://github.com/xoykor/dsh-searxng) —— 由 xoykor 维护的非官方 DSH 上下文守卫 + SearXNG 搜索适配器。
 
 ## 编排器与聚合器
 
@@ -5033,6 +5040,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [IMHaoyan/deepseek-harness-launcher](https://github.com/IMHaoyan/deepseek-harness-launcher) —— DeepSeek Harness Launcher（DSHL）：Windows 托盘启动器 / 看护工具 —— 运行环境一键安装、服务看护、自动更新。
 - [KylinQ01/dsh-startup-animation](https://github.com/KylinQ01/dsh-startup-animation) —— 给 DeepSeek Harness 的开机动画 + 主界面壁纸：多层动效 + 鼠标视差，两张图可在设置里自由更换并实时预览。
 - [weifa860504-droid/dsh-greet-signoff](https://github.com/weifa860504-droid/dsh-greet-signoff) —— 开场语与收尾语：每次回复固定开场 / 收尾，并在上下文接近上限时提示换新会话（DeepSeek Harness Web 插件）。
+- [Matutinal-commoncarotid4290/DSH-Launcher](https://github.com/Matutinal-commoncarotid4290/DSH-Launcher) —— 在原生桌面窗口里启动 DeepSeek Harness —— 不用终端，点一下就能跑。
 
 ## Skill
 
@@ -5353,6 +5361,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [lifecoder1988/dsh-skill-manager](https://github.com/lifecoder1988/dsh-skill-manager) —— DeepSeek Harness 的 Skill 管理：在项目与用户目录中浏览 / 编写 / 启停 / 删除 skill，设置页和模型都能操作。
 - [fsrmqi/dsh-research-kit](https://github.com/fsrmqi/dsh-research-kit) —— 浏览器侧 DSH 插件：维护科研资源目录（317 条人工审核的工作流、86 个技能条目、122 个科学数据源），把工作流与用户参数组装成可编辑的 Prompt，实际发送与执行仍交给当前 DSH 会话。
 - [NEVSTOP-LAB/dsh-import-vscode-ai-files](https://github.com/NEVSTOP-LAB/dsh-import-vscode-ai-files) —— 把 VSCode/Copilot 的 AI 配置（.github/copilot-instructions.md、.github/instructions、.github/skills）加载进 DeepSeek Harness 会话。
+- [axelfreeman/backupper](https://github.com/axelfreeman/backupper) —— 用 Restic 从 Windows 电脑拉取远程 Linux 服务器的免费加密去重备份 —— 服务端零安装。以 AI agent skill 形式提供。
+- [Ivan369987/agent-html](https://github.com/Ivan369987/agent-html) —— 零依赖单文件 HTML 设计系统与 LLM agent skill，针对 Claude、Codex、Cursor 的离线使用做过优化。
 
 ## 资源
 
