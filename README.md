@@ -1069,6 +1069,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [omni-/containerize-dsh](https://github.com/omni-/containerize-dsh) — Run DeepSeek Harness in an isolated Docker sandbox with external project plugins and Git-based host/agent change transfer.
 - [WuJiaoJue/dsh-later](https://github.com/WuJiaoJue/dsh-later) — Scheduled send for DSH: type now, delivered as you at the time you pick — even with the page closed. In-session reminders driven by the server, a dock countdown, and a `/later` command.
 - [aaronjmars/headless-harness-bench](https://github.com/aaronjmars/headless-harness-bench) — Benchmark of 6 coding-agent harnesses (omp / pi / fx / opencode / dsh / crush) as headless agent loops driven by a control plane, in two tiers: a static source audit plus live runs.
+- [JackAIStudio/dsh-grok-oauth](https://github.com/JackAIStudio/dsh-grok-oauth) — Grok (xAI) subscription provider for DeepSeek Harness: PKCE login, chat, usage chip, optional Imagine.
+- [mhdimo/deepseek-code](https://github.com/mhdimo/deepseek-code) — A Claude Code-style coding agent attempt built only for DeepSeek.
+- [Plocr/dsh-commandcode-goat](https://github.com/Plocr/dsh-commandcode-goat) — DeepSeek Harness (dsh) plugin: publishes a Command Code subscription (GOAT / Pro / Max) as llm-pi-ai provider routes, with account usage and web search on the same credential.
 
 ## Security & Permissions
 
@@ -1292,6 +1295,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [Jindom/dsh-bitwarden](https://github.com/Jindom/dsh-bitwarden) — Bitwarden / Vaultwarden credentials in every DSH session: vault tools + proactive prompt guidance + a settings card for the master password.
 - [LAwLi3tCoding/dsh-approval-review](https://github.com/LAwLi3tCoding/dsh-approval-review) — Codex-style agent auto-approval for DeepSeek Harness: an independent reviewer model decides allow/deny on the approval answerer chain, fail-closed, with a rationale for every decision (refusals and allows) in a dedicated Approvals tab.
 - [lifecoder1988/dsh-secrets-manager](https://github.com/lifecoder1988/dsh-secrets-manager) — Project secret management for the DeepSeek Harness: monorepo .env discovery, comment-preserving edits, and a DSH_ENV_FILES pointer your shell commands can source.
+- [DWJZ/dsh-allow](https://github.com/DWJZ/dsh-allow) — Permission-memory plugin for DeepSeek Harness: add a command class to the allow list and the same command prefix stops asking.
 
 ## Session & Memory Management
 
@@ -1797,6 +1801,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [xswt442-cmd/dsh-ballast](https://github.com/xswt442-cmd/dsh-ballast) — DSH per-message context-window attribution panel — see which messages take up the window.
 - [cn-scuo-oo/dsh-session-auto-title](https://github.com/cn-scuo-oo/dsh-session-auto-title) — DSH plugin: re-title a session after every turn in the `MMDD｜类型｜主题` convention.
 - [neufagents/dsh-healthcheck](https://github.com/neufagents/dsh-healthcheck) — Runtime health check for DeepSeek Harness: session-library scan plus crash-tail inspection. Read-only.
+- [GeoSyntax/dsh-plugin-time-machine](https://github.com/GeoSyntax/dsh-plugin-time-machine) — Community DSH plugin for coordinated session/workspace checkpoints, safe rewind, DAG forks, and failure reflection.
 
 ## Cost & Usage Tracking
 
@@ -3183,6 +3188,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [ZSeven-W/dsh-computer](https://github.com/ZSeven-W/dsh-computer) — DeepSeek Harness plugin for macOS desktop automation: observes the accessibility tree, gates risky actions behind one-time approval, permanently refuses secure fields, and returns bounded visual evidence through a native helper you build and grant locally.
 - [ZSeven-W/dsh-qa](https://github.com/ZSeven-W/dsh-qa) — DeepSeek Harness QA plugin: an agent explores your app like a real user and leaves evidence, then the explored path is exported as a deterministic replay scenario you run every release. Orchestrates the browser, macOS desktop, iOS and Android drivers — never a false green.
 - [zwbao/dsh-plugin-longpi](https://github.com/zwbao/dsh-plugin-longpi) — LongPi 1.0.0 for DeepSeek Harness: longevity concierge, personal genome, VCF ingest, multi-omics report, and s2f-agent routing.
+- [mario841859784/dsh-expert-orchestrator](https://github.com/mario841859784/dsh-expert-orchestrator) — DSH expert-orchestration agent preset — PM-first planning, Agency expert delegation, gated delivery, experience pooling.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -3422,6 +3428,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit) — Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails and a cloud sandbox; installs into DSH (`npx --yes huaweicloud-devkit install --target dsh`, paired with the DSH MCP client) so agents build, deploy and operate on Huawei Cloud safely.
 - [anthonyyu-verkada/dsh-mcp-client-plus](https://github.com/anthonyyu-verkada/dsh-mcp-client-plus) — MCP client bridge for DeepSeek Harness (fork of the built-in dsh-mcp-client) adding OAuth 2.1, bounded connect / discovery timeouts, environment-indirected secrets, optional indefinite reconnection and an mcp_status diagnostic tool.
 - [lifecoder1988/dsh-mcp-manager](https://github.com/lifecoder1988/dsh-mcp-manager) — MCP server management for the DeepSeek Harness: register, edit, enable, disable and hot-mount MCP servers, with global defaults and per-project overrides.
+- [xoykor/dsh-searxng](https://github.com/xoykor/dsh-searxng) — Unofficial DSH context guard and SearXNG search adapter maintained by xoykor.
 
 ## Orchestrators & Aggregators
 
@@ -5034,6 +5041,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [IMHaoyan/deepseek-harness-launcher](https://github.com/IMHaoyan/deepseek-harness-launcher) — DeepSeek Harness Launcher (DSHL): a Windows tray launcher / watchdog — one-click runtime setup, service supervision and auto-update.
 - [KylinQ01/dsh-startup-animation](https://github.com/KylinQ01/dsh-startup-animation) — Startup animation and main-screen wallpaper for DeepSeek Harness: layered motion with mouse parallax, two images freely replaceable from settings with live preview.
 - [weifa860504-droid/dsh-greet-signoff](https://github.com/weifa860504-droid/dsh-greet-signoff) — Opening and closing lines: a fixed greeting / farewell on every reply, plus a reminder to start a new session as the context limit approaches (DeepSeek Harness Web plugin).
+- [Matutinal-commoncarotid4290/DSH-Launcher](https://github.com/Matutinal-commoncarotid4290/DSH-Launcher) — Launch DeepSeek Harness in a native desktop window — no terminal required, just click and run.
 
 ## Skills
 
@@ -5352,6 +5360,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [lifecoder1988/dsh-skill-manager](https://github.com/lifecoder1988/dsh-skill-manager) — Skill management for the DeepSeek Harness: browse, author, toggle and delete skills across project and user roots, from a Settings page or from the model.
 - [fsrmqi/dsh-research-kit](https://github.com/fsrmqi/dsh-research-kit) — Browser-side DSH plugin that keeps a curated research catalogue (317 reviewed workflows, 86 skill entries, 122 science data sources) and assembles workflow + parameters into an editable prompt, leaving the actual sending and execution to the current DSH session.
 - [NEVSTOP-LAB/dsh-import-vscode-ai-files](https://github.com/NEVSTOP-LAB/dsh-import-vscode-ai-files) — Load VSCode/Copilot AI configuration (.github/copilot-instructions.md, .github/instructions, .github/skills) into DeepSeek Harness sessions.
+- [axelfreeman/backupper](https://github.com/axelfreeman/backupper) — Free encrypted, deduplicated backups of remote Linux servers pulled from a Windows PC with Restic — zero software installed server-side. Packaged as an AI-agent skill.
+- [Ivan369987/agent-html](https://github.com/Ivan369987/agent-html) — Zero-dependency single-file HTML design system and agent skill for LLMs, optimized for offline use with Claude, Codex, and Cursor.
 
 ## Resources
 
