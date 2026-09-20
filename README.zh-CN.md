@@ -177,6 +177,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [wwwangzilin/dsh-character-presets](https://github.com/wwwangzilin/dsh-character-presets) —— DSH 角色预设集：10 个角色共用一套六层情感引擎 —— 露娜 / 小喵 / 绯音 / 凛 / 芽衣 / 白夜 / 阿尔玛 / 小铃 / 三千代 / 灰。
 - [jonah791/dsh-agent-toolface](https://github.com/jonah791/dsh-agent-toolface) —— DSH agent preset 行上的工具面分档：按证据化的 deny 集在 agent 作用域内收窄模型可见工具，lean/full 一键切换并留审计痕迹，降低工具 schema 的固定上下文成本与工具选择稀释。
 - [x102201/dsh-helper-plugin-command-ask](https://github.com/x102201/dsh-helper-plugin-command-ask) —— DeepSeek Harness 的 Cursor 风格 `/ask` 只读问答模式插件：`/ask <问题>` 只回答一轮（带引用、不改文件，由内置工具守卫强制只读），下一条消息即恢复普通工作（可用 `link:` 或 `github:` 安装）。
+- [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) —— 面向 DeepSeek Harness (DSH) 的工作区 persona：多个系统提示 persona，按工作区路径或 session id 划定作用域，在 Web 设置页管理（Apache-2.0）。
 
 ## Harness 与运行时
 
@@ -1088,6 +1089,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [jonah791/computer-use](https://github.com/jonah791/computer-use) —— DSH computer-use 插件：让 agent 自己看屏幕、自己操作鼠标键盘（截屏 / 窗口 / 鼠标 / 键盘 6 个工具），用于自主「开发—验证—迭代」闭环。
 - [dingchenhui0618-arch/dsh-taskwatch](https://github.com/dingchenhui0618-arch/dsh-taskwatch) —— DeepSeek Harness 的只读任务监视器：会话、后台任务、子代理、目标、工作流与待审批事项，以适配手机的页面和 GUI 侧边栏面板呈现。
 - [zhuto666/dsh-compact-agents](https://github.com/zhuto666/dsh-compact-agents) —— DeepSeek Harness 会话上下文强制压缩插件：模型可调用的 `compact_agents` 工具忽略自动阈值，覆盖进程内所有活会话（主会话 / 普通子代理 / AgentTeams 成员），忙的目标自动排队、本轮结束立即补压，逐目标回报遮蔽节点数与估算 token 数。
+- [MrWeiCodes/dsh-fs-encoding](https://github.com/MrWeiCodes/dsh-fs-encoding) —— 为 DeepSeek Harness（DSH）提供文件编码守护：让 AI 读写 GBK 等非 UTF-8 文件和带 BOM 的文件时不会弄坏编码。
+- [sunilkumar770/nvidia-avo-deepseek-dsh-harness-](https://github.com/sunilkumar770/nvidia-avo-deepseek-dsh-harness-) —— NVIDIA AVO + DeepSeek Harness (DSH) 混合执行引擎，面向 Antigravity、Claude Code 与前沿 LLM——宏观监督 + 微观细粒度工具执行。
+- [zhang0098/abylab](https://github.com/zhang0098/abylab) —— 极简单文件终端的 DeepSeek agent harness：单文件极简 DeepSeek harness（Rust TUI）。
 
 ## 安全与权限
 
@@ -1318,6 +1322,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [lifecoder1988/dsh-secrets-manager](https://github.com/lifecoder1988/dsh-secrets-manager) —— DeepSeek Harness 的项目密钥管理：monorepo 的 .env 自动发现、保留注释的编辑，以及一个可被 shell 命令 source 的 DSH_ENV_FILES 指针。
 - [DWJZ/dsh-allow](https://github.com/DWJZ/dsh-allow) —— DeepSeek Harness 权限记忆插件：把某类命令加进允许列表，之后同类命令不再询问。
 - [ChaoJie0/dsh-tm-guard](https://github.com/ChaoJie0/dsh-tm-guard) —— macOS 上面向 DSH Agent 的零干预权限闸门：可回滚的本地写入自动放行，网络 / 安装 / 敏感读取被拦截并留审计记录。
+- [7starsseeker/dsh-jev-guard](https://github.com/7starsseeker/dsh-jev-guard) —— DeepSeek Harness (DSH) 执行前安全阀门：bash/pwsh 真正执行前先经静态规则 + TypeSafe Jev 语义判定，破坏性操作按「允许/修正/拦截/上报人工」四态处置，含额度降级与审计日志。
+- [sujingkpo/dsh-auto-pass](https://github.com/sujingkpo/dsh-auto-pass) —— 为 DeepSeek Harness Web UI 增加「自动审批」权限预设：每个待批动作先经一次单发模型复审（不起子 Agent、不给工具、不带 transcript，只喂归一化动作 + 你上一条消息），只有通过复审的请求才自动放行；模型否决、宿主安全降级与复审失败都会回到 DSH 原生审批链由人决定。另含项目级/全局白名单与黑名单、阈值自动写规则与审批时间线（基于 simon300000/dsh-auto 分叉）。
 
 ## 会话与记忆管理
 
@@ -1827,6 +1833,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [YouHui1/dsh-sessions-diagnosis](https://github.com/YouHui1/dsh-sessions-diagnosis) —— 诊断并修复 harness 升级后打不开的 DSH 会话——可从 CLI、agent 工具或 DSH Web UI 里的仪表盘操作。
 - [shenhuanageshei/dsh-team-link](https://github.com/shenhuanageshei/dsh-team-link) —— 会话深链 + 完整会话导出（Markdown/JSON）+ 经批准的跨会话消息与配对，面向 DeepSeek Harness (dsh)。
 - [vanddccd/dsh-todo-dock](https://github.com/vanddccd/dsh-todo-dock) —— DSH Web 任务面板重制：三段式进度条 + 已完成项折叠 + transitions.dev 动效。
+- [MrHuangJser/dsh-cross-session](https://github.com/MrHuangJser/dsh-cross-session) —— DSH 跨会话工具：让一个 DeepSeek Harness 会话列出、读取并给另一个会话发消息，对标 Codex 的多会话 agent 控制。
+- [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) —— 面向 AI 编程 agent 的通用上下文压缩代理，同时提供原生 dsh 插件通道（`dsh plugin --profile <name> add billion-context` 挂载自带 patch 层，含工具、会话绑定的 `/acp` 与 fetch 拦截）：任何能设置 base URL 的 agent 都能变成长期上下文管理者，无需为每个 agent 写适配代码。附带一篇「模型驱动的增量分层压缩」预印本。
 
 ## 成本与用量统计
 
@@ -2636,6 +2644,8 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [JoeyTrribbiani/fly-buddy](https://github.com/JoeyTrribbiani/fly-buddy) —— 无头数字果蝇 —— 一只无固定形态的赛博生命体，以 token 为食，人格取自真实连接组（FlyWire/MaleCNS）；dsh 果蝇生态的一部分。
 - [ZYAONS/dsh-plugin-mascot](https://github.com/ZYAONS/dsh-plugin-mascot) —— DeepSeek Harness 吉祥物插件 —— 可点击的角色立绘（明日方舟的凯尔希 / BanG Dream! 的战国柚乃），展示 token 缓存命中、上下文压力与账户余额。
 - [jonah791/dsh-video-studio](https://github.com/jonah791/dsh-video-studio) —— DSH 视频工作台插件：把视频工厂（TTS / 配乐 / 混音 / Remotion 渲染 / 多级质检 / 主题脚手架）封装为工具面，支撑创作任意视频。
+- [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai) —— DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具。
+- [JRJRJPRO/dsh-tree](https://github.com/JRJRJPRO/dsh-tree) —— 把对话分支画成可点击的树。
 
 ## 幻灯片 / PPT
 
@@ -3006,6 +3016,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [psenY/gh-watch](https://github.com/psenY/gh-watch) —— DSH 插件：GitHub PR/issue 变更监视，可给多个 AI 分别配置；插件自身不审查、不回帖。
 - [luoxunhao/dsh-codex-project](https://github.com/luoxunhao/dsh-codex-project) —— codex 风格的项目管理：给 DSH 项目挂上附加目录，访问附加目录无需 full-access 权限，方便多项目开发，可配合 dsh-better-sidebar 插件使用。
 - [yangdongzhen590/dsh-knj-version-control](https://github.com/yangdongzhen590/dsh-knj-version-control) —— DSH 的 KNJ 版本控制工作台：本地改动、单文件/多文件暂存、需确认的 commit/update/push，以及可读的 Git 失败输出。
+- [IT-coder-Yy/dsh-git-plugin](https://github.com/IT-coder-Yy/dsh-git-plugin) —— 面向 DeepSeek Harness Web 的可视化 Git 工作台：查看仓库、执行常用 Git 操作，并安全运行 AI 生成的工作流。
+- [rebornace/dsh-tracescope](https://github.com/rebornace/dsh-tracescope) —— DSH 原生手工测试助手插件：基于 Git 代码差异智能缩减手工测试范围，支持 Web / 移动端操作录制与崩溃日志采集，依托 DSH AI 自动生成可复现缺陷流程，实现变更驱动的手工测试闭环。
 
 ## Agent
 
@@ -3474,6 +3486,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [xoykor/dsh-searxng](https://github.com/xoykor/dsh-searxng) —— 由 xoykor 维护的非官方 DSH 上下文守卫 + SearXNG 搜索适配器。
 - [stormbuf/dsh-tavily-pool](https://github.com/stormbuf/dsh-tavily-pool) —— 基于 Tavily 的 DeepSeek Harness 网页搜索：多 key 池 + 按余额轮换、自动故障转移与用量统计，可在 DSH 设置面板切换。
 - [xuzhougeng/ScientificFigureLibrary](https://github.com/xuzhougeng/ScientificFigureLibrary) —— 本地优先的科研配图 MCP App：导入、审阅并在磁盘上发布一个全局图库，可在 Pi、DeepSeek Harness (dsh)、Claude、Codex、Cursor 与 Wisp 中复用完全相同的模板。
+- [M-Abozaid/limonene-mcp](https://github.com/M-Abozaid/limonene-mcp) —— 面向 Limonene 的只读亚马逊卖家分析 MCP 连接器，可作 Cordis 插件装入 DSH（含 `DEEPSEEK.md` 与 `cordis.patch.yml`）：六个只读工具（店铺概览、未处理洞察、定价与购物车、库存健康、销售趋势、利润拆解）；DeepSeek 侧当前为只读试点。
 
 ## 编排器与聚合器
 
@@ -5092,6 +5105,13 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [seoeaa/dsh-locale-ru](https://github.com/seoeaa/dsh-locale-ru) —— DeepSeek Harness 的俄语界面（locale ru）——自定义语言包插件，42 个命名空间 / 1257 行，dsh 0.1.5+。
 - [23J1633/a2s_app](https://github.com/23J1633/a2s_app) —— 面向 A2S 远程 Agent 会话的 Flutter Android 控制器：设备、工作区、终端、审批与实时活动。
 - [23J1633/A2Switch](https://github.com/23J1633/A2Switch) —— A2S 桌面控制中心：一键安装 Agent 桥接、共享设备配置、进程控制与远程配对。
+- [chen8923/dsh-task-progress](https://github.com/chen8923/dsh-task-progress) —— 长时间运行的 DSH 任务实时进度：脚本上报结构化进度，Web UI 用悬浮层、侧边栏页签与设置页展示。
+- [gluztm/DSHGuard](https://github.com/gluztm/DSHGuard) —— DSH 守护壳：DeepSeek Harness 的一键管理式桌面启动器——引擎启停、版本锁定、插件管理、快照回滚、诊断导出（Windows，WPF）。
+- [hzhgino/dsh-caonima](https://github.com/hzhgino/dsh-caonima) —— 核动力草泥马 —— 跑在 DSH Web GUI 里的桌面宠物插件。
+- [Johnny-xuan/dsh-paste-to-path](https://github.com/Johnny-xuan/dsh-paste-to-path) —— 面向 DeepSeek Harness 的通用「路径式附件坞」。（作者已标注停止维护 / 弃用。）
+- [neuneed/dsh-shuorenhua](https://github.com/neuneed/dsh-shuorenhua) —— DeepSeek Harness 的「说人话」插件：在每条回答的操作条注入按钮，把 AI 废话套话与公文黑话实时流式润色成干净白话，代码与公式原样保真，结果本地缓存，并注册 `shuorenhua_simplify` 工具供 agent 自行调用。
+- [RUO-MO/DSH-plus-plus](https://github.com/RUO-MO/DSH-plus-plus) —— DSH++：DeepSeek Harness 桌面端本地工作台——CDP 热注入增强 + 会话/凭证只读管理 + 动态壁纸插件适配。零侵入、完全可逆、不上传任何数据。
+- [tiwe0/dsh-launcher](https://github.com/tiwe0/dsh-launcher) —— 面向 DeepSeek Harness 的轻量隔离式桌面启动器与版本管理器（Tauri 2 + Rust + React）。
 
 ## Skill
 
@@ -5415,6 +5435,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [axelfreeman/backupper](https://github.com/axelfreeman/backupper) —— 用 Restic 从 Windows 电脑拉取远程 Linux 服务器的免费加密去重备份 —— 服务端零安装。以 AI agent skill 形式提供。
 - [Ivan369987/agent-html](https://github.com/Ivan369987/agent-html) —— 零依赖单文件 HTML 设计系统与 LLM agent skill，针对 Claude、Codex、Cursor 的离线使用做过优化。
 - [jonah791/dsh-semantic-docs](https://github.com/jonah791/dsh-semantic-docs) —— DSH 本地语义文档系统工具面：`semantic_list/get/check/register` 加 D1–D6 drift 判据（单一真源、文档随代码、未验证显式、留白诚实）。
+- [windy-snowy/dsh-lesson-prep](https://github.com/windy-snowy/dsh-lesson-prep) —— DSH 技能插件：把一个教学章节或一份 .pptx 变成可直接上课的备课包（课堂方案 / 按课时精简课件 / 原课件风格原理图 / 演示视频 / 讨论题与单选题 / 可运行演示代码 / 打包下载页），支持双子代理并行。
 
 ## 资源
 
