@@ -1816,6 +1816,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [cn-scuo-oo/dsh-session-auto-title](https://github.com/cn-scuo-oo/dsh-session-auto-title) —— DSH 插件：每轮对话结束后按「月日｜类型｜主题」约定自动重命名会话。
 - [neufagents/dsh-healthcheck](https://github.com/neufagents/dsh-healthcheck) —— DeepSeek Harness 的运行时健康检查：会话库扫描 + 崩溃尾部日志检查，只读。
 - [GeoSyntax/dsh-plugin-time-machine](https://github.com/GeoSyntax/dsh-plugin-time-machine) —— 社区 DSH 插件：协调会话/工作区检查点、安全回退、DAG 分支与失败反思。
+- [heartmove/dsh-session-bridge](https://github.com/heartmove/dsh-session-bridge) —— DSH 插件：让当前代理直接从提示词驱动其它真实 DSH 会话——创建/发送/等待回复/读取/恢复/跨工作区查找会话，并支持监控调度主任务与归档会话。
+- [YouHui1/dsh-sessions-diagnosis](https://github.com/YouHui1/dsh-sessions-diagnosis) —— 诊断并修复 harness 升级后打不开的 DSH 会话——可从 CLI、agent 工具或 DSH Web UI 里的仪表盘操作。
 
 ## 成本与用量统计
 
@@ -2100,6 +2102,7 @@ _token 用量、成本看板与预算告警插件。_
 - [satan9394/dsh-usage-unified](https://github.com/satan9394/dsh-usage-unified) —— 全机 DSH 用量统计：趋势 / 自定义区间 / 模型四桶拆分 / 调用明细 / CSV·JSON 导出，中英双语、浅深色主题。
 - [Daviszhou212/dsh-cost-pill](https://github.com/Daviszhou212/dsh-cost-pill) —— DSH Web 插件：把会话 API 费用与账户余额做成一颗药丸，并入官方输入框统计行（费用 · 余额 · 缓存命中）。
 - [xilec/deepseek-peaks](https://github.com/xilec/deepseek-peaks) —— 在 DSH 会话界面显示 DeepSeek 高峰时段计价的指示器。
+- [GooDAnDReaDY/dsh-usage-guard](https://github.com/GooDAnDReaDY/dsh-usage-guard) —— 会话 token 用量清洗器：防止畸形的 provider 指标把聊天记录写坏。
 
 ## Channel / IM 桥接
 
@@ -2988,6 +2991,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [tomowang/dsh-data-agent](https://github.com/tomowang/dsh-data-agent) —— DeepSeek Harness（dsh）插件：管理数据库连接、浏览与标注 schema、执行 SQL —— 聊天里或设置界面都行。
 - [wlc114514/dsh-upload-origin](https://github.com/wlc114514/dsh-upload-origin) —— DSH 宿主插件：按文件名、大小与 sha256 匹配，还原上传到 .dsh-uploads 的文件在本机的原始路径。
 - [psenY/gh-watch](https://github.com/psenY/gh-watch) —— DSH 插件：GitHub PR/issue 变更监视，可给多个 AI 分别配置；插件自身不审查、不回帖。
+- [luoxunhao/dsh-codex-project](https://github.com/luoxunhao/dsh-codex-project) —— codex 风格的项目管理：给 DSH 项目挂上附加目录，访问附加目录无需 full-access 权限，方便多项目开发，可配合 dsh-better-sidebar 插件使用。
+- [yangdongzhen590/dsh-knj-version-control](https://github.com/yangdongzhen590/dsh-knj-version-control) —— DSH 的 KNJ 版本控制工作台：本地改动、单文件/多文件暂存、需确认的 commit/update/push，以及可读的 Git 失败输出。
 
 ## Agent
 
@@ -3214,6 +3219,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [zwbao/dsh-plugin-longpi](https://github.com/zwbao/dsh-plugin-longpi) —— LongPi 1.0.0 for DeepSeek Harness：长寿顾问、个人基因组、VCF 摄入、多组学报告、s2f-agent 路由。
 - [mario841859784/dsh-expert-orchestrator](https://github.com/mario841859784/dsh-expert-orchestrator) —— DSH 专家编排模式 agent preset —— PM 主导规划、Agency 专家委派、闸门式交付、经验沉淀。
 - [Nyasers/DSHana](https://github.com/Nyasers/DSHana) —— DSHana：把 DeepSeek Harness 作为 HanaAgent 的子代理来调用。
+- [dat-lequoc/dsh-opinionated-subagent](https://github.com/dat-lequoc/dsh-opinionated-subagent) —— 极简、有主见的子代理：由你指定子代理可用哪些模型、以什么推理强度运行，且纠偏信息能在子代理的下一步生效。
+- [Fishsb/dsh-plugin-roundtable](https://github.com/Fishsb/dsh-plugin-roundtable) —— 圆桌会议 RoundTable——DeepSeek Harness (DSH) 插件：把一次会话变成可视化、可辩论、可拍板的专家圆桌会议；含三种协作模式、调度面、红队评审与 28 席专家团（需 DSH 0.1.5-rc.1+，MIT）。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -3635,6 +3642,8 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [justdeko/zopf](https://github.com/justdeko/zopf) —— macOS 应用（含无头 CLI）：把多个 Claude Code、Codex 或 DeepSeek Harness 会话连成工作流图一起运行。
 - [MJorgin/dsh-agent-conductor](https://github.com/MJorgin/dsh-agent-conductor) — DSH 指挥家 / Conductor：在会话内把任务派发给 11 种外部 Agent CLI（Codex、Claude Code、TraeCode、OpenCode、Gemini、Cursor、Kimi、Qwen、Copilot、WorkBuddy、Grok）；零依赖 skill + host-only bundle。
 - [peng456/dsh-plugin-mesh](https://github.com/peng456/dsh-plugin-mesh) — DSH 局域网 Mesh 插件：自动发现同网段的其他 DSH 实例，提供对端操作页面，支持跨机双向派发任务。
+- [xiazhi88/dsh-onecompany](https://github.com/xiazhi88/dsh-onecompany) —— 一人公司——DeepSeek Harness 多 agent 公司编排插件（CEO/项目群/大厅/@派活/审批/排班/工作日志）。
+- [zhuchuovo/dsh-swarm-orchestrator](https://github.com/zhuchuovo/dsh-swarm-orchestrator) —— DSH 插件：并行子代理集群——母代理把目标拆成切片，并发驱动多个独立子代理写代码，输入框上方实时显示每个子代理此刻在做什么，并发数与各切片模型可在设置页配置。
 
 ## UI / 客户端
 
@@ -5060,6 +5069,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Hwayn-pixel/dsh-image-skin](https://github.com/Hwayn-pixel/dsh-image-skin) —— DSH Web UI 的通用图片皮肤：在设置子菜单里用自己的图片 / GIF / 视频替换大块界面区域与角落贴纸。
 - [jianjianzhu/dsh-harness-ui](https://github.com/jianjianzhu/dsh-harness-ui) —— 面向 DeepSeek Harness Web GUI 的整页控制台：会话、插件、市场、MCP、Skill 与用量统计收进同一个界面。
 - [poptommy55/dstation](https://github.com/poptommy55/dstation) —— DeepSeek Harness Agent 运行时的 Windows 桌面外壳：自带一方插件、Agent Skill 与签名 OTA 客户端。
+- [libre-webui/dsh-native-provider](https://github.com/libre-webui/dsh-native-provider) —— 在 Libre WebUI 里通过私有本地连接使用 DeepSeek Harness 的 provider。
+- [seoeaa/dsh-locale-ru](https://github.com/seoeaa/dsh-locale-ru) —— DeepSeek Harness 的俄语界面（locale ru）——自定义语言包插件，42 个命名空间 / 1257 行，dsh 0.1.5+。
 
 ## Skill
 
