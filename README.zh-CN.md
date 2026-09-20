@@ -1840,7 +1840,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [goodddGrades/dsh-behuman](https://github.com/goodddGrades/dsh-behuman) —— DeepSeek Harness 的跨会话记忆与自进化技能：记忆以 Markdown 文件存储，目录（每条一行）常驻提示词而非检索；另有一轮后台复审，补上主 agent 漏写的部分。
 - [AkinoHaruka/companion-memory](https://github.com/AkinoHaruka/companion-memory) —— 面向 DeepSeek Harness 的原生局部记忆插件 Riko memory。
 - [Chance722/dsh-inbox](https://github.com/Chance722/dsh-inbox) —— dsh 插件：把复制粘贴的链接、图片、文本、账密收进本地仓库，自动分类，能在对话里检索取回。
-- [donghangxunlang-cmd/dsh-attention-health](https://github.com/donghangxunlang-cmd/dsh-attention-health) —— DSH（DeepSeek Harness）上下文健康监测 + 内容退化守卫 + 零模型交接文档。
 - [SilenZerOrz/obsidian-dsh-acp](https://github.com/SilenZerOrz/obsidian-dsh-acp) —— 面向 DSH 自适应上下文平面（ACP）的 Obsidian 集成插件。
 
 ## 成本与用量统计

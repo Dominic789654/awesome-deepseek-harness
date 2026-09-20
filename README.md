@@ -1835,7 +1835,6 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [goodddGrades/dsh-behuman](https://github.com/goodddGrades/dsh-behuman) — Cross-session memory and self-evolving skills for DeepSeek Harness: Markdown files on disk, a one-line-per-memory catalog carried in the prompt instead of retrieval, and a background pass that reviews what the main agent missed.
 - [AkinoHaruka/companion-memory](https://github.com/AkinoHaruka/companion-memory) — Native scoped Riko memory plugin for DeepSeek Harness.
 - [Chance722/dsh-inbox](https://github.com/Chance722/dsh-inbox) — DSH plugin that collects copy-pasted links, images, text and credentials into a local repository, auto-categorizes them, and lets you search and retrieve them from chat.
-- [donghangxunlang-cmd/dsh-attention-health](https://github.com/donghangxunlang-cmd/dsh-attention-health) — Context health monitoring, content-degradation guard, and zero-model handoff documentation for DeepSeek Harness (DSH).
 - [SilenZerOrz/obsidian-dsh-acp](https://github.com/SilenZerOrz/obsidian-dsh-acp) — Obsidian integration for DSH's Adaptive Context Plane (ACP).
 
 ## Cost & Usage Tracking
