@@ -1830,6 +1830,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [vanddccd/dsh-todo-dock](https://github.com/vanddccd/dsh-todo-dock) — Rebuilt todo dock for the DeepSeek Harness Web UI: a three-segment progress bar, collapsible completed items and transitions.dev motion.
 - [MrHuangJser/dsh-cross-session](https://github.com/MrHuangJser/dsh-cross-session) — Cross-session tools for DSH: let one DeepSeek Harness session list, read and message another session, modelled on Codex's multi-conversation agent control.
 - [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) — Universal context-compression proxy for AI coding agents, also shipped as a native DSH plugin (`dsh plugin --profile <name> add billion-context` mounts a bundled patch layer with tools, session-bound `/acp` and fetch intercept): any agent that can set a base URL gets long-lived context management with no per-agent adapter code. Ships an accompanying preprint on model-driven incremental hierarchical compression.
+- [goodddGrades/dsh-behuman](https://github.com/goodddGrades/dsh-behuman) — Cross-session memory and self-evolving skills for DeepSeek Harness: Markdown files on disk, a one-line-per-memory catalog carried in the prompt instead of retrieval, and a background pass that reviews what the main agent missed.
 
 ## Cost & Usage Tracking
 
