@@ -2106,6 +2106,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [xilec/deepseek-peaks](https://github.com/xilec/deepseek-peaks) — DeepSeek peak-pricing indicator for the DSH session UI.
 - [GooDAnDReaDY/dsh-usage-guard](https://github.com/GooDAnDReaDY/dsh-usage-guard) — Session token-usage sanitizer that prevents chat history corruption from malformed provider metrics.
 - [singei8/DSH-TOKEN-feiyong](https://github.com/singei8/DSH-TOKEN-feiyong) — Dynamic Cordis billing plugin for DSH (DeepSeek Harness): prices every call against the official rate card (cache hit / miss / output), with peak and off-peak time-of-day pricing, account balance, per-request and per-conversation stats, all persisted locally.
+- [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) — Adds a sidebar panel to the DeepSeek Harness web UI that reports token usage and cost, with today's spend, budget progress, 7-day and 30-day trends, a cost breakdown, cache-hit savings, and a per-session breakdown.
 
 ## Channel / IM Bridges
 

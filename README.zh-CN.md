@@ -2113,6 +2113,7 @@ _token 用量、成本看板与预算告警插件。_
 - [xilec/deepseek-peaks](https://github.com/xilec/deepseek-peaks) —— 在 DSH 会话界面显示 DeepSeek 高峰时段计价的指示器。
 - [GooDAnDReaDY/dsh-usage-guard](https://github.com/GooDAnDReaDY/dsh-usage-guard) —— 会话 token 用量清洗器：防止畸形的 provider 指标把聊天记录写坏。
 - [singei8/DSH-TOKEN-feiyong](https://github.com/singei8/DSH-TOKEN-feiyong) —— DSH（DeepSeek Harness）动态 Cordis 计费插件：按官方价目表逐笔计算 token 花费（缓存命中 / 未命中 / 输出），高峰低谷分时计价，含账户余额、单次与本对话统计，数据本地持久化。
+- [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) —— 在 DeepSeek Harness 侧栏加入 Token 用量与花费面板：今日消费、预算进度、7 天与 30 天趋势、成本构成、缓存命中省下的钱，以及按会话明细。
 
 ## Channel / IM 桥接
 
