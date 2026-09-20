@@ -1835,6 +1835,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [vanddccd/dsh-todo-dock](https://github.com/vanddccd/dsh-todo-dock) —— DSH Web 任务面板重制：三段式进度条 + 已完成项折叠 + transitions.dev 动效。
 - [MrHuangJser/dsh-cross-session](https://github.com/MrHuangJser/dsh-cross-session) —— DSH 跨会话工具：让一个 DeepSeek Harness 会话列出、读取并给另一个会话发消息，对标 Codex 的多会话 agent 控制。
 - [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) —— 面向 AI 编程 agent 的通用上下文压缩代理，同时提供原生 dsh 插件通道（`dsh plugin --profile <name> add billion-context` 挂载自带 patch 层，含工具、会话绑定的 `/acp` 与 fetch 拦截）：任何能设置 base URL 的 agent 都能变成长期上下文管理者，无需为每个 agent 写适配代码。附带一篇「模型驱动的增量分层压缩」预印本。
+- [goodddGrades/dsh-behuman](https://github.com/goodddGrades/dsh-behuman) —— DeepSeek Harness 的跨会话记忆与自进化技能：记忆以 Markdown 文件存储，目录（每条一行）常驻提示词而非检索；另有一轮后台复审，补上主 agent 漏写的部分。
 
 ## 成本与用量统计
 
