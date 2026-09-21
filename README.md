@@ -1091,6 +1091,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [MrWeiCodes/dsh-fs-encoding](https://github.com/MrWeiCodes/dsh-fs-encoding) — File-encoding guard for DeepSeek Harness (DSH): lets the agent read and write GBK and other non-UTF-8, BOM-carrying files without mangling the encoding.
 - [sunilkumar770/nvidia-avo-deepseek-dsh-harness-](https://github.com/sunilkumar770/nvidia-avo-deepseek-dsh-harness-) — NVIDIA AVO + DeepSeek Harness (DSH) hybrid execution engine for Antigravity, Claude Code and frontier LLMs — macro supervision over micro-granular tool execution.
 - [zhang0098/abylab](https://github.com/zhang0098/abylab) — Minimal single-binary DeepSeek agent harness for the terminal (Rust TUI) — 单文件极简 DeepSeek harness.
+- [MYCF711/dsh-websearch-direct](https://github.com/MYCF711/dsh-websearch-direct) — API-key-free web search / page fetch plugin for DSH: engines act as logical sources and entry points automatically fall back across direct, mirror and accelerator routes — consumes no model tokens.
 
 ## Security & Permissions
 
@@ -2644,6 +2645,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai) — An editable canvas in the DSH right sidebar — plus two tools that let the model edit drawings directly.
 - [JRJRJPRO/dsh-tree](https://github.com/JRJRJPRO/dsh-tree) — Draws your conversation branches as a clickable tree.
 - [VAST-AI-Research/Tripo3D-Plugin-dsh](https://github.com/VAST-AI-Research/Tripo3D-Plugin-dsh) — Tripo 3D plugin for DeepSeek Harness (dsh): text/image → textured, rig-ready 3D assets via tripo-cli.
+- [wild-River2016/dsh-canvas-xiaohe](https://github.com/wild-River2016/dsh-canvas-xiaohe) — DeepSeek Harness plugin — Xiaohe Canvas (小禾画布) AI creation assistant.
 
 ## Slides / PPT
 
@@ -5127,6 +5129,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [maxwell-nc/DeepseekHarnessDesktopLite](https://github.com/maxwell-nc/DeepseekHarnessDesktopLite) — Windows desktop shell for DeepSeek Harness (@deepseek-ai/dsh) — wraps the web UI into a single portable .exe with a system tray, a plugin manager, and one-click npm updates.
 - [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) — Claude Code Desktop theme for DeepSeek Harness's web GUI.
 - [Yinxe/dsh-luncher](https://github.com/Yinxe/dsh-luncher) — Cross-platform launcher app for DeepSeek Harness (Tauri + React).
+- [Danerus23/dsh-panel](https://github.com/Danerus23/dsh-panel) — A Windows tray panel for the local DeepSeek Harness agent: starts and stops the server, shows peak-hour pricing and the account balance, keeps and restores backups of the DSH data, and updates itself from GitHub releases.
+- [fangqian616/dsh-say](https://github.com/fangqian616/dsh-say) — Give your DSH a voice: let it speak and report back in a voice you like.
+- [lijiawei255/dsh-status-chime](https://github.com/lijiawei255/dsh-status-chime) — Spoken status alerts for DeepSeek Harness where clip length encodes urgency: a 2s approval chime vs an 8s failure announcement. Eight scenes, zero third-party dependencies on Windows 10/11.
 
 ## Skills
 
@@ -5450,6 +5455,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [jonah791/dsh-semantic-docs](https://github.com/jonah791/dsh-semantic-docs) — Local semantic-documentation tool surface for DSH: `semantic_list/get/check/register` plus D1-D6 drift criteria (single source of truth, docs follow code, unverified is explicit, honest gaps).
 - [windy-snowy/dsh-lesson-prep](https://github.com/windy-snowy/dsh-lesson-prep) — DSH skill plugin: turns a teaching chapter or a .pptx into a class-ready lesson pack (lesson plan, per-period trimmed slides, principle diagrams in the original deck's style, demo video, discussion questions and single-choice items, runnable demo code, and a packaged download page), with two subagents running in parallel.
 - [KratosLee-6/dsh-plugin-spark](https://github.com/KratosLee-6/dsh-plugin-spark) — DeepSeek Harness Plugins · A local-first DeepSeek Harness plugin for discovering, combining, and turning skills into actionable ideas.
+- [VDERR/echocat-skill-panel](https://github.com/VDERR/echocat-skill-panel) — DSH skill-invocation audit plus an in-app skill manager.
 
 ## Resources
 
