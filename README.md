@@ -1092,6 +1092,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [sunilkumar770/nvidia-avo-deepseek-dsh-harness-](https://github.com/sunilkumar770/nvidia-avo-deepseek-dsh-harness-) — NVIDIA AVO + DeepSeek Harness (DSH) hybrid execution engine for Antigravity, Claude Code and frontier LLMs — macro supervision over micro-granular tool execution.
 - [zhang0098/abylab](https://github.com/zhang0098/abylab) — Minimal single-binary DeepSeek agent harness for the terminal (Rust TUI) — 单文件极简 DeepSeek harness.
 - [MYCF711/dsh-websearch-direct](https://github.com/MYCF711/dsh-websearch-direct) — API-key-free web search / page fetch plugin for DSH: engines act as logical sources and entry points automatically fall back across direct, mirror and accelerator routes — consumes no model tokens.
+- [lalilulelo3/dsh-launcher](https://github.com/lalilulelo3/dsh-launcher) — GUI launcher for DeepSeek Harness: a graphical plugin manager plus self-rescue tools (backup / reset / safe mode).
+- [PerryLink/jevcore](https://github.com/PerryLink/jevcore) — TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments instead of prose, offline by default.
 
 ## Security & Permissions
 
@@ -1837,6 +1839,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [AkinoHaruka/companion-memory](https://github.com/AkinoHaruka/companion-memory) — Native scoped Riko memory plugin for DeepSeek Harness.
 - [Chance722/dsh-inbox](https://github.com/Chance722/dsh-inbox) — DSH plugin that collects copy-pasted links, images, text and credentials into a local repository, auto-categorizes them, and lets you search and retrieve them from chat.
 - [SilenZerOrz/obsidian-dsh-acp](https://github.com/SilenZerOrz/obsidian-dsh-acp) — Obsidian integration for DSH's Adaptive Context Plane (ACP).
+- [mikugui/dsh-session-eater](https://github.com/mikugui/dsh-session-eater) — Session cleanup for the DSH Web UI: drag unwanted sessions onto the fat fish of the balance widget to "eat" them (moved to the recycle bin, undoable).
 
 ## Cost & Usage Tracking
 
@@ -2646,6 +2649,8 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [JRJRJPRO/dsh-tree](https://github.com/JRJRJPRO/dsh-tree) — Draws your conversation branches as a clickable tree.
 - [VAST-AI-Research/Tripo3D-Plugin-dsh](https://github.com/VAST-AI-Research/Tripo3D-Plugin-dsh) — Tripo 3D plugin for DeepSeek Harness (dsh): text/image → textured, rig-ready 3D assets via tripo-cli.
 - [wild-River2016/dsh-canvas-xiaohe](https://github.com/wild-River2016/dsh-canvas-xiaohe) — DeepSeek Harness plugin — Xiaohe Canvas (小禾画布) AI creation assistant.
+- [A8Chann/dsh-pet-live2d](https://github.com/A8Chann/dsh-pet-live2d) — Live2D desktop-pet plugin for the DSH Web GUI: draggable, follows the cursor, switches motions and expressions with session state, and a right-click panel for changing outfits.
+- [pearjelly/deep-blend](https://github.com/pearjelly/deep-blend) — Blender 3D animation workbench for DeepSeek Harness (dsh): SceneSpec is the source of truth and .blend is a compiled artifact — 16 tools for scene specs, previews, visual review and delivery renders.
 
 ## Slides / PPT
 
@@ -3017,6 +3022,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [yangdongzhen590/dsh-knj-version-control](https://github.com/yangdongzhen590/dsh-knj-version-control) — KNJ version-control workbench for DSH: local changes, per-file and multi-file staging, confirmed commit/update/push, and readable Git failure output.
 - [IT-coder-Yy/dsh-git-plugin](https://github.com/IT-coder-Yy/dsh-git-plugin) — A visual Git workbench for DeepSeek Harness Web: inspect repositories, run common Git actions, and safely execute AI-generated workflows.
 - [rebornace/dsh-tracescope](https://github.com/rebornace/dsh-tracescope) — DSH-native manual-test assistant: narrows the manual test scope from the Git diff, records web/mobile operation tracks and crash logs, and generates reproducible bug steps through AI analysis to close the change-driven manual testing loop.
+- [Yurzi/dsh-pdf-mineru](https://github.com/Yurzi/dsh-pdf-mineru) — Provider-independent DSH PDF reading tool powered by MinerU.
 
 ## Agents
 
@@ -5132,6 +5138,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Danerus23/dsh-panel](https://github.com/Danerus23/dsh-panel) — A Windows tray panel for the local DeepSeek Harness agent: starts and stops the server, shows peak-hour pricing and the account balance, keeps and restores backups of the DSH data, and updates itself from GitHub releases.
 - [fangqian616/dsh-say](https://github.com/fangqian616/dsh-say) — Give your DSH a voice: let it speak and report back in a voice you like.
 - [lijiawei255/dsh-status-chime](https://github.com/lijiawei255/dsh-status-chime) — Spoken status alerts for DeepSeek Harness where clip length encodes urgency: a 2s approval chime vs an 8s failure announcement. Eight scenes, zero third-party dependencies on Windows 10/11.
+- [GrapeCityXA/dsh-plugin-spreadjs-editor](https://github.com/GrapeCityXA/dsh-plugin-spreadjs-editor) — DeepSeek Harness Web UI plugin: view and edit Excel/SpreadJS workbooks from the ui-all file tree.
 
 ## Skills
 
