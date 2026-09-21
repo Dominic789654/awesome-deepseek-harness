@@ -1092,6 +1092,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [MrWeiCodes/dsh-fs-encoding](https://github.com/MrWeiCodes/dsh-fs-encoding) —— 为 DeepSeek Harness（DSH）提供文件编码守护：让 AI 读写 GBK 等非 UTF-8 文件和带 BOM 的文件时不会弄坏编码。
 - [sunilkumar770/nvidia-avo-deepseek-dsh-harness-](https://github.com/sunilkumar770/nvidia-avo-deepseek-dsh-harness-) —— NVIDIA AVO + DeepSeek Harness (DSH) 混合执行引擎，面向 Antigravity、Claude Code 与前沿 LLM——宏观监督 + 微观细粒度工具执行。
 - [zhang0098/abylab](https://github.com/zhang0098/abylab) —— 极简单文件终端的 DeepSeek agent harness：单文件极简 DeepSeek harness（Rust TUI）。
+- [MYCF711/dsh-websearch-direct](https://github.com/MYCF711/dsh-websearch-direct) —— 免 API Key 的 dsh 联网搜索 / 网页抓取插件：引擎即逻辑源，入口在直连/镜像/加速路由间自动回退，不消耗任何模型 token。
 
 ## 安全与权限
 
@@ -2654,6 +2655,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai) —— DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具。
 - [JRJRJPRO/dsh-tree](https://github.com/JRJRJPRO/dsh-tree) —— 把对话分支画成可点击的树。
 - [VAST-AI-Research/Tripo3D-Plugin-dsh](https://github.com/VAST-AI-Research/Tripo3D-Plugin-dsh) —— 面向 DeepSeek Harness (dsh) 的 Tripo 3D 插件：通过 tripo-cli 由文本/图片生成贴图、可绑骨的 3D 资产。
+- [wild-River2016/dsh-canvas-xiaohe](https://github.com/wild-River2016/dsh-canvas-xiaohe) —— DeepSeek Harness 插件——小禾画布 AI 创作助手。
 
 ## 幻灯片 / PPT
 
@@ -5126,6 +5128,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [maxwell-nc/DeepseekHarnessDesktopLite](https://github.com/maxwell-nc/DeepseekHarnessDesktopLite) —— DeepSeek Harness (@deepseek-ai/dsh) 的 Windows 桌面外壳——把网页 UI 包装成单个便携 .exe，带系统托盘、插件管理器与一键 npm 更新。
 - [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) —— 为 DeepSeek Harness 网页 GUI 打造的 Claude Code 桌面主题。
 - [Yinxe/dsh-luncher](https://github.com/Yinxe/dsh-luncher) —— DeepSeek Harness 跨平台启动器（Tauri + React）。
+- [Danerus23/dsh-panel](https://github.com/Danerus23/dsh-panel) —— 本地 DeepSeek Harness agent 的 Windows 托盘面板：启停服务、显示高峰时段价格与账户余额、备份与还原 DSH 数据，并从 GitHub Releases 自动更新。
+- [fangqian616/dsh-say](https://github.com/fangqian616/dsh-say) —— 让你的 DSH 用你喜欢的声音开口说话、汇报内容。
+- [lijiawei255/dsh-status-chime](https://github.com/lijiawei255/dsh-status-chime) —— DSH 语音状态提示：用时长编码紧急度，2 秒审批提示音对比 8 秒失败播报；八个场景，Windows 10/11 上零第三方依赖。
 
 ## Skill
 
@@ -5451,6 +5456,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [jonah791/dsh-semantic-docs](https://github.com/jonah791/dsh-semantic-docs) —— DSH 本地语义文档系统工具面：`semantic_list/get/check/register` 加 D1–D6 drift 判据（单一真源、文档随代码、未验证显式、留白诚实）。
 - [windy-snowy/dsh-lesson-prep](https://github.com/windy-snowy/dsh-lesson-prep) —— DSH 技能插件：把一个教学章节或一份 .pptx 变成可直接上课的备课包（课堂方案 / 按课时精简课件 / 原课件风格原理图 / 演示视频 / 讨论题与单选题 / 可运行演示代码 / 打包下载页），支持双子代理并行。
 - [KratosLee-6/dsh-plugin-spark](https://github.com/KratosLee-6/dsh-plugin-spark) —— 本地优先的 DeepSeek Harness Skill 插件：发现、组合技能并转化为可执行点子。
+- [VDERR/echocat-skill-panel](https://github.com/VDERR/echocat-skill-panel) —— DSH 技能调用审计 + 应用内 skill 管理器。
 
 ## 资源
 
