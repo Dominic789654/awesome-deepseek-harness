@@ -1310,6 +1310,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [pricklywiggles/dsh-research-container](https://github.com/pricklywiggles/dsh-research-container) —— 在锁定的 Apple container 中运行 DeepSeek Harness agent：pf 默认拒绝出站流量、自托管网络研究，以及循环防护。
 - [zhang8019/dsh-permission-matrix](https://github.com/zhang8019/dsh-permission-matrix) —— DeepSeek Harness 的权限矩阵插件：3 种沙箱模式 × 4 种审批策略 = 9 套预设，含全局与 LLM 机器人默认值、三级风险策略、审计日志与 git checkpoint。
 - [Wisper-beep/dsh-runbox](https://github.com/Wisper-beep/dsh-runbox) — DeepSeek Harness (dsh) 的隔离执行底座：在一次性容器里运行 Agent 的 shell / fs / 进程 / 终端 / 任务。
+- [wayne998998/dsh-rakazo](https://github.com/wayne998998/dsh-rakazo) —— 给 DeepSeek Harness Agent 一台专属的一次性 Rakazo 电脑，同一台机器上每个队友各有自己的屏幕。
 - [AaronandWork/dsh-evidence-gate](https://github.com/AaronandWork/dsh-evidence-gate) —— 让 DeepSeek Harness 中的 Agent 不再凭未经核实的猜测下结论：每步模型调用前注入证据层级策略、提供结论 gate 工具、把声明的直接观察与会话记录的真实工具活动交叉核对，并给出每会话台账。
 - [CommitStrip/dsh-integrity-plugins](https://github.com/CommitStrip/dsh-integrity-plugins) —— 面向 DeepSeek Harness 的崩溃安全 effect ledger、持久化工作区变更与隔离子代理工作区。
 - [zhourenke/dsh-tool-call-limit](https://github.com/zhourenke/dsh-tool-call-limit) —— DeepSeek Harness 的 Cordis 插件，限制进入 DSH `ToolRuntime` 的工具调用次数：按 live Agent / turn / step / 工具名分别配额，通过 profile patch 配置。
@@ -2724,7 +2725,8 @@ _生成演示文稿、幻灯片、导出 PPT。_
 
 _在工作区内外转换文档——Markdown、Word 等格式。_
 
-- [bruc3van/dsh-md2word](https://github.com/bruc3van/dsh-md2word) —— 离线 Markdown 转 Word CLI 与原生 DSH 插件，支持中文样式、本地图片和 Mermaid 图表。
+- [bruc3van/bruce-md2word](https://github.com/bruc3van/bruce-md2word) —— 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表与可编辑数学公式，同时提供 Skill、独立 CLI 和 DSH 插件。
+- [DDDMUC/dsh-chat-export](https://github.com/DDDMUC/dsh-chat-export) —— DSH 会话可读导出：把 DeepSeek Harness 会话导出成 Markdown / HTML / 纯文本 / ZIP 文字稿，含思考块、工具调用与结果、代码块、图片、时间戳、标题与用量。
 
 ## 写代码
 
@@ -3174,6 +3176,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) —— dsh 量化工具插件：行情数据（Binance 公共 API）、技术指标（SMA/EMA/RSI/MACD/Bollinger/ATR）与均线金叉回测。
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) — 只读交易研究工作台：类型化行情数据接缝（可自带数据源）、多周期指标快照、带溯源与价格校验标注的交互式 K 线卡、以及在 pre-execute 层拦截下单类调用的 risk-guard。
 - [kentleenot/dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) —— DSH agent 的 A股/美股交易工具箱：实时行情、OHLCV K线、ADX 三状态市场分类信号与简易回测预览，数据源东方财富。只读设计，永不下单。
+- [Weaxs/stock-analysis-plugin](https://github.com/Weaxs/stock-analysis-plugin) —— 面向 AI Agent 的多市场股票分析、选股与回测插件：39 个工具 + 20 个策略 skill，覆盖 A股 / 港股 / 美股 / 日股 / 韩股 / 台股；可用于 Pi Agent、Hermes、OpenClaw 与 DeepSeek Harness。
 - [PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) —— DeepSeek Harness 的 GitHub 集成：创建 PR、在后台任务中评审 PR、读取 issue——每项写操作都需人工审批。
 - [Scorp1o117/dsh-tool-vision](https://github.com/Scorp1o117/dsh-tool-vision) —— DeepSeek Harness 外置视觉模型插件。
 - [uckkk/dsh-video-creator](https://github.com/uckkk/dsh-video-creator) —— 视频号创作助手：内置模板，调用中国境内大模型生成内容并适配主流平台发布。
@@ -3453,6 +3456,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate GitHub 工作台：把 REST API 封装成 MCP 工具，让 agent 直接完成仓库查询、issue 管理、PR 创建与合并、代码审查与搜索
 - [jiewaigongxing/dsh-jiey-browser](https://github.com/jiewaigongxing/dsh-jiey-browser) —— DeepSeek Harness 插件：通过 MCP 驱动 Jiey Browser。
 - [X-C1811/dsh-web-search-plugin](https://github.com/X-C1811/dsh-web-search-plugin) —— 面向 DeepSeek Harness (ctx.web) 的 Tavily 网络搜索提供商：支持无密钥或 API-key 两种模式，附可配置 UI 卡片；provider 框架设计上可扩展到更多搜索 API。
+- [ShawnOY/dsh-tavily](https://github.com/ShawnOY/dsh-tavily) —— 面向 DeepSeek Harness Web 接缝（`ctx.web`）的 Tavily 网络搜索：优先无密钥，并在必要时明确回退到你自己的 API key。
 - [xxxyz/DeepSeekHarness-MCP-Manager](https://github.com/xxxyz/DeepSeekHarness-MCP-Manager) —— DSH 持久化 MCP 服务器管理插件 —— Settings UI + HTTP API + mcp_manager_* 模型工具，跨平台安装器。
 - [Fantasality/dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) —— DSH Origin 插件：通过 MCP 从 DeepSeek Harness AI 对话驱动 Origin 科学绘图 —— 写入数据、绘制折线/散点/柱状图，导出 PNG/SVG。
 - [chenbin-dev/dsh-scan-mcp](https://github.com/chenbin-dev/dsh-scan-mcp) —— 能够扫描本地 claudecode、codex、codebuddy 等 Agent 已配置 MCP 工具的插件。
@@ -5224,6 +5228,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [LHN-xiao-hai-tun/dsh-mobile](https://github.com/LHN-xiao-hai-tun/dsh-mobile) —— 极简 WebView 容器（约 3 MB）：在手机 / 平板上像原生 App 一样访问自己部署的 DSH。不含运行时、不预置地址、不采集数据。
 - [liujianqiao701/dsh-ask-notify](https://github.com/liujianqiao701/dsh-ask-notify) —— DSH 网页 GUI 插件：agent 卡在等你回答时右下角弹提醒卡片；你在别的标签页时还会发桌面通知并让标签标题闪动。
 - [zwqjoy/AgentCabin](https://github.com/zwqjoy/AgentCabin) —— AgentCabin —— Pi Coding Agent 与 DeepSeek Harness（DSH）的开源桌面工作台，基于 Electron + Svelte + Rust，本地优先。
+- [m2lan/dsh-desktop](https://github.com/m2lan/dsh-desktop) —— DeepSeek Harness 的跨平台桌面客户端：在 Windows、macOS 与 Linux 上运行 DSH，无需自己安装 Node.js。
+- [Congser/PCL-DSH](https://github.com/Congser/PCL-DSH) —— Plain Craft Launcher (PCL) 的第三方独立二创：把 DeepSeek Harness (dsh) 装进图形界面启动器，并剥除了全部 Minecraft 功能。
+- [liudapeng0311/dsh-pwa-launcher](https://github.com/liudapeng0311/dsh-pwa-launcher) —— 把桌面上已有的浏览器 PWA 快捷方式变成真正的启动器：双击即静默启动 `dsh web` 并打开应用窗口、保留原图标；另在 Web UI 中加入重启与 dsh 自更新（可回退）控制。仅 Windows，MIT。
+- [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) —— Chrome 侧边栏扩展：让 DeepSeek Harness 直接操控你的浏览器，无需视觉能力。
 
 ## Skill
 
