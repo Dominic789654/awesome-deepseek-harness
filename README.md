@@ -1097,6 +1097,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [wpeng77/dsh-llm-trace](https://github.com/wpeng77/dsh-llm-trace) — Wire-level LLM inspector for DeepSeek Harness: captures the raw HTTP request and response bodies of every model provider call, attributed per session, in a Conversation View tab and a loopback viewer page.
 - [PerryLink/dsh-laya](https://github.com/PerryLink/dsh-laya) — Laya decision engine as a first-class Cordis service and model-visible tools for DeepSeek Harness (work in progress, not installable yet).
 - [whale4rain/tnega](https://github.com/whale4rain/tnega) — Reverse of Agent — an eval-first agent harness assembled from DSH's design features, with spacetime-composable plugin lifecycles (hot-swap and safe rollback).
+- [dttxorg/deepseekeyes](https://github.com/dttxorg/deepseekeyes) — Auditable vision and cross-platform Computer Use runtime for DeepSeek Harness — strict evidence, health-checked failover, original pixels, and Token accounting.
+- [kira905/dsh-firstaid](https://github.com/kira905/dsh-firstaid) — Zero-dependency incident toolkit for long-running agent hosts: one entry point for stuck services, frozen UIs, rollbacks and data loss; emits a hand-off-ready on-site report. Read-only by default.
 
 ## Security & Permissions
 
@@ -3512,6 +3514,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [xuzhougeng/ScientificFigureLibrary](https://github.com/xuzhougeng/ScientificFigureLibrary) — Local-first MCP App for scientific figures: import, review and publish a global library on disk, then reuse exact templates in Pi, DeepSeek Harness (dsh), Claude, Codex, Cursor and Wisp.
 - [M-Abozaid/limonene-mcp](https://github.com/M-Abozaid/limonene-mcp) — Read-only Amazon seller analytics MCP connector for Limonene, installable into DSH as a Cordis plugin (`DEEPSEEK.md` + `cordis.patch.yml`): six read-only tools (store overview, open insights, pricing & buybox, inventory health, sales trend, profit breakdown); the DeepSeek package is a read-only pilot.
 - [Mr-remon219/search-boost](https://github.com/Mr-remon219/search-boost) — Multi-engine web search and evidence synthesis for AI coding agents. Unified MCP server, Pi extension, and DeepSeek Harness bundle — free search, X/Twitter, parallel research, and TUI setup.
+- [LuminariSoftwares/tool-guardian](https://github.com/LuminariSoftwares/tool-guardian) — Your MCP servers for ~300 tokens instead of ~28,000. MCP server + native DeepSeek Harness bundle.
 
 ## Orchestrators & Aggregators
 
@@ -5177,6 +5180,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [senyayume/dsh-edit-diff](https://github.com/senyayume/dsh-edit-diff) — DSH plugin: redraws line-level diffs on file-change tool cards (identical lines rendered once + inline character highlighting), covering run_code(PTC) and str_replace_editor, with an end-of-turn change summary card and locate / copy-path actions in the file explorer.
 - [WONGIII/dsh-effort-dial](https://github.com/WONGIII/dsh-effort-dial) — A reasoning-effort dial for the DeepSeek Harness composer: a violet particle field with meteors, magnetic level anchors and an eased circular thumb.
 - [yuloong07-star/dsh-prompt-system](https://github.com/yuloong07-star/dsh-prompt-system) — DSH prompt-optimization plugin: an "✨ Optimize prompt" button left of the model picker rewrites your draft into a structured analysis-style prompt using the current model, chat history and workspace files, with one-click undo.
+- [hawkongz/dsh-task-reminder](https://github.com/hawkongz/dsh-task-reminder) — Conversation task-completion reminders for the DeepSeek Harness Web UI: reminder card, four Web Audio chimes, and system notifications.
+- [Underwater008/deepshell](https://github.com/Underwater008/deepshell) — A native macOS shell for the official DeepSeek Harness. No Electron, no telemetry, no vendor gateway — ~150 lines of Swift + one bash script.
+- [wg5759/dsh-pager](https://github.com/wg5759/dsh-pager) — DeepSeek Harness 的手机寻呼机：33 KB 安卓 App + DSH 插件。后台提醒、通知栏直接审批、服务端折叠省流量。A pager for DeepSeek Harness (unofficial).
 
 ## Skills
 
