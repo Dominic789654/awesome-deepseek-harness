@@ -1098,6 +1098,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [wpeng77/dsh-llm-trace](https://github.com/wpeng77/dsh-llm-trace) —— 面向 DeepSeek Harness 的链路级 LLM 检查器：抓取每次模型调用的原始 HTTP 请求与响应体，按会话归因，提供 Conversation View 标签页与本地回环查看页。
 - [PerryLink/dsh-laya](https://github.com/PerryLink/dsh-laya) —— 把 Laya 决策引擎作为一等 Cordis 服务与模型可见工具引入 DeepSeek Harness（开发中，尚不可安装）。
 - [whale4rain/tnega](https://github.com/whale4rain/tnega) —— 名字是 agent 的反写：一个从 DSH 设计特性中组装的 eval 优先 agent harness，插件生命周期可时空组合（热插拔与安全回滚）。
+- [dttxorg/deepseekeyes](https://github.com/dttxorg/deepseekeyes) —— 面向 DeepSeek Harness 的可审计视觉与跨平台 Computer Use 运行时——严格证据、带健康检查的故障切换、原始像素与 Token 记账。
+- [kira905/dsh-firstaid](https://github.com/kira905/dsh-firstaid) —— 面向长时间运行的 agent 宿主的零依赖急救台：起不来 / 假死 / 要撤销改动 / 数据被删四类现场压成一个入口，产出可整段交出去的体检报告，默认只读。
 
 ## 安全与权限
 
@@ -3521,6 +3523,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [xuzhougeng/ScientificFigureLibrary](https://github.com/xuzhougeng/ScientificFigureLibrary) —— 本地优先的科研配图 MCP App：导入、审阅并在磁盘上发布一个全局图库，可在 Pi、DeepSeek Harness (dsh)、Claude、Codex、Cursor 与 Wisp 中复用完全相同的模板。
 - [M-Abozaid/limonene-mcp](https://github.com/M-Abozaid/limonene-mcp) —— 面向 Limonene 的只读亚马逊卖家分析 MCP 连接器，可作 Cordis 插件装入 DSH（含 `DEEPSEEK.md` 与 `cordis.patch.yml`）：六个只读工具（店铺概览、未处理洞察、定价与购物车、库存健康、销售趋势、利润拆解）；DeepSeek 侧当前为只读试点。
 - [Mr-remon219/search-boost](https://github.com/Mr-remon219/search-boost) —— 面向 AI 编程 agent 的多引擎网页搜索与证据整合：统一 MCP server、Pi 扩展与 DeepSeek Harness 插件包——免费搜索、X/Twitter、并行调研与 TUI 一键配置。
+- [LuminariSoftwares/tool-guardian](https://github.com/LuminariSoftwares/tool-guardian) —— 把 MCP server 的工具描述压缩到约 300 token（原本约 28000）：MCP server + DSH 原生插件包。
 
 ## 编排器与聚合器
 
@@ -5176,6 +5179,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [senyayume/dsh-edit-diff](https://github.com/senyayume/dsh-edit-diff) —— DSH 插件：在文件变更工具卡片上重绘行级 diff（相同行只渲染一次 + 行内字符高亮），覆盖 run_code(PTC) 与 str_replace_editor，轮末给出改动汇总卡，并可在资源管理器中定位或复制路径。
 - [WONGIII/dsh-effort-dial](https://github.com/WONGIII/dsh-effort-dial) —— DeepSeek Harness 输入框的推理强度旋钮：紫色粒子场 + 流星，磁吸档位锚点与缓动圆形滑块。
 - [yuloong07-star/dsh-prompt-system](https://github.com/yuloong07-star/dsh-prompt-system) —— DSH 提示词优化插件：模型选择按钮左侧的「✨ 优化提示词」按钮，由当前对话模型结合对话历史与工作区文件，把草稿优化为「角色 / 背景 / 注意 / 技能 / 目标 / 约束 / 流程 / 输出格式 / 建议」分析式结构提示词，支持一键撤销。
+- [hawkongz/dsh-task-reminder](https://github.com/hawkongz/dsh-task-reminder) —— DeepSeek Harness Web UI 的对话任务完成提醒：提醒卡片、四种 Web Audio 提示音与系统通知。
+- [Underwater008/deepshell](https://github.com/Underwater008/deepshell) —— 官方 DeepSeek Harness 的原生 macOS 外壳：不用 Electron、无遥测、不经过厂商网关——约 150 行 Swift 加一个 bash 脚本。
+- [wg5759/dsh-pager](https://github.com/wg5759/dsh-pager) —— DeepSeek Harness 的手机寻呼机（非官方）：33 KB 安卓 App + DSH 插件，后台提醒、通知栏直接审批、服务端折叠省流量。
 
 ## Skill
 
