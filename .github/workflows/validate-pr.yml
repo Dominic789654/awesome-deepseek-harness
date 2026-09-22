@@ -90,6 +90,15 @@ jobs:
             [ -z "$line" ] && continue
             echo "::group::$line"
 
+            # --- skip table-of-contents anchor rows: `- [Section](#anchor)`.
+            #     These are in-page TOC links, not list entries, and legitimately
+            #     fail the `- [Name](https://url)` format rule below.
+            if echo "$line" | grep -qE '^\s*-\s*\[[^]]+\]\(#[^)]*\)\s*$'; then
+              echo "TOC anchor row, skipping: $line"
+              echo "::endgroup::"
+              continue
+            fi
+
             # --- format check: - [Name](url) — description.
             if ! echo "$line" | grep -qE '^\s*-\s*\[[^]]+\]\(https?://[^)]+\)'; then
               echo "::error::Bad entry format: $line"
