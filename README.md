@@ -1098,7 +1098,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [PerryLink/dsh-laya](https://github.com/PerryLink/dsh-laya) — Laya decision engine as a first-class Cordis service and model-visible tools for DeepSeek Harness (work in progress, not installable yet).
 - [whale4rain/tnega](https://github.com/whale4rain/tnega) — Reverse of Agent — an eval-first agent harness assembled from DSH's design features, with spacetime-composable plugin lifecycles (hot-swap and safe rollback).
 - [dttxorg/deepseekeyes](https://github.com/dttxorg/deepseekeyes) — Auditable vision and cross-platform Computer Use runtime for DeepSeek Harness — strict evidence, health-checked failover, original pixels, and Token accounting.
-- [kira905/dsh-firstaid](https://github.com/kira905/dsh-firstaid) — Zero-dependency incident toolkit for long-running agent hosts: one entry point for stuck services, frozen UIs, rollbacks and data loss; emits a hand-off-ready on-site report. Read-only by default. | 零依赖急救台：起不来 / 假死 / 要撤销改动 / 数据被删四类现场压成一个入口，产出可整段交出去的体检报告。
+- [kira905/dsh-firstaid](https://github.com/kira905/dsh-firstaid) — Zero-dependency incident toolkit for long-running agent hosts: one entry point for stuck services, frozen UIs, rollbacks and data loss; emits a hand-off-ready on-site report. Read-only by default.
 
 ## Security & Permissions
 
