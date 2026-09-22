@@ -200,6 +200,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [ma-harness/ma-harness.rs](https://github.com/ma-harness/ma-harness.rs) — A Rust reimplementation developed based on deepseek-harness.
 - [songoao25/dsh-plugin-guardian](https://github.com/songoao25/dsh-plugin-guardian) — Safe uninstall with snapshot rollback for DeepSeek Harness plugins — clean residue, health check, no command line.
 - [173787247/dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit) — DeepSeek Harness WSL kit (EN/ZH): docs + install.sh + cordis.patch for Windows browser + WSL agent plugins.
+- [mn288/dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) — Gemini provider for DeepSeek Harness on Google Cloud Vertex AI, with Application Default Credentials, streaming, and thought-signature replay across tool calls.
 - [Mortal520/dsh-provider-pro](https://github.com/Mortal520/dsh-provider-pro) — Model provider plugin for DeepSeek Harness (dsh-plugin).
 - [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) — 1-Line AI Agent Scaffolding Generator for DeepSeek Harness (dsh): `npx create-dsh-app my-agent` scaffolds a production-ready agent pre-wired with MCP tools, long-term memory, and web browsing.
 - [furinko/DSHOME](https://github.com/furinko/DSHOME) — DSHOME — personal desktop client built on DeepSeek Harness (monorepo: dshome / dshome-theme / dshome-palette).
