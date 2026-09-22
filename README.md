@@ -2712,7 +2712,6 @@ _Generate presentations, decks, slide exports._
 
 _Convert documents in and out of the workspace — Markdown, Word and other formats._
 
-- [bruc3van/dsh-md2word](https://github.com/bruc3van/dsh-md2word) — Offline Markdown-to-Word CLI and native DSH plugin, with Chinese typography, local images and Mermaid diagrams.
 - [bruc3van/bruce-md2word](https://github.com/bruc3van/bruce-md2word) — Markdown-to-Word tool for AI agents: Chinese typography, Mermaid diagrams and editable math formulas, shipped as a skill, a standalone CLI and a DSH plugin.
 - [DDDMUC/dsh-chat-export](https://github.com/DDDMUC/dsh-chat-export) — Readable session export for DeepSeek Harness: dump a conversation to Markdown / HTML / plain text / ZIP transcript, including thinking blocks, tool calls and results, code blocks, images, timestamps, title and usage.
 
@@ -3451,7 +3450,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate: GitHub workbench for coding agents — wraps the REST API into MCP tools for repo queries, issue management, PR creation/merge, code review, and search.
 - [jiewaigongxing/dsh-jiey-browser](https://github.com/jiewaigongxing/dsh-jiey-browser) — DeepSeek Harness plugin: drive Jiey Browser over MCP.
 - [X-C1811/dsh-web-search-plugin](https://github.com/X-C1811/dsh-web-search-plugin) — Tavily web-search provider for DeepSeek Harness (ctx.web): keyless or API-key modes with a configurable UI card; provider framework designed to be extended to more search APIs.
-- [ShawnOY/dsh-tavily-keyless](https://github.com/ShawnOY/dsh-tavily-keyless) — Tavily-backed web search for the DeepSeek Harness web seam (`ctx.web`): keyless first, with a visible fallback to your API key.
+- [ShawnOY/dsh-tavily](https://github.com/ShawnOY/dsh-tavily) — Tavily-backed web search for the DeepSeek Harness web seam (`ctx.web`): keyless first, with a visible fallback to your API key.
 - [xxxyz/DeepSeekHarness-MCP-Manager](https://github.com/xxxyz/DeepSeekHarness-MCP-Manager) — DSH durable MCP server manager plugin — Settings UI + HTTP API + `mcp_manager_*` model tools, cross-platform installers.
 - [Fantasality/dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) — DSH Origin Plugin: drives Origin scientific plotting from DeepSeek Harness AI chat via MCP — write data, plot line/scatter/column, export PNG/SVG.
 - [chenbin-dev/dsh-scan-mcp](https://github.com/chenbin-dev/dsh-scan-mcp) — Plugin that scans locally configured MCP tools from agents like Claude Code, Codex, and CodeBuddy.

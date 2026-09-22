@@ -2725,7 +2725,6 @@ _生成演示文稿、幻灯片、导出 PPT。_
 
 _在工作区内外转换文档——Markdown、Word 等格式。_
 
-- [bruc3van/dsh-md2word](https://github.com/bruc3van/dsh-md2word) —— 离线 Markdown 转 Word CLI 与原生 DSH 插件，支持中文样式、本地图片和 Mermaid 图表。
 - [bruc3van/bruce-md2word](https://github.com/bruc3van/bruce-md2word) —— 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表与可编辑数学公式，同时提供 Skill、独立 CLI 和 DSH 插件。
 - [DDDMUC/dsh-chat-export](https://github.com/DDDMUC/dsh-chat-export) —— DSH 会话可读导出：把 DeepSeek Harness 会话导出成 Markdown / HTML / 纯文本 / ZIP 文字稿，含思考块、工具调用与结果、代码块、图片、时间戳、标题与用量。
 
@@ -3457,7 +3456,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate GitHub 工作台：把 REST API 封装成 MCP 工具，让 agent 直接完成仓库查询、issue 管理、PR 创建与合并、代码审查与搜索
 - [jiewaigongxing/dsh-jiey-browser](https://github.com/jiewaigongxing/dsh-jiey-browser) —— DeepSeek Harness 插件：通过 MCP 驱动 Jiey Browser。
 - [X-C1811/dsh-web-search-plugin](https://github.com/X-C1811/dsh-web-search-plugin) —— 面向 DeepSeek Harness (ctx.web) 的 Tavily 网络搜索提供商：支持无密钥或 API-key 两种模式，附可配置 UI 卡片；provider 框架设计上可扩展到更多搜索 API。
-- [ShawnOY/dsh-tavily-keyless](https://github.com/ShawnOY/dsh-tavily-keyless) —— 面向 DeepSeek Harness Web 接缝（`ctx.web`）的 Tavily 网络搜索：优先无密钥，并在必要时明确回退到你自己的 API key。
+- [ShawnOY/dsh-tavily](https://github.com/ShawnOY/dsh-tavily) —— 面向 DeepSeek Harness Web 接缝（`ctx.web`）的 Tavily 网络搜索：优先无密钥，并在必要时明确回退到你自己的 API key。
 - [xxxyz/DeepSeekHarness-MCP-Manager](https://github.com/xxxyz/DeepSeekHarness-MCP-Manager) —— DSH 持久化 MCP 服务器管理插件 —— Settings UI + HTTP API + mcp_manager_* 模型工具，跨平台安装器。
 - [Fantasality/dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) —— DSH Origin 插件：通过 MCP 从 DeepSeek Harness AI 对话驱动 Origin 科学绘图 —— 写入数据、绘制折线/散点/柱状图，导出 PNG/SVG。
 - [chenbin-dev/dsh-scan-mcp](https://github.com/chenbin-dev/dsh-scan-mcp) —— 能够扫描本地 claudecode、codex、codebuddy 等 Agent 已配置 MCP 工具的插件。
