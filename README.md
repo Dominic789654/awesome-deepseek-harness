@@ -1110,6 +1110,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [nautahakk/jev-codex-router](https://github.com/nautahakk/jev-codex-router) — Jev-powered model and reasoning-effort router for Codex in DeepSeek Harness.
 - [RaulLazaro/dsh-jev-plugin](https://github.com/RaulLazaro/dsh-jev-plugin) — Ask Jev (TypeSafe System One) typed questions from DeepSeek Harness: batch judgements with probabilities, configured per user in Settings.
 - [exoticknight/dsh-system1](https://github.com/exoticknight/dsh-system1) — System One foundation and Cordis plugin for DeepSeek Harness.
+- [btsd321/dsh-remote-explorer](https://github.com/btsd321/dsh-remote-explorer) — Remote development launcher: install dsh on a remote host and use it from your local browser. LLM credentials never leave your machine.
+- [njjpro/dsh-remote-workspace](https://github.com/njjpro/dsh-remote-workspace) — Device-workspace federation plugin for the dsh web GUI: pair into another DSH instance and browse its projects and sessions from the local sidebar, with each peer session opening in the local center column through a loopback embed proxy.
+- [wangzhuoyuan229-source/DeepSeekLauncher](https://github.com/wangzhuoyuan229-source/DeepSeekLauncher) — macOS desktop launcher for DeepSeek Harness — Chrome, custom transparent icon, and installation skill.
 
 ## Security & Permissions
 
@@ -1877,6 +1880,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [daha1216/dsh-retrace](https://github.com/daha1216/dsh-retrace) — Session time machine for DeepSeek Harness (fork): message recall, edit-and-resend and regenerate, plus artifact versioning; adapted to DSH 0.1.5+ and the plugin-service mechanism.
 - [LoveDoLove/Project-Memory-Agent](https://github.com/LoveDoLove/Project-Memory-Agent) — Project Memory gives coding agents a single, trustworthy memory for a software repository — so they stop re-learning the same facts and stop writing conflicting “memory” files.
 - [EiffelBS/dsh-plugin-ideas-manager](https://github.com/EiffelBS/dsh-plugin-ideas-manager) — Capture ideas, anywhere: the Ideas manager brings an idea backlog straight into the DSH Web GUI.
+- [bvcvb/dsh-baize-session](https://github.com/bvcvb/dsh-baize-session) — Pick messages out of dsh sessions and relocate them into another conversation — a new one in any workspace, or an existing open one. Baize.
+- [jackovibe/dsh-codex-pin](https://github.com/jackovibe/dsh-codex-pin) — Codex-style session pinning and archive-style views for the DSH Web UI — pinning is a marker, not a sort; host-persisted with zero order changes.
 
 ## Cost & Usage Tracking
 
@@ -2342,6 +2347,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [victorwads/dsh-live-voice](https://github.com/victorwads/dsh-live-voice) — Local-first voice conversations for DSH: run speech recognition and speech synthesis on your own machine, with optional external providers.
 - [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) — Plugin manager and marketplace for DeepSeek Harness: enable or disable plugins in one click, browse the GitHub `dsh-plugin` marketplace plus custom indexes, see plugin details and one-click install, with upgrade gating and automatic rollback when a framework upgrade fails.
 - [zhy5/wxbridge](https://github.com/zhy5/wxbridge) — DSH plugin: connect WeChat (official iLink / ClawBot) to DeepSeek Harness — live status settings panel plus a bundled bridge / keeper kernel.
+- [Xixixiao2007/dsh-mail-digest](https://github.com/Xixixiao2007/dsh-mail-digest) — Mails a well-proportioned digest of every answer, and lets you reply by email to answer or continue the conversation (DeepSeek Harness plugin).
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -3377,6 +3383,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [hj01857655/dsh-verdict](https://github.com/hj01857655/dsh-verdict) — Measure whether a change to your dsh setup actually helped: register repeatable cases, run them, diff before/after. DeepSeek Harness plugin.
 - [wsbagnsv1/dream-rsi-dsh](https://github.com/wsbagnsv1/dream-rsi-dsh) — Dream-RSI recursive self-improvement as a DeepSeek Harness plugin: discovery history becomes a replay simulator; candidate exploration policies are dream-evaluated off-policy and redeployed under a no-regression guarantee.
 - [juzikexue/dsh-paper-digest](https://github.com/juzikexue/dsh-paper-digest) — Daily paper-digest plugin for DeepSeek Harness: fetches high-quality Chinese and English papers on a schedule, ranks them by transparent auditable quality signals, and writes a topic-grouped Markdown digest into the workspace (configured under Settings → Paper Digest).
+- [FreePeak/dsh-feature-loop](https://github.com/FreePeak/dsh-feature-loop) — Bounded agent loop for DeepSeek Harness: budget ceilings, cheap-first routing, loop hygiene detectors, and a human-in-the-loop ops dashboard.
 
 ## MCP Servers
 
@@ -3568,6 +3575,9 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Mr-remon219/search-boost](https://github.com/Mr-remon219/search-boost) — Multi-engine web search and evidence synthesis for AI coding agents. Unified MCP server, Pi extension, and DeepSeek Harness bundle — free search, X/Twitter, parallel research, and TUI setup.
 - [LuminariSoftwares/tool-guardian](https://github.com/LuminariSoftwares/tool-guardian) — Your MCP servers for ~300 tokens instead of ~28,000. MCP server + native DeepSeek Harness bundle.
 - [Fanch-hui/codex-bridge](https://github.com/Fanch-hui/codex-bridge) — MCP bridge that gives ChatGPT web local read/write access and connects it to local coding agents — Codex, Antigravity, DeepSeek Harness and OpenCode — with approvals, live output and session control.
+- [lemonmmice/dsh-agent-toolchain](https://github.com/lemonmmice/dsh-agent-toolchain) — Evidence over claims for coding agents: 55 DSH/MCP tools (23 read-only) that build, drive, capture and profile a live Windows desktop app, then adjudicate what the agent claims against real evidence. Failure corpus included.
+- [y0urday/dsh-arcgis-pro-bridge](https://github.com/y0urday/dsh-arcgis-pro-bridge) — ArcGIS Pro bridge plugin for DeepSeek Harness — tools exposed as `mcp__arcgis__*`.
+- [Yijian-quiet/dsh-mol](https://github.com/Yijian-quiet/dsh-mol) — Local-first chemistry workbench: foundational chemistry tools for DeepSeek Harness (and any MCP client) — SMILES validation with plain-language diagnostics and three-level results, molecule drawing, property calculation, format conversion, standardization and batch cleaning. Pure RDKit, zero network.
 
 ## Orchestrators & Aggregators
 
@@ -5261,6 +5271,10 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [cyril-belin/newpi](https://github.com/cyril-belin/newpi) — A native macOS window, durable per-project memory and extra capabilities for the DeepSeek Harness — without modifying the harness.
 - [Loliyer520/DSHL](https://github.com/Loliyer520/DSHL) — DSHL · DeepSeek Harness Launcher 官方发布与反馈渠道 | Windows 上一站式安装、启动与管理 DeepSeek Harness。
 - [ningbainb/Dcode](https://github.com/ningbainb/Dcode) — Open-source AI coding desktop with DeepSeek Harness and private GitHub backups of uncommitted code.
+- [donyue7/dsh-aoci-panel](https://github.com/donyue7/dsh-aoci-panel) — DSH plugin: an AOCI panel in the session view tab, showing a project's AOCI cognitive index, governance status, and entry browsing.
+- [jackovibe/dsh-settings-order](https://github.com/jackovibe/dsh-settings-order) — Free ordering for the DeepSeek Harness Web Settings navigation column: drag, Alt+↑↓, or ↑↓ buttons; host-persisted and consistent across browsers.
+- [yicun0316/dsh-claude-slider](https://github.com/yicun0316/dsh-claude-slider) — Claude-style reasoning-effort slider plugin for DSH: a draggable slider, 23 Canvas particle effects that can be freely combined, plus custom colors and icons.
+- [yvhcel888/dsh-slide-gauge](https://github.com/yvhcel888/dsh-slide-gauge) — DSH slide-gauge widget: drag the character in the bottom-right corner to show status, a boundary easter egg, and it remembers its last position.
 
 ## Skills
 
@@ -5588,6 +5602,9 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [SAXEM1997/specpowers](https://github.com/SAXEM1997/specpowers) — SpecPowers — Spec-Driven Development plus TDD as a DeepSeek Harness plugin and Claude Code skill group: six skills fusing OpenSpec with Superpowers' TDD discipline into one Phase 0→4 workflow.
 - [SugarFatFree/dsh-agent-extension](https://github.com/SugarFatFree/dsh-agent-extension) — DeepSeek Harness plugin adding workspace commands, skills, and path-scoped rules.
 - [Zh0uHX/dsh-skills](https://github.com/Zh0uHX/dsh-skills) — Search, install and manage Skills.sh skills from inside the DSH settings page.
+- [Geighlord007/Agent-skills_QP](https://github.com/Geighlord007/Agent-skills_QP) — Personal agent-skill collection for DSH (document translation, research, docx/xlsx tooling); the repo root *is* the skills root, so cloning it to a skills directory makes the skills live.
+- [Hanihahaha/dsh-skill-mcp-manager](https://github.com/Hanihahaha/dsh-skill-mcp-manager) — DSH plugin for managing Skills and MCP servers from a session, plus a dedicated Skill & MCP section in DSH Web settings: list/inspect/create/update/delete SKILL.md bundles, add/update/remove/reload MCP server entries, all over the plugin's own authenticated fetch route (nothing written to the conversation).
+- [yixiuzhemu/Skills-Manager](https://github.com/yixiuzhemu/Skills-Manager) — Dual-face Skills management plugin for DeepSeek Harness: the host half scans, imports and manages skills from many sources (DSH global, project, per-agent Codex/Claude/Copilot, extra directories) with a registry, trash bin, repository browsing, company skill sources and update/diff tooling; the client half renders a unified Skills panel with five tabs in DSH settings.
 
 ## Resources
 
