@@ -1111,6 +1111,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [nautahakk/jev-codex-router](https://github.com/nautahakk/jev-codex-router) — 由 Jev 驱动的 DeepSeek Harness 内 Codex 模型与推理强度路由器。
 - [RaulLazaro/dsh-jev-plugin](https://github.com/RaulLazaro/dsh-jev-plugin) — 在 DeepSeek Harness 中向 Jev（TypeSafe System One）提出结构化问题：批量给出带概率的判断，可按用户在设置中配置。
 - [exoticknight/dsh-system1](https://github.com/exoticknight/dsh-system1) — DeepSeek Harness 的 System One 基础能力与 Cordis 插件。
+- [btsd321/dsh-remote-explorer](https://github.com/btsd321/dsh-remote-explorer) —— 远程开发启动器：在远端主机上安装 dsh，从本地浏览器直接使用，LLM 凭据始终留在本机。
+- [njjpro/dsh-remote-workspace](https://github.com/njjpro/dsh-remote-workspace) —— dsh Web GUI 的设备-工作区联邦插件：配对另一台 DSH 实例后，可在本地侧边栏浏览对端的项目与会话，对端会话通过回环嵌入代理在本地中栏打开。
+- [wangzhuoyuan229-source/DeepSeekLauncher](https://github.com/wangzhuoyuan229-source/DeepSeekLauncher) —— DeepSeek Harness 的 macOS 桌面启动器：Chrome 承载、自定义透明图标，并附带安装 skill。
 
 ## 安全与权限
 
@@ -1882,6 +1885,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [daha1216/dsh-retrace](https://github.com/daha1216/dsh-retrace) —— DeepSeek Harness 会话时光机（fork）：消息撤回、编辑重发、重新生成，外加产物版本化；适配 DSH 0.1.5+ 与插件服务机制。
 - [LoveDoLove/Project-Memory-Agent](https://github.com/LoveDoLove/Project-Memory-Agent) —— 给编码 agent 一份可信的仓库级记忆：不再反复重学同一批事实，也不会再写出互相冲突的「记忆」文件。
 - [EiffelBS/dsh-plugin-ideas-manager](https://github.com/EiffelBS/dsh-plugin-ideas-manager) — 随时记录想法：Ideas manager 把想法清单直接搬进 DSH Web 界面。
+- [bvcvb/dsh-baize-session](https://github.com/bvcvb/dsh-baize-session) —— 从 dsh 会话中挑出消息并迁移到另一个会话：可新建到任意工作区，也可并入已打开的会话。Baize。
+- [jackovibe/dsh-codex-pin](https://github.com/jackovibe/dsh-codex-pin) —— Codex 式会话置顶与归档风格的 DSH Web 插件：置顶只是标记而非排序，宿主持久，零顺序改动。
 
 ## 成本与用量统计
 
@@ -2353,6 +2358,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [victorwads/dsh-live-voice](https://github.com/victorwads/dsh-live-voice) —— DSH 的本地优先语音对话：语音识别与语音合成都跑在自己机器上，可选接入外部服务商。
 - [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) —— DeepSeek Harness (DSH) 插件管理与插件市场：一键启用 / 停用插件，浏览 GitHub `dsh-plugin` 市场与自定义索引，带插件详情与一键安装，升级门控，框架升级失败自动回滚。
 - [zhy5/wxbridge](https://github.com/zhy5/wxbridge) —— DSH 插件：把微信（官方 iLink / ClawBot）接到 DeepSeek Harness —— 带实时状态设置面板与内置 bridge / keeper 内核。
+- [Xixixiao2007/dsh-mail-digest](https://github.com/Xixixiao2007/dsh-mail-digest) —— 把每轮回答压成一条详略得当的摘要发到邮箱，并支持用邮件回信作答或续接对话（DeepSeek Harness 插件）。
 
 ## 插件市场与生态
 
@@ -3393,6 +3399,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [hj01857655/dsh-verdict](https://github.com/hj01857655/dsh-verdict) —— 量化「你这次改动到底有没有用」：登记可重复的用例、跑一遍、对比改动前后。DeepSeek Harness 插件。
 - [wsbagnsv1/dream-rsi-dsh](https://github.com/wsbagnsv1/dream-rsi-dsh) —— 以 DeepSeek Harness 插件形式实现的 Dream-RSI 递归自我改进：发现历史变成回放模拟器，候选探索策略在离策略下被「做梦式」评估，并在无回归保证下重新部署。
 - [juzikexue/dsh-paper-digest](https://github.com/juzikexue/dsh-paper-digest) —— DeepSeek Harness 每日论文日报插件：按设定时间自动检索中英文高质量论文，按透明可审计的质量信号排序，生成按主题分组的 Markdown 日报写入工作区（在「设置 → 论文日报」中配置）。
+- [FreePeak/dsh-feature-loop](https://github.com/FreePeak/dsh-feature-loop) —— DeepSeek Harness 的有界 agent 循环：预算上限、cheap-first 路由、循环卫生检测器，以及人在环中的运维看板。
 
 ## MCP Server
 
@@ -3577,6 +3584,9 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Mr-remon219/search-boost](https://github.com/Mr-remon219/search-boost) —— 面向 AI 编程 agent 的多引擎网页搜索与证据整合：统一 MCP server、Pi 扩展与 DeepSeek Harness 插件包——免费搜索、X/Twitter、并行调研与 TUI 一键配置。
 - [LuminariSoftwares/tool-guardian](https://github.com/LuminariSoftwares/tool-guardian) —— 把 MCP server 的工具描述压缩到约 300 token（原本约 28000）：MCP server + DSH 原生插件包。
 - [Fanch-hui/codex-bridge](https://github.com/Fanch-hui/codex-bridge) —— MCP 桥接工具：给网页版 ChatGPT 本地读写能力，并把它接到本机的 Codex、Antigravity、DSH、OpenCode 上，带审批、实时输出与会话控制。
+- [lemonmmice/dsh-agent-toolchain](https://github.com/lemonmmice/dsh-agent-toolchain) —— 给 coding agent 的「证据优先于声明」工具链：55 个 DSH/MCP 工具（23 个只读）用于构建、驱动、抓取与剖析运行中的 Windows 桌面应用，再用真实证据裁定 agent 的说法，附带失败案例库。
+- [y0urday/dsh-arcgis-pro-bridge](https://github.com/y0urday/dsh-arcgis-pro-bridge) —— DeepSeek Harness 的 ArcGIS Pro 桥接插件：工具以 `mcp__arcgis__*` 形式暴露。
+- [Yijian-quiet/dsh-mol](https://github.com/Yijian-quiet/dsh-mol) —— 本地优先的化学工作台：给 DeepSeek Harness（及任意 MCP 客户端）的化学基础工具 —— SMILES 校验（人话诊断 / 三级结果）、画分子、性质计算、格式互转、标准化、批量清洗。纯 RDKit，零网络。
 
 ## 编排器与聚合器
 
@@ -5260,6 +5270,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [cyril-belin/newpi](https://github.com/cyril-belin/newpi) — 为 DeepSeek Harness 提供原生 macOS 窗口、按项目持久记忆与额外能力——不改动 harness 本体。
 - [Loliyer520/DSHL](https://github.com/Loliyer520/DSHL) — DSHL · DeepSeek Harness Launcher 官方发布与反馈渠道 | Windows 上一站式安装、启动与管理 DeepSeek Harness。
 - [ningbainb/Dcode](https://github.com/ningbainb/Dcode) — 开源 AI 编码桌面端，内置 DeepSeek Harness，并可用私有 GitHub 仓库备份未提交的代码。
+- [donyue7/dsh-aoci-panel](https://github.com/donyue7/dsh-aoci-panel) —— DSH 插件：在会话视图标签中展示项目的 AOCI 认知索引、治理状态与条目浏览。
+- [jackovibe/dsh-settings-order](https://github.com/jackovibe/dsh-settings-order) —— DSH Web 设置左列自由排序插件：拖动 / Alt+↑↓ / ↑↓ 按钮三种方式，宿主持久，跨浏览器生效。
+- [yicun0316/dsh-claude-slider](https://github.com/yicun0316/dsh-claude-slider) —— DSH 推理强度滑块插件：Claude 风格拖拽滑块 + 23 种 Canvas 粒子动效 + 客制动效自由组合 + 配色与图标自定义。
+- [yvhcel888/dsh-slide-gauge](https://github.com/yvhcel888/dsh-slide-gauge) —— DSH 滑动测量仪挂件：右下角拖动角色显示状态，边界彩蛋，并记住上次位置。
 
 ## Skill
 
@@ -5589,6 +5603,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [SAXEM1997/specpowers](https://github.com/SAXEM1997/specpowers) —— SpecPowers——把 SDD + TDD 工程方法论做成 DSH 插件与 Claude Code 技能组：6 个技能把 OpenSpec 规格驱动开发与 Superpowers 的 TDD 纪律合成一条 Phase 0→4 工作流。
 - [SugarFatFree/dsh-agent-extension](https://github.com/SugarFatFree/dsh-agent-extension) —— 为 DSH 增加工作区命令、技能与按路径生效的规则。
 - [Zh0uHX/dsh-skills](https://github.com/Zh0uHX/dsh-skills) —— 在 DSH 设置页里搜索、安装和管理 Skills.sh 技能。
+- [Geighlord007/Agent-skills_QP](https://github.com/Geighlord007/Agent-skills_QP) —— 面向 DSH 的个人 agent skill 集合（文档翻译、检索研究、docx/xlsx 工具）：仓库根目录即 skills 根，clone 到技能目录即可被自动发现。
+- [Hanihahaha/dsh-skill-mcp-manager](https://github.com/Hanihahaha/dsh-skill-mcp-manager) —— DSH 插件：在会话中管理 Skills 与 MCP server，并在 DSH Web 设置中提供独立的 Skill & MCP 分区 —— 列出/查看/新建/更新/删除 SKILL.md 技能包，新增/更新/移除/重载 MCP server 条目，全部走插件自身的鉴权 fetch 通道，不写入对话。
+- [yixiuzhemu/Skills-Manager](https://github.com/yixiuzhemu/Skills-Manager) —— DeepSeek Harness 的双面 Skills 管理插件：宿主侧（Node）从多来源（DSH 全局、项目、按 agent 的 Codex/Claude/Copilot、自定义目录）扫描、导入与管理技能，含注册表、回收站、仓库浏览、公司技能源与更新/差异工具；客户端侧（浏览器）在 DSH 设置区渲染统一的 Skills 面板（技能 / 回收站 / 仓库 / 公司 / 更新 五个标签页）。
 
 ## 资源
 
