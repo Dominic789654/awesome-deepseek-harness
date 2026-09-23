@@ -200,6 +200,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [ma-harness/ma-harness.rs](https://github.com/ma-harness/ma-harness.rs) —— 基于 deepseek-harness 开发的 Rust 版本实现。
 - [songoao25/dsh-plugin-guardian](https://github.com/songoao25/dsh-plugin-guardian) —— 面向 DeepSeek Harness 插件的安全卸载工具：快照回滚、清理残留、健康检查，无需命令行。
 - [173787247/dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit) —— DeepSeek Harness WSL 工具包（中英双语）：文档 + install.sh + cordis.patch，适配 Windows 浏览器与 WSL 中的 agent 插件。
+- [mn288/dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) —— 通过 Google Cloud Vertex AI 为 DeepSeek Harness 接入 Gemini，支持应用默认凭据（ADC）、流式响应和工具调用间的思考签名回传。
 - [Mortal520/dsh-provider-pro](https://github.com/Mortal520/dsh-provider-pro) —— 面向 DeepSeek Harness 的模型供应商（provider）插件（dsh-plugin）。
 - [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) —— DeepSeek Harness (dsh) 的一行 AI Agent 脚架生成器：`npx create-dsh-app my-agent` 即可脚架一个预先接入 MCP 工具、长期记忆与网页浏览的生产可用 agent。
 - [gehennawu/dsh-nas](https://github.com/gehennawu/dsh-nas) —— 一个面向 Linux NAS 的 dsh（DeepSeek Harness）部署模板：运行 dsh、Authelia 与 Caddy 三个容器，使用密码和双因素认证鉴权。
