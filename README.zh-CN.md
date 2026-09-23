@@ -2526,6 +2526,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [geekyfoxlab/dshm](https://github.com/geekyfoxlab/dshm) —— DeepSeek Harness 的版本与插件管理器：多版本隔离、插件隔离区，以及插件损坏时仍能安全启动。
 - [xbzbing/dsh-openviking-manager](https://github.com/xbzbing/dsh-openviking-manager) —— OpenViking 的配置工具，以 DeepSeek Harness (dsh) 插件形式提供。
 - [muen-collective/muen-plugins](https://github.com/muen-collective/muen-plugins) — Muen 为 DeepSeek Harness 市场自研的插件集——以 GitHub Release tarball 发布，用 `dsh plugin add` 安装；通用白标，不内置任何客户身份信息。
+- [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) —— 器官化插件层：插件以「器官」声明能力、感知与反射，神经冲动把命令路由给负责它的器官，心跳循环主权指令与生命体征，反射弧零模型调用即命中执行，静默期把运行历史巩固成记忆卡，器官失败走「归因—处方—复检」闭环自愈。
 
 ## 可视化
 
