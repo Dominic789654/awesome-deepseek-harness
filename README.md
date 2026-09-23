@@ -2507,6 +2507,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [geekyfoxlab/dshm](https://github.com/geekyfoxlab/dshm) — Version and plugin manager for DeepSeek Harness: multi-version isolation, plugin quarantine, and safe boot that survives broken plugins.
 - [xbzbing/dsh-openviking-manager](https://github.com/xbzbing/dsh-openviking-manager) — Configuration tool for OpenViking, packaged as a DeepSeek Harness (dsh) plugin.
 - [muen-collective/muen-plugins](https://github.com/muen-collective/muen-plugins) — Muen-authored plugins for the DeepSeek Harness market — published as GitHub Release tarballs and installed with `dsh plugin add`. Generic, white-label, no client identity baked in.
+- [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) — Organ-based plugin layer that treats plugins as organs: a nerve impulse routes each command to the organ that owns it, a heartbeat circulates law and vitals, reflex arcs fire with zero model calls, quiet time consolidates run history into memory cards, and a failing organ heals through attribution, prescription and re-check.
 
 ## Visualization
 
