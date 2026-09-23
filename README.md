@@ -5234,6 +5234,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Congser/PCL-DSH](https://github.com/Congser/PCL-DSH) — Third-party stand-alone rework of Plain Craft Launcher (PCL) that puts DeepSeek Harness (dsh) into a GUI launcher, with all Minecraft functionality stripped out.
 - [liudapeng0311/dsh-pwa-launcher](https://github.com/liudapeng0311/dsh-pwa-launcher) — Turns the browser PWA shortcut already on your desktop into a real launcher: double-click starts `dsh web` silently and opens the app window with the original icon, plus restart and self-update (with rollback) controls in the web UI. Windows only, MIT.
 - [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) — Chrome sidebar extension that lets DeepSeek Harness operate your browser directly, with no vision capabilities required.
+- [xingzhen199186/dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) — Minimal phone remote control for a DSH session: the phone page carries only the instruction you send and the AI's final conclusion, while tool calls, file reads and writes, sub-agent dispatch, and reasoning traces stay on the computer. Three connection routes coexist (LAN, Tailscale, and a Cloudflare public tunnel), each with its own QR code, link, and password.
 
 ## Skills
 

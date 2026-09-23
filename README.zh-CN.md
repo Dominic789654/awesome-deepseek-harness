@@ -5233,6 +5233,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Congser/PCL-DSH](https://github.com/Congser/PCL-DSH) —— Plain Craft Launcher (PCL) 的第三方独立二创：把 DeepSeek Harness (dsh) 装进图形界面启动器，并剥除了全部 Minecraft 功能。
 - [liudapeng0311/dsh-pwa-launcher](https://github.com/liudapeng0311/dsh-pwa-launcher) —— 把桌面上已有的浏览器 PWA 快捷方式变成真正的启动器：双击即静默启动 `dsh web` 并打开应用窗口、保留原图标；另在 Web UI 中加入重启与 dsh 自更新（可回退）控制。仅 Windows，MIT。
 - [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) —— Chrome 侧边栏扩展：让 DeepSeek Harness 直接操控你的浏览器，无需视觉能力。
+- [xingzhen199186/dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) —— 极简的手机遥控：手机页面上只有你发出的指令和 AI 最后的结论，工具调用、文件读写、子 Agent 调度与思考过程留在电脑上。内网、Tailscale、Cloudflare 公网隧道三条连接路径并存，各配二维码、链接与密码。
 
 ## Skill
 
