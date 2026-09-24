@@ -1101,7 +1101,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [sunilkumar770/nvidia-avo-deepseek-dsh-harness-](https://github.com/sunilkumar770/nvidia-avo-deepseek-dsh-harness-) —— NVIDIA AVO + DeepSeek Harness (DSH) 混合执行引擎，面向 Antigravity、Claude Code 与前沿 LLM——宏观监督 + 微观细粒度工具执行。
 - [zhang0098/abylab](https://github.com/zhang0098/abylab) —— 极简单文件终端的 DeepSeek agent harness：单文件极简 DeepSeek harness（Rust TUI）。
 - [MYCF711/dsh-websearch-direct](https://github.com/MYCF711/dsh-websearch-direct) —— 免 API Key 的 dsh 联网搜索 / 网页抓取插件：引擎即逻辑源，入口在直连/镜像/加速路由间自动回退，不消耗任何模型 token。
-- [lalilulelo3/dsh-launcher](https://github.com/lalilulelo3/dsh-launcher) —— DeepSeek Harness 启动器：带图形界面的插件管理器与自救工具（备份 / 重置 / 安全模式）。
 - [PerryLink/jevcore](https://github.com/PerryLink/jevcore) —— 面向 DeepSeek Harness、Model Context Protocol 与纯 Node 的 TypeSafe Jev：用类型化判断替代散文化描述，默认离线运行。
 - [wpeng77/dsh-llm-trace](https://github.com/wpeng77/dsh-llm-trace) —— 面向 DeepSeek Harness 的链路级 LLM 检查器：抓取每次模型调用的原始 HTTP 请求与响应体，按会话归因，提供 Conversation View 标签页与本地回环查看页。
 - [PerryLink/dsh-laya](https://github.com/PerryLink/dsh-laya) —— 把 Laya 决策引擎作为一等 Cordis 服务与模型可见工具引入 DeepSeek Harness（开发中，尚不可安装）。
@@ -5310,6 +5309,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [MaybeMeibeMaybi/dsh-aliyun-relay-access](https://github.com/MaybeMeibeMaybi/dsh-aliyun-relay-access) —— 通过廉价的云端中继从任意网络访问 DeepSeek Harness（dsh）Web GUI：frp 反向隧道由电脑主动外联，因此 CGNAT 与入站防火墙都不再是问题。
 - [MichengAI/dsh-codex-pet](https://github.com/MichengAI/dsh-codex-pet) —— DSH Codex Pet：为 DeepSeek Harness 提供宠物陪伴、多任务提醒与交互，并支持用 Skill 自定义宠物。
 - [YevheniiMiachyn/dsh-tts-live](https://github.com/YevheniiMiachyn/dsh-tts-live) —— DeepSeek Harness 的逐句实时 TTS：提前开口、有序流式播放、支持打断取消，并修复自定义 WAV 供应商。
+- [lalilulelo3/dsh-launcher](https://github.com/lalilulelo3/dsh-launcher) —— Windows 图形界面的 DSH 插件管理器：逐插件开关（不改 DSH 自身配置）、版本检查、档案备份与回滚，以及启动失败时的诊断与「恢复上次正常配置」。
 - [BOWLUNA/dsh-multi-instance](https://github.com/BOWLUNA/dsh-multi-instance) —— DSH 多开桌面客户端：把 dsh web 装进原生 webview 窗口，按 URL 接入多个实例（本机 / WSL2 / 远程），多窗口自由排布缩放，每格独立浏览器会话、互不干扰。
 - [FFaassdfs/dsh-desktop-env](https://github.com/FFaassdfs/dsh-desktop-env) —— dsh-desktop：DeepSeek Harness 桌面启动器（Wails 壳，端口 43080），内置 6 个官方 Web GUI 插件，附离线便携发行包与一键部署/更新脚本。
 - [yanxi-lu/dsh-desktop](https://github.com/yanxi-lu/dsh-desktop) —— DSH 的 Windows 桌面套壳：轻量壳 + 首次引导 + 托盘驻留。
