@@ -1099,7 +1099,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [sunilkumar770/nvidia-avo-deepseek-dsh-harness-](https://github.com/sunilkumar770/nvidia-avo-deepseek-dsh-harness-) —— NVIDIA AVO + DeepSeek Harness (DSH) 混合执行引擎，面向 Antigravity、Claude Code 与前沿 LLM——宏观监督 + 微观细粒度工具执行。
 - [zhang0098/abylab](https://github.com/zhang0098/abylab) —— 极简单文件终端的 DeepSeek agent harness：单文件极简 DeepSeek harness（Rust TUI）。
 - [MYCF711/dsh-websearch-direct](https://github.com/MYCF711/dsh-websearch-direct) —— 免 API Key 的 dsh 联网搜索 / 网页抓取插件：引擎即逻辑源，入口在直连/镜像/加速路由间自动回退，不消耗任何模型 token。
-- [lalilulelo3/dsh-launcher](https://github.com/lalilulelo3/dsh-launcher) —— DeepSeek Harness 启动器：带图形界面的插件管理器与自救工具（备份 / 重置 / 安全模式）。
 - [PerryLink/jevcore](https://github.com/PerryLink/jevcore) —— 面向 DeepSeek Harness、Model Context Protocol 与纯 Node 的 TypeSafe Jev：用类型化判断替代散文化描述，默认离线运行。
 - [wpeng77/dsh-llm-trace](https://github.com/wpeng77/dsh-llm-trace) —— 面向 DeepSeek Harness 的链路级 LLM 检查器：抓取每次模型调用的原始 HTTP 请求与响应体，按会话归因，提供 Conversation View 标签页与本地回环查看页。
 - [PerryLink/dsh-laya](https://github.com/PerryLink/dsh-laya) —— 把 Laya 决策引擎作为一等 Cordis 服务与模型可见工具引入 DeepSeek Harness（开发中，尚不可安装）。
