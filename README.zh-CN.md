@@ -3793,7 +3793,6 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [WDahah/portable-dsh-multi-agent-plugin](https://github.com/WDahah/portable-dsh-multi-agent-plugin) —— 可在兼容的 DeepSeek Harness / Cordis 宿主上运行的可移植多代理编排插件。
 - [YaoApp/yao](https://github.com/YaoApp/yao) —— 自托管平台：把你所有 Agent 与工作区集中到一处、覆盖你拥有的每台设备，用一块看板从桌面 / 手机 / 浏览器 / API 追踪任务——已集成 DeepSeek Harness 作为引擎。
 - [Foshowithit/dsh-operator-ui](https://github.com/Foshowithit/dsh-operator-ui) — DeepSeek Harness 的 RCOS 操作控制面：GoalRunner、带显式批准的授权闸门、三重真值校验（执行 / 能力 / 目标满足）、信任阶梯与下一步建议，并从 Archon 运行重建任务身份。旁加载，无需 fork。
-- [xiaoxianxian/multi-proxy](https://github.com/xiaoxianxian/multi-proxy) —— 面向 coding agent（Codex / Hermes / Cursor）的多 Agent 编排中枢与 LLM 路由网关：API 网关做协议转换（Responses ↔ ChatCompletions）、故障转移 / 轮询 / 成本优化路由，并提供 DSH 生态接入通道（`.dsh/skills/`）。
 
 ## UI / 客户端
 

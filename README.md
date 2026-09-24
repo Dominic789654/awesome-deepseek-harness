@@ -3767,7 +3767,6 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [WDahah/portable-dsh-multi-agent-plugin](https://github.com/WDahah/portable-dsh-multi-agent-plugin) — Portable multi-agent orchestration plugin for compatible DeepSeek Harness / Cordis hosts.
 - [YaoApp/yao](https://github.com/YaoApp/yao) — Self-hosted platform that gathers all your agents and workspaces into one place on every device you own: track tasks on a board from desktop, mobile, browser or API — DeepSeek Harness is integrated as an engine.
 - [Foshowithit/dsh-operator-ui](https://github.com/Foshowithit/dsh-operator-ui) — RCOS operator control plane for DeepSeek Harness — GoalRunner, authority gates with explicit approval, three-truth verification (execution / capability / objective satisfaction), trust ladder and next-action, task identity rebuilt from Archon runs. Side-loaded, no fork.
-- [xiaoxianxian/multi-proxy](https://github.com/xiaoxianxian/multi-proxy) — Multi-agent orchestration hub plus LLM routing gateway for coding agents (Codex / Hermes / Cursor): an API gateway with protocol conversion (Responses ↔ ChatCompletions), failover / round-robin / cost-optimised routing, and a DSH ecosystem channel (`.dsh/skills/`).
 
 ## UI / Clients
 - [jayantTang/DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) — 原生 iOS 客户端 + 电脑侧连接器 + 公网中转：手机不用公网 IP、4G/5G 就能连上电脑上的 DSH，同一批会话与同一条消息流。Native SwiftUI client, a DSH connector plugin, and a self-hosted relay (Python/aiohttp).
