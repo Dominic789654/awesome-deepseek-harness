@@ -5646,7 +5646,6 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Hanihahaha/dsh-skill-mcp-manager](https://github.com/Hanihahaha/dsh-skill-mcp-manager) —— DSH 插件：在会话中管理 Skills 与 MCP server，并在 DSH Web 设置中提供独立的 Skill & MCP 分区 —— 列出/查看/新建/更新/删除 SKILL.md 技能包，新增/更新/移除/重载 MCP server 条目，全部走插件自身的鉴权 fetch 通道，不写入对话。
 - [yixiuzhemu/Skills-Manager](https://github.com/yixiuzhemu/Skills-Manager) —— DeepSeek Harness 的双面 Skills 管理插件：宿主侧（Node）从多来源（DSH 全局、项目、按 agent 的 Codex/Claude/Copilot、自定义目录）扫描、导入与管理技能，含注册表、回收站、仓库浏览、公司技能源与更新/差异工具；客户端侧（浏览器）在 DSH 设置区渲染统一的 Skills 面板（技能 / 回收站 / 仓库 / 公司 / 更新 五个标签页）。
 - [Zeno-Zhu/chatgpt-web-skill](https://github.com/Zeno-Zhu/chatgpt-web-skill) —— 让 dsh / workbuddy / trae / codex 等 agent 用固定命令操控网页版 ChatGPT（CDP / Playwright 桥）：路由 Gate、幂等发送、latch 完成判定与多轮研讨协议。
-- [xiazhicheng/quant-risk](https://github.com/xiazhicheng/quant-risk) —— A股 + 港股量化选股 skill：波段评分、每日信号工作流、单股分析与 MCP 工具，数据全部来自免费公开接口，无需注册和 API Key。
 
 ## 资源
 

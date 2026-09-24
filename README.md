@@ -5645,7 +5645,6 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Hanihahaha/dsh-skill-mcp-manager](https://github.com/Hanihahaha/dsh-skill-mcp-manager) — DSH plugin for managing Skills and MCP servers from a session, plus a dedicated Skill & MCP section in DSH Web settings: list/inspect/create/update/delete SKILL.md bundles, add/update/remove/reload MCP server entries, all over the plugin's own authenticated fetch route (nothing written to the conversation).
 - [yixiuzhemu/Skills-Manager](https://github.com/yixiuzhemu/Skills-Manager) — Dual-face Skills management plugin for DeepSeek Harness: the host half scans, imports and manages skills from many sources (DSH global, project, per-agent Codex/Claude/Copilot, extra directories) with a registry, trash bin, repository browsing, company skill sources and update/diff tooling; the client half renders a unified Skills panel with five tabs in DSH settings.
 - [Zeno-Zhu/chatgpt-web-skill](https://github.com/Zeno-Zhu/chatgpt-web-skill) — Skill that lets any coding agent (dsh / workbuddy / trae / codex) drive web ChatGPT over a deterministic CDP/Playwright bridge: routing gate, idempotent send, latch-based completion detection and a multi-round discussion protocol.
-- [xiazhicheng/quant-risk](https://github.com/xiazhicheng/quant-risk) — Quantitative stock-picking skill (A-share + HK) installable as an AI skill: swing-band scoring, daily signal workflow, single-stock analysis and MCP tools, all from free public data sources with no API key.
 
 ## Resources
 
