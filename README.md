@@ -5299,6 +5299,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [MaybeMeibeMaybi/dsh-aliyun-relay-access](https://github.com/MaybeMeibeMaybi/dsh-aliyun-relay-access) — Reach the DeepSeek Harness (dsh) web GUI from anywhere through a cheap cloud relay: an frp reverse tunnel where the PC dials out, so CGNAT and inbound firewalls do not matter.
 - [MichengAI/dsh-codex-pet](https://github.com/MichengAI/dsh-codex-pet) — DSH Codex Pet: a pet companion for DeepSeek Harness with multi-task notifications, interactions, and Skill-based custom pets.
 - [YevheniiMiachyn/dsh-tts-live](https://github.com/YevheniiMiachyn/dsh-tts-live) — Live sentence-level TTS for DeepSeek Harness with early speech, ordered streaming, barge-in cancellation, and custom WAV provider fixes.
+- [lalilulelo3/dsh-launcher](https://github.com/lalilulelo3/dsh-launcher) — Windows GUI for DSH plugin management: per-plugin enable/disable switches that don't touch DSH's own config, version checks, profile backup/rollback, and a boot-failure diagnosis that can restore the last working config.
 
 ## Skills
 

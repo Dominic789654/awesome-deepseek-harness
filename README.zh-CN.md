@@ -5298,6 +5298,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [MaybeMeibeMaybi/dsh-aliyun-relay-access](https://github.com/MaybeMeibeMaybi/dsh-aliyun-relay-access) —— 通过廉价的云端中继从任意网络访问 DeepSeek Harness（dsh）Web GUI：frp 反向隧道由电脑主动外联，因此 CGNAT 与入站防火墙都不再是问题。
 - [MichengAI/dsh-codex-pet](https://github.com/MichengAI/dsh-codex-pet) —— DSH Codex Pet：为 DeepSeek Harness 提供宠物陪伴、多任务提醒与交互，并支持用 Skill 自定义宠物。
 - [YevheniiMiachyn/dsh-tts-live](https://github.com/YevheniiMiachyn/dsh-tts-live) —— DeepSeek Harness 的逐句实时 TTS：提前开口、有序流式播放、支持打断取消，并修复自定义 WAV 供应商。
+- [lalilulelo3/dsh-launcher](https://github.com/lalilulelo3/dsh-launcher) —— Windows 图形界面的 DSH 插件管理器：逐插件开关（不改 DSH 自身配置）、版本检查、档案备份与回滚，以及启动失败时的诊断与「恢复上次正常配置」。
 
 ## Skill
 
