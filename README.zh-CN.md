@@ -1134,6 +1134,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [xiangnan0811/dsh-clinepass](https://github.com/xiangnan0811/dsh-clinepass) —— DSH 的 ClinePass 插件：模型、API Key 与用量额度。
 - [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) —— 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。
 - [yukitakasama/better-deepseek-harness](https://github.com/yukitakasama/better-deepseek-harness) — 面向 Coding 用户的 DeepSeek Harness 整合包（基座 DSH 0.1.7-rc.2）：Codex 风格界面、代码审查与简化子 Agent、思考强度滑块、费用与余额计量、桌宠、上下文守卫与 Computer Use 工具。
+- [DDDMUC/dsh-provider-hub](https://github.com/DDDMUC/dsh-provider-hub) — DSH 插件：粘贴一个 API Key 即可新增模型提供方——内置 21 个精选预设（OpenAI 兼容 + Anthropic Messages），按应用去重，并提供自定义端点表单。
+- [zlZayn/dsh-workbuddy-bridge](https://github.com/zlZayn/dsh-workbuddy-bridge) — DSH 插件：把 WorkBuddy 桌面 App 里的模型接入 DeepSeek Harness，零配置直接用（原生嵌入「设置-插件-插件配置」）。
 
 ## 安全与权限
 
@@ -1917,6 +1919,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [john-walks-slow/dsh-clear-mind](https://github.com/john-walks-slow/dsh-clear-mind) —— DSH 上下文压缩：`mind_map` 与 `clear_mind` 两个 agent 工具把选中的历史变成模型自写的检查点，带可审计的 GUI 墓碑与阈值主动提醒。
 - [zhaoguoqiang-hub/dsh-soul-engine](https://github.com/zhaoguoqiang-hub/dsh-soul-engine) —— 可审计的明文 Markdown 记忆账本插件（DSH / DeepSeek Harness）：14 个 `soul_*` 工具 + 轮首账本注入 + 零 token 自维护 + 心跳唤醒。
 - [bonerush/dsh-obsidian-mem](https://github.com/bonerush/dsh-obsidian-mem) — DeepSeek Harness 宿主插件：把项目文档与长期记忆以纯 Markdown 存放在专属 Obsidian 仓库中——每个仓库一个稳定 projectId、一个提交的指针文件与一个固定目录；Obsidian 无需运行。
+- [LoveDoLove/Veyra](https://github.com/LoveDoLove/Veyra) — DeepSeek Harness 的持久化工程记忆。
 
 ## 成本与用量统计
 
@@ -2398,6 +2401,8 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [fatatalia/dsh-imessage](https://github.com/fatatalia/dsh-imessage) —— dsh iMessage 插件：监听 / 路由 / 自动回复 / typing / 已读回执，随 dsh web 启停。
 - [chintoleung/dsh-ping](https://github.com/chintoleung/dsh-ping) —— DSH agent 需要你时（提问、请求审批、回合结束）用 Telegram 提醒你；纯通知插件，单文件、零依赖。
 - [wowyuarm/dsh-channel-gateway](https://github.com/wowyuarm/dsh-channel-gateway) —— DSH 渠道网关：Telegram 与微信适配器把各家消息规整为统一消息契约，在传输边界完成鉴权，消费方按消息自带的回路回复。
+- [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) —— DSH 插件：把飞书 / 企业微信智能机器人 / 钉钉 Stream / QQ 网关桥接进 DSH agent（WSL）。
+- [wanjiaju3108/dsh-feishu-cui](https://github.com/wanjiaju3108/dsh-feishu-cui) —— 用飞书私聊远程操作 DSH：消息与卡片走机器人长连接，不用公网入口、不用证书、不用内网穿透。
 
 ## 插件市场与生态
 
@@ -2572,6 +2577,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [xbzbing/dsh-openviking-manager](https://github.com/xbzbing/dsh-openviking-manager) —— OpenViking 的配置工具，以 DeepSeek Harness (dsh) 插件形式提供。
 - [muen-collective/muen-plugins](https://github.com/muen-collective/muen-plugins) — Muen 为 DeepSeek Harness 市场自研的插件集——以 GitHub Release tarball 发布，用 `dsh plugin add` 安装；通用白标，不内置任何客户身份信息。
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) —— 器官化插件层：插件以「器官」声明能力、感知与反射，神经冲动把命令路由给负责它的器官，心跳循环主权指令与生命体征，反射弧零模型调用即命中执行，静默期把运行历史巩固成记忆卡，器官失败走「归因—处方—复检」闭环自愈。
+- [wosledon/dsh-plugins](https://github.com/wosledon/dsh-plugins) —— DSH 第三方插件集合：按模型调节推理强度、定时 LLM 任务、Token 用量统计。自包含 bundle，无需构建。
 
 ## 可视化
 
@@ -5365,6 +5371,12 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Rice00/dsh-tree-view](https://github.com/Rice00/dsh-tree-view) — DeepSeek Harness 的树形会话分叉：侧栏单一入口，在树内分叉与切换版本、把分支提升为正式会话、重命名分支。dsh-plugin-message-edit 的 fork（MIT）。
 - [ThinkofRain1213/dsh-smooth-cursor-patched](https://github.com/ThinkofRain1213/dsh-smooth-cursor-patched) — dsh-smooth-cursor 的修补 fork：DSH Web 输入框的彗星式平滑光标，扩展到提问卡片输入，并修复空输入光标、前向选区跟踪、软换行定位与滚动溢出等问题。
 - [zhu1090093659/dsh-pet](https://github.com/zhu1090093659/dsh-pet) — DSH Web GUI 的多宠物伴侣插件：注册表驱动的悬浮宠物会随模型活动做出反应，支持逐只命名、抚摸/投喂互动与好感度数值。
+- [hongxin/dsh-tvision](https://github.com/hongxin/dsh-tvision) — Turbo Vision 风格的字符单元格窗口管理器，用于 DeepSeek Harness agent。
+- [liceses/dsh-memes-reply](https://github.com/liceses/dsh-memes-reply) — DSH 插件：蓝色大肥鱼表情包回复——模型按语境在回复里贴一张会动的大肥鱼，支持设置页预览墙与下一轮指定。
+- [shiliumu/dsh-prompt-enhancer](https://github.com/shiliumu/dsh-prompt-enhancer) — DSH Web UI 提示词增强器：聊天输入框旁的星光按钮，用本地 flash 模型把粗糙草稿改写成清晰的结构化提示词。宿主路由 + 客户端插槽插件，不改 DSH 源码。
+- [victor10035445/dsh-v-explorer](https://github.com/victor10035445/dsh-v-explorer) — DeepSeek Harness Web UI 的右侧资源管理器 / 书签面板。
+- [yangbaiwan392-collab/dsh-mobile](https://github.com/yangbaiwan392-collab/dsh-mobile) — DeepSeek Harness 的 Android 客户端：给官方 Web UI 套一个手机壳，支持手机本地（Termux）与连 PC 两种模式，附完整说明书与实测踩坑记录。MIT。
+- [yuange098/deepseek-harness-desktop](https://github.com/yuange098/deepseek-harness-desktop) — 把浏览器版的 DeepSeek Harness 封装成双击即用的 Windows 桌面软件（Electron 壳 + 官网风格主题 + 代码归档页签插件）。
 
 ## Skill
 
