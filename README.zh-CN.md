@@ -68,6 +68,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 
 - [asdf17128/dshp](https://github.com/asdf17128/dshp) —— 管理 DeepSeek Harness profile：列出、创建、克隆、diff，并把整套 `dsh` 配置（插件版本 + bundle 顺序 + patch）打包成一个可移植文件分享。
 - [geohotstan/dsh-tabula-rasa-preset](https://github.com/geohotstan/dsh-tabula-rasa-preset) —— DeepSeek Harness 的空白画布预设，自己动手打造你的冒险。
+- [ggfgfgf-on/dsh-trajectory-anchor](https://github.com/ggfgfgf-on/dsh-trajectory-anchor) —— 自包含 DSH bundle：首轮轨迹锚定、EWMA 轨迹评分、漂移回卷、anchorGate 晋升门控、bootstrap 上下文抑制，以及 Layer-4 训练数据导出。
 - [GBDJXB/dsh-workspace-presets](https://github.com/GBDJXB/dsh-workspace-presets) —— DeepSeek Harness 按工作区绑定 Agent 预设的插件。
 - [AMAP-ML/LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness) —— 长程 computer-use harness，带 DSH 适配层：在独立 `DSH_HOME` 下运行 `dsh --profile headless`，按角色差异化 patch 权限（执行者 `workspace-write`，Manager/审计者 `read-only`）——一个任务专精 DSH profile 的具体示范。
 
