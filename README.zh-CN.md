@@ -5384,6 +5384,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [victor10035445/dsh-v-explorer](https://github.com/victor10035445/dsh-v-explorer) — DeepSeek Harness Web UI 的右侧资源管理器 / 书签面板。
 - [yangbaiwan392-collab/dsh-mobile](https://github.com/yangbaiwan392-collab/dsh-mobile) — DeepSeek Harness 的 Android 客户端：给官方 Web UI 套一个手机壳，支持手机本地（Termux）与连 PC 两种模式，附完整说明书与实测踩坑记录。MIT。
 - [yuange098/deepseek-harness-desktop](https://github.com/yuange098/deepseek-harness-desktop) — 把浏览器版的 DeepSeek Harness 封装成双击即用的 Windows 桌面软件（Electron 壳 + 官网风格主题 + 代码归档页签插件）。
+- [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) —— 烟花庆祝引擎：agent 编程时漂浮在对话窗口上空放烟花，开场迎宾、回合礼花、工具星花、里程碑大礼、收工终场、失败哑炮，token 用量决定烟花的大小、高度与绚烂程度。
 
 ## Skill
 
