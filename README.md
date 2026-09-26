@@ -5385,6 +5385,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [victor10035445/dsh-v-explorer](https://github.com/victor10035445/dsh-v-explorer) — Right-side explorer / bookmarks slider panel for the DeepSeek Harness web UI.
 - [yangbaiwan392-collab/dsh-mobile](https://github.com/yangbaiwan392-collab/dsh-mobile) — Android client for DeepSeek Harness: a phone shell around the official Web UI, supporting both on-device (Termux) and PC-connected modes, with a full manual and hands-on field notes. MIT.
 - [yuange098/deepseek-harness-desktop](https://github.com/yuange098/deepseek-harness-desktop) — Packages the browser edition of DeepSeek Harness into a double-click Windows desktop app (Electron shell + official-site-style theme + a code-archive tab plugin).
+- [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) — Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework — drop .md files under subject/category folders to auto-load.
 
 ## Skills
 

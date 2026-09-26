@@ -5384,6 +5384,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [victor10035445/dsh-v-explorer](https://github.com/victor10035445/dsh-v-explorer) — DeepSeek Harness Web UI 的右侧资源管理器 / 书签面板。
 - [yangbaiwan392-collab/dsh-mobile](https://github.com/yangbaiwan392-collab/dsh-mobile) — DeepSeek Harness 的 Android 客户端：给官方 Web UI 套一个手机壳，支持手机本地（Termux）与连 PC 两种模式，附完整说明书与实测踩坑记录。MIT。
 - [yuange098/deepseek-harness-desktop](https://github.com/yuange098/deepseek-harness-desktop) — 把浏览器版的 DeepSeek Harness 封装成双击即用的 Windows 桌面软件（Electron 壳 + 官网风格主题 + 代码归档页签插件）。
+- [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) —— 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架，按学科/分类放 md 即自动加载。
 
 ## Skill
 
