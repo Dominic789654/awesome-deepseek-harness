@@ -2763,6 +2763,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [sleetdrop/dsh-plugin-topology](https://github.com/sleetdrop/dsh-plugin-topology) — Plugin dependency-graph inspector for DeepSeek Harness: snapshots the live Cordis plugin fiber tree into a plugin/service bipartite graph, derives graph-theory metrics, and renders JSON, Graphviz DOT or SVG (plus a sidebar panel and a graph.render tool).
 - [N107meow/dsh-plugin-figma](https://github.com/N107meow/dsh-plugin-figma) — Read-only Figma design-source tools for DeepSeek Harness: inspect file structure, colors and typography, and export images as native tools.
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) — dsh plugin · 梦回高三: a desktop blackboard Gaokao countdown (double-click collapses it into a vertical bar) that randomly quizzes you with knowledge cards while the AI works; open Markdown knowledge-card framework — drop md files by 学科/分类 and they load automatically, with related-links jump, favorites, key subjects and import of your own knowledge base.
+- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) — Execution flow chart: renders the current session's execution as a vertical node flow (turns, user, assistant, tools, approvals, retries, compaction), appended in real time over SSE with auto-follow scrolling, so the chart draws wherever the session executes.
 
 ## Slides / PPT
 

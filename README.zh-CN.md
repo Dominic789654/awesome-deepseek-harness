@@ -2773,6 +2773,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [sleetdrop/dsh-plugin-topology](https://github.com/sleetdrop/dsh-plugin-topology) —— DeepSeek Harness 插件依赖图检查器：把运行中的 Cordis 插件 fiber 树快照成「插件 / 服务」二分图，算出图论指标，并渲染为 JSON、Graphviz DOT 或 SVG（另带侧边栏面板与 graph.render 工具）。
 - [N107meow/dsh-plugin-figma](https://github.com/N107meow/dsh-plugin-figma) —— 只读的 Figma 设计稿工具：以原生工具形式查看文件结构、配色与字体，并导出图片。
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) —— dsh 插件 · 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架——按 学科/分类 放 md 即自动加载，支持关联跳转/收藏/重点学科/导入自己的知识库。
+- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) —— 执行流程图：把当前会话的执行过程画成一条纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加，自动跟随滚动。
 
 ## 幻灯片 / PPT
 
