@@ -369,6 +369,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [PerryLink/dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) — Switch between different assistant output styles.
 - [Toukaiteio/dsh-effort-tweak](https://github.com/Toukaiteio/dsh-effort-tweak) — Adjusts model reasoning effort on the fly.
 - [csiroqa/dsh-backup-sync](https://github.com/csiroqa/dsh-backup-sync) — Snapshot backup and WebDAV sync for DSH workspaces.
+- [having5548/dsh-backup](https://github.com/having5548/dsh-backup) — Backup & restore plugin for DeepSeek Harness: workspace, full conversations (byte-exact), attachments, settings and dsh-mnemon memory data in one zip.
 - [csiroqa/dsh-schedule](https://github.com/csiroqa/dsh-schedule) — Cron-style scheduled tasks with status monitoring.
 - [Karuisawa-Mrs/dsh-plugins](https://github.com/Karuisawa-Mrs/dsh-plugins) — Community plugin collection for DSH.
 - [BlockRunAI/dsh-clawrouter](https://github.com/BlockRunAI/dsh-clawrouter) — A second brain for your DeepSeek Harness agent — strong-model review before risky tool calls, plus 70 models from one wallet.
@@ -694,6 +695,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [Couioly/plugin-audio-alert](https://github.com/Couioly/plugin-audio-alert) — Approval voice-alert plugin for DeepSeek Harness (DSH): when DSH needs human review/approval, it speaks the pending item aloud via computer TTS while still showing the normal approve button in the web UI.
 - [NattoCB/dsh-plugin-notifications](https://github.com/NattoCB/dsh-plugin-notifications) — DSH (DeepSeek Harness) bundle plugin: a Settings → General card that pops a system notification (and optional Web Audio chime) when a conversation turn completes.
 - [nienieai/dsh-chime-alerts](https://github.com/nienieai/dsh-chime-alerts) — Sound-alert notification plugin for DeepSeek Harness: chimes on turn completion, built on Web Audio.
+- [notf0und/dsh-opencode-sounds](https://github.com/notf0und/dsh-opencode-sounds) — DeepSeek Harness plugin: opencode's notification sound pack for the DSH Web UI (fork of @ai-galaxy/dsh-sound).
 - [R2h1/deepseek-harness-app](https://github.com/R2h1/deepseek-harness-app) — DeepSeek Harness desktop client — a self-contained ElectroBun shell bundling an auto-updating dsh engine, with a Windows graphical installer.
 - [AI-Scarlett/DSH_CLIAPI](https://github.com/AI-Scarlett/DSH_CLIAPI) — Local CLI/OAuth authorization center and Auto model failover plugin for DeepSeek Harness.
 - [Guyao146/dsh-better-model-thinking-control](https://github.com/Guyao146/dsh-better-model-thinking-control) — DSH plugin: per-model thinking-effort management for OpenAI-compatible relay providers, with auto-detection of publicly advertised capabilities.
@@ -701,6 +703,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [0lidaxiang/dsh-plugin-greet](https://github.com/0lidaxiang/dsh-plugin-greet) — Plugin-based system for building AI agents on top of DeepSeek Harness: tools, models, and the web UI can all be added or replaced as plugins.
 - [Dawn388887/dsh-fileview](https://github.com/Dawn388887/dsh-fileview) — In-GUI file viewer/editor for remote browsers (same-origin fenced, path allowlisted).
 - [Dawn388887/dsh-notify](https://github.com/Dawn388887/dsh-notify) — Desktop toast + remote browser notifications when an agent finishes or errors.
+- [having5548/dsh-notify](https://github.com/having5548/dsh-notify) — Universal notification plugin for DeepSeek Harness: in-app toasts, native Windows toasts, one-click approval from the action center.
 - [easysir10/easy-git](https://github.com/easysir10/easy-git) — Beginner-friendly Git helper plugin for DeepSeek Harness.
 - [m1khal3v/dsh-llm-key-rotation](https://github.com/m1khal3v/dsh-llm-key-rotation) — Seamless API-key rotation for DeepSeek Harness.
 - [Scorp1o117/dsh-enhancement-suite](https://github.com/Scorp1o117/dsh-enhancement-suite) — Enhancement suite for DeepSeek Harness — Vision, Soul/Persona, Long-term Memory & Plugin Marketplace.
@@ -2578,6 +2581,8 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [hanzhangzzz/dsh-diagram](https://github.com/hanzhangzzz/dsh-diagram) — Turn articles in DeepSeek Harness into editable Excalidraw canvases.
 - [lamost423/dsh-maze](https://github.com/lamost423/dsh-maze) — The execution maze for DSH agents (formerly dsh-trace-compare): main path, failed detours and backtracks on one wall-clock timeline, per-step data tracks (tool density / token pulse / context pressure), deterministic execution analysis with click-to-evidence, and same-axis comparison of up to 5 runs; live-growing per-session maze tab included.
 - [KevinZhangNothing/dsh-task-graph](https://github.com/KevinZhangNothing/dsh-task-graph) — Task flow / execution graph plugin for DeepSeek Harness (DSH) — visualize a single task's full run: agents, tools, skills, subtasks, retries, live status.
+- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) — Execution flow chart for DeepSeek Harness: draws the current session's run as a live three-lane flow (turn / user / assistant / tool / approval / retry), with subagent diverge-converge fans and double-click drill-down into subflows, streamed live over SSE.
+- [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) — Fireworks celebration engine for DeepSeek Harness: fireworks above the chat window while the agent codes — six event classes x 30 attribute cards x shuffled-bag random variants, size/height/brilliance driven by token usage, WebGL2 GPGPU three-bucket accumulation tail rendering.
 - [momo-gen/dsh-canvas](https://github.com/momo-gen/dsh-canvas) — Toggleable infinite process canvas over the DSH conversation shell — pan/zoom the live process, annotate deviations, steer corrections.
 - [KL3jd/handwritten-ocr](https://github.com/KL3jd/handwritten-ocr) — DSH plugin for local OCR: handwritten Chinese + math → Markdown with LaTeX, with GPU / CPU backends.
 - [a1303845406/dsh-comfy-video-studio](https://github.com/a1303845406/dsh-comfy-video-studio) — ComfyUI MiniMax H3 video workbench for DeepSeek Harness.
@@ -2785,6 +2790,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [DDDMUC/dsh-chat-export](https://github.com/DDDMUC/dsh-chat-export) — Readable session export for DeepSeek Harness: dump a conversation to Markdown / HTML / plain text / ZIP transcript, including thinking blocks, tool calls and results, code blocks, images, timestamps, title and usage.
 - [vansonffff/dsh-kdocs-sidebar](https://github.com/vansonffff/dsh-kdocs-sidebar) — Kingsoft Docs (WPS cloud docs) integration for DeepSeek Harness: right-side panel, file preview, reference files/folders into the conversation, open in editor.
 - [xionglaoshi/dsh-office-viewer](https://github.com/xionglaoshi/dsh-office-viewer) — DSH sidebar Office-document preview plugin with no service dependency: docx/xlsx/pptx, legacy doc/xls/ppt, the WPS trio, ofd/rtf/csv — rendered purely in the browser.
+- [Lee-Hilex/dsh-mineru](https://github.com/Lee-Hilex/dsh-mineru) — Multimodal document-parsing plugin for DeepSeek Harness built on MinerU: PDF/Word/PPT/Excel/HTML/images to structured Markdown (token-free lightweight agent parsing plus precise dual-API mode).
 
 ## Coding
 
