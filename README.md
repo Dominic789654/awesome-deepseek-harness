@@ -1139,6 +1139,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [yukitakasama/better-deepseek-harness](https://github.com/yukitakasama/better-deepseek-harness) — DeepSeek Harness integration pack for coding users (base DSH 0.1.7-rc.2): Codex-style UI, spec-free code review & simplification sub-agents, a reasoning-effort slider, cost/balance metering, a desktop pet, a context guard and Computer Use tools.
 - [DDDMUC/dsh-provider-hub](https://github.com/DDDMUC/dsh-provider-hub) — DSH plugin: paste an API key to add a provider — 21 curated presets (OpenAI-compatible + Anthropic Messages), with per-app de-duplication and a custom endpoint form.
 - [zlZayn/dsh-workbuddy-bridge](https://github.com/zlZayn/dsh-workbuddy-bridge) — DSH plugin: brings the models from the WorkBuddy desktop app into DeepSeek Harness with zero configuration, embedded natively in Settings → Plugins → Plugin Config.
+- [xiaodan1996/dsh-termux](https://github.com/xiaodan1996/dsh-termux) — Unofficial Termux (Android/arm64) build of the DeepSeek Harness dsh CLI: four Android patches, pinned reproducible builds, and a self-contained release archive.
+- [YrracOwl/dsh-tool-adapt](https://github.com/YrracOwl/dsh-tool-adapt) — Safety and compatibility layer for non-DeepSeek models in DSH Web.
+- [JularDepick/dsh-system-monitor-plugin](https://github.com/JularDepick/dsh-system-monitor-plugin) — A dsh plugin that monitors the resource utilization of DSH system processes and reports the results to the user as charts.
 
 ## Security & Permissions
 
@@ -1919,6 +1922,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [zhaoguoqiang-hub/dsh-soul-engine](https://github.com/zhaoguoqiang-hub/dsh-soul-engine) — Auditable plain-text Markdown memory-ledger plugin for DSH / DeepSeek Harness: 14 `soul_*` tools + ledger injection at turn start + zero-token self-maintenance + heartbeat wake-up.
 - [bonerush/dsh-obsidian-mem](https://github.com/bonerush/dsh-obsidian-mem) — DeepSeek Harness host plugin that keeps a project's documents and long-term memory as plain Markdown in a dedicated Obsidian vault: one stable projectId, one committed pointer file and a fixed vault directory per repository (Obsidian need not be running).
 - [LoveDoLove/Veyra](https://github.com/LoveDoLove/Veyra) — Persistent engineering memory for DeepSeek Harness.
+- [miseryrua/dsh-wb-memory](https://github.com/miseryrua/dsh-wb-memory) — Cross-session long-term memory for DSH agents: the source of truth is plain Markdown in the workspace (no vector DB, no external service, zero runtime deps); budget-tiered injection into the systemPrompt each turn, with background flow → distill → tidy → govern.
+- [mpetruc/dsh-vcc](https://github.com/mpetruc/dsh-vcc) — Deterministic VCC compaction for DSH.
 
 ## Cost & Usage Tracking
 
@@ -2220,6 +2225,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [banana770/dsh-work-badge](https://github.com/banana770/dsh-work-badge) — Tiny click-through badge for DeepSeek Harness (DSH): shows at a glance whether Beijing time (UTC+8) is inside the peak window (Mon-Fri 09:00-12:00 / 14:00-18:00) or off-peak. Bilingual Chinese/English UI text.
 - [mengqi1436/DSH-Rtk-rewrite](https://github.com/mengqi1436/DSH-Rtk-rewrite) — DeepSeek Harness plugin that replaces the pwsh shell executor with an rtk-rewriting subclass, so every PowerShell command is transparently rewritten through `rtk rewrite` before execution and tool output stays compact (token savings on every call). Windows + PowerShell.
 - [zeng6125-rgb/dsh-usage-heatmap](https://github.com/zeng6125-rgb/dsh-usage-heatmap) — DSH model-usage panel: 9 metric cards + GitHub-style token heatmap (daily / weekly / cumulative) + activity insights, with deleted-session archives still counted (`@dsh-external/dsh-usage-heatmap`).
+- [liruohrh/agent-usages](https://github.com/liruohrh/agent-usages) — Track token consumption and cost across coding agents (dsh/DeepSeek Harness, pi, Claude Code, Codex) using DeepSeek pricing, filterable by project, session, subagent and time range.
+- [JularDepick/dsh-wakatime-plugin](https://github.com/JularDepick/dsh-wakatime-plugin) — A dsh plugin that quantifies every DSH agent interaction as a visualized performance metric and automatically syncs it to WakaTime.
 
 ## Channel / IM Bridges
 
@@ -2568,6 +2575,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [muen-collective/muen-plugins](https://github.com/muen-collective/muen-plugins) — Muen-authored plugins for the DeepSeek Harness market — published as GitHub Release tarballs and installed with `dsh plugin add`. Generic, white-label, no client identity baked in.
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) — Organ-based plugin layer that treats plugins as organs: a nerve impulse routes each command to the organ that owns it, a heartbeat circulates law and vitals, reflex arcs fire with zero model calls, quiet time consolidates run history into memory cards, and a failing organ heals through attribution, prescription and re-check.
 - [wosledon/dsh-plugins](https://github.com/wosledon/dsh-plugins) — Third-party plugins for DeepSeek Harness (DSH): per-model reasoning effort, scheduled LLM tasks, and token-usage statistics. Self-contained bundles, no build step.
+- [zfdx123/dsh-atelier](https://github.com/zfdx123/dsh-atelier) — DSH plugin workshop: 7 independently installable DeepSeek Harness plugins (MCP manager, skill manager, cross-session memory, code graph, hook ordering, session cleanup, Superpowers).
 
 ## Visualization
 
@@ -3391,6 +3399,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [victorygod/dsh-tavern-fengyue](https://github.com/victorygod/dsh-tavern-fengyue) — Tavern Fengyue: an RPG character-card engine running on the DSH host, with direct import of SillyTavern preset cards.
 - [XGUIMAX/dsh-wrongbook](https://github.com/XGUIMAX/dsh-wrongbook) — Per-card defect ledger for DSH Tavern: record the pitfalls hit while debugging under each character card, and check the current card first before looking across cards.
 - [zaimokuza-yoshiteru/dsh-agent-teams-office](https://github.com/zaimokuza-yoshiteru/dsh-agent-teams-office) — View your DSH Agent Teams office in the native right sidebar: 3D / pixel switching, 16 teammate workstations plus the Lead's own office, and click a character to see status and focus.
+- [Tikzen/dsh-agent-arena](https://github.com/Tikzen/dsh-agent-arena) — Interactive multi-agent collaboration, meetings, group chats, and task execution for DeepSeek Harness.
+- [YrracOwl/dsh-subagent-conductor](https://github.com/YrracOwl/dsh-subagent-conductor) — Lifecycle-safe subagent routing and role controls for DSH Web.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -3821,6 +3831,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [Foshowithit/dsh-operator-ui](https://github.com/Foshowithit/dsh-operator-ui) — RCOS operator control plane for DeepSeek Harness — GoalRunner, authority gates with explicit approval, three-truth verification (execution / capability / objective satisfaction), trust ladder and next-action, task identity rebuilt from Archon runs. Side-loaded, no fork.
 - [emiltsoi/dsh-fleet-mesh](https://github.com/emiltsoi/dsh-fleet-mesh) — Session-aware mesh relay for DSH agents: Ed25519-signed receive route, delivery policy, plus outbound and registry libraries.
 - [DTALEX66/WORK-LAB](https://github.com/DTALEX66/WORK-LAB) — Client-neutral AI-agent control plane: a user global-config overlay for Hermes/Codex/DSH/GitHub/Open Design/OpenHuman via one adapter contract — task/telemetry ledger and sidecar, orchestration/policy/receipts services, read-only observer, exact-SHA CI gates.
+- [litestartup-com/hellodac](https://github.com/litestartup-com/hellodac) — DAC (Dispatched Agent Cluster): an open-source control plane for managing and exposing fleets of containerized DSH agent nodes across multiple servers, with unified conversation and API access.
 
 ## UI / Clients
 - [jayantTang/DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) — 原生 iOS 客户端 + 电脑侧连接器 + 公网中转：手机不用公网 IP、4G/5G 就能连上电脑上的 DSH，同一批会话与同一条消息流。Native SwiftUI client, a DSH connector plugin, and a self-hosted relay (Python/aiohttp).
@@ -5385,6 +5396,13 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [victor10035445/dsh-v-explorer](https://github.com/victor10035445/dsh-v-explorer) — Right-side explorer / bookmarks slider panel for the DeepSeek Harness web UI.
 - [yangbaiwan392-collab/dsh-mobile](https://github.com/yangbaiwan392-collab/dsh-mobile) — Android client for DeepSeek Harness: a phone shell around the official Web UI, supporting both on-device (Termux) and PC-connected modes, with a full manual and hands-on field notes. MIT.
 - [yuange098/deepseek-harness-desktop](https://github.com/yuange098/deepseek-harness-desktop) — Packages the browser edition of DeepSeek Harness into a double-click Windows desktop app (Electron shell + official-site-style theme + a code-archive tab plugin).
+- [Hotsteel2901/dsh-client-ui-mobile-adapt](https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt) — Mobile layout adaptation for the DeepSeek Harness web UI: the three-column desktop shell collapses into a single-column phone layout (swipe-drawer sidebar, one-line composer tools, full-screen scrollable panels), leaving desktop unchanged.
+- [RangeKing/dsh-whale-buddy](https://github.com/RangeKing/dsh-whale-buddy) — A quietly alive DeepSeek whale for DSH Web: an inline thinking whale and a right-edge Whale Dock.
+- [Xian-JL/dsh-Kinich-theme](https://github.com/Xian-JL/dsh-Kinich-theme) — A Kinich-themed UI plugin for DeepSeek Harness 0.1.1-rc.2.
+- [2006sila/pi-workbench](https://github.com/2006sila/pi-workbench) — PiDeck / one-click deployment workbench for DeepSeek Harness: injects instruction sets and skill libraries into local Pi-family clients, restored on uninstall; 7 prompt templates + 65 skill modules + extra skill packs (PySide6 desktop + PowerShell injector).
+- [222wcnm/dsh-manager](https://github.com/222wcnm/dsh-manager) — DSH Manager: browser-based one-click start/stop/restart of the DeepSeek Harness (dsh) web service.
+- [kehuilv123-cyber/dsh-voice-setup](https://github.com/kehuilv123-cyber/dsh-voice-setup) — Simple local voice-input installer for DSH: double-click install on Windows, model verification, config backup, launch and self-check (community project reusing the official SenseVoice component).
+- [xling001/dsh-reading-companion](https://github.com/xling001/dsh-reading-companion) — Local TXT reader plus spoiler-free AI reading companion for DSH: the book lives in the right sidebar, the AI only sees the part you have already read, and quotes/notes stay on your own disk (exportable to Obsidian).
 
 ## Skills
 
@@ -5718,6 +5736,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Zeno-Zhu/chatgpt-web-skill](https://github.com/Zeno-Zhu/chatgpt-web-skill) — Skill that lets any coding agent (dsh / workbuddy / trae / codex) drive web ChatGPT over a deterministic CDP/Playwright bridge: routing gate, idempotent send, latch-based completion detection and a multi-round discussion protocol.
 - [ai-tools-mtl/Aurify](https://github.com/ai-tools-mtl/Aurify) — DSH patent-drafting gatekeeper: search Chinese patents first to judge whether an idea is worth writing (it may push back), then run the five-party alignment interview and the eight-chapter disclosure workflow — figures, simulation experiments, seven-dimension review, DOCX/PDF export.
 - [yogsoth-ai/de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) — 900+ pure-markdown skills for autonomous AI research, organized as 9 freely-composable packages over a 4-layer hierarchy (Campaign → Strategy → Tactic → SOP), with non-linear orchestration with backtracking and 6 MCP integrations; loads into DSH as a plugin (DARE). The AI is the researcher — you set the direction.
+- [SylphxAI/skills](https://github.com/SylphxAI/skills) — Reusable, organization-neutral Agent Skills for product, engineering, operations, design, and research work; installable as a DSH plugin.
 
 ## Resources
 
