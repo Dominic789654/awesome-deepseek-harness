@@ -1154,6 +1154,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [zheng1/dsh-acp-replay](https://github.com/zheng1/dsh-acp-replay) —— DeepSeek Harness 的社区 ACP 桥：响应 `session/load`，让客户端在自身重启后重建会话记录。
 - [lql341/dsh-scnet](https://github.com/lql341/dsh-scnet) —— 社区 DSH 包，用于操作超算互联网（SCNet）集群：内置 `scnet-hpc` skill、profile 感知的 shell 工具，以及七个确定性工具（SSH 配置、Slurm 作业生成、集群发现、计算节点诊断）。
 - [1207627875/dsh-update-lens](https://github.com/1207627875/dsh-update-lens) —— 只读更新检查：npm 与 GitHub 版本对比、应用内更新提醒、release note 中的破坏性变更标注。
+- [b8yg7vjstj-ctrl/dsh-llamacpp-bridge](https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge) —— DSH 插件：把本地 llama.cpp（llama-server）作为一等模型提供方——进程/路由管理、与 mmproj 视觉配对同步模型目录、自动启动、先停后载切换，以及侧边栏终端监控面板。
+- [zzbuaoye-love/Another-DeepSeek-Harness-Launcher](https://github.com/zzbuaoye-love/Another-DeepSeek-Harness-Launcher) —— ADL（Another DSH Launcher）：WinUI 3 制作的 Windows 桌面启动器，原生 NavigationView 侧栏，支持按 JSON 目录安装插件（npm 包或 github:owner/repo 规格）。
 
 ## 安全与权限
 
@@ -1396,6 +1398,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [sevoniva-labs/dsh-cloudflare-access](https://github.com/sevoniva-labs/dsh-cloudflare-access) —— DeepSeek Harness 接入 Cloudflare Zero Trust：Access 认证 + Tunnel 与 DNS 配置，无需公网 IP。
 - [liuwenji007/dsh-trust-check](https://github.com/liuwenji007/dsh-trust-check) —— DeepSeek Harness 插件静态能力披露：有证据可循、零 token、不做安全承诺。
 - [cwjechw98-lang/jev-gates](https://github.com/cwjechw98-lang/jev-gates) —— 面向任何编码 agent 的三道闸门：不可逆操作前的确定性授权闸、要求证据而非「已完成」的完成闸、rubric 回归闸（基于 TypeSafe Jev / System One）；适配 Claude Code、Codex、DeepSeek Harness、Cursor、opencode、Hermes、普通 shell 与 CI。
+- [azazo1/dsh-approve-prefix](https://github.com/azazo1/dsh-approve-prefix) —— 按单命令前缀自动放行 DSH 沙箱提权请求；含管道与链式的命令一律转人工审批。
+- [MoruTeaven/dsh-key-panel](https://github.com/MoruTeaven/dsh-key-panel) —— DSH 密钥面板插件：在 Harness 界面里管理凭据与密钥（key-store）。
 
 ## 会话与记忆管理
 
@@ -1950,6 +1954,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [AllenWES365/dsh-local-memory](https://github.com/AllenWES365/dsh-local-memory) —— 项目隔离的长期记忆：每个项目各存各的库、一个总视角看遍全部；可不开会话就从 git 历史给项目播种记忆。
 - [kyle123740/dsh-message-recall](https://github.com/kyle123740/dsh-message-recall) —— 每条消息可撤回 / 删除 / 删除此处及之后（append-only 墓碑，模型上下文与界面同步）。需要 dsh >= 0.1.7。
 - [uu88s/dsh-session-handoff](https://github.com/uu88s/dsh-session-handoff) —— DSH Web 插件：复制 DSH 会话 id，或把整个会话交给 Codex，用 `codex resume <id>` 恢复。
+- [sueqet/dsh-todo-board](https://github.com/sueqet/dsh-todo-board) —— DeepSeek Harness（dsh）跨会话 TODO 看板：可拖拽悬浮面板按工作目录分组任务，每个任务带运行模式（提醒 / 当前会话自动续跑 / 自动新开会话）与两个勾选框（AI 完成、用户已核验）。
 
 ## 成本与用量统计
 
@@ -2810,6 +2815,8 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [wei125775-lab/whalegirl-deskpet](https://github.com/wei125775-lab/whalegirl-deskpet) — 会跟着 Claude Code 干活的鲸鱼娘桌宠（PetPet / dsh 双版本，Windows x64）：干活时她端碗吃饭、收工收碗，按 Esc 打断会甩你一个屑表情。
 - [ZhaoAndy821/dsh-motion-background](https://github.com/ZhaoAndy821/dsh-motion-background) — DSH WebUI 的动态背景插件：着色器型（GLSL 实时演算）与媒体型（MP4/WebM/GIF/图片）两类效果，每个效果是 `mods/` 下的一个文件夹。
 - [terrycool11/dsh-desktop-pet](https://github.com/terrycool11/dsh-desktop-pet) —— 住进网页角落的 Q 版桌宠：会漂浮、能拖动、点一下会跳，顺手显示 DeepSeek 余额 / 本次消耗 / Tokens。纯 JS 零依赖，支持网页直接引、油猴脚本、Electron 三种用法。
+- [Sostay/dsh-wallpaper](https://github.com/Sostay/dsh-wallpaper) —— DeepSeek Harness（DSH）全窗口自定义壁纸插件：渐变预设、图片 URL、本地上传、毛玻璃，以及随主题变化的顶部渐变。
+- [Theflowyears/dsh-arknights-theme](https://github.com/Theflowyears/dsh-arknights-theme) —— DeepSeek Harness Web GUI 的明日方舟主题包：饱和度驱动的边缘模糊壁纸、亚克力侧边栏、一键壁纸选择器。
 
 ## 幻灯片 / PPT
 
@@ -5468,6 +5475,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [ONEOne-1v1/dsh-github-upload](https://github.com/ONEOne-1v1/dsh-github-upload) —— 动态 Cordis 插件：右下角按钮把本地项目推到 GitHub —— 绑定 token、选择或新建仓库、勾选要上传的文件、切换公开/私有；中英双语界面，不需要本地 git，不花模型 token。
 - [rinDBeans/codex-ui](https://github.com/rinDBeans/codex-ui) —— DSH Web 的 Codex 化界面插件。
 - [terrycool11/dsh-desktop](https://github.com/terrycool11/dsh-desktop) —— 把 DeepSeek Harness 的 dsh web 界面封装成独立桌面应用（Electron）：启动页选入口、Q 版助手提醒余额与用量、开放平台面板、视图互切、后台服务独立于应用。
+- [daha1216/dsh-pocket](https://github.com/daha1216/dsh-pocket) —— 把 DeepSeek Harness 装进口袋：手机扫码同步操控电脑端 DSH（局域网/公网直连 + 移动端抽屉布局）。
+- [SeverusZh/dsh-skills-mcp-group-manager](https://github.com/SeverusZh/dsh-skills-mcp-group-manager) —— DeepSeek Harness 的 Skills 与 MCP 分组管理器：分组管理 Skills、过滤模型技能目录、独立开关 MCP 服务器，左侧面板一键管理。
 
 ## Skill
 
@@ -5808,6 +5817,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [published-porcupineprovision55/BrowserSkill](https://github.com/published-porcupineprovision55/BrowserSkill) — Browser-skill：让你已登录的 Chrome / Edge 成为 AI agent 的手脚，在不打断你使用的前提下自动完成任务——CLI + 浏览器扩展，任何能执行 shell 命令的 harness 都可接入。
 - [sixtysevenlf/dsh-skill-blender-modeling](https://github.com/sixtysevenlf/dsh-skill-blender-modeling) —— DSH skill · Blender 建模与装配流程：多 Agent 分工范式（冻结 spec / 写作用域 / 接口表）、参考图形体还原、六条必踩的坑、数值门装配审计；配套 dsh-blender-plugin。
 - [RevolutionLA/adversarial-review](https://github.com/RevolutionLA/adversarial-review) —— 三方对抗式代码评审 Agent Skill：蓝军（敌意审查）→ 第三方（独立复核）→ 中立裁定，每条结论带证据链。安装：`npx skills add RevolutionLA/adversarial-review`。
+- [9Ashwin/let-it-go](https://github.com/9Ashwin/let-it-go) —— 面向编程 agent 的“从 PRD 到交付”开发工作流技能集。
+- [mingdui/dsh-growth-workbench](https://github.com/mingdui/dsh-growth-workbench) —— 面向普通用户的个人成长工作台：画像 → 能力模型 → 90 天计划 → 今日执行 → 证据 → 考核复盘；页面与 Agent 读写同一份数据。
+- [NovaDev9-bot/cordis-plugin-novelist](https://github.com/NovaDev9-bot/cordis-plugin-novelist) —— 面向长篇小说的文件化书籍台账：15 个确定性 novel_* 工具、双席位编辑预设、零 LLM 仪表，以及一个 MCP server；同一份源码产出两种宿主形态——DSH 插件与 WorkBuddy 专家包。
 
 ## 资源
 
