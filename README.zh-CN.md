@@ -3724,6 +3724,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [toddpan/dsh-xiaozhi](https://github.com/toddpan/dsh-xiaozhi) — 把小智（Xiaozhi.me）语音助手接入 DSH Web：DSH 作为 MCP 工具提供方，通过 WebSocket 上的 JSON-RPC 2.0 把 35 个 DSH Web 接口封装成 16 个语音友好工具，自带 DSH Web 设置页。
 - [zwbao/dsh-plugin-mirobody](https://github.com/zwbao/dsh-plugin-mirobody) —— Mirobody 的 DeepSeek Harness 插件：离线 LOINC/UCUM 术语表，加上只读的健康、用药与基因型工具。
 - [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) —— DeepSeek Harness 的 MCP 服务器管理器：在 Web 设置页或通过 8 个 `mcp_manager_*` Agent 工具增删改查 stdio / Streamable HTTP MCP 服务器，经 harness 自带的 MCP 桥在运行时连接与断开，不需要重启 DSH。
+- [dsh-fusion360](https://github.com/Leaveing00001/dsh-fusion360) —— 用 DeepSeek Harness 驱动 Autodesk Fusion 360：一个 Fusion 插件加一个零依赖 MCP 服务器，暴露 13 个 `mcp__fusion360__*` 工具，其中 `fusion_run_python` 可直达完整 Fusion API。全项目由 DSH VibeCoding 完成，每个建模命令都拿闭式解体积对过账。
 
 ## 编排器与聚合器
 
