@@ -1153,6 +1153,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [zheng1/dsh-acp-replay](https://github.com/zheng1/dsh-acp-replay) — Community ACP bridge for DeepSeek Harness that answers `session/load`, so a client can rebuild a session transcript after its own restart.
 - [lql341/dsh-scnet](https://github.com/lql341/dsh-scnet) — Community DSH bundle for operating Supercomputing Network (SCNet) clusters: the canonical `scnet-hpc` skill, profile-aware shell utilities, and seven deterministic tools for SSH setup, Slurm job generation, cluster discovery and compute-node diagnostics.
 - [1207627875/dsh-update-lens](https://github.com/1207627875/dsh-update-lens) — Read-only update checker for DeepSeek Harness (dsh): version comparison across npm and GitHub, in-app update notification, and breaking-change annotations on release notes.
+- [b8yg7vjstj-ctrl/dsh-llamacpp-bridge](https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge) — DeepSeek Harness plugin: local llama.cpp (llama-server) as a first-class model provider — process/router management, catalog sync with mmproj vision pairing, auto-start, stop-then-load switching, and a sidebar terminal monitor panel.
+- [zzbuaoye-love/Another-DeepSeek-Harness-Launcher](https://github.com/zzbuaoye-love/Another-DeepSeek-Harness-Launcher) — ADL (Another DSH Launcher): a WinUI 3-based launcher for DeepSeek Harness that is beautiful and easy to use.
 
 ## Security & Permissions
 
@@ -1390,6 +1392,8 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [sevoniva-labs/dsh-cloudflare-access](https://github.com/sevoniva-labs/dsh-cloudflare-access) — Cloudflare Zero Trust access for DeepSeek Harness (DSH): Access authentication plus Tunnel and DNS setup, so no public IP is needed.
 - [liuwenji007/dsh-trust-check](https://github.com/liuwenji007/dsh-trust-check) — Static capability disclosure for DeepSeek Harness plugins — evidence-backed, zero-token, no safety claims.
 - [cwjechw98-lang/jev-gates](https://github.com/cwjechw98-lang/jev-gates) — Three gates for any coding agent: a deterministic approval gate before irreversible actions, a completion gate that demands evidence instead of «done», and a rubric regression gate (TypeSafe Jev / System One); works with Claude Code, Codex, DeepSeek Harness, Cursor, opencode, Hermes, plain shell and CI.
+- [azazo1/dsh-approve-prefix](https://github.com/azazo1/dsh-approve-prefix) — Auto-approve DSH sandbox escalation requests by single-command prefix; commands with pipes or chaining always go to human review.
+- [MoruTeaven/dsh-key-panel](https://github.com/MoruTeaven/dsh-key-panel) — Key-store panel plugin for DeepSeek Harness: manage credentials and secrets (keys) from the harness UI.
 
 ## Session & Memory Management
 
@@ -1945,6 +1949,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [AllenWES365/dsh-local-memory](https://github.com/AllenWES365/dsh-local-memory) — Project-isolated long-term memory for DeepSeek Harness: one store per project, one global view across all of them; can seed a project's memory from its git history without opening a session.
 - [kyle123740/dsh-message-recall](https://github.com/kyle123740/dsh-message-recall) — Per-message recall & delete for DeepSeek Harness: retract a message, delete it, or delete it and everything after, backed by an append-only tombstone that keeps model context and the UI in sync. Requires dsh >= 0.1.7.
 - [uu88s/dsh-session-handoff](https://github.com/uu88s/dsh-session-handoff) — DSH Web plugin: copy a DSH session id, or hand the whole session over to Codex so `codex resume <id>` restores it.
+- [sueqet/dsh-todo-board](https://github.com/sueqet/dsh-todo-board) — Cross-session TODO board for DeepSeek Harness (dsh): a draggable floating panel groups tasks by working directory, each task carries a run mode (remind / auto-continue in the current session / auto-open a new session) and two checkboxes (AI done, user verified).
 
 ## Cost & Usage Tracking
 
@@ -2800,6 +2805,8 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [wei125775-lab/whalegirl-deskpet](https://github.com/wei125775-lab/whalegirl-deskpet) — A whale-girl desktop pet that follows your Claude Code session (PetPet / dsh builds, Windows x64): she eats from a bowl while work is running and clears up when it finishes, and interrupting with Esc earns you a cheeky face.
 - [ZhaoAndy821/dsh-motion-background](https://github.com/ZhaoAndy821/dsh-motion-background) — Dynamic backdrops for the DeepSeek Harness WebUI: shader-based (live GLSL) and media-based (MP4/WebM/GIF/image) effects, each effect a folder under `mods/`.
 - [terrycool11/dsh-desktop-pet](https://github.com/terrycool11/dsh-desktop-pet) — A chibi desktop pet living in the corner of the page: floats, can be dragged, hops when clicked, and doubles as a DeepSeek balance / session-spend / token readout. Pure JS, zero dependencies; works as a web include, a userscript, or inside Electron.
+- [Sostay/dsh-wallpaper](https://github.com/Sostay/dsh-wallpaper) — Custom full-window wallpaper plugin for DeepSeek Harness (DSH): gradient presets, image URLs, local uploads, frosted glass, and a theme-aware top gradient.
+- [Theflowyears/dsh-arknights-theme](https://github.com/Theflowyears/dsh-arknights-theme) — Arknights theme pack for the DeepSeek Harness Web GUI: wallpapers with saturation-driven edge blur, an acrylic sidebar, and a one-click wallpaper picker.
 
 ## Slides / PPT
 
@@ -5469,6 +5476,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [ONEOne-1v1/dsh-github-upload](https://github.com/ONEOne-1v1/dsh-github-upload) — Dynamic Cordis plugin that pushes a local project to GitHub from a corner button: bind a personal access token, pick or create a repository, choose which files to upload, flip a repo between public and private. Bilingual UI, no local git required, zero model tokens.
 - [rinDBeans/codex-ui](https://github.com/rinDBeans/codex-ui) — A Codex-style interface plugin for DSH Web.
 - [terrycool11/dsh-desktop](https://github.com/terrycool11/dsh-desktop) — Wraps the DeepSeek Harness dsh web UI as a standalone Electron desktop app: entry picker on the launch page, a chibi assistant that reports balance and usage, an open-platform panel, view switching, and a background service that outlives the app window.
+- [daha1216/dsh-pocket](https://github.com/daha1216/dsh-pocket) — Put DeepSeek Harness in your pocket: scan a QR code on your phone to sync with and control the desktop DSH (LAN / public direct connection + mobile drawer layout).
+- [SeverusZh/dsh-skills-mcp-group-manager](https://github.com/SeverusZh/dsh-skills-mcp-group-manager) — Skills & MCPs group manager for DeepSeek Harness: group skills, filter the model skill catalog, toggle MCP servers independently, all managed from a left-side panel.
 
 ## Skills
 
@@ -5807,6 +5816,9 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [published-porcupineprovision55/BrowserSkill](https://github.com/published-porcupineprovision55/BrowserSkill) — Browser-skill: connect your AI agent to the Chrome or Edge you are already logged into and automate tasks there while you keep working — a CLI plus a browser extension, for any harness that can run shell commands.
 - [sixtysevenlf/dsh-skill-blender-modeling](https://github.com/sixtysevenlf/dsh-skill-blender-modeling) — DSH skill · Blender modelling and assembly pipeline: a multi-agent division-of-labour pattern (frozen spec / write scopes / interface table), reference-silhouette rebuild, six must-hit pitfalls and a numeric-gate assembly audit; pairs with `dsh-blender-plugin`.
 - [RevolutionLA/adversarial-review](https://github.com/RevolutionLA/adversarial-review) — Three-role adversarial code review Agent Skill: blue team (hostile review) → third party (independent re-check) → neutral adjudication, with an evidence chain behind every conclusion. Install: `npx skills add RevolutionLA/adversarial-review`.
+- [9Ashwin/let-it-go](https://github.com/9Ashwin/let-it-go) — A from-PRD-to-delivery development workflow skill set for coding agents.
+- [mingdui/dsh-growth-workbench](https://github.com/mingdui/dsh-growth-workbench) — Personal growth workbench for everyday users: profile → capability model → 90-day plan → today's execution → evidence → review; the page and the agent read and write the same data.
+- [NovaDev9-bot/cordis-plugin-novelist](https://github.com/NovaDev9-bot/cordis-plugin-novelist) — File-backed book ledger for long-form fiction: 15 deterministic novel_* tools, a two-seat editorial preset, zero-LLM instruments, and an MCP server. Ships in two host forms from one source of truth — DSH plugin and WorkBuddy expert package.
 
 ## Resources
 
