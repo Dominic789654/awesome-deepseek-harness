@@ -2262,6 +2262,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [Jovan1666/commandcode-usage](https://github.com/Jovan1666/commandcode-usage) — Command Code plan usage across seven coding agents (one core, seven adapters, including a DeepSeek Harness adapter): 5-hour, weekly and monthly windows with reset times shown as a status line — runs locally, so checking your quota costs no quota.
 - [GooDAnDReaDY/dsh-key-limits](https://github.com/GooDAnDReaDY/dsh-key-limits) — DeepSeek Harness plugin: API key / subscription quota limits (float chip, composer bar, settings).
 - [SeverusZh/dsh-ollama-usage](https://github.com/SeverusZh/dsh-ollama-usage) — Ollama Cloud usage & quota visualization plugin for DeepSeek Harness: a 5-hour / weekly usage bar pair plus a settings panel, persisted key and snapshots, auto refresh, and login guidance.
+- [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import).
 
 ## Channel / IM Bridges
 

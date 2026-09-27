@@ -2269,6 +2269,7 @@ _token 用量、成本看板与预算告警插件。_
 - [Jovan1666/commandcode-usage](https://github.com/Jovan1666/commandcode-usage) — 一个内核 + 七个适配器，在七种编码 Agent（含 DeepSeek Harness 适配器）里查看 Command Code 套餐用量：5 小时/周/月窗口与重置时间，以状态栏形式展示；纯本地运行，查额度不花额度。
 - [GooDAnDReaDY/dsh-key-limits](https://github.com/GooDAnDReaDY/dsh-key-limits) —— DeepSeek Harness 插件：API Key / 订阅配额限额（浮动芯片、输入栏、设置页）。
 - [SeverusZh/dsh-ollama-usage](https://github.com/SeverusZh/dsh-ollama-usage) —— Ollama Cloud 用量余量可视化 DSH 插件：5 小时 / 每周用量双横条 + 设置页面板，Key 与快照持久化，自动刷新，登录引导。
+- [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) —— 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）。
 
 ## Channel / IM 桥接
 
