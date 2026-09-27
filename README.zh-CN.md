@@ -2817,6 +2817,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [terrycool11/dsh-desktop-pet](https://github.com/terrycool11/dsh-desktop-pet) —— 住进网页角落的 Q 版桌宠：会漂浮、能拖动、点一下会跳，顺手显示 DeepSeek 余额 / 本次消耗 / Tokens。纯 JS 零依赖，支持网页直接引、油猴脚本、Electron 三种用法。
 - [Sostay/dsh-wallpaper](https://github.com/Sostay/dsh-wallpaper) —— DeepSeek Harness（DSH）全窗口自定义壁纸插件：渐变预设、图片 URL、本地上传、毛玻璃，以及随主题变化的顶部渐变。
 - [Theflowyears/dsh-arknights-theme](https://github.com/Theflowyears/dsh-arknights-theme) —— DeepSeek Harness Web GUI 的明日方舟主题包：饱和度驱动的边缘模糊壁纸、亚克力侧边栏、一键壁纸选择器。
+- [Finderchangchang/brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) —— 精酿 BrewReel 的 DSH 插件（dsh-brewreel）：把分镜 JSON 用 Remotion 渲染成 1080×1920 竖版宣传片，含从环境检查到出片校验的 7 个工具。
 
 ## 幻灯片 / PPT
 

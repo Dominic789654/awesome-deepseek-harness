@@ -2807,6 +2807,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [terrycool11/dsh-desktop-pet](https://github.com/terrycool11/dsh-desktop-pet) — A chibi desktop pet living in the corner of the page: floats, can be dragged, hops when clicked, and doubles as a DeepSeek balance / session-spend / token readout. Pure JS, zero dependencies; works as a web include, a userscript, or inside Electron.
 - [Sostay/dsh-wallpaper](https://github.com/Sostay/dsh-wallpaper) — Custom full-window wallpaper plugin for DeepSeek Harness (DSH): gradient presets, image URLs, local uploads, frosted glass, and a theme-aware top gradient.
 - [Theflowyears/dsh-arknights-theme](https://github.com/Theflowyears/dsh-arknights-theme) — Arknights theme pack for the DeepSeek Harness Web GUI: wallpapers with saturation-driven edge blur, an acrylic sidebar, and a one-click wallpaper picker.
+- [Finderchangchang/brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) — BrewReel DSH plugin (dsh-brewreel): turns a storyboard JSON into a 1080×1920 vertical promo video rendered with Remotion, with 7 tools from environment check to output verification.
 
 ## Slides / PPT
 
