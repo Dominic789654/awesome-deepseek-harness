@@ -189,6 +189,8 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [HapyRain/dsh-router-laya](https://github.com/HapyRain/dsh-router-laya) — DSH 自动档位路由：本地微调模型按每条消息选择 低/高/最高 思考档位，纯本地、1 秒内、不走云端。
 - [Khorsheed/dsh-web-basic](https://github.com/Khorsheed/dsh-web-basic) — 一次性把 dsh web GUI 配齐的可安装 profile 整合包：发出的消息可改可撤、长对话一键跳转、agent 写过的文件随手预览、后台任务一目了然、上下文将满时有人提醒。
 - [s867968286/dsh-companion](https://github.com/s867968286/dsh-companion) —— 给 DSH 助手赋予人格、灵魂与长期记忆：用 Markdown 定义伙伴的身份、性格、准则与记忆，自动写日记、自动更新记忆。
+- [173787247/dsh-cordis-backport](https://github.com/173787247/dsh-cordis-backport) —— 把上游 cordis 修复回搬到 DeepSeek Harness 内置（vendored）分支上缺失的部分。
+- [syyr1987/dsh-linghun](https://github.com/syyr1987/dsh-linghun) —— 灵魂（Linghun）：给 DeepSeek Harness 装一个会思考的自我 —— 灵魂卡四字段（姓名/性格/沟通风格/其他）+ 认知循环 + 海马体记忆沉淀，另带收口者身份锚点与边界判断纪律。
 
 ## Harness 与运行时
 
@@ -1151,6 +1153,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [taikaikaikai-pixel/dsh-tap](https://github.com/taikaikaikai-pixel/dsh-tap) — DeepSeek Harness（dsh）非官方上游聚合包：CodeBuddy + TraeWork 国内版 + Qoder 国内版渠道、运行时同步的模型目录、网页搜索/抓取、图片生成、带 OAuth 与多 Key 轮换的流式桥接，以及 OpenAI 兼容的 provider 注册表——全部收在一个四段手风琴式设置卡片里。
 - [zheng1/dsh-acp-replay](https://github.com/zheng1/dsh-acp-replay) —— DeepSeek Harness 的社区 ACP 桥：响应 `session/load`，让客户端在自身重启后重建会话记录。
 - [lql341/dsh-scnet](https://github.com/lql341/dsh-scnet) —— 社区 DSH 包，用于操作超算互联网（SCNet）集群：内置 `scnet-hpc` skill、profile 感知的 shell 工具，以及七个确定性工具（SSH 配置、Slurm 作业生成、集群发现、计算节点诊断）。
+- [1207627875/dsh-update-lens](https://github.com/1207627875/dsh-update-lens) —— 只读更新检查：npm 与 GitHub 版本对比、应用内更新提醒、release note 中的破坏性变更标注。
 
 ## 安全与权限
 
@@ -1944,6 +1947,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Mlte0907/dsh-pangu](https://github.com/Mlte0907/dsh-pangu) —— DSH 插件：把盘古记忆系统接进对话（MCP 工具 + 内嵌面板）。盘古本体独立可用，此为可选件。
 - [Neo65536-engineer/dsh-agent-log](https://github.com/Neo65536-engineer/dsh-agent-log) —— DeepSeek Harness 的只读工作报告：从会话日志还原 agent 任务实际做了什么——用了哪些工具、读写哪些文件、跑了哪些命令、测试结果、失败、token 用量以及是否完成；完全离线，无需 API key。
 - [rasyidmmz/dsh-ai-memory](https://github.com/rasyidmmz/dsh-ai-memory) —— DeepSeek Harness 与 ai-memory 之间的记忆桥：把 DSH 会话归档成 wiki 页面，供其它接入 ai-memory 的 harness 读取。
+- [AllenWES365/dsh-local-memory](https://github.com/AllenWES365/dsh-local-memory) —— 项目隔离的长期记忆：每个项目各存各的库、一个总视角看遍全部；可不开会话就从 git 历史给项目播种记忆。
+- [kyle123740/dsh-message-recall](https://github.com/kyle123740/dsh-message-recall) —— 每条消息可撤回 / 删除 / 删除此处及之后（append-only 墓碑，模型上下文与界面同步）。需要 dsh >= 0.1.7。
+- [uu88s/dsh-session-handoff](https://github.com/uu88s/dsh-session-handoff) —— DSH Web 插件：复制 DSH 会话 id，或把整个会话交给 Codex，用 `codex resume <id>` 恢复。
 
 ## 成本与用量统计
 
@@ -2803,6 +2809,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [FlyingBamboo/dsh-pkg-atlas](https://github.com/FlyingBamboo/dsh-pkg-atlas) — DSH 本地包依赖图谱插件：扫描本机已安装依赖，按分区与分组生成交互图，支持聚焦、拖拽布局与中英切换；零运行时依赖，内置 cytoscape，断网可用。
 - [wei125775-lab/whalegirl-deskpet](https://github.com/wei125775-lab/whalegirl-deskpet) — 会跟着 Claude Code 干活的鲸鱼娘桌宠（PetPet / dsh 双版本，Windows x64）：干活时她端碗吃饭、收工收碗，按 Esc 打断会甩你一个屑表情。
 - [ZhaoAndy821/dsh-motion-background](https://github.com/ZhaoAndy821/dsh-motion-background) — DSH WebUI 的动态背景插件：着色器型（GLSL 实时演算）与媒体型（MP4/WebM/GIF/图片）两类效果，每个效果是 `mods/` 下的一个文件夹。
+- [terrycool11/dsh-desktop-pet](https://github.com/terrycool11/dsh-desktop-pet) —— 住进网页角落的 Q 版桌宠：会漂浮、能拖动、点一下会跳，顺手显示 DeepSeek 余额 / 本次消耗 / Tokens。纯 JS 零依赖，支持网页直接引、油猴脚本、Electron 三种用法。
 
 ## 幻灯片 / PPT
 
@@ -3195,6 +3202,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [xbzbing/dsh-git-panel](https://github.com/xbzbing/dsh-git-panel) — DSH 插件：Web GUI 里的 IDE 风格 Git 面板——分支/提交历史总览、变更提交与 amend、代码与图片新旧差异对照、输入框分支标记。
 - [Jaylor-Wang/dsh-tool-lsp](https://github.com/Jaylor-Wang/dsh-tool-lsp) — DeepSeek Harness 的 LSP 动作面板：基于真实语言服务器提供诊断、格式化、重命名、代码操作与符号查询。
 - [Planckbaka/dsh-plugin-github-workflows](https://github.com/Planckbaka/dsh-plugin-github-workflows) —— 面向 DeepSeek Harness 的 GitHub 工作流：仓库、PR、issue、提交、release、Actions、Codespaces、搜索与原始 `gh api`——基于 GitHub CLI 的一体化插件。
+- [KphungFROMM/dsh-motionworks-iec-use](https://github.com/KphungFROMM/dsh-motionworks-iec-use) —— MotionWorks Use：让 agent 操作正在运行的 Yaskawa MotionWorks IEC 3 Pro IDE 并编辑其代码的 DSH 插件；不向控制器下载、不发运动指令。
 
 ## Agent
 
@@ -3439,6 +3447,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [Tikzen/dsh-agent-arena](https://github.com/Tikzen/dsh-agent-arena) — 面向 DeepSeek Harness 的交互式多智能体协作：会议、群聊与任务执行。
 - [YrracOwl/dsh-subagent-conductor](https://github.com/YrracOwl/dsh-subagent-conductor) — 面向 DSH Web 的生命周期安全子代理路由与角色控制。
 - [Akunda123/SVIXAGENT](https://github.com/Akunda123/SVIXAGENT) —— 用对话操作 Synthesizer V Studio / Instrument X 的 AI 助手（基于 DSH）：改音符、音高线、参数与织体。
+- [miqian-nomad/dsh-browser-playwright-codex](https://github.com/miqian-nomad/dsh-browser-playwright-codex) —— 面向 DSH 的浏览器插件整合版（dsh-browser-playwright 的 Codex 合并分支，0.3.0 源码发布）：typed `src/`、71 个测试、自带 verify/doctor/cost 工具，另附最小化窗口被拽回桌面的实测诊断。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -5455,6 +5464,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [EXarchive/DshLauncher](https://github.com/EXarchive/DshLauncher) —— DeepSeek Harness（DSH）桌面控制台——单文件便携，双击即用。
 - [masknull/dsh-delete-session](https://github.com/masknull/dsh-delete-session) —— DSH 插件：在侧栏会话行的 ⋯ 菜单中增加「删除会话」（永久删除，不可恢复），不接管也不禁用任何官方插件行。
 - [Qulierm/dsh-macos-settings-shortcut](https://github.com/Qulierm/dsh-macos-settings-shortcut) —— DeepSeek Harness Desktop 的 macOS 设置快捷入口插件：配合账号菜单恢复设置项。
+- [ONEOne-1v1/dsh-github-upload](https://github.com/ONEOne-1v1/dsh-github-upload) —— 动态 Cordis 插件：右下角按钮把本地项目推到 GitHub —— 绑定 token、选择或新建仓库、勾选要上传的文件、切换公开/私有；中英双语界面，不需要本地 git，不花模型 token。
+- [rinDBeans/codex-ui](https://github.com/rinDBeans/codex-ui) —— DSH Web 的 Codex 化界面插件。
+- [terrycool11/dsh-desktop](https://github.com/terrycool11/dsh-desktop) —— 把 DeepSeek Harness 的 dsh web 界面封装成独立桌面应用（Electron）：启动页选入口、Q 版助手提醒余额与用量、开放平台面板、视图互切、后台服务独立于应用。
 
 ## Skill
 
@@ -5794,6 +5806,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Lixiuxiu559/AgentForge](https://github.com/Lixiuxiu559/AgentForge) — 通用 Agent 工作流与工程技能集，同时作为 Claude Code 插件与 DeepSeek Harness 插件分发：实施编排 + 三轴 diff 评审 + 复杂度审计 + 突变测试，零外部依赖。
 - [published-porcupineprovision55/BrowserSkill](https://github.com/published-porcupineprovision55/BrowserSkill) — Browser-skill：让你已登录的 Chrome / Edge 成为 AI agent 的手脚，在不打断你使用的前提下自动完成任务——CLI + 浏览器扩展，任何能执行 shell 命令的 harness 都可接入。
 - [sixtysevenlf/dsh-skill-blender-modeling](https://github.com/sixtysevenlf/dsh-skill-blender-modeling) —— DSH skill · Blender 建模与装配流程：多 Agent 分工范式（冻结 spec / 写作用域 / 接口表）、参考图形体还原、六条必踩的坑、数值门装配审计；配套 dsh-blender-plugin。
+- [RevolutionLA/adversarial-review](https://github.com/RevolutionLA/adversarial-review) —— 三方对抗式代码评审 Agent Skill：蓝军（敌意审查）→ 第三方（独立复核）→ 中立裁定，每条结论带证据链。安装：`npx skills add RevolutionLA/adversarial-review`。
 
 ## 资源
 
