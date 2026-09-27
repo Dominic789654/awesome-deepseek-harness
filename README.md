@@ -3691,6 +3691,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Alphauni-x/dsh-mcp-market](https://github.com/Alphauni-x/dsh-mcp-market) — Browse, search and sync an MCP marketplace right inside DeepSeek Harness — install, enable, disable or remove MCP servers in one click.
 - [toddpan/dsh-xiaozhi](https://github.com/toddpan/dsh-xiaozhi) — Connect the Xiaozhi (小智) voice assistant to DSH Web with DSH as the MCP tool provider: 35 DSH Web endpoints woven into 16 voice-friendly tools over JSON-RPC 2.0 on a WebSocket, plus a DSH Web settings page.
 - [zwbao/dsh-plugin-mirobody](https://github.com/zwbao/dsh-plugin-mirobody) — DeepSeek Harness plugin for Mirobody: offline LOINC/UCUM terminology plus read-only health, medication and genotype tools.
+- [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) — MCP server manager for DeepSeek Harness: add, edit, enable and test stdio and Streamable HTTP MCP servers from the Web settings page or from eight `mcp_manager_*` agent tools, connected and disconnected at runtime through the harness's own MCP bridge.
 
 ## Orchestrators & Aggregators
 
