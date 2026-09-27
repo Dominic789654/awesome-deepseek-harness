@@ -1154,7 +1154,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [lql341/dsh-scnet](https://github.com/lql341/dsh-scnet) — Community DSH bundle for operating Supercomputing Network (SCNet) clusters: the canonical `scnet-hpc` skill, profile-aware shell utilities, and seven deterministic tools for SSH setup, Slurm job generation, cluster discovery and compute-node diagnostics.
 - [1207627875/dsh-update-lens](https://github.com/1207627875/dsh-update-lens) — Read-only update checker for DeepSeek Harness (dsh): version comparison across npm and GitHub, in-app update notification, and breaking-change annotations on release notes.
 - [b8yg7vjstj-ctrl/dsh-llamacpp-bridge](https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge) — DeepSeek Harness plugin: local llama.cpp (llama-server) as a first-class model provider — process/router management, catalog sync with mmproj vision pairing, auto-start, stop-then-load switching, and a sidebar terminal monitor panel.
-- [zzbuaoye-love/Another-DeepSeek-Harness-Launcher](https://github.com/zzbuaoye-love/Another-DeepSeek-Harness-Launcher) — ADL (Another DSH Launcher): a WinUI 3-based launcher for DeepSeek Harness that is beautiful and easy to use.
+- [zzbuaoye-love/Another-DeepSeek-Harness-Launcher](https://github.com/zzbuaoye-love/Another-DeepSeek-Harness-Launcher) — ADL (Another DSH Launcher): a WinUI 3 desktop launcher for DeepSeek Harness — native NavigationView sidebar, and plugin installation from a JSON catalog (npm package or github:owner/repo specs).
 
 ## Security & Permissions
 

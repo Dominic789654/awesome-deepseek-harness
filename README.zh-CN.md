@@ -1155,7 +1155,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [lql341/dsh-scnet](https://github.com/lql341/dsh-scnet) —— 社区 DSH 包，用于操作超算互联网（SCNet）集群：内置 `scnet-hpc` skill、profile 感知的 shell 工具，以及七个确定性工具（SSH 配置、Slurm 作业生成、集群发现、计算节点诊断）。
 - [1207627875/dsh-update-lens](https://github.com/1207627875/dsh-update-lens) —— 只读更新检查：npm 与 GitHub 版本对比、应用内更新提醒、release note 中的破坏性变更标注。
 - [b8yg7vjstj-ctrl/dsh-llamacpp-bridge](https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge) —— DSH 插件：把本地 llama.cpp（llama-server）作为一等模型提供方——进程/路由管理、与 mmproj 视觉配对同步模型目录、自动启动、先停后载切换，以及侧边栏终端监控面板。
-- [zzbuaoye-love/Another-DeepSeek-Harness-Launcher](https://github.com/zzbuaoye-love/Another-DeepSeek-Harness-Launcher) —— ADL（Another DSH Launcher）：基于 WinUI 3 的 DeepSeek Harness 启动器，好看又好用。
+- [zzbuaoye-love/Another-DeepSeek-Harness-Launcher](https://github.com/zzbuaoye-love/Another-DeepSeek-Harness-Launcher) —— ADL（Another DSH Launcher）：WinUI 3 制作的 Windows 桌面启动器，原生 NavigationView 侧栏，支持按 JSON 目录安装插件（npm 包或 github:owner/repo 规格）。
 
 ## 安全与权限
 
