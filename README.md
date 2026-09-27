@@ -5421,6 +5421,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [WoodyBuendia/dsh-mobile-fix-kit](https://github.com/WoodyBuendia/dsh-mobile-fix-kit) — Fix handbook + idempotent patch scripts + tested tooling for four classes of dsh-mobile (phone-side DSH Remote) failures: DSH Web cookie auth, a half-dead long-connection relay watchdog, and the session home page exceeding the relay's 4 MiB single-frame limit.
 - [xrn1997/dsh-novel](https://github.com/xrn1997/dsh-novel) — A novel-reading feature embedded in DeepSeek Harness, to keep you from dozing off.
 - [yuanzukun/dsh-plugin-cards](https://github.com/yuanzukun/dsh-plugin-cards) — DeepSeek Harness (dsh) settings cards plus a conversation-node plugin.
+- [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) — Matrix digital rain: drapes the chat window in the classic green character rain — cascading columns with incandescent white heads and green tails, streaming the tokens the agent is generating into the rain in real time; opacity, speed, density, font size and colors are all adjustable, and rain intensity follows agent activity.
 
 ## Skills
 

@@ -5420,6 +5420,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [WoodyBuendia/dsh-mobile-fix-kit](https://github.com/WoodyBuendia/dsh-mobile-fix-kit) — dsh-mobile（手机端 DSH Remote）四类故障的修复手册 + 幂等补丁脚本 + 实测工具：DSH Web cookie 授权、中继长连接半死看门狗、会话首页超中继 4 MiB 单帧上限。
 - [xrn1997/dsh-novel](https://github.com/xrn1997/dsh-novel) — 在 deepseek-harness 里嵌入一个小说阅读功能，防止打瞌睡。
 - [yuanzukun/dsh-plugin-cards](https://github.com/yuanzukun/dsh-plugin-cards) — DeepSeek Harness（dsh）设置卡片 + 对话节点插件。
+- [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) —— 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏。
 
 ## Skill
 
