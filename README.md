@@ -30,6 +30,7 @@ Before installing, confirm the target repo carries the **`#dsh`** GitHub topic s
 
 ## Contents
 
+- [Official Picks](#official-picks)
 - [Official](#official)
 - [Profiles & Patch Layers](#profiles--patch-layers)
 - [Harnesses & Runtimes](#harnesses--runtimes)
@@ -52,6 +53,13 @@ Before installing, confirm the target repo carries the **`#dsh`** GitHub topic s
 - [Contributing](#contributing)
 
 ---
+
+## Official Picks
+
+_Highlights personally recommended by **Tianyi Cui** ([@tianyi](https://x.com/tianyi)), DeepSeek Harness team lead, in his **【DSH 社区插件推荐】** series on X. Newest first; each entry links the original post. Kept in sync with [README.zh-CN.md](./README.zh-CN.md)._
+
+- [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude-Code-style full-screen terminal UI for DSH: pixel-whale top bar, live work-status line, streaming thoughts, double-Esc rollback, context progress bar + TPS gauge.  `⭐3689` · Team pick 2026-09-26 · [post](https://x.com/tianyi/status/2103821968944533526)
+- [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — Open sidebar foundation: third-party tab registration plus built-in file rendering/editing, terminal, side chat, Git, and sub-agent pages.  `⭐3842` · Team pick 2026-09-27 · [post](https://x.com/tianyi/status/2104125200048746899)
 
 ## Official
 
