@@ -1218,7 +1218,6 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [leolee9086/SAC_search](https://github.com/leolee9086/SAC_search) —— DeepSeek Harness 多引擎元搜索插件：约 200 个免 API key 搜索引擎，运行时零依赖。
 - [qujinting/dsh-web-search-clinepass](https://github.com/qujinting/dsh-web-search-clinepass) —— DSH 插件（DeepSeek Harness）：用会话所选模型 + 网关原生搜索工具的 web_search 提供方，替代内置的 DeepSeek 专用提供方。
 
-- [CN-WenYu/dsh-live-model-catalog](https://github.com/CN-WenYu/dsh-live-model-catalog) —— DSH 插件：让 llm-pi-ai 路由（含自定义服务商）的模型目录与推理档位跟着端点更新——补齐新模型与 contextWindow/maxTokens/input/reasoningEfforts，端点给出推理信息即写入思考档位，并修好「获取可用模型」按钮；只走官方 settings 接缝，不打补丁、可卸载。
 - [dao-awa/dsh-computer-use-native](https://github.com/dao-awa/dsh-computer-use-native) —— 面向 DeepSeek Harness 的 Windows 电脑操作插件，为视觉模型而建：截取真实桌面、从像素读取界面，并通过 Win32 FFI 驱动，不依赖无障碍树；输入投递到窗口自身队列，不夺走桌面焦点。
 - [HandsYe/dsh-llm-motomoto](https://github.com/HandsYe/dsh-llm-motomoto) —— DeepSeek Harness 的 MotoMoto OpenAI 兼容端点 bundle：pi-ai provider 路由 + 设置页状态卡片。
 - [lyp88997/dsh-browser-service](https://github.com/lyp88997/dsh-browser-service) —— 自建 DSH 浏览器服务：单例 CDP 守护 + DSH `ctx.browser` provider + 兼容 dsh-univer-office 的可执行包装（面向非 root 服务器环境）。
