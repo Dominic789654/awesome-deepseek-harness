@@ -61,6 +61,11 @@ _由 DeepSeek Harness 团队负责人 **崔添翼（[@tianyi](https://x.com/tian
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) —— Claude Code 风格全屏终端界面：像素鲸鱼顶栏、实时工作状态行、流式思考展开、双击 Esc 时间回溯、上下文进度条 + TPS 仪表。  `⭐3689` · 官方推荐 2026-09-26 · [原推](https://x.com/tianyi/status/2103821968944533526)
 - [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) —— 开放的侧边栏底座：支持三方扩展注册新页面，内置文件渲染编辑 / 终端 / 侧边对话 / Git / 子代理页面。  `⭐3842` · 官方推荐 2026-09-27 · [原推](https://x.com/tianyi/status/2104125200048746899)
 
+<p align="center">
+  <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/docs/assets/readme/preview-zh.svg" width="48%" alt="dsh-TUI —— DSH 的 Claude Code 风格终端界面"></a>
+  <a href="https://github.com/omdsh-dev/DSH-better-sidebar"><img src="https://github.com/user-attachments/assets/dfdb875e-a1a8-4d4b-8340-353736b1708f" width="48%" alt="dsh-better-sidebar —— DSH 的侧边栏工作台"></a>
+</p>
+
 ## 官方
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) —— DeepSeek 官方 agent 运行框架（`Model + Harness = Agent`），基于 Cordis 的"一切皆插件"架构（TypeScript，MIT）。  `⭐38238`
