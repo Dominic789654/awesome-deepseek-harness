@@ -123,5 +123,30 @@ EOF
   fi
 done
 
-[ "$sent" -eq 0 ] && echo "NO_NEW_AUTHORS"
+# --- official-picks pass: authors of @tianyi-recommended plugins (star window waived) ---
+OFFICIAL_MAX="${OFFICIAL_MAX:-1}"
+ofsent=0
+official_repos="$(awk '/^## Official Picks/{f=1;next} /^## /{f=0} f' "$REPO_DIR/README.md" 2>/dev/null \
+  | grep -oE 'github\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+' | sed 's#github.com/##' | tr 'A-Z' 'a-z' | sort -u)"
+for full in $official_repos; do
+  [ "$ofsent" -ge "$OFFICIAL_MAX" ] && break
+  owner="${full%%/*}"; name="${full##*/}"
+  echo "$owner" | grep -qiE "$SKIP_OWNERS_RE" && continue
+  echo "$name"  | grep -qiE "$SKIP_REPO_RE"  && continue
+  grep -qxF "$full" "$LEDGER" && continue
+  if [ "$SEND" -eq 0 ]; then echo "DRYRUN-OFFICIAL $full"; ofsent=$((ofsent+1)); continue; fi
+  body=$(cat <<EOF
+Hi! 👋
+
+Your project **[$full](https://github.com/$full)** was recently featured as an **Official Pick** in [Awesome DeepSeek Harness](https://github.com/$LIST_REPO) — the DSH team's own @tianyi recommended it in the 【DSH 社区插件推荐】 series on X, and we highlighted it at the very top of our list.
+
+No action needed — just letting you know where the traffic is coming from. If you like, feel free to link back to the list. And if our description is off, tell us and we'll fix it right away. 🐋
+EOF
+)
+  url=$(gh issue create --repo "$full" --title "Featured as an Official Pick in Awesome DeepSeek Harness 🐋" --body "$body" 2>&1 | grep -oE 'https://github.com/[^ ]+/issues/[0-9]+' | head -1)
+  if [ -n "$url" ]; then echo "$full" >> "$LEDGER"; echo "SENT-OFFICIAL $full $url"; ofsent=$((ofsent+1));
+  else echo "$full" >> "$LEDGER"; echo "SKIP-OFFICIAL $full (issue creation failed)"; fi
+done
+
+[ "$sent" -eq 0 ] && [ "$ofsent" -eq 0 ] && echo "NO_NEW_AUTHORS"
 exit 0
