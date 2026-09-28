@@ -30,6 +30,7 @@ dsh plugin --profile web add "github:owner/repo#main"
 
 ## 目录
 
+- [官方推荐](#官方推荐)
 - [官方](#官方)
 - [Profile 与 Patch 层](#profile-与-patch-层)
 - [Harness 与运行时](#harness-与运行时)
@@ -52,6 +53,13 @@ dsh plugin --profile web add "github:owner/repo#main"
 - [贡献指南](#贡献指南)
 
 ---
+
+## 官方推荐
+
+_由 DeepSeek Harness 团队负责人 **崔添翼（[@tianyi](https://x.com/tianyi)）** 在其 X 的 **【DSH 社区插件推荐】** 系列中亲自推荐。最新在前，每条附原始推荐链接，与 [README.md](./README.md) 保持同步。_
+
+- [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) —— Claude Code 风格全屏终端界面：像素鲸鱼顶栏、实时工作状态行、流式思考展开、双击 Esc 时间回溯、上下文进度条 + TPS 仪表。  `⭐3689` · 官方推荐 2026-09-26 · [原推](https://x.com/tianyi/status/2103821968944533526)
+- [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) —— 开放的侧边栏底座：支持三方扩展注册新页面，内置文件渲染编辑 / 终端 / 侧边对话 / Git / 子代理页面。  `⭐3842` · 官方推荐 2026-09-27 · [原推](https://x.com/tianyi/status/2104125200048746899)
 
 ## 官方
 
