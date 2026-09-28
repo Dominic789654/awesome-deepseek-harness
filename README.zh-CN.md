@@ -191,6 +191,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [s867968286/dsh-companion](https://github.com/s867968286/dsh-companion) —— 给 DSH 助手赋予人格、灵魂与长期记忆：用 Markdown 定义伙伴的身份、性格、准则与记忆，自动写日记、自动更新记忆。
 - [173787247/dsh-cordis-backport](https://github.com/173787247/dsh-cordis-backport) —— 把上游 cordis 修复回搬到 DeepSeek Harness 内置（vendored）分支上缺失的部分。
 - [syyr1987/dsh-linghun](https://github.com/syyr1987/dsh-linghun) —— 灵魂（Linghun）：给 DeepSeek Harness 装一个会思考的自我 —— 灵魂卡四字段（姓名/性格/沟通风格/其他）+ 认知循环 + 海马体记忆沉淀，另带收口者身份锚点与边界判断纪律。
+- [knopki/dsh-prompt-profiles](https://github.com/knopki/dsh-prompt-profiles) — DSH bundle，新增按会话的提示词 Profile：多组带顺序与作用域的额外 system-prompt 段落，会话开始时封入提示词。
 
 ## Harness 与运行时
 
@@ -1961,6 +1962,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [uu88s/dsh-session-handoff](https://github.com/uu88s/dsh-session-handoff) —— DSH Web 插件：复制 DSH 会话 id，或把整个会话交给 Codex，用 `codex resume <id>` 恢复。
 - [sueqet/dsh-todo-board](https://github.com/sueqet/dsh-todo-board) —— DeepSeek Harness（dsh）跨会话 TODO 看板：可拖拽悬浮面板按工作目录分组任务，每个任务带运行模式（提醒 / 当前会话自动续跑 / 自动新开会话）与两个勾选框（AI 完成、用户已核验）。
 - [linbin-mk/dsh-session-sync](https://github.com/linbin-mk/dsh-session-sync) —— deepseek-harness 会话同步。
+- [dpskk2/dsh-chatsync](https://github.com/dpskk2/dsh-chatsync) — DSH 接着聊：换台电脑，聊天和项目一起接着做。通过自己的 GitHub 私有仓库同步会话、附件、工作区文件和设置。
+- [G57651/dsh-session-manager](https://github.com/G57651/dsh-session-manager) — DeepSeek Harness 会话管理面板插件：全部/已归档/已删除视图、批量管理、软删除回收站。
 
 ## 成本与用量统计
 
@@ -2270,6 +2273,9 @@ _token 用量、成本看板与预算告警插件。_
 - [GooDAnDReaDY/dsh-key-limits](https://github.com/GooDAnDReaDY/dsh-key-limits) —— DeepSeek Harness 插件：API Key / 订阅配额限额（浮动芯片、输入栏、设置页）。
 - [SeverusZh/dsh-ollama-usage](https://github.com/SeverusZh/dsh-ollama-usage) —— Ollama Cloud 用量余量可视化 DSH 插件：5 小时 / 每周用量双横条 + 设置页面板，Key 与快照持久化，自动刷新，登录引导。
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) —— 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）。
+- [Shadid516/dsh-off-peak-hours](https://github.com/Shadid516/dsh-off-peak-hours) — 输入框下方的常驻胶囊，实时显示所选 DeepSeek 或 z.ai 套餐当前按高峰还是低谷（半价）计价，点击可打开时段面板。
+- [upcyan/dsh-mimo-extension](https://github.com/upcyan/dsh-mimo-extension) — DeepSeek Harness 的 MiMo（小米）额度环形进度与用量明细标签页。
+- [zhuchuovo/dsh-clinepass](https://github.com/zhuchuovo/dsh-clinepass) — DSH 的 ClinePass 订阅网关：把套餐里的 OpenAI 兼容模型注册为 provider 路由，暴露本地 OpenAI 兼容反向代理供任意客户端接入，并在官方 5 小时/周/月配额窗口旁按参考价折算每次调用的 token 成本。
 
 ## Channel / IM 桥接
 
@@ -2862,6 +2868,7 @@ _在工作区内外转换文档——Markdown、Word 等格式。_
 - [vansonffff/dsh-kdocs-sidebar](https://github.com/vansonffff/dsh-kdocs-sidebar) —— 金山文档（WPS 云文档）接入 DeepSeek Harness：右侧栏面板 / 预览文件 / 引用文件与文件夹到对话 / 编辑器打开。
 - [xionglaoshi/dsh-office-viewer](https://github.com/xionglaoshi/dsh-office-viewer) —— DSH 侧栏 Office 文档免服务预览插件：docx/xlsx/pptx、旧版 doc/xls/ppt、WPS 三件套、ofd/rtf/csv，纯浏览器端渲染，不依赖任何外部服务。
 - [Lee-Hilex/dsh-mineru](https://github.com/Lee-Hilex/dsh-mineru) —— 基于 MinerU 的 DeepSeek Harness 多模态文档解析插件：PDF/Word/PPT/Excel/HTML/图片 → 结构化 Markdown（免 Token 的 Agent 轻量解析 / 精准解析双 API 模式）。
+- [yueyexiayu/dsh-huoqu](https://github.com/yueyexiayu/dsh-huoqu) — DSH 桌面插件：把渲染后的网页抓取为本地离线 HTML 与 MHTML 副本。
 
 ## 写代码
 
@@ -5498,6 +5505,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [929nz6jshw-spec/DeepSeekHarness](https://github.com/929nz6jshw-spec/DeepSeekHarness) —— 非官方 dsh 原生 macOS 外壳，基于 SwiftUI 与 WKWebView 构建。
 - [jameswatt139240-crypto/dsh-ATLAS](https://github.com/jameswatt139240-crypto/dsh-ATLAS) —— DeepSeek Harness Web GUI 的统一 @ 提及：五个内置类别，外加内置 @git 与任意插件自带的类别。
 - [john-walks-slow/live2d-voice](https://github.com/john-walks-slow/live2d-voice) —— 一行命令跑起独立的 Live2D 语音陪伴。
+- [ayingQAQ/dsh-web-launcher](https://github.com/ayingQAQ/dsh-web-launcher) — Windows 上的 DeepSeek Harness Web 一键启动器：后台启动服务，支持重启与浏览器自动刷新。
 
 ## Skill
 
