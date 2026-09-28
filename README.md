@@ -191,6 +191,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [s867968286/dsh-companion](https://github.com/s867968286/dsh-companion) — Give your DSH assistant a soul, personality and long-term memory: define the companion's identity, character, principles and memory in Markdown, with automatic diary writing and memory updates.
 - [173787247/dsh-cordis-backport](https://github.com/173787247/dsh-cordis-backport) — Backports for upstream cordis fixes missing from the DeepSeek Harness vendored line.
 - [syyr1987/dsh-linghun](https://github.com/syyr1987/dsh-linghun) — Linghun (灵魂): gives DeepSeek Harness a thinking self — a four-field soul card (name / personality / communication style / notes) + cognition loop + hippocampus-style memory consolidation, with identity anchoring and boundary-discipline rules.
+- [knopki/dsh-prompt-profiles](https://github.com/knopki/dsh-prompt-profiles) — DSH bundle adding per-session prompt profiles: named sets of extra system-prompt sections with their own order and scope, sealed into the prompt at session start.
 
 ## Harnesses & Runtimes
 
@@ -1956,6 +1957,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [uu88s/dsh-session-handoff](https://github.com/uu88s/dsh-session-handoff) — DSH Web plugin: copy a DSH session id, or hand the whole session over to Codex so `codex resume <id>` restores it.
 - [sueqet/dsh-todo-board](https://github.com/sueqet/dsh-todo-board) — Cross-session TODO board for DeepSeek Harness (dsh): a draggable floating panel groups tasks by working directory, each task carries a run mode (remind / auto-continue in the current session / auto-open a new session) and two checkboxes (AI done, user verified).
 - [linbin-mk/dsh-session-sync](https://github.com/linbin-mk/dsh-session-sync) — Session sync for DeepSeek Harness (会话同步).
+- [dpskk2/dsh-chatsync](https://github.com/dpskk2/dsh-chatsync) — "Continue the chat in DSH": sync sessions, attachments, workspace files and settings across machines through your own private GitHub repository.
+- [G57651/dsh-session-manager](https://github.com/G57651/dsh-session-manager) — DeepSeek Harness session-management panel plugin: all / archived / deleted views, batch management, and a soft-delete recycle bin.
 
 ## Cost & Usage Tracking
 
@@ -2263,6 +2266,9 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [GooDAnDReaDY/dsh-key-limits](https://github.com/GooDAnDReaDY/dsh-key-limits) — DeepSeek Harness plugin: API key / subscription quota limits (float chip, composer bar, settings).
 - [SeverusZh/dsh-ollama-usage](https://github.com/SeverusZh/dsh-ollama-usage) — Ollama Cloud usage & quota visualization plugin for DeepSeek Harness: a 5-hour / weekly usage bar pair plus a settings panel, persisted key and snapshots, auto refresh, and login guidance.
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import).
+- [Shadid516/dsh-off-peak-hours](https://github.com/Shadid516/dsh-off-peak-hours) — Ambient pill under the composer showing whether your selected DeepSeek or z.ai plan is billed at peak or off-peak (half-price) rates right now, with a click-to-open schedule panel.
+- [upcyan/dsh-mimo-extension](https://github.com/upcyan/dsh-mimo-extension) — MiMo (Xiaomi) quota ring and usage-detail tab for DeepSeek Harness.
+- [zhuchuovo/dsh-clinepass](https://github.com/zhuchuovo/dsh-clinepass) — ClinePass subscription gateway for DeepSeek Harness: registers the plan's OpenAI-compatible models as a provider route, exposes a local OpenAI-compatible reverse proxy any client can point at, and turns each call's token usage into reference-price cost beside the official 5-hour, weekly and monthly quota windows.
 
 ## Channel / IM Bridges
 
@@ -2849,6 +2855,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [vansonffff/dsh-kdocs-sidebar](https://github.com/vansonffff/dsh-kdocs-sidebar) — Kingsoft Docs (WPS cloud docs) integration for DeepSeek Harness: right-side panel, file preview, reference files/folders into the conversation, open in editor.
 - [xionglaoshi/dsh-office-viewer](https://github.com/xionglaoshi/dsh-office-viewer) — DSH sidebar Office-document preview plugin with no service dependency: docx/xlsx/pptx, legacy doc/xls/ppt, the WPS trio, ofd/rtf/csv — rendered purely in the browser.
 - [Lee-Hilex/dsh-mineru](https://github.com/Lee-Hilex/dsh-mineru) — Multimodal document-parsing plugin for DeepSeek Harness built on MinerU: PDF/Word/PPT/Excel/HTML/images to structured Markdown (token-free lightweight agent parsing plus precise dual-API mode).
+- [yueyexiayu/dsh-huoqu](https://github.com/yueyexiayu/dsh-huoqu) — DSH desktop plugin: capture a rendered webpage into a local offline HTML and MHTML copy.
 
 ## Coding
 
@@ -5499,6 +5506,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [929nz6jshw-spec/DeepSeekHarness](https://github.com/929nz6jshw-spec/DeepSeekHarness) — Unofficial native macOS shell for dsh, built with SwiftUI and WKWebView.
 - [jameswatt139240-crypto/dsh-ATLAS](https://github.com/jameswatt139240-crypto/dsh-ATLAS) — Unified @ mentions for the DeepSeek Harness web GUI — five built-in categories plus a bundled @git and any plugin's own category.
 - [john-walks-slow/live2d-voice](https://github.com/john-walks-slow/live2d-voice) — One command to a standalone Live2D voice companion (一行命令跑起独立的 Live2D 语音陪伴).
+- [ayingQAQ/dsh-web-launcher](https://github.com/ayingQAQ/dsh-web-launcher) — One-click launcher for the DeepSeek Harness Web UI on Windows: starts the service in the background with restart and browser-refresh handling.
 
 ## Skills
 
