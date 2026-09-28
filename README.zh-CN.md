@@ -1,8 +1,17 @@
 <p align="center">
-  <img src="./assets/deepseek-logo.svg" alt="DeepSeek" height="48">
+  <img src="https://raw.githubusercontent.com/Dominic789654/awesome-deepseek-harness/main/assets/deepseek-logo.svg" alt="DeepSeek" height="48">
 </p>
 
 # Awesome DeepSeek Harness [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/entries-5649-4d6bfe?style=flat-square" alt="entries">
+  <img src="https://img.shields.io/github/stars/Dominic789654/awesome-deepseek-harness?style=flat-square&color=4d6bfe" alt="stars">
+  <img src="https://img.shields.io/github/last-commit/Dominic789654/awesome-deepseek-harness?style=flat-square" alt="last commit">
+  <img src="https://img.shields.io/github/contributors/Dominic789654/awesome-deepseek-harness?style=flat-square" alt="contributors">
+  <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs welcome"></a>
+  <a href="./docs/official-picks.md"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E6%8E%A8%E8%8D%90-ff8c42?style=flat-square" alt="Official Picks"></a>
+</p>
 
 > 面向 **DeepSeek Harness（DSH）** 的 **插件 / Skill / MCP / Patch（Profile）层 / 编排器 / 聚合器 / UI** 精选清单 —— DeepSeek 官方 agent 运行框架，核心理念 **`Model + Harness = Agent`**。
 
@@ -14,7 +23,31 @@ DeepSeek Harness（简称 "DSH"）是 DeepSeek 的 agent 运行框架 / harness 
 
 > **给作者的提示：** DeepSeek 要求插件仓库带上 **`#dsh`** GitHub topic 以便被发现。给你的仓库加上它，然后来这里提 PR。
 
-![DeepSeek Harness 生态地图](./assets/dsh-ecosystem.svg)
+![DeepSeek Harness 生态地图](https://raw.githubusercontent.com/Dominic789654/awesome-deepseek-harness/main/assets/dsh-ecosystem.svg)
+
+<!-- RECENT-ADDED:START -->
+<details>
+<summary>🆕 最近新增（近 7 天）</summary>
+
+_由 `.scripts/dsh_recent_added.py` 自动生成_
+
+- [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude-Code-style full-screen terminal UI for DSH: pixel-whale top bar, live work-status line, streaming thoughts, double-Esc rollback, context progress bar + TPS gauge.  `⭐3689` · Team pick 2026-09-26 · [post](https://x.com/tianyi/status/2103821968944533526)
+- [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — Open sidebar foundation: third-party tab registration plus built-in file rendering/editing, terminal, side chat, Git, and sub-agent pages.  `⭐3842` · Team pick 2026-09-27 · [post](https://x.com/tianyi/status/2104125200048746899)
+- [JackZo400/dsh-voice-transcribe](https://github.com/JackZo400/dsh-voice-transcribe) — Local speech-to-text for dsh: SILK decoding + SenseVoice (sherpa-onnx int8), no API cost, about 0.1 s per clip.
+- [leolee9086/SAC_search](https://github.com/leolee9086/SAC_search) — Multi-engine meta-search plugin for DeepSeek Harness: roughly 200 API-key-free search engines, zero runtime dependencies.
+- [qujinting/dsh-web-search-clinepass](https://github.com/qujinting/dsh-web-search-clinepass) — DSH plugin (DeepSeek Harness): a web_search provider that searches with the session's selected model via gateway-native search tools, replacing the built-in DeepSeek-only provider.
+- [9087/dsh-diff-approval](https://github.com/9087/dsh-diff-approval) — Make every agent edit approvable in DeepSeek Harness: full-diff review, per-file / per-block keep & revert, undo/redo.
+- [JackZo400/dsh-memory-search](https://github.com/JackZo400/dsh-memory-search) — Long-term memory for dsh agents: hybrid search (local embeddings + SQLite FTS5) over your markdown notes, with optional secrecy-level filtering.
+- [jipika/dsh-memory](https://github.com/jipika/dsh-memory) — Two-layer long-term memory for DeepSeek Harness (DSH): global + per-project markdown, live re-read, zero extra LLM cost, with a Settings panel.
+- [lpf20200901/dsh-memory-delta](https://github.com/lpf20200901/dsh-memory-delta) — Cross-session long-term memory for AI coding assistants: automatic injection, changes only. DSH plugin + zero-dependency CLI.
+- [Kihara777/dsh-api-balance](https://github.com/Kihara777/dsh-api-balance) — API usage / balance plugin for DeepSeek Harness: a "usage / balance" tab switch inside the Web UI usage ring, showing account balance and usage detail.
+- [JackZo400/dsh-onebot](https://github.com/JackZo400/dsh-onebot) — OneBot 11 client channel for dsh: your agent in QQ groups and DMs, zero dependencies (forward WebSocket + HTTP).
+- [JackZo400/dsh-sticker-library](https://github.com/JackZo400/dsh-sticker-library) — Sticker library for dsh: dedup, vision tagging, pick by meaning; unsafe stickers rejected at ingest.
+
+_…and 391 more this week._
+
+</details>
+<!-- RECENT-ADDED:END -->
 
 ## 快速开始
 
@@ -59,7 +92,11 @@ dsh plugin --profile web add "github:owner/repo#main"
 _由 DeepSeek Harness 团队负责人 **崔添翼（[@tianyi](https://x.com/tianyi)）** 在其 X 的 **【DSH 社区插件推荐】** 系列中亲自推荐。最新在前，每条附原始推荐链接，与 [README.md](./README.md) 保持同步。_
 
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) —— Claude Code 风格全屏终端界面：像素鲸鱼顶栏、实时工作状态行、流式思考展开、双击 Esc 时间回溯、上下文进度条 + TPS 仪表。  `⭐3689` · 官方推荐 2026-09-26 · [原推](https://x.com/tianyi/status/2103821968944533526)
+  - 官方原话：“推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，并持续随 DSH 版本更新及打磨功能。”
+  - 安装：`dsh plugin --profile web add "github:ccch1mneyyy/dsh-TUI#main"`
 - [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) —— 开放的侧边栏底座：支持三方扩展注册新页面，内置文件渲染编辑 / 终端 / 侧边对话 / Git / 子代理页面。  `⭐3842` · 官方推荐 2026-09-27 · [原推](https://x.com/tianyi/status/2104125200048746899)
+  - 官方原话：“dsh-better-sidebar 插件为 DeepSeek Harness 添加了侧边栏、底边栏、分栏、可浮动栏等 UI 定制化能力。属于『为其它插件提供基础能力』的底座类插件，体现了 Cordis 插件系统中可组合性的特点。”
+  - 安装：`dsh plugin --profile web add "github:omdsh-dev/DSH-better-sidebar#main"`
 
 <p align="center">
   <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/docs/assets/readme/preview-zh.svg" width="48%" alt="dsh-TUI —— DSH 的 Claude Code 风格终端界面"></a>

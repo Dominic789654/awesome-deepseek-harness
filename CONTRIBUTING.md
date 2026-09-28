@@ -99,3 +99,19 @@ Two tips that avoid almost all merge friction:
   ```
 
 Keeping your diff to a **single added line** is the most reliable way to avoid conflicts entirely.
+
+---
+
+## 收录标准与官方推荐专栏（Scope）
+
+**收录（收）**：任何扩展或配合 DeepSeek Harness 的项目——plugin / skill / MCP server / orchestrator / aggregator / UI 客户端 / harness 运行时 / 自动化循环。仓库需带 `dsh` 相关 GitHub topic（`dsh` / `dsh-plugin` / `dsh-skill` / `deepseek-harness`），描述能说清用途。
+
+**排除（不收）**：
+1. 聚合/目录类（本身是"N 个插件的精选清单/插件超市"这种聚合站，而非单个插件或工具）；
+2. 与 DSH 无关、疑似误标 topic 的仓库；
+3. 完全无描述且无法从仓库名判断用途的可疑项；
+4. 归档（archived）仓库。
+
+**官方推荐专栏（Official Picks / 官方推荐）**：置顶专栏，只收录 **DeepSeek Harness 团队负责人 @tianyi 在 X 的【DSH 社区插件推荐】系列中公开推荐** 的插件。由自动化每日跟进（`scripts`/cron），保证最新在前、附推荐日期与原推链接。该专栏**不接受外部投稿**——想让自己项目进专栏，唯一途径是被官方推荐。
+
+**校验**：所有条目链接会做存活检查；收录不代表安全审计，安装第三方插件等同在本机运行第三方代码，请自行阅读源码。
