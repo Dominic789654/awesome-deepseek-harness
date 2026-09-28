@@ -3715,6 +3715,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [toddpan/dsh-xiaozhi](https://github.com/toddpan/dsh-xiaozhi) — Connect the Xiaozhi (小智) voice assistant to DSH Web with DSH as the MCP tool provider: 35 DSH Web endpoints woven into 16 voice-friendly tools over JSON-RPC 2.0 on a WebSocket, plus a DSH Web settings page.
 - [zwbao/dsh-plugin-mirobody](https://github.com/zwbao/dsh-plugin-mirobody) — DeepSeek Harness plugin for Mirobody: offline LOINC/UCUM terminology plus read-only health, medication and genotype tools.
 - [zhengjy01/dsh-mcp-manager](https://github.com/zhengjy01/dsh-mcp-manager) — MCP server manager for DeepSeek Harness: add, edit, enable and test stdio and Streamable HTTP MCP servers from the Web settings page or from eight `mcp_manager_*` agent tools, connected and disconnected at runtime through the harness's own MCP bridge.
+- [dsh-fusion360](https://github.com/Leaveing00001/dsh-fusion360) — Drive Autodesk Fusion 360 from DeepSeek Harness: a Fusion add-in plus a dependency-free MCP server exposing 13 `mcp__fusion360__*` tools, including `fusion_run_python` for the full Fusion API. Vibe-coded end to end by DSH, with every modelling command checked against its closed-form volume.
 
 ## Orchestrators & Aggregators
 
