@@ -61,6 +61,11 @@ _Highlights personally recommended by **Tianyi Cui** ([@tianyi](https://x.com/ti
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude-Code-style full-screen terminal UI for DSH: pixel-whale top bar, live work-status line, streaming thoughts, double-Esc rollback, context progress bar + TPS gauge.  `⭐3689` · Team pick 2026-09-26 · [post](https://x.com/tianyi/status/2103821968944533526)
 - [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — Open sidebar foundation: third-party tab registration plus built-in file rendering/editing, terminal, side chat, Git, and sub-agent pages.  `⭐3842` · Team pick 2026-09-27 · [post](https://x.com/tianyi/status/2104125200048746899)
 
+<p align="center">
+  <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/docs/assets/readme/preview-en.svg" width="48%" alt="dsh-TUI — Claude Code-style terminal UI for DeepSeek Harness"></a>
+  <a href="https://github.com/omdsh-dev/DSH-better-sidebar"><img src="https://github.com/user-attachments/assets/dfdb875e-a1a8-4d4b-8340-353736b1708f" width="48%" alt="dsh-better-sidebar — sidebar workbench for DeepSeek Harness"></a>
+</p>
+
 ## Official
 
 - [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek's official agent runtime framework (`Model + Harness = Agent`); an "everything is a plugin" architecture built on Cordis (TypeScript, MIT).  `⭐38238`
