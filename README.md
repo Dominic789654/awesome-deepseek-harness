@@ -91,6 +91,14 @@ Before installing, confirm the target repo carries the **`#dsh`** GitHub topic s
 
 _Highlights personally recommended by **Tianyi Cui** ([@tianyi](https://x.com/tianyi)), DeepSeek Harness team lead, in his **【DSH 社区插件推荐】** series on X. Newest first; each entry links the original post. Kept in sync with [README.zh-CN.md](./README.zh-CN.md)._
 
+### 🔍 Plugin Directories (team pick #3 · 2026-09-28)
+
+- [dshfind](https://dshfind.com/) · [hikariming/dshfind](https://github.com/hikariming/dshfind) — Learning site + plugin marketplace in one: a systematic course from the basics to Cordis papers, plus a marketplace auto-aggregated from the GitHub `dsh-plugin` topic, S/A/B/C ratings, a dev guide, and an author leaderboard.  `⭐280`
+- [dshmarket](https://dshmarket.com/) · [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) — The only marketplace that installs into the DSH settings page: browse / search / one-click install / theme switch across 4000+ plugins, most take effect on refresh.  Install: `dsh plugin --profile web add dshmarket`  `⭐4837`
+- [awesome-dsh-plugin](https://awesome-dsh-plugin.com/) · [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) — Community-curated directory: a repo must be installable via `dsh plugin add` to be listed; bilingual categories, continuously human-verified.  `⭐17192`
+- _In their words:_ “今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～ dshfind.com / dshmarket.com / awesome-dsh-plugin.com。其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。（不代表公司立场，不对非官方网站的内容负责。）”
+- Starter path: install dshmarket → filter for quality with awesome-dsh-plugin → learn the internals and read ratings on dshfind. [post](https://x.com/tianyi/status/2104565558712959065)
+
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude-Code-style full-screen terminal UI for DSH: pixel-whale top bar, live work-status line, streaming thoughts, double-Esc rollback, context progress bar + TPS gauge.  `⭐3689` · Team pick 2026-09-26 · [post](https://x.com/tianyi/status/2103821968944533526)
   - _In their words:_ “推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，并持续随 DSH 版本更新及打磨功能。”
   - Install: `dsh plugin --profile web add "github:ccch1mneyyy/dsh-TUI#main"`

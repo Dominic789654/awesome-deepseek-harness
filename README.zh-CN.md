@@ -91,6 +91,14 @@ dsh plugin --profile web add "github:owner/repo#main"
 
 _由 DeepSeek Harness 团队负责人 **崔添翼（[@tianyi](https://x.com/tianyi)）** 在其 X 的 **【DSH 社区插件推荐】** 系列中亲自推荐。最新在前，每条附原始推荐链接，与 [README.md](./README.md) 保持同步。_
 
+### 🔍 插件导航站（官方推荐 · 第三期 · 2026-09-28）
+
+- [dshfind](https://dshfind.com/) · [hikariming/dshfind](https://github.com/hikariming/dshfind) —— 学习站 + 插件市场二合一：从入门到 Cordis 论文的系统课程，按 GitHub `dsh-plugin` topic 自动聚合的插件市场，S/A/B/C 评分 + 开发指南 + 作者项目榜。  `⭐280`
+- [dshmarket](https://dshmarket.com/) · [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) —— 唯一能装进 DSH 设置页的插件市场：浏览 / 搜索 / 一键安装 / 主题切换，4000+ 插件，多数刷新即生效。  安装：`dsh plugin --profile web add dshmarket`  `⭐4837`
+- [awesome-dsh-plugin](https://awesome-dsh-plugin.com/) · [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) —— 社区精选目录：必须能用 `dsh plugin add` 安装才收录，双语分类、持续人工核验。  `⭐17192`
+- 官方原话：“今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～ dshfind.com / dshmarket.com / awesome-dsh-plugin.com。其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。（不代表公司立场，不对非官方网站的内容负责。）”
+- 新手路径：先装 dshmarket → 用 awesome-dsh-plugin 筛质量 → 用 dshfind 学原理看评分。[原推](https://x.com/tianyi/status/2104565558712959065)
+
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) —— Claude Code 风格全屏终端界面：像素鲸鱼顶栏、实时工作状态行、流式思考展开、双击 Esc 时间回溯、上下文进度条 + TPS 仪表。  `⭐3689` · 官方推荐 2026-09-26 · [原推](https://x.com/tianyi/status/2103821968944533526)
   - 官方原话：“推荐一下从 DeepSeek Harness 内测期间就持续开发的 dsh-TUI。做得非常用心，补齐了 DSH 缺失的 TUI 界面，并持续随 DSH 版本更新及打磨功能。”
   - 安装：`dsh plugin --profile web add "github:ccch1mneyyy/dsh-TUI#main"`
