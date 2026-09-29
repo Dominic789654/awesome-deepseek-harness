@@ -5633,6 +5633,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [LiweiDonVee/dsh-rp-studio](https://github.com/LiweiDonVee/dsh-rp-studio) —— 面向 DSH 的无内容角色扮演前端与 Gateway：自带 preset 与运行时，不内置剧情、角色或美术素材。
 - [LiweiDonVee/dsh-tavern-renderer](https://github.com/LiweiDonVee/dsh-tavern-renderer) —— 独立的 DSH 消息渲染器：经净化的 HTML/CSS、宏，以及八套沉浸式文档模板。
 - [yusufameri/dsh-t3-session-ui](https://github.com/yusufameri/dsh-t3-session-ui) —— 把 T3 Code 的会话上下文 UX 搬到 DeepSeek Harness：会话行上下文块、provider 标签、状态胶囊、顶栏上下文条，以及带压缩的上下文窗口计量条。
+- [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) —— 放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换。
 
 ## Skill
 
