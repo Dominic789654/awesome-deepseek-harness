@@ -2950,7 +2950,6 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [chiphoton/DeepSeek-Harness-Video-Director](https://github.com/chiphoton/DeepSeek-Harness-Video-Director) —— AI 导演：由 DeepSeek Harness 执导的 MiniMax-H3 视频生成插件，带 Canvas UI。
 
 - [demxyuanli/dsh-canvas](https://github.com/demxyuanli/dsh-canvas) — DeepSeek Harness 项目看板插件：agent 写的 `.canvas.tsx` 看板实时编译渲染到右栏，面板上的决定可回流给 agent。
-- [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) — dsh 插件 · 放风筝：agent 编程时屏幕上放一只动画风筝，token 越多飞得越高；潍坊谱系框架卡组，支持自定义贴图。
 
 ## 幻灯片 / PPT
 

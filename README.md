@@ -2940,7 +2940,6 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [chiphoton/DeepSeek-Harness-Video-Director](https://github.com/chiphoton/DeepSeek-Harness-Video-Director) — AI-powered director: a MiniMax-H3 video generation plugin directed by DeepSeek Harness, with a Canvas UI.
 
 - [demxyuanli/dsh-canvas](https://github.com/demxyuanli/dsh-canvas) — Project-board plugin for DeepSeek Harness: agent-written `.canvas.tsx` boards are compiled and rendered live in the right panel, and panel decisions flow back to the agent.
-- [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) — dsh plugin · Fly a Kite: an animated kite on screen while the agent codes — the higher it flies, the more tokens are spent; Weifang-lineage framework cards with custom textures.
 
 ## Slides / PPT
 
