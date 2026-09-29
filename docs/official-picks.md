@@ -50,6 +50,20 @@ dsh plugin --profile web add "github:owner/repo#main"
 
 - 推荐原推：<https://x.com/tianyi/status/2104125200048746899>
 
+## 3. 插件导航站 — dshfind / dshmarket / awesome-dsh-plugin
+
+- 官方推荐日期：**2026-09-28**（第三期，本期不推单个插件，推导航站）
+- 官方原话：
+
+  > 今天提名几个广泛使用、内容丰富、更新及时的 DSH 插件导航站吧～ dshfind.com / dshmarket.com / awesome-dsh-plugin.com。其中 dshmarket 也可直接作为 DSH 插件安装到设置页中。（不代表公司立场，不对非官方网站的内容负责。）
+
+- 三个站：
+  1. **dshfind** — 学习站 + 插件市场二合一（系统课程 / 自动聚合 / S/A/B/C 评分 / 作者榜）：<https://dshfind.com/> · <https://github.com/hikariming/dshfind>
+  2. **dshmarket** — 唯一能装进 DSH 设置页的插件市场（4000+ 插件）：<https://dshmarket.com/> · <https://github.com/dsh-market/dsh-market> · 安装 `dsh plugin --profile web add dshmarket`
+  3. **awesome-dsh-plugin** — 社区精选目录（必须能用 `dsh plugin add` 安装才收录）：<https://awesome-dsh-plugin.com/> · <https://github.com/awesome-dsh-plugin/awesome-dsh-plugin>
+- 新手路径：先装 dshmarket → 用 awesome-dsh-plugin 筛质量 → 用 dshfind 学原理看评分。
+- 推荐原推：<https://x.com/tianyi/status/2104565558712959065>
+
 ---
 
 ## 维护方式
