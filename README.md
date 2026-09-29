@@ -247,6 +247,9 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 
 - [hu568/dsh-plugin-cluster-preset](https://github.com/hu568/dsh-plugin-cluster-preset) — DSH "cluster mode" agent preset: a main orchestrator agent autonomously coordinates 5 named expert subagents, plus an "agent lifespan" phase indicator.
 
+- [LiweiDonVee/dsh-preset-library](https://github.com/LiweiDonVee/dsh-preset-library) — Search, tag and organize DeepSeek Harness agent presets with compact views and affiliations.
+- [LiweiDonVee/dsh-prompt-presets](https://github.com/LiweiDonVee/dsh-prompt-presets) — Content-free prompt profile editor, versioned compiler and import/export framework for DSH; no bundled prompt packs.
+
 ## Harnesses & Runtimes
 
 _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime-level infrastructure (diagnostics, ops, session management, approval policies)._
@@ -1228,6 +1231,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 
 - [beihzb/dsh-envsel](https://github.com/beihzb/dsh-envsel) — Per-session environment selector for DeepSeek Harness: Python / R / CLI slots from conda, standalone R, WSL, or custom paths, via `/env`, `session_env`, `DSH_ENV_*` facts, and a header dropdown.
 - [yoke233/dsh-tool-monitor](https://github.com/yoke233/dsh-tool-monitor) — Monitor existing DeepSeek Harness background jobs without running commands twice.
+
+- [LinJianKun/deepseek-harness-desktop-mirror](https://github.com/LinJianKun/deepseek-harness-desktop-mirror) — Unofficial installer mirror for DeepSeek Harness Desktop (win-x64 / mac-arm64); prefer the official downloads.
+- [LiweiDonVee/dsh-cherry-provider-bridge](https://github.com/LiweiDonVee/dsh-cherry-provider-bridge) — Synchronize a Cherry Studio provider and model catalog into DeepSeek Harness without model discovery.
 
 ## Security & Permissions
 
@@ -2350,6 +2356,9 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [zhuchuovo/dsh-clinepass](https://github.com/zhuchuovo/dsh-clinepass) — ClinePass subscription gateway for DeepSeek Harness: registers the plan's OpenAI-compatible models as a provider route, exposes a local OpenAI-compatible reverse proxy any client can point at, and turns each call's token usage into reference-price cost beside the official 5-hour, weekly and monthly quota windows.
 - [Kihara777/dsh-api-balance](https://github.com/Kihara777/dsh-api-balance) — API usage / balance plugin for DeepSeek Harness: a "usage / balance" tab switch inside the Web UI usage ring, showing account balance and usage detail.
 
+- [raphael-y7/dsh-desktop-statusbar](https://github.com/raphael-y7/dsh-desktop-statusbar) — Replaces the DSH desktop bottom stats line with a configurable status bar: 10 optional, reorderable fields, cost estimated on DeepSeek's peak/off-peak schedule, custom per-model prices and account balance. Non-commercial license.
+- [ZhangBo-cmd/dsh-pricing-badge](https://github.com/ZhangBo-cmd/dsh-pricing-badge) — DeepSeek Harness (DSH) plugin: shows the DeepSeek API peak/off-peak pricing period, current model output price, and account balance in the Web UI; click to open a price reference for DeepSeek and third-party models.
+
 ## Channel / IM Bridges
 
 _Bridges DSH into chat platforms and messaging channels._
@@ -3312,6 +3321,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [kangtsang/dsh-worktree-space](https://github.com/kangtsang/dsh-worktree-space) — dsh-worktree-space is a DSH plugin that creates isolated multi-repo workspaces for AI agents using Git worktrees. Each task gets its own workspace containing separate worktrees for every repository, enabling parallel agents to work without file conflicts, context pollution, or tangled commits.
 
 - [CN-WenYu/dsh-git-conventions](https://github.com/CN-WenYu/dsh-git-conventions) — Configurable Git commit and pull-request conventions for DeepSeek Harness — enforce user-defined rules on commit messages and PR titles/descriptions.
+
+- [AFunDog/dsh-sidebar-git-graph](https://github.com/AFunDog/dsh-sidebar-git-graph) — DSH right-sidebar page: a read-only Git commit graph (VS Code style branch/merge lanes). Works with or without dsh-better-sidebar.
 
 ## Agents
 
@@ -5620,6 +5631,10 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [renjie2026/dsh-theme-gallery](https://github.com/renjie2026/dsh-theme-gallery) — Community theme-skin gallery plugin for the DeepSeek Harness desktop edition: one plugin manages every skin (JSON-data-driven, ships 山青婷彩 / 梦海游鱼), installable via npm/tarball with zero build authorization.
 - [xiaohanqing/dsh-relay](https://github.com/xiaohanqing/dsh-relay) — Access your own DSH from your phone at any time — traffic runs through your own server, with no third-party cloud dependency.
 
+- [LiweiDonVee/dsh-rp-studio](https://github.com/LiweiDonVee/dsh-rp-studio) — Content-free roleplay frontend and Gateway for DSH; bring your own presets and runtime, no bundled stories, characters or artwork.
+- [LiweiDonVee/dsh-tavern-renderer](https://github.com/LiweiDonVee/dsh-tavern-renderer) — Independent DSH message renderer with sanitized HTML/CSS, macros and eight immersive document templates.
+- [yusufameri/dsh-t3-session-ui](https://github.com/yusufameri/dsh-t3-session-ui) — T3 Code's session-context UX for DeepSeek Harness: a session-row context block, provider chip, status pill, header context strip, and a context-window meter with compaction.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -5964,6 +5979,9 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [jackchen13755/dsh-jev-kit](https://github.com/jackchen13755/dsh-jev-kit) — Jev decision toolkit for DeepSeek Harness: 22 named typed judgments (privacy scan, change-scope, memory triage, batch triage) on one hardened, budgeted, ledger-backed transport. Advisory only.
 
 - [qiuyiwu1989-star/dsh-k12-substrate](https://github.com/qiuyiwu1989-star/dsh-k12-substrate) — K12 capability substrate for DeepSeek Harness: 143 objectively-decidable capability anchors and 6,091 list items from China's MOE 2022 curriculum standards, with local-only learner profiles.
+
+- [morluto/rea](https://github.com/morluto/rea) — Reverse engineer anything with agents, from app behavior down to native binaries; ships a bundled routing skill and an MCP server.
+- [W-SING-HUNG/dsh-resume](https://github.com/W-SING-HUNG/dsh-resume) — Job-resume workshop plugin for DeepSeek Harness: paste a JD and the AI rewrites your resume for that role, grounded only in your real content, nothing fabricated.
 
 ## Resources
 

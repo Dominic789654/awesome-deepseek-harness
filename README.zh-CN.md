@@ -247,6 +247,9 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 
 - [hu568/dsh-plugin-cluster-preset](https://github.com/hu568/dsh-plugin-cluster-preset) —— DSH「集群模式」agent preset：主控智能体自主编排 5 个具名专家子智能体，附「智能体寿命论」阶段提示器。
 
+- [LiweiDonVee/dsh-preset-library](https://github.com/LiweiDonVee/dsh-preset-library) —— 搜索、打标签与整理 DeepSeek Harness agent preset，提供紧凑视图与归属关系展示。
+- [LiweiDonVee/dsh-prompt-presets](https://github.com/LiweiDonVee/dsh-prompt-presets) —— 面向 DSH 的无内容 prompt 配置编辑器、带版本的编译器与导入导出框架；不内置任何 prompt 包。
+
 ## Harness 与运行时
 
 _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运行时级基建（诊断、运维、会话管理、审批策略）。_
@@ -1229,6 +1232,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 
 - [beihzb/dsh-envsel](https://github.com/beihzb/dsh-envsel) —— 面向 DeepSeek Harness 的按会话环境选择器：通过 /env、session_env、DSH_ENV_* 事实与顶栏下拉菜单，从 conda、独立 R、WSL 或自定义路径配置 Python / R / CLI 环境槽。
 - [yoke233/dsh-tool-monitor](https://github.com/yoke233/dsh-tool-monitor) —— 监控 DeepSeek Harness 已有的后台作业，无需重复执行命令。
+
+- [LinJianKun/deepseek-harness-desktop-mirror](https://github.com/LinJianKun/deepseek-harness-desktop-mirror) —— DeepSeek Harness Desktop 安装包非官方镜像（win-x64 / mac-arm64）；推荐优先使用官方下载。
+- [LiweiDonVee/dsh-cherry-provider-bridge](https://github.com/LiweiDonVee/dsh-cherry-provider-bridge) —— 把 Cherry Studio 的 provider 与模型目录同步进 DeepSeek Harness，无需模型发现。
 
 ## 安全与权限
 
@@ -2357,6 +2363,9 @@ _token 用量、成本看板与预算告警插件。_
 - [zhuchuovo/dsh-clinepass](https://github.com/zhuchuovo/dsh-clinepass) — DSH 的 ClinePass 订阅网关：把套餐里的 OpenAI 兼容模型注册为 provider 路由，暴露本地 OpenAI 兼容反向代理供任意客户端接入，并在官方 5 小时/周/月配额窗口旁按参考价折算每次调用的 token 成本。
 - [Kihara777/dsh-api-balance](https://github.com/Kihara777/dsh-api-balance) —— DeepSeek Harness 的 API 用量/余额插件：在 webui 用量圆圈内提供「用量 / 余额」标签切换，展示账户余额与用量明细。
 
+- [raphael-y7/dsh-desktop-statusbar](https://github.com/raphael-y7/dsh-desktop-statusbar) —— 把 DSH 桌面端底部的统计行换成可配置状态栏：10 个字段可选可排序，按 DeepSeek 官方峰谷口径估算费用，支持自定义模型单价与账户余额。非商业许可。
+- [ZhangBo-cmd/dsh-pricing-badge](https://github.com/ZhangBo-cmd/dsh-pricing-badge) —— DeepSeek Harness（DSH）插件：在 Web UI 中显示 DeepSeek API 峰/谷计价时段、当前模型输出价格与账户余额，点击可打开 DeepSeek 及第三方模型价目参考。
+
 ## Channel / IM 桥接
 
 _把 DSH 桥接到各种聊天平台与消息通道。_
@@ -3323,6 +3332,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [kangtsang/dsh-worktree-space](https://github.com/kangtsang/dsh-worktree-space) —— DSH 插件：用 Git worktree 为 AI agent 创建隔离的多仓库工作区——每个任务一个独立工作区，内含各仓库各自的 worktree，让并行 agent 互不冲突（无文件冲突、无上下文污染、无纠缠提交）。
 
 - [CN-WenYu/dsh-git-conventions](https://github.com/CN-WenYu/dsh-git-conventions) —— DeepSeek Harness 的可配置 Git 提交与拉取请求规范插件，按用户自定义规则校验提交信息与 PR 标题/描述。
+
+- [AFunDog/dsh-sidebar-git-graph](https://github.com/AFunDog/dsh-sidebar-git-graph) —— DSH 右侧边栏页面：只读 Git 提交图（VS Code 风格的分支/合并泳道）。有或没有 dsh-better-sidebar 都能用。
 
 ## Agent
 
@@ -5619,6 +5630,10 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [renjie2026/dsh-theme-gallery](https://github.com/renjie2026/dsh-theme-gallery) —— DeepSeek Harness 桌面版主题皮肤画廊插件：一个插件管全部皮肤（JSON 数据驱动，内置 山青婷彩 / 梦海游鱼），npm/tarball 安装、零构建授权。
 - [xiaohanqing/dsh-relay](https://github.com/xiaohanqing/dsh-relay) —— 手机随时访问你自己的 DSH——流量走你自己的服务端，不依赖任何第三方云。
 
+- [LiweiDonVee/dsh-rp-studio](https://github.com/LiweiDonVee/dsh-rp-studio) —— 面向 DSH 的无内容角色扮演前端与 Gateway：自带 preset 与运行时，不内置剧情、角色或美术素材。
+- [LiweiDonVee/dsh-tavern-renderer](https://github.com/LiweiDonVee/dsh-tavern-renderer) —— 独立的 DSH 消息渲染器：经净化的 HTML/CSS、宏，以及八套沉浸式文档模板。
+- [yusufameri/dsh-t3-session-ui](https://github.com/yusufameri/dsh-t3-session-ui) —— 把 T3 Code 的会话上下文 UX 搬到 DeepSeek Harness：会话行上下文块、provider 标签、状态胶囊、顶栏上下文条，以及带压缩的上下文窗口计量条。
+
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
@@ -5965,6 +5980,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [jackchen13755/dsh-jev-kit](https://github.com/jackchen13755/dsh-jev-kit) —— DeepSeek Harness 的 Jev 判断工具包：在一条加固、带预算、有账本记录的统一传输上提供 22 个具名类型化判断（隐私扫描、变更范围、记忆分诊、批量分诊）。仅作建议。
 
 - [qiuyiwu1989-star/dsh-k12-substrate](https://github.com/qiuyiwu1989-star/dsh-k12-substrate) —— 面向 DeepSeek Harness 的 K12 能力底座：来自中国教育部 2022 课程标准的 143 个可客观判定的能力锚点与 6,091 个清单条目，学习者画像仅存本地。
+
+- [morluto/rea](https://github.com/morluto/rea) —— 用 agent 逆向一切，从应用行为一直到原生二进制；随附一个路由 skill 与一个 MCP server。
+- [W-SING-HUNG/dsh-resume](https://github.com/W-SING-HUNG/dsh-resume) —— DeepSeek Harness 求职简历工坊：粘贴 JD，AI 按岗位重写简历，只基于真实内容，不编造。
 
 ## 资源
 
