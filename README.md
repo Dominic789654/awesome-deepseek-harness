@@ -3681,7 +3681,6 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [nilesh32236/dsh-squad](https://github.com/nilesh32236/dsh-squad) — Cross-workspace AI worker fleets for DeepSeek Harness: spawn named worker sessions in other projects, queue or steer tasks into them, watch them in the background, collect their reports and answer their escalations — all from one orchestrating chat.
 - [pbwheel/dsh-workbuddy-expert](https://github.com/pbwheel/dsh-workbuddy-expert) — Bring WorkBuddy experts into DSH: one-click import from the expert market and switch experts at any time from the session picker.
 - [Kanadego/dsh-heartbeat](https://github.com/Kanadego/dsh-heartbeat) — A DSH plugin that makes the agent feel more like a living person in everyday conversation.
-- [Xuxchloris/Alex](https://github.com/Xuxchloris/Alex) — An SDR digital-employee plugin for DeepSeek Harness: a nine-stage foreign-trade lead-gen SOP, structural human approval, customer dedup, persistent knowledge retrieval and audit logs, with a safe dry-run demo by default.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 

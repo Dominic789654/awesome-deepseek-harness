@@ -3694,7 +3694,6 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [nilesh32236/dsh-squad](https://github.com/nilesh32236/dsh-squad) —— 面向 DeepSeek Harness 的跨工作区 AI worker 编队：在其他项目里派生具名 worker 会话、把任务排进队列或临场指挥、后台观察、回收报告并处理上报——全部在一个编排会话里完成。
 - [pbwheel/dsh-workbuddy-expert](https://github.com/pbwheel/dsh-workbuddy-expert) —— 把 WorkBuddy 专家装进 DSH：专家市场一键导入 · 会话选择器随时切换。
 - [Kanadego/dsh-heartbeat](https://github.com/Kanadego/dsh-heartbeat) —— 让 Agent 在日常交流中更有『活人感』的 DSH 插件。
-- [Xuxchloris/Alex](https://github.com/Xuxchloris/Alex) —— DeepSeek Harness 的 SDR 数字员工插件：九阶段外贸获客 SOP、结构性人工审批、客户去重、持久化知识检索与审计日志，默认 dry-run 安全演示。
 
 ## 循环（自动研究 / 自我改进等）
 
