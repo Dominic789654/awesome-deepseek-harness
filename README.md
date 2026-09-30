@@ -1275,6 +1275,9 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [orzgithub/dsh-ollama](https://github.com/orzgithub/dsh-ollama) — A plugin to use Ollama inside DeepSeek Harness.
 - [Fish-under-sea/dsh-fish](https://github.com/Fish-under-sea/dsh-fish) — Personal DSH (DeepSeek Harness) plugin aggregation pack: one pnpm workspace installs all of the author's own plugins, with sub-plugin sources under packages/.
 - [wanghongjian0119/deepseek-harness-desktop](https://github.com/wanghongjian0119/deepseek-harness-desktop) — Community MIT fork of DeepSeek Harness with a Linux-only desktop shell (.deb and AppImage); not an official DeepSeek release.
+- [0gl20shk0sbt36/dsh-deadman](https://github.com/0gl20shk0sbt36/dsh-deadman) — Deadman switch plugin for DeepSeek Harness (dsh): runs a command when nobody is still working.
+- [sakanamaru/dsh-minato](https://github.com/sakanamaru/dsh-minato) — dsh-shio, a community local-deployment ops suite for DeepSeek Harness (dsh): install, start/monitor, backup and restore, plus diagnose and quarantine broken plugins (unofficial).
+- [temidayoxyz/deep-opencode](https://github.com/temidayoxyz/deep-opencode) — OpenCode's free-tier models for DeepSeek Harness: a local `opencode serve` makes the free models resolve, so no API key is needed.
 
 ## Security & Permissions
 
@@ -1518,6 +1521,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 - [cny1230/deskpet-guard](https://github.com/cny1230/deskpet-guard) — Agent-behavior guardian desktop pet for DeepSeek Harness: cross-agent monitoring for suspicious exfiltration (encrypted archive uploads to object storage / touched secrets / DNS-leak signals), alerts on detection, terminates a target agent process only after explicit human confirmation, writes an append-only `guard-events.jsonl`, and exposes events to other agents via DSH host tools and an MCP (stdio) server. Windows; zero runtime dependencies.
 - [JohnXu22786/auditrail](https://github.com/JohnXu22786/auditrail) — Security auditing and session forensics for DeepSeek Harness (dsh): full tool-invocation-chain recording (who / what / files / status / duration) from session logs.
+- [xmwpoi/dsh-approval-center](https://github.com/xmwpoi/dsh-approval-center) — Windows approval control center for DSH 0.1.7-rc.2: approve/reject from the notification center, a concurrent queue with cancel-and-cleanup, and SQLite audit; distributed via GitHub Releases.
 
 ## Session & Memory Management
 
@@ -2102,6 +2106,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Dingpenghui-good/dsh-obsidian-sync](https://github.com/Dingpenghui-good/dsh-obsidian-sync) — Obsidian sync plugin for DeepSeek Harness (dsh, dsh-plugin; no upstream description beyond topic tags).
 - [Schrei5/dsh-plugin-session-project](https://github.com/Schrei5/dsh-plugin-session-project) — DSH sidebar plugin: show each session's project (Workspace) name under its title in the flat session list.
 - [longhao666666/dsh-session-delete](https://github.com/longhao666666/dsh-session-delete) — DeepSeek Harness plugin: one-click session deletion from the sidebar (archive first, then clean disk logs; running sessions are protected).
+- [YIYuNCU/DSHTrueDelete](https://github.com/YIYuNCU/DSHTrueDelete) — DSH plugin that adds a real "delete local files" action to archived sessions: it lists every file it would remove and the total size, then deletes the session log directory plus projection cache after confirmation; unarchived or still-running sessions are refused.
 
 ## Cost & Usage Tracking
 
@@ -2425,6 +2430,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [stefanohe/dsh-show-balance](https://github.com/stefanohe/dsh-show-balance) — Show account balance directly in the DSH status bar.
 - [seeseeczl/dsh-sym](https://github.com/seeseeczl/dsh-sym) — A symbiote for DeepSeek Harness: live session cost (CNY, by vendor/model and peak/off-peak), per-turn cost, account balance, peak/off-peak markers, plus an @ button that quotes any reply as context.
 - [david0702/dsh-cost](https://github.com/david0702/dsh-cost) — Cost display for the bottom of the DeepSeek Harness conversation: per-request billing split by time and model, time-window breakdown, model attribution, image-reading cost and balance.
+- [niliemi/dsh-billing](https://github.com/niliemi/dsh-billing) — DSH plugin: prices tokens with the official model price table, shows the running cost beside the composer context meter, and blocks a turn once spend passes the ceiling you set.
 
 ## Channel / IM Bridges
 
@@ -2793,6 +2799,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [klarkxy/dsh-plugins](https://github.com/klarkxy/dsh-plugins) — Small, independently installable plugins for DeepSeek Harness.
 
 - [goatliamia/dsh-plugin-maker](https://github.com/goatliamia/dsh-plugin-maker) — Plugin-development workshop for DeepSeek Harness: turns the plugin-authoring tutorial into machine-checkable rules — scaffolding, contract checks, vet/adopt install steps, and a guided index of the official docs.
+- [NeitherTourRest/dsh-plugin-manager](https://github.com/NeitherTourRest/dsh-plugin-manager) — A floating-ball plugin manager for the DeepSeek Harness GUI: a plugin declares `dsh.ball` in package.json and gets a list entry, an auto-generated settings form, a Plugins config card and an enable switch. Not @deepseek-ai/dsh-plugin-manager.
 
 ## Visualization
 
@@ -3002,6 +3009,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [EmberwingAviation/dsh-media-gen](https://github.com/EmberwingAviation/dsh-media-gen) — Unified image + video generation plugin for DeepSeek Harness: one provider catalogue, three tools, a measured async-video contract, rate-limit backoff discipline, a settings page + gallery, and a fast-lane CLI. MIT, a fork-merge of dsh-image-generation and dsh-video-gen.
 - [zmm863-commits/dsh-agnes-studio](https://github.com/zmm863-commits/dsh-agnes-studio) — 🎬 Bubble Cat's film & TV toolkit — an AI film-creation workstation: text-to-image, image-to-image, text-to-video, image-to-video, short-drama script breakdown and prompt-expert tooling. Six providers (Agnes / DeepSeek / Qwen / Doubao / MiniMax / Ollama), with a global overlay that never blocks the composer.
 - [HaoyanZhang123/dsh-plugin-image-gen](https://github.com/HaoyanZhang123/dsh-plugin-image-gen) — DeepSeek Harness plugin that generates images through any OpenAI-compatible endpoint you configure; the package ships no endpoint, no vendor model list and no credentials.
+- [XN-H/dsh-ark-image](https://github.com/XN-H/dsh-ark-image) — DSH image generation plugin for DeepSeek Harness: text-to-image via Volcano Ark Seedream (Doubao). Zero dependencies, plain JavaScript, no build step.
 
 ## Slides / PPT
 
@@ -3038,6 +3046,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [PhysicalAI-0/dsh-paperforge](https://github.com/PhysicalAI-0/dsh-paperforge) — PaperForge — forge your understanding of papers inside DSH: selection-to-highlight, selection-to-ask (one dedicated session per paper), and marquee-to-note screenshots with backlinks.
 
 - [dingyiliao/dsh-bundle-pdf](https://github.com/dingyiliao/dsh-bundle-pdf) — PDF reader, annotations, OCR, translation and navigation bundle for DeepSeek Harness.
+- [WuShichao/dsh-ipynb-preview](https://github.com/WuShichao/dsh-ipynb-preview) — Render Jupyter .ipynb notebooks in the DeepSeek Harness document preview: syntax highlighting, offline LaTeX, and zoomable figures.
 
 ## Coding
 
@@ -3417,6 +3426,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [moxingovo/dsh-github](https://github.com/moxingovo/dsh-github) — DeepSeek Harness plugin: GitHub repository and issue search, repo/issue details, and file-reading tools (github_search / github_get); works anonymously, with an optional read-only token to unlock code search.
 - [oldHan2423/dsh-everything-find](https://github.com/oldHan2423/dsh-everything-find) — Everything (voidtools) file-name search for DeepSeek Harness: an everything_find tool plus a configuration card.
 - [mocilukalbj/dsh-open-code-review](https://github.com/mocilukalbj/dsh-open-code-review) — Alibaba Open Code Review for DeepSeek Harness: native review tools, host-model delegation, and optional OCR-managed reviews.
+- [GMH13552/dsh-mc-art](https://github.com/GMH13552/dsh-mc-art) — DeepSeek Harness panel plugin plus a mod-making skill: from description to a verifiable Minecraft mod, judged by the game's own GameTestServer.
 
 ## Agents
 
@@ -3733,6 +3743,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [GooDAnDReaDY/dsh-goal](https://github.com/GooDAnDReaDY/dsh-goal) — Autonomous goal execution and multi-turn task-tracking engine for DeepSeek Harness, with a sticky header that keeps the active goal in view; i18n support.
 
 - [dshworks/dsh-watch](https://github.com/dshworks/dsh-watch) — Put a watch on a stream: background listeners that wake the DeepSeek Harness agent with new matching lines, plus a daemon host so a watcher runs unattended for weeks with no task and no browser.
+- [cglyvip/dsh-auto-continue](https://github.com/cglyvip/dsh-auto-continue) — DeepSeek Harness plugin: when a model request fails it automatically injects "continue" and switches to a fallback model, so no manual intervention is needed.
 
 ## MCP Servers
 
@@ -5773,6 +5784,14 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [longhao666666/dsh-element-context](https://github.com/longhao666666/dsh-element-context) — DeepSeek Harness plugin: select or associate UI elements in the conversation and inject selectors, source locations, box model and computed styles into the model prompt.
 - [Han-1413141/dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — DeepSeek Harness Desktop and Web UI manager: search, show/hide, move, resize and arrange plugin controls, with JSON layout backup and restore.
 - [alaliqing/dsh-annotate](https://github.com/alaliqing/dsh-annotate) — Visual annotation plugin for DeepSeek Harness: select elements in local app previews and send structured UI feedback to your agent.
+- [conafun/dsh-music-plus](https://github.com/conafun/dsh-music-plus) — A modified build of dsh-music-player: removes the online QQ/Kugou/audiobook/lyrics features and adds podcasts.
+- [gst20060726/dsh-auto-translate](https://github.com/gst20060726/dsh-auto-translate) — Zero-token on-demand translation for the DeepSeek Harness Web GUI: hover a block or drag-select text to translate in place, nothing auto-translates, no LLM calls, text never leaves your machine.
+- [HelloQingTao/dsh-rail-zero](https://github.com/HelloQingTao/dsh-rail-zero) — DeepSeek Harness web plugin: zero the collapsed left sidebar's 56px rail; reuses dsh-qol's hamburger, falls back to the official toggle.
+- [levodoubt/dsh-longtext-input](https://github.com/levodoubt/dsh-longtext-input) — DeepSeek Harness long-text input plugin: write very long content into a .dsh-longtext/ md file in the workspace and keep only an @ reference in the input box, keeping the chat UI clean. Supports Wallpaper Engine frosted glass.
+- [Physicolor/dsh-widgets](https://github.com/Physicolor/dsh-widgets) — A modular widget system for DeepSeek Harness: reusable widgets, adaptive layouts, and a unified design grammar.
+- [Rainpomelo/dsh-liquid-glass-theme](https://github.com/Rainpomelo/dsh-liquid-glass-theme) — DeepSeek Harness theme: liquid glass with dynamic wallpapers (WebGL physical lens, dynamic wallpaper and multi-layer frosted glass).
+- [Rice00/dsh-job-progress](https://github.com/Rice00/dsh-job-progress) — Live progress for long-running background jobs in DeepSeek Harness: a draggable floating ball with a per-session task panel showing done/total, speed and ETA.
+- [Rice00/dsh-loupe](https://github.com/Rice00/dsh-loupe) — Select text in a DSH conversation and explain it in a floating window: independent channel, no session pollution, can be saved as a real session.
 
 ## Skills
 
@@ -6130,6 +6149,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 
 - [zekcjshe/LearnForge-skill](https://github.com/zekcjshe/LearnForge-skill) — An AI-agent skill that reconstructs long Bilibili videos, public courses and lecture recordings into structured Obsidian notes — for 408 exam prep, university coursework, algorithms and hardcore technical study, with cross-video knowledge building and long-video close reading that auto-extracts derivations, analogies, common pitfalls and self-test questions. Built-in anti-hallucination checks; works with Claude Code, Cursor and other agents; outputs standard Markdown and does not require Obsidian.
 - [lordqyxz/dsh-development](https://github.com/lordqyxz/dsh-development) — Cross-agent DSH plugin development skill (SKILL.md): Cordis, bundle installation, tools/UI and troubleshooting.
+- [SihanLv/dsh-literature](https://github.com/SihanLv/dsh-literature) — Literature research for DeepSeek Harness: dblp + arXiv search, authoritative BibTeX, and full-text download.
+- [Typhoon-line/film-scan_epson](https://github.com/Typhoon-line/film-scan_epson) — Epson film-scan skill collection: film-holder shimming and focus-calibration workflows packaged as portable SKILL.md skills (usable by DeepSeek and other agents).
 
 ## Resources
 

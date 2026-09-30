@@ -1276,6 +1276,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [orzgithub/dsh-ollama](https://github.com/orzgithub/dsh-ollama) —— 在 DeepSeek Harness 里使用 Ollama 的插件。
 - [Fish-under-sea/dsh-fish](https://github.com/Fish-under-sea/dsh-fish) —— 自用 DSH（DeepSeek Harness）插件聚合包：一个 pnpm 工作区装齐全部自建插件，子插件源码在 packages/ 下。
 - [wanghongjian0119/deepseek-harness-desktop](https://github.com/wanghongjian0119/deepseek-harness-desktop) —— DeepSeek Harness 的社区 MIT 分支，附带仅支持 Linux 的桌面外壳（.deb 与 AppImage）；非 DeepSeek 官方发行版。
+- [0gl20shk0sbt36/dsh-deadman](https://github.com/0gl20shk0sbt36/dsh-deadman) —— DeepSeek Harness（dsh）的失效保护（deadman）开关插件：当没有任何人还在工作时执行一条命令。
+- [sakanamaru/dsh-minato](https://github.com/sakanamaru/dsh-minato) —— dsh-shio：DeepSeek Harness（dsh）社区版本机部署运维套件——安装 / 启动监控 / 备份恢复 / 插件诊断与隔离（非官方）。
+- [temidayoxyz/deep-opencode](https://github.com/temidayoxyz/deep-opencode) —— 把 OpenCode 的免费额度模型接入 DeepSeek Harness：本地跑一个 `opencode serve` 就能解析免费模型，无需 API key。
 
 ## 安全与权限
 
@@ -1524,6 +1527,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [cny1230/deskpet-guard](https://github.com/cny1230/deskpet-guard) —— DeepSeek Harness 的 Agent 行为守护桌宠：跨 agent 监控可疑外传行为（加密打包直传对象存储 / 敏感密钥被触达 / DNS 外泄线索），发现即告警，在明确人工确认后才终止目标 agent 进程，事件写入只追加的 guard-events.jsonl，并通过 DSH host 工具与 MCP（stdio）供其它 agent 查询。Windows；运行时零依赖。
 - [JohnXu22786/auditrail](https://github.com/JohnXu22786/auditrail) —— 面向 DeepSeek Harness（dsh）的安全审计与会话取证：从会话日志完整记录工具调用链（谁 / 什么 / 文件 / 状态 / 耗时）。
+- [xmwpoi/dsh-approval-center](https://github.com/xmwpoi/dsh-approval-center) —— 面向 DSH 0.1.7-rc.2 的 Windows 审批中控台：通知中心批准/拒绝、并发队列与取消清理、SQLite 审计，通过 GitHub Releases 分发。
 
 ## 会话与记忆管理
 
@@ -2107,6 +2111,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Dingpenghui-good/dsh-obsidian-sync](https://github.com/Dingpenghui-good/dsh-obsidian-sync) —— 面向 DeepSeek Harness 的 Obsidian 同步插件（dsh, dsh-plugin）。
 - [Schrei5/dsh-plugin-session-project](https://github.com/Schrei5/dsh-plugin-session-project) —— DSH 侧栏插件：在扁平会话列表中，于每个会话标题下显示其项目（Workspace）名称。
 - [longhao666666/dsh-session-delete](https://github.com/longhao666666/dsh-session-delete) —— DeepSeek Harness 插件：侧栏一键删除会话（先归档再清理磁盘日志，运行中的会话受保护）。
+- [YIYuNCU/DSHTrueDelete](https://github.com/YIYuNCU/DSHTrueDelete) —— DSH 插件：给已归档会话加一个真正「删除本地文件」的按钮——先列出会删哪些文件及总大小，确认后删除该会话的日志目录与投影缓存；未归档或仍有运行中工作的会话一律拒绝。
 
 ## 成本与用量统计
 
@@ -2432,6 +2437,7 @@ _token 用量、成本看板与预算告警插件。_
 - [stefanohe/dsh-show-balance](https://github.com/stefanohe/dsh-show-balance) —— 在 DSH 状态栏直接显示账户余额。
 - [seeseeczl/dsh-sym](https://github.com/seeseeczl/dsh-sym) —— 给 DeepSeek Harness 接的共生体：实时会话花费（人民币，按厂商/模型与峰谷时段折算）、每轮费用、账户余额、峰谷时段标记，以及把任一回复作为上下文引用的 @ 按钮。
 - [david0702/dsh-cost](https://github.com/david0702/dsh-cost) —— DSH 对话底部费用显示插件：按每笔请求的时间 + 模型分批计费，分时段明细、模型归属、读图金额与余额。
+- [niliemi/dsh-billing](https://github.com/niliemi/dsh-billing) —— DSH 插件：按官方模型价格表计算 token 花费，在输入框旁的上下文计量条上显示实时费用，超过你设定的上限即拦截该轮对话。
 
 ## Channel / IM 桥接
 
@@ -2809,6 +2815,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [klarkxy/dsh-plugins](https://github.com/klarkxy/dsh-plugins) —— DeepSeek Harness 的小型、可独立安装插件集。
 
 - [goatliamia/dsh-plugin-maker](https://github.com/goatliamia/dsh-plugin-maker) — DSH 插件开发工坊：把插件编写教程机器化——脚手架、契约校验、vet/adopt 装机步骤，以及官方文档的向导式索引。
+- [NeitherTourRest/dsh-plugin-manager](https://github.com/NeitherTourRest/dsh-plugin-manager) —— DSH GUI 的悬浮球插件管理器：插件在 package.json 里声明 `dsh.ball` 即可获得列表项、自动生成的设置表单、Plugins 配置卡片与启用开关。与 @deepseek-ai/dsh-plugin-manager 无关。
 
 ## 可视化
 
@@ -3012,6 +3019,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [EmberwingAviation/dsh-media-gen](https://github.com/EmberwingAviation/dsh-media-gen) —— DeepSeek Harness 生图+生视频整合插件：统一供应商目录、三个工具、中转站实测的异步视频契约、限流退避纪律、设置页+画廊+快车道 CLI。MIT，fork 合并自 dsh-image-generation 与 dsh-video-gen。
 - [zmm863-commits/dsh-agnes-studio](https://github.com/zmm863-commits/dsh-agnes-studio) —— 🎬 泡泡猫的影视工具：AI 影视创作工作站 —— 文生图、图生图、文生视频、图生视频、短剧剧本拆解与提示词专家。支持 Agnes / DeepSeek / Qwen / 豆包 / MiniMax / Ollama 六大厂商，全局浮层不堵对话框。
 - [HaoyanZhang123/dsh-plugin-image-gen](https://github.com/HaoyanZhang123/dsh-plugin-image-gen) —— DSH 插件：通过你配置的任意 OpenAI 兼容端点生成图片；包内不带端点、不带厂商模型清单、不带凭证。
+- [XN-H/dsh-ark-image](https://github.com/XN-H/dsh-ark-image) —— DeepSeek Harness 生图插件：基于火山方舟 Seedream（豆包）的文生图 / AI 绘画。零依赖、纯 JavaScript、无需构建。
 
 ## 幻灯片 / PPT
 
@@ -3051,6 +3059,7 @@ _在工作区内外转换文档——Markdown、Word 等格式。_
 - [PhysicalAI-0/dsh-paperforge](https://github.com/PhysicalAI-0/dsh-paperforge) — PaperForge —— 在 DSH 里“锻造”对论文的理解：划选取高亮、划选提问（每篇论文一个专属会话）、框选截图成笔记并带双向链接。
 
 - [dingyiliao/dsh-bundle-pdf](https://github.com/dingyiliao/dsh-bundle-pdf) —— 面向 DeepSeek Harness 的 PDF bundle：阅读、批注、OCR、翻译与导航。
+- [WuShichao/dsh-ipynb-preview](https://github.com/WuShichao/dsh-ipynb-preview) —— 在 DeepSeek Harness 的文档预览中渲染 Jupyter .ipynb 笔记本：语法高亮、离线 LaTeX、图片可缩放。
 
 ## 写代码
 
@@ -3428,6 +3437,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [moxingovo/dsh-github](https://github.com/moxingovo/dsh-github) —— DeepSeek Harness 插件：GitHub 仓库与 issue 检索、详情与文件读取（github_search / github_get），匿名可用，可选只读 token 解锁代码搜索。
 - [oldHan2423/dsh-everything-find](https://github.com/oldHan2423/dsh-everything-find) —— 面向 DeepSeek Harness 的 Everything（voidtools）文件名搜索：提供 everything_find 工具与配置卡片。
 - [mocilukalbj/dsh-open-code-review](https://github.com/mocilukalbj/dsh-open-code-review) —— 面向 DeepSeek Harness 的 Alibaba Open Code Review：原生审查工具、宿主模型委派，以及可选的 OCR 托管审查。
+- [GMH13552/dsh-mc-art](https://github.com/GMH13552/dsh-mc-art) —— DeepSeek Harness 面板插件 + 做模组的 skill：从描述到可验证的 Minecraft mod，由游戏自带的 GameTestServer 判定。
 
 ## Agent
 
@@ -3749,6 +3759,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [GooDAnDReaDY/dsh-goal](https://github.com/GooDAnDReaDY/dsh-goal) —— 面向 DeepSeek Harness 的自主目标执行与多轮任务追踪引擎：用吸顶头部常驻展示当前目标，支持多语言。
 
 - [dshworks/dsh-watch](https://github.com/dshworks/dsh-watch) — 给一条流上表：后台监听器在新匹配行出现时唤醒 DSH agent，并带一个守护宿主让 watcher 无人值守地连跑数周，不需要任务也不需要浏览器。
+- [cglyvip/dsh-auto-continue](https://github.com/cglyvip/dsh-auto-continue) —— DeepSeek Harness 插件：模型请求失败时自动注入「继续」并切换到兜底模型，无需手动干预。
 
 ## MCP Server
 
@@ -5772,6 +5783,14 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [longhao666666/dsh-element-context](https://github.com/longhao666666/dsh-element-context) —— DeepSeek Harness 插件：对话中圈选/关联 UI 元素，把选择器、源码位置、盒模型与计算样式注入模型提示词。
 - [Han-1413141/dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) —— DeepSeek Harness 桌面端与 Web UI 管理器：搜索、显示/隐藏、移动、缩放与排列插件控件，支持 JSON 布局备份与恢复。
 - [alaliqing/dsh-annotate](https://github.com/alaliqing/dsh-annotate) —— 面向 DeepSeek Harness 的可视化批注插件：在本地应用预览中圈选元素，把结构化的 UI 反馈发给你的 Agent。
+- [conafun/dsh-music-plus](https://github.com/conafun/dsh-music-plus) —— 基于 dsh-music-player 的修改版：移除在线 QQ/酷狗/讲书/歌词功能，新增播客。
+- [gst20060726/dsh-auto-translate](https://github.com/gst20060726/dsh-auto-translate) —— DeepSeek Harness Web GUI 的零 token 按需翻译：悬停或框选才翻译，绝不自动翻页，不调用 LLM，文本不出本机。
+- [HelloQingTao/dsh-rail-zero](https://github.com/HelloQingTao/dsh-rail-zero) —— DeepSeek Harness Web 插件：把左侧栏折叠后的 56px 竖条归零；复用 dsh-qol 的汉堡按钮，缺失时回退到官方切换按钮。
+- [levodoubt/dsh-longtext-input](https://github.com/levodoubt/dsh-longtext-input) —— DeepSeek Harness 长文本输入插件：把超长正文写进工作区 .dsh-longtext/ 下的 md 文件，输入框只留一个 @ 引用，保持聊天界面简洁。支持 Wallpaper Engine 毛玻璃。
+- [Physicolor/dsh-widgets](https://github.com/Physicolor/dsh-widgets) —— DeepSeek Harness 的模块化小组件系统：可复用组件、自适应布局与统一的设计语法。
+- [Rainpomelo/dsh-liquid-glass-theme](https://github.com/Rainpomelo/dsh-liquid-glass-theme) —— DeepSeek Harness 液态玻璃与动态壁纸主题：WebGL 物理透镜、动态壁纸与多层毛玻璃。
+- [Rice00/dsh-job-progress](https://github.com/Rice00/dsh-job-progress) —— DeepSeek Harness 长时后台任务的实时进度：可拖拽悬浮球 + 按会话的任务面板，显示完成/总数、速度与预计剩余时间。
+- [Rice00/dsh-loupe](https://github.com/Rice00/dsh-loupe) —— 在 DSH 会话里划词并在浮窗中解释：独立通道、不污染主会话、可保存成正式会话。
 
 ## Skill
 
@@ -6131,6 +6150,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 - [zekcjshe/LearnForge-skill](https://github.com/zekcjshe/LearnForge-skill) —— 一个 AI Agent 技能，把 B 站长视频、公开课和录播重构为结构化 Obsidian 笔记。面向 408、大学专业课、算法与硬核技术学习，支持跨视频体系构建和长视频精读，自动提炼推导、比喻、易错点与自测题。内置防幻觉校验，兼容 Claude Code、Cursor 等，输出标准 Markdown，无需 Obsidian 也能用。
 - [lordqyxz/dsh-development](https://github.com/lordqyxz/dsh-development) —— 跨 Agent 通用的 DSH 插件开发 Skill（SKILL.md）：Cordis、bundle 安装、工具/UI 与排障。
+- [SihanLv/dsh-literature](https://github.com/SihanLv/dsh-literature) —— DeepSeek Harness 的文献研究能力：dblp + arXiv 检索、权威 BibTeX 与全文下载。
+- [Typhoon-line/film-scan_epson](https://github.com/Typhoon-line/film-scan_epson) —— 爱普生胶片扫描 skill 集合：片夹垫高 / 对焦调校流程沉淀为可移植的 SKILL.md skill（DeepSeek 及其他 agent 均可使用）。
 
 ## 资源
 
