@@ -1010,6 +1010,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [suntianc/dsh-antigravity-auth](https://github.com/suntianc/dsh-antigravity-auth) — DeepSeek Harness 插件，支持 Antigravity OAuth 登录及原生 Antigravity Auth 能力包。
 - [suntianc/dsh-codex-auth](https://github.com/suntianc/dsh-codex-auth) — DeepSeek Harness 插件，复用本地 Codex CLI 的 ChatGPT 登录并新增原生 GPT Auth 设置卡片。
 - [TaylorSwitiger/dsh-plan-bridge](https://github.com/TaylorSwitiger/dsh-plan-bridge) — DeepSeek Harness (dsh) 插件：为 ChatGPT Codex / Claude / ZCode (GLM) / Qwen 订阅套餐提供统一本地桥接——设置状态卡片、一键配置、零核心改动。
+- [kyle123740/dsh-zcode-cli-proxy](https://github.com/kyle123740/dsh-zcode-cli-proxy) —— 把 ZCode CLI 常驻 app-server 会话接入 DeepSeek Harness 的模型反代：注入 Start Plan 账户并以 OAuth 计划令牌签名每个请求，GLM 模型直接消耗 ZCode Start Plan / Coding Plan 额度——真流式、图片输入、会话复用，无需 API Key。
 - [tchivs/agentsw](https://github.com/tchivs/agentsw) — 编码 Agent 的 CLI 供应商切换工具：在一处统一管理 OpenAI/Anthropic 协议供应商，并结合 models.dev 元数据同步到 9 个 Agent——Claude Code、Codex、omp、pi、prime-agent、opencode、Hermes、WorkBuddy、DeepSeek Harness。可从 cc-switch 导入，非破坏式，保留你手工调优的配置。
 - [shangdi178/dsh-versions](https://github.com/shangdi178/dsh-versions) — dsh (DeepSeek Harness) 主程序版本管理插件：版本总览 + npm 更新检查 + 在线升级/降级/重装 + 升级前自动快照、任意历史版本秒级回滚。
 - [yidapan666-creator/dsh-gate](https://github.com/yidapan666-creator/dsh-gate) — 面向 DeepSeek Harness 的轻量、持久化 Codex 监督者桥接插件。
