@@ -3725,6 +3725,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [liuyun847/dsh-host-compliance-check](https://github.com/liuyun847/dsh-host-compliance-check) — DSH host plugin: automatically dispatches a requirements-compliance-check subagent at the end of a turn (DeepSeek Harness).
 - [ShikangPang/jizuo-creator-writing](https://github.com/ShikangPang/jizuo-creator-writing) — DeepSeek Harness novel-writing plugin: standalone novel projects, chapters and revisions.
 - [ShikangPang/jizuo-creator-video](https://github.com/ShikangPang/jizuo-creator-video) — DeepSeek Harness video-creation plugin: standalone video projects, cross-novel-chapter adaptation and editing.
+- [weibaohui/dsh-thinktank](https://github.com/weibaohui/dsh-thinktank) — Think tank: a built-in library of 144 classic mental models (decision/strategy/cognition/psychology/communication/learning/system/innovation/execution) — enter one question and several selected models analyze it in parallel via AI, producing a synthesized report with consensus, disagreements, blind spots and an action checklist; supports both automatic analysis and prompt round-trip import.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
