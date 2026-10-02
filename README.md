@@ -274,6 +274,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [R-LEI2536/dsh-more-agent-presets](https://github.com/R-LEI2536/dsh-more-agent-presets) — More Agent Presets for DSH derived from other coding agents (e.g. Qwen Code, iFlow).
 - [tianyaojiudi-prog/dsh-djy-xttsc](https://github.com/tianyaojiudi-prog/dsh-djy-xttsc) — DSH plugin: inject a text block (editable anytime on the settings page) as a global system-prompt segment into all sessions, including subagents and workflow-internal subagents; text and toggle take effect instantly without restart.
 - [ROBOHAPPYIY/dsh-zh-review-guard](https://github.com/ROBOHAPPYIY/dsh-zh-review-guard) — DSH bundle plugin: make internal reasoning user-reviewable and keep every user-facing explanation in Simplified Chinese; injected into every session system prompt.
+- [mubaid/dsh-fluent-korean](https://github.com/mubaid/dsh-fluent-korean) — Switchable Korean output styles as a bundle patch layer: the plugin registers its own system-prompt section asking the model for natural Korean prose, with a second style that drops the coding guidance. Rules carried over byte-identically from `snflkd/fluent-korean` (MIT); verified against dsh `0.2.0-rc.2`. Install: `dsh plugin add mubaid/dsh-fluent-korean`.
 
 ## Harnesses & Runtimes
 
@@ -2153,6 +2154,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Ryuu-64/dsh-session-tools](https://github.com/Ryuu-64/dsh-session-tools) — Let the agent start a new session, or send a message to another one.
 
 - [haotian-lu-prog/dsh-archived-sessions-manager](https://github.com/haotian-lu-prog/dsh-archived-sessions-manager) — DSH archived-session manager: a plugin plus RPC/end-to-end tools.
+- [mubaid/dsh-opencode-freeaccess](https://github.com/mubaid/dsh-opencode-freeaccess) — Puts the DSH conversation session id on outgoing model requests so OpenCode's free tier accepts them, by listening on the `llm/stream` waterfall and injecting the session header family onto requests to opencode hosts. Other hosts are untouched and no API key is needed; verified against dsh `0.2.0-rc.2`. Install: `dsh plugin --profile web add github:mubaid/dsh-opencode-freeaccess`.
 
 ## Cost & Usage Tracking
 

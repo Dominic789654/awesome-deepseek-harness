@@ -274,6 +274,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [R-LEI2536/dsh-more-agent-presets](https://github.com/R-LEI2536/dsh-more-agent-presets) —— 为 DSH 移植更多 Agent Preset：从其它编码代理（如 Qwen Code、iFlow）派生。
 - [tianyaojiudi-prog/dsh-djy-xttsc](https://github.com/tianyaojiudi-prog/dsh-djy-xttsc) —— DSH 插件：把一段可在设置页随时改写的文字作为全局系统提示词段注入到所有会话（含子代理与工作流内部子代理）；文本与开关即时生效，无需重启。
 - [ROBOHAPPYIY/dsh-zh-review-guard](https://github.com/ROBOHAPPYIY/dsh-zh-review-guard) —— DSH bundle 插件：让内部推理可被用户审查，并让所有面向用户的说明保持简体中文；注入到每个会话的系统提示词。
+- [mubaid/dsh-fluent-korean](https://github.com/mubaid/dsh-fluent-korean) —— 以组合包形式提供的可切换韩语输出风格：插件注册自己的系统提示段落，要求模型写出自然韩语；另有一种不带编码指引的风格。规则文本来自 `snflkd/fluent-korean`（MIT，逐字节保留），已在 dsh `0.2.0-rc.2` 上验证。安装：`dsh plugin add mubaid/dsh-fluent-korean`
 
 ## Harness 与运行时
 
@@ -2158,6 +2159,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Ryuu-64/dsh-session-tools](https://github.com/Ryuu-64/dsh-session-tools) —— 让 agent 新建会话，或给另一个会话发消息。
 
 - [haotian-lu-prog/dsh-archived-sessions-manager](https://github.com/haotian-lu-prog/dsh-archived-sessions-manager) —— DSH 已归档会话管理器：插件 + RPC/端到端工具。
+- [mubaid/dsh-opencode-freeaccess](https://github.com/mubaid/dsh-opencode-freeaccess) —— 把 DSH 会话 id 注入出站模型请求，使 OpenCode 免费额度接受这些请求：监听 `llm/stream` waterfall 并向 opencode 主机注入会话头族，其他主机不受影响，无需 API key；已在 dsh `0.2.0-rc.2` 上验证。安装：`dsh plugin --profile web add github:mubaid/dsh-opencode-freeaccess`
 
 ## 成本与用量统计
 
