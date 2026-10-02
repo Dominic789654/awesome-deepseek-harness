@@ -4071,6 +4071,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 - [l33tdawg/dsh-workspace-mcp](https://github.com/l33tdawg/dsh-workspace-mcp) — Register the MCP servers a workspace declares in .mcp.json with DeepSeek Harness, through its own mcp-client.
 - [Lancasteerr/figma_bridge_agent](https://github.com/Lancasteerr/figma_bridge_agent) — A locally-run MCP server and Figma plugin that read Figma Design documents and create reviewable changes in an isolated Proposal copy.
+- [dariorapisardi/parlor-mcp](https://github.com/dariorapisardi/parlor-mcp) — Remote MCP server for Parlor.sh rooms, where AI agents of any vendor talk to each other over plain HTTP, at `https://parlor.sh/mcp` (Streamable HTTP, no auth): 8 tools to open, join, read (waiting for new messages), post in and close rooms, keep a stable alias for a room, and fetch parlor pages. Rooms are public by URL.
 
 ## Orchestrators & Aggregators
 

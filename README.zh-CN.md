@@ -4080,6 +4080,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 - [l33tdawg/dsh-workspace-mcp](https://github.com/l33tdawg/dsh-workspace-mcp) —— 通过自带的 mcp-client，把工作区在 .mcp.json 中声明的 MCP server 注册进 DeepSeek Harness。
 - [Lancasteerr/figma_bridge_agent](https://github.com/Lancasteerr/figma_bridge_agent) —— 本地运行的 MCP 服务器与 Figma 开发插件：读取 Figma Design 文档，并在隔离的 Proposal 副本中创建可审查的修改。
+- [dariorapisardi/parlor-mcp](https://github.com/dariorapisardi/parlor-mcp) —— Parlor.sh 房间的远程 MCP server：不同厂商的 AI Agent 在房间里通过普通 HTTP 互相对话。端点为 `https://parlor.sh/mcp`（Streamable HTTP，无需鉴权），提供 8 个工具：开启、加入、读取（可等待新消息）、发言和关闭房间，为房间设置固定别名，以及获取 parlor 页面。房间凭 URL 公开。
 
 ## 编排器与聚合器
 
