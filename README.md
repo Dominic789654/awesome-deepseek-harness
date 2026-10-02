@@ -1288,6 +1288,12 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [w32394045-dotcom/dsh-toolbox](https://github.com/w32394045-dotcom/dsh-toolbox) — DSH toolbox: a single-file Windows exe with GUI and CLI modes (68 commands across 20 groups: files, hashes, processes, services, system, network, signatures, tasks, host ops and installation).
 - [wee-b/disk-sentinel](https://github.com/wee-b/disk-sentinel) — DeepSeek Harness disk analysis and safe cleanup plugin for Windows.
 
+- [Alicex7777/dsh-theme-colors](https://github.com/Alicex7777/dsh-theme-colors) — DSH Web theme plugin: per-region colors, OKLCH depth/vividness, 26 day+night schemes, 3-state text colors with a free gamut picker.
+- [F-0426/dsh-theme-dishuhai](https://github.com/F-0426/dsh-theme-dishuhai) — Dual-mode theme for DeepSeek Harness - 「抵数海」: a dark endfield-industrial style (near-black + signal yellow + contour-line texture) and a light DeepSeek-official style, each with its own startup animation.
+- [gswenxue/dsh-egress-router](https://github.com/gswenxue/dsh-egress-router) — On-demand egress routing plugin for DeepSeek Harness: import vless/vmess/trojan/ss nodes, route only blocked traffic (GitHub, pip, npm) through them, fall back automatically, never auto-delete nodes.
+- [Coshire90-1135/DSH-MnnChat-Provider](https://github.com/Coshire90-1135/DSH-MnnChat-Provider) — Bridges the on-device small model from MNN Chat on your phone into DeepSeek Harness (DSH) as an LLM provider - an entertainment project; tool calling mostly does not work and text-to-image is not supported yet.
+- [zepeng-jin/dsh-completion-notifier](https://github.com/zepeng-jin/dsh-completion-notifier) — DSH macOS native completion notification banners and sound alerts with a Settings UI.
+
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._
@@ -2130,6 +2136,11 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [121212165/dsh-plugin-obsidian-push](https://github.com/121212165/dsh-plugin-obsidian-push) — DSH plugin: pushes archived session transcripts into an Obsidian vault as Markdown with YAML frontmatter, deduped by content hash (`/obsidian-push`).
 - [121212165/dsh-plugin-pinboard](https://github.com/121212165/dsh-plugin-pinboard) — DSH plugin: cross-session pinboard — pinned notes ride into every session's system prompt under a token budget (`/pin`, `/unpin`, `/pins`, `pin_add`).
 
+- [bvbhu/dsh-quilt-compact](https://github.com/bvbhu/dsh-quilt-compact) — Replaces DSH's default compaction-basic: compresses conversation content with a chosen model, chunk-summarizing on demand then merging.
+- [drscrewdriver/dsh-context-compression-improved](https://github.com/drscrewdriver/dsh-context-compression-improved) — Improved fork of dsh-context-compression-selector with an orthogonal code-skeleton compression gate.
+- [Lzcdebear/dsh-delete-session](https://github.com/Lzcdebear/dsh-delete-session) — Delete sessions, not archive them.
+- [Ryuu-64/dsh-session-tools](https://github.com/Ryuu-64/dsh-session-tools) — Let the agent start a new session, or send a message to another one.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -2467,6 +2478,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [121212165/dsh-plugin-session-insights](https://github.com/121212165/dsh-plugin-session-insights) — DSH plugin: cross-session activity stats from per-call token records — daily trend, priciest sessions, model mix, CSV export (`/insights`, `/insights-export`).
 - [121212165/dsh-plugin-tool-trace](https://github.com/121212165/dsh-plugin-tool-trace) — DSH plugin: per-tool-call telemetry — duration, argument and result sizes — into monthly JSONL, with `/tools-stats` ranking the slowest tools.
 - [121212165/dsh-plugin-relay-quota](https://github.com/121212165/dsh-plugin-relay-quota) — DSH plugin: reads remaining quota and usage from any OpenAI-compatible relay's billing surface (`/quota`, `quota_check`).
+
+- [aming1029/dsh-sub2api-usage](https://github.com/aming1029/dsh-sub2api-usage) — DeepSeek Harness plugin: shows Sub2API balance and usage details in the left sidebar; the query interface (server address / mode / path / field pointers) is fully customizable.
 
 ## Channel / IM Bridges
 
@@ -3058,6 +3071,9 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [godchen520/collab-canvas](https://github.com/godchen520/collab-canvas) — Collaborative canvas plugin for DSH: a Markdown document surface co-written by a human and the AI. The model reads and writes through canvas_* tools, with version-conflict detection, undoable history and file persistence.
 - [naletko/dsh-image-studio](https://github.com/naletko/dsh-image-studio) — An Images workspace for DeepSeek Harness: generate with fal.ai, browse every result, compare candidates, animate the winner in Kling, and assemble a cut with ffmpeg.
 
+- [yuehancn/dsh-tool-media](https://github.com/yuehancn/dsh-tool-media) — DeepSeek Harness media tool plugin.
+- [yuehancn/dsh-tool-subtitle](https://github.com/yuehancn/dsh-tool-subtitle) — DeepSeek Harness subtitle tool plugin.
+
 ## Slides / PPT
 
 _Generate presentations, decks, slide exports._
@@ -3488,6 +3504,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [Lostforest7/dsh-apirevise](https://github.com/Lostforest7/dsh-apirevise) — API regression & acceptance workbench for DeepSeek Harness.
 - [Sandyzzx/dsh-zcode-bridge](https://github.com/Sandyzzx/dsh-zcode-bridge) — DeepSeek Harness (dsh) bundle: delegate development tasks to your local ZCode runtime, follow progress, and review the changes.
 
+- [codel6i/dsh-shell-switch](https://github.com/codel6i/dsh-shell-switch) — Switch the dsh agent's command shell between PowerShell and Git Bash, from a panel in Settings or on the plugin's own row page.
+
 ## Agents
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
@@ -3754,6 +3772,9 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [ShikangPang/jizuo-creator-account](https://github.com/ShikangPang/jizuo-creator-account) — Jizuo account plugin: DeepSeek Harness browser login, account entitlements and model access.
 - [ShikangPang/jizuo-creator-media-models](https://github.com/ShikangPang/jizuo-creator-media-models) — Media-model plugin: image/video model configuration and chat-generation tools for DeepSeek Harness.
 - [samorachumbi/dsh-domain-watch](https://github.com/samorachumbi/dsh-domain-watch) — Ask the registry, not the vendor dashboard: whether a domain is really registered, who the registrar of record is, and when it expires. DSH agent tools plus a host-rendered board.
+
+- [liancha22/dsh-puzzle-mode](https://github.com/liancha22/dsh-puzzle-mode) — DSH plugin | Puzzle mode: a session binds to one puzzle project (a main doc + several module docs); the AI asks questions to turn unknowns into decided items and scores project health along five dimensions. The main doc's section five `## 工作流` is a standardized pipeline; doc format v6.
+- [S3K926/dsh-selfwake](https://github.com/S3K926/dsh-selfwake) — DSH (DeepSeek Harness) plugin: speak up on schedule - once four gates (interval / quiet / unanswered cap / silent hours) pass, it picks something to say, preferring the active session; otherwise it sends a system notification and writes a log. MIT.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -5898,6 +5919,12 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [liuxing7954/paseo-dsh](https://github.com/liuxing7954/paseo-dsh) — Paseo native provider plugin + DSH bridge that makes DeepSeek Harness a first-class citizen in Paseo: question cards, plan mode, thinking levels, interjections and usage. No Paseo source changes, no DSH fork.
 - [lql341/deepseek-harness-linux-desktop](https://github.com/lql341/deepseek-harness-linux-desktop) — Unofficial Linux x64 (AppImage/deb) port patch set for the DeepSeek Harness desktop app, aiming at macOS-like behaviour.
 
+- [A7m0spHere/dsh-feiyuFM](https://github.com/A7m0spHere/dsh-feiyuFM) — FishFM (肥鱼电台) - gives the DeepSeek big-fish a pair of headphones. A music-persona desktop companion for DeepSeek Harness; NetEase Cloud Music and QQ Music support planned.
+- [archcra/dsh-plugin-project-monitor](https://github.com/archcra/dsh-plugin-project-monitor) — DSH plugin: an item-progress board. Self-managed data, zero config, red/amber/yellow/green due-date alerts plus a daily digest - no local Excel needed.
+- [iimaguest/dsh-contradictions-indicator](https://github.com/iimaguest/dsh-contradictions-indicator) — DSH plugin: a 0-100 conversation coherence badge with parallel contradiction analysis.
+- [QIN-SMART/dsh-sidebar-marks](https://github.com/QIN-SMART/dsh-sidebar-marks) — DeepSeek Harness plugin: sidebar conversation marks - row tint, colored dot, per-conversation title size.
+- [Super-Gagaga/PromptForge](https://github.com/Super-Gagaga/PromptForge) — PromptForge for DSH: a sparkle button beside the composer that rewrites your draft with an existing DSH model, with a settings page for model and reasoning effort.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -6260,6 +6287,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [LinuxSuRen/my-dsh-skills](https://github.com/LinuxSuRen/my-dsh-skills) — Personal AI-coding-assistant skill library for DeepSeek Harness (DSH) and compatible agent conventions: R&D methodology, Git discipline, open-source contribution norms, and skill-library freshness.
 - [121212165/dsh-plugin-prompt-vault](https://github.com/121212165/dsh-plugin-prompt-vault) — DSH plugin: personal prompt library inside the harness — import tagged templates, browse them, and fire one into the current session (`/pv`).
 - [PolinniZhong/dsh-skill-intelligence](https://github.com/PolinniZhong/dsh-skill-intelligence) — DSH Skill intelligence lab: explore, understand and evolve Agent Skills.
+
+- [xiex16070-jpg/dsh-learn](https://github.com/xiex16070-jpg/dsh-learn) — Persistent learning for DeepSeek Harness: turn a session's corrections, failures and fixes into ordinary DSH skills. Zero extra model calls.
 
 ## Resources
 
