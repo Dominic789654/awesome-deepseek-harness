@@ -295,7 +295,6 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [guzhou079-arch/deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) — Package DeepSeek Harness into a directly installable Android APK: no Termux, no root, no environment setup — and it can compile, package, sign and publish on the phone itself.
 - [Maopk/dsh-termux-kit](https://github.com/Maopk/dsh-termux-kit) — Running DeepSeek Harness on a non-rooted Android phone without having to sit and watch it: Termux widgets, a Console app and an Accessibility bridge.
 - [sol5766/dshm](https://github.com/sol5766/dshm) — DeepSeek Harness HarmonyOS PC client.
-- [wuwaka/dsh-rehearsal](https://github.com/wuwaka/dsh-rehearsal) — Upgrade rehearsal CLI for DeepSeek Harness: static peer-graph pre-flight plus keyless real-session migration and write-round drills in a throwaway DSH_HOME. External CLI, not a plugin.
 - [xieani090612/dsh-remote-panel](https://github.com/xieani090612/dsh-remote-panel) — DSH plugin that probes local WSL distributions and remote SSH machines (mostly AI-written).
 
 ## Harnesses & Runtimes

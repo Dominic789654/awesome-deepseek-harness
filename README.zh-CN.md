@@ -296,7 +296,6 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [guzhou079-arch/deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) —— 把 DeepSeek Harness 打包成可直接安装的安卓 APK：不用 Termux、不用 root、不用配环境，还能在手机上自行编译、打包、签名、发布。
 - [Maopk/dsh-termux-kit](https://github.com/Maopk/dsh-termux-kit) —— 在未 root 的安卓手机上运行 DeepSeek Harness，且无需一直盯着：Termux 小组件、Console 应用与无障碍桥。
 - [sol5766/dshm](https://github.com/sol5766/dshm) —— DeepSeek Harness 鸿蒙（HarmonyOS）PC 客户端。
-- [wuwaka/dsh-rehearsal](https://github.com/wuwaka/dsh-rehearsal) —— DeepSeek Harness 升级预演 CLI：静态 peer-graph 预检 + 在一次性 DSH_HOME 中进行免密钥的真实会话迁移与写轮演练。外部 CLI，非插件。
 - [xieani090612/dsh-remote-panel](https://github.com/xieani090612/dsh-remote-panel) —— DSH（DeepSeek Harness）插件：探测本机 WSL 发行版与远程 SSH 机器（注：主要部分由 AI 编写）。
 
 ## Harness 与运行时
