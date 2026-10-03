@@ -3893,7 +3893,6 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 <!-- 在此添加条目。 -->
-- [dariorapisardi/parlor-mcp](https://github.com/dariorapisardi/parlor-mcp) —— 面向 parlor.sh 房间的远程 MCP server，供无法发起 HTTP 请求的 web 聊天使用。
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) —— 通过 MCP 将 DeepSeek Harness 接入 Busabase 知识与结构化数据，在实时 Inspector 中渲染记录和 ChangeRequest，并将 Agent 写入置于人工审核之后。
 - [xiaokaizhou/dsh-llm-multimodal](https://github.com/xiaokaizhou/dsh-llm-multimodal) —— DSH 插件：在聊天中提供图像/视频生成工具，基于 OpenAI 兼容 API。
 - [ZIye1208/dsh-github-mcp](https://github.com/ZIye1208/dsh-github-mcp) —— DSH 插件：GitHub MCP 连接插件，token 存 DSH 凭据中心(.credentials.yaml)，自动捆绑安装面板插件 dsh-github-mcp-hint（可独立卸载）。

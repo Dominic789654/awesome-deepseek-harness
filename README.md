@@ -3877,7 +3877,6 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 _Model Context Protocol servers that contribute tools / prompts / resources to DSH._
 
 <!-- Add entries here. -->
-- [dariorapisardi/parlor-mcp](https://github.com/dariorapisardi/parlor-mcp) — Remote MCP server for parlor.sh rooms, for web chats that cannot make HTTP requests.
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) — Connects DeepSeek Harness to Busabase knowledge and structured data over MCP, renders records and ChangeRequests in a live inspector, and keeps agent writes behind human review.
 - [xiaokaizhou/dsh-llm-multimodal](https://github.com/xiaokaizhou/dsh-llm-multimodal) — DSH plugin: image/video generation tools in chat, backed by an OpenAI-compatible API.
 - [ZIye1208/dsh-github-mcp](https://github.com/ZIye1208/dsh-github-mcp) — DSH plugin: GitHub MCP connection plugin, token stored in the DSH credentials center (.credentials.yaml), auto-bundles the companion panel plugin dsh-github-mcp-hint (independently uninstallable).
