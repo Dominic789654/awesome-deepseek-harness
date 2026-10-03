@@ -1579,6 +1579,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [EarthPretender/dsh-session-delete](https://github.com/EarthPretender/dsh-session-delete) —— DSH 插件：在会话「…」菜单的「归档会话」下方新增红色「删除会话」行，二次确认后真正删除该会话的日志与工作区登记（不可逆；运行中的会话会拒绝删除）。
 - [liuqingman/dsh-somni](https://github.com/liuqingman/dsh-somni) —— 给 DSH agent 的睡眠整理式长期记忆：情节 / 语义 / 前瞻 / 程序四类记忆 + 身份，stdio JSON-RPC sidecar，空闲时做梦整理，零配置 Cordis 插件。
 - [shuiqian520/dsh-session-delete](https://github.com/shuiqian520/dsh-session-delete) —— DSH 插件：从侧边栏菜单永久删除会话，并可重试某条用户消息或助手回复。
+- [dsh-rehearsal](https://github.com/wuwaka/dsh-rehearsal) — DeepSeek Harness 升级预演 CLI：只读预检 peer、patch 与锁文件冲突；无键预演在影子 DSH_HOME 中对会话副本回放 v0→v4 迁移，并验证迁移后的会话仍能写回。
 - [songofhawk/doco-dsh](https://github.com/songofhawk/doco-dsh) —— Doco 知识库的 DeepSeek Harness（dsh）原生插件——块级寻址的搜索、阅读、大纲与存草稿。
 - [omoinoki/dsh-sekaisync-connect](https://github.com/omoinoki/dsh-sekaisync-connect) —— 本地 SekaiSync 知识库的 DeepSeek Harness 直连模块——10 个精简工具，零依赖。
 - [alcheme-labs/dsh-experience-map](https://github.com/alcheme-labs/dsh-experience-map) —— 把已完成的 DeepSeek Harness 工作沉淀为可校验、可审批、可执行、可验证、可遗忘的“经验”（Experience）——SQLite 存记录，并在 Harness 的 Experience 选项卡中提供可读的关系图谱。
