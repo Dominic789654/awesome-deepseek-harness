@@ -2974,7 +2974,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [YZz-S/dsh-modlens](https://github.com/YZz-S/dsh-modlens) —— DeepSeek Harness（dsh）视觉插件——ModLens 的 fork，新增多引擎图片读取（Gemini、火山方舟/豆包、Claude），可按引擎单独选择。
 - [WTStarMark/dsh-plugin-mesh](https://github.com/WTStarMark/dsh-plugin-mesh) — 把带 dsh 系列 GitHub 标签的仓库画成一张可交互的生态网络图。
 - [cyanseek/dsh-landscape](https://github.com/cyanseek/dsh-landscape) —— 面向 agent 的 DeepSeek Harness 插件情报工具：核验现有插件、找出缺失能力，并生成可直接开工的 building brief。
-- [DSH-EAC/EAC-mojobox](https://github.com/DSH-EAC/EAC-mojobox) —— 整合包式 DSH 插件管理平台：为 DSH 提供预构建、经验证、可回滚的插件包。
+- [DSH-EAC/EAC-mojobox](https://github.com/DSH-EAC/EAC-mojobox) —— 整合包式 DSH 插件管理平台：为 DSH 提供预构建、可回滚的插件包。
 
 ## 可视化
 
@@ -6124,8 +6124,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [thezavtrak-a11y/dsh-locale-ru](https://github.com/thezavtrak-a11y/dsh-locale-ru) — DSH Web UI 俄语语言包：社区客户端插件，在 Settings → General → Language 中新增 ru。
 - [thezavtrak-a11y/dsh-session-tabs](https://github.com/thezavtrak-a11y/dsh-session-tabs) — DSH Web UI 插件：为打开的会话提供浏览器式标签页——切换、关闭、拖拽排序，并可拖出为独立窗口。
 - [woaiys3/deepseek-harness-android-app](https://github.com/woaiys3/deepseek-harness-android-app) — DSH 手机版：可直接安装的 Android APK，AI 免 Root 操作手机（Shizuku/root 可选），文件编辑只需所有文件访问权限，前台保活 + AI 通知。
-- [Astemiir/dsh-client-locale-ru](https://github.com/Astemiir/dsh-client-locale-ru) —— DeepSeek Harness（dsh）Web UI 的俄语本地化插件——新增 ru 语言（52 个命名空间、2626 条字符串）。
-- [SMSMy/dsh-arabic](https://github.com/SMSMy/dsh-arabic) —— DeepSeek Harness 的阿拉伯语支持：阿拉伯语/英语混排的双向安全 RTL 渲染，外加完整阿拉伯语界面语言包（3228 条字符串）。
+- [Astemiir/dsh-client-locale-ru](https://github.com/Astemiir/dsh-client-locale-ru) —— DeepSeek Harness（dsh）Web UI 的俄语本地化插件——新增 ru 语言。
+- [SMSMy/dsh-arabic](https://github.com/SMSMy/dsh-arabic) —— DeepSeek Harness 的阿拉伯语支持：阿拉伯语/英语混排的双向安全 RTL 渲染，外加完整阿拉伯语界面语言包。
 - [cfyofjackie/dsh-selection-quote](https://github.com/cfyofjackie/dsh-selection-quote) —— DSH 客户端插件：在对话中划选文本，作为原子引用附加到输入框。
 - [Depar7ure/dsh-desktop-web-refresh](https://github.com/Depar7ure/dsh-desktop-web-refresh) —— DSH Desktop 插件：标题栏「编辑」右侧新增蓝底白字伪 3D「刷新」按钮；有对话运行时禁用并弹警告，全静默才允许刷新。
 - [OahzOb/dsh-tabs](https://github.com/OahzOb/dsh-tabs) —— DeepSeek Harness（dsh）桌面客户端：本机 Harness 与经 SSH 的远程 Harness，各占一个标签页，标签栏即窗口边框。

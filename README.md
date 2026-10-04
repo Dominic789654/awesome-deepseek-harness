@@ -2957,7 +2957,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [YZz-S/dsh-modlens](https://github.com/YZz-S/dsh-modlens) — DeepSeek Harness (dsh) vision plugin — a fork of ModLens adding multi-engine image reading (Gemini, Volcengine Ark/Doubao, Claude) with per-engine selection.
 - [WTStarMark/dsh-plugin-mesh](https://github.com/WTStarMark/dsh-plugin-mesh) — Draws repos carrying the dsh-series GitHub topic into an interactive ecosystem network graph.
 - [cyanseek/dsh-landscape](https://github.com/cyanseek/dsh-landscape) — Agent-first DeepSeek Harness plugin intelligence: verify existing plugins, identify missing capabilities, and generate build-ready briefs.
-- [DSH-EAC/EAC-mojobox](https://github.com/DSH-EAC/EAC-mojobox) — Bundle-style DSH plugin management platform: pre-built, verified, reversible plugin packs for DSH.
+- [DSH-EAC/EAC-mojobox](https://github.com/DSH-EAC/EAC-mojobox) — Bundle-style DSH plugin management platform: pre-built, reversible plugin packs for DSH.
 
 ## Visualization
 
@@ -6124,8 +6124,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [thezavtrak-a11y/dsh-locale-ru](https://github.com/thezavtrak-a11y/dsh-locale-ru) — Russian language pack for the DSH web UI — a community client plugin adding ru to Settings → General → Language.
 - [thezavtrak-a11y/dsh-session-tabs](https://github.com/thezavtrak-a11y/dsh-session-tabs) — DSH Web UI plugin: browser-style tabs for open Sessions — switch, close, reorder by drag, and tear a tab off into a separate window.
 - [woaiys3/deepseek-harness-android-app](https://github.com/woaiys3/deepseek-harness-android-app) — DeepSeek Harness for phones: an installable Android APK where the AI operates the phone without root (Shizuku/root optional); file editing needs all-files access, foreground keep-alive + AI notifications.
-- [Astemiir/dsh-client-locale-ru](https://github.com/Astemiir/dsh-client-locale-ru) — Russian localization plugin for the DeepSeek Harness (dsh) web UI — adds the ru language (52 namespaces, 2626 strings).
-- [SMSMy/dsh-arabic](https://github.com/SMSMy/dsh-arabic) — Arabic for DeepSeek Harness: bidi-safe RTL rendering for mixed Arabic/English content plus a full Arabic UI language pack (3,228 strings).
+- [Astemiir/dsh-client-locale-ru](https://github.com/Astemiir/dsh-client-locale-ru) — Russian localization plugin for the DeepSeek Harness (dsh) web UI — adds the ru language.
+- [SMSMy/dsh-arabic](https://github.com/SMSMy/dsh-arabic) — Arabic for DeepSeek Harness: bidi-safe RTL rendering for mixed Arabic/English content plus a full Arabic UI language pack.
 - [cfyofjackie/dsh-selection-quote](https://github.com/cfyofjackie/dsh-selection-quote) — DSH client plugin: select text in a conversation and attach it to the composer as an atomic quote reference.
 - [Depar7ure/dsh-desktop-web-refresh](https://github.com/Depar7ure/dsh-desktop-web-refresh) — DSH Desktop plugin: a blue pseudo-3D "refresh" button beside "edit" in the title bar; disabled with a warning while a conversation is running, refresh only when fully idle.
 - [OahzOb/dsh-tabs](https://github.com/OahzOb/dsh-tabs) — Desktop client for DeepSeek Harness (dsh): the local Harness and remote ones over SSH, one tab each, in a window whose tab bar is the window chrome.
