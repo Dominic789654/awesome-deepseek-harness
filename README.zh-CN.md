@@ -6542,6 +6542,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [holny/Agent-Harness-Develop-Book](https://github.com/holny/Agent-Harness-Develop-Book) —— Agent Harness（Loop Engineering）开发指南：完整架构与核心模块，基于生产级 agent 源码——Claude Code、DeepSeek Harness、OpenCode、Pi、Codex、OpenClaw 与 Hermes（英文 & 中文）。
 
 - [super-mortal/DeepSeekHarnessGuide](https://github.com/super-mortal/DeepSeekHarnessGuide) — DeepSeek Harness 蓝皮书：任务驱动、插件优先的图文教程站点（VitePress，6 语言），从第一个可用 agent 讲到可复用的工作体系。
+- [DeepSeek Harness CLI 速查（dseek.app）](https://dseek.app/cli) —— 非官方第三方页面：`npx @deepseek-ai/dsh web` 快速启动、Node.js 版本要求、headless 与插件命令，均链接到官方仓库或 npm 页面。
 
 ## 贡献指南
 
