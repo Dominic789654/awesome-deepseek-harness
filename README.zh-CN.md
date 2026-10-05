@@ -1358,6 +1358,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [itchenshi/dsh-gateway-models](https://github.com/itchenshi/dsh-gateway-models) —— DSH 网关路由插件：声明 OpenCode Go 与 Command Code 的路由协议与端点（无需手输 API 地址）并补全其模型列表；OpenCode Go 半区把 DeepSeek V4.1 排在首位，Command Code 半区同步其公开目录中的全部 81 个模型，另注入 x-opencode-session 请求头。
 - [spix18/dsh-auto-continue](https://github.com/spix18/dsh-auto-continue) —— DeepSeek Harness（DSH）自动续跑插件：当一轮因 429 限流、额度耗尽、空响应或你自定义的错误码而中断时自动继续。
 
+- [bluechonk/dsh-zcode-connect](https://github.com/bluechonk/dsh-zcode-connect) —— DSH 插件：把 ZCode start-plan 端点包装成 OpenAI 兼容 API（含可复现的逆向研究工具链）。
+- [having5548/dsh-downloader](https://github.com/having5548/dsh-downloader) —— DeepSeek Harness 下载代理插件：模型下载境外文件时自动走插件自带的代理内核（订阅自包含，不依赖本机 Clash），境内直连，带 sha256 / 大小上限 / 停滞检测与「设置 -> 下载代理」管理面板。
+- [zmm863-commits/paopaocat-deepseek-harness-mobile](https://github.com/zmm863-commits/paopaocat-deepseek-harness-mobile) —— paopaocat deepseek harness-mobile：把整套 DSH 运行时装进口袋的 Android 版（Flutter + Node，321 专家 / 12 技能，arm64-v8a）。
+
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
@@ -2242,6 +2246,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [NightPainters/DSH-Ling](https://github.com/NightPainters/DSH-Ling) —— 器灵：跑在你自己电脑上的记忆与人格助手插件 —— 三层记忆、树状可调架构、从历史里长出来的人格档案、定型锁与自由生长。
 - [ttmouse/dsh-muse](https://github.com/ttmouse/dsh-muse) —— 类 Muse 的 DSH 持久化：跨重启的持久自主性 + 静默主动心跳。
 
+- [annkun/dsh-memory](https://github.com/annkun/dsh-memory) —— DeepSeek Harness（DSH）记忆插件。
+
 ## 成本与用量统计
 
 _token 用量、成本看板与预算告警插件。_
@@ -2591,6 +2597,8 @@ _token 用量、成本看板与预算告警插件。_
 - [thezavtrak-a11y/dsh-cost-stats](https://github.com/thezavtrak-a11y/dsh-cost-stats) — 在 DSH Web GUI 显示花费：聊天内每轮 USD 成本、带图表/评级/可交互消费时间线的 Cost 标签页，以及可自行维护的本地价格表。
 
 - [itchenshi/dsh-model-surplus](https://github.com/itchenshi/dsh-model-surplus) —— DSH 插件：在会话头部显示模型用量、套餐额度与账户余额 —— OpenCode Go 套餐用量（滚动 / 周 / 月）与所选模型的月度上限、Command Code 的 5 小时 / 周窗口剩余额度，以及 DeepSeek 账户余额。
+
+- [GalileoNio/dsh-cost](https://github.com/GalileoNio/dsh-cost) —— DeepSeek Harness 插件：在输入框统计条里显示分段会话成本，价格取自 harness 模型目录（41 个 provider、约 1495 个模型）。
 
 ## Channel / IM 桥接
 
@@ -3931,6 +3939,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [leolee9086/dsh-tool-gateway](https://github.com/leolee9086/dsh-tool-gateway) — 把 DSH 的工具目录收成 find_tools + call_tool 两个元工具，其余工具仍可调用，只是入口变成这两个。
 - [syc67169-source/dsh-team-employees](https://github.com/syc67169-source/dsh-team-employees) — 把 DSH 变成多员工协同团队：员工花名册、内容流水线、一道人工闸门，外加一个会动的办公室界面。
 - [Iris0fTheValley/Thaliris-dsh](https://github.com/Iris0fTheValley/Thaliris-dsh) —— 为 DeepSeek Harness 打造的 Thaliris 插件：使用原生 agent、子 agent、Settings 以及共享的 Web/Desktop 客户端扩展。
+
+- [ikun666666/dsh-groupchat](https://github.com/ikun666666/dsh-groupchat) —— DSH 插件：每个工程一个群聊 —— 多个 AI 会话与人同群互聊、@ 唤醒离线会话、@创建成员 拉新会话进群。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -6148,6 +6158,12 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [NianwYue/native-glass-skin](https://github.com/NianwYue/native-glass-skin) —— DSH 桌面皮肤 Native Glass：毛玻璃输入框与弹层浮于半透明背景之上。纯 CSS/图片，无 hook、无代码。
 - [youbaiyun/dsh-browser-application](https://github.com/youbaiyun/dsh-browser-application) —— DeepSeek Harness 桌面应用的浏览器扩展：让模型把你当前所在的页面读成带编号控件的文本并对其操作（点击、输入、滚动、导航、管理标签页）；操作前先询问、密码留在页面内、仅连接 127.0.0.1。
 
+- [AliceSaikawa/dsh-webui-m3e](https://github.com/AliceSaikawa/dsh-webui-m3e) —— DeepSeek Harness（DSH）的 Material 3 Expressive 移动端 Web UI 插件，可按设备切换。
+- [Bear0117/dsh-plan-checkup](https://github.com/Bear0117/dsh-plan-checkup) —— DeepSeek Harness 的计划体检（Plan Checkup）：在你批准计划前逐条检查，并把结果标注在计划审查卡片上。
+- [dgmico/dsh-markdown-composer](https://github.com/dgmico/dsh-markdown-composer) —— 让 DSH 输入框支持 Markdown：草稿实时渲染预览 + 格式化工具栏 + 语法快捷键，保留官方 composer 的附件、模型、权限、斜杠命令等全部能力。
+- [itchenshi/dsh-gui-last-session](https://github.com/itchenshi/dsh-gui-last-session) —— DeepSeek Harness 插件：重启后重新打开你上一次所在的会话，无需改动引擎文件。
+- [luzonghao/dsh-workspace-light](https://github.com/luzonghao/dsh-workspace-light) —— DSH 插件：侧栏工作区四态灯（🟡 待交互 / 🔄 执行中 / 🟢 已完成 / ⏰ 仅定时）+ 会话标签（侧栏标签面板、会话行标签按钮）+ 会话「⋯」菜单 Mark as unread。纯客户端，外观复用宿主原生组件。
+
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
@@ -6521,6 +6537,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [vlln/dsh-skills](https://github.com/vlln/dsh-skills) —— DeepSeek Harness（dsh）开发与维护 skill：写插件（形态 / 契约 / 设置页 / 发布）与修复打不开的会话历史。
 - [971184676/dsh-skill-manager](https://github.com/971184676/dsh-skill-manager) — DSH 技能库管理器：全机器扫描 Claude/Codex/Gemini/AGENTS 技能，去重、分类、安装、删除，解决「看不到 / 调不了技能」。
 - [Wisdoverse/dsh-skills-manager-plugin](https://github.com/Wisdoverse/dsh-skills-manager-plugin) —— DeepSeek Harness 的 skill 管理器：通过触发钩子主动激活 skill、从 GitHub 源同步，并提供 Settings 管理界面。
+
+- [3acloud/openair](https://github.com/3acloud/openair) —— 把 Skill 做成应用，让 AI 能力更容易使用和管理（本地 AirCode + AirThink 服务，由本机 Codex 驱动）。
+- [Aenotr/local-imagegen-skill](https://github.com/Aenotr/local-imagegen-skill) —— DSH Skill：用本机 GPU 上的 ComfyUI + Z-Image Turbo 离线生图（零 API 费用），含显卡能力自检、文生图与局部重绘 CLI。
 
 ## 资源
 
