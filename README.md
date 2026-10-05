@@ -79,6 +79,7 @@ Before installing, confirm the target repo carries the **`#dsh`** GitHub topic s
 - [Agents](#agents)
 - [Loops (Auto-Research, Self-Improve, etc.)](#loops-auto-research-self-improve-etc)
 - [MCP Servers](#mcp-servers)
+- [Tools & Integrations](#tools--integrations)
 - [Orchestrators & Aggregators](#orchestrators--aggregators)
 - [UI / Clients](#ui--clients)
 - [Skills](#skills)

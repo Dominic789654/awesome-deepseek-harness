@@ -79,6 +79,7 @@ dsh plugin --profile web add "github:owner/repo#main"
 - [Agent](#agent)
 - [循环（自动研究 / 自我改进等）](#循环自动研究--自我改进等)
 - [MCP Server](#mcp-server)
+- [工具与集成](#工具与集成)
 - [编排器与聚合器](#编排器与聚合器)
 - [UI / 客户端](#ui--客户端)
 - [Skill](#skill)
