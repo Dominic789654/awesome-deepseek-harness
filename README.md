@@ -6540,6 +6540,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [holny/Agent-Harness-Develop-Book](https://github.com/holny/Agent-Harness-Develop-Book) — Agent Harness (Loop Engineering) development guide covering the complete architecture and core modules, based on production-grade agent source: Claude Code, DeepSeek Harness, OpenCode, Pi, Codex, OpenClaw and Hermes (English & Chinese).
 
 - [super-mortal/DeepSeekHarnessGuide](https://github.com/super-mortal/DeepSeekHarnessGuide) — DeepSeek Harness bluebook: a task-driven, plugin-first guide site (VitePress, 6 languages) taking you from a first working agent to a reusable work system.
+- [DeepSeek Harness CLI cheat sheet (dseek.app)](https://dseek.app/cli) — Unofficial third-party page: `npx @deepseek-ai/dsh web` quickstart, Node.js requirement, headless and plugin commands, each linked to the official repo or npm page.
 
 ## Contributing
 
