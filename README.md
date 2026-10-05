@@ -1352,6 +1352,10 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [lemonxiny55/dsh-composition-doctor](https://github.com/lemonxiny55/dsh-composition-doctor) — Read-only DSH and Cordis composition diagnostics: snapshots, diffs, and upgrade preflight.
 - [Ianzhyh/workbuddy-to-dsh](https://github.com/Ianzhyh/workbuddy-to-dsh) — Bring the models already signed in on your local WorkBuddy desktop app natively into DeepSeek Harness: a local bridge + data console + native DSH plugin (single folder to install).
 
+- [HitMargin/ai-proxy](https://github.com/HitMargin/ai-proxy) — Multi-upstream AI API aggregation proxy: one OpenAI-compatible endpoint outward, adapting the protocol differences of 10 upstreams inward (web reverse-engineering / private CLI gateways / passthrough); Deno-local + cloudflared tunnel + Cloudflare Worker, with a DSH plugin settings panel.
+- [itchenshi/dsh-gateway-models](https://github.com/itchenshi/dsh-gateway-models) — DSH plugin for gateway routes: declares the OpenCode Go and Command Code route protocol + endpoint (so the API address never has to be typed) and completes their model lists; the OpenCode Go half puts DeepSeek V4.1 first, the Command Code half syncs all 81 models from its public catalog, and it adds the x-opencode-session header.
+- [spix18/dsh-auto-continue](https://github.com/spix18/dsh-auto-continue) — Auto-continue plugin for DeepSeek Harness (DSH): automatically resumes a turn that ended on a 429 rate limit, an exhausted quota, an empty response, or your own configured error codes.
+
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._
@@ -2229,6 +2233,9 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [vi0let-dev/dsh-session-trash](https://github.com/vi0let-dev/dsh-session-trash) — Adds session deletion to DSH: deleted sessions go to a recycle bin and can be restored; permanent deletion clears logs, workspace accounting, archive markers and the host session table.
 - [IKEASven69/dsh-takeover](https://github.com/IKEASven69/dsh-takeover) — DSH session-relay plugin: pull in sessions from six agent CLIs (/resume-*), park the current session (/handoff), and pick it up on start (/inbox), built on the open `handoff: 1` protocol.
 
+- [NightPainters/DSH-Ling](https://github.com/NightPainters/DSH-Ling) — Artifact Spirit (器灵) — a local-first memory & persona plugin for DeepSeek Harness: three-tier memory, a tree-adjustable architecture, a persona archive grown from your history, a定型 lock and free growth.
+- [ttmouse/dsh-muse](https://github.com/ttmouse/dsh-muse) — Muse-like persistence for DSH: durable autonomy across restarts + silent proactive heartbeat.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -2574,6 +2581,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [ch1bug/dsh-voice-mimo](https://github.com/ch1bug/dsh-voice-mimo) — Xiaomi MiMo-powered voice for DeepSeek Harness: browser 🎤/🧠/🔊 UI, voice_transcribe/voice_understand/voice_speak tools, and a configurable voice map (preset/voicedesign/voiceclone). Fork of zhuiyueya/dsh-voice (MIT).
 - [shxtmaker/dsh-token-quota](https://github.com/shxtmaker/dsh-token-quota) — DSH usage-monitoring plugin: provider cycle-quota display (DeepSeek / OpenCode / Command Code), plus auto-detection of the providers already added to DSH with automatic API-key fill-in.
 - [thezavtrak-a11y/dsh-cost-stats](https://github.com/thezavtrak-a11y/dsh-cost-stats) — Money on screen for the DSH web GUI: per-turn USD cost in chat, a Cost tab with charts, ratings and an interactive spend timeline, and a local price table you control.
+
+- [itchenshi/dsh-model-surplus](https://github.com/itchenshi/dsh-model-surplus) — DSH plugin: model usage, plan quota and account balance in the session header — OpenCode Go plan usage (rolling/weekly/monthly) with the selected model's monthly cap, Command Code 5-hour/weekly windows with remaining credits, and DeepSeek account balance.
 
 ## Channel / IM Bridges
 
@@ -6131,6 +6140,13 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [OahzOb/dsh-tabs](https://github.com/OahzOb/dsh-tabs) — Desktop client for DeepSeek Harness (dsh): the local Harness and remote ones over SSH, one tab each, in a window whose tab bar is the window chrome.
 - [OahzOb/dsh-tabs-android](https://github.com/OahzOb/dsh-tabs-android) — Android client for a remote DeepSeek Harness (dsh) web UI over SSH: one in-process session, one WebView per machine, no Harness on the device.
 - [serein4444/dsh-chat-assistant](https://github.com/serein4444/dsh-chat-assistant) — DeepSeek Harness side-chat plugin: fork ordinary sessions from the main one, docked on the right sidebar with full history and multiple instances; selection quotes packaged as attachments; closing a tab auto-archives it.
+
+- [Hobartoakes/dsh-model-shelf](https://github.com/Hobartoakes/dsh-model-shelf) — Model Shelf for DeepSeek Harness: a wide, collapsible model picker with a manually managed uncommon list.
+- [HOPE-LGNF/dsh-state-notifier](https://github.com/HOPE-LGNF/dsh-state-notifier) — DeepSeek Harness notification plugin for completion, approval, question, blocked and error states.
+- [itchenshi/dsh-keys-setting](https://github.com/itchenshi/dsh-keys-setting) — DSH plugin: choose whether Enter / Shift+Enter / Ctrl/Cmd+Enter sends the message or inserts a line break.
+- [momo20012002/dsh-hmos-emulator](https://github.com/momo20012002/dsh-hmos-emulator) — DSH better-sidebar tab: one-click start of the HarmonyOS emulator, build and deploy HarmonyOS apps to it.
+- [NianwYue/native-glass-skin](https://github.com/NianwYue/native-glass-skin) — DSH desktop skin: Native Glass — frosted composer & popovers over a translucent backdrop. Pure CSS/images, no hooks, no code.
+- [youbaiyun/dsh-browser-application](https://github.com/youbaiyun/dsh-browser-application) — Browser extension for the DeepSeek Harness desktop app: it lets the model see the page you are on as text with numbered controls and act on it (click, type, scroll, navigate, manage tabs); it asks first, keeps passwords in the page, and connects only to 127.0.0.1.
 
 ## Skills
 

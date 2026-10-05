@@ -1354,6 +1354,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [lemonxiny55/dsh-composition-doctor](https://github.com/lemonxiny55/dsh-composition-doctor) — DSH 与 Cordis 组合的只读诊断：快照、差异与升级预检。
 - [Ianzhyh/workbuddy-to-dsh](https://github.com/Ianzhyh/workbuddy-to-dsh) —— 把本机 WorkBuddy 桌面端已登录的模型原生接进 DeepSeek Harness：本地桥 + 数据控制台 + dsh 原生插件（单文件夹即可安装）。
 
+- [HitMargin/ai-proxy](https://github.com/HitMargin/ai-proxy) —— 多上游 AI API 聚合代理：对外一个 OpenAI 兼容入口，对内适配 10 个上游的协议差异（网页端逆向 / 私有 CLI 网关 / 透传）；Deno 本地 + cloudflared 隧道 + Cloudflare Worker，附 DSH 插件设置面板。
+- [itchenshi/dsh-gateway-models](https://github.com/itchenshi/dsh-gateway-models) —— DSH 网关路由插件：声明 OpenCode Go 与 Command Code 的路由协议与端点（无需手输 API 地址）并补全其模型列表；OpenCode Go 半区把 DeepSeek V4.1 排在首位，Command Code 半区同步其公开目录中的全部 81 个模型，另注入 x-opencode-session 请求头。
+- [spix18/dsh-auto-continue](https://github.com/spix18/dsh-auto-continue) —— DeepSeek Harness（DSH）自动续跑插件：当一轮因 429 限流、额度耗尽、空响应或你自定义的错误码而中断时自动继续。
+
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
@@ -2235,6 +2239,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [vi0let-dev/dsh-session-trash](https://github.com/vi0let-dev/dsh-session-trash) — 给 DSH 补上会话删除：删除先进回收站可还原，彻底删除会清干净日志、工作区记账、归档标记与宿主会话表。
 - [IKEASven69/dsh-takeover](https://github.com/IKEASven69/dsh-takeover) —— DSH 会话接力插件：拉取六家 agent 的会话（/resume-*）、寄存当前会话（/handoff）、开局取件（/inbox），落在开放的 `handoff: 1` 协议上。
 
+- [NightPainters/DSH-Ling](https://github.com/NightPainters/DSH-Ling) —— 器灵：跑在你自己电脑上的记忆与人格助手插件 —— 三层记忆、树状可调架构、从历史里长出来的人格档案、定型锁与自由生长。
+- [ttmouse/dsh-muse](https://github.com/ttmouse/dsh-muse) —— 类 Muse 的 DSH 持久化：跨重启的持久自主性 + 静默主动心跳。
+
 ## 成本与用量统计
 
 _token 用量、成本看板与预算告警插件。_
@@ -2582,6 +2589,8 @@ _token 用量、成本看板与预算告警插件。_
 - [ch1bug/dsh-voice-mimo](https://github.com/ch1bug/dsh-voice-mimo) —— 由小米 MiMo 驱动的 DeepSeek Harness 语音插件：浏览器 🎤/🧠/🔊 UI，voice_transcribe/voice_understand/voice_speak 工具，语音映射可配置（preset/voicedesign/voiceclone）。fork 自 zhuiyueya/dsh-voice（MIT）。
 - [shxtmaker/dsh-token-quota](https://github.com/shxtmaker/dsh-token-quota) —— DSH 用量监控插件：显示各供应商周期限额（DeepSeek / OpenCode / Command Code），并自动探测 DSH 已添加的供应商、自动填入 API Key。
 - [thezavtrak-a11y/dsh-cost-stats](https://github.com/thezavtrak-a11y/dsh-cost-stats) — 在 DSH Web GUI 显示花费：聊天内每轮 USD 成本、带图表/评级/可交互消费时间线的 Cost 标签页，以及可自行维护的本地价格表。
+
+- [itchenshi/dsh-model-surplus](https://github.com/itchenshi/dsh-model-surplus) —— DSH 插件：在会话头部显示模型用量、套餐额度与账户余额 —— OpenCode Go 套餐用量（滚动 / 周 / 月）与所选模型的月度上限、Command Code 的 5 小时 / 周窗口剩余额度，以及 DeepSeek 账户余额。
 
 ## Channel / IM 桥接
 
@@ -6131,6 +6140,13 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [OahzOb/dsh-tabs](https://github.com/OahzOb/dsh-tabs) —— DeepSeek Harness（dsh）桌面客户端：本机 Harness 与经 SSH 的远程 Harness，各占一个标签页，标签栏即窗口边框。
 - [OahzOb/dsh-tabs-android](https://github.com/OahzOb/dsh-tabs-android) —— 远程 DeepSeek Harness（dsh）Web UI 的 Android 客户端（走 SSH）：单进程会话，每台机器一个 WebView，设备上不装 Harness。
 - [serein4444/dsh-chat-assistant](https://github.com/serein4444/dsh-chat-assistant) —— DeepSeek Harness 辅助对话插件：从主会话 fork 出普通会话，停靠右侧栏、继承完整历史、可多开；划词引用打包为附件、关闭标签即自动归档。
+
+- [Hobartoakes/dsh-model-shelf](https://github.com/Hobartoakes/dsh-model-shelf) —— DeepSeek Harness 的 Model Shelf：一个宽幅、可折叠的模型选择器，附带手动维护的冷门模型清单。
+- [HOPE-LGNF/dsh-state-notifier](https://github.com/HOPE-LGNF/dsh-state-notifier) —— DeepSeek Harness 的完成、审批、提问、受阻与错误状态通知插件。
+- [itchenshi/dsh-keys-setting](https://github.com/itchenshi/dsh-keys-setting) —— DSH 插件：选择 Enter / Shift+Enter / Ctrl/Cmd+Enter 是发送消息还是插入换行。
+- [momo20012002/dsh-hmos-emulator](https://github.com/momo20012002/dsh-hmos-emulator) —— DSH better-sidebar 侧边栏标签页：一键启动鸿蒙模拟器，并构建、部署 HarmonyOS 应用到模拟器。
+- [NianwYue/native-glass-skin](https://github.com/NianwYue/native-glass-skin) —— DSH 桌面皮肤 Native Glass：毛玻璃输入框与弹层浮于半透明背景之上。纯 CSS/图片，无 hook、无代码。
+- [youbaiyun/dsh-browser-application](https://github.com/youbaiyun/dsh-browser-application) —— DeepSeek Harness 桌面应用的浏览器扩展：让模型把你当前所在的页面读成带编号控件的文本并对其操作（点击、输入、滚动、导航、管理标签页）；操作前先询问、密码留在页面内、仅连接 127.0.0.1。
 
 ## Skill
 
