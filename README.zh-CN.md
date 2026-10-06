@@ -1641,6 +1641,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [ChenYueqi2024/dsh-memory](https://github.com/ChenYueqi2024/dsh-memory) — DeepSeek Harness（dsh）跨会话项目记忆——原生 Cordis 插件（厦门大学毕设项目）。
 - [EarthPretender/dsh-session-delete](https://github.com/EarthPretender/dsh-session-delete) —— DSH 插件：在会话「…」菜单的「归档会话」下方新增红色「删除会话」行，二次确认后真正删除该会话的日志与工作区登记（不可逆；运行中的会话会拒绝删除）。
 - [liuqingman/dsh-somni](https://github.com/liuqingman/dsh-somni) —— 给 DSH agent 的睡眠整理式长期记忆：情节 / 语义 / 前瞻 / 程序四类记忆 + 身份，stdio JSON-RPC sidecar，空闲时做梦整理，零配置 Cordis 插件。
+- [Sev7eEn7/sieve](https://github.com/Sev7eEn7/sieve) —— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
 - [shuiqian520/dsh-session-delete](https://github.com/shuiqian520/dsh-session-delete) —— DSH 插件：从侧边栏菜单永久删除会话，并可重试某条用户消息或助手回复。
 - [dsh-rehearsal](https://github.com/wuwaka/dsh-rehearsal) — DeepSeek Harness 升级预演 CLI：只读预检 peer、patch 与锁文件冲突；无键预演在影子 DSH_HOME 中对会话副本回放 v0→v4 迁移，并验证迁移后的会话仍能写回。
 - [songofhawk/doco-dsh](https://github.com/songofhawk/doco-dsh) —— Doco 知识库的 DeepSeek Harness（dsh）原生插件——块级寻址的搜索、阅读、大纲与存草稿。
