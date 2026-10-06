@@ -2265,6 +2265,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Ukashi0/dsh-memory-guardian](https://github.com/Ukashi0/dsh-memory-guardian) — 面向 DeepSeek Harness 的本地优先记忆治理：作用域召回、来源追溯、冲突复核与 Web 仪表盘。
 - [SolidiFact/dsh-auto-archive](https://github.com/SolidiFact/dsh-auto-archive) —— dsh Web 插件：每晚一次，自动归档闲置三周的已完成 dsh 会话。
 - [SolidiFact/dsh-session-list-cache](https://github.com/SolidiFact/dsh-session-list-cache) —— dsh Web 插件：避免打开的页面每 5 秒重建全部已存会话的列表行。
+- [ysr666/dsh-computer-history](https://github.com/ysr666/dsh-computer-history) —— 面向 DeepSeek Harness 的隐私优先电脑历史与工作连续性工具——本地优先、仅存元数据。
+- [zhang66633/memvault](https://github.com/zhang66633/memvault) —— 给编程智能体的本地长期记忆：一个 SQLite 文件 + 16 个 MCP 工具 + REST / CLI / 可视化控制台，零 Key 可用、完全离线。
 
 ## 成本与用量统计
 
@@ -2619,6 +2621,7 @@ _token 用量、成本看板与预算告警插件。_
 - [GalileoNio/dsh-cost](https://github.com/GalileoNio/dsh-cost) —— DeepSeek Harness 插件：在输入框统计条里显示分段会话成本，价格取自 harness 模型目录（41 个 provider、约 1495 个模型）。
 - [CH2008445/dsh-api-balance](https://github.com/CH2008445/dsh-api-balance) —— 在 DSH Web GUI 侧边栏底部显示 DeepSeek API 账户余额、单次运行花费与每百万 token 价格；文案支持英 / 中 / 俄 / 德。API key 只留在宿主进程：不执行 shell、不绕过沙箱，仅走官方端点。
 - [MrTomTao/dsh-token-billing](https://github.com/MrTomTao/dsh-token-billing) —— DSH Web GUI 的按会话 token 计费插件：会话标题栏实时显示花费，点开可看输入 / 缓存命中 / 缓存写入 / 输出 / 推理分项、按模型账单，以及高峰与空闲时段价。
+- [greyhackintoch-dev/dsh-month-tokens](https://github.com/greyhackintoch-dev/dsh-month-tokens) —— DeepSeek Harness 插件：按自然月统计本 DSH home 与 opencode 的 token 用量，仅读本地数据，每月 1 日 00:00 重置。
 
 ## Channel / IM 桥接
 
@@ -2815,6 +2818,8 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [aitcmhk-web/DSH-bot](https://github.com/aitcmhk-web/DSH-bot) —— Telegram / 微信桥接插件（DeepSeek Harness / DSH）：一条命令把机器人绑到某个 DSH 工作区，会话之间保持交接连续性。
 
 - [zjhaaa042-cloud/dsh-mobile-notify](https://github.com/zjhaaa042-cloud/dsh-mobile-notify) —— DSH 插件：任务完成后把通知推送到手机 —— ntfy / Bark / 钉钉 / 企业微信 / 飞书 / Server酱 / PushPlus / Telegram / Qmsg酱 / 通用 webhook。
+- [providcc/dsh-remote-mp](https://github.com/providcc/dsh-remote-mp) —— DSH Remote Control 微信小程序客户端：扫码配对桌面主机，发指令、看流式输出、回答审批。载荷级端到端加密。
+- [providcc/dsh-remote-server](https://github.com/providcc/dsh-remote-server) —— DSH Remote Control 的零知识 WebSocket 中继：只做路由，不碰载荷明文。可自托管的单文件产物。
 
 ## 插件市场与生态
 
@@ -3969,6 +3974,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [ikun666666/dsh-groupchat](https://github.com/ikun666666/dsh-groupchat) —— DSH 插件：每个工程一个群聊 —— 多个 AI 会话与人同群互聊、@ 唤醒离线会话、@创建成员 拉新会话进群。
 - [ESROAMER/codex-dsh-collab](https://github.com/ESROAMER/codex-dsh-collab) —— 从 Codex 把任务委派给桌面可见的 DeepSeek Harness agent：限定范围的凭据、持久会话与可复用 skill。
 - [tommyhedgerow/Mimir](https://github.com/tommyhedgerow/Mimir) —— 一个 Obsidian 学习笔记库 + DeepSeek Harness agent 预设：先探测你已懂什么，规划知识依赖图，等你确认后逐个节点把主题写进笔记库。支持英文与简体中文。
+- [jiangzeyuan/dsh-rivermind](https://github.com/jiangzeyuan/dsh-rivermind) —— RiverMind：基于 DeepSeek Harness 的德扑 Agent 训练场，让 AI 玩家拥有独立策略、长期记忆和可追溯的决策。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4269,6 +4275,12 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [EricWang1358/dsh-web-studyhub](https://github.com/EricWang1358/dsh-web-studyhub) —— StudyHub：把你的资料变成题目与间隔复习的 DeepSeek Harness（DSH）学习插件。
 - [LiPu-jpg/Openwrite](https://github.com/LiPu-jpg/Openwrite) —— dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、90 个小说工具、原生工作台与标准审稿 DAG。
 - [moazzamak/dsh-voice-input](https://github.com/moazzamak/dsh-voice-input) —— DeepSeek Harness 输入框的本地离线语音转写：一个麦克风按钮，在你的机器上用 faster-whisper 录音并转写，再插入聊天草稿。
+- [bilibiliUID1480494301/dsh-relayhub-bridge](https://github.com/bilibiliUID1480494301/dsh-relayhub-bridge) —— DeepSeek Harness 插件：用 TOIP 动态口令把 DSH 接入 relay-hub 中转站，并在中转站侧获得按插件分的日志记账。
+- [chen1pengvincent/dsh-model-sync-plugin](https://github.com/chen1pengvincent/dsh-model-sync-plugin) —— DSH 模型插件：监控并更新各服务商提供的最新模型（检查只读、勾选添加、不自动删除）。
+- [ddtcorex/dsh-maestro-core](https://github.com/ddtcorex/dsh-maestro-core) —— 面向 DSH Web 稳定性的守护进程：自动检测崩溃、回滚到上一个正常版本（LKG）并上报。
+- [KAIROSLLL/dsh-users-open-source](https://github.com/KAIROSLLL/dsh-users-open-source) —— DSH（DeepSeek Harness）插件「开源用户」：修复 DeepSeek Harness 不能自动开源用户代码的问题（作者自述为玩笑之作）。
+- [QTATQ233/dsh-jingcha](https://github.com/QTATQ233/dsh-jingcha) —— DSH 运行时监察：工具调用 / 事件循环 / 错误风暴实时体检 + 按调用强制停止 + 右下角红绿灯挂件（0 token）。
+- [siqyka/dsh-ssh-workspace](https://github.com/siqyka/dsh-ssh-workspace) —— 通过 SSH 把远程主机的文件夹当成 DSH 工作区，无需手动同步、无需挂载驱动、无需第三方文件系统：主机管理、目录浏览器和五个 agent 工具。
 
 ## 编排器与聚合器
 
@@ -6229,6 +6241,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [zkforge/dsh-claude-desktop-theme](https://github.com/zkforge/dsh-claude-desktop-theme) — 面向 DeepSeek Harness 桌面端的 Claude Code 风格主题插件 —— 支持 macOS 与 Windows、明暗主题、模型与推理档位选择器。
 - [xiaoxingyuemiao/dsh-bg-plugin](https://github.com/xiaoxingyuemiao/dsh-bg-plugin) —— DSH 自定义背景插件：为 DSH Web GUI 应用远程/本地图片背景，支持清晰度、压暗、模糊调节，设置面板保持默认外观。
 - [Zian-anson/dsh-prompt-seed](https://github.com/Zian-anson/dsh-prompt-seed) —— DSH 输入框插件：在语义保真闸门后，把一句话种子变成可执行提示词；信号做推理，指令保持克制，对话仍归你所有。
+- [luoshuizhiwei/dsh-desktop-restart](https://github.com/luoshuizhiwei/dsh-desktop-restart) —— DeepSeek Harness 桌面版重启插件：会话标题栏按钮 / 斜杠命令 / 设置页入口，经分离的 helper 重启整个 Electron 应用。
+- [yfwu2020/dsh-selection-explain](https://github.com/yfwu2020/dsh-selection-explain) —— DSH 划词解读：选中文字浮出按钮，点击弹窗流式显示专业中英翻译 + 该文字在当前上下文中的含义详解。
 
 ## Skill
 

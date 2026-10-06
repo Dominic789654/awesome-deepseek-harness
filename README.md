@@ -2259,6 +2259,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Ukashi0/dsh-memory-guardian](https://github.com/Ukashi0/dsh-memory-guardian) — Local-first memory governance for DeepSeek Harness: scoped recall, provenance, conflict review and a web dashboard.
 - [SolidiFact/dsh-auto-archive](https://github.com/SolidiFact/dsh-auto-archive) — dsh web plugin: archive finished dsh sessions idle for three weeks, once a night.
 - [SolidiFact/dsh-session-list-cache](https://github.com/SolidiFact/dsh-session-list-cache) — dsh web plugin: stop an open page from rebuilding every stored session’s list row every 5 seconds.
+- [ysr666/dsh-computer-history](https://github.com/ysr666/dsh-computer-history) — Privacy-first computer history and work continuity for DeepSeek Harness — local-first, metadata-only.
+- [zhang66633/memvault](https://github.com/zhang66633/memvault) — Local long-term memory for coding agents: one SQLite file, 16 MCP tools, REST + CLI + dashboard, no API key required.
 
 ## Cost & Usage Tracking
 
@@ -2611,6 +2613,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [GalileoNio/dsh-cost](https://github.com/GalileoNio/dsh-cost) — A DeepSeek Harness plugin: per-segment Session cost in the composer statistics strip, priced from the harness model catalog (41 providers, ~1495 models).
 - [CH2008445/dsh-api-balance](https://github.com/CH2008445/dsh-api-balance) — DeepSeek API account balance, per-run usage cost and per-1M-token prices in the DSH web GUI sidebar footer; copy in English, Chinese, Russian and German. The API key stays in the host process: no shell, no sandbox bypass, official endpoint only.
 - [MrTomTao/dsh-token-billing](https://github.com/MrTomTao/dsh-token-billing) — Per-session token-billing plugin for the DSH Web GUI: live session cost in the title bar, with an expandable input / cache-hit / cache-write / output / reasoning breakdown, per-model billing, and peak vs. off-peak pricing.
+- [greyhackintoch-dev/dsh-month-tokens](https://github.com/greyhackintoch-dev/dsh-month-tokens) — DeepSeek Harness plugin: a calendar-month token counter for this DSH home and opencode, from local data only, resetting at 00:00 on the 1st.
 
 ## Channel / IM Bridges
 
@@ -2803,6 +2806,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [aitcmhk-web/DSH-bot](https://github.com/aitcmhk-web/DSH-bot) — Telegram / WeChat bridge plugin for DeepSeek Harness (DSH): bind your bot to a DSH workspace in one command, with handoff continuity between sessions.
 
 - [zjhaaa042-cloud/dsh-mobile-notify](https://github.com/zjhaaa042-cloud/dsh-mobile-notify) — DSH plugin: push a notification to your phone when a task completes — ntfy / Bark / DingTalk / WeCom / Feishu / ServerChan / PushPlus / Telegram / Qmsg / generic webhook.
+- [providcc/dsh-remote-mp](https://github.com/providcc/dsh-remote-mp) — DSH Remote Control WeChat mini-program client: scan to pair with a desktop host, send instructions, watch streaming output and answer approvals. Payload-level end-to-end encryption.
+- [providcc/dsh-remote-server](https://github.com/providcc/dsh-remote-server) — Zero-knowledge WebSocket relay for DSH Remote Control: routing only, never touches payload plaintext. Self-hostable single-file artifact.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -3956,6 +3961,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [ikun666666/dsh-groupchat](https://github.com/ikun666666/dsh-groupchat) — DSH plugin: one group chat per project — multiple AI sessions chat with the human in one group, @ wakes offline sessions, and @create-member pulls a new session into the group.
 - [ESROAMER/codex-dsh-collab](https://github.com/ESROAMER/codex-dsh-collab) — Delegate tasks from Codex to desktop-visible DeepSeek Harness agents, with scoped credentials, persistent sessions and a reusable skill.
 - [tommyhedgerow/Mimir](https://github.com/tommyhedgerow/Mimir) — An Obsidian learning vault wired to a DeepSeek Harness agent preset that teaches: probe what you know, plan a dependency map, get approval, then build a topic node by node into the vault. English and Simplified Chinese.
+- [jiangzeyuan/dsh-rivermind](https://github.com/jiangzeyuan/dsh-rivermind) — RiverMind: a Texas Hold'em agent training ground built on DeepSeek Harness — AI players with independent strategies, long-term memory and traceable decisions.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4259,6 +4265,12 @@ _Plugins that give the agent tools for external services (container registries, 
 - [EricWang1358/dsh-web-studyhub](https://github.com/EricWang1358/dsh-web-studyhub) — StudyHub: a DeepSeek Harness (DSH) plugin that turns your own material into questions and spaced review.
 - [LiPu-jpg/Openwrite](https://github.com/LiPu-jpg/Openwrite) — dsh-Openwrite: OpenWrite’s DeepSeek Harness novel-writing plugin, with a unified creation Agent, 90 fiction tools, a native workbench and a standard review DAG.
 - [moazzamak/dsh-voice-input](https://github.com/moazzamak/dsh-voice-input) — Offline local speech-to-text for the DeepSeek Harness composer: a microphone button that records, transcribes with faster-whisper on your own machine, and inserts the text into the chat draft.
+- [bilibiliUID1480494301/dsh-relayhub-bridge](https://github.com/bilibiliUID1480494301/dsh-relayhub-bridge) — DeepSeek Harness plugin: join a relay-hub station with a TOIP dynamic password and get per-plugin log accounting on the station side.
+- [chen1pengvincent/dsh-model-sync-plugin](https://github.com/chen1pengvincent/dsh-model-sync-plugin) — DSH model plugin: monitors and updates the latest models offered by each provider (read-only checks, tick to add, never auto-deletes).
+- [ddtcorex/dsh-maestro-core](https://github.com/ddtcorex/dsh-maestro-core) — Supervisor daemon for DSH Web resilience — auto-detects crashes, rolls back to LKG and reports.
+- [KAIROSLLL/dsh-users-open-source](https://github.com/KAIROSLLL/dsh-users-open-source) — DSH (DeepSeek Harness) "open-source users" plugin: fixes the harness's inability to automatically open-source user code. (Self-described as a joke.)
+- [QTATQ233/dsh-jingcha](https://github.com/QTATQ233/dsh-jingcha) — DSH runtime inspector: real-time health checks for tool calls / the event loop / error storms, force-stop per call, and a bottom-right traffic-light widget (0 tokens).
+- [siqyka/dsh-ssh-workspace](https://github.com/siqyka/dsh-ssh-workspace) — Use a directory on an SSH host as a DSH workspace — no manual sync, no mount drivers, no third-party filesystem: host management, a directory browser and five agent tools.
 
 ## Orchestrators & Aggregators
 
@@ -6229,6 +6241,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [zkforge/dsh-claude-desktop-theme](https://github.com/zkforge/dsh-claude-desktop-theme) — Claude Code Desktop-style theme for DeepSeek Harness Desktop — macOS & Windows, light/dark themes, model and effort pickers.
 - [xiaoxingyuemiao/dsh-bg-plugin](https://github.com/xiaoxingyuemiao/dsh-bg-plugin) — DSH custom-background plugin: apply remote/local image backgrounds to the DSH Web GUI, with sharpness, dimming and blur controls; the settings panel keeps its default look.
 - [Zian-anson/dsh-prompt-seed](https://github.com/Zian-anson/dsh-prompt-seed) — DSH composer plugin: turn a one-line seed into an executable prompt behind a semantic fidelity gate; signals infer, directives stay in degree, conversations stay yours.
+- [luoshuizhiwei/dsh-desktop-restart](https://github.com/luoshuizhiwei/dsh-desktop-restart) — DeepSeek Harness desktop restart plugin: a session-title-bar button, a slash command and a settings-page entry that restart the whole Electron app through a separate helper.
+- [yfwu2020/dsh-selection-explain](https://github.com/yfwu2020/dsh-selection-explain) — DSH selection explainer: select text and a floating button appears; click it for a streaming popup with professional EN↔ZH translation plus the meaning of the text in its current context.
 
 ## Skills
 
