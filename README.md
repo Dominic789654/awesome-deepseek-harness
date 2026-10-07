@@ -2284,6 +2284,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [DiaryOfUranus/dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) — Second Brain loader for DSH — a bounded, timestamped snapshot of your local brain injected into every session prompt; read-only, zero-dependency, fail-loud.
 - [EIGHTfs/dsh-session-conductor](https://github.com/EIGHTfs/dsh-session-conductor) — DSH session enhancement plugin: rename / branch / archive sessions.
 
+- [wobenshiwomu/dsh-calm](https://github.com/wobenshiwomu/dsh-calm) — Emotional checkpoint & repair for DSH: soothe, fold and seal off quarrel segments, inject a conclusion, and continue the task from a clean context.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -2641,6 +2643,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 
 - [hbgdjb/dsh-mimo-quota](https://github.com/hbgdjb/dsh-mimo-quota) — MIMO Quota Panel for DeepSeek Harness: per-call accounting from session logs, one screen for token usage, spend, request count, trend waveform and model breakdown, switchable by model / granularity / time range / project·conversation, with editable pricing and automatic DeepSeek peak/off-peak rates.
 - [tuoLuoSuan/dsh-peak-badge](https://github.com/tuoLuoSuan/dsh-peak-badge) — Peak / off-peak billing badge for the DeepSeek API — click to see which rate you are on right now. A DSH plugin.
+
+- [WihteCo/dsh-opencode-go-quota](https://github.com/WihteCo/dsh-opencode-go-quota) — OpenCode Go quota in the DeepSeek Harness sidebar foot: one 42px cell plus a hover popover with the rolling 5-hour, weekly and monthly windows, each carrying a usage bar, an elapsed-time marker, the remaining share and a reset countdown.
 
 ## Channel / IM Bridges
 
@@ -4325,6 +4329,10 @@ _Plugins that give the agent tools for external services (container registries, 
 - [OrderG-X/dsh-chrome-bridge](https://github.com/OrderG-X/dsh-chrome-bridge) — Give your DSH agent hands inside the Chrome you are already using — native messaging + CDP, no TCP port and no Connect button; 9 native browser_* tools.
 - [shuxidemosheng/dsh-tool-todo-plus](https://github.com/shuxidemosheng/dsh-tool-todo-plus) — Enhanced todo_write plugin for DeepSeek Harness: floating task panel with capsule mode, priority tags and full checklist rendering (fork of @deepseek-ai/dsh-tool-todo).
 - [xienda/dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) — TypeSafe Jev (System One) for DeepSeek Harness: 7 tools (decide, choose, batch), a two-tier auto-guard with metered verdicts, a settings card, a money-first usage pill, a local ledger that survives restarts, a derived remaining balance, per-turn auto-triage, and a live 27-question benchmark (96.3%).
+
+- [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab) — Computer-enlightenment plugin series for kids (DeepSeek Harness / Cordis): 7 plugins, one repository per series.
+- [slinxiaosun-blip/ai-passport-dsh](https://github.com/slinxiaosun-blip/ai-passport-dsh) — DSH Passport: turn AI Passport into a portable task terminal for DeepSeek Harness (firmware side).
+- [slinxiaosun-blip/dsh-ai-passport-plugin](https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin) — DSH plugin: turn AI Passport into a portable task terminal for DeepSeek Harness — Bluetooth link, task bridging, speech recognition and a desktop widget.
 
 ## Orchestrators & Aggregators
 
@@ -6314,6 +6322,11 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 
 - [ingeb0rga/dsh-sidebar-hover](https://github.com/ingeb0rga/dsh-sidebar-hover) — Claude Code-style hover sidebar and session history arrows for DeepSeek Harness.
 
+- [Ansellwan/DSH-Custom-Wallpaper](https://github.com/Ansellwan/DSH-Custom-Wallpaper) — Customize the Harness wallpaper — transparency, blur and more.
+- [d0ublecl1ck/dsh-flow](https://github.com/d0ublecl1ck/dsh-flow) — Flow-first DSH plugin: restore actions to intuition — locate the current session, copy the session ID, open links with the system default app (including localhost), right-click inline code to open or copy, and swap Enter with ⌘/Ctrl+Enter.
+- [k53689649-lab/dsh-splash-gojo](https://github.com/k53689649-lab/dsh-splash-gojo) — Full-screen boot splash for DeepSeek Harness: inline images, zero runtime dependencies, host-side only.
+- [qrandmaster/dsh-ar-rtl](https://github.com/qrandmaster/dsh-ar-rtl) — Arabic localization and right-to-left (RTL) support for the DeepSeek Harness UI: 58 namespaces and 2615 keys, plus a direction style sheet and layout fixes built on the app's shipped rules.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -6692,6 +6705,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [wanrenhuifu/NovelNovel](https://github.com/wanrenhuifu/NovelNovel) — DeepSeek Harness plugin: lets the agent write novels with novel_* tools (chapters, SillyTavern character cards, worldbuilding entries, writing presets, context assembly, export), stored as workspace files.
 
 - [ZiYuan258/dsh-skill-router](https://github.com/ZiYuan258/dsh-skill-router) — Agent-driven skill discovery and on-demand loading for DeepSeek Harness: skill_search / skill_load / skill_ref keep a large library out of the resident catalog. Not an auto-inject router — the agent decides what to load.
+
+- [hunterxiong2026/fm1-sloop-editor-2026](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) — M-VAVE FM-1 SLOOP 2.3 groovebox control via SysEx — DeepSeek Harness Skill.
 
 ## Resources
 

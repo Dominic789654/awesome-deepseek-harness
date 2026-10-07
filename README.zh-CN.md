@@ -2290,6 +2290,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [DiaryOfUranus/dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) —— DSH 第二大脑载入器：把有硬上限、带时间戳的脑快照（身份＋状态指纹＋未决项＋指针与边界）注入每个新会话；只读、零写入、fail-loud、零依赖。
 - [EIGHTfs/dsh-session-conductor](https://github.com/EIGHTfs/dsh-session-conductor) —— DSH 会话功能增强插件（重命名 / 分支 / 归档）。
 
+- [wobenshiwomu/dsh-calm](https://github.com/wobenshiwomu/dsh-calm) —— DeepSeek Harness 插件：情绪检查点与修复 —— 安抚、折叠封存争吵段、注入结论，从干净上下文继续任务。
+
 ## 成本与用量统计
 
 _token 用量、成本看板与预算告警插件。_
@@ -2649,6 +2651,8 @@ _token 用量、成本看板与预算告警插件。_
 
 - [hbgdjb/dsh-mimo-quota](https://github.com/hbgdjb/dsh-mimo-quota) —— MIMO 额度面板 · DeepSeek Harness 的模型额度面板：会话日志逐调用自动记账，一屏展示 Token 用量、消费金额、请求次数、趋势波形、模型构成，支持按模型 / 粒度 / 时间范围 / 项目·对话统计切换，内置可编辑定价与 DeepSeek 峰谷价自动套算。
 - [tuoLuoSuan/dsh-peak-badge](https://github.com/tuoLuoSuan/dsh-peak-badge) —— DeepSeek API 峰谷价计费徽标：点一下即可看到当前处于哪档费率。DSH 插件。
+
+- [WihteCo/dsh-opencode-go-quota](https://github.com/WihteCo/dsh-opencode-go-quota) —— 在 DeepSeek Harness 侧边栏底部显示 OpenCode Go 配额：一个 42px 单元，悬停弹窗展示滚动 5 小时、每周和每月窗口，每个窗口带用量条、已用时间标记、剩余份额与重置倒计时。
 
 ## Channel / IM 桥接
 
@@ -4335,6 +4339,10 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [OrderG-X/dsh-chrome-bridge](https://github.com/OrderG-X/dsh-chrome-bridge) —— 让 DSH Agent 在你正在使用的 Chrome 里动手：原生消息 + CDP，无需开 TCP 端口、无需点连接按钮；提供 9 个原生 browser_* 工具。
 - [shuxidemosheng/dsh-tool-todo-plus](https://github.com/shuxidemosheng/dsh-tool-todo-plus) —— 增强版 todo_write 插件：浮动任务面板，支持胶囊模式、优先级标签与完整清单渲染（@deepseek-ai/dsh-tool-todo 的 fork）。
 - [xienda/dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) —— TypeSafe Jev（System One）：7 个工具（decide / choose / batch）、带计量的两级 auto-guard、设置卡片、money-first 用量胶囊、重启不丢的本地账本、派生的剩余额度、按轮自动分诊，以及 27 题实时基准（96.3%）。
+
+- [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab) —— 给小朋友的电脑启蒙插件系列（DeepSeek Harness / Cordis）：7 个插件，一个仓库一个系列。
+- [slinxiaosun-blip/ai-passport-dsh](https://github.com/slinxiaosun-blip/ai-passport-dsh) —— DSH Passport：把 AI Passport 变成 DeepSeek Harness 的随身任务终端（固件端）。
+- [slinxiaosun-blip/dsh-ai-passport-plugin](https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin) —— DSH 插件：把 AI Passport 变成 DeepSeek Harness 的随身任务终端（蓝牙链路、任务桥接、语音识别、桌面挂件）。
 
 ## 编排器与聚合器
 
@@ -6314,6 +6322,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 
 - [ingeb0rga/dsh-sidebar-hover](https://github.com/ingeb0rga/dsh-sidebar-hover) —— DeepSeek Harness 的 Claude Code 风格悬停侧边栏与会话历史箭头。
 
+- [Ansellwan/DSH-Custom-Wallpaper](https://github.com/Ansellwan/DSH-Custom-Wallpaper) —— 可以自定义 Harness 的壁纸，比如透明度和虚化之类的，可以尝试一下。
+- [d0ublecl1ck/dsh-flow](https://github.com/d0ublecl1ck/dsh-flow) —— 心流优先的 DSH 插件：把动作改回直觉——定位当前会话、复制会话 ID、链接交给系统默认程序（含 localhost）、行内代码右键打开或复制、Enter 与 ⌘/Ctrl+Enter 对调。
+- [k53689649-lab/dsh-splash-gojo](https://github.com/k53689649-lab/dsh-splash-gojo) —— DeepSeek Harness 开机动画插件：全屏启动画面，图片内联、零运行依赖、纯 host 半边。
+- [qrandmaster/dsh-ar-rtl](https://github.com/qrandmaster/dsh-ar-rtl) —— DeepSeek Harness 界面的阿拉伯语本地化与从右到左（RTL）支持：58 个命名空间、2615 个键，并提供方向样式表与基于应用内置规则构建的布局修正。
+
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
@@ -6694,6 +6707,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [wanrenhuifu/NovelNovel](https://github.com/wanrenhuifu/NovelNovel) — DeepSeek Harness 插件：让 agent 用 novel_* 工具写小说（章节 / SillyTavern 角色卡 / 世界观词条 / 写作预设 / 上下文组装 / 导出），数据落工作区文件。
 
 - [ZiYuan258/dsh-skill-router](https://github.com/ZiYuan258/dsh-skill-router) —— 由 Agent 驱动的技能发现与按需加载：skill_search / skill_load / skill_ref 让大型技能库不进常驻目录。不是自动注入型路由器——由 Agent 决定加载什么。
+
+- [hunterxiong2026/fm1-sloop-editor-2026](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) —— 通过 SysEx 控制 M-VAVE FM-1 SLOOP 2.3 groovebox —— DeepSeek Harness Skill。
 
 ## 资源
 
