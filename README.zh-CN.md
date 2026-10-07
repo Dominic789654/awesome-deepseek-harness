@@ -2274,6 +2274,10 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [ysr666/dsh-computer-history](https://github.com/ysr666/dsh-computer-history) —— 面向 DeepSeek Harness 的隐私优先电脑历史与工作连续性工具——本地优先、仅存元数据。
 - [zhang66633/memvault](https://github.com/zhang66633/memvault) —— 给编程智能体的本地长期记忆：一个 SQLite 文件 + 16 个 MCP 工具 + REST / CLI / 可视化控制台，零 Key 可用、完全离线。
 
+- [121212165/dsh-plugin-fact-vault](https://github.com/121212165/dsh-plugin-fact-vault) —— DSH 插件：跨会话事实速记本，支持关键词检索，让一个窗口里做的决定在下一个窗口也能找到（/fact save、/fact find、fact_find）。
+- [DiaryOfUranus/dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) —— DSH 第二大脑载入器：把有硬上限、带时间戳的脑快照（身份＋状态指纹＋未决项＋指针与边界）注入每个新会话；只读、零写入、fail-loud、零依赖。
+- [EIGHTfs/dsh-session-conductor](https://github.com/EIGHTfs/dsh-session-conductor) —— DSH 会话功能增强插件（重命名 / 分支 / 归档）。
+
 ## 成本与用量统计
 
 _token 用量、成本看板与预算告警插件。_
@@ -2625,6 +2629,8 @@ _token 用量、成本看板与预算告警插件。_
 - [itchenshi/dsh-model-surplus](https://github.com/itchenshi/dsh-model-surplus) —— DSH 插件：在会话头部显示模型用量、套餐额度与账户余额 —— OpenCode Go 套餐用量（滚动 / 周 / 月）与所选模型的月度上限、Command Code 的 5 小时 / 周窗口剩余额度，以及 DeepSeek 账户余额。
 
 - [GalileoNio/dsh-cost](https://github.com/GalileoNio/dsh-cost) —— DeepSeek Harness 插件：在输入框统计条里显示分段会话成本，价格取自 harness 模型目录（41 个 provider、约 1495 个模型）。
+- [adesbusy/dsh-peak-indicator](https://github.com/adesbusy/dsh-peak-indicator) —— DeepSeek Harness Web GUI 的峰谷定价徽标：品牌字标旁一个小圆点，悬浮显示下次切换的本地时间、UTC 和倒计时。
+
 - [CH2008445/dsh-api-balance](https://github.com/CH2008445/dsh-api-balance) —— 在 DSH Web GUI 侧边栏底部显示 DeepSeek API 账户余额、单次运行花费与每百万 token 价格；文案支持英 / 中 / 俄 / 德。API key 只留在宿主进程：不执行 shell、不绕过沙箱，仅走官方端点。
 - [MrTomTao/dsh-token-billing](https://github.com/MrTomTao/dsh-token-billing) —— DSH Web GUI 的按会话 token 计费插件：会话标题栏实时显示花费，点开可看输入 / 缓存命中 / 缓存写入 / 输出 / 推理分项、按模型账单，以及高峰与空闲时段价。
 - [greyhackintoch-dev/dsh-month-tokens](https://github.com/greyhackintoch-dev/dsh-month-tokens) —— DeepSeek Harness 插件：按自然月统计本 DSH home 与 opencode 的 token 用量，仅读本地数据，每月 1 日 00:00 重置。
@@ -3977,6 +3983,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [leolee9086/dsh-tool-gateway](https://github.com/leolee9086/dsh-tool-gateway) — 把 DSH 的工具目录收成 find_tools + call_tool 两个元工具，其余工具仍可调用，只是入口变成这两个。
 - [syc67169-source/dsh-team-employees](https://github.com/syc67169-source/dsh-team-employees) — 把 DSH 变成多员工协同团队：员工花名册、内容流水线、一道人工闸门，外加一个会动的办公室界面。
 - [Iris0fTheValley/Thaliris-dsh](https://github.com/Iris0fTheValley/Thaliris-dsh) —— 为 DeepSeek Harness 打造的 Thaliris 插件：使用原生 agent、子 agent、Settings 以及共享的 Web/Desktop 客户端扩展。
+- [webees/dsh-codepunk](https://github.com/webees/dsh-codepunk) —— 面向 DeepSeek Harness 的多智能体开发流程预设：六阶段闭环、双门闩、实现三角、goal 自动续行。
+
 
 - [ikun666666/dsh-groupchat](https://github.com/ikun666666/dsh-groupchat) —— DSH 插件：每个工程一个群聊 —— 多个 AI 会话与人同群互聊、@ 唤醒离线会话、@创建成员 拉新会话进群。
 - [ESROAMER/codex-dsh-collab](https://github.com/ESROAMER/codex-dsh-collab) —— 从 Codex 把任务委派给桌面可见的 DeepSeek Harness agent：限定范围的凭据、持久会话与可复用 skill。
@@ -4259,6 +4267,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [dariorapisardi/parlor-mcp](https://github.com/dariorapisardi/parlor-mcp) —— Parlor.sh 房间的远程 MCP server：不同厂商的 AI Agent 在房间里通过普通 HTTP 互相对话。端点为 `https://parlor.sh/mcp`（Streamable HTTP，无需鉴权），提供 8 个工具：开启、加入、读取（可等待新消息）、发言和关闭房间，为房间设置固定别名，以及获取 parlor 页面。房间凭 URL 公开。
 
 - [Coprexist/Copree](https://github.com/Coprexist/Copree) —— AIsChat 开源 AI 群聊框架：让 AI 拥有自己的状态、记忆与生命节奏——不只是工具，是陪伴；群视界（Group World）让每个群聊绑定一个活的世界（网页 + 世界 AI + 代码 + 时间），并支持 DSH 工作区镜像双向同步。
+- [Fourteenth-Night/dsh-aoci](https://github.com/Fourteenth-Night/dsh-aoci) —— 面向 DeepSeek Harness（DSH）的 AOCI-CODE 认知层：一条 /aoci <path> 指令即通过动态 MCP 桥（aoci_rules/overview/maintain）为 agent 提供受治理、Git 版本化的仓库/数据库认知，支持自动维护与压缩契约恢复。MIT；不内置 AOCI-CODE 二进制。
+
 - [piecuzwhynot/dsh-external-workers](https://github.com/piecuzwhynot/dsh-external-workers) —— 给 DeepSeek Harness agent 多三双手：把长任务派给 Claude Code、Codex、Antigravity 三个 CLI，用你自己已有的订阅登录；每条泳道一个持久会话，作业重启和压缩都不会丢。
 - [oldzhang82/dsh-mcp-skill](https://github.com/oldzhang82/dsh-mcp-skill) — DSH 的 MCP 管理 skill：列出 / 启动 / 禁用任意 MCP server，热加载免重启。
 - [borgez/dsh-project-mcp](https://github.com/borgez/dsh-project-mcp) —— DeepSeek Harness 的按项目 MCP 服务器：项目自行声明的 MCP 挂载，仅对该项目内工作的会话生效。
@@ -4287,6 +4297,11 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [LiPu-jpg/Openwrite](https://github.com/LiPu-jpg/Openwrite) —— dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、90 个小说工具、原生工作台与标准审稿 DAG。
 - [moazzamak/dsh-voice-input](https://github.com/moazzamak/dsh-voice-input) —— DeepSeek Harness 输入框的本地离线语音转写：一个麦克风按钮，在你的机器上用 faster-whisper 录音并转写，再插入聊天草稿。
 - [bilibiliUID1480494301/dsh-relayhub-bridge](https://github.com/bilibiliUID1480494301/dsh-relayhub-bridge) —— DeepSeek Harness 插件：用 TOIP 动态口令把 DSH 接入 relay-hub 中转站，并在中转站侧获得按插件分的日志记账。
+- [Fourteenth-Night/dsh-web-search-multi](https://github.com/Fourteenth-Night/dsh-web-search-multi) —— 面向 DeepSeek Harness 的统一多引擎网络搜索插件：一个插件、三个引擎（Exa / Tavily / Firecrawl）、三个面向模型的工具（web_search_exa / web_search_tavily / web_search_firecrawl）——由 AI 按查询选择引擎。
+- [q862877400-ux/dsh-lean-mode](https://github.com/q862877400-ux/dsh-lean-mode) —— 把工具以「浅而准」形态呈现给模型：731 个工具时上下文降到 0.247×，装上即生效、卸载即还原，零核心改动。
+- [SOH4C4759/dsh-plugin-cicd](https://github.com/SOH4C4759/dsh-plugin-cicd) —— DeepSeek Harness 的发布台（Release Console）：侧边栏入口 + 主面板页面，展示每个仓库的最新 CI 运行、发布记录，以及本地检出是否领先于发布版——支持一键构建 / 发布 / 发布草稿。复用本机已认证的 gh CLI，不存储任何凭据。
+- [voyager-crew/voyager](https://github.com/voyager-crew/voyager) —— 面向 Gemini、AI Studio、Claude、ChatGPT 与 DeepSeek 的增强套件，并提供适用于任意网站的提示词管理器（含 DeepSeek Harness）。
+
 - [chen1pengvincent/dsh-model-sync-plugin](https://github.com/chen1pengvincent/dsh-model-sync-plugin) —— DSH 模型插件：监控并更新各服务商提供的最新模型（检查只读、勾选添加、不自动删除）。
 - [ddtcorex/dsh-maestro-core](https://github.com/ddtcorex/dsh-maestro-core) —— 面向 DSH Web 稳定性的守护进程：自动检测崩溃、回滚到上一个正常版本（LKG）并上报。
 - [KAIROSLLL/dsh-users-open-source](https://github.com/KAIROSLLL/dsh-users-open-source) —— DSH（DeepSeek Harness）插件「开源用户」：修复 DeepSeek Harness 不能自动开源用户代码的问题（作者自述为玩笑之作）。
@@ -6253,6 +6268,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 
 - [AllenLogo/dsh-restart-button](https://github.com/AllenLogo/dsh-restart-button) — DSH 设置 → General 一键重启按钮：重启宿主进程并自动刷新页面（DSH 0.1.5+）。
 - [ChisaAlter/WhaleIsle](https://github.com/ChisaAlter/WhaleIsle) — 鲸屿 Whale Isle · DeepSeek Harness 社区增强桌面版：官方核心功能齐备，扩展主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接。
+- [realDGD/dsh-macos-notify](https://github.com/realDGD/dsh-macos-notify) —— 面向 DeepSeek Harness Desktop 的原生 macOS 交互式通知、审批与完整问题表单。
+- [sayho-pm/dsh-locale-pack](https://github.com/sayho-pm/dsh-locale-pack) —— 面向 DeepSeek Harness 桌面应用的 29 种语言本地化包。
+
 - [DSH-EAC/EAC-Desktop](https://github.com/DSH-EAC/EAC-Desktop) — 揽尽万象（桌面版）—— 致力于让数百个 DSH 插件和谐共存。
 - [DSH-EAC/EAC-skin-loader](https://github.com/DSH-EAC/EAC-skin-loader) — DSH UI 皮肤加载器 —— 加载与切换 DSH 界面皮肤。
 - [luzonghao/dsh-input-light](https://github.com/luzonghao/dsh-input-light) — Input Light —— Tab 循环切换 DSH 权限预设（只读 ⇄ 工作区可写），⌘S 经两步确认恢复中断的工作，权限标签按预设配色。纯客户端插件。

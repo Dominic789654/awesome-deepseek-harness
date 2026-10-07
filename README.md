@@ -2268,6 +2268,10 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [ysr666/dsh-computer-history](https://github.com/ysr666/dsh-computer-history) — Privacy-first computer history and work continuity for DeepSeek Harness — local-first, metadata-only.
 - [zhang66633/memvault](https://github.com/zhang66633/memvault) — Local long-term memory for coding agents: one SQLite file, 16 MCP tools, REST + CLI + dashboard, no API key required.
 
+- [121212165/dsh-plugin-fact-vault](https://github.com/121212165/dsh-plugin-fact-vault) — DSH plugin: cross-session fact notepad with keyword recall, so a decision made in one window is findable in the next (/fact save, /fact find, fact_find).
+- [DiaryOfUranus/dsh-second-brain](https://github.com/DiaryOfUranus/dsh-second-brain) — Second Brain loader for DSH — a bounded, timestamped snapshot of your local brain injected into every session prompt; read-only, zero-dependency, fail-loud.
+- [EIGHTfs/dsh-session-conductor](https://github.com/EIGHTfs/dsh-session-conductor) — DSH session enhancement plugin: rename / branch / archive sessions.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -2617,6 +2621,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [itchenshi/dsh-model-surplus](https://github.com/itchenshi/dsh-model-surplus) — DSH plugin: model usage, plan quota and account balance in the session header — OpenCode Go plan usage (rolling/weekly/monthly) with the selected model's monthly cap, Command Code 5-hour/weekly windows with remaining credits, and DeepSeek account balance.
 
 - [GalileoNio/dsh-cost](https://github.com/GalileoNio/dsh-cost) — A DeepSeek Harness plugin: per-segment Session cost in the composer statistics strip, priced from the harness model catalog (41 providers, ~1495 models).
+- [adesbusy/dsh-peak-indicator](https://github.com/adesbusy/dsh-peak-indicator) — Peak / off-peak pricing badge for the DeepSeek Harness Web GUI: a dot beside the brand wordmark, with the next switch in local time, UTC and a countdown on hover.
+
 - [CH2008445/dsh-api-balance](https://github.com/CH2008445/dsh-api-balance) — DeepSeek API account balance, per-run usage cost and per-1M-token prices in the DSH web GUI sidebar footer; copy in English, Chinese, Russian and German. The API key stays in the host process: no shell, no sandbox bypass, official endpoint only.
 - [MrTomTao/dsh-token-billing](https://github.com/MrTomTao/dsh-token-billing) — Per-session token-billing plugin for the DSH Web GUI: live session cost in the title bar, with an expandable input / cache-hit / cache-write / output / reasoning breakdown, per-model billing, and peak vs. off-peak pricing.
 - [greyhackintoch-dev/dsh-month-tokens](https://github.com/greyhackintoch-dev/dsh-month-tokens) — DeepSeek Harness plugin: a calendar-month token counter for this DSH home and opencode, from local data only, resetting at 00:00 on the 1st.
@@ -3964,6 +3970,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [leolee9086/dsh-tool-gateway](https://github.com/leolee9086/dsh-tool-gateway) — Collapses the DSH tool catalog into two meta-tools, find_tools and call_tool; other tools stay callable through these entry points.
 - [syc67169-source/dsh-team-employees](https://github.com/syc67169-source/dsh-team-employees) — Turn DeepSeek Harness into a multi-employee collaboration team: staff roster, content pipeline, one human gate, plus an animated office UI.
 - [Iris0fTheValley/Thaliris-dsh](https://github.com/Iris0fTheValley/Thaliris-dsh) — Thaliris plugin for DeepSeek Harness using native agents, subagents, Settings, and shared Web/Desktop client extensions.
+- [webees/dsh-codepunk](https://github.com/webees/dsh-codepunk) — Multi-agent development-process preset for DeepSeek Harness: six-stage closed loop, double latches, implementation triangle, goal auto-continuation.
+
 
 - [ikun666666/dsh-groupchat](https://github.com/ikun666666/dsh-groupchat) — DSH plugin: one group chat per project — multiple AI sessions chat with the human in one group, @ wakes offline sessions, and @create-member pulls a new session into the group.
 - [ESROAMER/codex-dsh-collab](https://github.com/ESROAMER/codex-dsh-collab) — Delegate tasks from Codex to desktop-visible DeepSeek Harness agents, with scoped credentials, persistent sessions and a reusable skill.
@@ -4249,6 +4257,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [dariorapisardi/parlor-mcp](https://github.com/dariorapisardi/parlor-mcp) — Remote MCP server for Parlor.sh rooms, where AI agents of any vendor talk to each other over plain HTTP, at `https://parlor.sh/mcp` (Streamable HTTP, no auth): 8 tools to open, join, read (waiting for new messages), post in and close rooms, keep a stable alias for a room, and fetch parlor pages. Rooms are public by URL.
 
 - [Coprexist/Copree](https://github.com/Coprexist/Copree) — AIsChat, an open-source AI group-chat framework: gives AI its own state, memory and life rhythm; Group World binds each chat to a living world (web + world AI + code + time) and supports two-way DSH workspace mirror sync.
+- [Fourteenth-Night/dsh-aoci](https://github.com/Fourteenth-Night/dsh-aoci) — AOCI-CODE cognition layer for DeepSeek Harness (DSH): one-shot /aoci <path> gives agents governed, Git-versioned repository/database cognition via a dynamic MCP bridge (aoci_rules/overview/maintain), with auto-maintenance and compaction-contract recovery. MIT; AOCI-CODE binary not bundled.
+
 - [piecuzwhynot/dsh-external-workers](https://github.com/piecuzwhynot/dsh-external-workers) — Give your DeepSeek Harness agent three more pairs of hands: sends long tasks to Claude Code, Codex and Antigravity using your own subscription logins, keeps one persistent session per lane, and never loses a job.
 - [oldzhang82/dsh-mcp-skill](https://github.com/oldzhang82/dsh-mcp-skill) — MCP management skill for DeepSeek Harness — list / start / disable any MCP server, hot reload, no restart.
 - [borgez/dsh-project-mcp](https://github.com/borgez/dsh-project-mcp) — Per-project MCP servers for DeepSeek Harness: project-declared MCP mounts, scoped to sessions working in that project.
@@ -4277,6 +4287,11 @@ _Plugins that give the agent tools for external services (container registries, 
 - [LiPu-jpg/Openwrite](https://github.com/LiPu-jpg/Openwrite) — dsh-Openwrite: OpenWrite’s DeepSeek Harness novel-writing plugin, with a unified creation Agent, 90 fiction tools, a native workbench and a standard review DAG.
 - [moazzamak/dsh-voice-input](https://github.com/moazzamak/dsh-voice-input) — Offline local speech-to-text for the DeepSeek Harness composer: a microphone button that records, transcribes with faster-whisper on your own machine, and inserts the text into the chat draft.
 - [bilibiliUID1480494301/dsh-relayhub-bridge](https://github.com/bilibiliUID1480494301/dsh-relayhub-bridge) — DeepSeek Harness plugin: join a relay-hub station with a TOIP dynamic password and get per-plugin log accounting on the station side.
+- [Fourteenth-Night/dsh-web-search-multi](https://github.com/Fourteenth-Night/dsh-web-search-multi) — Unified multi-engine web search plugin for DeepSeek Harness: one plugin, three engines (Exa / Tavily / Firecrawl), three model-facing tools (web_search_exa / web_search_tavily / web_search_firecrawl) — the AI picks the engine per query.
+- [q862877400-ux/dsh-lean-mode](https://github.com/q862877400-ux/dsh-lean-mode) — Present DSH tools in a lean, executable form: 0.247× context at 731 tools, install-and-go, no core changes.
+- [SOH4C4759/dsh-plugin-cicd](https://github.com/SOH4C4759/dsh-plugin-cicd) — Release Console for DeepSeek Harness: a sidebar entry and main-panel page showing each repository's latest CI run, its releases, and whether the local checkout is ahead of the release — with one-click build / release / publish-draft. Reuses the machine's authenticated gh CLI and stores no credential.
+- [voyager-crew/voyager](https://github.com/voyager-crew/voyager) — Enhancement suite for Gemini, AI Studio, Claude, ChatGPT and DeepSeek, plus a prompt manager for any website — DeepSeek Harness included.
+
 - [chen1pengvincent/dsh-model-sync-plugin](https://github.com/chen1pengvincent/dsh-model-sync-plugin) — DSH model plugin: monitors and updates the latest models offered by each provider (read-only checks, tick to add, never auto-deletes).
 - [ddtcorex/dsh-maestro-core](https://github.com/ddtcorex/dsh-maestro-core) — Supervisor daemon for DSH Web resilience — auto-detects crashes, rolls back to LKG and reports.
 - [KAIROSLLL/dsh-users-open-source](https://github.com/KAIROSLLL/dsh-users-open-source) — DSH (DeepSeek Harness) "open-source users" plugin: fixes the harness's inability to automatically open-source user code. (Self-described as a joke.)
@@ -6253,6 +6268,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 
 - [AllenLogo/dsh-restart-button](https://github.com/AllenLogo/dsh-restart-button) — DSH Settings → General one-click restart button: restarts the host process and auto-refreshes the page (DSH 0.1.5+).
 - [ChisaAlter/WhaleIsle](https://github.com/ChisaAlter/WhaleIsle) — Community-enhanced DeepSeek Harness desktop client: the official core features plus theme wallpapers, a whale-girl desktop pet, usage stats and a phone remote connection.
+- [realDGD/dsh-macos-notify](https://github.com/realDGD/dsh-macos-notify) — Native interactive macOS notifications, approvals and full question forms for DeepSeek Harness Desktop.
+- [sayho-pm/dsh-locale-pack](https://github.com/sayho-pm/dsh-locale-pack) — A 29-language locale pack for the DeepSeek Harness desktop app.
+
 - [DSH-EAC/EAC-Desktop](https://github.com/DSH-EAC/EAC-Desktop) — Embracing All Creation (Desktop) — a desktop client dedicated to the harmonious coexistence of hundreds of DSH plugins.
 - [DSH-EAC/EAC-skin-loader](https://github.com/DSH-EAC/EAC-skin-loader) — DSH UI Skin Loader — load and switch DSH UI skins.
 - [luzonghao/dsh-input-light](https://github.com/luzonghao/dsh-input-light) — Input Light — Tab cycles the DSH permission preset (Read Only ⇄ Workspace Write), ⌘S resumes interrupted work with two-step confirm, and the permission chip is color-coded by preset. Client-only.
