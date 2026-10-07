@@ -1382,6 +1382,10 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [maozhuoshushu/dsh-local-host-guard](https://github.com/maozhuoshushu/dsh-local-host-guard) — In-host DSH sentinel: synchronous-call instrumentation, main-thread stall forensics, a three-gate memory guard (write gate / cold-backfill gate / idle-session offload) and a queue sentinel; zero dependencies, all Chinese.
 - [SciF-Lin/dsh-notify-sound-plus](https://github.com/SciF-Lin/dsh-notify-sound-plus) — DSH notification-sound plugin: real-time Web Audio synthesis for four event types (task complete / needs answer / needs approval / error), per-event sound choice and custom audio upload in General settings, plus a temporary mute speaker at the lower-left of the chat; desktop and web.
 
+- [dsh-wsl-workspace-maintainers/dsh-wsl-workspace](https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace) — WSL workspace support for DeepSeek Harness: a seamless WSL workspace experience without installing dsh inside WSL — once this plugin is installed you can add a WSL workspace directly from the GUI.
+- [ccneedb/dsh-information-environment-governance](https://github.com/ccneedb/dsh-information-environment-governance) — An additive project-governance layer for DeepSeek Harness. Verifiable prototype — see the status section before relying on it.
+- [stefanohe/deepseek-harness-datasecure](https://github.com/stefanohe/deepseek-harness-datasecure) — DeepSeek Harness DataSecure Remastered: a data-security-focused remastered edition of the official open-source DeepSeek Harness, maintained by Stefano's AI Lab. Not affiliated with DeepSeek Inc.
+
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._
@@ -2286,6 +2290,11 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 
 - [wobenshiwomu/dsh-calm](https://github.com/wobenshiwomu/dsh-calm) — Emotional checkpoint & repair for DSH: soothe, fold and seal off quarrel segments, inject a conclusion, and continue the task from a clean context.
 
+- [DDDMUC/dsh-delete-turn](https://github.com/DDDMUC/dsh-delete-turn) — Per-message delete for DeepSeek Harness: remove a user message, one reply step, or a whole assistant reply from the derived model context via the official surface-replace contract, and hide it from the visible transcript without rewriting the append-only log.
+- [DDDMUC/dsh-rerun-turn](https://github.com/DDDMUC/dsh-rerun-turn) — Infix rerun for DeepSeek Harness: re-run any earlier turn in place — the reply is regenerated from the same prompt while every later turn survives. Official seams only; the append-only session log is never rewritten.
+- [Ferien-sein/dsh-dajiangjun](https://github.com/Ferien-sein/dsh-dajiangjun) — Session relay for DeepSeek Harness: write a handoff doc, create a session, deliver it, and let it start working. 100% AI-developed.
+- [zhaoyuntao-wl/dsh-plugin-thread](https://github.com/zhaoyuntao-wl/dsh-plugin-thread) — DeepSeek Harness plugin: Thread session memory adapter (dsh-thread).
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -2646,6 +2655,9 @@ _Token usage, cost dashboards, and budget-alert plugins._
 
 - [WihteCo/dsh-opencode-go-quota](https://github.com/WihteCo/dsh-opencode-go-quota) — OpenCode Go quota in the DeepSeek Harness sidebar foot: one 42px cell plus a hover popover with the rolling 5-hour, weekly and monthly windows, each carrying a usage bar, an elapsed-time marker, the remaining share and a reset countdown.
 
+- [RyabykinIlya/dsh-openrouter-spend](https://github.com/RyabykinIlya/dsh-openrouter-spend) — DeepSeek Harness plugin: real OpenRouter spend — today's cost under the composer, per-key and per-model analytics and prepaid balance in Settings. Install: `dsh plugin add dsh-openrouter-spend`
+- [Sakurajima-Mai-AI/dsh-balance-badge](https://github.com/Sakurajima-Mai-AI/dsh-balance-badge) — Real-time DeepSeek balance and gift credits in the DSH sidebar, showing the charged amount on every task deduction.
+
 ## Channel / IM Bridges
 
 _Bridges DSH into chat platforms and messaging channels._
@@ -2841,6 +2853,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [providcc/dsh-remote-server](https://github.com/providcc/dsh-remote-server) — Zero-knowledge WebSocket relay for DSH Remote Control: routing only, never touches payload plaintext. Self-hostable single-file artifact.
 
 - [benz-ai-x/dsh-24-PA](https://github.com/benz-ai-x/dsh-24-PA) — Feishu personal-assistant plugin for DSH: dual-entry coordination, ledger-driven workers, offline-capable reminders, handwriting review, and a staged Feishu setup wizard.
+
+- [jxboop/dsh-plugin-mobile-bridge](https://github.com/jxboop/dsh-plugin-mobile-bridge) — Mobile bridge plugin for DeepSeek Harness: send images and tasks from your phone and watch the output live, reachable over LAN / USB sharing / a Cloudflare tunnel.
 
 ## Plugin Marketplaces & Ecosystem
 - [bululuburuarua666/dsh-plugin-manager](https://github.com/bululuburuarua666/dsh-plugin-manager) — Community plugin manager for DeepSeek Harness: origin classification, safe hot disable/enable, and transactional uninstall.
@@ -4006,6 +4020,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
 - [rlaope/deepbot](https://github.com/rlaope/deepbot) — A standalone, always-on agent built on DeepSeek Harness — Slack Socket Mode adapter, in-process sessions, memory-ready gateway profile.
 
+- [LeuJasYoh/dsh-chaoxing](https://github.com/LeuJasYoh/dsh-chaoxing) — DSH Agent preset that treats the large model as the commander and scripts as its hands: zero business logic inside the tools, so the model adapts at runtime to dynamically structured websites.
+
 ## Loops (Auto-Research, Self-Improve, etc.)
 
 _Long-running loop workflows: auto-research, deep-research, self-refine, iterative build._
@@ -4333,6 +4349,18 @@ _Plugins that give the agent tools for external services (container registries, 
 - [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab) — Computer-enlightenment plugin series for kids (DeepSeek Harness / Cordis): 7 plugins, one repository per series.
 - [slinxiaosun-blip/ai-passport-dsh](https://github.com/slinxiaosun-blip/ai-passport-dsh) — DSH Passport: turn AI Passport into a portable task terminal for DeepSeek Harness (firmware side).
 - [slinxiaosun-blip/dsh-ai-passport-plugin](https://github.com/slinxiaosun-blip/dsh-ai-passport-plugin) — DSH plugin: turn AI Passport into a portable task terminal for DeepSeek Harness — Bluetooth link, task bridging, speech recognition and a desktop widget.
+
+- [cslkkl/dsh-web-annotator](https://github.com/cslkkl/dsh-web-annotator) — Annotate pages and ask questions inside the existing DeepSeek Harness Browser.
+- [youbaiyun/dsh-browser-crossplatform](https://github.com/youbaiyun/dsh-browser-crossplatform) — Browser extension for the DeepSeek Harness desktop app: the model reads the current page as text with numbered controls and acts on it — click, type, scroll, navigate, manage tabs — and, with image recognition on, looks at an image you point at. It asks before acting, keeps passwords in the page, and talks to your own desktop.
+- [PerryLink/dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) — Aquaculture input-record checker for DSH: verifies completeness of 水产养殖投入品记录 and date arithmetic (pond/species, quantity, use date not in future, withdrawal period, stocking source and quarantine certificate).
+- [PerryLink/dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) — Filing-register checker for DSH: mechanically verifies 归档登记表 — complete item description, unique 档号, gap-free 件号, retention terms from your schedule, parseable 形成日期 matching the register year.
+- [PerryLink/dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) — Tender-compliance ledger checker for DSH: verifies 投标符合性响应台账 — every requirement has a recorded response, verdicts come from your vocabulary, clause numbers are unique, high-risk clauses carry evidence.
+- [PerryLink/dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) — Bidder-qualification checklist checker for DSH: verifies 投标人资格条件核对表 — requirement vs actual position, attached evidence, vocabulary-based verdicts, complete pass/fail items, named project and bidder.
+- [PerryLink/dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) — Contract-clause stance ledger checker for DSH: verifies 合同条款立场台账 — clause text recorded, stance and risk grade from your vocabulary, must-have clauses carry fallback position and owner, unique clause numbers.
+- [PerryLink/dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) — Customs document ledger checker for DSH: verifies 报关单证台账 — key columns filled, commodity code and currency formats, unique document numbers, gross weight not below net weight, parseable dates, no surviving placeholders.
+- [PerryLink/dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) — Demurrage ledger checker for DSH: verifies 滞箱费台账 arithmetic and completeness — container/BL recorded, free-period start and return date consistent, overdue days, charge = days × rate, currency format.
+- [PerryLink/dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) — Emergency-drill script checker for DSH: verifies 应急演练脚本 completeness and arithmetic — phase/commander per step, response level from vocabulary, resource lists, step durations totalling planned duration.
+- [PerryLink/dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) — EIA guideline applicability checker for DSH: verifies 环评导则适用性核对表 traceability — guideline number format, status from your vocabulary, recorded method/standard, no duplicate elements.
 
 ## Orchestrators & Aggregators
 
@@ -6326,6 +6354,10 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [d0ublecl1ck/dsh-flow](https://github.com/d0ublecl1ck/dsh-flow) — Flow-first DSH plugin: restore actions to intuition — locate the current session, copy the session ID, open links with the system default app (including localhost), right-click inline code to open or copy, and swap Enter with ⌘/Ctrl+Enter.
 - [k53689649-lab/dsh-splash-gojo](https://github.com/k53689649-lab/dsh-splash-gojo) — Full-screen boot splash for DeepSeek Harness: inline images, zero runtime dependencies, host-side only.
 - [qrandmaster/dsh-ar-rtl](https://github.com/qrandmaster/dsh-ar-rtl) — Arabic localization and right-to-left (RTL) support for the DeepSeek Harness UI: 58 namespaces and 2615 keys, plus a direction style sheet and layout fixes built on the app's shipped rules.
+
+- [AL-Yichen/dsh-fullscreen-input](https://github.com/AL-Yichen/dsh-fullscreen-input) — A fullscreen input plugin for DeepSeek Harness.
+- [bauerelizabeth07139/dsh-pet-liangzi](https://github.com/bauerelizabeth07139/dsh-pet-liangzi) — 梁子 (Liangzi) desktop pet for the DeepSeek Harness Web GUI: a realistic character with a three-frame walk cycle, blinking, idle micro-scenes and drop physics, voiced Chinese dialogue, sound effects and music on separate switches, plus a father-and-daughter link with dsh-pet-dafeiyu.
+- [samsam560/dog-kjdh](https://github.com/samsam560/dog-kjdh) — Opening/closing animation plugin for DeepSeek Harness: five pure-code hand-drawn styles, or swap in your own video/GIF; the settings page adjusts speed, particles, accent color and captions. The closing animation needs an optional one-time desktop-shell patch.
 
 ## Skills
 
