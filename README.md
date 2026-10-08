@@ -4047,6 +4047,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [AEmbers/dsh-adjudication](https://github.com/AEmbers/dsh-adjudication) — Multi-domain adjudication engine for DeepSeek Harness — a deterministic pipeline (gate/bundle/anchor/critique) plus a registry of on-demand domain packs. Ported from Alibaba's open-code-review.
 - [ccll/dsh-advisor-flow](https://github.com/ccll/dsh-advisor-flow) — DeepSeek Harness plugin: on-demand executor/advisor workflow ported from pi-advisor-flow — ask_advisor, review gates, usage ledger, privacy tiers.
 
+- [BotHarness/DeepSeekBot](https://github.com/BotHarness/DeepSeekBot) — DeepSeekBot: the open-source GrokBot alternative, built on DeepSeek Harness (DSH). PersonaBots with their own identity, persona and Git-backed memory you can share via GitHub; group chat, task delegation, and IM identities on Lark/Feishu, Slack, Discord and WeChat. Works with other DSH plugins. Bot marketplace: market.botharness.ai. MIT.
+
 ## Loops (Auto-Research, Self-Improve, etc.)
 
 _Long-running loop workflows: auto-research, deep-research, self-refine, iterative build._
@@ -4334,6 +4336,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 - [Emilia-awa/hermes-dsh-bridge](https://github.com/Emilia-awa/hermes-dsh-bridge) — Hermes ↔ DeepSeek Harness MCP bridge: drive dsh agents (tasks, sessions, files, presets, stats) from any MCP client.
 
+- [jcaiagent7143-ui/linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) — Xiaohongshu (RedNote) & Douyin links to text for AI agents: image-note OCR, transcripts + on-screen text, viral breakdown with verbatim-checked quotes. Hosted MCP + API, Python SDK/CLI.
+
 ## Tools & Integrations
 
 _Plugins that give the agent tools for external services (container registries, incident response, support desks)._
@@ -4432,6 +4436,11 @@ _Plugins that give the agent tools for external services (container registries, 
 - [chengshenyangtai/dsh-workbuddy-trae-qoder-connect](https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect) — One DSH plugin for WorkBuddy / Qoder / Trae: auto check-in, multi-channel aggregation, in-session model switching, reasoning effort.
 - [HsgtLgt/dsh-plugin-screenshot](https://github.com/HsgtLgt/dsh-plugin-screenshot) — Model-facing "screenshot" tool plugin (DeepSeek Harness, Windows host): registers a screenshot tool so the AI in a session can really "see" and show your screen.
 - [sincerity711/dsh-ssh-workspace](https://github.com/sincerity711/dsh-ssh-workspace) — SSH remote workspace / remote desktop plugin for DeepSeek Harness (dsh).
+
+- [Byte-Naut/dsh-plugin-probe](https://github.com/Byte-Naut/dsh-plugin-probe) — Cordis service binding diagnostics for DeepSeek Harness — shows target vs committed binding state and why a plugin is stuck in PENDING.
+- [leolee9086/dsh-computer-use](https://github.com/leolee9086/dsh-computer-use) — Independent cross-platform desktop computer-use plugins for DeepSeek Harness (region capture via a bundled native helper).
+- [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — Export-control item ledger check (checks items against China's Export Control Law; flags differences only, issues no qualitative conclusion).
+- [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) — Provides bash, PowerShell 7, and a suite of high-performance tools written in Rust for Windows DSH to enhance token efficiency.
 
 ## Orchestrators & Aggregators
 
@@ -6447,6 +6456,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Mynaniao/dsh-whale-food-expack](https://github.com/Mynaniao/dsh-whale-food-expack) — Adds rice-feeding, satiety and typing reactions to DSH's little-whale accounting widget (without modifying the original).
 - [PM25000/dsh-ths-holdings](https://github.com/PM25000/dsh-ths-holdings) — DSH floating holdings P&L card (Tonghuashun investment ledger): auto-syncs real holdings and shows today's P&L, the Shanghai Composite index and an intraday trend chart — no manual stock entry.
 - [sdynasty/dsh-ui-progress](https://github.com/sdynasty/dsh-ui-progress) — Progress display plugin for the DeepSeek Harness Web UI.
+
+- [WhichWitchWin/dsh-power-button](https://github.com/WhichWitchWin/dsh-power-button) — A draggable power button for DSH Desktop — latches to the window edge, click to restart or quit. Windows-only, zero dependencies.
 
 ## Skills
 

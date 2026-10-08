@@ -4060,6 +4060,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [AEmbers/dsh-adjudication](https://github.com/AEmbers/dsh-adjudication) — DeepSeek Harness 的多领域裁决引擎：确定性流水线（gate/bundle/anchor/critique）加按需域包注册表，移植自阿里 open-code-review。
 - [ccll/dsh-advisor-flow](https://github.com/ccll/dsh-advisor-flow) — DeepSeek Harness 插件：按需 executor/advisor 工作流，移植自 pi-advisor-flow —— ask_advisor、审查门、用量账本、隐私分级。
 
+- [BotHarness/DeepSeekBot](https://github.com/BotHarness/DeepSeekBot) — 开源的 GrokBot 替代品，基于 DeepSeek Harness（DSH）构建。PersonaBot 拥有独立身份、人设和可通过 GitHub 分享的 Git 记忆；支持群聊、任务委派，以及在飞书/Lark、Slack、Discord、微信上的 IM 身份。可与其他 DSH 插件协同。Bot 市场：market.botharness.ai。MIT。
+
 ## 循环（自动研究 / 自我改进等）
 
 _长时运行的循环工作流：自动研究、深度调研、自我精炼、迭代构建。_
@@ -4344,6 +4346,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 - [Emilia-awa/hermes-dsh-bridge](https://github.com/Emilia-awa/hermes-dsh-bridge) — Hermes ↔ DeepSeek Harness MCP 桥接：从任意 MCP 客户端驱动 dsh agent（任务、会话、文件、预设、统计）。
 
+- [jcaiagent7143-ui/linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) — 给 AI Agent 用的小红书 / 抖音链接读取器：图文笔记图片 OCR、口播逐字稿 + 画面文字、爆款拆解（引用逐字核对）。Hosted MCP + API，提供 Python SDK/CLI。
+
 ## 工具与集成
 
 _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能力的插件。_
@@ -4442,6 +4446,11 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [chengshenyangtai/dsh-workbuddy-trae-qoder-connect](https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect) — 为 WorkBuddy / Qoder / Trae 提供一个 DSH 插件：自动签到、多渠道聚合、会话内模型切换、推理强度。
 - [HsgtLgt/dsh-plugin-screenshot](https://github.com/HsgtLgt/dsh-plugin-screenshot) — 面向模型的「截图」工具插件（DeepSeek Harness，Windows 宿主）：注册一个 screenshot 工具，让会话里的 AI 能真正「看见」并展示你的屏幕。
 - [sincerity711/dsh-ssh-workspace](https://github.com/sincerity711/dsh-ssh-workspace) — DeepSeek Harness（dsh）SSH 远程工作区 / 远程桌面插件。
+
+- [Byte-Naut/dsh-plugin-probe](https://github.com/Byte-Naut/dsh-plugin-probe) — 面向 DeepSeek Harness 的 Cordis 服务绑定诊断：展示目标绑定与实际提交状态，并说明插件为何卡在 PENDING。
+- [leolee9086/dsh-computer-use](https://github.com/leolee9086/dsh-computer-use) — 独立、跨平台的 DeepSeek Harness 桌面 computer-use 插件（通过内置原生辅助程序做区域截取）。
+- [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — 出口管制物项台账核对(依据《中华人民共和国出口管制法》,仅提示差异,不作出定性结论)
+- [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) — 为 Windows 版 DSH 提供 bash、PowerShell 7 及一系列用 Rust 编写的高性能工具，以提高 token 效率。
 
 ## 编排器与聚合器
 
@@ -6447,6 +6456,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Mynaniao/dsh-whale-food-expack](https://github.com/Mynaniao/dsh-whale-food-expack) — 给 DSH 的小鲸鱼记账挂件加上喂白米饭、饱食度与干活敲键盘反应（不改本体）。
 - [PM25000/dsh-ths-holdings](https://github.com/PM25000/dsh-ths-holdings) — DSH 持仓盈亏悬浮卡片（同花顺投资账本）：自动同步真实持仓，显示今日盈亏、上证指数与当日走势图，无需手动添加股票。
 - [sdynasty/dsh-ui-progress](https://github.com/sdynasty/dsh-ui-progress) — DeepSeek Harness Web UI 的进度展示插件。
+
+- [WhichWitchWin/dsh-power-button](https://github.com/WhichWitchWin/dsh-power-button) — 给 DSH 桌面版补一个可拖动的电源按钮：贴边自动收起，点开可重启或退出 DSH。Windows 专用、零依赖。
 
 ## Skill
 
