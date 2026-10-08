@@ -1646,6 +1646,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 ## Session & Memory Management
 
+- [overact/dsh-context-management](https://github.com/overact/dsh-context-management) — Windowed compaction, session-private notes and paged history recall for DeepSeek Harness (DSH).
 - [ChenYueqi2024/dsh-memory](https://github.com/ChenYueqi2024/dsh-memory) — Cross-session project memory for DeepSeek Harness (dsh) — native Cordis plugin (Xiamen University final project).
 - [EarthPretender/dsh-session-delete](https://github.com/EarthPretender/dsh-session-delete) — DSH plugin: adds a red "delete session" row below "archive session" in the session "…" menu; after double confirmation it permanently deletes the session's logs and workspace registration (irreversible; running sessions refuse deletion).
 - [liuqingman/dsh-somni](https://github.com/liuqingman/dsh-somni) — Sleep-consolidated long-term memory for DSH agents: episodic / semantic / prospective / procedural memory plus identity, a stdio JSON-RPC sidecar, idle-time dream consolidation, zero-config Cordis plugin.
@@ -2298,6 +2299,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
+- [XIA-2005/dsh-usage-stats](https://github.com/XIA-2005/dsh-usage-stats) — DSH (DeepSeek Harness) usage and tool-call statistics plugin: four-way token buckets, cost estimation, tool-call count and duration rankings, and per-conversation / per-model cost breakdown, shown in a Web settings panel.
+- [ZiOstudio/dsh-budget-handoff](https://github.com/ZiOstudio/dsh-budget-handoff) — Session budget brake for DeepSeek Harness — meters every call against the official price table, halts the run when the budget is exhausted, and leaves a resumable handoff snapshot.
 - [louisyeaaah/dsh-receipt](https://github.com/louisyeaaah/dsh-receipt) — Turn one DSH session into a shareable receipt: duration, turns, tool calls, files touched, tokens. Read-only, redacted by default, zero dependencies.
 - [121212165/dsh-plugin-quota](https://github.com/121212165/dsh-plugin-quota) — DSH plugin: live usage meter — per-session token/turns/cost tracking injected into the system prompt, with a /qm panel and a quota_meter card tool; also the family's universal plugin-development test template.
 - [alebgl77/dsh-plugin-otel-genai](https://github.com/alebgl77/dsh-plugin-otel-genai) — OpenTelemetry GenAI metrics for DeepSeek Harness: token usage and step latency per provider and model, exported over OTLP for Grafana and Prometheus.
@@ -3736,6 +3739,9 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
+- [blauerberg/dsh-subagent-concurrency-limit](https://github.com/blauerberg/dsh-subagent-concurrency-limit) — Limit concurrent DeepSeek Harness subagent turns and delegation runs.
+- [eamars/AsunaCognitionCore](https://github.com/eamars/AsunaCognitionCore) — A framework for AI characters that live with you, on your own machine — a DeepSeek Harness plugin where personality, voice, and platform channels all arrive as swappable packages.
+- [palomo1632-prog/agente-dsh](https://github.com/palomo1632-prog/agente-dsh) — A self-hosted "Agente DSH" built on DeepSeek Harness, with long- and short-term memory and a Telegram bot.
 - [Napstablooky233/dsh-agent-dispatch](https://github.com/Napstablooky233/dsh-agent-dispatch) — Visible dispatch panel for DeepSeek Harness — decide whether other agents help, pick free-lane helpers, and inject the division-of-labour policy.
 - [qigelunbiya/DSH-Patrol](https://github.com/qigelunbiya/DSH-Patrol) — Browser patrol and website inspection plugin for DeepSeek Harness: turns taught workflows into replayable runbooks with managed Chromium, screenshots, and checkpoints.
 - [jing-hy/computer-user](https://github.com/jing-hy/computer-user) — DSH plugin: Codex-style computer use for Windows — read the screen, drive mouse & keyboard via SendInput; pairs with picturereader to close the look-act-verify loop.
@@ -4313,6 +4319,9 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 
 _Plugins that give the agent tools for external services (container registries, incident response, support desks)._
 
+- [spix18/dsh-ghidra](https://github.com/spix18/dsh-ghidra) — Ghidra bridge plugin for DeepSeek Harness (DSH): 218 reverse-engineering tools, single-JVM unified mode, in-tree Ghidra install, Settings UI with doctor/download/folder picker.
+- [Travizm/dsh-openai-live](https://github.com/Travizm/dsh-openai-live) — Full-duplex voice for DeepSeek Harness: a realtime capability seam, a GPT-Live-1 adapter, and a keyless replay backend.
+- [TwinsEarth/dsh-windows2macos](https://github.com/TwinsEarth/dsh-windows2macos) — DSH: W2M — one DeepSeek account, one instruction, every online Windows/macOS machine runs the same project. Rabbit relay + per-machine Localside + five DSH tools.
 - [alienzhou/html-workbench](https://github.com/alienzhou/html-workbench) — Local visual editor for existing HTML, with interactive previews and AI collaboration. Available as a DeepSeek Harness plugin and agent skill.
 - [Chaos-Paradox/dsh-web-search-searxng](https://github.com/Chaos-Paradox/dsh-web-search-searxng) — Self-hosted SearXNG metasearch web-search plugin for DeepSeek Harness — no API key, adds a Plugins-page settings card.
 - [HuanLinOTO/dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) — Exposes run_python/run_node tools that execute code via stdin and return stdout/stderr/exit, with an interpreter-path config card.
@@ -4559,6 +4568,8 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [gosomea/dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) — DSH task supervision with DAG progress, plan review, persistent control and stage/completion checks.
 
 ## UI / Clients
+- [cjm-m/dsh-paste-code-block](https://github.com/cjm-m/dsh-paste-code-block) — Cherry Studio-style paste for DeepSeek Harness Web: long code/text collapses into a tidy, collapsible, language-tagged card — localized names (中文/English), in-card editing, one-click × remove, fenced-code restore on send.
+- [IRdotAI/dsh-studio](https://github.com/IRdotAI/dsh-studio) — Themes and personalisation for DeepSeek Harness: 17 themes, a theme editor, liquid-glass panels, wallpapers, custom logo/greeting, saved prompts and a Ctrl+K quick switcher.
 - [2034126171/dsh-boot-animation-sound](https://github.com/2034126171/dsh-boot-animation-sound) — DSH boot animation + sound plugin: choose the trigger (app launch / page refresh / new conversation / any session) and the playback frequency (every time / once a day / only once / capped at N times) — sound without fullscreen.
 - [FindDataTechnology/platform](https://github.com/FindDataTechnology/platform) — Local-first AI assistant platform on the DeepSeek Harness (dsh) runtime — streaming agent chat, document RAG, and MCP extensibility across web and desktop.
 - [HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio) — Audio preview for dsh-better-sidebar: zoomable waveform, live spectrum, whole-file spectrogram, with its own Range-capable streaming media route.
@@ -6362,6 +6373,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
+- [Vensus137/Coreness-Kit](https://github.com/Vensus137/Coreness-Kit) — The canon of agent work conventions: rules and procedures, taken into projects as a full snapshot.
 - [artorias-zj/dsh-cc-switch-skills](https://github.com/artorias-zj/dsh-cc-switch-skills) — DSH plugin: load every skill from the current user's .cc-switch/skills into DeepSeek Harness at startup.
 - [lernicks0/dsh-tacz-duel](https://github.com/lernicks0/dsh-tacz-duel) — Experimental DeepSeek Harness skill and native Forge client bridge for TACZ gun learning and Minecraft 1.20.1 duels.
 - [jacjackai/dsh-control](https://github.com/jacjackai/dsh-control) — DSH skill: let AI agents operate DSH itself via the official HTTP RPC — workspace/session control, task-card dispatch with acceptance criteria, resident workstations with blocking wait, and multi-model fan-out review with per-seat model assignment.

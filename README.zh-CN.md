@@ -1653,6 +1653,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 ## 会话与记忆管理
 
+- [overact/dsh-context-management](https://github.com/overact/dsh-context-management) —— 为 DeepSeek Harness（DSH）提供窗口化压缩、会话私有笔记与分页历史召回。
 - [ChenYueqi2024/dsh-memory](https://github.com/ChenYueqi2024/dsh-memory) — DeepSeek Harness（dsh）跨会话项目记忆——原生 Cordis 插件（厦门大学毕设项目）。
 - [EarthPretender/dsh-session-delete](https://github.com/EarthPretender/dsh-session-delete) —— DSH 插件：在会话「…」菜单的「归档会话」下方新增红色「删除会话」行，二次确认后真正删除该会话的日志与工作区登记（不可逆；运行中的会话会拒绝删除）。
 - [liuqingman/dsh-somni](https://github.com/liuqingman/dsh-somni) —— 给 DSH agent 的睡眠整理式长期记忆：情节 / 语义 / 前瞻 / 程序四类记忆 + 身份，stdio JSON-RPC sidecar，空闲时做梦整理，零配置 Cordis 插件。
@@ -2305,6 +2306,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 
 _token 用量、成本看板与预算告警插件。_
 
+- [XIA-2005/dsh-usage-stats](https://github.com/XIA-2005/dsh-usage-stats) —— DSH（DeepSeek Harness）用量与工具调用统计插件：token 四桶、费用估算、工具调用次数与耗时排行、按对话与按模型定位开销，Web 设置页面板展示。
+- [ZiOstudio/dsh-budget-handoff](https://github.com/ZiOstudio/dsh-budget-handoff) —— DeepSeek Harness 会话预算刹车：按官方价表计量每次调用，预算耗尽即中止运行，并留下可续跑的交接快照。
 - [louisyeaaah/dsh-receipt](https://github.com/louisyeaaah/dsh-receipt) —— 把一次 DSH 会话变成可分享的「收据」：时长、轮数、工具调用、触及文件、token。只读、默认脱敏、零依赖。
 - [121212165/dsh-plugin-quota](https://github.com/121212165/dsh-plugin-quota) —— DSH 插件：实时用量仪表——把每会话 token/轮次/成本注入系统提示，提供 /qm 面板与 quota_meter 卡片工具；同时是该系列的通用插件开发测试模板。
 - [alebgl77/dsh-plugin-otel-genai](https://github.com/alebgl77/dsh-plugin-otel-genai) —— 面向 DeepSeek Harness 的 OpenTelemetry GenAI 指标插件：按提供商与模型维度统计 token 用量与每步延时，通过 OTLP 导出至 Grafana / Prometheus。
@@ -3748,6 +3751,9 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
+- [blauerberg/dsh-subagent-concurrency-limit](https://github.com/blauerberg/dsh-subagent-concurrency-limit) —— 限制 DeepSeek Harness 子 agent 轮次与委派运行的并发数。
+- [eamars/AsunaCognitionCore](https://github.com/eamars/AsunaCognitionCore) —— 一个让 AI 角色「住」在你本机上的框架：DeepSeek Harness 插件，人格、声音与平台渠道都以可替换包的形式接入。
+- [palomo1632-prog/agente-dsh](https://github.com/palomo1632-prog/agente-dsh) —— 基于 DeepSeek Harness 的自托管「Agente DSH」，带长短期记忆与 Telegram 机器人。
 - [Napstablooky233/dsh-agent-dispatch](https://github.com/Napstablooky233/dsh-agent-dispatch) — DeepSeek Harness 可视化调度面板：决定是否让其它 agent 帮忙、挑选空闲车道上的帮手，并注入分工策略。
 - [qigelunbiya/DSH-Patrol](https://github.com/qigelunbiya/DSH-Patrol) —— DeepSeek Harness 网页巡检插件：将教学流程固化为可重放的操作手册，支持受管 Chromium、截图和检查点。
 - [jing-hy/computer-user](https://github.com/jing-hy/computer-user) —— DSH 插件：Windows 上的 Codex 风格 computer use——读取屏幕，通过 SendInput 驱动鼠标键盘；配合 picturereader 闭合「看-动-验」循环。
@@ -4323,6 +4329,9 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能力的插件。_
 
+- [spix18/dsh-ghidra](https://github.com/spix18/dsh-ghidra) —— DeepSeek Harness（DSH）的 Ghidra 桥接插件：218 个逆向工程工具、单 JVM 统一模式、内置 Ghidra 安装、带 doctor/下载/目录选择的设置界面。
+- [Travizm/dsh-openai-live](https://github.com/Travizm/dsh-openai-live) —— 为 DeepSeek Harness 提供全双工语音：实时能力接缝、GPT-Live-1 适配器与免密钥回放后端。
+- [TwinsEarth/dsh-windows2macos](https://github.com/TwinsEarth/dsh-windows2macos) —— DSH：W2M——一个 DeepSeek 账号、一条指令，让所有在线 Windows/macOS 机器运行同一项目。Rabbit 中继 + 每机 Localside + 五个 DSH 工具。
 - [alienzhou/html-workbench](https://github.com/alienzhou/html-workbench) — 本地 HTML 可视化编辑器：对已有 HTML 交互式预览并与 AI 协作，支持 DeepSeek Harness 插件和 Agent Skill 两种形态。
 - [Chaos-Paradox/dsh-web-search-searxng](https://github.com/Chaos-Paradox/dsh-web-search-searxng) — DeepSeek Harness 网页搜索插件：通过自托管 SearXNG 元搜索提供搜索能力，无需 API Key，附带设置页插件配置卡片。
 - [HuanLinOTO/dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) — 暴露 run_python/run_node 工具，通过 stdin 执行代码并返回 stdout/stderr/退出码，含解释器路径配置卡。
@@ -4588,6 +4597,8 @@ _多步 / 多 agent 调度器与输出聚合器。_
 ## UI / 客户端
 
 _DSH 的桌面、网页、终端或编辑器前端。_
+- [cjm-m/dsh-paste-code-block](https://github.com/cjm-m/dsh-paste-code-block) —— Cherry Studio 风格粘贴（DeepSeek Harness Web）：长代码/文本折叠成整洁、可折叠、带语言标签的卡片——中英文名称、卡内编辑、一键 × 删除、发送时还原围栏代码。
+- [IRdotAI/dsh-studio](https://github.com/IRdotAI/dsh-studio) —— DeepSeek Harness 主题与个性化：17 套主题、主题编辑器、液态玻璃面板、壁纸、自定义 logo/问候语、保存的提示词与 Ctrl+K 快捷切换。
 - [2034126171/dsh-boot-animation-sound](https://github.com/2034126171/dsh-boot-animation-sound) — DSH 开机动画 + 声音插件：触发时机（启动应用 / 页面刷新 / 新对话 / 任意会话）与播放频率（每次 / 每天一次 / 只播一次 / 限播 N 次）均可自选，声音不需要全屏。
 - [FindDataTechnology/platform](https://github.com/FindDataTechnology/platform) — 基于 DeepSeek Harness（dsh）运行时的本地优先 AI 助手平台：流式 agent 对话、文档 RAG，并在网页端与桌面端提供 MCP 扩展能力。
 - [HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio) — dsh-better-sidebar 音频预览：可缩放波形 + 实时频谱 + 全曲频谱图，自带支持 HTTP Range 的流式媒体路由。
@@ -6362,6 +6373,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
+- [Vensus137/Coreness-Kit](https://github.com/Vensus137/Coreness-Kit) —— agent 工作约定「正典」：规则与流程，以完整快照的形式带入项目。
 - [artorias-zj/dsh-cc-switch-skills](https://github.com/artorias-zj/dsh-cc-switch-skills) —— DSH 插件：启动时把当前用户 .cc-switch/skills 下的全部 skill 载入 DeepSeek Harness。
 - [lernicks0/dsh-tacz-duel](https://github.com/lernicks0/dsh-tacz-duel) —— 实验性 DeepSeek Harness skill 与原生 Forge 客户端桥，用于 TACZ 枪械学习与 Minecraft 1.20.1 决斗。
 - [Practice019/agent-skills](https://github.com/Practice019/agent-skills) —— DSH 用户级技能包，包含开发、插件编写、调研、文档处理等任务的 SKILL.md 工作流。
