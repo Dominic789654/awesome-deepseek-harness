@@ -1645,6 +1645,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [ButterHost69/dsh-login-gateway](https://github.com/ButterHost69/dsh-login-gateway) — DSH plugin: username, password and TOTP login front door for the Web UI, for tunneled or public deployments.
 
 ## Session & Memory Management
+- [AOS](https://github.com/MagicalYuYu/agent-operating-system) — File governance layer for agent harnesses: directory charter, pointer-table memory, dual-layer logs, and validator scripts.
 
 - [overact/dsh-context-management](https://github.com/overact/dsh-context-management) — Windowed compaction, session-private notes and paged history recall for DeepSeek Harness (DSH).
 - [ChenYueqi2024/dsh-memory](https://github.com/ChenYueqi2024/dsh-memory) — Cross-session project memory for DeepSeek Harness (dsh) — native Cordis plugin (Xiamen University final project).

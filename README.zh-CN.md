@@ -1652,6 +1652,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [ButterHost69/dsh-login-gateway](https://github.com/ButterHost69/dsh-login-gateway) —— DSH 插件：为 Web UI 提供「用户名 + 密码 + TOTP」登录入口，适合隧道暴露或公网部署场景。
 
 ## 会话与记忆管理
+- [AOS](https://github.com/MagicalYuYu/agent-operating-system) — 面向 agent harness 的文件治理层：目录宪章、指针表记忆、双层日志与校验脚本。
 
 - [overact/dsh-context-management](https://github.com/overact/dsh-context-management) —— 为 DeepSeek Harness（DSH）提供窗口化压缩、会话私有笔记与分页历史召回。
 - [ChenYueqi2024/dsh-memory](https://github.com/ChenYueqi2024/dsh-memory) — DeepSeek Harness（dsh）跨会话项目记忆——原生 Cordis 插件（厦门大学毕设项目）。
