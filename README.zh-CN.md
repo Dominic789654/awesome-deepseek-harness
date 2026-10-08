@@ -1651,6 +1651,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [ButterHost69/dsh-login-gateway](https://github.com/ButterHost69/dsh-login-gateway) —— DSH 插件：为 Web UI 提供「用户名 + 密码 + TOTP」登录入口，适合隧道暴露或公网部署场景。
 
+- [dingchenhui0618-arch/dsh-warden](https://github.com/dingchenhui0618-arch/dsh-warden) — DSH 对抗式审查门：危险工具调用在执行前由一个独立小模型复核，并报告每一次裁决。
+
 ## 会话与记忆管理
 - [AOS](https://github.com/MagicalYuYu/agent-operating-system) — 面向 agent harness 的文件治理层：目录宪章、指针表记忆、双层日志与校验脚本。
 
@@ -2302,6 +2304,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [DDDMUC/dsh-rerun-turn](https://github.com/DDDMUC/dsh-rerun-turn) — DeepSeek Harness 定点重跑：就地重跑任意较早的一轮——回复基于同一提示重新生成，其后所有轮次保留。仅用官方接缝，从不重写 append-only 会话日志。
 - [Ferien-sein/dsh-dajiangjun](https://github.com/Ferien-sein/dsh-dajiangjun) — 大管家：DeepSeek Harness 的会话接力——写档 / 建会话 / 投递，让新会话自己开工。纯由 AI 开发。
 - [zhaoyuntao-wl/dsh-plugin-thread](https://github.com/zhaoyuntao-wl/dsh-plugin-thread) — DeepSeek Harness 插件：Thread 会话记忆适配器（dsh-thread）。
+
+- [Shuffle-1992/dsh-context-pilot](https://github.com/Shuffle-1992/dsh-context-pilot) — DSH 上下文智能压缩 + 智能思考：每轮注入用量、模型自主决定压缩并自动续跑；可选让模型按任务难度自主调整思考强度档位。
 
 ## 成本与用量统计
 
@@ -3071,6 +3075,9 @@ _插件市场、安装管理器、索引与生态工具。_
 
 - [montersy123/dsh-skill-market](https://github.com/montersy123/dsh-skill-market) — 在 DeepSeek Harness 内浏览、搜索并安装 SkillHub 技能。
 
+- [AEmbers/dsh-first-party](https://github.com/AEmbers/dsh-first-party) — 第一方 DSH 插件集合：用可控、可验证的自研实现替换高开销第三方 bundle。首个包 recall-lite 把启动期 eager 预热改为按需初始化。
+- [FNOSP/fnos-dsh](https://github.com/FNOSP/fnos-dsh) — DeepSeek Harness 应用与 harness 插件 monorepo。
+
 ## 可视化
 
 _把数据 / 结果变成图表、图形、看板的插件。_
@@ -3290,6 +3297,8 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [N107meow/figma-mcp-dsh](https://github.com/N107meow/figma-mcp-dsh) — DSH 只读 Figma 设计源工具：查看文件结构、颜色、字体，并以原生工具导出图片。
 - [A7m0spHere/dsh-chem-editor](https://github.com/A7m0spHere/dsh-chem-editor) —— DeepSeek Harness 分子编辑器：中英界面、本地 agent 编辑、预览、自动保存与撤销。
 
+- [wonderandyou/dsh-qwen-paint](https://github.com/wonderandyou/dsh-qwen-paint) — DSH 插件：在对话里调用本机 ComfyUI，用千问 Qwen-Image 2.1 出图。纯本地、不出网、不需要 API Key。
+
 ## 幻灯片 / PPT
 
 _生成演示文稿、幻灯片、导出 PPT。_
@@ -3344,6 +3353,8 @@ _在工作区内外转换文档——Markdown、Word 等格式。_
 - [copylee711/dsh-office](https://github.com/copylee711/dsh-office) —— DeepSeek Harness 插件：AI 直接在你打开的 Word / Excel / PowerPoint 里改文档，改动实时可见、可协同编辑（Windows）。
 
 - [James-Yao-xj/dsh-plugin-handout](https://github.com/James-Yao-xj/dsh-plugin-handout) —— 共读讲义插件：把 Markdown / 文本 / PDF 讲义接进 DeepSeek Harness 会话，按节按页取文、同步阅读位置、随时提问。
+
+- [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) — DeepSeek Harness（dsh）插件：论文伴读工作台 —— PDF 转录 / 检索 / 流式问答 + 内置阅读器页面。
 
 ## 写代码
 
@@ -4046,6 +4057,9 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [PlayForm/DeepSeek](https://github.com/PlayForm/DeepSeek) — PlayForm 的 DeepSeek Harness 插件家族：12 个 TypeScript 包，驯服模型输出并治理项目文件。
 - [StarterMonk/dsh-adhd-session-mode](https://github.com/StarterMonk/dsh-adhd-session-mode) — 从 ayghri/i-have-adhd 移植的 DeepSeek Harness 插件：ADHD 友好的输出塑形，仅单次会话内生效，绝不全局生效。
 
+- [AEmbers/dsh-adjudication](https://github.com/AEmbers/dsh-adjudication) — DeepSeek Harness 的多领域裁决引擎：确定性流水线（gate/bundle/anchor/critique）加按需域包注册表，移植自阿里 open-code-review。
+- [ccll/dsh-advisor-flow](https://github.com/ccll/dsh-advisor-flow) — DeepSeek Harness 插件：按需 executor/advisor 工作流，移植自 pi-advisor-flow —— ask_advisor、审查门、用量账本、隐私分级。
+
 ## 循环（自动研究 / 自我改进等）
 
 _长时运行的循环工作流：自动研究、深度调研、自我精炼、迭代构建。_
@@ -4423,6 +4437,12 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [PerryLink/dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) — 招投标矩阵核对(按招标要求生成应答矩阵,仅提示差异,不作出定性结论)
 - [PerryLink/dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) — 质保计算核对(按质保规则计算核对,仅提示差异,不作出定性结论)
 
+- [azazo1/dsh-browser](https://github.com/azazo1/dsh-browser) — 不走 Chrome 调试协议（CDP），用原生消息 + MV3 扩展驱动本机真实 Chrome：编号文本快照、持久化 profile。
+- [BaoBao1996121/dsh-chatgpt-subscription](https://github.com/BaoBao1996121/dsh-chatgpt-subscription) — DSH 插件：ChatGPT 订阅登录、主 Agent 模型选择与直连/Clash 网络设置。
+- [chengshenyangtai/dsh-workbuddy-trae-qoder-connect](https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect) — 为 WorkBuddy / Qoder / Trae 提供一个 DSH 插件：自动签到、多渠道聚合、会话内模型切换、推理强度。
+- [HsgtLgt/dsh-plugin-screenshot](https://github.com/HsgtLgt/dsh-plugin-screenshot) — 面向模型的「截图」工具插件（DeepSeek Harness，Windows 宿主）：注册一个 screenshot 工具，让会话里的 AI 能真正「看见」并展示你的屏幕。
+- [sincerity711/dsh-ssh-workspace](https://github.com/sincerity711/dsh-ssh-workspace) — DeepSeek Harness（dsh）SSH 远程工作区 / 远程桌面插件。
+
 ## 编排器与聚合器
 
 _多步 / 多 agent 调度器与输出聚合器。_
@@ -4635,6 +4655,8 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [mas-bandwidth/nova-sprint](https://github.com/mas-bandwidth/nova-sprint) —— Nova Sprint：跨不同模型与 harness 协调 AI 冲刺。
 
 - [gosomea/dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) —— DSH 任务监管：DAG 进度、计划评审、持久化控制与阶段 / 完成检查。
+
+- [Contexera/dsh-agent-team](https://github.com/Contexera/dsh-agent-team) — 让 DeepSeek Harness 的 Agent 不再重置：持久的 Member 拥有自己的记忆、笔记与技能，跨会话、轮转与重启保持；你定方向，Agent 通过 Channel 与 Task 协作。
 
 ## UI / 客户端
 
@@ -6417,6 +6439,14 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [HaoyanZhang123/dsh-plugin-control-your-development](https://github.com/HaoyanZhang123/dsh-plugin-control-your-development) — 把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）。
 - [Ln1m/dsh-side-suite](https://github.com/Ln1m/dsh-side-suite) — DSH 左栏家族：文件树 / 文件打开 / 工具 Tab / 局域网服务 / 长期任务。
 - [Rheasilvia/dsh-pretty-extension](https://github.com/Rheasilvia/dsh-pretty-extension) — 面向 DeepSeek Harness Web UI 的精致主题编辑器：在原生观感的「设置 → Pretty」页中自定义配色、字体与界面层次。
+
+- [callqh/dsh-project-summary](https://github.com/callqh/dsh-project-summary) — DeepSeek Harness 的紧凑浮动 Git 项目摘要：分支、改动、提交与 GitHub PR，随 DSH 主题与会话边界自适应。
+- [DDDMUC/dsh-tab-groups](https://github.com/DDDMUC/dsh-tab-groups) — Edge/Chrome 扩展，自动把每个 DeepSeek Harness（DSH）Web GUI 标签页分组；配套 DSH 插件将其映射到固定路径、在 GUI 内检测并驱动。一个包，两种形态。
+- [Doya16/shorekeeper-deepseek-pet](https://github.com/Doya16/shorekeeper-deepseek-pet) — 守岸人 DeepSeek 桌宠 | DSH 插件：任务状态 GIF、语音与字幕配对、多会话提醒、账户余额、自定义大小与便携配置。
+- [MindLab-Research/dsh-generative-ui](https://github.com/MindLab-Research/dsh-generative-ui) — DeepSeek Harness 的生成式 UI：Agent 写 TSX，Web UI 在流式过程中逐帧编译，JSX 尚未闭合卡片就能渲染——可内嵌在对话里，也可放在侧边画布。
+- [Mynaniao/dsh-whale-food-expack](https://github.com/Mynaniao/dsh-whale-food-expack) — 给 DSH 的小鲸鱼记账挂件加上喂白米饭、饱食度与干活敲键盘反应（不改本体）。
+- [PM25000/dsh-ths-holdings](https://github.com/PM25000/dsh-ths-holdings) — DSH 持仓盈亏悬浮卡片（同花顺投资账本）：自动同步真实持仓，显示今日盈亏、上证指数与当日走势图，无需手动添加股票。
+- [sdynasty/dsh-ui-progress](https://github.com/sdynasty/dsh-ui-progress) — DeepSeek Harness Web UI 的进度展示插件。
 
 ## Skill
 
