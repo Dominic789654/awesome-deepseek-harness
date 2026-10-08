@@ -4437,7 +4437,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [HsgtLgt/dsh-plugin-screenshot](https://github.com/HsgtLgt/dsh-plugin-screenshot) — Model-facing "screenshot" tool plugin (DeepSeek Harness, Windows host): registers a screenshot tool so the AI in a session can really "see" and show your screen.
 - [sincerity711/dsh-ssh-workspace](https://github.com/sincerity711/dsh-ssh-workspace) — SSH remote workspace / remote desktop plugin for DeepSeek Harness (dsh).
 
-- [Byte-Naut/dsh_semantic_tool](https://github.com/Byte-Naut/dsh_semantic_tool) — Cordis service binding diagnostics for DeepSeek Harness — shows target vs committed binding state and why a plugin is stuck in PENDING.
+- [Byte-Naut/dsh-plugin-probe](https://github.com/Byte-Naut/dsh-plugin-probe) — Cordis service binding diagnostics for DeepSeek Harness — shows target vs committed binding state and why a plugin is stuck in PENDING.
 - [leolee9086/dsh-computer-use](https://github.com/leolee9086/dsh-computer-use) — Independent cross-platform desktop computer-use plugins for DeepSeek Harness (region capture via a bundled native helper).
 - [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — Export-control item ledger check (checks items against China's Export Control Law; flags differences only, issues no qualitative conclusion).
 - [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) — Provides bash, PowerShell 7, and a suite of high-performance tools written in Rust for Windows DSH to enhance token efficiency.

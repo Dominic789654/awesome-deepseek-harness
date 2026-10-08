@@ -4447,7 +4447,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [HsgtLgt/dsh-plugin-screenshot](https://github.com/HsgtLgt/dsh-plugin-screenshot) — 面向模型的「截图」工具插件（DeepSeek Harness，Windows 宿主）：注册一个 screenshot 工具，让会话里的 AI 能真正「看见」并展示你的屏幕。
 - [sincerity711/dsh-ssh-workspace](https://github.com/sincerity711/dsh-ssh-workspace) — DeepSeek Harness（dsh）SSH 远程工作区 / 远程桌面插件。
 
-- [Byte-Naut/dsh_semantic_tool](https://github.com/Byte-Naut/dsh_semantic_tool) — 面向 DeepSeek Harness 的 Cordis 服务绑定诊断：展示目标绑定与实际提交状态，并说明插件为何卡在 PENDING。
+- [Byte-Naut/dsh-plugin-probe](https://github.com/Byte-Naut/dsh-plugin-probe) — 面向 DeepSeek Harness 的 Cordis 服务绑定诊断：展示目标绑定与实际提交状态，并说明插件为何卡在 PENDING。
 - [leolee9086/dsh-computer-use](https://github.com/leolee9086/dsh-computer-use) — 独立、跨平台的 DeepSeek Harness 桌面 computer-use 插件（通过内置原生辅助程序做区域截取）。
 - [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — 出口管制物项台账核对(依据《中华人民共和国出口管制法》,仅提示差异,不作出定性结论)
 - [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) — 为 Windows 版 DSH 提供 bash、PowerShell 7 及一系列用 Rust 编写的高性能工具，以提高 token 效率。
