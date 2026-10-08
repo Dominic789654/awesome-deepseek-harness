@@ -6369,6 +6369,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [AL-Yichen/dsh-fullscreen-input](https://github.com/AL-Yichen/dsh-fullscreen-input) — DeepSeek Harness 全屏输入插件。
 - [bauerelizabeth07139/dsh-pet-liangzi](https://github.com/bauerelizabeth07139/dsh-pet-liangzi) — 梁子桌面宠物（DeepSeek Harness Web GUI）：三帧行走循环、眨眼、闲置小场景与掉落物理，中文配音对白，音效与音乐分开关，并与 dsh-pet-dafeiyu 联动父女。
 - [samsam560/dog-kjdh](https://github.com/samsam560/dog-kjdh) — DeepSeek Harness 开场 / 退场动画插件：5 套纯代码自绘样式，也可换成你自己的视频或动图；设置页可调速度、粒子、主色、文案。退场动画需要可选地打一次桌面壳补丁。
+- [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) —— 白噪音播放器：AI 编程时铺一层背景音（雨声、溪流、篝火、咖啡馆……），帮助进入心流状态、集中精力、高效思考，让你写代码又快又好。支持顺序/随机/单曲循环/间歇等多种播放模式。支持 AI 自动下载背景音乐。
 
 ## Skill
 

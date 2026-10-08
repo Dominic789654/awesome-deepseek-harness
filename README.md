@@ -6369,6 +6369,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [AL-Yichen/dsh-fullscreen-input](https://github.com/AL-Yichen/dsh-fullscreen-input) — A fullscreen input plugin for DeepSeek Harness.
 - [bauerelizabeth07139/dsh-pet-liangzi](https://github.com/bauerelizabeth07139/dsh-pet-liangzi) — 梁子 (Liangzi) desktop pet for the DeepSeek Harness Web GUI: a realistic character with a three-frame walk cycle, blinking, idle micro-scenes and drop physics, voiced Chinese dialogue, sound effects and music on separate switches, plus a father-and-daughter link with dsh-pet-dafeiyu.
 - [samsam560/dog-kjdh](https://github.com/samsam560/dog-kjdh) — Opening/closing animation plugin for DeepSeek Harness: five pure-code hand-drawn styles, or swap in your own video/GIF; the settings page adjusts speed, particles, accent color and captions. The closing animation needs an optional one-time desktop-shell patch.
+- [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) — White noise player: lays a layer of background sound (rain, streams, campfire, café…) while AI codes, helping you enter flow, stay focused and think efficiently, so you write code fast and well. Supports multiple playback modes (sequential / shuffle / single-loop / intermittent) and AI automatic background music download.
 
 ## Skills
 
