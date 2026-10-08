@@ -4028,6 +4028,10 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
 - [LeuJasYoh/dsh-chaoxing](https://github.com/LeuJasYoh/dsh-chaoxing) — DSH Agent preset that treats the large model as the commander and scripts as its hands: zero business logic inside the tools, so the model adapts at runtime to dynamically structured websites.
 
+- [Player-MINEPIG/dsh-prompt-assembler](https://github.com/Player-MINEPIG/dsh-prompt-assembler) — Independent DSH prompt assembly plugin with source-owned adapters and per-session strategies.
+- [PlayForm/DeepSeek](https://github.com/PlayForm/DeepSeek) — DeepSeek Harness plugin family for PlayForm: twelve TypeScript packages for taming model output and governing project files.
+- [StarterMonk/dsh-adhd-session-mode](https://github.com/StarterMonk/dsh-adhd-session-mode) — DeepSeek Harness plugin converted from ayghri/i-have-adhd: ADHD-friendly output shaping that takes effect in a single session, never globally.
+
 ## Loops (Auto-Research, Self-Improve, etc.)
 
 _Long-running loop workflows: auto-research, deep-research, self-refine, iterative build._
@@ -4370,6 +4374,43 @@ _Plugins that give the agent tools for external services (container registries, 
 - [PerryLink/dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) — Demurrage ledger checker for DSH: verifies 滞箱费台账 arithmetic and completeness — container/BL recorded, free-period start and return date consistent, overdue days, charge = days × rate, currency format.
 - [PerryLink/dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) — Emergency-drill script checker for DSH: verifies 应急演练脚本 completeness and arithmetic — phase/commander per step, response level from vocabulary, resource lists, step durations totalling planned duration.
 - [PerryLink/dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) — EIA guideline applicability checker for DSH: verifies 环评导则适用性核对表 traceability — guideline number format, status from your vocabulary, recorded method/standard, no duplicate elements.
+
+- [LeifDai/MACKORN-hydraulic-cone-crusher](https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher) — Mining-industry vertical-domain MACKORN cone-crusher plugin: MACKORN NH/NS hydraulic cone crushers (comparable to Sandvik CH/CS and Metso HP/MP), crusher selection and crushing-plant design; 19 tools, 6 skills, an MCP server, no runtime dependencies.
+- [PerryLink/dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) — Evidence-list completeness check (verifies a checklist against the facts to be proved and required evidence elements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) — Official-document format check (checks header and body elements against the public standard for Party and government document formats; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) — HAZOP study check (checks HAZOP worksheet elements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) — HS code classification check (checks against commodity classification rules; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) — ICD coding rule check (checks ICD codes against GB/T 14396-2016; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) — Legal citation check (checks citations against legal citation conventions; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) — Letter-of-credit document check (checks documents against LC terms; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) — Learning-gap check (checks gaps against learning goals and mastery; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) — Medical-record QC check (checks against the 2016 No. 24 medical-record writing standard; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) — NSFC application-form check (checks the form against application requirements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) — Nursing-record check (checks against nursing documentation standards; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) — Origin RVC check (checks regional value content against RVC rules; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) — OTA review check (checks OTA reviews against review standards; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) — Paper document adapter (checks against the yotta paper template; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) — Permit report check (checks against report drafting requirements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) — Pipeline check (checks pipeline data elements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) — Pleading drafting (drafts a pleading from claims and facts; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) — Policy-brief drafting (drafts a brief to policy requirements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) — Line-loss allocation check (checks against line-loss allocation rules; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) — Power work-permit check (checks against work-permit standards; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) — PPAP document check (checks documents against the Production Part Approval Process; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) — Protest deadline check (checks against objection-filing deadlines; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) — Railway maintenance-window check (checks construction maintenance-window applications; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) — Repair-order QC check (checks repair-order elements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) — Review-reply check (checks replies against reviewer-comment response requirements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) — Rule-file check (checks rule files against format requirements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) — Safety-brief check (checks safety-brief elements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) — Site-log check (checks site supervision logs against GB/T 50319-2013; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) — SOE decision check (checks state-owned-enterprise decision documents against SOE decision rules; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) — Soil-and-water conservation check (checks against soil-and-water conservation plans; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) — SOP/FMEA sync check (checks SOPs against FMEA and control plans; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) — SPC adapter (checks control charts and Cp/Cpk against GB/T 4091; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) — Tender-information extraction (extracts key points from tender documents; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) — Tender-matrix check (builds a response matrix from tender requirements; flags differences only, issues no qualitative conclusion).
+- [PerryLink/dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) — Warranty-calculation check (computes against warranty rules; flags differences only, issues no qualitative conclusion).
 
 ## Orchestrators & Aggregators
 
@@ -6370,6 +6411,11 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [bauerelizabeth07139/dsh-pet-liangzi](https://github.com/bauerelizabeth07139/dsh-pet-liangzi) — 梁子 (Liangzi) desktop pet for the DeepSeek Harness Web GUI: a realistic character with a three-frame walk cycle, blinking, idle micro-scenes and drop physics, voiced Chinese dialogue, sound effects and music on separate switches, plus a father-and-daughter link with dsh-pet-dafeiyu.
 - [samsam560/dog-kjdh](https://github.com/samsam560/dog-kjdh) — Opening/closing animation plugin for DeepSeek Harness: five pure-code hand-drawn styles, or swap in your own video/GIF; the settings page adjusts speed, particles, accent color and captions. The closing animation needs an optional one-time desktop-shell patch.
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) — White noise player: lays a layer of background sound (rain, streams, campfire, café…) while AI codes, helping you enter flow, stay focused and think efficiently, so you write code fast and well. Supports multiple playback modes (sequential / shuffle / single-loop / intermittent) and AI automatic background music download.
+
+- [elegant01/agent-acta](https://github.com/elegant01/agent-acta) — Local request-log panel for AI agents (DSH plugin).
+- [HaoyanZhang123/dsh-plugin-control-your-development](https://github.com/HaoyanZhang123/dsh-plugin-control-your-development) — Turn AI-development progress into a readable, decidable product dashboard (DSH skill + right-sidebar panel).
+- [Ln1m/dsh-side-suite](https://github.com/Ln1m/dsh-side-suite) — DSH left-column suite: file tree, file opener, tools tab, LAN services and long-running tasks.
+- [Rheasilvia/dsh-pretty-extension](https://github.com/Rheasilvia/dsh-pretty-extension) — A polished theme editor for the DeepSeek Harness Web UI: customize colors, typography and interface depth from a native-looking Settings → Pretty page.
 
 ## Skills
 

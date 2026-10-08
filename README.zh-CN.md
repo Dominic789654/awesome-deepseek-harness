@@ -4041,6 +4041,10 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
 - [LeuJasYoh/dsh-chaoxing](https://github.com/LeuJasYoh/dsh-chaoxing) — 把大模型当司令、脚本当手的 DSH Agent 预设：工具里零业务判断，让模型在运行时自适应动态结构的网站。
 
+- [Player-MINEPIG/dsh-prompt-assembler](https://github.com/Player-MINEPIG/dsh-prompt-assembler) — 独立的 DSH 提示词组装插件，具备来源自有的适配器与按会话的策略。
+- [PlayForm/DeepSeek](https://github.com/PlayForm/DeepSeek) — PlayForm 的 DeepSeek Harness 插件家族：12 个 TypeScript 包，驯服模型输出并治理项目文件。
+- [StarterMonk/dsh-adhd-session-mode](https://github.com/StarterMonk/dsh-adhd-session-mode) — 从 ayghri/i-have-adhd 移植的 DeepSeek Harness 插件：ADHD 友好的输出塑形，仅单次会话内生效，绝不全局生效。
+
 ## 循环（自动研究 / 自我改进等）
 
 _长时运行的循环工作流：自动研究、深度调研、自我精炼、迭代构建。_
@@ -4380,6 +4384,43 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [PerryLink/dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) — DSH 滞箱费台账核查器：校验 滞箱费台账 的运算与完整性——箱号/提单已记录、免箱期起始与还箱日期一致、超期天数、费用 = 天数 × 费率、币制格式。
 - [PerryLink/dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) — DSH 应急演练脚本核查器：校验 应急演练脚本 的完整性与运算——各步骤阶段/指挥人、响应级别取自词表、资源清单、步骤时长合计等于计划时长。
 - [PerryLink/dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) — DSH 环评导则适用性核对表核查器：校验 环评导则适用性核对表 的可追溯性——导则编号格式、状态取自词表、记录的方法/标准、要素不重复。
+
+- [LeifDai/MACKORN-hydraulic-cone-crusher](https://github.com/LeifDai/MACKORN-hydraulic-cone-crusher) — 采矿行业垂直领域 MACKORN 圆锥破碎机插件：MACKORN NH/NS 液压圆锥破碎机（对标 Sandvik CH/CS 与 Metso HP/MP），破碎机选型与破碎站设计；19 个工具、6 个 skill、MCP server，无运行时依赖。
+- [PerryLink/dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) — 证据清单齐备性核对(按待证事实与证据要素核对清单自洽,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) — 公文格式要素核对(按公开的党政机关公文格式标准核对版头与主体要素,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) — HAZOP 分析核对(按 HAZOP 分析工作表要素核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) — HS 编码归类核对(按商品归类规则核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) — ICD 编码规则核对(按 GB/T 14396-2016 疾病分类与代码核对 ICD 编码,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) — 法律引用核对(按法条引用规范核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) — 信用证单据核对(按信用证条款核对单据,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) — 学习差距核对(按学习目标与掌握程度核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) — 病历质控核对(按 2016 年第 24 号病历书写规范核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) — 国家自然科学基金申请书格式核对(按申请书格式要求核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) — 护理记录核对(按护理文书规范核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) — 原产地 RVC 区域价值成分核对(按 RVC 规则核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) — OTA 点评核对(按 OTA 点评规范核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) — 论文文档适配(按 yotta 论文模板核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) — 许可证报告核对(按报告编制要求核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) — 管线核对(按管线数据要素核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) — 诉状起草(按诉讼请求与事实起草,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) — 政策简报起草(按政策要求起草,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) — 线损分摊核对(按线损分摊规则核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) — 电力工作票核对(按工作票规范核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) — PPAP 文件核对(按 PPAP 生产件批准程序核对文件,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) — 异议期限核对(按异议提出期限核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) — 铁路天窗核对(按施工天窗申请核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) — 维修工单质控核对(按维修工单要素核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) — 评审答复核对(按评审意见答复要求核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) — 规则文件核对(按规则文件格式核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) — 安全简报核对(按安全简报要素核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) — 现场日志核对(按 GB/T 50319-2013 监理规范核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) — 国企决策核对(按国有企业决策制度核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) — 水土保持核对(按水土保持方案核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) — SOP 与 FMEA 同步核对(按 FMEA / 控制计划核对 SOP,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) — SPC 适配(按 GB/T 4091 控制图与 Cp/Cpk 核对,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) — 招投标信息提取(按招标文件提取要点,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) — 招投标矩阵核对(按招标要求生成应答矩阵,仅提示差异,不作出定性结论)
+- [PerryLink/dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) — 质保计算核对(按质保规则计算核对,仅提示差异,不作出定性结论)
 
 ## 编排器与聚合器
 
@@ -6370,6 +6411,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [bauerelizabeth07139/dsh-pet-liangzi](https://github.com/bauerelizabeth07139/dsh-pet-liangzi) — 梁子桌面宠物（DeepSeek Harness Web GUI）：三帧行走循环、眨眼、闲置小场景与掉落物理，中文配音对白，音效与音乐分开关，并与 dsh-pet-dafeiyu 联动父女。
 - [samsam560/dog-kjdh](https://github.com/samsam560/dog-kjdh) — DeepSeek Harness 开场 / 退场动画插件：5 套纯代码自绘样式，也可换成你自己的视频或动图；设置页可调速度、粒子、主色、文案。退场动画需要可选地打一次桌面壳补丁。
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) —— 白噪音播放器：AI 编程时铺一层背景音（雨声、溪流、篝火、咖啡馆……），帮助进入心流状态、集中精力、高效思考，让你写代码又快又好。支持顺序/随机/单曲循环/间歇等多种播放模式。支持 AI 自动下载背景音乐。
+
+- [elegant01/agent-acta](https://github.com/elegant01/agent-acta) — 本地 AI agent 请求日志面板（DSH 插件）。
+- [HaoyanZhang123/dsh-plugin-control-your-development](https://github.com/HaoyanZhang123/dsh-plugin-control-your-development) — 把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）。
+- [Ln1m/dsh-side-suite](https://github.com/Ln1m/dsh-side-suite) — DSH 左栏家族：文件树 / 文件打开 / 工具 Tab / 局域网服务 / 长期任务。
+- [Rheasilvia/dsh-pretty-extension](https://github.com/Rheasilvia/dsh-pretty-extension) — 面向 DeepSeek Harness Web UI 的精致主题编辑器：在原生观感的「设置 → Pretty」页中自定义配色、字体与界面层次。
 
 ## Skill
 
