@@ -4488,7 +4488,6 @@ _Plugins that give the agent tools for external services (container registries, 
 - [mingxuanzi/dsh-plugins](https://github.com/mingxuanzi/dsh-plugins) — Three DeepSeek Harness plugins: desktop pet, consistent global wallpaper, and Open In… with the desktop-build launch fixes.
 - [xiaoiver/dsh-unified-computer-use](https://github.com/xiaoiver/dsh-unified-computer-use) — Persistent Computer Use REPL and embedded browser for DeepSeek Harness; reuses the host runtime without patches.
 - [arnen7000/DSH-Workbuddy-WebSearch](https://github.com/arnen7000/DSH-Workbuddy-WebSearch) — Connects the WorkBuddy desktop app's web search into the DeepSeek Harness web_search tool (zero configuration, zero hard dependencies).
-- [Jannchie/dsh-artifact](https://github.com/Jannchie/dsh-artifact) — Claude-Code-style artifacts for DeepSeek Harness: an artifact tool, an authoring skill, and an in-app sandboxed HTML browser.
 - [Jav1es/dsh-bridge](https://github.com/Jav1es/dsh-bridge) — Let Tencent Marvis drive a local DeepSeek Harness: two integration paths (Skill + MCP); Marvis decides when to hand a task to DSH.
 - [megablue/dsh-feature-map](https://github.com/megablue/dsh-feature-map) — Docs before code: one page per feature so your agent stops grepping and starts knowing.
 - [xyrrrrr-r/dsh-eval-control](https://github.com/xyrrrrr-r/dsh-eval-control) — Host-side DSH evaluation control plugin for aeval: per-run configuration injection, budget caps, and evidence attribution.

@@ -4498,7 +4498,6 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [mingxuanzi/dsh-plugins](https://github.com/mingxuanzi/dsh-plugins) —— 三个 DeepSeek Harness 插件：桌面宠物、一致的全局壁纸，以及带桌面构建启动修复的「Open In…」。
 - [xiaoiver/dsh-unified-computer-use](https://github.com/xiaoiver/dsh-unified-computer-use) —— 面向 DeepSeek Harness 的持久 Computer Use REPL 与内嵌浏览器；复用宿主运行时，无需打补丁。
 - [arnen7000/DSH-Workbuddy-WebSearch](https://github.com/arnen7000/DSH-Workbuddy-WebSearch) — 将 WorkBuddy 桌面 App 的网络搜索接入 DeepSeek Harness 的 web_search 工具（零配置、零硬依赖）。
-- [Jannchie/dsh-artifact](https://github.com/Jannchie/dsh-artifact) — 面向 DeepSeek Harness 的 Claude Code 风格 artifacts：一个 artifact 工具、一个创作 skill，以及应用内沙箱 HTML 浏览器。
 - [Jav1es/dsh-bridge](https://github.com/Jav1es/dsh-bridge) — 让腾讯 Marvis 调用本机 DeepSeek Harness：Skill + MCP 两种接入方式，Marvis 自主决定何时把任务交给 DSH。
 - [megablue/dsh-feature-map](https://github.com/megablue/dsh-feature-map) — 先文档后代码：每个功能一页文档，让你的 agent 不再靠 grep 摸索，而是直接知晓。
 - [xyrrrrr-r/dsh-eval-control](https://github.com/xyrrrrr-r/dsh-eval-control) — 面向 aeval 的宿主侧 DSH 评测控制插件：一次评测试次的配置注入、预算封顶与证据归属。
