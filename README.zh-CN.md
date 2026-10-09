@@ -3305,7 +3305,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 
 - [wonderandyou/dsh-qwen-paint](https://github.com/wonderandyou/dsh-qwen-paint) — DSH 插件：在对话里调用本机 ComfyUI，用千问 Qwen-Image 2.1 出图。纯本地、不出网、不需要 API Key。
 
-- [yunyv/dsh-genui](https://github.com/yunyv/dsh-genui) —— DSH 插件：生成式界面（Generative UI）。模型写声明式 DSL，在无 DOM Worker 沙箱中执行，宿主用原生 DOM 画成真界面；另有一条自包含文档的逃生舱。原地改写、版本历史、跨重启可 patch。对标 ChatGPT Intelligent UI 与 Claude Artifacts。
+- [yunyv/dsh-intelligent-ui](https://github.com/yunyv/dsh-intelligent-ui) —— DSH 插件：生成式界面（Generative UI）。模型写声明式 DSL，在无 DOM Worker 沙箱中执行，宿主用原生 DOM 画成真界面；另有一条自包含文档的逃生舱。原地改写、版本历史、跨重启可 patch。
 
 ## 幻灯片 / PPT
 

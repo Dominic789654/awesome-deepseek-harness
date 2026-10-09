@@ -3294,7 +3294,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 
 - [wonderandyou/dsh-qwen-paint](https://github.com/wonderandyou/dsh-qwen-paint) — DSH plugin: call local ComfyUI from the conversation to generate images with Qwen-Image 2.1. Fully local, no network egress, no API key.
 
-- [yunyv/dsh-genui](https://github.com/yunyv/dsh-genui) — Generative UI for DeepSeek Harness: the model writes a declarative DSL that runs in a no-DOM Worker sandbox while the host paints real UI with native DOM, plus a self-contained documented escape hatch. In-place rewrites, version history, patch across restarts. Comparable to ChatGPT Intelligent UI and Claude Artifacts.
+- [yunyv/dsh-intelligent-ui](https://github.com/yunyv/dsh-intelligent-ui) — Generative UI for DeepSeek Harness: the model writes a declarative DSL that runs in a no-DOM Worker sandbox while the host paints real UI with native DOM, plus a self-contained documented escape hatch. In-place rewrites, version history, patch across restarts.
 
 ## Slides / PPT
 
