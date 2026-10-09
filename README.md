@@ -3333,6 +3333,7 @@ _Generate presentations, decks, slide exports._
 - [kitterfast/dsh-ppt-maker](https://github.com/kitterfast/dsh-ppt-maker) — DSH (DeepSeek Harness) web plugin: adds a "PPT 制作" entry to the composer and menu that kicks off a bundled, self-contained PPT workflow prompt — one menu pick, one short message, no repeated approval prompts.
 - [dangxinxing090-svg/dsh-plugin-plain-slides](https://github.com/dangxinxing090-svg/dsh-plugin-plain-slides) — A DeepSeek Harness plugin that turns each agent reply into a short slide deck in plain language — for people who use the harness but do not read code.
 - [OMSociety/dsh-kimi-ppt](https://github.com/OMSociety/dsh-kimi-ppt) — DSH plugin bundling the kimi-ppt skill: create / edit / replicate / export PPT, with pure-local export inside DSH.
+- [Jannchie/dsh-artifact](https://github.com/Jannchie/dsh-artifact) — Full-featured HTML-based docs and slides, a Claude Code-style artifact implementation.
 
 ## Documents & Export
 
