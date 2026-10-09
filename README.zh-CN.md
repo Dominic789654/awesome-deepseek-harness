@@ -4488,7 +4488,6 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [keatsyh/dsh-plugin-addir](https://github.com/keatsyh/dsh-plugin-addir) —— 为 DeepSeek Harness 提供多目录工作区。
 - [Link258QAQ/dsh-plugin-genshin-launch](https://github.com/Link258QAQ/dsh-plugin-genshin-launch) —— DSH 插件：启动时识别端口，并把《原神》启动器安装包下载到桌面；带 224MB 体积安全闸，下载失败自动改为打开官方下载页。
 - [little-traincar/dsh-imagegen](https://github.com/little-traincar/dsh-imagegen) —— DeepSeek Harness 图像生成插件——Doubao Seedream 5.0 Pro / qwen-image-3.0-pro，无水印、图内文字逐字渲染、对话内联展示。
-- [loster12520/dsh-btw](https://github.com/loster12520/dsh-btw) —— DeepSeek Harness 版 btw 插件。
 - [mazov2love/dsh-remote-control](https://github.com/mazov2love/dsh-remote-control) —— 让 Agent 直接操控本机完整 DSH 实例：目标 DSH 无需安装任何插件或额外组件，零侵入、开箱即用、无需手动配置，并提供接近用户的操作语义、增量读取、引用保存以及远端会话与工作区搜索等功能。
 - [mingxuanzi/dsh-plugins](https://github.com/mingxuanzi/dsh-plugins) —— 三个 DeepSeek Harness 插件：桌面宠物、一致的全局壁纸，以及带桌面构建启动修复的「Open In…」。
 - [xiaoiver/dsh-unified-computer-use](https://github.com/xiaoiver/dsh-unified-computer-use) —— 面向 DeepSeek Harness 的持久 Computer Use REPL 与内嵌浏览器；复用宿主运行时，无需打补丁。
@@ -6897,7 +6896,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [akshayDev17/ai-explainer-video](https://github.com/akshayDev17/ai-explainer-video) —— 把一个目录的课程笔记变成带旁白、带动画的讲解视频系列——适用于 Claude Code、Codex、DeepSeek Harness 与 Antigravity 的 Agent Skill。
 - [Kerberos255/dsh-skill-workshop](https://github.com/Kerberos255/dsh-skill-workshop) —— 从日常工作自动提炼、发布和更新 skill，按使用情况整理受管 skill；也支持手工编辑与导入。
 - [lincoo2019/dsh-trae-vault](https://github.com/lincoo2019/dsh-trae-vault) —— DeepSeek Harness 插件包：Trae SKILL.md skill provider、项目本地会话库、把归档发布为可恢复的 DSH 会话，以及导入共享的 Trae 会话。
-- [ShawnRen57/learnpath](https://github.com/ShawnRen57/learnpath) —— 便携式 Agent Skill：个性化、有来源依据的学习计划与每日 PDF 学习材料。
+- [ShawnRen57/omni-learning-assistant](https://github.com/ShawnRen57/omni-learning-assistant) —— Omni Learning Assistant（原 LearnPath）：便携式 Agent Skill，提供个性化、有来源依据的学习计划与每日 PDF 学习材料。
 
 ## 资源
 

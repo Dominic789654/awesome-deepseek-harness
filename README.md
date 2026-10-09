@@ -4478,7 +4478,6 @@ _Plugins that give the agent tools for external services (container registries, 
 - [keatsyh/dsh-plugin-addir](https://github.com/keatsyh/dsh-plugin-addir) — Multi-directory workspaces for DeepSeek Harness.
 - [Link258QAQ/dsh-plugin-genshin-launch](https://github.com/Link258QAQ/dsh-plugin-genshin-launch) — DSH plugin: detects the port on startup and downloads the Genshin Impact launcher installer to the desktop; includes a 224MB size safety gate and falls back to the official download page on failure.
 - [little-traincar/dsh-imagegen](https://github.com/little-traincar/dsh-imagegen) — Image generation plugin for DeepSeek Harness — Doubao Seedream 5.0 Pro / qwen-image-3.0-pro, watermark-free, verbatim in-image text, inline chat display.
-- [loster12520/dsh-btw](https://github.com/loster12520/dsh-btw) — BTW plugin for DeepSeek Harness.
 - [mazov2love/dsh-remote-control](https://github.com/mazov2love/dsh-remote-control) — Give an agent direct control of a full local DSH instance: the target DSH needs no plugin or extra component (zero-intrusion, works out of the box, no manual config), with near-user operating semantics, incremental reads, reference saving and remote session/workspace search.
 - [mingxuanzi/dsh-plugins](https://github.com/mingxuanzi/dsh-plugins) — Three DeepSeek Harness plugins: desktop pet, consistent global wallpaper, and Open In… with the desktop-build launch fixes.
 - [xiaoiver/dsh-unified-computer-use](https://github.com/xiaoiver/dsh-unified-computer-use) — Persistent Computer Use REPL and embedded browser for DeepSeek Harness; reuses the host runtime without patches.
@@ -6895,7 +6894,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [akshayDev17/ai-explainer-video](https://github.com/akshayDev17/ai-explainer-video) — Turn a directory of coursework notes into a narrated, animated explainer-video series — an agent skill for Claude Code, Codex, DeepSeek Harness and Antigravity.
 - [Kerberos255/dsh-skill-workshop](https://github.com/Kerberos255/dsh-skill-workshop) — Automatically distill, publish and update skills from daily work, organizing managed skills by usage; also supports manual editing and import.
 - [lincoo2019/dsh-trae-vault](https://github.com/lincoo2019/dsh-trae-vault) — DeepSeek Harness plugin bundle: a Trae SKILL.md skill provider, a project-local conversation vault, publishing archives as resumable DSH sessions, and importing shared Trae conversations.
-- [ShawnRen57/learnpath](https://github.com/ShawnRen57/learnpath) — A portable Agent Skill for personalized, source-grounded learning plans and daily PDF lessons.
+- [ShawnRen57/omni-learning-assistant](https://github.com/ShawnRen57/omni-learning-assistant) — Omni Learning Assistant (formerly LearnPath): a portable Agent Skill for personalized, source-grounded learning plans and daily PDF lessons.
 
 ## Resources
 
