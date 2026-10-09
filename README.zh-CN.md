@@ -3347,6 +3347,7 @@ _生成演示文稿、幻灯片、导出 PPT。_
 - [kitterfast/dsh-ppt-maker](https://github.com/kitterfast/dsh-ppt-maker) —— DSH（DeepSeek Harness）Web 插件：在输入框与菜单里加入「PPT 制作」入口，一次选择即可触发内置的自包含 PPT 工作流提示词，无需反复确认。
 - [dangxinxing090-svg/dsh-plugin-plain-slides](https://github.com/dangxinxing090-svg/dsh-plugin-plain-slides) —— 把 agent 每次回复变成一页白话小幻灯片的 DeepSeek Harness 插件 —— 给用 harness、但不读代码的人。
 - [OMSociety/dsh-kimi-ppt](https://github.com/OMSociety/dsh-kimi-ppt) —— DSH 插件：内含 kimi-ppt 技能，可创建 / 编辑 / 复刻 / 导出 PPT，DSH 内纯本地导出。
+- [Jannchie/dsh-artifact](https://github.com/Jannchie/dsh-artifact) —— 基于 HTML 的全功能文档与幻灯片，类 Claude Code 的工件实现。
 
 ## 文档与导出
 
