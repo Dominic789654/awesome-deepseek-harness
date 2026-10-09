@@ -310,6 +310,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 
 - [ryukeilee/dsh-evolution](https://github.com/ryukeilee/dsh-evolution) —— DeepSeek DSH 的独立 Evolution bundle 预发布；注意 promotion 的 host 代码不是安全沙箱。
 - [yupaoa/dsh-persona-switcher](https://github.com/yupaoa/dsh-persona-switcher) —— DeepSeek Harness 人设切换插件：会话中途只换人设与语言风格，不动工具、技能与模型。
+- [LeuJasYoh/dsh-xuexi](https://github.com/LeuJasYoh/dsh-xuexi) —— DSH Agent 预设：把大模型当司令、脚本当手；工具里零业务判断，让模型在运行时自适应动态结构的网站。
 
 ## Harness 与运行时
 
@@ -1391,6 +1392,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [jimoto-no-llm/rustdsh](https://github.com/jimoto-no-llm/rustdsh) —— DSH 的 Rust 启动器：原生快速命令、受保护的 agent 工具，以及本地项目面板。
 - [Faide-cyber/dsh-workbuddy](https://github.com/Faide-cyber/dsh-workbuddy) —— 将 WorkBuddy 的免费及付费模型接入 DeepSeek Harness —— 无需下载 WorkBuddy 桌面端。
 - [NaivG/dsh-network](https://github.com/NaivG/dsh-network) —— 让 DeepSeek Harness 无缝访问互联网。
+- [askdkc/dsh-cli](https://github.com/askdkc/dsh-cli) —— DSH 的 CLI 插件：便捷完成 Codex、Claude、OpenCode、OpenRouter、Hermes Agent、OrcaRouter 与 Infron 的 AI 服务商配置。
+- [Fyue7/dsh-restart-button](https://github.com/Fyue7/dsh-restart-button) —— 在 DSH 会话头部加一颗重启按钮：完全退出并拉回新实例，全程零窗口。非官方插件。
 
 ## 安全与权限
 
@@ -1658,6 +1661,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [dingchenhui0618-arch/dsh-warden](https://github.com/dingchenhui0618-arch/dsh-warden) — DSH 对抗式审查门：危险工具调用在执行前由一个独立小模型复核，并报告每一次裁决。
 
 - [jkt-check/dsh-secret-scrub](https://github.com/jkt-check/dsh-secret-scrub) —— DeepSeek Harness (dsh) 的不可逆密钥擦除防护插件：在会话日志落盘和发起模型请求前用正则脱敏密钥。
+- [ZeroClave/zeroclave-dsh-privacy](https://github.com/ZeroClave/zeroclave-dsh-privacy) —— DeepSeek Harness 的隐私防火墙：在发送前检测并脱敏敏感文本。
 
 ## 会话与记忆管理
 - [AOS](https://github.com/MagicalYuYu/agent-operating-system) — 面向 agent harness 的文件治理层：目录宪章、指针表记忆、双层日志与校验脚本。
@@ -2312,6 +2316,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [zhaoyuntao-wl/dsh-plugin-thread](https://github.com/zhaoyuntao-wl/dsh-plugin-thread) — DeepSeek Harness 插件：Thread 会话记忆适配器（dsh-thread）。
 
 - [Shuffle-1992/dsh-context-pilot](https://github.com/Shuffle-1992/dsh-context-pilot) — DSH 上下文智能压缩 + 智能思考：每轮注入用量、模型自主决定压缩并自动续跑；可选让模型按任务难度自主调整思考强度档位。
+- [Fyue7/dsh-memory-gate](https://github.com/Fyue7/dsh-memory-gate) —— DSH 的会话级记忆开关：每段对话由你决定是否进入全局记忆，默认不进；输入框工具行按钮 + 跨会话摘要注入。非官方插件。
 
 ## 成本与用量统计
 
@@ -3083,6 +3088,7 @@ _插件市场、安装管理器、索引与生态工具。_
 
 - [AEmbers/dsh-first-party](https://github.com/AEmbers/dsh-first-party) — 第一方 DSH 插件集合：用可控、可验证的自研实现替换高开销第三方 bundle。首个包 recall-lite 把启动期 eager 预热改为按需初始化。
 - [FNOSP/fnos-dsh](https://github.com/FNOSP/fnos-dsh) — DeepSeek Harness 应用与 harness 插件 monorepo。
+- [OrinVoss/dsh-plugins](https://github.com/OrinVoss/dsh-plugins) —— DeepSeek Harness 社区插件集：长期记忆 / 桌面宠物 / 7 套皮肤 / Token 用量报表 / 系统状态 / 旁支提问 / Agent Teams fork（上限 16 + release_teammate）。
 
 ## 可视化
 
@@ -3306,6 +3312,9 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [wonderandyou/dsh-qwen-paint](https://github.com/wonderandyou/dsh-qwen-paint) — DSH 插件：在对话里调用本机 ComfyUI，用千问 Qwen-Image 2.1 出图。纯本地、不出网、不需要 API Key。
 
 - [yunyv/dsh-intelligent-ui](https://github.com/yunyv/dsh-intelligent-ui) —— DSH 插件：生成式界面（Generative UI）。模型写声明式 DSL，在无 DOM Worker 沙箱中执行，宿主用原生 DOM 画成真界面；另有一条自包含文档的逃生舱。原地改写、版本历史、跨重启可 patch。
+- [bauerelizabeth07139/dsh-pet-dafeiyu](https://github.com/bauerelizabeth07139/dsh-pet-dafeiyu) —— DeepSeek Harness Web GUI 的「大肥鱼」桌面宠物：Q 版角色，三帧行走循环、眨眼、待机小场景与掉落物理，头顶还扣着一只铁盆；中文配音对白，音效与音乐分开关，并与 dsh-pet-liangzi 联动。
+- [honwee/dsh-plugin-mynah](https://github.com/honwee/dsh-plugin-mynah) —— 给 DeepSeek Harness agent 一张会说话的脸：驱动 Mynah 实时数字人（说话、打断、会话、频道、知识库）。
+- [purezhi/dsh-plugin-pando](https://github.com/purezhi/dsh-plugin-pando) —— DSH Web UI 的桌宠 Pando：复刻 confirmo.love 的体验，可拖拽、可换形象，支持 sprites.confirmo.love 社区精灵图。
 
 ## 幻灯片 / PPT
 
@@ -3766,6 +3775,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 - [LinXueyuanStdio/dsh-git](https://github.com/LinXueyuanStdio/dsh-git) —— DeepSeek Harness（dsh）的 git 插件。
 - [lw0129a/dsh-app-packager](https://github.com/lw0129a/dsh-app-packager) —— uni-app x 打包流水线：npm 可安装 CLI + DeepSeek Harness 插件（iOS / Android / HarmonyOS，macOS 全功能，Windows/Linux 走 Git Bash 或 WSL）。
+- [lzqzm/dsh-magical-lowcode-project](https://github.com/lzqzm/dsh-magical-lowcode-project) —— DeepSeek Harness 低代码项目模式插件：在一个面板里管理 MagicalCoder 风格低代码项目的工程树、推送状态台账、页面预览组装、推送前 lint 与 `.dshpreset` Agent 预设导入导出（host + client，不改核心包）。
 
 ## Agent
 
@@ -4463,6 +4473,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) — 为 Windows 版 DSH 提供 bash、PowerShell 7 及一系列用 Rust 编写的高性能工具，以提高 token 效率。
 
 - [wqzhellohhwy/dsh-web-fetch-lan](https://github.com/wqzhellohhwy/dsh-web-fetch-lan) —— 让 DeepSeek Harness 的 web_fetch 在 Clash/mihomo 的 fake-ip（TUN）下可用：放行 fake-ip 段，仍拒绝回环/内网/云元数据等地址。零依赖 DSH 插件。
+- [toddpan/dsh-webapi](https://github.com/toddpan/dsh-webapi) —— DSH 插件：把 DeepSeek Harness 开放成 47 条 REST + SSE 接口（工作区、会话、流式、统计、待办、模型、设置、技能、文件），并提供 OpenAI 兼容的 /chat/completions 端点。
 
 ## 编排器与聚合器
 
@@ -4680,6 +4691,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [Contexera/dsh-agent-team](https://github.com/Contexera/dsh-agent-team) — 让 DeepSeek Harness 的 Agent 不再重置：持久的 Member 拥有自己的记忆、笔记与技能，跨会话、轮转与重启保持；你定方向，Agent 通过 Channel 与 Task 协作。
 
 - [oralrinse/HarnessMux](https://github.com/oralrinse/HarnessMux) —— 用你已经在用的 AI 客户端控制 DeepSeek Harness——插件优先的互操作层，自带持久、会话感知的邮箱（至少一次投递、崩溃安全）。
+- [SHADOW-LI0327/dsh-process-kit](https://github.com/SHADOW-LI0327/dsh-process-kit) —— 面向任意仓库的开发流程增强插件：以文件状态机驱动，内置 7 角色 Subagent、门禁脚本与 GUI 状态看板；只做确定性的读取、渲染、安全追加与脚手架搭建。
 
 ## UI / 客户端
 
@@ -6477,6 +6489,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [rifkyazizf/dsh-session-tabs](https://github.com/rifkyazizf/dsh-session-tabs) —— 面向 DeepSeek Harness (dsh) 桌面端的小型会话标签页插件。
 - [wqzhellohhwy/dsh-ungrouped-top](https://github.com/wqzhellohhwy/dsh-ungrouped-top) —— 把 DSH 侧边栏的「未分组」钉在最上面，并让「新会话」默认落进无工作区会话。零依赖、无需构建的 DeepSeek Harness 客户端插件。
 - [ZhangBo-cmd/dsh-coros-badge](https://github.com/ZhangBo-cmd/dsh-coros-badge) —— DeepSeek Harness (DSH) 插件：在 Web UI 里显示绑定的 COROS 手表型号与累计运动天数，点击展开成一行点评与建议。
+- [sixzjd/dsh-folder-attach](https://github.com/sixzjd/dsh-folder-attach) —— 给 DeepSeek Harness Web 输入框加上文件夹引用：宿主文件夹对话框、/folder 命令，把拖拽/粘贴的文件夹解析成 @path 提及。
+- [SuperWheel/cliworker-now](https://github.com/SuperWheel/cliworker-now) —— DeepSeek Harness 多 CLI 智能体侧栏插件：独立对话、账号管理、角色预设与任务续聊。
 
 ## Skill
 
