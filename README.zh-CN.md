@@ -1388,6 +1388,10 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [ccneedb/dsh-information-environment-governance](https://github.com/ccneedb/dsh-information-environment-governance) — DeepSeek Harness 的可叠加项目治理层。可验证原型——依赖前请先看状态说明。
 - [stefanohe/deepseek-harness-datasecure](https://github.com/stefanohe/deepseek-harness-datasecure) — DeepSeek Harness DataSecure Remastered：面向数据安全的官方开源 DeepSeek Harness 重制版，由 Stefano's AI Lab 维护。与 DeepSeek Inc. 无关。
 
+- [jimoto-no-llm/rustdsh](https://github.com/jimoto-no-llm/rustdsh) —— DSH 的 Rust 启动器：原生快速命令、受保护的 agent 工具，以及本地项目面板。
+- [Faide-cyber/dsh-workbuddy](https://github.com/Faide-cyber/dsh-workbuddy) —— 将 WorkBuddy 的免费及付费模型接入 DeepSeek Harness —— 无需下载 WorkBuddy 桌面端。
+- [NaivG/dsh-network](https://github.com/NaivG/dsh-network) —— 让 DeepSeek Harness 无缝访问互联网。
+
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
@@ -1652,6 +1656,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [ButterHost69/dsh-login-gateway](https://github.com/ButterHost69/dsh-login-gateway) —— DSH 插件：为 Web UI 提供「用户名 + 密码 + TOTP」登录入口，适合隧道暴露或公网部署场景。
 
 - [dingchenhui0618-arch/dsh-warden](https://github.com/dingchenhui0618-arch/dsh-warden) — DSH 对抗式审查门：危险工具调用在执行前由一个独立小模型复核，并报告每一次裁决。
+
+- [jkt-check/dsh-secret-scrub](https://github.com/jkt-check/dsh-secret-scrub) —— DeepSeek Harness (dsh) 的不可逆密钥擦除防护插件：在会话日志落盘和发起模型请求前用正则脱敏密钥。
 
 ## 会话与记忆管理
 - [AOS](https://github.com/MagicalYuYu/agent-operating-system) — 面向 agent harness 的文件治理层：目录宪章、指针表记忆、双层日志与校验脚本。
@@ -3299,6 +3305,8 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 
 - [wonderandyou/dsh-qwen-paint](https://github.com/wonderandyou/dsh-qwen-paint) — DSH 插件：在对话里调用本机 ComfyUI，用千问 Qwen-Image 2.1 出图。纯本地、不出网、不需要 API Key。
 
+- [yunyv/dsh-genui](https://github.com/yunyv/dsh-genui) —— DSH 插件：生成式界面（Generative UI）。模型写声明式 DSL，在无 DOM Worker 沙箱中执行，宿主用原生 DOM 画成真界面；另有一条自包含文档的逃生舱。原地改写、版本历史、跨重启可 patch。对标 ChatGPT Intelligent UI 与 Claude Artifacts。
+
 ## 幻灯片 / PPT
 
 _生成演示文稿、幻灯片、导出 PPT。_
@@ -4348,6 +4356,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 
 - [jcaiagent7143-ui/linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) — 给 AI Agent 用的小红书 / 抖音链接读取器：图文笔记图片 OCR、口播逐字稿 + 画面文字、爆款拆解（引用逐字核对）。Hosted MCP + API，提供 Python SDK/CLI。
 
+- [drscrewdriver/dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) —— DeepSeek Harness 插件：MCP 连接器受治理注册表（stdio / streamable-http）——四级 fail-closed 授权、mcpServers 导入大声报错、凭据全程脱敏、review-all 诚实拒绝。
+
 ## 工具与集成
 
 _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能力的插件。_
@@ -4451,6 +4461,8 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [leolee9086/dsh-computer-use](https://github.com/leolee9086/dsh-computer-use) — 独立、跨平台的 DeepSeek Harness 桌面 computer-use 插件（通过内置原生辅助程序做区域截取）。
 - [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — 出口管制物项台账核对(依据《中华人民共和国出口管制法》,仅提示差异,不作出定性结论)
 - [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) — 为 Windows 版 DSH 提供 bash、PowerShell 7 及一系列用 Rust 编写的高性能工具，以提高 token 效率。
+
+- [wqzhellohhwy/dsh-web-fetch-lan](https://github.com/wqzhellohhwy/dsh-web-fetch-lan) —— 让 DeepSeek Harness 的 web_fetch 在 Clash/mihomo 的 fake-ip（TUN）下可用：放行 fake-ip 段，仍拒绝回环/内网/云元数据等地址。零依赖 DSH 插件。
 
 ## 编排器与聚合器
 
@@ -4666,6 +4678,8 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [gosomea/dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) —— DSH 任务监管：DAG 进度、计划评审、持久化控制与阶段 / 完成检查。
 
 - [Contexera/dsh-agent-team](https://github.com/Contexera/dsh-agent-team) — 让 DeepSeek Harness 的 Agent 不再重置：持久的 Member 拥有自己的记忆、笔记与技能，跨会话、轮转与重启保持；你定方向，Agent 通过 Channel 与 Task 协作。
+
+- [oralrinse/HarnessMux](https://github.com/oralrinse/HarnessMux) —— 用你已经在用的 AI 客户端控制 DeepSeek Harness——插件优先的互操作层，自带持久、会话感知的邮箱（至少一次投递、崩溃安全）。
 
 ## UI / 客户端
 
@@ -6458,6 +6472,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [sdynasty/dsh-ui-progress](https://github.com/sdynasty/dsh-ui-progress) — DeepSeek Harness Web UI 的进度展示插件。
 
 - [WhichWitchWin/dsh-power-button](https://github.com/WhichWitchWin/dsh-power-button) — 给 DSH 桌面版补一个可拖动的电源按钮：贴边自动收起，点开可重启或退出 DSH。Windows 专用、零依赖。
+
+- [LostAbaddon/dsh-workspace-sort](https://github.com/LostAbaddon/dsh-workspace-sort) —— DeepSeek Harness 侧边栏插件：按最新会话为工作区排序，并可在设置里配置每个工作区可见的会话数（默认 5）。
+- [rifkyazizf/dsh-session-tabs](https://github.com/rifkyazizf/dsh-session-tabs) —— 面向 DeepSeek Harness (dsh) 桌面端的小型会话标签页插件。
+- [wqzhellohhwy/dsh-ungrouped-top](https://github.com/wqzhellohhwy/dsh-ungrouped-top) —— 把 DSH 侧边栏的「未分组」钉在最上面，并让「新会话」默认落进无工作区会话。零依赖、无需构建的 DeepSeek Harness 客户端插件。
+- [ZhangBo-cmd/dsh-coros-badge](https://github.com/ZhangBo-cmd/dsh-coros-badge) —— DeepSeek Harness (DSH) 插件：在 Web UI 里显示绑定的 COROS 手表型号与累计运动天数，点击展开成一行点评与建议。
 
 ## Skill
 
