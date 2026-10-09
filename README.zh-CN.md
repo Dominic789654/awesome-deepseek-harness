@@ -1665,6 +1665,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [jkt-check/dsh-secret-scrub](https://github.com/jkt-check/dsh-secret-scrub) —— DeepSeek Harness (dsh) 的不可逆密钥擦除防护插件：在会话日志落盘和发起模型请求前用正则脱敏密钥。
 - [ZeroClave/zeroclave-dsh-privacy](https://github.com/ZeroClave/zeroclave-dsh-privacy) —— DeepSeek Harness 的隐私防火墙：在发送前检测并脱敏敏感文本。
+- [AntaresCorn/dsh-auto-reviewer](https://github.com/AntaresCorn/dsh-auto-reviewer) — 为 DeepSeek Harness 提供类似 Codex Auto Reviewer /「approve for me」的权限模式。
 
 ## 会话与记忆管理
 - [AOS](https://github.com/MagicalYuYu/agent-operating-system) — 面向 agent harness 的文件治理层：目录宪章、指针表记忆、双层日志与校验脚本。
@@ -2322,6 +2323,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Fyue7/dsh-memory-gate](https://github.com/Fyue7/dsh-memory-gate) —— DSH 的会话级记忆开关：每段对话由你决定是否进入全局记忆，默认不进；输入框工具行按钮 + 跨会话摘要注入。非官方插件。
 - [adamcjm/dsh-memo](https://github.com/adamcjm/dsh-memo) —— DSH 备忘录插件：侧边栏快速记录、本地 SQLite 存储、同步到 GitHub 私有仓库，并支持图片截图。
 - [Kerberos255/dsh-memory-dreaming](https://github.com/Kerberos255/dsh-memory-dreaming) —— 从原生会话整理日常记忆、Dream 与每周复查，保留出处并审阅长期事实。
+- [gezi-wen/sage-mem](https://github.com/gezi-wen/sage-mem) — 面向 DeepSeek Harness（DSH）的纯文件跨会话记忆——每条记忆都是一个普通 Markdown 文件，无数据库、无 worker、无端口；可从 Claude Code 无损迁移记忆与人格，带记忆星图与可选的记忆整理。
+- [krodon998/dsh-get-memory](https://github.com/krodon998/dsh-get-memory) — Get 记忆插件：对话开始时自动拉取指定 GitHub 仓库内容并注入上下文；结束时提取值得长期记住的新信息写回并提交；左栏快捷面板实时查看状态，设置界面详细配置。
 
 ## 成本与用量统计
 
@@ -2689,6 +2692,8 @@ _token 用量、成本看板与预算告警插件。_
 
 - [RyabykinIlya/dsh-openrouter-spend](https://github.com/RyabykinIlya/dsh-openrouter-spend) — DeepSeek Harness 插件：真实 OpenRouter 花费——输入框下方显示今日成本，设置页提供按密钥 / 按模型分析与预付余额。安装：`dsh plugin add dsh-openrouter-spend`
 - [Sakurajima-Mai-AI/dsh-balance-badge](https://github.com/Sakurajima-Mai-AI/dsh-balance-badge) — 在 DSH 侧边栏实时显示 DeepSeek 账户余额与赠送额度，并在每次任务扣费时显示消耗金额。
+- [FenZhenHua/dsh-balance-meter](https://github.com/FenZhenHua/dsh-balance-meter) — DeepSeek Harness 插件：API 余额与本次会话费用（官方计费）。
+- [lion231226/dsh-peak-hours](https://github.com/lion231226/dsh-peak-hours) — DeepSeek Harness 运行窗口开关：始终运行，或仅在低谷时段运行——每个任务在中国高峰价窗口暂停，并在边界处恢复。
 
 ## Channel / IM 桥接
 
@@ -4090,6 +4095,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
 - [BotHarness/DeepSeekBot](https://github.com/BotHarness/DeepSeekBot) — 开源的 GrokBot 替代品，基于 DeepSeek Harness（DSH）构建。PersonaBot 拥有独立身份、人设和可通过 GitHub 分享的 Git 记忆；支持群聊、任务委派，以及在飞书/Lark、Slack、Discord、微信上的 IM 身份。可与其他 DSH 插件协同。Bot 市场：market.botharness.ai。MIT。
 - [William2333ZZ/mywork-deepseekharness](https://github.com/William2333ZZ/mywork-deepseekharness) —— MyWork——住在你电脑里的 AI 同事：每个 AI 队友负责一项长期任务、在后台工作、每份交付都由第二个会话复核，并通过端到端加密中继送达手机。全部为 dsh 插件，数据留在本地。
+- [mutoharohfiqhiabcd-source/dsh-lead-panel](https://github.com/mutoharohfiqhiabcd-source/dsh-lead-panel) — DSH 领导面板：与「领导」对话、切换它的模型、实时查看 token/金额/预计剩余时间，并由它把任务派给工人 AI（Agent Teams）。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4491,6 +4497,11 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [mazov2love/dsh-remote-control](https://github.com/mazov2love/dsh-remote-control) —— 让 Agent 直接操控本机完整 DSH 实例：目标 DSH 无需安装任何插件或额外组件，零侵入、开箱即用、无需手动配置，并提供接近用户的操作语义、增量读取、引用保存以及远端会话与工作区搜索等功能。
 - [mingxuanzi/dsh-plugins](https://github.com/mingxuanzi/dsh-plugins) —— 三个 DeepSeek Harness 插件：桌面宠物、一致的全局壁纸，以及带桌面构建启动修复的「Open In…」。
 - [xiaoiver/dsh-unified-computer-use](https://github.com/xiaoiver/dsh-unified-computer-use) —— 面向 DeepSeek Harness 的持久 Computer Use REPL 与内嵌浏览器；复用宿主运行时，无需打补丁。
+- [arnen7000/DSH-Workbuddy-WebSearch](https://github.com/arnen7000/DSH-Workbuddy-WebSearch) — 将 WorkBuddy 桌面 App 的网络搜索接入 DeepSeek Harness 的 web_search 工具（零配置、零硬依赖）。
+- [Jannchie/dsh-artifact](https://github.com/Jannchie/dsh-artifact) — 面向 DeepSeek Harness 的 Claude Code 风格 artifacts：一个 artifact 工具、一个创作 skill，以及应用内沙箱 HTML 浏览器。
+- [Jav1es/dsh-bridge](https://github.com/Jav1es/dsh-bridge) — 让腾讯 Marvis 调用本机 DeepSeek Harness：Skill + MCP 两种接入方式，Marvis 自主决定何时把任务交给 DSH。
+- [megablue/dsh-feature-map](https://github.com/megablue/dsh-feature-map) — 先文档后代码：每个功能一页文档，让你的 agent 不再靠 grep 摸索，而是直接知晓。
+- [xyrrrrr-r/dsh-eval-control](https://github.com/xyrrrrr-r/dsh-eval-control) — 面向 aeval 的宿主侧 DSH 评测控制插件：一次评测试次的配置注入、预算封顶与证据归属。
 
 ## 编排器与聚合器
 
@@ -4709,6 +4720,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 
 - [oralrinse/HarnessMux](https://github.com/oralrinse/HarnessMux) —— 用你已经在用的 AI 客户端控制 DeepSeek Harness——插件优先的互操作层，自带持久、会话感知的邮箱（至少一次投递、崩溃安全）。
 - [SHADOW-LI0327/dsh-process-kit](https://github.com/SHADOW-LI0327/dsh-process-kit) —— 面向任意仓库的开发流程增强插件：以文件状态机驱动，内置 7 角色 Subagent、门禁脚本与 GUI 状态看板；只做确定性的读取、渲染、安全追加与脚手架搭建。
+- [daoleno/mewla](https://github.com/daoleno/mewla) — 一个人，一整个团队——多智能体编排器，支持 DSH（同时支持 Claude Code / Codex / Grok）。
 
 ## UI / 客户端
 
@@ -6509,6 +6521,14 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [sixzjd/dsh-folder-attach](https://github.com/sixzjd/dsh-folder-attach) —— 给 DeepSeek Harness Web 输入框加上文件夹引用：宿主文件夹对话框、/folder 命令，把拖拽/粘贴的文件夹解析成 @path 提及。
 - [SuperWheel/cliworker-now](https://github.com/SuperWheel/cliworker-now) —— DeepSeek Harness 多 CLI 智能体侧栏插件：独立对话、账号管理、角色预设与任务续聊。
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) —— 所有事都在一个对话框里聊，不用再翻旧会话——一个 DeepSeek Harness（DSH）插件，把每条消息自动路由到对应话题。
+- [berhbro/dsh-cyrene-theme](https://github.com/berhbro/dsh-cyrene-theme) — Cyrene 主题 dsh 插件。
+- [DDDMUC/dsh-url-router](https://github.com/DDDMUC/dsh-url-router) — DSH Web GUI 插件：一个 URL 对应每个界面——地址栏标示当前屏幕内容（某会话或某主面板），链接可直接打开；URL fragment 的唯一归属者。
+- [FiVE0016/dsh-bubble-fold](https://github.com/FiVE0016/dsh-bubble-fold) — DSH 插件：把过长的消息与工作步骤折起来，最新一轮保持展开。
+- [JamesYasR/dsh-desktop-linux](https://github.com/JamesYasR/dsh-desktop-linux) — 官方 DeepSeek Harness 桌面端的 Linux 版：完整跨平台外观 + 应用内更新 + 自动跟进上游。
+- [JochenYang/dsh-rewind-plugin](https://github.com/JochenYang/dsh-rewind-plugin) — DeepSeek Harness（dsh）的消息召回：把对话切回到你已发消息之前，并把其文本放回输入框。
+- [Mr54233/dsh-restart-now](https://github.com/Mr54233/dsh-restart-now) — DeepSeek Harness 桌面版（DSH）一键整体重启插件——侧边栏一键重启桌面版。
+- [starry728/ghibli-desktop-pet](https://github.com/starry728/ghibli-desktop-pet) — AI 桌面宠物领养系统 · 用 DeepSeek Harness 做的完整项目。
+- [steven-stack-s/dsh-remote-client](https://github.com/steven-stack-s/dsh-remote-client) — 直接加载远程 dsh 的桌面客户端，目标后端为服务器上运行的 DeepSeek Harness 实例。
 
 ## Skill
 
