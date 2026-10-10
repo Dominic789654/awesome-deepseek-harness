@@ -3824,8 +3824,10 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [whateverboy2333/dsh-flat-teams](https://github.com/whateverboy2333/dsh-flat-teams) —— 面向 DeepSeek Harness 的无领导扁平 agent 团队：跨窗口结构化任务派发、记录服务与 web 仪表盘。
 - [zerosloney/dsh-cbx-orch](https://github.com/zerosloney/dsh-cbx-orch) —— 作为 DeepSeek Harness 插件的持久化 coding-agent 编排器：把任务派发给 codebuddy/opencode/omp/cline/qwen，支持持久化任务、队列、审核与回滚。
 - [Wang-Lin-Chang/dsh-vap](https://github.com/Wang-Lin-Chang/dsh-vap) —— VAP - Verifiable Agent Protocol：面向 agent 间消息的经过测试的信任机器（零第三方依赖，完整实验台账）。
+- [deepsleepAquarium/dsh-whale-post](https://github.com/deepsleepAquarium/dsh-whale-post) —— 给同一台机器上的多个 AI 会话（或多台引擎）的异步信箱 —— 默认离线、信不会丢、万物皆插件（DSH / Cordis 风格）。
 - [tonytanglab/deepseek-harness-relay-mcp](https://github.com/tonytanglab/deepseek-harness-relay-mcp) —— 让任意 MCP agent 都能把长时运行任务委派给 DeepSeek Harness，并监控其执行到完成。
 - [wowyuarm/dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) —— 面向 DeepSeek Harness 的可选式 Agent Team 协作 bundle。
+- [bloodarea/dsh-agent-team-presets](https://github.com/bloodarea/dsh-agent-team-presets) —— DeepSeek Harness 可复用 Agent Team 预设：队长加成员，每人都有自己的 prompt、模型、推理强度与工具。
 - [JingHao-Leon/dsh-alpha-desk](https://github.com/JingHao-Leon/dsh-alpha-desk) — Alpha Desk — a deepseek-harness (dsh) skill pack that turns an agent session into a compliance-first AI investment desk: multi-strategy fund backtesting via ai-hedge-fund, a tools/pre-execute risk gate, cron monitoring and thesis memory. 把 dsh 会话变成合规、可复现、可追责的 AI 投研工作台。
 
 - [CypherNaught-0x/DSH-Subagent-Model-Router](https://github.com/CypherNaught-0x/DSH-Subagent-Model-Router) —— Deepseek Harness 插件：根据用户偏好将子任务自动委派给不同模型。
@@ -3955,6 +3957,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [1jiegejiayouxuewangan1/dsh-desktop-uia](https://github.com/1jiegejiayouxuewangan1/dsh-desktop-uia) — 通过 UI Automation 控制 Windows 桌面：读取窗口控件树而非截图，按稳定 id 驱动控件，每次写入都需批准，每个动作都可审计。
 
 - [bpc-oss/dsh-verification](https://github.com/bpc-oss/dsh-verification) —— 面向 agent 的验证门禁：每个验收标准都必须有服务器盖章的真实工具证据支撑，完成门禁才会放行目标（顾问式审计、强制门禁、持久许可）。
+- [samirliu/dsh-goalloop-agentteams](https://github.com/samirliu/dsh-goalloop-agentteams) —— DSH 的确定性目标完成门禁：契约优先的验收标准语法，自行重跑每条验证命令（零模型信任），把判定结果绑定到树摘要，通过 tools/pre-execute 在 update_goal/update_task 上拒绝虚假完成。把 goal-loop 的裁决能力移植到原生 Agent Teams + 任务看板上。
 - [luolin-boot/ATRI-Core](https://github.com/luolin-boot/ATRI-Core) —— 纯 Python 实现的自由自主思维体：自主性（动机→选择→行动→反思）、双手（全设备触达、零漏洞）、锻造（无漏洞地审查与生成代码）、记忆、内省、进化。可嵌入，零依赖。
 - [huchunlinnk/deepseek-desk-rsi](https://github.com/huchunlinnk/deepseek-desk-rsi) —— DeepSeek Harness 的递归自我改进（RSI）引擎：一个有界的「感知→整合→验证→对齐→修复→提议」循环，让下游应用与上游保持 1:1 功能对齐——DSH 维护 DSH。
 - [Missher12/dsh-project-ops](https://github.com/Missher12/dsh-project-ops) — 面向 DeepSeek Harness 的范围化项目任务发现与执行凭证记录。
@@ -4729,6 +4732,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [IRdotAI/dsh-studio](https://github.com/IRdotAI/dsh-studio) —— DeepSeek Harness 主题与个性化：17 套主题、主题编辑器、液态玻璃面板、壁纸、自定义 logo/问候语、保存的提示词与 Ctrl+K 快捷切换。
 - [2034126171/dsh-boot-animation-sound](https://github.com/2034126171/dsh-boot-animation-sound) — DSH 开机动画 + 声音插件：触发时机（启动应用 / 页面刷新 / 新对话 / 任意会话）与播放频率（每次 / 每天一次 / 只播一次 / 限播 N 次）均可自选，声音不需要全屏。
 - [FindDataTechnology/platform](https://github.com/FindDataTechnology/platform) — 基于 DeepSeek Harness（dsh）运行时的本地优先 AI 助手平台：流式 agent 对话、文档 RAG，并在网页端与桌面端提供 MCP 扩展能力。
+- [liaosiliangCodeLife/harness-mate-plat](https://github.com/liaosiliangCodeLife/harness-mate-plat) — 端到端智能体平台：把本机的 AI Agent 变成人人可用的 Web 产品（Vue 3 + Flask + Go WS 网关 + Docker 部署）。
 - [HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio](https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio) — dsh-better-sidebar 音频预览：可缩放波形 + 实时频谱 + 全曲频谱图，自带支持 HTTP Range 的流式媒体路由。
 - [JinkaiLiu/dsh-autonomy](https://github.com/JinkaiLiu/dsh-autonomy) — 在 DeepSeek Harness 会话内随时切换 Chat 与 Agent，无需离开当前会话。
 - [Lbunc/dsh-composer-glass](https://github.com/Lbunc/dsh-composer-glass) — 把 DSH 输入区变成一整块均匀半透明的毛玻璃面板。
