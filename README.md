@@ -4394,6 +4394,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [jcaiagent7143-ui/linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) — Xiaohongshu (RedNote) & Douyin links to text for AI agents: image-note OCR, transcripts + on-screen text, viral breakdown with verbatim-checked quotes. Hosted MCP + API, Python SDK/CLI.
 
 - [drscrewdriver/dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) — DeepSeek Harness plugin: a governed registry of MCP connectors (stdio / streamable-http) — four-level fail-closed authorization, loud errors on mcpServers import, credentials redacted throughout, review-all honestly refuses.
+- [waynehamadi/datacircle-plugin](https://github.com/waynehamadi/datacircle-plugin) — Datacircle is a data co-op. Remote MCP server at `https://api.datacircle.dev/mcp` (Streamable HTTP). It gets a LinkedIn profile from its URL, through Up2Data, HarvestAPI or Fetchin. The first time, your client signs you in with your Datacircle email (OAuth). Or send your API key as a Bearer token.
 
 ## Tools & Integrations
 
