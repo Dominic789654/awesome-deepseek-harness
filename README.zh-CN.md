@@ -4397,7 +4397,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [jcaiagent7143-ui/linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) — 给 AI Agent 用的小红书 / 抖音链接读取器：图文笔记图片 OCR、口播逐字稿 + 画面文字、爆款拆解（引用逐字核对）。Hosted MCP + API，提供 Python SDK/CLI。
 
 - [drscrewdriver/dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) —— DeepSeek Harness 插件：MCP 连接器受治理注册表（stdio / streamable-http）——四级 fail-closed 授权、mcpServers 导入大声报错、凭据全程脱敏、review-all 诚实拒绝。
-- [waynehamadi/datacircle-plugin](https://github.com/waynehamadi/datacircle-plugin) —— Datacircle 是一个数据合作社。通过我们调用你常用的 B2B 数据 API：同样的请求，同样的价格，零加价。目前我们有 3 个可信的实时领英（LinkedIn）个人档案 API：Up2Data、HarvestAPI 和 Fetchin。远程 MCP server 端点为 `https://api.datacircle.dev/mcp`（Streamable HTTP）。首次使用时，客户端会用你的 Datacircle 邮箱为你登录（OAuth）。或者把你的 API key 作为 Bearer token 发送。
+- [waynehamadi/datacircle-plugin](https://github.com/waynehamadi/datacircle-plugin) —— Datacircle 是一个数据合作社。远程 MCP server 端点为 `https://api.datacircle.dev/mcp`（Streamable HTTP）。它根据 URL 获取领英（LinkedIn）个人档案，数据源为 Up2Data、HarvestAPI 或 Fetchin。首次使用时，客户端会用你的 Datacircle 邮箱为你登录（OAuth）。或者把你的 API key 作为 Bearer token 发送。
 
 ## 工具与集成
 
