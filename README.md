@@ -317,6 +317,8 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [sugarmaster666/dsh-persona-forge](https://github.com/sugarmaster666/dsh-persona-forge) — Persona-style prompt rewriter for DeepSeek Harness: pick a character card in the composer and your draft is rewritten into that character's voice by the harness LLM, following the session's own model — then send directly or review first. Zero dependencies, zero build step.
 
 - [Magica-Chen/dsh-preset-codex-claude](https://github.com/Magica-Chen/dsh-preset-codex-claude) — DeepSeek Harness agent preset: Codex and Claude Code as delegation subagents, each at a read-only and full-access tier. Use either — or both in parallel — in one task.
+- [MoYu-CN/dsh-agent-profiles](https://github.com/MoYu-CN/dsh-agent-profiles) — Agent profiles for DSH: per-session persona, duties, avatar and long-term memory, injected as a system-prompt section.
+- [Nesarf/TastyLineOut](https://github.com/Nesarf/TastyLineOut) — Output house rules for every DeepSeek Harness agent: no check-mark or cross glyphs in replies or written files, plus a light kaomoji habit in conversation. One global prompt section, so every preset, workspace and subagent obeys without a single preset edit.
 
 ## Harnesses & Runtimes
 
@@ -2346,6 +2348,9 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [linanbuan/dsh-session-retry](https://github.com/linanbuan/dsh-session-retry) — Answer again — a DSH plugin adding a "re-answer" button to the assistant message action bar: it first drops the previous answer of the turn from the model context, then resubmits the same user question to the same session.
 - [wyq183/dsh-artifact-library](https://github.com/wyq183/dsh-artifact-library) — DSH artifact library + local file manager: cross-session artifact collection / AI refinement / full-text search, plus file search and directory browsing on an Everything index.
 - [YAN3RA/DSH-Sync-Backup](https://github.com/YAN3RA/DSH-Sync-Backup) — DSH scheduled-backup plugin: packs the memory layer (memory / skills / todos / sessions / storage) into an AES-256-GCM encrypted archive, kept locally and synced to WebDAV and a private GitHub repo, with zero third-party runtime dependencies.
+- [eighteentang/dsh-plugin-memory-lite](https://github.com/eighteentang/dsh-plugin-memory-lite) — Local-first cross-session memory for DSH: per-turn capture, idle-time consolidation and on-demand injection; all data stays in a local SQLite file, no network, no upload.
+- [NoiraBaka/dsh-compact-suite](https://github.com/NoiraBaka/dsh-compact-suite) — Local-deployment context-compaction control plane for DSH: route summaries to a chosen model, make thresholds actually take effect, align the wording with the card, and fully restore on pause.
+- [MoYu-CN/dsh-knowledge](https://github.com/MoYu-CN/dsh-knowledge) — Project knowledge base for DSH agents: capture pitfalls and reusable methods into paged volumes and surface them while you work.
 
 ## Cost & Usage Tracking
 
@@ -3364,6 +3369,8 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [john-walks-slow/dsh-aivn](https://github.com/john-walks-slow/dsh-aivn) — AIVN stage engine inside DeepSeek Harness: a workspace is a play, the playwright preset writes Stage DSL, and a Stage tab in the conversation renders it live (backgrounds, sprites, dialog, stop-point choices, line-by-line TTS).
 - [linanbuan/dsh-dwg-preview](https://github.com/linanbuan/dsh-dwg-preview) — Sidebar DWG/DXF preview — a DSH plugin that opens .dwg / .dxf engineering drawings in the sidebar document preview; the host decodes with LibreDWG (WASM) and paints vector SVG with a bundled zero-dependency renderer.
 - [gulagala001/dsh-intelligent-ui](https://github.com/gulagala001/dsh-intelligent-ui) — Turn DSH answers into operable interfaces: calculators, charts, forms, simulations and games. Standalone DSH plugin.
+- [Prokint/infinite-canvas-dsh](https://github.com/Prokint/infinite-canvas-dsh) — Infinite Canvas fork with a DeepSeek Harness desktop plugin and Canvas Agent MCP integration.
+- [xx529/dsh-task-gantt](https://github.com/xx529/dsh-task-gantt) — Task Gantt chart plugin for DeepSeek Harness (dsh-plugin).
 
 ## Slides / PPT
 
@@ -3828,6 +3835,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [lzqzm/dsh-magical-lowcode-project](https://github.com/lzqzm/dsh-magical-lowcode-project) — DeepSeek Harness low-code project-mode plugin: a MagicalCoder-style project tree, push-status ledger, page preview assembly, pre-push lint and `.dshpreset` agent-preset import/export in one panel (host + client, no core patches).
 - [FinalLawer/dsh-native-code-workbench](https://github.com/FinalLawer/dsh-native-code-workbench) — Native AI code-workbench plugin for DeepSeek Harness Desktop: file tree, Monaco editor, Tab AI completion and conversational code references.
 - [jingyi0605/Codingns4DSH](https://github.com/jingyi0605/Codingns4DSH) — Bring external Agent CLIs, persistent terminals, workspace debugging and remote access into the native DSH interface.
+- [alanhaskey/dsh-gitmate](https://github.com/alanhaskey/dsh-gitmate) — GitMate — a smart Git panel for DeepSeek Harness: diffs, generated commit messages, a commit graph with rewind, and .gitignore generation, plus ten agent tools.
 
 ## Agents
 
@@ -4140,6 +4148,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [NBagent-dev/metaflywheel](https://github.com/NBagent-dev/metaflywheel) — Meta-Problem Modeling (MPM) cognitive flywheel as a resident engine for LLM agent runtimes: six-stage problem lifecycle, epsilon-delta dual-criterion convergence, a metabolic ledger and a mentor rule layer.
 - [Elion-Wang/class-help](https://github.com/Elion-Wang/class-help) — dsh (DeepSeek Harness) classroom AI assistant plugin: class recording + local real-time transcription, authorized note-taking auto-filed into the course directory, and course-aware TA guidance on homework; works with dsh-plugin-wallpaper-engine.
 - [FeiZhuLulu/DeepSeek-Bot](https://github.com/FeiZhuLulu/DeepSeek-Bot) — A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
+- [MoYu-CN/dsh-team-chat](https://github.com/MoYu-CN/dsh-team-chat) — Chat room for DSH agents: a shared room timeline, member roster, and task dispatch across agent sessions.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4591,6 +4600,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [This-is-XiaoDeng/dsh-plugin-notify](https://github.com/This-is-XiaoDeng/dsh-plugin-notify) — WxPusher + real browser notifications (sound, requireInteraction) for DeepSeek Harness session state changes — session stopped, exited with an error, or asked you a question. Native settings page.
 - [wads-dev/dsh-live-voice](https://github.com/wads-dev/dsh-live-voice) — Local-first voice conversations for DSH: run speech recognition and speech synthesis on your own machine, with optional external providers.
 - [zhao-guang-ai/dsh-plugin-release-kit](https://github.com/zhao-guang-ai/dsh-plugin-release-kit) — DSH plugin release toolkit: a five-phase process handbook, a machine-readable catalog table, review/submit scripts, and copy-ready templates (distilled from a real release process).
+- [JJDonald/dsh-public-origin](https://github.com/JJDonald/dsh-public-origin) — Make loopback-assuming DeepSeek Harness plugins (bili, reasoning-effort, skill-explorer) work behind a public domain + reverse proxy, gated by DSH's own login.
 
 ## Orchestrators & Aggregators
 
@@ -6658,6 +6668,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [hfbcwhy7gh-cpu/dsh-sidebar-tidy](https://github.com/hfbcwhy7gh-cpu/dsh-sidebar-tidy) — DSH sidebar-tidy plugin: collects the Plugins / Automation Tasks / Context Insights / Skills panels into a collapsible entry at the sidebar bottom, keeping new sessions at the top and the workspace centered.
 - [WNLUO/dsh-mobile-plugin](https://github.com/WNLUO/dsh-mobile-plugin) — DeepSeek Harness mobile plugin: remote-control the host from your phone with a restricted mobile API, a relay tunnel, and LAN pairing (can also run as a headless host).
 - [yfwu2020/dsh-recent-sessions](https://github.com/yfwu2020/dsh-recent-sessions) — DSH sidebar plugin: a floating recent-sessions sheet that blends into the sidebar.
+- [2861292267/dsh-prompt-enhancer](https://github.com/2861292267/dsh-prompt-enhancer) — Enhance Prompt for DeepSeek Harness: rewrite the composer draft into a stronger, ready-to-send prompt with one click.
+- [furkancak1r/dsh-composer-plus](https://github.com/furkancak1r/dsh-composer-plus) — Composer helpers for DeepSeek Harness: input history, a Shift+Tab /plan toggle, one-click Continue, and drag-and-drop queue reordering.
+- [MoYu-CN/dsh-theme-pack](https://github.com/MoYu-CN/dsh-theme-pack) — Extra light and dark color themes for the DSH UI, registered as pure color tokens on top of the official theme runtime.
 
 ## Skills
 
@@ -7056,6 +7069,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [anneqaq/dsh-embedded-kit](https://github.com/anneqaq/dsh-embedded-kit) — Chip- and toolchain-neutral embedded firmware toolkit (DSH plugin, 32 tools + 11 skills): size / build / bus-protocol / timing / power / anomaly triage. Every formula cites its source, design and measured values stay strictly separated, and missing data is marked pending instead of fabricated.
 - [ChenYiming-aaa/dsh-ui-ux-pro-max](https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max) — DSH plugin: a UI/UX design intelligence library adapted from the open-source ui-ux-pro-max-skill — 67 design styles, 161 palettes, 57 font pairings, 99 UX rules, 25 chart types and 22 tech stacks, with design_recommend / design_review / design_search model tools. Offline, Chinese-first, zero network dependency.
 - [denceee/dsh-everything-claude-code](https://github.com/denceee/dsh-everything-claude-code) — Adapts everything-claude-code to DeepSeek Harness: 11 skills, an ECC agent preset, adapted Claude Code hooks, and a Chinese Settings page.
+- [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) — DSH skill manager: bundles base skills and a Chinese engineering-workflow skill pack, grouped by "the problem you hit", readable and writable by the model in chat; upgrading the pack never overwrites files you changed.
 
 ## Resources
 

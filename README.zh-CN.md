@@ -318,6 +318,8 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [sugarmaster666/dsh-persona-forge](https://github.com/sugarmaster666/dsh-persona-forge) —— 面向 DeepSeek Harness 的人格化提示词改写插件：在输入框选一张角色卡，草稿会被 harness LLM 按会话自身的模型改写成该角色的口吻，随后可直接发送或先审阅。零依赖、零构建步骤。
 
 - [Magica-Chen/dsh-preset-codex-claude](https://github.com/Magica-Chen/dsh-preset-codex-claude) — DeepSeek Harness agent preset：把 Codex 与 Claude Code 作为委派子代理，各有只读与完全访问两档。单个任务里可用其一，也可并行用两者。
+- [MoYu-CN/dsh-agent-profiles](https://github.com/MoYu-CN/dsh-agent-profiles) — DSH 的 Agent 画像：为每个会话注入人设、职责、头像与长期记忆，作为系统提示词的一段。
+- [Nesarf/TastyLineOut](https://github.com/Nesarf/TastyLineOut) — 所有 DSH agent 的输出家规：回复与写入文件里不出现对勾 / 叉号字符，对话中保留一点颜文字习惯；只需一个全局提示词段落，所有预设、工作区与子代理都遵守，无需逐个改预设。
 
 ## Harness 与运行时
 
@@ -2352,6 +2354,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [linanbuan/dsh-session-retry](https://github.com/linanbuan/dsh-session-retry) —— 重新回答——DSH 插件：助手消息动作条上的「重新回答」按钮，先把这一轮的旧回答移出模型上下文，再把该轮的用户提问重新提交给同一个会话。
 - [wyq183/dsh-artifact-library](https://github.com/wyq183/dsh-artifact-library) —— DSH 产物库 + 本地文件管理器：跨会话产物采集 / AI 精化 / 全文检索，以及基于 Everything 清单索引的文件搜索与目录浏览。
 - [YAN3RA/DSH-Sync-Backup](https://github.com/YAN3RA/DSH-Sync-Backup) —— DSH 定时备份插件：把 DSH 的记忆层（记忆 / 技能 / 待办 / 会话 / 存储）打包为 AES-256-GCM 加密归档，本地留存并同步到 WebDAV 与 GitHub 私有仓库，零第三方运行时依赖。
+- [eighteentang/dsh-plugin-memory-lite](https://github.com/eighteentang/dsh-plugin-memory-lite) — 给 DSH 的本地优先跨会话记忆：每轮自动沉淀、空闲自动整理、按需注入；数据全在本地 SQLite，不联网不上传。
+- [NoiraBaka/dsh-compact-suite](https://github.com/NoiraBaka/dsh-compact-suite) — 面向本地部署的 DSH 上下文压缩控制面：摘要改走指定模型、阈值真正生效、口径与卡片对齐、暂停即完整还原。
+- [MoYu-CN/dsh-knowledge](https://github.com/MoYu-CN/dsh-knowledge) — DSH Agent 的项目知识库：把踩坑与可复用方法沉淀成分卷的知识，并在工作过程中按需呈现。
 
 ## 成本与用量统计
 
@@ -3375,6 +3380,8 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [john-walks-slow/dsh-aivn](https://github.com/john-walks-slow/dsh-aivn) —— DeepSeek Harness 中的 AIVN 舞台引擎：一个工作区就是一出戏，playwright 预设编写 Stage DSL，对话中的 Stage 标签页实时渲染（背景、立绘、对话、停点选择、逐行 TTS）。
 - [linanbuan/dsh-dwg-preview](https://github.com/linanbuan/dsh-dwg-preview) —— 侧边栏 DWG/DXF 预览——DSH 插件：在侧边栏文档预览里直接打开 .dwg / .dxf 工程图纸，宿主侧用 LibreDWG（WASM）解码，再用自带零依赖渲染器画成矢量 SVG。
 - [gulagala001/dsh-intelligent-ui](https://github.com/gulagala001/dsh-intelligent-ui) —— 让 DSH 回答变成可操作的界面：计算、图表、表单、模拟与小游戏。独立 DSH 插件。
+- [Prokint/infinite-canvas-dsh](https://github.com/Prokint/infinite-canvas-dsh) — Infinite Canvas 的一个分支，带 DeepSeek Harness 桌面插件与 Canvas Agent MCP 集成。
+- [xx529/dsh-task-gantt](https://github.com/xx529/dsh-task-gantt) — DSH 的任务甘特图插件。
 
 ## 幻灯片 / PPT
 
@@ -3840,6 +3847,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [lzqzm/dsh-magical-lowcode-project](https://github.com/lzqzm/dsh-magical-lowcode-project) —— DeepSeek Harness 低代码项目模式插件：在一个面板里管理 MagicalCoder 风格低代码项目的工程树、推送状态台账、页面预览组装、推送前 lint 与 `.dshpreset` Agent 预设导入导出（host + client，不改核心包）。
 - [FinalLawer/dsh-native-code-workbench](https://github.com/FinalLawer/dsh-native-code-workbench) —— DeepSeek Harness 桌面端的原生 AI 代码工作台插件：文件树、Monaco 编辑器、Tab AI 补全与对话代码引用。
 - [jingyi0605/Codingns4DSH](https://github.com/jingyi0605/Codingns4DSH) —— 把外部 Agent CLI、持久终端、工作区调试与远程访问，装进 DSH 原生界面。
+- [alanhaskey/dsh-gitmate](https://github.com/alanhaskey/dsh-gitmate) — GitMate —— DSH 的智能 Git 面板：diff、自动生成提交信息、可回溯的提交图、.gitignore 生成，外加十个 agent 工具。
 
 ## Agent
 
@@ -4153,6 +4161,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [NBagent-dev/metaflywheel](https://github.com/NBagent-dev/metaflywheel) —— 作为常驻引擎运行于 LLM agent 运行时的元问题建模（MPM）认知飞轮：六阶段问题生命周期、ε-δ 双判据收敛、代谢账本与导师规则层。
 - [Elion-Wang/class-help](https://github.com/Elion-Wang/class-help) —— dsh（DeepSeek Harness）课堂 AI 助手插件：上课录音 + 本地实时转录，经授权后整理成笔记并自动归入课程目录，作业现场按课程做助教式指导；可配合 dsh-plugin-wallpaper-engine 使用。
 - [FeiZhuLulu/DeepSeek-Bot](https://github.com/FeiZhuLulu/DeepSeek-Bot) —— 面向 DeepSeek Harness 的一队长生命周机器人：主机器人、机器人间消息与群聊。
+- [MoYu-CN/dsh-team-chat](https://github.com/MoYu-CN/dsh-team-chat) — DSH Agent 的聊天室：共享房间时间线、成员名册，以及跨 agent 会话的任务派发。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4601,6 +4610,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [This-is-XiaoDeng/dsh-plugin-notify](https://github.com/This-is-XiaoDeng/dsh-plugin-notify) —— 为 DeepSeek Harness 的会话状态变化提供 WxPusher + 真实浏览器通知（声音、requireInteraction）——会话停止、出错退出或向你提问时提醒。自带设置页。
 - [wads-dev/dsh-live-voice](https://github.com/wads-dev/dsh-live-voice) —— DSH 的本地优先语音对话：在本机运行语音识别与语音合成，可选接入外部服务商。
 - [zhao-guang-ai/dsh-plugin-release-kit](https://github.com/zhao-guang-ai/dsh-plugin-release-kit) —— DSH 插件上线工具包：五阶段流程手册 + 机读目录表 + 复查 / 提交脚本 + 可复制模板（沉淀自真实上线过程）。
+- [JJDonald/dsh-public-origin](https://github.com/JJDonald/dsh-public-origin) — 让假设运行在本机回环地址上的 DSH 插件（bili、reasoning-effort、skill-explorer）在公网域名 + 反向代理下可用，并用 DSH 自带登录做鉴权。
 
 ## 编排器与聚合器
 
@@ -6658,6 +6668,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [hfbcwhy7gh-cpu/dsh-sidebar-tidy](https://github.com/hfbcwhy7gh-cpu/dsh-sidebar-tidy) —— DSH 侧栏收纳插件：把「插件 / 自动化任务 / 上下文洞察 / 技能中心」面板图标收进侧栏底部可折叠入口，让新会话在最上、工作区居中。
 - [WNLUO/dsh-mobile-plugin](https://github.com/WNLUO/dsh-mobile-plugin) —— DeepSeek Harness 移动端插件：手机远程操控宿主，提供受限移动 API、中转隧道与局域网配对（也可作无头宿主运行）。
 - [yfwu2020/dsh-recent-sessions](https://github.com/yfwu2020/dsh-recent-sessions) —— DSH 侧栏插件：一块与侧栏融为一体、可浮出的「最近会话」面板。
+- [2861292267/dsh-prompt-enhancer](https://github.com/2861292267/dsh-prompt-enhancer) — DSH 的「增强提示词」：一键把输入框草稿改写成更强、可直接发送的提示词。
+- [furkancak1r/dsh-composer-plus](https://github.com/furkancak1r/dsh-composer-plus) — DSH 输入框助手：输入历史、Shift+Tab 切换 /plan、一键继续、拖拽调整队列顺序。
+- [MoYu-CN/dsh-theme-pack](https://github.com/MoYu-CN/dsh-theme-pack) — DSH 界面额外的浅色 / 深色主题，作为纯颜色 token 注册在官方主题运行时之上。
 
 ## Skill
 
@@ -7058,6 +7071,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [anneqaq/dsh-embedded-kit](https://github.com/anneqaq/dsh-embedded-kit) — 芯片与工具链中立的嵌入式固件工具包（DSH 插件，32 工具 + 11 技能）：体积/构建/总线协议/时序/功耗/异常分诊。公式均标出处，严格区分设计值与实测值，缺数据标 pending 而不编造。
 - [ChenYiming-aaa/dsh-ui-ux-pro-max](https://github.com/ChenYiming-aaa/dsh-ui-ux-pro-max) —— DSH 插件：基于开源项目 ui-ux-pro-max-skill 修改优化的 UI/UX 设计智能库——内置 67 种设计风格、161 个调色板、57 组字体搭配、99 条 UX 规范、25 种图表类型与 22 个技术栈，提供 design_recommend / design_review / design_search 模型工具；离线可用、中文优先、零网络依赖。
 - [denceee/dsh-everything-claude-code](https://github.com/denceee/dsh-everything-claude-code) —— 把 everything-claude-code 适配到 DeepSeek Harness：11 个 skill、一个 ECC agent 预设、改造后的 Claude Code hooks，以及中文设置页。
+- [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) — DSH 技能管理器：自带基础技能与中文工程流程技能包，按「你遇到的问题」分组展示，模型可在对话里直接读写；升级技能包不覆盖你改过的文件。
 
 ## 资源
 
