@@ -322,6 +322,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [Nesarf/TastyLineOut](https://github.com/Nesarf/TastyLineOut) — 所有 DSH agent 的输出家规：回复与写入文件里不出现对勾 / 叉号字符，对话中保留一点颜文字习惯；只需一个全局提示词段落，所有预设、工作区与子代理都遵守，无需逐个改预设。
 - [Vensus137/Coreness-DSH](https://github.com/Vensus137/Coreness-DSH) —— DeepSeek Harness 的 Coreness 套件——面向某个 profile 的插件 bundle。
 - [RGarrido03/dsh-zed-provider](https://github.com/RGarrido03/dsh-zed-provider) — 在 DSH 里使用 Zed AI 订阅（Pro / Student）：注册带 Claude + GPT 模型的 zed-agent 路由、可编辑的模型页面卡片与模型选择器。
+- [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) —— 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
 
 ## Harness 与运行时
 

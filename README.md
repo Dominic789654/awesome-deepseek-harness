@@ -321,6 +321,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [Nesarf/TastyLineOut](https://github.com/Nesarf/TastyLineOut) — Output house rules for every DeepSeek Harness agent: no check-mark or cross glyphs in replies or written files, plus a light kaomoji habit in conversation. One global prompt section, so every preset, workspace and subagent obeys without a single preset edit.
 - [Vensus137/Coreness-DSH](https://github.com/Vensus137/Coreness-DSH) — The Coreness kit for DeepSeek Harness — a plugin bundle for a profile.
 - [RGarrido03/dsh-zed-provider](https://github.com/RGarrido03/dsh-zed-provider) — Use your Zed AI subscription (Pro / Student) from DeepSeek Harness: registers the zed-agent route with Claude + GPT models, an editable Models-page card and a model chooser.
+- [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) — Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
 
 ## Harnesses & Runtimes
 
