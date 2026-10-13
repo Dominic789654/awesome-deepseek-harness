@@ -1677,7 +1677,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [ZeroClave/zeroclave-dsh-privacy](https://github.com/ZeroClave/zeroclave-dsh-privacy) — Privacy firewall for DeepSeek Harness: detects and redacts sensitive text before it is sent.
 - [AntaresCorn/dsh-auto-reviewer](https://github.com/AntaresCorn/dsh-auto-reviewer) — A permission mode for DeepSeek Harness similar to Codex Auto Reviewer / "approve for me".
 - [Hashing2030/dsh-bulwark](https://github.com/Hashing2030/dsh-bulwark) — DSH plugin: enforce AI rules and protect tools/paths from accidental modification.
-- [zxc663/shisan-xinuo-dsh-plugin](https://github.com/zxc663/shisan-xinuo-dsh-plugin) — Runtime governance plugin for DeepSeek Harness: push engineering discipline from the prompt layer down to the execution layer — L3 interception + approval chain, ground-truth convergence (the host actually runs the verification commands), config-driven rule packs and a tool budget; a four-arm comparison has validated the mechanism. White-box runtime governance plugin for DSH. Engineering validation done, not released.
+- [zxc663/shisan-xinuo-dsh-plugin](https://github.com/zxc663/shisan-xinuo-dsh-plugin) — Runtime governance plugin for DeepSeek Harness: push engineering discipline from the prompt layer down to the execution layer — L3 interception + approval chain, ground-truth convergence (the host actually runs the verification commands), config-driven rule packs and a tool budget.
 
 ## Session & Memory Management
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — Cross-project pinned Session groups for DeepSeek Harness Web (alpha preview).
