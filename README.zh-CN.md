@@ -4173,6 +4173,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [FeiZhuLulu/DeepSeek-Bot](https://github.com/FeiZhuLulu/DeepSeek-Bot) —— 面向 DeepSeek Harness 的一队长生命周机器人：主机器人、机器人间消息与群聊。
 - [MoYu-CN/dsh-team-chat](https://github.com/MoYu-CN/dsh-team-chat) — DSH Agent 的聊天室：共享房间时间线、成员名册，以及跨 agent 会话的任务派发。
 - [blueziii/dsh-mc-agent](https://github.com/blueziii/dsh-mc-agent) —— 让 DeepSeek Harness 真的玩 Minecraft：AI 有自己的角色，能探索、挖矿、合成、熔炼、打怪、建造。基于 yzi1b/whale-craft 独立维护。
+- [xingzhen199186/dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) —— DSH 的子代理模型管控：由 Jev 判定本轮任务类别，再把子代理自身的请求改写为该类别对应的 provider、model 与推理强度；会话内可用继承/自动/手动三种方式指定模型，每个角色可带一条先于任务注入的前置提示词，并记录最近的派发流水。
 
 ## 循环（自动研究 / 自我改进等）
 

@@ -4160,6 +4160,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [FeiZhuLulu/DeepSeek-Bot](https://github.com/FeiZhuLulu/DeepSeek-Bot) — A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
 - [MoYu-CN/dsh-team-chat](https://github.com/MoYu-CN/dsh-team-chat) — Chat room for DSH agents: a shared room timeline, member roster, and task dispatch across agent sessions.
 - [blueziii/dsh-mc-agent](https://github.com/blueziii/dsh-mc-agent) — Let DeepSeek Harness actually play Minecraft: the AI has its own character that explores, mines, crafts, smelts, fights and builds. Independently maintained fork based on yzi1b/whale-craft.
+- [xingzhen199186/dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) — Subagent model control for DeepSeek Harness: a Jev classifier labels each turn, and the subagent's own request is rewritten to the provider, model and reasoning effort that label maps to; per-session inherit/auto/manual selection, one prompt per role injected ahead of the task, and a ledger of recent dispatches.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
