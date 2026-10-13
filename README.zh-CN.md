@@ -1684,6 +1684,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [ZeroClave/zeroclave-dsh-privacy](https://github.com/ZeroClave/zeroclave-dsh-privacy) —— DeepSeek Harness 的隐私防火墙：在发送前检测并脱敏敏感文本。
 - [AntaresCorn/dsh-auto-reviewer](https://github.com/AntaresCorn/dsh-auto-reviewer) — 为 DeepSeek Harness 提供类似 Codex Auto Reviewer /「approve for me」的权限模式。
 - [Hashing2030/dsh-bulwark](https://github.com/Hashing2030/dsh-bulwark) —— DSH 插件：强制 AI 规则，保护工具/路径不被意外修改。
+- [zxc663/shisan-xinuo-dsh-plugin](https://github.com/zxc663/shisan-xinuo-dsh-plugin) —— DeepSeek Harness 运行时治理插件：把工程纪律从提示词层下沉到执行层——L3 拦截+审批链、真值收口（宿主真跑验证命令）、规则包 Config 化、工具预算；四臂对照已验证机制面。
 
 ## 会话与记忆管理
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — DeepSeek Harness Web 的跨项目固定会话分组（alpha 预览）。
@@ -2360,6 +2361,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [eighteentang/dsh-plugin-memory-lite](https://github.com/eighteentang/dsh-plugin-memory-lite) — 给 DSH 的本地优先跨会话记忆：每轮自动沉淀、空闲自动整理、按需注入；数据全在本地 SQLite，不联网不上传。
 - [NoiraBaka/dsh-compact-suite](https://github.com/NoiraBaka/dsh-compact-suite) — 面向本地部署的 DSH 上下文压缩控制面：摘要改走指定模型、阈值真正生效、口径与卡片对齐、暂停即完整还原。
 - [MoYu-CN/dsh-knowledge](https://github.com/MoYu-CN/dsh-knowledge) — DSH Agent 的项目知识库：把踩坑与可复用方法沉淀成分卷的知识，并在工作过程中按需呈现。
+- [KZADEA/dsh-her-memory](https://github.com/KZADEA/dsh-her-memory) —— DSH 跨会话长期记忆与动态心情状态插件：纯 Markdown 存储、零依赖、工作区隔离，自带可视化面板与定制人设，让 AI 记得住你、有心情起伏。
+- [lengfengng1-ai-architect/dsh-workspace-memories](https://github.com/lengfengng1-ai-architect/dsh-workspace-memories) —— 面向 DeepSeek Harness（DSH）的单工作区持久记忆插件：侧边栏面板、自动注入系统提示词，并提供保存记忆的 Agent 工具。
 
 ## 成本与用量统计
 
@@ -2948,6 +2951,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [JJDonald/dsh-telegram-login-approval](https://github.com/JJDonald/dsh-telegram-login-approval) —— 面向 DeepSeek Harness（DSH）的 Telegram 带外登录审批与任务完成通知。
 - [secondlgn/dsh-mail](https://github.com/secondlgn/dsh-mail) —— DSH 邮件通道插件：一台机器一个专属邮箱，邮件即会话入口，回复即续接上下文（零运行时依赖）。
 - [JMOKSZ/dsh-lark-bridge](https://github.com/JMOKSZ/dsh-lark-bridge) —— DeepSeek Harness 的飞书（Lark）入口：用飞书机器人驱动 dsh agent，支持流式卡片、询问 / 审批按钮与附件。
+- [MagicIndex135731/Komachi-qq-aibot](https://github.com/MagicIndex135731/Komachi-qq-aibot) —— 小町：基于 DeepSeek Harness 的持续 QQ 角色 Agent。支持群聊与好友私聊、Memory V3 混合检索、人格模仿、看图与绘图、合并转发展开、网页正文检索，以及授权空间发布/评论和隔离计算；采用 Python 3.12、OneBot 与 WSL2 + Docker 部署。
 
 ## 插件市场与生态
 
@@ -3852,6 +3856,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [FinalLawer/dsh-native-code-workbench](https://github.com/FinalLawer/dsh-native-code-workbench) —— DeepSeek Harness 桌面端的原生 AI 代码工作台插件：文件树、Monaco 编辑器、Tab AI 补全与对话代码引用。
 - [jingyi0605/Codingns4DSH](https://github.com/jingyi0605/Codingns4DSH) —— 把外部 Agent CLI、持久终端、工作区调试与远程访问，装进 DSH 原生界面。
 - [alanhaskey/dsh-gitmate](https://github.com/alanhaskey/dsh-gitmate) — GitMate —— DSH 的智能 Git 面板：diff、自动生成提交信息、可回溯的提交图、.gitignore 生成，外加十个 agent 工具。
+- [ItQianChen/dsh-github-flow](https://github.com/ItQianChen/dsh-github-flow) —— 让 DeepSeek Harness Agent 拥有操作 GitHub 的原生手脚！原生复用 gh CLI 安全凭证，支持 PR 自动创建与审查、CI 失败诊断修复、三维待办 Issues、SWR 0ms 秒开全景驾驶舱。
+- [shinchen6/dsh-git-view](https://github.com/shinchen6/dsh-git-view) —— dsh 中查看 git 修改，支持编辑和 git 暂存、提交等操作，支持使用 dsh 中配置的模型生成提交信息。
 
 ## Agent
 
@@ -4166,6 +4172,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [Elion-Wang/class-help](https://github.com/Elion-Wang/class-help) —— dsh（DeepSeek Harness）课堂 AI 助手插件：上课录音 + 本地实时转录，经授权后整理成笔记并自动归入课程目录，作业现场按课程做助教式指导；可配合 dsh-plugin-wallpaper-engine 使用。
 - [FeiZhuLulu/DeepSeek-Bot](https://github.com/FeiZhuLulu/DeepSeek-Bot) —— 面向 DeepSeek Harness 的一队长生命周机器人：主机器人、机器人间消息与群聊。
 - [MoYu-CN/dsh-team-chat](https://github.com/MoYu-CN/dsh-team-chat) — DSH Agent 的聊天室：共享房间时间线、成员名册，以及跨 agent 会话的任务派发。
+- [blueziii/dsh-mc-agent](https://github.com/blueziii/dsh-mc-agent) —— 让 DeepSeek Harness 真的玩 Minecraft：AI 有自己的角色，能探索、挖矿、合成、熔炼、打怪、建造。基于 yzi1b/whale-craft 独立维护。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4236,6 +4243,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [Tommy00748/dsh-self-evolution](https://github.com/Tommy00748/dsh-self-evolution) —— DeepSeek Harness 的自我演化：有边界的自管理记忆、每回合自动复盘并精炼技能（而非复制）、技能健康检查、跨会话召回，以及只在有话可说时出现的“学习卡片”。
 - [TwinsEarth/NewAgentUniverseByDeepSeek](https://github.com/TwinsEarth/NewAgentUniverseByDeepSeek) —— NewAgentUniverseByDeepSeek V3.4.5 —— agent-universe 群体智能体设计的净室重写：DID 身份、精确整数账本、带认证的 BFT-lite 校验、agent 市场，以及「一切皆插件」、支持热更新的内核。自带 DeepSeek Harness 插件。上游：https://github.com/TwinsEarth/agent-universe（MIT）。
 - [dxxCaO/dsh-self-improvement](https://github.com/dxxCaO/dsh-self-improvement) — DeepSeek Harness 跨会话自我改进：持久化加权记忆、复盘、SOP skills 与改进提案。
+- [wycto/dsh-evolution](https://github.com/wycto/dsh-evolution) —— 本地优先的 DSH 自动进化插件：会话账本 + 跨会话复盘（用你已配置的模型），把反复踩到的坑沉淀成本地知识，默认不联网、不上传。
 
 ## MCP Server
 
@@ -4617,6 +4625,10 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [JJDonald/dsh-public-origin](https://github.com/JJDonald/dsh-public-origin) — 让假设运行在本机回环地址上的 DSH 插件（bili、reasoning-effort、skill-explorer）在公网域名 + 反向代理下可用，并用 DSH 自带登录做鉴权。
 - [eloyhere/deepseek-coordination](https://github.com/eloyhere/deepseek-coordination) —— DeepSeek Harness 的原子化操作系统交互层：用稳定动词集取代 shell 字符串拼接——显式 argv、字节精确的编码/BOM/EOL 处理；原生 Windows 与 POSIX 实现，零运行时依赖（MIT）。
 - [hy-sde/dsh-plugins](https://github.com/hy-sde/dsh-plugins) —— 面向 DeepSeek Harness 的独立 @hy-sde-org/dsh-* 插件（monorepo 单仓库）。
+- [dsh-remote/protocol](https://github.com/dsh-remote/protocol) —— DSH 远控的线协议层：密封记录加密（XSalsa20-Poly1305）、KDF、配对 URI、控制帧与载荷目录，纯函数零 I/O。
+- [JUYANJY/dsh-codex-bridge](https://github.com/JUYANJY/dsh-codex-bridge) —— 在 DeepSeek Harness 中观察并操控本地 Codex（OpenAI）会话，走 codex app-server 协议。
+- [shangdi178/dsh-reasoning-bridge](https://github.com/shangdi178/dsh-reasoning-bridge) —— dsh 的推理桥：把高成本推理交给网页版 AI（先接 ChatGPT，多目标可扩展）；本地保留证据、采纳门、改动与测试。基于契约的交接、版本化同意、SHA-256 回执。零依赖。
+- [Xxsttb/dsh-model-endpoint](https://github.com/Xxsttb/dsh-model-endpoint) —— DeepSeek Harness 插件：把你聊天中（或设置里）选定的模型通过一个独立的 OpenAI 兼容 HTTP API 暴露出来，可经局域网、公网或 NAT 端口转发访问。支持流式、Bearer 鉴权、CORS，并配独立设置页。AI 生成。
 
 ## 编排器与聚合器
 
@@ -4840,6 +4852,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 
 - [AngleZhang-ZhangJiao/dsh-orchestrator2](https://github.com/AngleZhang-ZhangJiao/dsh-orchestrator2) — 自动开发调度器2.0（dsh-orchestrator2）：DSH agent preset 插件——交互设计 → goal 驱动开发流水线 → 验收修复循环。发布镜像：插件源码 + 最新安装包（当前 v2.9.0）。
 - [Shuffle-1992/zcode-dispatch](https://github.com/Shuffle-1992/zcode-dispatch) —— 把任务派发给本机 ZCode CLI 无头进程的 DeepSeek Harness 插件：面板可监视/终止/续跑/换通道；单写者文件锁 + 用量台账 + 降级链。支持付费套餐与免费额度两种额度，后者托管官方 agent 走 app-server。
+- [suanlv/dsh-local-compute-pool](https://github.com/suanlv/dsh-local-compute-pool) —— DSH 插件：把多个本地推理端点汇成资源池，把委托的子代理分摊到这些端点上。
 
 ## UI / 客户端
 
@@ -6678,6 +6691,14 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [furkancak1r/dsh-composer-plus](https://github.com/furkancak1r/dsh-composer-plus) — DSH 输入框助手：输入历史、Shift+Tab 切换 /plan、一键继续、拖拽调整队列顺序。
 - [MoYu-CN/dsh-theme-pack](https://github.com/MoYu-CN/dsh-theme-pack) — DSH 界面额外的浅色 / 深色主题，作为纯颜色 token 注册在官方主题运行时之上。
 - [zhanghzdev/dsh-theme-button](https://github.com/zhanghzdev/dsh-theme-button) —— DeepSeek Harness 的悬浮主题挂件：切换官方外观 + 自定义背景（图片/纯色）。
+- [john-walks-slow/dsh-session-state](https://github.com/john-walks-slow/dsh-session-state) —— DeepSeek Harness 会话状态徽标：用会话标题前缀（默认 Emoji，可自定义）标记状态（wip / blocked / review / done），含新会话默认状态、session_state 模型工具、/state 命令与 Web 设置。
+- [realguan/dsh-deepseek-chat-embed](https://github.com/realguan/dsh-deepseek-chat-embed) —— 在 DeepSeek Harness（dsh）桌面端内嵌 chat.deepseek.com：双入口聊天面板（中央主面板 + 右侧栏标签页）、多桌面宿主自适应驱动、持久登录会话，零运行时依赖。
+- [sevenhsu7/dsh-codex-like-markdown](https://github.com/sevenhsu7/dsh-codex-like-markdown) —— 为 DSH 右侧栏带来 Codex 风格的 Markdown 编辑：就地编辑已渲染文档，包括表格单元格。
+- [SuperWheel/dsh-cliworker-now](https://github.com/SuperWheel/dsh-cliworker-now) —— DeepSeek Harness 多 CLI 智能体侧栏插件：独立对话、账号管理、角色预设与任务续聊。
+- [takboo/dsh-coopanion](https://github.com/takboo/dsh-coopanion) —— DeepSeek Harness 的动画桌宠、任务通知与会话聊天。
+- [Wang993/DSH_OrganizeFilesInTheSameWorkspace](https://github.com/Wang993/DSH_OrganizeFilesInTheSameWorkspace) —— DSH Web 会话整理插件：标签分类 · 归档 / 恢复 · 已归档浏览（DeepSeek Harness session organizer plugin）。
+- [Xxsttb/dsh-input-optimizer](https://github.com/Xxsttb/dsh-input-optimizer) —— DeepSeek Harness 插件：在输入框模型选择器左侧加一颗四角星按钮，发送前重写你的草稿——修正语法、歧义与执行顺序——并配独立设置页。AI 生成。
+- [ZinChl/dsh-colorize](https://github.com/ZinChl/dsh-colorize) —— 界面调色插件 for DeepSeek Harness：快捷键进入拾色模式，点选界面上任意元素就地改色 —— 元素级改动存成 CSS 规则、语义色走主题 token 层，空闲零轮询。
 
 ## Skill
 
