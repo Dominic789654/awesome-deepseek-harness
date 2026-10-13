@@ -320,6 +320,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [Magica-Chen/dsh-preset-codex-claude](https://github.com/Magica-Chen/dsh-preset-codex-claude) — DeepSeek Harness agent preset：把 Codex 与 Claude Code 作为委派子代理，各有只读与完全访问两档。单个任务里可用其一，也可并行用两者。
 - [MoYu-CN/dsh-agent-profiles](https://github.com/MoYu-CN/dsh-agent-profiles) — DSH 的 Agent 画像：为每个会话注入人设、职责、头像与长期记忆，作为系统提示词的一段。
 - [Nesarf/TastyLineOut](https://github.com/Nesarf/TastyLineOut) — 所有 DSH agent 的输出家规：回复与写入文件里不出现对勾 / 叉号字符，对话中保留一点颜文字习惯；只需一个全局提示词段落，所有预设、工作区与子代理都遵守，无需逐个改预设。
+- [Vensus137/Coreness-DSH](https://github.com/Vensus137/Coreness-DSH) —— DeepSeek Harness 的 Coreness 套件——面向某个 profile 的插件 bundle。
 
 ## Harness 与运行时
 
@@ -1410,6 +1411,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [NaivG/dsh-network](https://github.com/NaivG/dsh-network) —— 让 DeepSeek Harness 无缝访问互联网。
 - [askdkc/dsh-cli](https://github.com/askdkc/dsh-cli) —— DSH 的 CLI 插件：便捷完成 Codex、Claude、OpenCode、OpenRouter、Hermes Agent、OrcaRouter 与 Infron 的 AI 服务商配置。
 - [Fyue7/dsh-restart-button](https://github.com/Fyue7/dsh-restart-button) —— 在 DSH 会话头部加一颗重启按钮：完全退出并拉回新实例，全程零窗口。非官方插件。
+- [FuSheng-cs/Trae2api-dsh](https://github.com/FuSheng-cs/Trae2api-dsh) —— 在 DeepSeek Harness 中使用 TRAE CN 模型，带账号管理、每日签到、轮换以及用量与模型可见性。
+- [yhm080315-sudo/dsh-android](https://github.com/yhm080315-sudo/dsh-android) —— 把 DeepSeek Harness 打包成独立 Android 应用：自带 Node 运行时，装个 APK 就能用，无需 Termux、proot、root 或电脑。内含完整的 Android 平台适配踩坑记录（seccomp 杀 glibc、targetSdk 28 的由来、硬链接被拒等）。MIT。
 
 ## 安全与权限
 
@@ -2736,6 +2739,7 @@ _token 用量、成本看板与预算告警插件。_
 - [jessicacui99/dsh-plugin-token-cost](https://github.com/jessicacui99/dsh-plugin-token-cost) — 当前 DSH 会话的实时 token 花费，按你的 profile 价格表计价并在输入框旁展示。
 - [iasiv5/dsh-quota-watch](https://github.com/iasiv5/dsh-quota-watch) —— DSH 插件：常驻悬浮胶囊，直观展示 GLM Coding Plan 与 GitHub Copilot 额度快照及订阅用量详情。
 - [tableau-China/dsh-workload-report](https://github.com/tableau-China/dsh-workload-report) —— DSH 工作量报告插件：按日期与工作区看清「我的付出」与 Token 消耗，含日历热力图 / 时刻分析 / 工作区占比，可导出自包含 HTML 报告。
+- [pigeon189/zcode-fox-widget](https://github.com/pigeon189/zcode-fox-widget) —— ZCode 狐娘小挂件——ZCode 桌面余额挂件：DeepSeek 峰谷计价 · GLM Plan · CommandCode 三重额度多账号池的 Electron 桌宠浮层（MeteorNOX 原版 → nb10yyds ZCode 移植 → 本仓库独立发展，MIT）。
 
 ## Channel / IM 桥接
 
@@ -4611,6 +4615,8 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [wads-dev/dsh-live-voice](https://github.com/wads-dev/dsh-live-voice) —— DSH 的本地优先语音对话：在本机运行语音识别与语音合成，可选接入外部服务商。
 - [zhao-guang-ai/dsh-plugin-release-kit](https://github.com/zhao-guang-ai/dsh-plugin-release-kit) —— DSH 插件上线工具包：五阶段流程手册 + 机读目录表 + 复查 / 提交脚本 + 可复制模板（沉淀自真实上线过程）。
 - [JJDonald/dsh-public-origin](https://github.com/JJDonald/dsh-public-origin) — 让假设运行在本机回环地址上的 DSH 插件（bili、reasoning-effort、skill-explorer）在公网域名 + 反向代理下可用，并用 DSH 自带登录做鉴权。
+- [eloyhere/deepseek-coordination](https://github.com/eloyhere/deepseek-coordination) —— DeepSeek Harness 的原子化操作系统交互层：用稳定动词集取代 shell 字符串拼接——显式 argv、字节精确的编码/BOM/EOL 处理；原生 Windows 与 POSIX 实现，零运行时依赖（MIT）。
+- [hy-sde/dsh-plugins](https://github.com/hy-sde/dsh-plugins) —— 面向 DeepSeek Harness 的独立 @hy-sde-org/dsh-* 插件（monorepo 单仓库）。
 
 ## 编排器与聚合器
 
@@ -6671,6 +6677,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [2861292267/dsh-prompt-enhancer](https://github.com/2861292267/dsh-prompt-enhancer) — DSH 的「增强提示词」：一键把输入框草稿改写成更强、可直接发送的提示词。
 - [furkancak1r/dsh-composer-plus](https://github.com/furkancak1r/dsh-composer-plus) — DSH 输入框助手：输入历史、Shift+Tab 切换 /plan、一键继续、拖拽调整队列顺序。
 - [MoYu-CN/dsh-theme-pack](https://github.com/MoYu-CN/dsh-theme-pack) — DSH 界面额外的浅色 / 深色主题，作为纯颜色 token 注册在官方主题运行时之上。
+- [zhanghzdev/dsh-theme-button](https://github.com/zhanghzdev/dsh-theme-button) —— DeepSeek Harness 的悬浮主题挂件：切换官方外观 + 自定义背景（图片/纯色）。
 
 ## Skill
 

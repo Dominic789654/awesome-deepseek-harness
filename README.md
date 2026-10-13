@@ -319,6 +319,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [Magica-Chen/dsh-preset-codex-claude](https://github.com/Magica-Chen/dsh-preset-codex-claude) — DeepSeek Harness agent preset: Codex and Claude Code as delegation subagents, each at a read-only and full-access tier. Use either — or both in parallel — in one task.
 - [MoYu-CN/dsh-agent-profiles](https://github.com/MoYu-CN/dsh-agent-profiles) — Agent profiles for DSH: per-session persona, duties, avatar and long-term memory, injected as a system-prompt section.
 - [Nesarf/TastyLineOut](https://github.com/Nesarf/TastyLineOut) — Output house rules for every DeepSeek Harness agent: no check-mark or cross glyphs in replies or written files, plus a light kaomoji habit in conversation. One global prompt section, so every preset, workspace and subagent obeys without a single preset edit.
+- [Vensus137/Coreness-DSH](https://github.com/Vensus137/Coreness-DSH) — The Coreness kit for DeepSeek Harness — a plugin bundle for a profile.
 
 ## Harnesses & Runtimes
 
@@ -1408,6 +1409,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [NaivG/dsh-network](https://github.com/NaivG/dsh-network) — Let DeepSeek Harness access the internet seamlessly.
 - [askdkc/dsh-cli](https://github.com/askdkc/dsh-cli) — DSH CLI plugin that makes AI-provider setup easy for Codex, Claude, OpenCode, OpenRouter, Hermes Agent, OrcaRouter and Infron.
 - [Fyue7/dsh-restart-button](https://github.com/Fyue7/dsh-restart-button) — Adds a restart button to the DSH session header: fully exits and relaunches a new instance with no console window. Unofficial plugin.
+- [FuSheng-cs/Trae2api-dsh](https://github.com/FuSheng-cs/Trae2api-dsh) — Use TRAE CN models in DeepSeek Harness, with account management, daily check-in, key rotation, and usage and model visibility.
+- [yhm080315-sudo/dsh-android](https://github.com/yhm080315-sudo/dsh-android) — Package DeepSeek Harness into a standalone Android app: bundled Node runtime, just install the APK — no Termux, no proot, no root, no computer. Includes full notes on Android platform pitfalls (seccomp killing glibc, why targetSdk 28, hard-link rejection). MIT.
 
 ## Security & Permissions
 
@@ -2728,6 +2731,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [jessicacui99/dsh-plugin-token-cost](https://github.com/jessicacui99/dsh-plugin-token-cost) — Live token spend for the current DSH session, priced with your profile's table and shown beside the composer.
 - [iasiv5/dsh-quota-watch](https://github.com/iasiv5/dsh-quota-watch) — DSH plugin: a persistent floating capsule showing a GLM Coding Plan and GitHub Copilot quota snapshot with subscription usage details.
 - [tableau-China/dsh-workload-report](https://github.com/tableau-China/dsh-workload-report) — DSH workload-report plugin: see your effort and token spend by date and workspace, with a calendar heatmap, hour-of-day analysis and workspace share; export a self-contained HTML report.
+- [pigeon189/zcode-fox-widget](https://github.com/pigeon189/zcode-fox-widget) — ZCode desktop balance widget: DeepSeek peak/off-peak pricing, GLM Plan and CommandCode triple-quota multi-account pool, as an Electron desktop-pet overlay (MeteorNOX original → nb10yyds ZCode port → independently maintained here; MIT).
 
 ## Channel / IM Bridges
 
@@ -4601,6 +4605,8 @@ _Plugins that give the agent tools for external services (container registries, 
 - [wads-dev/dsh-live-voice](https://github.com/wads-dev/dsh-live-voice) — Local-first voice conversations for DSH: run speech recognition and speech synthesis on your own machine, with optional external providers.
 - [zhao-guang-ai/dsh-plugin-release-kit](https://github.com/zhao-guang-ai/dsh-plugin-release-kit) — DSH plugin release toolkit: a five-phase process handbook, a machine-readable catalog table, review/submit scripts, and copy-ready templates (distilled from a real release process).
 - [JJDonald/dsh-public-origin](https://github.com/JJDonald/dsh-public-origin) — Make loopback-assuming DeepSeek Harness plugins (bili, reasoning-effort, skill-explorer) work behind a public domain + reverse proxy, gated by DSH's own login.
+- [eloyhere/deepseek-coordination](https://github.com/eloyhere/deepseek-coordination) — Atomic OS interaction layer for DeepSeek Harness: a stable verb set replaces shell string concatenation — explicit argv, byte-exact encoding/BOM/EOL handling; native Windows & POSIX implementations, zero runtime deps (MIT).
+- [hy-sde/dsh-plugins](https://github.com/hy-sde/dsh-plugins) — Standalone @hy-sde-org/dsh-* plugins for DeepSeek Harness (monorepo).
 
 ## Orchestrators & Aggregators
 
@@ -6671,6 +6677,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [2861292267/dsh-prompt-enhancer](https://github.com/2861292267/dsh-prompt-enhancer) — Enhance Prompt for DeepSeek Harness: rewrite the composer draft into a stronger, ready-to-send prompt with one click.
 - [furkancak1r/dsh-composer-plus](https://github.com/furkancak1r/dsh-composer-plus) — Composer helpers for DeepSeek Harness: input history, a Shift+Tab /plan toggle, one-click Continue, and drag-and-drop queue reordering.
 - [MoYu-CN/dsh-theme-pack](https://github.com/MoYu-CN/dsh-theme-pack) — Extra light and dark color themes for the DSH UI, registered as pure color tokens on top of the official theme runtime.
+- [zhanghzdev/dsh-theme-button](https://github.com/zhanghzdev/dsh-theme-button) — Floating theme widget for DeepSeek Harness: switch official appearances and set a custom background (image or solid color).
 
 ## Skills
 
