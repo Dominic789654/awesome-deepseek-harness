@@ -324,7 +324,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) — Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
 - [DragonHorizon-xtihc/dsh-connect-opencode-free](https://github.com/DragonHorizon-xtihc/dsh-connect-opencode-free) — Connect OpenCode Zen free-tier models into DeepSeek Harness: discover the official free models live, toggle each one on or off in Settings, and write the provider with a single click — no API key required.
 - [Jav1es/dsh-prompt-compiler](https://github.com/Jav1es/dsh-prompt-compiler) — Prompt Compiler DSH plugin: compile rough drafts into structured prompts.
-- [Xeraph627/local-lite](https://github.com/Xeraph627/local-lite) — Lightweight agent preset for short-context-window conversations: cuts the fixed overhead to about 2,004 tokens. Made by DeepSeek.
+- [Xeraph627/local-lite](https://github.com/Xeraph627/local-lite) — Lightweight agent preset for short-context-window conversations: cuts the fixed overhead to about 2,004 tokens.
 
 ## Harnesses & Runtimes
 

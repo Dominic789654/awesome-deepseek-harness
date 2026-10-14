@@ -325,7 +325,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) —— 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
 - [DragonHorizon-xtihc/dsh-connect-opencode-free](https://github.com/DragonHorizon-xtihc/dsh-connect-opencode-free) — 把 OpenCode Zen 的免费模型接进 DeepSeek Harness：实时发现官方免费档模型，在设置里逐个启停，一键写入 provider，免 key。
 - [Jav1es/dsh-prompt-compiler](https://github.com/Jav1es/dsh-prompt-compiler) — Prompt Compiler DSH 插件：把粗略草稿编译成结构化提示词。
-- [Xeraph627/local-lite](https://github.com/Xeraph627/local-lite) — 为短上下文窗口的对话提供更轻量的 Agent 预设，可将固定开销降至约 2,004 token。由 DeepSeek 制作。
+- [Xeraph627/local-lite](https://github.com/Xeraph627/local-lite) — 为短上下文窗口的对话提供更轻量的 Agent 预设，可将固定开销降至约 2,004 token。
 
 ## Harness 与运行时
 
