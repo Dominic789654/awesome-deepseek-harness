@@ -3486,7 +3486,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 
 - [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) — DeepSeek Harness (dsh) plugin: a paper-reading workbench — PDF transcription / search / streaming Q&A plus a built-in reader page.
 
-- [ArtlexYoung/dsh-super-code](https://github.com/ArtlexYoung/dsh-super-code) — Faster, more cost-effective and more accurate coding plugin for DeepSeek Harness. On the 100 hardest SWE-bench Pro tasks: response time -48%, tokens per task -45%, accuracy +10%.
+- [ArtlexYoung/dsh-super-code](https://github.com/ArtlexYoung/dsh-super-code) — Coding plugin for DeepSeek Harness: handles straightforward tasks directly, brings in specialist agents when useful, and keeps task state and sourced knowledge across sessions.
 
 ## Coding
 

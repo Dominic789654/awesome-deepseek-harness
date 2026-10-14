@@ -3500,7 +3500,7 @@ _在工作区内外转换文档——Markdown、Word 等格式。_
 
 - [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) — DeepSeek Harness（dsh）插件：论文伴读工作台 —— PDF 转录 / 检索 / 流式问答 + 内置阅读器页面。
 
-- [ArtlexYoung/dsh-super-code](https://github.com/ArtlexYoung/dsh-super-code) —— 更快、更省、更准确的 DeepSeek Harness 编码插件。在 SWE-bench Pro 最难的 100 道题中，响应耗时减少 48%、每题 token 减少 45%，正确率还提升 10%。
+- [ArtlexYoung/dsh-super-code](https://github.com/ArtlexYoung/dsh-super-code) —— DeepSeek Harness 编码插件：简单任务直接处理，复杂任务按需引入专业 Agent，并把任务状态与有来源的经验保留到后续对话。
 
 ## 写代码
 
