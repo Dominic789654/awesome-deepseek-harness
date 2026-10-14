@@ -1692,6 +1692,28 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [zxc663/shisan-xinuo-dsh-plugin](https://github.com/zxc663/shisan-xinuo-dsh-plugin) —— DeepSeek Harness 运行时治理插件：把工程纪律从提示词层下沉到执行层——L3 拦截+审批链、真值收口（宿主真跑验证命令）、规则包 Config 化、工具预算；四臂对照已验证机制面。
 - [jjmlovesgit/dsh-plugin-coding-delegate](https://github.com/jjmlovesgit/dsh-plugin-coding-delegate) — DSH 预防式治理插件：云端规划者被禁止写入与 shell 权限，本地 worker 在有界工作区内实现，晋升需与机器校验或人工确认的记录哈希绑定 — 五道边界，均失败即关闭。
 - [6mt/dsh-plugin-loopback-trust](https://github.com/6mt/dsh-plugin-loopback-trust) — 反向代理后恢复 dsh web 的 Host 持久化设置：把页面连接标记为 Host 归属，让非 loopback 主机名下也能加载 Settings / Models 页面（dsh 0.1.7）。
+- [feely0208/dsh-agent-scope](https://github.com/feely0208/dsh-agent-scope) — Agent 权限边界：查 agent 的工具/文件/网络权限有没有声明、是不是过宽。
+- [feely0208/dsh-ai-output-trust](https://github.com/feely0208/dsh-ai-output-trust) — AI 输出信任边界：检查代码有没有直接执行 AI 输出（eval/shell/SQL/路径）。
+- [feely0208/dsh-alert-relay](https://github.com/feely0208/dsh-alert-relay) — 告警外发：检查告警链路有没有告警、发到哪、有没有把敏感信息一起发出去。
+- [feely0208/dsh-algorithm-filing](https://github.com/feely0208/dsh-algorithm-filing) — 算法备案与告知：查算法推荐服务有没有关闭选项、告知、备案。
+- [feely0208/dsh-ci-guard](https://github.com/feely0208/dsh-ci-guard) — 扫 GitHub Actions 工作流，找出可被利用的配置 —— 供应链攻击的主要入口。
+- [feely0208/dsh-cn-data-export](https://github.com/feely0208/dsh-cn-data-export) — 数据出境检查：查代码与配置里的境外数据出口、个人信息外发、缺安全评估说明。
+- [feely0208/dsh-cn-filing](https://github.com/feely0208/dsh-cn-filing) — 备案公示检查：查应用里有没有 ICP/APP 备案号、隐私政策入口、运营者信息。
+- [feely0208/dsh-cn-log-retention](https://github.com/feely0208/dsh-cn-log-retention) — 日志留存合规：检查日志是否开启、是否记了该记的、是否留够法定 6 个月。
+- [feely0208/dsh-cn-mlps](https://github.com/feely0208/dsh-cn-mlps) — 等保对照：按 GB/T 22239-2019 找出代码与配置里可静态发现的等保项。
+- [feely0208/dsh-consent-guard](https://github.com/feely0208/dsh-consent-guard) — 用户同意与授权确认：默认勾选、捆绑同意、没有撤回入口 —— 个保法有明确要求。
+- [feely0208/dsh-content-trust](https://github.com/feely0208/dsh-content-trust) — 外部内容信任边界：查 agent 有没有把网页/文件/邮件里的内容当指令信。
+- [feely0208/dsh-data-classify](https://github.com/feely0208/dsh-data-classify) — 数据分类分级：查数据有没有分级标注与资产清单（数据安全法 21 条）。
+- [feely0208/dsh-data-rights](https://github.com/feely0208/dsh-data-rights) — 个人信息权利：查查阅/复制/删除权有没有真的实现（个保法 45/47/50 条）。
+- [feely0208/dsh-data-scan](https://github.com/feely0208/dsh-data-scan) — 敏感数据发现：扫出代码/配置里的身份证、银行卡、手机号 —— 带校验位验证，不误报。
+- [feely0208/dsh-dep-audit](https://github.com/feely0208/dsh-dep-audit) — 检查依赖树的投毒与风险面：装包即执行的脚本、过宽版本、非 registry 来源。
+- [feely0208/dsh-incident-package](https://github.com/feely0208/dsh-incident-package) — 应急证据包：查出了事能不能拿出证据（预案/联系人/日志保全/上报流程）。
+- [feely0208/dsh-key-rotate](https://github.com/feely0208/dsh-key-rotate) — 密钥轮换：查密钥与证书多久没换、有没有轮换制度、有没有跨环境复用。
+- [feely0208/dsh-least-privilege](https://github.com/feely0208/dsh-least-privilege) — 最小权限检查：容器 root/privileged、IAM 通配、CORS 全开、令牌申请 admin。
+- [feely0208/dsh-license-guard](https://github.com/feely0208/dsh-license-guard) — 开源许可合规检查：扫描依赖树，找出 GPL/AGPL 传染、许可未知等风险 —— 发布前、开源前、被审计时跑一遍。
+- [feely0208/dsh-mcp-audit](https://github.com/feely0208/dsh-mcp-audit) — MCP 服务安全：审计 MCP 配置里的未锁定远端包、明文端点、可执行本地服务。
+- [feely0208/dsh-minor-guard](https://github.com/feely0208/dsh-minor-guard) — 未成年人保护：查不满 14 周岁个人信息有没有监护人同意、专门规则、年龄门槛。
+- [feely0208/dsh-pipia](https://github.com/feely0208/dsh-pipia) — 个人信息保护影响评估：查是否按个保法 55 条做了评估、56 条留存三年。
 
 ## 会话与记忆管理
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — DeepSeek Harness Web 的跨项目固定会话分组（alpha 预览）。
@@ -2374,6 +2396,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Jeffry-Z/dsh-plugin-archived-sessions](https://github.com/Jeffry-Z/dsh-plugin-archived-sessions) — 管理 DSH 已归档会话：列出、恢复、永久删除，且侧边栏即时同步。
 - [PolitaryMonicy/dsh-agent-clean](https://github.com/PolitaryMonicy/dsh-agent-clean) — 从 DeepSeek Harness 会话日志中删除子 agent 条目而不破坏日志，清理孤儿投影缓存，并整会话清除——始终先 dry-run、始终留备份。
 - [TonyZiYuan/dsh-session-delete](https://github.com/TonyZiYuan/dsh-session-delete) — 在 DSH Web 界面里删除会话。
+- [liu-zhengdong/dsh-simple-memory](https://github.com/liu-zhengdong/dsh-simple-memory) — 把 Markdown 记忆目录接入 DSH：每轮常驻索引，正文按需读取。
+- [xiamubumu/dsh-context-reclaim](https://github.com/xiamubumu/dsh-context-reclaim) — DSH 1.5 的上下文治理：折叠工具结果、保持 prompt 缓存热、接管宿主可写请求路径（无需给官方 dsh-llm 打文件补丁）。
 
 ## 成本与用量统计
 
@@ -2756,6 +2780,7 @@ _token 用量、成本看板与预算告警插件。_
 - [pigeon189/zcode-fox-widget](https://github.com/pigeon189/zcode-fox-widget) —— ZCode 狐娘小挂件——ZCode 桌面余额挂件：DeepSeek 峰谷计价 · GLM Plan · CommandCode 三重额度多账号池的 Electron 桌宠浮层（MeteorNOX 原版 → nb10yyds ZCode 移植 → 本仓库独立发展，MIT）。
 - [oliblue-evan/dsh-usage-pill](https://github.com/oliblue-evan/dsh-usage-pill) — DSH 用量与余额：会话用量、按每笔实际发生时刻与模型计价的费用（峰谷/档位）、账户余额；账号登录无需 API Key。
 - [NIRVANA-APOC/dsh-api-cost](https://github.com/NIRVANA-APOC/dsh-api-cost) — DeepSeek Harness 插件：按峰 / 谷价实时统计 API 成本——输入框药丸、/cost 命令、session_cost 工具和 JSON 快照，并把子 agent 与 agent 团队的消耗一并计入。
+- [xiamubumu/dsh-aux-degrade](https://github.com/xiamubumu/dsh-aux-degrade) — DSH 1.5 的辅助模型降级护栏：让旁路调用保持廉价（关闭推理强度、token 下限、剥离工具），且不动主循环。
 
 ## Channel / IM 桥接
 
@@ -3173,6 +3198,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [FNOSP/fnos-dsh](https://github.com/FNOSP/fnos-dsh) — DeepSeek Harness 应用与 harness 插件 monorepo。
 - [OrinVoss/dsh-plugins](https://github.com/OrinVoss/dsh-plugins) —— DeepSeek Harness 社区插件集：长期记忆 / 桌面宠物 / 7 套皮肤 / Token 用量报表 / 系统状态 / 旁支提问 / Agent Teams fork（上限 16 + release_teammate）。
 - [AndyPBI/dsh-plugin-galaxy](https://github.com/AndyPBI/dsh-plugin-galaxy) —— Plugin Galaxy 可视化插件星系：在 DeepSeek Harness 内部浏览、搜索并一键安装社区插件的可视化插件市场。
+- [publieople/dsh-plugin-autoupdate](https://github.com/publieople/dsh-plugin-autoupdate) — 供应链感知的插件更新器：只应用 pnpm release-age 策略允许的版本，支持快照与回滚。
 
 ## 可视化
 
@@ -4657,6 +4683,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [Lucifer-xD/zadloop-ultimate-toolkit](https://github.com/Lucifer-xD/zadloop-ultimate-toolkit) — 一键安装的 ZadLoop 工具箱：Context Surgery、撤销、模式切换、完整会话迁移，以及 70 套现代主题。
 - [6mt/dsh-control](https://github.com/6mt/dsh-control) — 本地一个窗口，驱动你所有机器上的 dsh。
 - [Hope-Phenom/dsh-plugin-remote-use](https://github.com/Hope-Phenom/dsh-plugin-remote-use) — 把 DSH 里需要真实桌面的任务（GUI 自动化测试、只有看屏幕才能验证的结果）委托给局域网里已配对的工作节点执行，像调用子 Agent 一样驱动它——自动化不再和操作者抢鼠标、键盘和焦点。任务以指令经 ACP over WebSocket 下发，由工作节点本地的 DSH 执行；提权一律进人工审批，沙箱无法被证明时拒绝启用，凭据不回传浏览器。
+- [xiamubumu/dsh-capability-composer](https://github.com/xiamubumu/dsh-capability-composer) — DSH 1.5 能力编排器：按会话组装工具 / 技能 / MCP 组合，并按需压缩系统提示词。
 
 ## 编排器与聚合器
 
@@ -4884,6 +4911,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [Andiii208/gzhflow](https://github.com/Andiii208/gzhflow) — 跨 Agent 公众号内容发布工作流框架 — 素材先行/写作/去 AI 味/配图/排版/推草稿箱 六阶段流水线，适配 Claude Code/Cursor/Codex/Gemini/Qwen/DeepSeek 等主流 Agent。
 - [xiaoso456/dsh-workflow-lite](https://github.com/xiaoso456/dsh-workflow-lite) — DSH 软工作流插件：在画布上设计流程，编译成计划提示词，由模型按计划执行；运行状态由模型自己记，没有执行引擎。
 - [SssoGin/MALTS](https://github.com/SssoGin/MALTS) — 面向 AI 编程 agent 的多 agent 长任务调度与成长系统，基于文件的 state、验证、交接与可复用学习。
+- [loopx-project/loopx](https://github.com/loopx-project/loopx) — 面向长程 agent 与团队的控制平面，带持久状态内核：让工作跨会话持续推进与改进，减少人工盯守。
 
 ## UI / 客户端
 
@@ -6738,6 +6766,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [john-walks-slow/session-prefix](https://github.com/john-walks-slow/session-prefix) — DeepSeek Harness 的会话状态徽章：用可自定义的 emoji 前缀标记会话标题（wip 🚧 blocked ⏸️ review 👀 done ✅）——可配置新会话默认状态、session_prefix 模型工具、/state 命令与 Web 设置。
 - [wangbofan/dsh-restart-button](https://github.com/wangbofan/dsh-restart-button) — DSH 桌面端（Windows）标题栏菜单：一个 Restart 按钮，关闭并重启整个应用（外壳 + Host）。纯插件，不打 app.asar 补丁。
 - [xzy-nine/dsh-source-control](https://github.com/xzy-nine/dsh-source-control) — dsh 中的类 VS Code 源代码管理页面。
+- [Bainianzzz/dsh-bg-switcher](https://github.com/Bainianzzz/dsh-bg-switcher) — 把 Harness 窗口背景换成预设或自定义图片 URL。
+- [temotee2103/dsh-remote-gui](https://github.com/temotee2103/dsh-remote-gui) — 通过 SSH 隧道把远程 DeepSeek Harness GUI 嵌进本地 DSH 窗口，支持远程会话列表与本地/远程切换。
+- [xiamubumu/dsh-composer-launcher](https://github.com/xiamubumu/dsh-composer-launcher) — DSH 1.5 启动器：一个面板集中能力编排器、插件清单、MCP 桥与浏览器标签桥扩展。
+- [OpencodeSilver/OpencodeSilver](https://github.com/OpencodeSilver/OpencodeSilver) — 基于 OpenCode agent 的 Agentic 开发环境：桌面 / 网页 / VS Code，可查看 agent 决策、并行模型对比、编排专业技能。
+- [T1gerD/open-whale](https://github.com/T1gerD/open-whale) — 手机上的个人助理，远程使用电脑上的 DeepSeek Harness —— DSH 插件 + Expo 手机应用，扫码绑定、口语化回复、文件收发、远程开关机。
 
 ## Skill
 
@@ -7140,6 +7173,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [denceee/dsh-everything-claude-code](https://github.com/denceee/dsh-everything-claude-code) —— 把 everything-claude-code 适配到 DeepSeek Harness：11 个 skill、一个 ECC agent 预设、改造后的 Claude Code hooks，以及中文设置页。
 - [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) — DSH 技能管理器：自带基础技能与中文工程流程技能包，按「你遇到的问题」分组展示，模型可在对话里直接读写；升级技能包不覆盖你改过的文件。
 - [58catmiao/dsh-sciwork](https://github.com/58catmiao/dsh-sciwork) — 把「科研模式」装进 DSH：本地科研库（课题、图、草稿、文献、数据表、期刊档案、投稿台账）加一套固化「怎么画、怎么写、怎么引」的技能；零 npm 依赖，路径运行时解析。
+- [yzsp-studio/award-winning-performance-prompt-v1-1-suite](https://github.com/yzsp-studio/award-winning-performance-prompt-v1-1-suite) — 配合使用的 AI 技能套件（4 个技能）：获奖级表演提示词 + 短剧生产流水线，技能之间强制关联、成组使用。
+- [yzsp-studio/lark-doc-suite](https://github.com/yzsp-studio/lark-doc-suite) — 配合使用的 AI 技能套件（14 个技能）：飞书文档/表格/文字/PDF 与医疗、股票、数据分析等工作流，技能之间强制关联。
+- [yzsp-studio/mediakit-shared-suite](https://github.com/yzsp-studio/mediakit-shared-suite) — 配合使用的 AI 技能套件（15 个技能）：媒体工具包 —— 图像/音频/视频编辑、应用构建、产物预览、创意设计与视频、PPT 及 Seedance/Seedream 流水线。
 
 ## 资源
 

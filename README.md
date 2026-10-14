@@ -1685,6 +1685,28 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [zxc663/shisan-xinuo-dsh-plugin](https://github.com/zxc663/shisan-xinuo-dsh-plugin) — Runtime governance plugin for DeepSeek Harness: push engineering discipline from the prompt layer down to the execution layer — L3 interception + approval chain, ground-truth convergence (the host actually runs the verification commands), config-driven rule packs and a tool budget.
 - [jjmlovesgit/dsh-plugin-coding-delegate](https://github.com/jjmlovesgit/dsh-plugin-coding-delegate) — A preventive governance plugin for DeepSeek Harness: the cloud planner is denied write and shell access, a local worker implements inside a bounded workspace, and promotion is hash-bound against a machine-checked or operator-attested record — five boundaries, each failing closed.
 - [6mt/dsh-plugin-loopback-trust](https://github.com/6mt/dsh-plugin-loopback-trust) — Restore Host-persisted settings in dsh web behind a reverse proxy — marks the page connection as host-owning so the Settings / Models pages load on non-loopback hostnames (dsh 0.1.7).
+- [feely0208/dsh-agent-scope](https://github.com/feely0208/dsh-agent-scope) — Agent permission boundaries: check whether an agent's tool / file / network permissions are declared, and whether they are over-broad.
+- [feely0208/dsh-ai-output-trust](https://github.com/feely0208/dsh-ai-output-trust) — AI-output trust boundary: check whether code executes AI output directly (eval / shell / SQL / paths).
+- [feely0208/dsh-alert-relay](https://github.com/feely0208/dsh-alert-relay) — Alert egress: check whether the alert path actually alerts, where it sends, and whether it leaks sensitive data together with the alert.
+- [feely0208/dsh-algorithm-filing](https://github.com/feely0208/dsh-algorithm-filing) — Algorithm filing and disclosure (China): check whether a recommendation service offers an off switch, a disclosure and a filing.
+- [feely0208/dsh-ci-guard](https://github.com/feely0208/dsh-ci-guard) — Scan GitHub Actions workflows for exploitable configuration — the main entry point for supply-chain attacks.
+- [feely0208/dsh-cn-data-export](https://github.com/feely0208/dsh-cn-data-export) — Data export check (China): find outbound data transfers, outbound personal information, and missing security-assessment statements in code and config.
+- [feely0208/dsh-cn-filing](https://github.com/feely0208/dsh-cn-filing) — Filing and disclosure check (China): check whether an app carries an ICP / APP filing number, a privacy-policy entry and operator information.
+- [feely0208/dsh-cn-log-retention](https://github.com/feely0208/dsh-cn-log-retention) — Log retention compliance (China): check whether logs are enabled, whether the right events are recorded, and whether they are kept the 6 months the law requires.
+- [feely0208/dsh-cn-mlps](https://github.com/feely0208/dsh-cn-mlps) — MLPS check (China): find the items of GB/T 22239-2019 that can be spotted statically in code and config.
+- [feely0208/dsh-consent-guard](https://github.com/feely0208/dsh-consent-guard) — Consent and authorization check: pre-ticked boxes, bundled consent and no withdrawal entry — China's PIPL regulates all three explicitly.
+- [feely0208/dsh-content-trust](https://github.com/feely0208/dsh-content-trust) — External-content trust boundary: check whether an agent treats content from web pages, files or email as instructions.
+- [feely0208/dsh-data-classify](https://github.com/feely0208/dsh-data-classify) — Data classification and grading: check whether data carries a classification label and an asset inventory (Article 21 of China's Data Security Law).
+- [feely0208/dsh-data-rights](https://github.com/feely0208/dsh-data-rights) — Personal-information rights: check whether access / copy / deletion rights are actually implemented (Articles 45, 47 and 50 of China's PIPL).
+- [feely0208/dsh-data-scan](https://github.com/feely0208/dsh-data-scan) — Sensitive-data discovery: find ID numbers, bank cards and phone numbers in code and config — with checksum validation, so there are no false positives.
+- [feely0208/dsh-dep-audit](https://github.com/feely0208/dsh-dep-audit) — Audit the dependency tree for poisoning and risk surface: install-time scripts, over-broad version ranges, non-registry sources.
+- [feely0208/dsh-incident-package](https://github.com/feely0208/dsh-incident-package) — Incident evidence pack: check whether you can produce evidence when something happens (plan, contacts, log preservation, reporting process).
+- [feely0208/dsh-key-rotate](https://github.com/feely0208/dsh-key-rotate) — Key rotation: check how long keys and certificates have gone unchanged, whether a rotation policy exists, and whether keys are reused across environments.
+- [feely0208/dsh-least-privilege](https://github.com/feely0208/dsh-least-privilege) — Least-privilege check: root / privileged containers, wildcard IAM, wide-open CORS, admin-scoped token requests.
+- [feely0208/dsh-license-guard](https://github.com/feely0208/dsh-license-guard) — Open-source license compliance: scan the dependency tree for GPL / AGPL contamination and unknown licenses — run it before release, before open-sourcing, and when you are audited.
+- [feely0208/dsh-mcp-audit](https://github.com/feely0208/dsh-mcp-audit) — MCP server security: audit MCP configuration for unlocked remote packages, plaintext endpoints and executable local servers.
+- [feely0208/dsh-minor-guard](https://github.com/feely0208/dsh-minor-guard) — Minor protection (China): check whether personal information of children under 14 has guardian consent, dedicated rules and an age gate.
+- [feely0208/dsh-pipia](https://github.com/feely0208/dsh-pipia) — Personal-information protection impact assessment (China): check whether the assessment required by Article 55 of the PIPL was done and records kept for three years per Article 56.
 
 ## Session & Memory Management
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — Cross-project pinned Session groups for DeepSeek Harness Web (alpha preview).
@@ -2368,6 +2390,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Jeffry-Z/dsh-plugin-archived-sessions](https://github.com/Jeffry-Z/dsh-plugin-archived-sessions) — Manage archived DeepSeek Harness sessions: list, restore, and permanently delete with immediate sidebar synchronization.
 - [PolitaryMonicy/dsh-agent-clean](https://github.com/PolitaryMonicy/dsh-agent-clean) — Remove subagent entries from DeepSeek Harness session logs without breaking the log, delete orphaned projection caches, and purge whole sessions — always dry-run first, always with a backup.
 - [TonyZiYuan/dsh-session-delete](https://github.com/TonyZiYuan/dsh-session-delete) — Delete sessions from the DSH Web interface.
+- [liu-zhengdong/dsh-simple-memory](https://github.com/liu-zhengdong/dsh-simple-memory) — Wire a Markdown memory directory into DSH: a resident index every turn, with bodies read on demand.
+- [xiamubumu/dsh-context-reclaim](https://github.com/xiamubumu/dsh-context-reclaim) — Context governance for DSH 1.5: fold tool results, keep the prompt cache warm, and take over the host writable-request path (no official dsh-llm file patch needed).
 
 ## Cost & Usage Tracking
 
@@ -2748,6 +2772,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [pigeon189/zcode-fox-widget](https://github.com/pigeon189/zcode-fox-widget) — ZCode desktop balance widget: DeepSeek peak/off-peak pricing, GLM Plan and CommandCode triple-quota multi-account pool, as an Electron desktop-pet overlay (MeteorNOX original → nb10yyds ZCode port → independently maintained here; MIT).
 - [oliblue-evan/dsh-usage-pill](https://github.com/oliblue-evan/dsh-usage-pill) — DSH usage and balance: session usage, cost priced per transaction at its actual time and model (peak/off-peak tiers), and account balance; login needs no API key.
 - [NIRVANA-APOC/dsh-api-cost](https://github.com/NIRVANA-APOC/dsh-api-cost) — DeepSeek Harness plugin: real-time API cost with peak / off-peak rates — a composer pill, /cost, a session_cost tool and a JSON snapshot, with subagent and agent-team spend rolled in.
+- [xiamubumu/dsh-aux-degrade](https://github.com/xiamubumu/dsh-aux-degrade) — Auxiliary-model degradation guard for DSH 1.5: keep side calls cheap (reasoning effort off, token floor, tool stripping) without touching the main loop.
 
 ## Channel / IM Bridges
 
@@ -3156,6 +3181,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [FNOSP/fnos-dsh](https://github.com/FNOSP/fnos-dsh) — DeepSeek Harness app + harness-plugin monorepo.
 - [OrinVoss/dsh-plugins](https://github.com/OrinVoss/dsh-plugins) — Community plugin set for DeepSeek Harness: long-term memory, desktop pet, 7 skins, token-usage reports, system status, side questions, and an Agent Teams fork (cap 16 + release_teammate).
 - [AndyPBI/dsh-plugin-galaxy](https://github.com/AndyPBI/dsh-plugin-galaxy) — Plugin Galaxy: a visual plugin marketplace inside DeepSeek Harness — browse, search, and one-click install community plugins.
+- [publieople/dsh-plugin-autoupdate](https://github.com/publieople/dsh-plugin-autoupdate) — Supply-chain-aware plugin updater for DeepSeek Harness: applies only the versions the pnpm release-age policy allows, and can snapshot and roll back.
 
 ## Visualization
 
@@ -4647,6 +4673,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [Lucifer-xD/zadloop-ultimate-toolkit](https://github.com/Lucifer-xD/zadloop-ultimate-toolkit) — One-install ZadLoop toolkit: Context Surgery, Undo, mode switching, full session transfer, and 70 modern themes.
 - [6mt/dsh-control](https://github.com/6mt/dsh-control) — Drive the dsh instances on your other machines from one local window.
 - [Hope-Phenom/dsh-plugin-remote-use](https://github.com/Hope-Phenom/dsh-plugin-remote-use) — Offload desktop-bound DSH tasks (GUI automation tests, results only verifiable by watching the screen) to a paired LAN worker node and drive it like a subagent — automation no longer competes with the operator for mouse, keyboard and focus. Tasks are delivered as instructions over ACP over WebSocket and run by the worker node's local DSH; escalation always goes through human approval, refuses to enable when the sandbox cannot be proven, and credentials never return to the browser.
+- [xiamubumu/dsh-capability-composer](https://github.com/xiamubumu/dsh-capability-composer) — Capability composer for DSH 1.5: build per-session tool / skill / MCP compositions and shrink the system prompt on demand.
 
 ## Orchestrators & Aggregators
 
@@ -4857,6 +4884,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [Andiii208/gzhflow](https://github.com/Andiii208/gzhflow) — Cross-agent WeChat Official Account publishing workflow framework — a six-stage pipeline (material first / writing / de-AI-flavor / illustration / layout / push to draft box) for Claude Code, Cursor, Codex, Gemini, Qwen and DeepSeek.
 - [xiaoso456/dsh-workflow-lite](https://github.com/xiaoso456/dsh-workflow-lite) — Soft-workflow plugin for DeepSeek Harness: design a flow on the canvas, compile it into a plan prompt, and let the model execute it; the model keeps its own run state, with no execution engine.
 - [SssoGin/MALTS](https://github.com/SssoGin/MALTS) — Multi-Agent Long-Task Scheduling and Growth System for AI coding agents, with file-based state, verification, handoff, and reusable learning.
+- [loopx-project/loopx](https://github.com/loopx-project/loopx) — A control plane with a durable state kernel for long-horizon agents and teams: keep work moving and improving across sessions, with less human attention.
 
 ## UI / Clients
 - [abadiegie/dsh-jetbrains](https://github.com/abadiegie/dsh-jetbrains) — Unofficial DeepSeek Harness ⇄ JetBrains integration: DSH chat inside your IDE, and your IDE workspace — project, attached modules, active file and caret — in front of the model.
@@ -6738,6 +6766,11 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [john-walks-slow/session-prefix](https://github.com/john-walks-slow/session-prefix) — Visual session state badges for DeepSeek Harness: prefix a session title with customizable emoji badges (wip 🚧 blocked ⏸️ review 👀 done ✅) — configurable default state for new sessions, session_prefix model tool, /state command, Web settings.
 - [wangbofan/dsh-restart-button](https://github.com/wangbofan/dsh-restart-button) — DSH desktop (Windows) titlebar menu: a Restart button that closes and relaunches the whole app — shell + Host. Plugin-only, no app.asar patching.
 - [xzy-nine/dsh-source-control](https://github.com/xzy-nine/dsh-source-control) — A VS Code-like source-control page in dsh.
+- [Bainianzzz/dsh-bg-switcher](https://github.com/Bainianzzz/dsh-bg-switcher) — Switch the Harness window background to a preset or a custom image URL.
+- [temotee2103/dsh-remote-gui](https://github.com/temotee2103/dsh-remote-gui) — Embed a remote DeepSeek Harness GUI in the local DSH window over an SSH tunnel, with remote session listing and local / remote switching.
+- [xiamubumu/dsh-composer-launcher](https://github.com/xiamubumu/dsh-composer-launcher) — Launcher for DSH 1.5: one panel for the capability composer, the plugin inventory, the MCP bridge and the browser tab-bridge extension.
+- [OpencodeSilver/OpencodeSilver](https://github.com/OpencodeSilver/OpencodeSilver) — Agentic development environment built on the OpenCode agent — desktop, web and VS Code, with agent-decision inspection, parallel model comparison and orchestrated skills.
+- [T1gerD/open-whale](https://github.com/T1gerD/open-whale) — A phone personal assistant that uses DeepSeek Harness on your computer remotely — a DSH plugin plus an Expo app: QR pairing, conversational replies, file send / receive, remote power on / off.
 
 ## Skills
 
@@ -7138,6 +7171,9 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [denceee/dsh-everything-claude-code](https://github.com/denceee/dsh-everything-claude-code) — Adapts everything-claude-code to DeepSeek Harness: 11 skills, an ECC agent preset, adapted Claude Code hooks, and a Chinese Settings page.
 - [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) — DSH skill manager: bundles base skills and a Chinese engineering-workflow skill pack, grouped by "the problem you hit", readable and writable by the model in chat; upgrading the pack never overwrites files you changed.
 - [58catmiao/dsh-sciwork](https://github.com/58catmiao/dsh-sciwork) — Research-mode plugin for DeepSeek Harness: a local research library (topics, figures, drafts, references, data sheets, journal archives, submission ledger) plus skills that fix how to draw, write and cite — zero npm dependencies, paths resolved at runtime.
+- [yzsp-studio/award-winning-performance-prompt-v1-1-suite](https://github.com/yzsp-studio/award-winning-performance-prompt-v1-1-suite) — Cooperating AI skill suite (4 skills): an award-winning performance prompt plus a short-drama production pipeline; the skills reference each other and are used as a group.
+- [yzsp-studio/lark-doc-suite](https://github.com/yzsp-studio/lark-doc-suite) — Cooperating AI skill suite (14 skills): Lark (Feishu) doc, sheet, word, PDF and medical / stock / data-analysis workflows that reference each other.
+- [yzsp-studio/mediakit-shared-suite](https://github.com/yzsp-studio/mediakit-shared-suite) — Cooperating AI skill suite (15 skills): a media kit — image / audio / video editing, app builder, artifact preview, creative design and video, PPT and Seedance / Seedream pipelines.
 
 ## Resources
 
