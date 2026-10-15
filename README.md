@@ -1421,6 +1421,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [FuSheng-cs/Trae2api-dsh](https://github.com/FuSheng-cs/Trae2api-dsh) — Use TRAE CN models in DeepSeek Harness, with account management, daily check-in, key rotation, and usage and model visibility.
 - [yhm080315-sudo/dsh-android](https://github.com/yhm080315-sudo/dsh-android) — Package DeepSeek Harness into a standalone Android app: bundled Node runtime, just install the APK — no Termux, no proot, no root, no computer. Includes full notes on Android platform pitfalls (seccomp killing glibc, why targetSdk 28, hard-link rejection). MIT.
 
+- [2220545672/dsh-unraid](https://github.com/2220545672/dsh-unraid) — DSH for Unraid: multi-arch image, npm dist-tag auto-tracking, bubblewrap sandbox for kernels without Landlock, plus a Community Applications template.
+
 ## Security & Permissions
 
 _Permission rules, approval review, security audits, and policy-check plugins._
@@ -2399,6 +2401,8 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [liu-zhengdong/dsh-simple-memory](https://github.com/liu-zhengdong/dsh-simple-memory) — Wire a Markdown memory directory into DSH: a resident index every turn, with bodies read on demand.
 - [xiamubumu/dsh-context-reclaim](https://github.com/xiamubumu/dsh-context-reclaim) — Context governance for DSH 1.5: fold tool results, keep the prompt cache warm, and take over the host writable-request path (no official dsh-llm file patch needed).
 
+- [tancheng33/dsh-ontology](https://github.com/tancheng33/dsh-ontology) — A typed, inference-capable ontology (TBox + ABox) plugin for DeepSeek Harness — durable domain knowledge the agent declares, asserts against, and queries under schema constraints.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -2781,6 +2785,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [xiamubumu/dsh-aux-degrade](https://github.com/xiamubumu/dsh-aux-degrade) — Auxiliary-model degradation guard for DSH 1.5: keep side calls cheap (reasoning effort off, token floor, tool stripping) without touching the main loop.
 
 - [2048lr/dsh-feishu](https://github.com/2048lr/dsh-feishu) — Deep Feishu / Lark integration for DeepSeek Harness: Bitable (multidimensional tables), docs, sheets, wiki, drive and messages, plus a visual settings page.
+
+- [divineeagleblackhand/dsh-cost-receipt](https://github.com/divineeagleblackhand/dsh-cost-receipt) — Add a line under each reply: the cost of that turn plus account balance (top-up and gift credit listed separately, with a hover pie chart). Priced from the turn's token usage at official peak/off-peak rates with a built-in holidays table; states the reason when a price cannot be computed. No network, no disk writes, no dependencies.
 
 ## Channel / IM Bridges
 
@@ -3192,6 +3198,8 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [OrinVoss/dsh-plugins](https://github.com/OrinVoss/dsh-plugins) — Community plugin set for DeepSeek Harness: long-term memory, desktop pet, 7 skins, token-usage reports, system status, side questions, and an Agent Teams fork (cap 16 + release_teammate).
 - [AndyPBI/dsh-plugin-galaxy](https://github.com/AndyPBI/dsh-plugin-galaxy) — Plugin Galaxy: a visual plugin marketplace inside DeepSeek Harness — browse, search, and one-click install community plugins.
 - [publieople/dsh-plugin-autoupdate](https://github.com/publieople/dsh-plugin-autoupdate) — Supply-chain-aware plugin updater for DeepSeek Harness: applies only the versions the pnpm release-age policy allows, and can snapshot and roll back.
+
+- [zhikai0915-netizen/hotspot](https://github.com/zhikai0915-netizen/hotspot) — DSH GitHub hot-list plugin: rank small tools such as model plugins, skills and MCP servers by day/week/month, with configurable list types.
 
 ## Visualization
 
@@ -3904,6 +3912,8 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [fan56/dsh-jev-core](https://github.com/fan56/dsh-jev-core) — Shared TypeSafe Jev decision-model client for the dsh ecosystem: strict response validation, keychain-first key resolution, typed fail-open errors. Jev-optional by design.
 - [Leo-sail/dsh-plugin-agent-collaboration](https://github.com/Leo-sail/dsh-plugin-agent-collaboration) — Persistent Bots, group rooms and a durable run ledger for DeepSeek Harness (DSH) — an installable DSH plugin.
 
+- [liujianqiao701/dsh-test-framework](https://github.com/liujianqiao701/dsh-test-framework) — DSH plugin for test engineers: turn an empty folder into a test work-framework skeleton and carry the framework constraints into the AI session — split requirement docs into modules, confirm versions, link cross-document references, and register test environments and credentials.
+
 ## Agents
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
@@ -4223,6 +4233,9 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [Tim-ReJet/dsh-plugin-durable-subagent](https://github.com/Tim-ReJet/dsh-plugin-durable-subagent) — Durable subagent execution for DeepSeek Harness: a `durable` provider and a model-facing tool that drive pi-durable-subagents, so a crashed delegation converges on its first outcome instead of running twice.
 - [Missher12/Missher-DSH-Project-Ops](https://github.com/Missher12/Missher-DSH-Project-Ops) — Scoped project task discovery and execution receipts for DeepSeek Harness; the desktop entry and other plugins are linked from the homepage.
 - [trilliverse/Auto-Government-Business-Analysis](https://github.com/trilliverse/Auto-Government-Business-Analysis) — An analysis agent for government departments' business inventory, system inventory and business-process swimlane diagrams | Human-in-the-loop DeepSeek Harness pipeline for government responsibility, digital support, evidence, and swimlane analysis.
+
+- [EXCALIBURYaoGod/OpenTeach](https://github.com/EXCALIBURYaoGod/OpenTeach) — One-line generation of multi-agent interactive classrooms: a plugin-based refactor of OpenMAIC on DSH — a DSH plugin package for the backend with a Next.js frontend and built-in local BM25 knowledge-base retrieval.
+- [gitroomhq/postiz-agent](https://github.com/gitroomhq/postiz-agent) — Postiz Agents CLI: connect it to DSH (and other agents) to schedule social-media posts. Ships a DSH plugin bundle at plugins/dsh-postiz that connects the agent to the hosted Postiz MCP server and registers a postiz workflow skill.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4698,6 +4711,12 @@ _Plugins that give the agent tools for external services (container registries, 
 - [6mt/dsh-control](https://github.com/6mt/dsh-control) — Drive the dsh instances on your other machines from one local window.
 - [Hope-Phenom/dsh-plugin-remote-use](https://github.com/Hope-Phenom/dsh-plugin-remote-use) — Offload desktop-bound DSH tasks (GUI automation tests, results only verifiable by watching the screen) to a paired LAN worker node and drive it like a subagent — automation no longer competes with the operator for mouse, keyboard and focus. Tasks are delivered as instructions over ACP over WebSocket and run by the worker node's local DSH; escalation always goes through human approval, refuses to enable when the sandbox cannot be proven, and credentials never return to the browser.
 - [xiamubumu/dsh-capability-composer](https://github.com/xiamubumu/dsh-capability-composer) — Capability composer for DSH 1.5: build per-session tool / skill / MCP compositions and shrink the system prompt on demand.
+
+- [1015677515/dsh-prompt-ErrorNotes-desk](https://github.com/1015677515/dsh-prompt-ErrorNotes-desk) — DSH plugin for global and per-conversation prompts plus an error-notes log.
+- [chenyifawan-cell/dsh-litellm-extra-headers](https://github.com/chenyifawan-cell/dsh-litellm-extra-headers) — DSH plugin: inject a body-level extra_headers entry into OpenAI-compatible chat/completions requests for listed providers and upstream hosts — the only injection point that survives a LiteLLM relay.
+- [GaoHu1997/dsh-model-think-level](https://github.com/GaoHu1997/dsh-model-think-level) — DSH plugin for per-model thinking-level control.
+- [Shuai-S/dsh-sub2api-sync](https://github.com/Shuai-S/dsh-sub2api-sync) — DSH plugin: sync one sub2api instance's groups, keys and models into dsh-llm-pi-ai provider routes — one relay key, one provider.
+- [xt765/dsh-milestone-guard](https://github.com/xt765/dsh-milestone-guard) — Milestone progress soft-enforcement guard plugin for DeepSeek Harness (阶段性结论软强制守卫插件).
 
 ## Orchestrators & Aggregators
 
@@ -6807,6 +6826,9 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [pagewellai/pagewell](https://github.com/pagewellai/pagewell) — Agent skill + CLI for PageWell: write a designed document or a runnable single-page artifact with your AI agent, then publish it as a link or a share code. Prebuilt binaries for macOS / Linux / Windows.
 - [zhaorui-wu/dsh-skill-cockpit](https://github.com/zhaorui-wu/dsh-skill-cockpit) — Skill cockpit for DSH: one page in the app-level nav listing every skill this machine exposes, why a skill is invisible, and a one-file toggle. (early / work in progress)
 
+- [GuanYang14700/dsh-hermes-panel](https://github.com/GuanYang14700/dsh-hermes-panel) — Hermes in the DSH sidebar: gateway and dashboard control, Hermes health report, and the DSH ⇄ Hermes bridge (generated mirror of plugins/hermes-panel).
+- [zhao-guang-ai/dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) — Selection quoting and anchored annotations for DSH conversations: quote a passage and the model receives the exact turn, role and text; jump back to the source and highlight it.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -7209,6 +7231,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [yzsp-studio/award-winning-performance-prompt-v1-1-suite](https://github.com/yzsp-studio/award-winning-performance-prompt-v1-1-suite) — Cooperating AI skill suite (4 skills): an award-winning performance prompt plus a short-drama production pipeline; the skills reference each other and are used as a group.
 - [yzsp-studio/lark-doc-suite](https://github.com/yzsp-studio/lark-doc-suite) — Cooperating AI skill suite (14 skills): Lark (Feishu) doc, sheet, word, PDF and medical / stock / data-analysis workflows that reference each other.
 - [yzsp-studio/mediakit-shared-suite](https://github.com/yzsp-studio/mediakit-shared-suite) — Cooperating AI skill suite (15 skills): a media kit — image / audio / video editing, app builder, artifact preview, creative design and video, PPT and Seedance / Seedream pipelines.
+
+- [tabilet/tabilet-skills](https://github.com/tabilet/tabilet-skills) — Seven shared engineering skills plus a Memory Bank sidebar for DeepSeek Harness; the same project Markdown stays usable from DSH, Codex and Claude Code.
 
 ## Resources
 

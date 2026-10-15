@@ -1423,6 +1423,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [FuSheng-cs/Trae2api-dsh](https://github.com/FuSheng-cs/Trae2api-dsh) —— 在 DeepSeek Harness 中使用 TRAE CN 模型，带账号管理、每日签到、轮换以及用量与模型可见性。
 - [yhm080315-sudo/dsh-android](https://github.com/yhm080315-sudo/dsh-android) —— 把 DeepSeek Harness 打包成独立 Android 应用：自带 Node 运行时，装个 APK 就能用，无需 Termux、proot、root 或电脑。内含完整的 Android 平台适配踩坑记录（seccomp 杀 glibc、targetSdk 28 的由来、硬链接被拒等）。MIT。
 
+- [2220545672/dsh-unraid](https://github.com/2220545672/dsh-unraid) — 面向 Unraid 的 DSH：多架构镜像、按 npm dist-tag 自动跟踪、为无 Landlock 内核提供 bubblewrap 沙箱，附 Community Applications 模板。
+
 ## 安全与权限
 
 _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
@@ -2405,6 +2407,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [liu-zhengdong/dsh-simple-memory](https://github.com/liu-zhengdong/dsh-simple-memory) — 把 Markdown 记忆目录接入 DSH：每轮常驻索引，正文按需读取。
 - [xiamubumu/dsh-context-reclaim](https://github.com/xiamubumu/dsh-context-reclaim) — DSH 1.5 的上下文治理：折叠工具结果、保持 prompt 缓存热、接管宿主可写请求路径（无需给官方 dsh-llm 打文件补丁）。
 
+- [tancheng33/dsh-ontology](https://github.com/tancheng33/dsh-ontology) — DSH 的类型化、可推理本体（TBox + ABox）插件——智能体可在 schema 约束下声明、断言并查询持久的领域知识。
+
 ## 成本与用量统计
 
 _token 用量、成本看板与预算告警插件。_
@@ -2789,6 +2793,8 @@ _token 用量、成本看板与预算告警插件。_
 - [xiamubumu/dsh-aux-degrade](https://github.com/xiamubumu/dsh-aux-degrade) — DSH 1.5 的辅助模型降级护栏：让旁路调用保持廉价（关闭推理强度、token 下限、剥离工具），且不动主循环。
 
 - [2048lr/dsh-feishu](https://github.com/2048lr/dsh-feishu) —— DeepSeek Harness 的飞书 / Lark 深度集成：多维表格（Bitable）、文档、电子表格、知识库、云盘与消息，附带可视化设置页。
+
+- [divineeagleblackhand/dsh-cost-receipt](https://github.com/divineeagleblackhand/dsh-cost-receipt) — 在每条回复下加一行：本次问答花费 + 账户余额（充值/礼金分开列，无礼金则只显示充值余额），悬停显示饼图。按该轮 token 用量乘官方峰谷单价计算，内置节假日表；算不出价就写明原因、不静默出错。插件自身不联网、不落盘、无依赖。
 
 ## Channel / IM 桥接
 
@@ -3209,6 +3215,8 @@ _插件市场、安装管理器、索引与生态工具。_
 - [OrinVoss/dsh-plugins](https://github.com/OrinVoss/dsh-plugins) —— DeepSeek Harness 社区插件集：长期记忆 / 桌面宠物 / 7 套皮肤 / Token 用量报表 / 系统状态 / 旁支提问 / Agent Teams fork（上限 16 + release_teammate）。
 - [AndyPBI/dsh-plugin-galaxy](https://github.com/AndyPBI/dsh-plugin-galaxy) —— Plugin Galaxy 可视化插件星系：在 DeepSeek Harness 内部浏览、搜索并一键安装社区插件的可视化插件市场。
 - [publieople/dsh-plugin-autoupdate](https://github.com/publieople/dsh-plugin-autoupdate) — 供应链感知的插件更新器：只应用 pnpm release-age 策略允许的版本，支持快照与回滚。
+
+- [zhikai0915-netizen/hotspot](https://github.com/zhikai0915-netizen/hotspot) — DSH GitHub 热榜插件：按日/周/月给模型插件、Skill、MCP 服务等小工具排名，榜单类型可自定义。
 
 ## 可视化
 
@@ -3916,6 +3924,8 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [fan56/dsh-jev-core](https://github.com/fan56/dsh-jev-core) —— dsh 生态共享的 TypeSafe Jev 决策模型客户端：严格响应校验、keychain 优先的密钥解析、类型化 fail-open 错误。默认 jev 可选。
 - [Leo-sail/dsh-plugin-agent-collaboration](https://github.com/Leo-sail/dsh-plugin-agent-collaboration) —— 为 DeepSeek Harness (DSH) 提供常驻 Bot、群组房间与持久化运行台账——可安装的 DSH 插件。
 
+- [liujianqiao701/dsh-test-framework](https://github.com/liujianqiao701/dsh-test-framework) — 面向测试工程师的 DSH 插件：把空文件夹一键变成「测试工作框架」骨架，并在 AI 会话里带上框架约束——需求文档拆模块 / 确认版本 / 跨文档关联 / 登记测试环境与账密。
+
 ## Agent
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
@@ -4236,6 +4246,9 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [Tim-ReJet/dsh-plugin-durable-subagent](https://github.com/Tim-ReJet/dsh-plugin-durable-subagent) — DSH 持久化子代理执行：`durable` provider 与面向模型的工具驱动 pi-durable-subagents，让崩溃的委派收敛到首次结果而不是重复执行。
 - [Missher12/Missher-DSH-Project-Ops](https://github.com/Missher12/Missher-DSH-Project-Ops) — 面向 DeepSeek Harness 的范围化项目任务发现与执行回执；桌面入口与其他插件见主页链接。
 - [trilliverse/Auto-Government-Business-Analysis](https://github.com/trilliverse/Auto-Government-Business-Analysis) — 面向政务部门业务清、系统清与业务流程泳道图的梳理智能体 | Human-in-the-loop DeepSeek Harness pipeline for government responsibility, digital support, evidence, and swimlane analysis.
+
+- [EXCALIBURYaoGod/OpenTeach](https://github.com/EXCALIBURYaoGod/OpenTeach) — 一句话生成多智能体互动课堂：基于 DSH 对 OpenMAIC 的插件化重构，后端为 DSH 插件包、前端 Next.js，内置本地知识库 BM25 检索。
+- [gitroomhq/postiz-agent](https://github.com/gitroomhq/postiz-agent) — Postiz Agents CLI：可接入 DSH 等智能体来编排社交媒体发帖；仓库内含 DSH 插件包 plugins/dsh-postiz，连接 Postiz MCP 服务并注册 postiz 工作流 skill。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4708,6 +4721,12 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [6mt/dsh-control](https://github.com/6mt/dsh-control) — 本地一个窗口，驱动你所有机器上的 dsh。
 - [Hope-Phenom/dsh-plugin-remote-use](https://github.com/Hope-Phenom/dsh-plugin-remote-use) — 把 DSH 里需要真实桌面的任务（GUI 自动化测试、只有看屏幕才能验证的结果）委托给局域网里已配对的工作节点执行，像调用子 Agent 一样驱动它——自动化不再和操作者抢鼠标、键盘和焦点。任务以指令经 ACP over WebSocket 下发，由工作节点本地的 DSH 执行；提权一律进人工审批，沙箱无法被证明时拒绝启用，凭据不回传浏览器。
 - [xiamubumu/dsh-capability-composer](https://github.com/xiamubumu/dsh-capability-composer) — DSH 1.5 能力编排器：按会话组装工具 / 技能 / MCP 组合，并按需压缩系统提示词。
+
+- [1015677515/dsh-prompt-ErrorNotes-desk](https://github.com/1015677515/dsh-prompt-ErrorNotes-desk) — DSH 插件：全局提示词/对话提示词，附错误记录功能。
+- [chenyifawan-cell/dsh-litellm-extra-headers](https://github.com/chenyifawan-cell/dsh-litellm-extra-headers) — DSH 插件：为指定 provider 与上游 host 的 OpenAI 兼容 chat/completions 请求注入 body 级 extra_headers（能穿过 LiteLLM 中继的唯一注入点）。
+- [GaoHu1997/dsh-model-think-level](https://github.com/GaoHu1997/dsh-model-think-level) — DSH 插件：按模型设置思考等级（think level）。
+- [Shuai-S/dsh-sub2api-sync](https://github.com/Shuai-S/dsh-sub2api-sync) — DSH 插件：把一个 sub2api 实例的 groups、keys 与 models 同步进 dsh-llm-pi-ai 的 provider routes——一个中继 key 对应一个 provider。
+- [xt765/dsh-milestone-guard](https://github.com/xt765/dsh-milestone-guard) — 阶段性结论软强制守卫插件（milestone progress soft-enforcement guard）。
 
 ## 编排器与聚合器
 
@@ -6807,6 +6826,9 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [pagewellai/pagewell](https://github.com/pagewellai/pagewell) —— PageWell 的 Agent 技能 + CLI：让 AI agent 写出有设计感的文档或可运行的单页产物，再发布为链接或分享码。提供 macOS / Linux / Windows 预编译二进制。
 - [zhaorui-wu/dsh-skill-cockpit](https://github.com/zhaorui-wu/dsh-skill-cockpit) —— DSH 的 Skill 驾驶舱：应用级导航中的一页，列出本机暴露的每个 skill、某个 skill 为何不可见，以及一个单文件开关。（早期 / 进行中）
 
+- [GuanYang14700/dsh-hermes-panel](https://github.com/GuanYang14700/dsh-hermes-panel) — DSH 侧边栏中的 Hermes：网关与仪表盘控制、Hermes 健康报告，以及 DSH ⇄ Hermes 桥接（plugins/hermes-panel 的生成镜像）。
+- [zhao-guang-ai/dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) — DSH 会话的划词批注与引用锚点：选中文字带锚点进入输入框，可跳回原文并高亮；发送后模型知道是哪一轮、谁说的。
+
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
@@ -7211,6 +7233,8 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [yzsp-studio/award-winning-performance-prompt-v1-1-suite](https://github.com/yzsp-studio/award-winning-performance-prompt-v1-1-suite) — 配合使用的 AI 技能套件（4 个技能）：获奖级表演提示词 + 短剧生产流水线，技能之间强制关联、成组使用。
 - [yzsp-studio/lark-doc-suite](https://github.com/yzsp-studio/lark-doc-suite) — 配合使用的 AI 技能套件（14 个技能）：飞书文档/表格/文字/PDF 与医疗、股票、数据分析等工作流，技能之间强制关联。
 - [yzsp-studio/mediakit-shared-suite](https://github.com/yzsp-studio/mediakit-shared-suite) — 配合使用的 AI 技能套件（15 个技能）：媒体工具包 —— 图像/音频/视频编辑、应用构建、产物预览、创意设计与视频、PPT 及 Seedance/Seedream 流水线。
+
+- [tabilet/tabilet-skills](https://github.com/tabilet/tabilet-skills) — 为 DSH 提供七个共享工程 skill 与 Memory Bank 侧边栏；同一份项目 Markdown 在 DSH、Codex、Claude Code 中均可复用。
 
 ## 资源
 
