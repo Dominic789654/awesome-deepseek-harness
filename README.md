@@ -6850,7 +6850,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [ShirazuNagisa/DSH-Mizar](https://github.com/ShirazuNagisa/DSH-Mizar) — Remote monitoring and guidance for DSH agents — a Cordis plugin for macOS / Windows plus a Swift-native iOS / iPad app.
 - [Vincent-chk/dsh-plugin-auxiliary-chat](https://github.com/Vincent-chk/dsh-plugin-auxiliary-chat) — Sidebar auxiliary chat for DeepSeek Harness (DSH): a right-column panel hosting temporary auxiliary sessions that one-way mirror the main session's context and are deleted when closed.
 - [WhatCannotBeSaid/eva-inspired-theme](https://github.com/WhatCannotBeSaid/eva-inspired-theme) — NERV-gate visual theme for DeepSeek Harness (fan work, non-commercial; see LICENSE).
-- [skyelan1999/aide](https://github.com/skyelan1999/aide) — An AI + IDE WorkStation for DeepSeek & Ali Qwen harness: focus on your main work, review all the things, manage and control all the things, redefine the future IDE (other models to be supported in 27Q2).
+- [skyelan1999/aide](https://github.com/skyelan1999/aide) — An AI + IDE workstation for the DeepSeek and Ali Qwen harnesses: a main-work view, review of results, and session management.
 
 ## Skills
 

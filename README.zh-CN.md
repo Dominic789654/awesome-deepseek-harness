@@ -6850,7 +6850,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [ShirazuNagisa/DSH-Mizar](https://github.com/ShirazuNagisa/DSH-Mizar) —— DSH agent 的远程监控与引导 —— macOS / Windows 的 Cordis 插件，外加 Swift 原生 iOS / iPad 应用。
 - [Vincent-chk/dsh-plugin-auxiliary-chat](https://github.com/Vincent-chk/dsh-plugin-auxiliary-chat) —— DeepSeek Harness（DSH）侧边栏辅助会话插件：右栏面板托管临时辅助会话，单向镜像主会话上下文，关闭即删除。
 - [WhatCannotBeSaid/eva-inspired-theme](https://github.com/WhatCannotBeSaid/eva-inspired-theme) —— DeepSeek Harness 的 NERV 门控视觉主题（同人作品，非商用；见 LICENSE）。
-- [skyelan1999/aide](https://github.com/skyelan1999/aide) —— 面向 DeepSeek 与通义千问 harness 的 AI + IDE 工作站：专注你的主要工作，审阅一切，管理并掌控一切，重新定义未来的 IDE（其它模型将于 27Q2 支持）。
+- [skyelan1999/aide](https://github.com/skyelan1999/aide) —— 面向 DeepSeek 与通义千问 harness 的 AI + IDE 工作站：主工作区视图、结果审阅与会话管理。
 
 ## Skill
 
