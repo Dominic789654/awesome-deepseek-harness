@@ -2806,7 +2806,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [PerseusNana7mi/dsh-model-kit](https://github.com/PerseusNana7mi/dsh-model-kit) — DeepSeek Harness model-parameter completion, import and edit plugin, with native-currency pricing in USD / CNY.
 - [zhangmaorongXL/dsh-xl-free-model](https://github.com/zhangmaorongXL/dsh-xl-free-model) — Install this plugin in dsh to use models such as mimo-v2.6-flash-free with no login, registration or API key — completely free and unmetered.
 - [lizilong1993/dsh-offpeak](https://github.com/lizilong1993/dsh-offpeak) — Automatic peak-hour control for DeepSeek Harness.
-- [XDTrees/dsh-xdpool](https://github.com/XDTrees/dsh-xdpool) — Pool every free model quota you can get into one DSH pool: WorkBuddy multi-account failover, 13 QR-code logins, 76 free-quota providers aggregated, a usage dashboard, model routing, a local OpenAI gateway and points automation.
+- [XDTrees/dsh-xdpool](https://github.com/XDTrees/dsh-xdpool) — Aggregate free model quotas into one DSH pool: WorkBuddy multi-account failover, QR-code sign-in for multiple providers, a usage dashboard, model routing, a local OpenAI gateway and points automation.
 
 ## Channel / IM Bridges
 

@@ -2814,7 +2814,7 @@ _token 用量、成本看板与预算告警插件。_
 - [PerseusNana7mi/dsh-model-kit](https://github.com/PerseusNana7mi/dsh-model-kit) —— DeepSeek Harness 模型参数补全、导入与编辑插件，支持 USD / CNY 原币种定价。
 - [zhangmaorongXL/dsh-xl-free-model](https://github.com/zhangmaorongXL/dsh-xl-free-model) —— 在 dsh 里装上这个插件即可无需登录、注册或填 API Key，就能使用 mimo-v2.6-flash-free 等模型——完全免费，不限量。
 - [lizilong1993/dsh-offpeak](https://github.com/lizilong1993/dsh-offpeak) —— 面向 DeepSeek Harness 的自动错峰（峰期）控制。
-- [XDTrees/dsh-xdpool](https://github.com/XDTrees/dsh-xdpool) —— 把你能白嫆的模型额度接进 DSH 同一个池：WorkBuddy 多账号自动容错、十三家扫码登录、76 家免费额度聚合、用量看板、模型路由、本地 OpenAI 网关、积分自动化。
+- [XDTrees/dsh-xdpool](https://github.com/XDTrees/dsh-xdpool) —— 把免费模型额度聚合进同一个 DSH 池：WorkBuddy 多账号自动容错、多家扫码登录、用量看板、模型路由、本地 OpenAI 网关、积分自动化。
 
 ## Channel / IM 桥接
 
