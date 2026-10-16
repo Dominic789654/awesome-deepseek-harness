@@ -3522,7 +3522,7 @@ _在工作区内外转换文档——Markdown、Word 等格式。_
 - [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) — DeepSeek Harness（dsh）插件：论文伴读工作台 —— PDF 转录 / 检索 / 流式问答 + 内置阅读器页面。
 
 - [ArtlexYoung/dsh-super-code](https://github.com/ArtlexYoung/dsh-super-code) —— DeepSeek Harness 编码插件：简单任务直接处理，复杂任务按需引入专业 Agent，并把任务状态与有来源的经验保留到后续对话。
-- [liuhaolong16/dsh-paper-studio](https://github.com/liuhaolong16/dsh-paper-studio) —— 论文方案（编排层）+ DSH 论文插件 V3：真源唯一、双模式（用户模式默认封闭）、五种行为差异化的写作模式、确定性意图判据、可复跑自检（插件 20/20 · 出厂审查 6/6 · 编排层 53/53）。
+- [liuhaolong16/dsh-paper-studio](https://github.com/liuhaolong16/dsh-paper-studio) —— 论文方案（编排层）+ DSH 论文插件 V3：真源唯一、双模式（用户模式默认封闭）、五种行为差异化的写作模式、确定性意图判据、可复跑自检。
 - [xuhao1/whalesong-studio](https://github.com/xuhao1/whalesong-studio) —— 鲸歌工坊：用一支 AI Agent 团队写长篇小说，再发布成带插画的网站。面向 DeepSeek Harness 的插件。
 - [xuhao1/whalesong-studio-site](https://github.com/xuhao1/whalesong-studio-site) —— 鲸歌工坊的发布站点，已用其写出两本书：《红楼梦》与《爱丽丝梦游仙境》。
 

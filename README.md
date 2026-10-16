@@ -3508,7 +3508,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) — DeepSeek Harness (dsh) plugin: a paper-reading workbench — PDF transcription / search / streaming Q&A plus a built-in reader page.
 
 - [ArtlexYoung/dsh-super-code](https://github.com/ArtlexYoung/dsh-super-code) — Coding plugin for DeepSeek Harness: handles straightforward tasks directly, brings in specialist agents when useful, and keeps task state and sourced knowledge across sessions.
-- [liuhaolong16/dsh-paper-studio](https://github.com/liuhaolong16/dsh-paper-studio) — Paper-writing plugin V3 plus an orchestration layer for DeepSeek Harness: single source of truth, dual modes (user mode closed by default), five differentiated writing modes, deterministic intent criteria, and re-runnable self-checks (20/20 plugin · 6/6 factory review · 53/53 orchestration).
+- [liuhaolong16/dsh-paper-studio](https://github.com/liuhaolong16/dsh-paper-studio) — Paper-writing plugin V3 plus an orchestration layer for DeepSeek Harness: single source of truth, dual modes (user mode closed by default), five differentiated writing modes, deterministic intent criteria, and re-runnable self-checks.
 - [xuhao1/whalesong-studio](https://github.com/xuhao1/whalesong-studio) — Whalesong Studio (鲸歌工坊): write a long novel with a crew of AI agents, then publish it as an illustrated website. A plugin for DeepSeek Harness.
 - [xuhao1/whalesong-studio-site](https://github.com/xuhao1/whalesong-studio-site) — The published website of Whalesong Studio (鲸歌工坊), with two books written from it: 红楼梦 and Alice's Adventures in Wonderland.
 
