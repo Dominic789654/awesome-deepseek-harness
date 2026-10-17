@@ -2436,6 +2436,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [kira905/dsh-butler-archive](https://github.com/kira905/dsh-butler-archive) — Unofficial DSH plugin: archive, browse, restore and delete idle sessions from the sidebar — zero dependencies.
 - [big-head-pigeon/dsh-session-menu](https://github.com/big-head-pigeon/dsh-session-menu) — Session context menu for the DSH sidebar: mark unread, copy session info, reveal in Finder or open with an IDE, and delete sessions permanently — plus status dots and hover-card details.
 - [fpm0312/dsh-auto-compact](https://github.com/fpm0312/dsh-auto-compact) — DeepSeek Harness plugin: automatically compacts session history when context use passes 45% and the session has been silent for three minutes.
+- [weibaohui/dsh-favorites](https://github.com/weibaohui/dsh-favorites) — Session favorites: bookmark any conversation into a browser-style favorites panel — one-click star from session rows, folders for organization, notes, custom display names, resume session, fork into a new session, basic session stats, plus a fork-relationship graph showing how conversations derive from one another.
 
 ## Cost & Usage Tracking
 

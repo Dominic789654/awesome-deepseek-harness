@@ -2442,6 +2442,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [kira905/dsh-butler-archive](https://github.com/kira905/dsh-butler-archive) —— 非官方 DSH 插件：把闲置会话归档、浏览、恢复、删除，零依赖。
 - [big-head-pigeon/dsh-session-menu](https://github.com/big-head-pigeon/dsh-session-menu) —— DSH 侧边栏会话右键菜单：标为未读、复制会话信息、在 Finder 中显示或用 IDE 打开、永久删除会话，另有状态圆点与悬浮卡详情。
 - [fpm0312/dsh-auto-compact](https://github.com/fpm0312/dsh-auto-compact) —— DeepSeek Harness 插件：上下文占用超过 45% 且静默 3 分钟后，自动压缩会话历史。
+- [weibaohui/dsh-favorites](https://github.com/weibaohui/dsh-favorites) —— 会话收藏夹：把任意会话收藏进浏览器收藏夹式的管理面板——左侧会话行一键收藏/星标，主面板支持文件夹分门别类、备注、自定义显示名、一键继续会话、Fork 新会话、会话基本统计，外加一张清晰展示会话派生关系的 fork 关系图。
 
 ## 成本与用量统计
 
