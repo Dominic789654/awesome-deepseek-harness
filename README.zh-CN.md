@@ -92,6 +92,8 @@ dsh plugin --profile web add "github:owner/repo#main"
 
 _由 DeepSeek Harness 团队负责人 **崔添翼（[@tianyi](https://x.com/tianyi)）** 在其 X 的 **【DSH 社区插件推荐】** 系列中亲自推荐。最新在前，每条附原始推荐链接，与 [README.md](./README.md) 保持同步。_
 
+- [oh-my-dsh/dsh-plugin-upgrade-skill](https://github.com/oh-my-dsh/dsh-plugin-upgrade-skill) —— 帮 DSH 插件作者升级插件的 skill 集合：195 张按版本排列的升级说明卡（覆盖 0.1.0-rc.8 → 0.2.0-rc.1）+ 11 个 skill，分别负责查破坏性变更、改插件代码、测试、发布和整批巡检，让 Claude Code / Codex / Gemini 把老插件安全迁到新版本，并配 63 题公开 benchmark 验收。  `⭐287` · 官方推荐 2026-10-05 · [原推](https://x.com/tianyi/status/2107030904233460208)
+
 ### 🔍 插件导航站（官方推荐 · 第三期 · 2026-09-28）
 
 - [dshfind](https://dshfind.com/) · [hikariming/dshfind](https://github.com/hikariming/dshfind) —— 学习站 + 插件市场二合一：从入门到 Cordis 论文的系统课程，按 GitHub `dsh-plugin` topic 自动聚合的插件市场，S/A/B/C 评分 + 开发指南 + 作者项目榜。  `⭐280`
