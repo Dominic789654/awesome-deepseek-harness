@@ -7033,6 +7033,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 把 DSH 变成 2005 年门户网站：恶搞广告、假游戏和弹窗。
 - [Su-1003/dsh-notify-sound](https://github.com/Su-1003/dsh-notify-sound) — DeepSeek Harness 提示音 + 弹窗提醒插件。
 - [WH-kt/dsh-codexstyle-slide](https://github.com/WH-kt/dsh-codexstyle-slide) — DSH composer 上的发光推理强度滑杆。
+- [jjoni12/dsh-locale-ko](https://github.com/jjoni12/dsh-locale-ko) —— 韩语界面语言包，通过官方语言包 API 在 设置 → 通用 → 语言 中添加韩语（한국어）。
 
 ## Skill
 

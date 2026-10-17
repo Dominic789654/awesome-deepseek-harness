@@ -7033,6 +7033,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — Turns DSH into a 2005 portal site: parody ads, fake games and popups for the DSH Web UI.
 - [Su-1003/dsh-notify-sound](https://github.com/Su-1003/dsh-notify-sound) — Notification sound plus popup reminder plugin for DeepSeek Harness.
 - [WH-kt/dsh-codexstyle-slide](https://github.com/WH-kt/dsh-codexstyle-slide) — Glowing reasoning-effort slider for the DeepSeek Harness composer.
+- [jjoni12/dsh-locale-ko](https://github.com/jjoni12/dsh-locale-ko) — Korean UI language pack that adds 한국어 to Settings → General → Language through the official language-pack API.
 
 ## Skills
 
