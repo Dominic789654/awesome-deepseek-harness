@@ -1754,6 +1754,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [zhengqiuyang/dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) — Deterministic write gate for DeepSeek Harness: scope policy plus a residue scan at the moment of the write - the CI gate moved into the session.
 - [zhengqiuyang/dsh-prompt-drift](https://github.com/zhengqiuyang/dsh-prompt-drift) — System-prompt surface drift gate for DeepSeek Harness: sections contributed by any plugin are hashed and baselined, so silent rewrites fail loud.
 - [zhengqiuyang/dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) — Deterministic prompt-injection interception for DeepSeek Harness: scans what the agent reads before it enters model context, and quarantines credential files on path alone.
+- [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) — Pre-execution guard that blocks destructive Git and filesystem commands and access to secrets such as SSH keys and .env files before a tool call runs.
 
 ## Session & Memory Management
 

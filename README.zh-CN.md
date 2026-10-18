@@ -1761,6 +1761,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [zhengqiuyang/dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) — DeepSeek Harness 的确定性写入闸门：写入瞬间执行范围策略与残留扫描——把 CI 闸门搬进会话。
 - [zhengqiuyang/dsh-prompt-drift](https://github.com/zhengqiuyang/dsh-prompt-drift) — DeepSeek Harness 的系统提示词面漂移闸门：任何插件贡献的段落都做哈希基线，静默改写会显式失败。
 - [zhengqiuyang/dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) — DeepSeek Harness 的确定性提示词注入拦截：agent 读取的内容进入模型上下文前先扫描，凭据文件仅凭路径即隔离。
+- [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) —— 执行前守卫，在工具调用运行前拦截破坏性 Git 与文件系统命令，以及对 SSH 密钥、.env 等机密文件的访问。
 
 ## 会话与记忆管理
 
