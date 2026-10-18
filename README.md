@@ -3290,6 +3290,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 
 - [zhikai0915-netizen/hotspot](https://github.com/zhikai0915-netizen/hotspot) — DSH GitHub hot-list plugin: rank small tools such as model plugins, skills and MCP servers by day/week/month, with configurable list types.
 - [7gzgn/dsh-slipway](https://github.com/7gzgn/dsh-slipway) — Ship a local DSH plugin project to GitHub and the plugin market in one call: preflight, per-file upload with byte verification, the market registry PR, then pull every published file back and compare bytes.
+- [imtokenxinluo/dsh-tip-jar](https://github.com/imtokenxinluo/dsh-tip-jar) — Contributor tip jar for DSH plugin authors: one `sponsors.json` declares USDC on Polygon, fiat links, scan-to-pay QR codes, subscriptions and advertiser slots, rendered as a sponsor-center panel plus an embeddable support bar. P2P only: the plugin never touches funds and needs no account.
 
 ## Visualization
 

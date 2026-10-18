@@ -3307,6 +3307,7 @@ _插件市场、安装管理器、索引与生态工具。_
 
 - [zhikai0915-netizen/hotspot](https://github.com/zhikai0915-netizen/hotspot) — DSH GitHub 热榜插件：按日/周/月给模型插件、Skill、MCP 服务等小工具排名，榜单类型可自定义。
 - [7gzgn/dsh-slipway](https://github.com/7gzgn/dsh-slipway) — 一次调用把本地 DSH 插件工程发到 GitHub 和市场：预检、逐文件上传并核对字节、开市场登记 PR，最后把线上文件逐个拉回比对字节。
+- [imtokenxinluo/dsh-tip-jar](https://github.com/imtokenxinluo/dsh-tip-jar) —— DSH 插件作者的打赏罐：一份 sponsors.json 声明 Polygon USDC、法币链接、收款码、订阅与赞助位，渲染为赞助中心面板与可嵌入的支持条；纯 P2P，插件不接触资金、不需要账号。
 
 ## 可视化
 
