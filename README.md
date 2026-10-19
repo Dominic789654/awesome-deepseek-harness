@@ -1454,6 +1454,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [Phoeky/dsh-sensenova-pool](https://github.com/Phoeky/dsh-sensenova-pool) — SenseNova (商汤日日新) multi-key pool for DeepSeek Harness: add your keys and the plugin rotates to the next one when a request hits HTTP 429.
 - [BillYuan01/qwenpaw-dsh](https://github.com/BillYuan01/qwenpaw-dsh) — DSH as a first-class agent backend for QwenPaw over standard ACP v1, plus a DSH-side bridge plugin (streaming, approvals, skills and MCP projection).
 - [Lawrence7y/dsh-harness-pilot](https://github.com/Lawrence7y/dsh-harness-pilot) — Connects other agent harnesses (opencode, Antigravity, Claude, Codex, ZCode, MiMo, Cursor, Qoder and more) to DSH: dispatch them as DSH subagents with a chosen model, and inspect configured harnesses in Settings.
+- [JeffTsuiCUG/dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) — Connect a locally installed and signed-in MiniMax Code desktop app (CN build) to DSH as a model provider: Anthropic Messages compatible, live model catalog, and a credit balance with expiry details in the composer and the plugin page. Unofficial plugin on MiniMax's undocumented interfaces; reads only the local sign-in, for study and research only.
 
 ## Security & Permissions
 
