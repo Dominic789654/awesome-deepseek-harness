@@ -2507,6 +2507,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [KikaiLastest/dsh-memory-core](https://github.com/KikaiLastest/dsh-memory-core) —— DSH 本地记忆插件：BM25-lite 历史召回 + 记忆使用协议 + 结构化固化 + 情感状态，全部落本地 Markdown/JSONL，无数据库、无云端。
 - [Zok66/dsh-facts](https://github.com/Zok66/dsh-facts) —— DSH 时间感知记忆：用 SQLite 存带时间戳的事实，set 自动失效旧值，按时间过滤查询，注册为工具供 agent 主动读写，并把当前有效事实注入未来会话上下文。
 - [Zok66/dsh-recall](https://github.com/Zok66/dsh-recall) —— DSH 撤回插件：只撤最后一条用户消息，对话与工作区文件一起回退。
+- [lo2589/knowledge_database](https://github.com/lo2589/knowledge_database) —— 在对话里点一句就成为右栏知识树里的一张卡；Ctrl 拖框把多句合成一张卡，每张卡都能跳回原句，整棵树可导出 Markdown、Mermaid、JSON、PDF。需先按仓库说明跑 `setup.sh`（Python 3.11 + FastNode）。
 
 ## 成本与用量统计
 
@@ -5028,6 +5029,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [JOJO-Adam/dsh-release](https://github.com/JOJO-Adam/dsh-release) —— DSH 插件一键发布流水线：检查、升版本、测试、推送、发布、核验、安装。
 - [neutron42-jp/dsh-btw-live](https://github.com/neutron42-jp/dsh-btw-live) —— DeepSeek Harness 的 `/btw`：就当前 live 会话（含正在跑的一轮）插问一个旁支问题，回答不进入对话历史（MIT）。
 - [zhangyuzhangyu233/dsh-windows-notification](https://github.com/zhangyuzhangyu233/dsh-windows-notification) —— DSH 原生 Windows toast 通知：智能回合摘要、可直接操作的审批与 agent 提问选项，使用桌面应用身份；零依赖纯本机，可在通知里直接审批/回答。
+- [lo2589/deepseek-harness-media](https://github.com/lo2589/deepseek-harness-media) —— DSH 网页版输入框旁的一排按钮：不改 YAML 切换模型提供方（GLM、MiniMax、OpenAI、Claude、本地 Ollama），截图，上传图片/SVG/文本文件，把图片交给视觉模型读，另有会话媒体面板和历史搜索。
 
 ## 编排器与聚合器
 

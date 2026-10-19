@@ -2501,6 +2501,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [KikaiLastest/dsh-memory-core](https://github.com/KikaiLastest/dsh-memory-core) — Local memory plugin for DSH: BM25-lite history recall, a memory-usage protocol, structured consolidation and affect state — all stored in local Markdown/JSONL, no database and no cloud.
 - [Zok66/dsh-facts](https://github.com/Zok66/dsh-facts) — Time-aware memory for DSH: timestamped facts in SQLite, `set` auto-invalidates old values, time-filtered queries, registered as tools for the agent, and current valid facts injected into future session context.
 - [Zok66/dsh-recall](https://github.com/Zok66/dsh-recall) — DSH recall plugin: retract only the last user message, rolling back both the conversation and workspace files.
+- [lo2589/knowledge_database](https://github.com/lo2589/knowledge_database) — Click a sentence in a chat to make it a card in a knowledge-tree sidebar tab; Ctrl-drag merges several sentences into one card, every card links back to its source sentence, and the tree exports to Markdown, Mermaid, JSON, or PDF. Needs the repo's Python 3.11 + FastNode setup (`setup.sh`).
 
 ## Cost & Usage Tracking
 
@@ -5017,6 +5018,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [JOJO-Adam/dsh-release](https://github.com/JOJO-Adam/dsh-release) — One-command release pipeline for DSH plugins: check, bump, test, push, publish, verify and install.
 - [neutron42-jp/dsh-btw-live](https://github.com/neutron42-jp/dsh-btw-live) — DeepSeek Harness `/btw`: ask a side question about the live session, including the running turn; the answer stays out of the conversation history (MIT).
 - [zhangyuzhangyu233/dsh-windows-notification](https://github.com/zhangyuzhangyu233/dsh-windows-notification) — Native Windows toast notifications for DSH: smart turn summaries, actionable approvals and agent-question options under the desktop app identity — zero-dependency and fully local; approve or answer straight from the toast.
+- [lo2589/deepseek-harness-media](https://github.com/lo2589/deepseek-harness-media) — Composer-bar buttons for DSH Web: switch model providers (GLM, MiniMax, OpenAI, Claude, local Ollama) without editing YAML, take screenshots, upload images/SVG/text files, send images to a vision model, plus a session media panel and history search.
 
 ## Orchestrators & Aggregators
 
