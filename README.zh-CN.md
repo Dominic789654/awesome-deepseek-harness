@@ -4403,6 +4403,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [SMPcosy/dsh-plugin-member-manager](https://github.com/SMPcosy/dsh-plugin-member-manager) — DSH 团队成员管理插件：两级「组 → 成员」组织架构、中文显示名与别名、职务与职责、技能标签、离职/恢复、按成员覆盖模型；提供 host 工具与 Web 管理面板，自带 overlay 注册表，不改动不可变的 DSH 核心。MIT 许可。
 - [pumbleblock/dsh-subagent-model-router](https://github.com/pumbleblock/dsh-subagent-model-router) — 可指定模型的子代理，并按任务设置推理强度（DSH 0.2.x）；CypherNaught-0x/DSH-Subagent-Model-Router 的维护续作。
 - [121212165/dsh-plugin-subagent-roster](https://github.com/121212165/dsh-plugin-subagent-roster) —— DeepSeek Harness 的受限子代理名册：一个角色一个工具，各自绑定子系统提示词、能力白名单与模型档位；按工具形态区分批量工作与团队协作。
+- [semantic-craft/dsh-grokbot-dispatch](https://github.com/semantic-craft/dsh-grokbot-dispatch) —— DSH Grok Bot 派发插件（公开版本；部署配置不在此仓库）。
+- [slimeball2026/DSH-Coach-mode](https://github.com/slimeball2026/DSH-Coach-mode) —— 反向智能体式教练模式：把角色反过来，逼着你自己动手把事情做完。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4949,6 +4951,13 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [drscrewdriver/dsh-paste-dock](https://github.com/drscrewdriver/dsh-paste-dock) —— DSH 的大段文本粘贴处理：大段粘贴自动存为 `pastes/*.txt`，在输入框上方以 dock 卡片管理，草稿里只留最小徽标（auto-paste 与 paste-to-path 的整合）。
 - [SOH4C4759/dsh-math-copy](https://github.com/SOH4C4759/dsh-math-copy) —— 把 DSH 回答里的数学公式复制成可在 Obsidian / LaTeX 中重新渲染的 TeX：悬停公式即可复制，选中含公式的文本时还原源码。
 - [Xiaodaidai-521/dsh-plugin-github](https://github.com/Xiaodaidai-521/dsh-plugin-github) —— DSH 的 GitHub 集成：用 GitHub 登录、像逛 github.com 一样浏览仓库，并让 Agent 操作分支、PR、Issue、Actions 与文件提交。
+- [1273984347/dsh-github-gate](https://github.com/1273984347/dsh-github-gate) —— 带审批门的 GitHub 工具：9 个 `github_*` 类型化工具（58 个动作），所有写操作都要求 `confirm:true` 并经过人工审批接缝；带摘要校验的自更新与设置页，零运行时依赖。
+- [Demerier/dsh-image-forge](https://github.com/Demerier/dsh-image-forge) —— Qwen-Image 出图与参考图编辑，自带受管本地运行时，不装 ComfyUI 也能跑；也支持 ComfyUI 与官方 API。
+- [explorrrr/dsh-ollama-web](https://github.com/explorrrr/dsh-ollama-web) —— 面向 DSH 的 Ollama Cloud 联网搜索 provider，带 Web UI 设置卡片。
+- [Paprikas/dsh-openrouter-voice](https://github.com/Paprikas/dsh-openrouter-voice) —— 经 OpenRouter 的自包含语音输入，外观与内置输入框麦克风完全一致：从 OpenRouter 实时模型目录选用转写模型，说完可插入文本或直接「转写并发送」。
+- [Pazburg/dsh-agent-browser](https://github.com/Pazburg/dsh-agent-browser) —— DSH 桌面端的受控浏览器面板：Agent 可读取 / 填写 / 截图，点击动作必须显式指定，不处理任何凭据。
+- [pei-lin-001/dsh-ollama-cloud](https://github.com/pei-lin-001/dsh-ollama-cloud) —— DeepSeek Harness 的 Ollama Cloud 接入：一个 API key、自动拉取模型目录、真实思考等级、托管联网工具，以及 5 小时 / 7 天配额与 token 用量界面。
+- [TYEclipse/dsh-biorxiv](https://github.com/TYEclipse/dsh-biorxiv) —— 面向 DSH 的 bioRxiv 预印本检索、版本 / 状态与导出工具，零运行时依赖。
 
 ## 编排器与聚合器
 
@@ -7126,6 +7135,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [LeeRolling/dsh-boot-suite](https://github.com/LeeRolling/dsh-boot-suite) —— 开机动画 + 聊天壁纸一个插件搞定：六幕冷启动动画（真声台词、可交互）+ 开场视频 / 底图 / 大字横幅；Windows 下双击 `安装.cmd` 安装，出问题双击 `卸载.cmd`。
 - [tkhs101/dsh-official-cleanup](https://github.com/tkhs101/dsh-official-cleanup) —— DSH Web UI 清理插件：去掉完全不用的官方 API 功能，让界面更清爽。
 - [TonyKingWJX/dsh-thinking-bar](https://github.com/TonyKingWJX/dsh-thinking-bar) —— 纯 UI 插件：给 DSH 输入框右下角的「模型 · 思考等级」选择器换外观——六种滑杆皮肤与六套档位配色，推理等级始终来自系统模型目录。
+- [7gzgn/dsh-restart-dock](https://github.com/7gzgn/dsh-restart-dock) —— DSH Web UI 的一键重启 / 重载停靠栏。
+- [csuwzw/dsh-restart](https://github.com/csuwzw/dsh-restart) —— 一键重启 DeepSeek Harness：标题栏按钮，两次点击完成重启，让新装的插件立即生效。
+- [Jensen-Yao/dsh-plus-plus](https://github.com/Jensen-Yao/dsh-plus-plus) —— dsh++：DeepSeek Harness 桌面控制台——一键启停 dsh web，手机同屏实时会话，Tailscale / 域名 / 存储位置一站式管理（dsh-plugin）。
+- [liyansong0015/dsh-sao-link-start](https://github.com/liyansong0015/dsh-sao-link-start) —— 全屏 SAO 风格启动动画：光束、转盘、语言与角色可调，另有可选性能模式，让覆盖层不进入布局管线。
+- [sun17352668482-lgtm/dsh-dafeiyu-web](https://github.com/sun17352668482-lgtm/dsh-dafeiyu-web) —— 大肥鱼桌宠 Web 复刻版：基于上游素材一比一还原，含 Token 余额与用量面板。
 
 ## Skill
 
@@ -7547,6 +7561,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Linus-Shyu/papercraft](https://github.com/Linus-Shyu/papercraft) — 以证据为准的论文写作与评审技能：调研、可行性、实验、写作、审计、评审、接收，带 fail-closed 闸门与引用核验；可在 DSH、Claude Code、Cursor、Codex 中使用。
 - [booondenz/dsh-thesis](https://github.com/booondenz/dsh-thesis) — 毕业论文全流程 DSH 插件。
 - [satan9394/personal-dev-workflow](https://github.com/satan9394/personal-dev-workflow) —— 精简双语（中/英）个人开发工作流 skill：一个总控 + 隔离 worker + 文件式记忆 + 验证闭环，六步任务卡循环。安装：`npx skills add satan9394/dsh-personal-dev-workflow`。
+- [nasvip/msf-skill](https://github.com/nasvip/msf-skill) —— 面向外部 AI Agent 的 MSF（MosDNS + Mihomo）运维技能包：健康检查、四类日志定位、fake-IP / TProxy / nftables 诊断、配置体检与主路由接入核查；遵循 Agent Skills 开放标准（非官方）。
 
 ## 资源
 

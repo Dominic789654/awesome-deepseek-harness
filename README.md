@@ -4390,6 +4390,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [SMPcosy/dsh-plugin-member-manager](https://github.com/SMPcosy/dsh-plugin-member-manager) — Team member management for DSH: two-level group to member org structure, Chinese display names and aliases, job titles and duties, skill tagging, retire/restore and per-member model overrides; host tools plus a Web management panel, with its own overlay registry so the immutable core is never touched. MIT licensed.
 - [pumbleblock/dsh-subagent-model-router](https://github.com/pumbleblock/dsh-subagent-model-router) — Model-selectable subagents with per-task reasoning effort for DeepSeek Harness (DSH) 0.2.x, maintained continuation of CypherNaught-0x/DSH-Subagent-Model-Router.
 - [121212165/dsh-plugin-subagent-roster](https://github.com/121212165/dsh-plugin-subagent-roster) — Constrained subagent roster for DeepSeek Harness: one tool per role, each pinning a child system prompt, a capability allow-list and a model tier; bulk work vs team work by tool shape.
+- [semantic-craft/dsh-grokbot-dispatch](https://github.com/semantic-craft/dsh-grokbot-dispatch) — DSH Grok Bot dispatch plugin (public build; the deploy config stays private).
+- [slimeball2026/DSH-Coach-mode](https://github.com/slimeball2026/DSH-Coach-mode) — Reverse-agentic coach mode: the agent turns the tables and forces YOU to do the work.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4939,6 +4941,13 @@ _Plugins that give the agent tools for external services (container registries, 
 - [drscrewdriver/dsh-paste-dock](https://github.com/drscrewdriver/dsh-paste-dock) — Long-text paste handling for DSH: large pastes are stored as `pastes/*.txt` and managed as dock cards above the composer, leaving only a minimal badge in the draft (auto-paste × paste-to-path combined).
 - [SOH4C4759/dsh-math-copy](https://github.com/SOH4C4759/dsh-math-copy) — Copies math formulas from DSH answers as TeX that re-renders in Obsidian / LaTeX: hover a formula to copy it, or select text containing formulas to restore the source.
 - [Xiaodaidai-521/dsh-plugin-github](https://github.com/Xiaodaidai-521/dsh-plugin-github) — GitHub integration for DSH: sign in with GitHub, browse repositories like github.com, and drive branches, pull requests, issues, actions and file commits from the agent.
+- [1273984347/dsh-github-gate](https://github.com/1273984347/dsh-github-gate) — Guarded GitHub tools: 9 typed `github_*` tools (58 actions) where every state-changing action needs `confirm:true` plus a human approval seam, with digest-verified self-update and a settings page; zero runtime dependencies.
+- [Demerier/dsh-image-forge](https://github.com/Demerier/dsh-image-forge) — Qwen-Image generation and reference-image editing with a bundled managed local runtime — no ComfyUI needed; also supports ComfyUI and the official API.
+- [explorrrr/dsh-ollama-web](https://github.com/explorrrr/dsh-ollama-web) — Ollama Cloud web-search provider for DSH with a Web UI settings card.
+- [Paprikas/dsh-openrouter-voice](https://github.com/Paprikas/dsh-openrouter-voice) — Self-contained voice input via OpenRouter, visually identical to the built-in composer microphone: record, transcribe with a model from the live OpenRouter catalog, then insert or transcribe-and-send.
+- [Pazburg/dsh-agent-browser](https://github.com/Pazburg/dsh-agent-browser) — Controlled browser panel for the DSH desktop app: agent read / fill / screenshot with explicit click-only actions, no credential handling.
+- [pei-lin-001/dsh-ollama-cloud](https://github.com/pei-lin-001/dsh-ollama-cloud) — Ollama Cloud for DeepSeek Harness: one API key, auto-pulled model catalog, real thinking levels, hosted web tools, and 5h/7d quota plus token-usage UI.
+- [TYEclipse/dsh-biorxiv](https://github.com/TYEclipse/dsh-biorxiv) — bioRxiv preprint search, version/status and export tools for DeepSeek Harness; zero runtime dependencies.
 
 ## Orchestrators & Aggregators
 
@@ -7126,6 +7135,11 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [LeeRolling/dsh-boot-suite](https://github.com/LeeRolling/dsh-boot-suite) — Boot animation and chat wallpaper in one DSH plugin: a six-scene cold-start animation (voice lines, interactive) plus opening video / background image / large banner; double-click the `.cmd` files to install or uninstall on Windows.
 - [tkhs101/dsh-official-cleanup](https://github.com/tkhs101/dsh-official-cleanup) — DSH Web UI cleanup: removes official API features you never use for a cleaner interface.
 - [TonyKingWJX/dsh-thinking-bar](https://github.com/TonyKingWJX/dsh-thinking-bar) — Pure-UI appearance switcher for the DSH model / reasoning-level picker at the composer's bottom-right: six slider skins and six color sets, while reasoning levels still come from the system model catalog.
+- [7gzgn/dsh-restart-dock](https://github.com/7gzgn/dsh-restart-dock) — One-click restart / reload dock for the DSH Web UI.
+- [csuwzw/dsh-restart](https://github.com/csuwzw/dsh-restart) — One-click restart for DeepSeek Harness: a title-bar button, two clicks to restart, so newly installed plugins take effect immediately.
+- [Jensen-Yao/dsh-plus-plus](https://github.com/Jensen-Yao/dsh-plus-plus) — dsh++ desktop console for DeepSeek Harness: start/stop dsh web, mirror the live session on your phone, and manage Tailscale / domain / storage locations in one place (dsh-plugin).
+- [liyansong0015/dsh-sao-link-start](https://github.com/liyansong0015/dsh-sao-link-start) — Full-screen SAO-inspired startup animation with adjustable beam, dial, language and character settings, plus an opt-in performance mode that keeps the overlay off the layout pipeline.
+- [sun17352668482-lgtm/dsh-dafeiyu-web](https://github.com/sun17352668482-lgtm/dsh-dafeiyu-web) — 大肥鱼 desktop-pet web replica: a 1:1 rebuild from the upstream assets, with a token balance and usage panel.
 
 ## Skills
 
@@ -7545,6 +7559,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Linus-Shyu/papercraft](https://github.com/Linus-Shyu/papercraft) — Evidence-first paper writing and review for AI agents: survey, feasibility, experiments, writing, audit, review, acceptance, with fail-closed gates and verified citations; works inside DSH, Claude Code, Cursor and Codex.
 - [booondenz/dsh-thesis](https://github.com/booondenz/dsh-thesis) — End-to-end thesis workflow plugin for DeepSeek Harness.
 - [satan9394/personal-dev-workflow](https://github.com/satan9394/personal-dev-workflow) — Lean bilingual (EN/CN) personal development workflow skill for coding agents: one conductor plus isolated workers, file-based memory and a verification loop, over a six-step task-card cycle. Install: `npx skills add satan9394/dsh-personal-dev-workflow`.
+- [nasvip/msf-skill](https://github.com/nasvip/msf-skill) — MSF (MosDNS + Mihomo) operations skill pack for external AI agents: health checks, four log-triage lanes, fake-IP / TProxy / nftables diagnostics, config review and main-router admission checks; follows the Agent Skills open standard (unofficial).
 
 ## Resources
 
