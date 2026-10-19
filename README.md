@@ -2908,7 +2908,6 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [hugoyee75-cmyk/dsh-token-usage-stats](https://github.com/hugoyee75-cmyk/dsh-token-usage-stats) — Records every model call that passes through DSH and adds a sidebar token-usage page: split by model / provider / project / source / account / date, with cache-hit rate, trend charts and self-update.
 - [nanvon/cc-bar](https://github.com/nanvon/cc-bar) — Native macOS menu-bar app for AI quota monitoring and usage analysis: remaining quota and reset countdowns for Codex, Claude Code, Cursor and Antigravity, plus offline token/cost tracking that also reads DSH session logs.
 - [HerTa-st/dsh-balance-card](https://github.com/HerTa-st/dsh-balance-card) — DSH balance and usage overlay card: click the image to slide it out from the left, click again to retract, with a bounce animation; official balance plus a three-tier local token cost estimate.
-- [hugoyee75-cmyk/dsh-token-metrics](https://github.com/hugoyee75-cmyk/dsh-token-metrics) — Records every model call that passes through DeepSeek Harness and adds a sidebar token-usage page: split by model / provider / project / source / account / date, with cache-hit rate, trend charts and self-update.
 
 ## Channel / IM Bridges
 
@@ -4087,7 +4086,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [lkdx0220/dsh-ai-code-quality](https://github.com/lkdx0220/dsh-ai-code-quality) — AI code-quality plugin for DeepSeek Harness (Python).
 - [STARDUSTLC666/dsh-review](https://github.com/STARDUSTLC666/dsh-review) — Evidence-first code review plugin: review the diff, verify the findings, log the noise — the agent reads first, you read only the conclusions.
 - [ferrisching/dsh-editor-link](https://github.com/ferrisching/dsh-editor-link) — The link between DeepSeek Harness and VS Code: approvals, questions and editor context inside your editor, over one authenticated loopback bridge.
-- [AmrMohamad/dsh-codex](https://github.com/AmrMohamad/dsh-codex) — OpenAI Codex, natively inside DeepSeek Harness — reviews, adversarial design reviews, delegated tasks, background jobs. 67 tests, approval-gated writes.
+- [AmrMohamad/dsh-codex](https://github.com/AmrMohamad/dsh-codex) — OpenAI Codex, natively inside DeepSeek Harness — reviews, adversarial design reviews, delegated tasks, background jobs; approval-gated writes.
 
 ## Agents
 
@@ -5002,7 +5001,6 @@ _Plugins that give the agent tools for external services (container registries, 
 - [vlln/dsh-disk-canvas](https://github.com/vlln/dsh-disk-canvas) — Scans a disk into an annotatable proposal: the agent marks candidates, you decide, and preview before deletion.
 - [YHzed/dsh-zotero-flow](https://github.com/YHzed/dsh-zotero-flow) — DSH Desktop plugin: fetch full-text papers under an institutional login session and archive them, with metadata, into Zotero collections.
 - [yanyu03/DSHA-SharBoy](https://github.com/yanyu03/DSHA-SharBoy) — Systems-engineering and governance suite that brings DSH permission tiers, engineering quality locks, a quota radar and a structured programming mindset to Antigravity and ChatGPT.
-- [donoteatme/dsh-local-link](https://github.com/donoteatme/dsh-local-link) — Lightweight DeepSeek Harness plugin for paired LAN access: scan a QR code and continue the current DSH Web session from any phone, tablet, or computer.
 - [ksoulness/dsh-workbuddy-kit](https://github.com/ksoulness/dsh-workbuddy-kit) — Lets the local DeepSeek Harness drive Tencent WorkBuddy: dispatch once, wait for a terminal state, verify the evidence, have the session appear in the same desktop-app workspace and archive by full sessionId (native DSH plugin plus an MCP stdio front door).
 - [Nekomeow114/dsh-tieba-scroll](https://github.com/Nekomeow114/dsh-tieba-scroll) — DSH plugin that reads Baidu Tieba for you every day: picks the posts worth reading and writes a digest, with optional check-in (auto-follow) and replies (intent classification plus a customer-service-tone gate). Supports personas and public/private diaries.
 - [ShanJun-pro-max/dsh-novel-studio](https://github.com/ShanJun-pro-max/dsh-novel-studio) — One-page novel-writing workbench for DeepSeek Harness: steer a new chapter, draw candidate drafts, indexed plot summaries, alias detection, plot health checks and preference profiles inherited across books by genre.

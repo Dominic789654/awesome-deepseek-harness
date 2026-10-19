@@ -2914,8 +2914,7 @@ _token 用量、成本看板与预算告警插件。_
 - [lhylhy2024/dsh-simple-cost](https://github.com/lhylhy2024/dsh-simple-cost) —— 侧边栏小组件：显示 DeepSeek 账户余额、当前会话花费与每轮花费，长轮次可按需让 AI 拆解费用；计费区分峰谷价并识别节假日。
 - [hugoyee75-cmyk/dsh-token-usage-stats](https://github.com/hugoyee75-cmyk/dsh-token-usage-stats) —— 记录经过 DSH 的每一次模型调用，在侧边栏提供 Token 用量统计页：按模型/供应商/项目/来源/账号/日期拆分，带缓存命中率、趋势图表与自更新。
 - [nanvon/cc-bar](https://github.com/nanvon/cc-bar) —— macOS 原生菜单栏 AI 额度监控与用量分析工具：查看 Codex、Claude Code、Cursor、Antigravity 剩余额度与重置倒计时，离线统计 Token 与费用，并可读取 DSH 会话日志。
-- [HerTa-st/dsh-balance-card](https://github.com/HerTa-st/dsh-balance-card) —— DSH 余额与用量浮层卡片：点图片从左侧滑出 / 再点缩回 + 点击回弹动画 · 官方余额 + 本地会话 token 三段计价估算
-- [hugoyee75-cmyk/dsh-token-metrics](https://github.com/hugoyee75-cmyk/dsh-token-metrics) —— 把经过 DeepSeek Harness 的每一次模型调用记下来，在侧边栏给你一个 Token 用量统计页。按模型/供应商/项目/来源/账号/日期拆分，带缓存命中率、趋势图表与自更新。
+- [HerTa-st/dsh-balance-card](https://github.com/HerTa-st/dsh-balance-card) —— DSH 余额与用量浮层卡片：点图片从左侧滑出 / 再点缩回 + 点击回弹动画 · 官方余额 + 本地会话 token 三段计价估算。
 
 ## Channel / IM 桥接
 
@@ -4099,7 +4098,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [lkdx0220/dsh-ai-code-quality](https://github.com/lkdx0220/dsh-ai-code-quality) —— 面向 DeepSeek Harness 的 AI 代码质量插件（Python）。
 - [STARDUSTLC666/dsh-review](https://github.com/STARDUSTLC666/dsh-review) — 以证据为准的代码审阅插件：审 diff、验证结论、记录噪音，让 agent 先读、人只读结论。
 - [ferrisching/dsh-editor-link](https://github.com/ferrisching/dsh-editor-link) — DeepSeek Harness 与 VS Code 之间的连接层：通过一条认证的本地回环桥，把审批、提问和编辑器上下文带进你的编辑器。
-- [AmrMohamad/dsh-codex](https://github.com/AmrMohamad/dsh-codex) —— 把 OpenAI Codex 原生接进 DeepSeek Harness：代码评审、对抗式设计评审、委派任务与后台作业；67 个测试，写入需审批。
+- [AmrMohamad/dsh-codex](https://github.com/AmrMohamad/dsh-codex) —— 把 OpenAI Codex 原生接进 DeepSeek Harness：代码评审、对抗式设计评审、委派任务与后台作业；写入需审批。
 
 ## Agent
 
@@ -5013,7 +5012,6 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [vlln/dsh-disk-canvas](https://github.com/vlln/dsh-disk-canvas) —— 把磁盘扫描成一张可批注的提案：Agent 标注候选、你来决定、删除前可预览。
 - [YHzed/dsh-zotero-flow](https://github.com/YHzed/dsh-zotero-flow) —— DSH Desktop 插件：在机构登录会话下取回文献全文，并连同条目一起归档进 Zotero 分类。
 - [yanyu03/DSHA-SharBoy](https://github.com/yanyu03/DSHA-SharBoy) —— 把 DSH 权限档位、工程质量锁、额度雷达与系统级编程思维融合，面向 Antigravity 与 ChatGPT 的工程治理套件。
-- [donoteatme/dsh-local-link](https://github.com/donoteatme/dsh-local-link) —— 轻量 DSH 插件，提供配对式局域网访问：扫码即可在手机、平板或电脑上继续当前 DSH Web 会话。
 - [ksoulness/dsh-workbuddy-kit](https://github.com/ksoulness/dsh-workbuddy-kit) —— 让本机 DeepSeek Harness 驱动腾讯 WorkBuddy 干活：一次派发、等到终态、自己复核证据、会话自动出现在桌面 App 同一工作区、按完整 sessionId 归档（原生 DSH 插件 + MCP stdio 两个前门）。
 - [Nekomeow114/dsh-tieba-scroll](https://github.com/Nekomeow114/dsh-tieba-scroll) —— DSH 插件 · 刷贴吧：每天替你看几个百度贴吧，读帖挑值得看的、写日报；可选签到（自动关注）与回帖（意图分类 + 客服腔闸门）。支持人设与公开/私人日记。
 - [ShanJun-pro-max/dsh-novel-studio](https://github.com/ShanJun-pro-max/dsh-novel-studio) —— DeepSeek Harness 的一页式小说创作工作台：开新章给方向、候选稿抽卡、剧情总结带索引、别称识别、情节体检、偏好档案按类型跨书继承。
