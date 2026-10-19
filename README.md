@@ -93,6 +93,7 @@ Before installing, confirm the target repo carries the **`#dsh`** GitHub topic s
 _Highlights personally recommended by **Tianyi Cui** ([@tianyi](https://x.com/tianyi)), DeepSeek Harness team lead, in his **【DSH 社区插件推荐】** series on X. Newest first; each entry links the original post. Kept in sync with [README.zh-CN.md](./README.zh-CN.md)._
 
 - [oh-my-dsh/dsh-plugin-upgrade-skill](https://github.com/oh-my-dsh/dsh-plugin-upgrade-skill) — Upgrade skills for DSH plugin authors: 195 versioned upgrade cards (0.1.0-rc.8 → 0.2.0-rc.1) and 11 skills that list breaking changes, patch the plugin, test and publish — so Claude Code / Codex / Gemini can migrate an old plugin to a new DSH release, scored by a 63-task public benchmark.  `⭐287` · Team pick 2026-10-05 · [post](https://x.com/tianyi/status/2107030904233460208)
+- [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — Context insight and management suite: a context dashboard, browser, sidebar and `context` command that show what the model's window is made of — composition vs. window size, per-request history, compression and injection events, per-message token stats, and multi-agent views.  `⭐2304` · Team pick 2026-09-30 · [post](https://x.com/tianyi/status/2105256532657267119)
 
 ### 🔍 Plugin Directories (team pick #3 · 2026-09-28)
 
