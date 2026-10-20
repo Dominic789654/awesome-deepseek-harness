@@ -345,6 +345,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [kol-mm/dsh-config-migrate](https://github.com/kol-mm/dsh-config-migrate) — DeepSeek Harness config migration plugin: one-click export/import of DSH_HOME settings, credentials, profiles and external plugins. Cross-platform (Windows/macOS/Linux).
 - [SuangXX/dsh-zh-cot-fidelity](https://github.com/SuangXX/dsh-zh-cot-fidelity) — Global system-prompt plugin: Chinese chain-of-thought, content fidelity and anti-formulaic writing; rules are editable and take effect immediately.
 - [YOGEMOW/DSH-Cyrene](https://github.com/YOGEMOW/DSH-Cyrene) — Cyrene persona preset for DeepSeek Harness: a chat mode and a work mode (fork of Cyrene-xl/DSH-Cyrene), with a bundled world book, forms of address, three forms and style levels, plus an entry point to Eternal Page Memory.
+- [zoujiapeng/dshpj-installer](https://github.com/zoujiapeng/dshpj-installer) — Give DeepSeek Harness an operator mode: 13 system-prompt and runtime layers applied as a single `--patch` overlay; DSH itself is never modified.
 
 ## Harnesses & Runtimes
 
@@ -2496,6 +2497,10 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [xxiiiixx/dsh-session-trash](https://github.com/xxiiiixx/dsh-session-trash) — Session trash for DeepSeek Harness Desktop: move sessions to a recoverable trash from the sidebar, restore or purge them from a settings page.
 - [YOGEMOW/dsh-cyrene-eternal-page-remembrance](https://github.com/YOGEMOW/dsh-cyrene-eternal-page-remembrance) — Cyrene · An Eternal Page Remembrance, a long-term memory plugin for 昔涟: four-question anchors, day/month/year layers, night dreams, five-domain self-checks, source backup and remaining pages (DSH 0.2.1+, zero dependencies).
 - [zangoose335/dsh-todo-assistant](https://github.com/zangoose335/dsh-todo-assistant) — DSH plugin that records todos in a session and automatically captures the context around each one, so a new session can start the task directly without re-investigating or re-explaining.
+- [HildebrandYu/dsh-session-chains](https://github.com/HildebrandYu/dsh-session-chains) — DSH handoff-chain panel: groups mutually handing-off conversations into one chain (cards / numbering / panel / HUD / threshold reminders / automatic handoff).
+- [KikaiLastest/dsh-memory-core](https://github.com/KikaiLastest/dsh-memory-core) — Local memory plugin for DSH: BM25-lite history recall, a memory-usage protocol, structured consolidation and affect state — all stored in local Markdown/JSONL, no database and no cloud.
+- [Zok66/dsh-facts](https://github.com/Zok66/dsh-facts) — Time-aware memory for DSH: timestamped facts in SQLite, `set` auto-invalidates old values, time-filtered queries, registered as tools for the agent, and current valid facts injected into future session context.
+- [Zok66/dsh-recall](https://github.com/Zok66/dsh-recall) — DSH recall plugin: retract only the last user message, rolling back both the conversation and workspace files.
 
 ## Cost & Usage Tracking
 
@@ -4747,6 +4752,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [controlledentropy/dsh-bridge](https://github.com/controlledentropy/dsh-bridge) — stdio MCP server that exposes DSH's local /api as 9 tools, so coding clients such as Codex and Claude Code can create or take over DSH sessions, dispatch tasks, wait for results and read an auditable task log — no DSH changes needed.
 - [WANGJINSHAN-11/memory_mcp](https://github.com/WANGJINSHAN-11/memory_mcp) — Local-first plain-text long-term memory MCP server (FACT.md / JOURNAL.jsonl / SOUL.md / USER.md); any MCP client — including DSH — can share the same directory.
 - [baitouwuya/dsh-mcp-server](https://github.com/baitouwuya/dsh-mcp-server) — DeepSeek Harness (DSH) plugin that publishes the running Harness as a Model Context Protocol (MCP) server for other agent harnesses.
+- [zhang-guo-wen/dsh-mcp-manager](https://github.com/zhang-guo-wen/dsh-mcp-manager) — MCP server management for DSH: author composition rows, choose when an allowed server loads, and filter which of its tools a session may call.
 
 ## Tools & Integrations
 
@@ -5006,6 +5012,11 @@ _Plugins that give the agent tools for external services (container registries, 
 - [ShanJun-pro-max/dsh-novel-studio](https://github.com/ShanJun-pro-max/dsh-novel-studio) — One-page novel-writing workbench for DeepSeek Harness: steer a new chapter, draw candidate drafts, indexed plot summaries, alias detection, plot health checks and preference profiles inherited across books by genre.
 - [wsk114514/dsh-ark-wiki](https://github.com/wsk114514/dsh-ark-wiki) — Arknights PRTS Wiki lookup tool plugin for DeepSeek Harness.
 - [xingzoudefengye/dsh-web-search-failover](https://github.com/xingzoudefengye/dsh-web-search-failover) — Ordered web-search failover provider for DeepSeek Harness: try backends in priority order, fall back automatically.
+- [adcx222/dsh-enhance-prompt](https://github.com/adcx222/dsh-enhance-prompt) — DSH composer prompt-enhancement plugin: one click on ✨ rewrites your draft into a clearer, more specific instruction.
+- [desanv01/dsh-plugin-log-bridge](https://github.com/desanv01/dsh-plugin-log-bridge) — DSH plugin that records the harness's own runtime warnings and errors to stderr, so a boot that fails after startup can say why.
+- [JOJO-Adam/dsh-release](https://github.com/JOJO-Adam/dsh-release) — One-command release pipeline for DSH plugins: check, bump, test, push, publish, verify and install.
+- [neutron42-jp/dsh-btw-live](https://github.com/neutron42-jp/dsh-btw-live) — DeepSeek Harness `/btw`: ask a side question about the live session, including the running turn; the answer stays out of the conversation history (MIT).
+- [zhangyuzhangyu233/dsh-windows-notification](https://github.com/zhangyuzhangyu233/dsh-windows-notification) — Native Windows toast notifications for DSH: smart turn summaries, actionable approvals and agent-question options under the desktop app identity — zero-dependency and fully local; approve or answer straight from the toast.
 
 ## Orchestrators & Aggregators
 
@@ -7217,6 +7228,13 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Lancang-hzau/dsh-live-terminal](https://github.com/Lancang-hzau/dsh-live-terminal) — Visible terminal panel for DeepSeek Harness: streams agent shell commands into the app live and lets the agent capture the terminal screen as text.
 - [wfz2006/dsh-status-bar](https://github.com/wfz2006/dsh-status-bar) — Puts DSH task progress into a refracting piece of desktop glass: an Electron + React desktop status bar.
 - [yuloop/dsh-web-split](https://github.com/yuloop/dsh-web-split) — Free split screen for DSH Web: draggable panes, each rendering the full conversation of one session.
+- [desanv01/dsh-plugin-desktop-updates](https://github.com/desanv01/dsh-plugin-desktop-updates) — Updates and plugin-management UI for the DSH Windows desktop app: a sidebar entry, a panel and a Settings section, driven by the app's native bridge.
+- [ErSu137/dsh-reply-beautify](https://github.com/ErSu137/dsh-reply-beautify) — Unofficial DSH reply typography, interactive charts/tables and isolated HTML artifacts (Windows 0.2.1-rc.2 preview).
+- [iasiv5/dsh-skins](https://github.com/iasiv5/dsh-skins) — DSH plugin: theme and skin manager for the DeepSeek Harness UI, with several switchable visual styles.
+- [mugi995/DSH-forJP-TUI](https://github.com/mugi995/DSH-forJP-TUI) — Japanese-native TUI for DeepSeek Harness (design phase).
+- [zhang-guo-wen/dsh-ui-beautify](https://github.com/zhang-guo-wen/dsh-ui-beautify) — Page beautification for DSH: ships open-source CJK webfonts and lets the Web GUI pick its body font.
+- [zhang-guo-wen/dsh-web-design](https://github.com/zhang-guo-wen/dsh-web-design) — Web design for DSH: preview and edit HTML elements in the sidebar.
+- [zhangyuzhangyu233/dsh-coderipple](https://github.com/zhangyuzhangyu233/dsh-coderipple) — Seven switchable code-art backgrounds for the DSH Web UI — ambient code field, DeepSeek whale mark, maid portraits, a rotating 3D globe and scrolling continents — plus a standalone WebGL2 live wallpaper.
 
 ## Skills
 
@@ -7638,6 +7656,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [satan9394/personal-dev-workflow](https://github.com/satan9394/personal-dev-workflow) — Lean bilingual (EN/CN) personal development workflow skill for coding agents: one conductor plus isolated workers, file-based memory and a verification loop, over a six-step task-card cycle. Install: `npx skills add satan9394/dsh-personal-dev-workflow`.
 - [nasvip/msf-skill](https://github.com/nasvip/msf-skill) — MSF (MosDNS + Mihomo) operations skill pack for external AI agents: health checks, four log-triage lanes, fake-IP / TProxy / nftables diagnostics, config review and main-router admission checks; follows the Agent Skills open standard (unofficial).
 - [01NGVI-QINGYI/no-ai-style](https://github.com/01NGVI-QINGYI/no-ai-style) — Multilingual prose-editing skill and DSH plugin for academic and professional writing: removes AI-sounding phrasing and rewrites text in a natural voice.
+- [Zok66/dsh-nuwa](https://github.com/Zok66/dsh-nuwa) — DSH plugin packaging the "Nuwa · Skill Creation Art" method: distills any person's way of thinking into a runnable persona skill.
 
 ## Resources
 

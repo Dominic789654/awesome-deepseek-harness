@@ -346,6 +346,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [kol-mm/dsh-config-migrate](https://github.com/kol-mm/dsh-config-migrate) —— DSH 配置迁移插件：一键导出/导入 DSH_HOME 的设置、凭据、profile 与外部插件，跨平台（Windows/macOS/Linux）。
 - [SuangXX/dsh-zh-cot-fidelity](https://github.com/SuangXX/dsh-zh-cot-fidelity) —— 全局系统提示词插件：中文思维链、内容保真、反八股；规则可编辑，改完即生效。
 - [YOGEMOW/DSH-Cyrene](https://github.com/YOGEMOW/DSH-Cyrene) —— DeepSeek Harness 昔涟人格预设：昔涟聊天模式 / 德谬歌工作模式（fork of Cyrene-xl/DSH-Cyrene）；随包世界书、称呼、三形态与风格档位，另附「一页永恒·记忆」入口。
+- [zoujiapeng/dshpj-installer](https://github.com/zoujiapeng/dshpj-installer) —— 给 DeepSeek Harness 增加 operator 模式：13 层系统提示词与运行时层以单个 `--patch` overlay 应用，不修改 DSH 本体。
 
 ## Harness 与运行时
 
@@ -2502,6 +2503,10 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [xxiiiixx/dsh-session-trash](https://github.com/xxiiiixx/dsh-session-trash) —— DSH 桌面版会话回收站：从侧边栏把会话移入可恢复的回收站，并在设置页还原或彻底清除。
 - [YOGEMOW/dsh-cyrene-eternal-page-remembrance](https://github.com/YOGEMOW/dsh-cyrene-eternal-page-remembrance) —— Cyrene「一页永恒的记忆」：昔涟的长期记忆插件：四问锚点、日/月/年、夜梦、五育自检、思源备份与余页（DSH 0.2.1+，零依赖）。
 - [zangoose335/dsh-todo-assistant](https://github.com/zangoose335/dsh-todo-assistant) —— DSH 插件：会话中记录待办，自动记录上下文中关于这个待办事项的关键内容，等需要处理时可在新会话中直接开始任务，无需从头调查也不用再次说明情况。
+- [HildebrandYu/dsh-session-chains](https://github.com/HildebrandYu/dsh-session-chains) —— DSH 交接链面板：把互相交接的对话聚成一条链（卡片／编号／面板／HUD／门槛提醒／自动交接）。
+- [KikaiLastest/dsh-memory-core](https://github.com/KikaiLastest/dsh-memory-core) —— DSH 本地记忆插件：BM25-lite 历史召回 + 记忆使用协议 + 结构化固化 + 情感状态，全部落本地 Markdown/JSONL，无数据库、无云端。
+- [Zok66/dsh-facts](https://github.com/Zok66/dsh-facts) —— DSH 时间感知记忆：用 SQLite 存带时间戳的事实，set 自动失效旧值，按时间过滤查询，注册为工具供 agent 主动读写，并把当前有效事实注入未来会话上下文。
+- [Zok66/dsh-recall](https://github.com/Zok66/dsh-recall) —— DSH 撤回插件：只撤最后一条用户消息，对话与工作区文件一起回退。
 
 ## 成本与用量统计
 
@@ -4758,6 +4763,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [controlledentropy/dsh-bridge](https://github.com/controlledentropy/dsh-bridge) —— 基于 stdio 的 MCP Server：把 DSH 本机 /api 封装成 9 个工具，Codex、Claude Code 等客户端可创建或接管 DSH 会话、派发任务、等待结果并查看可审计的任务记录，无需修改 DSH。
 - [WANGJINSHAN-11/memory_mcp](https://github.com/WANGJINSHAN-11/memory_mcp) —— 本地优先的纯文本长期记忆 MCP 服务（FACT.md / JOURNAL.jsonl / SOUL.md / USER.md），包括 DSH 在内的任意 MCP 客户端可共享同一目录。
 - [baitouwuya/dsh-mcp-server](https://github.com/baitouwuya/dsh-mcp-server) —— 把正在运行的 DeepSeek Harness 发布为 Model Context Protocol（MCP）server，供其他 agent harness 调用。
+- [zhang-guo-wen/dsh-mcp-manager](https://github.com/zhang-guo-wen/dsh-mcp-manager) —— DSH 的 MCP server 管理：编写组合行、选择允许的 server 何时加载、过滤会话可调用的工具。
 
 ## 工具与集成
 
@@ -5017,6 +5023,11 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [ShanJun-pro-max/dsh-novel-studio](https://github.com/ShanJun-pro-max/dsh-novel-studio) —— DeepSeek Harness 的一页式小说创作工作台：开新章给方向、候选稿抽卡、剧情总结带索引、别称识别、情节体检、偏好档案按类型跨书继承。
 - [wsk114514/dsh-ark-wiki](https://github.com/wsk114514/dsh-ark-wiki) —— 明日方舟 PRTS Wiki 查询工具插件，适用于 DeepSeek Harness。
 - [xingzoudefengye/dsh-web-search-failover](https://github.com/xingzoudefengye/dsh-web-search-failover) —— DSH 的有序 web 搜索故障转移 provider：按优先级依次尝试后端，失败自动回退。
+- [adcx222/dsh-enhance-prompt](https://github.com/adcx222/dsh-enhance-prompt) —— DSH 输入框提示词增强插件：点一下 ✨ 把草稿改写成更清晰、更具体的指令。
+- [desanv01/dsh-plugin-log-bridge](https://github.com/desanv01/dsh-plugin-log-bridge) —— DSH 插件：把 harness 自身的运行时警告与错误写入 stderr，启动后失败也能说清原因。
+- [JOJO-Adam/dsh-release](https://github.com/JOJO-Adam/dsh-release) —— DSH 插件一键发布流水线：检查、升版本、测试、推送、发布、核验、安装。
+- [neutron42-jp/dsh-btw-live](https://github.com/neutron42-jp/dsh-btw-live) —— DeepSeek Harness 的 `/btw`：就当前 live 会话（含正在跑的一轮）插问一个旁支问题，回答不进入对话历史（MIT）。
+- [zhangyuzhangyu233/dsh-windows-notification](https://github.com/zhangyuzhangyu233/dsh-windows-notification) —— DSH 原生 Windows toast 通知：智能回合摘要、可直接操作的审批与 agent 提问选项，使用桌面应用身份；零依赖纯本机，可在通知里直接审批/回答。
 
 ## 编排器与聚合器
 
@@ -7218,6 +7229,13 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Lancang-hzau/dsh-live-terminal](https://github.com/Lancang-hzau/dsh-live-terminal) —— DSH 可见终端面板：把 agent 的 shell 命令实时流入应用，并让 agent 以文本方式捕获终端画面。
 - [wfz2006/dsh-status-bar](https://github.com/wfz2006/dsh-status-bar) —— 把 DSH 的任务进度装进一块会折射的桌面玻璃 · Electron + React 桌面状态栏。
 - [yuloop/dsh-web-split](https://github.com/yuloop/dsh-web-split) —— 给 DeepSeek Harness Web 加自由分屏：可拖拽窗格，每个窗格渲染一个会话的完整对话。
+- [desanv01/dsh-plugin-desktop-updates](https://github.com/desanv01/dsh-plugin-desktop-updates) —— DSH Windows 桌面应用的更新与插件管理界面：侧边栏入口、面板和设置分区，走应用原生 bridge。
+- [ErSu137/dsh-reply-beautify](https://github.com/ErSu137/dsh-reply-beautify) —— 非官方 DSH 回复排版、交互式图表/表格与隔离 HTML 产物（Windows 0.2.1-rc.2 预览）。
+- [iasiv5/dsh-skins](https://github.com/iasiv5/dsh-skins) —— DSH 插件：DeepSeek Harness 界面主题与皮肤管理组件，可自由切换多款界面视觉风格。
+- [mugi995/DSH-forJP-TUI](https://github.com/mugi995/DSH-forJP-TUI) —— 面向 DeepSeek Harness 的日语原生 TUI（设计阶段）。
+- [zhang-guo-wen/dsh-ui-beautify](https://github.com/zhang-guo-wen/dsh-ui-beautify) —— DSH 页面美化：内置开源中日韩字体，并让 Web GUI 自选正文字体。
+- [zhang-guo-wen/dsh-web-design](https://github.com/zhang-guo-wen/dsh-web-design) —— DSH 网页设计：在侧边栏里预览与编辑 HTML 元素。
+- [zhangyuzhangyu233/dsh-coderipple](https://github.com/zhangyuzhangyu233/dsh-coderipple) —— DSH Web UI 的七款可切换代码艺术背景——氛围代码场、DeepSeek 鲸标、女仆立绘、旋转 3D 地球与滚动大陆——另附独立 WebGL2 动态壁纸。
 
 ## Skill
 
@@ -7641,6 +7659,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [satan9394/personal-dev-workflow](https://github.com/satan9394/personal-dev-workflow) —— 精简双语（中/英）个人开发工作流 skill：一个总控 + 隔离 worker + 文件式记忆 + 验证闭环，六步任务卡循环。安装：`npx skills add satan9394/dsh-personal-dev-workflow`。
 - [nasvip/msf-skill](https://github.com/nasvip/msf-skill) —— 面向外部 AI Agent 的 MSF（MosDNS + Mihomo）运维技能包：健康检查、四类日志定位、fake-IP / TProxy / nftables 诊断、配置体检与主路由接入核查；遵循 Agent Skills 开放标准（非官方）。
 - [01NGVI-QINGYI/no-ai-style](https://github.com/01NGVI-QINGYI/no-ai-style) —— 面向学术与专业写作的多语种文风编辑技能与 DSH 插件：去掉 AI 腔，改写成自然的表达。
+- [Zok66/dsh-nuwa](https://github.com/Zok66/dsh-nuwa) —— 花叔「女娲 · Skill 造人术」DSH 插件封装：把任意人的思维方式蒸馏为可运行的人物 Skill。
 
 ## 资源
 
