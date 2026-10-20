@@ -5065,6 +5065,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [TinyBOOOOM/dsh-cliproxyapi-pro](https://github.com/TinyBOOOOM/dsh-cliproxyapi-pro) — Connect the models in CLIProxyAPI (CPA) to the DeepSeek Harness model selector in one click.
 - [YOYOLnFu/dsh-bili-pond](https://github.com/YOYOLnFu/dsh-bili-pond) — Bilibili fish pond: every day it sends fish into Bilibili to catch a few worthwhile items, then writes a daily report and @-mentions you.
 - [gordan-code/dsh-search-ledger](https://github.com/gordan-code/dsh-search-ledger) — Route DSH web search and fetch requests across providers, manage API keys and failover, and track usage and estimated costs in a local ledger.
+- - [manny333/dsh-checklists](https://github.com/manny333/dsh-checklists) — Session-scoped checklists the agent maintains, with a tree per session, a prompt digest and a read-only sidebar tab.
 
 ## Orchestrators & Aggregators
 
