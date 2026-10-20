@@ -4274,7 +4274,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [liuyun847/dsh-host-compliance-check](https://github.com/liuyun847/dsh-host-compliance-check) —— DSH 宿主插件：轮末自动派发需求合规检查子智能体（DeepSeek Harness）。
 - [ShikangPang/jizuo-creator-writing](https://github.com/ShikangPang/jizuo-creator-writing) —— DeepSeek Harness 小说创作插件：独立小说项目、章节与修订。
 - [ShikangPang/jizuo-creator-video](https://github.com/ShikangPang/jizuo-creator-video) —— DeepSeek Harness 视频创作插件：独立视频项目、跨小说章节改编与剪辑。
-- [weibaohui/dsh-thinktank](https://github.com/weibaohui/dsh-thinktank) —— 智囊团：内置 144 个经典思维模型库（决策/战略/认知/心理/沟通/学习/系统/创新/执行九大分类），输入一个问题即可用选中的多个模型并行 AI 分析，产出含共识/分歧/盲区/行动清单的综合报告页；支持自动分析与提示词往返导入两种模式。
+- [weibaohui/dsh-thinktank](https://github.com/weibaohui/dsh-thinktank) —— 智囊团：内置 161 个经典思维模型库（决策/战略/认知/心理/沟通/学习/系统/创新/执行九大分类），输入一个问题即可用选中的多个模型并行 AI 分析，产出含共识/分歧/盲区/行动清单的综合报告页；支持自动分析与提示词往返导入两种模式。
 - [ShikangPang/jizuo-creator-account](https://github.com/ShikangPang/jizuo-creator-account) — 即作账号插件：DeepSeek Harness 浏览器登录、账号权益与模型接入。
 - [ShikangPang/jizuo-creator-media-models](https://github.com/ShikangPang/jizuo-creator-media-models) — 媒体模型插件：DeepSeek Harness 图片视频模型配置与聊天生成工具。
 - [samorachumbi/dsh-domain-watch](https://github.com/samorachumbi/dsh-domain-watch) —— 问注册局，而不是厂商面板：某域名是否真的被注册、注册商是谁、何时到期。DSH agent 工具 + 宿主机渲染的面板。
