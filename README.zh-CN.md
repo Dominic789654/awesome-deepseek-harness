@@ -1460,6 +1460,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 
 - [MCviseron/dsh-email-notify](https://github.com/MCviseron/dsh-email-notify) — DeepSeek Harness（DSH）的邮件通知插件。
 - [scarlet20252025-cloud/DSH_Computeruse_Enhance](https://github.com/scarlet20252025-cloud/DSH_Computeruse_Enhance) — 把 ZCode 的 Computer Use 重建成 DSH 插件，并做性能与契约加固：`get_app_state` 400 元素 1432ms → 约 250ms；Windows 原生后端（PowerShell 5.1 + UI Automation + C# 树遍历）。
+- [chenpiyanghappy/dsh-buddy-suite](https://github.com/chenpiyanghappy/dsh-buddy-suite) —— WorkBuddy 模型接入与每日签到合一的 DeepSeek Harness 插件。
+- [dkvkvk/dsh-clinepass-guard](https://github.com/dkvkvk/dsh-clinepass-guard) —— Cline Pass 上游守卫：按模型钉住上游、回读真实路由、路由漂移告警，并观测缓存与 token 用量。
+- [gongstudent/dsh-cline-connect](https://github.com/gongstudent/dsh-cline-connect) —— 自包含的 Cline 供应商：支持 free（cline-free/*）与 ClinePass（cline-pass/*）模型，并带上网关要求的 x-client-type 产品面请求头。
 
 ## 安全与权限
 
@@ -2514,6 +2517,10 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 
 - [LUgABeEEE/dsh-global-todo](https://github.com/LUgABeEEE/dsh-global-todo) — DeepSeek Harness 全局待办插件：人写、agent 也写，共用同一份 JSON 列表。
 - [snowfoxHQ/dsh-hmr](https://github.com/snowfoxHQ/dsh-hmr) — dsh-Hestia Memory Runtime：DSH 的认知记忆插件，含推理链、反思与自我演化；单仓含 dsh-hmr 与 @dsh-hmr/hmr-client。
+- [a1137261060/dsh-session-organizer](https://github.com/a1137261060/dsh-session-organizer) —— DSH Web 侧边栏的两级会话整理插件：工作区分组 + 工作区内会话文件夹、拖拽排序、状态圆点与全文搜索。
+- [ad64001/dsh-conversation-memory](https://github.com/ad64001/dsh-conversation-memory) —— DSH 对话引用记忆：用当前模型选择工具原文、整理旧记忆，支持按需召回与原文回读（实验性）。
+- [howtomakeaname/dsh-agent-session-import](https://github.com/howtomakeaname/dsh-agent-session-import) —— 把 Cursor、Codex、Claude Code、ZCode、Kimi、豆包 Work、AutoClaw、Trae 的本地会话导入 DeepSeek Harness。
+- [kingofpowers/dsh-context-archive](https://github.com/kingofpowers/dsh-context-archive) —— 模型驱动的工具结果归档：长结果带内联 id，模型把不再需要的归档进会话自己的目录，上下文里只留可恢复的存根。
 
 ## 成本与用量统计
 
@@ -2931,6 +2938,10 @@ _token 用量、成本看板与预算告警插件。_
 - [oldzhang82/dsh-tps-ttft](https://github.com/oldzhang82/dsh-tps-ttft) — 每轮对话的 TPS / TTFT 统计：模型耗时、工具耗时、首 token 延迟与输出速度，显示在「本轮用量」面板。
 - [XEsx630/dsh-usage-stats](https://github.com/XEsx630/dsh-usage-stats) — DeepSeek Harness 全会话 token 用量统计。
 - [xiebrooooo/dsh-workbuddy-usage](https://github.com/xiebrooooo/dsh-workbuddy-usage) — DSH 侧栏用量插件：WorkBuddy / CodeBuddy 每日 Token、积分、按模型单价与账号剩余额度。
+- [LoveDoLove/dsh-token-saver](https://github.com/LoveDoLove/dsh-token-saver) —— 省 token 插件：裁剪工具输出、提示词塑形（Caveman & Ponytail）、本地即时应答、上下文压力处理、可选 LLM 摘要压缩、稳定的 prompt 缓存布局，并带 Web 设置页与持久化节省统计。
+- [SereneJi/dsh-abacus](https://github.com/SereneJi/dsh-abacus) —— 用量统计插件：侧边栏今日用量卡片、当前对话 token 数、按供应商与模型的明细、账户余额与套餐额度、余量提醒、历史用量补录。
+- [skystart233-code/dsh-codex-usage-board](https://github.com/skystart233-code/dsh-codex-usage-board) —— DSH 的 Codex 用量看板：把本地会话日志折叠成一个 Settings 页面，含 Token 热力图、常用工具与技能、近 30 天明细。
+- [verneuil/dsh-opencode-go-usage](https://github.com/verneuil/dsh-opencode-go-usage) —— 极简浮窗，同时显示 DeepSeek 官方余额与 OpenCode Go 的 5 小时 / 周 / 月用量。
 
 ## Channel / IM 桥接
 
@@ -3153,6 +3164,8 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [flyinstar/dsh-qq-bridge](https://github.com/flyinstar/dsh-qq-bridge) —— 基于 OneBot v11（NapCat / Lagrange / go-cqhttp）的 QQ ↔ DSH 桥接：私聊与群 @ 消息进入专属 agent 会话，任何 DSH agent 也能主动发消息、图片和表情包。
 - [keller-52/bilibili-deepseek](https://github.com/keller-52/bilibili-deepseek) —— B 站 AI 账号本地控制台：扫码登录、私信白名单、参数中心与审计视图，走 UI 路线而不调接口。
 - [PerryLink/dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) —— 手机（微信桥）入站附件的受控清单：让 agent 知道本会话收到了哪些附件，并按需把选中文件搬进工作区。
+- [FablerTan/dsh-qq-relay](https://github.com/FablerTan/dsh-qq-relay) —— DeepSeek Harness ↔ QQ 机器人桥插件（OneBot 11 / NapCat）。
+- [ZelotsNullzwei/whale-pod](https://github.com/ZelotsNullzwei/whale-pod) —— DSH 插件：给 QQ 群加个会看场合的聊天机器人（NapCat 协议端 + OneBot v11 + LLM 网关）。
 
 ## 插件市场与生态
 
@@ -3375,6 +3388,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [ZoeHao2026/dsh-source-updater](https://github.com/ZoeHao2026/dsh-source-updater) —— 面向 Windows 的 DSH 社区源码更新器：预发布检查、固定本地构建、插件兼容性、受控安装与配套备份。
 - [hollowfyh/dsh-plugin-doctor](https://github.com/hollowfyh/dsh-plugin-doctor) —— DSH 自愈式插件医生：检测加载失败的插件行，自动禁用并备份补丁，通过 /doctor 输出诊断。
 - [royenheart/dsh-migrate-bot](https://github.com/royenheart/dsh-migrate-bot) —— 自动把 DSH 插件迁移到新版本。
+- [Aceared0829/dsh-kit](https://github.com/Aceared0829/dsh-kit) —— DeepSeek Harness 插件套件：自带插件、版本锁定与可重复执行的安装器。
 
 ## 可视化
 
@@ -4120,6 +4134,9 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 - [happyqu/dsh-plugin-git](https://github.com/happyqu/dsh-plugin-git) — DeepSeek Harness 的 Git 工作台：变更集、暂存、历史、分支、储藏，可选 AI 辅助。
 - [liaangliaang-de/dsh-devkit](https://github.com/liaangliaang-de/dsh-devkit) — DSH 单包开发增强实验：仓库材料、片段编辑、本地应用生成、真实验收与任务接续。
+- [Jov3c/DSH-Graphify](https://github.com/Jov3c/DSH-Graphify) —— 把 Graphify 原版代码知识图谱深度集成进 DSH Desktop：项目自动索引、实时增量更新、原版交互式可视化、扫描范围配置与 Agent 图谱查询。
+- [leo666-cloud/dsh-miniprogram-helper](https://github.com/leo666-cloud/dsh-miniprogram-helper) —— DSH 插件：搭建、注册并校验微信小程序页面，集成微信开发者工具 CLI。
+- [Locael123/dsh-code-impact](https://github.com/Locael123/dsh-code-impact) —— 编辑后影响面检查：用符号索引与引用图告诉 agent 这次改动影响了什么，不必重新扫全仓。
 
 ## Agent
 
@@ -4465,6 +4482,9 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [slimeball2026/DSH-Coach-mode](https://github.com/slimeball2026/DSH-Coach-mode) —— 反向智能体式教练模式：把角色反过来，逼着你自己动手把事情做完。
 
 - [shanhai-city-states/kaipu-dsh-plugin-release](https://github.com/shanhai-city-states/kaipu-dsh-plugin-release) — 山海・开铺——DeepSeek Harness 的「场地」插件：多人会商审校，全程留痕。
+- [1373700184/dsh-subagent](https://github.com/1373700184/dsh-subagent) —— 把 Qoder / QoderCN 订阅 CLI 当作 DeepSeek Harness 子代理使用。
+- [Ghoscro/dsh-ace](https://github.com/Ghoscro/dsh-ace) —— AI 下一步建议器：帮你找到更好的下一步，按 Tab 即可采纳。
+- [wxzjss/dsh-whale-loli](https://github.com/wxzjss/dsh-whale-loli) —— DSH 插件：在 Agent 预设界面添加「鲸鱼娘 Agent 预设」——极简模式工具面 + 鲸鱼娘·小鱼人设（傲娇甜心、黏人护主、颜文字）。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -5055,6 +5075,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [peach0x33a/dsh-autofill-model-metadata](https://github.com/peach0x33a/dsh-autofill-model-metadata) — 通过显式、预先声明的映射，从 models.dev 填充自定义 provider 的模型元数据——不猜测、失败即拒；带图形设置页。
 - [TinyBOOOOM/dsh-cliproxyapi-pro](https://github.com/TinyBOOOOM/dsh-cliproxyapi-pro) — 把 CLIProxyAPI（CPA）里的模型一键接进 DeepSeek Harness（DSH）的模型选择器。
 - [YOYOLnFu/dsh-bili-pond](https://github.com/YOYOLnFu/dsh-bili-pond) — B站鱼塘：每天派鱼下去 B站 捞几条值得看的上来，写完日报 @ 你。
+- [gordan-code/dsh-search-ledger](https://github.com/gordan-code/dsh-search-ledger) —— 把 DSH 的网页搜索与抓取请求路由到多个供应商，管理 API key 与故障切换，并在本地账本里记录用量与预估费用。
 
 ## 编排器与聚合器
 
@@ -7272,6 +7293,12 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [XEsx630/dsh-personal-settings](https://github.com/XEsx630/dsh-personal-settings) — DeepSeek Harness 的统一设置页：全局指令（~/.dsh/AGENTS.md）与长期记忆。
 - [XEsx630/dsh-screenshot](https://github.com/XEsx630/dsh-screenshot) — DSH 输入框的微信式截图：截取屏幕（可隐藏 DSH 窗口）、拖选区域，图片直接附到消息里；Windows 端由 PowerShell 服务端裁剪。
 - [yezitotempeace/dsh-auto-think](https://github.com/yezitotempeace/dsh-auto-think) — 推理块流式输出时自动展开、结束后自动折叠，两个方向都有动画；侧栏开关只控制这套自动化。
+- [adamcjm/dsh-workspace-visibility](https://github.com/adamcjm/dsh-workspace-visibility) —— 在 DSH 侧边栏隐藏指定工作区及其会话，视图选项里提供「显示隐藏工作区」开关；纯展示层，不改动任何数据。
+- [mhlywxl/dsh-coding-sound](https://github.com/mhlywxl/dsh-coding-sound) —— 为 DeepSeek Harness 生成背景音乐与通知提示音。
+- [Nihao7-L/dsh-prompt-chain](https://github.com/Nihao7-L/dsh-prompt-chain) —— DSH 输入框里一键改写提示词：最多连续 5 轮、每步都有 diff、可随时跳回任一版本。
+- [umeabc/dsh-remote-android](https://github.com/umeabc/dsh-remote-android) —— DeepSeek Harness 的 Android 客户端：经加密中继访问桌面端、手机版布局、后台保活。
+- [wdx0614/dsh-restart-plugin](https://github.com/wdx0614/dsh-restart-plugin) —— DSH 桌面版电源菜单：侧边栏一键「重启 DSH」/「关闭 DSH」，重启会自动重新打开应用，改完插件或配置不必再翻托盘菜单。Windows/macOS，MIT。
+- [willimqiao/dsh-plugin-pixel-fishing](https://github.com/willimqiao/dsh-plugin-pixel-fishing) —— 把「像素渔场」装成 DSH 插件：Harness 启动时自动拉起透明、无边框、总在最前的像素钓鱼宠物，像 QQ 宠物一样浮在桌面，挂机钓鱼、随时展开面板。
 
 ## Skill
 
@@ -7699,6 +7726,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 - [LipingAn04/dsh-index-fund-guide](https://github.com/LipingAn04/dsh-index-fund-guide) — 《指数基金投资指南》（银行螺丝钉）的估值—定投—卖出体系，做成 DSH 插件：9 份参考文档 + 4 个零依赖脚本 + 34 项保真测试。
 - [PerryLink/dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) — DSH 保卫方案核对插件：依据《个体防护装备配备规范》，只提示差异，不作出定性结论。
+- [monkeyin92/ds-pstack](https://github.com/monkeyin92/ds-pstack) —— pstack：严谨的 agent 工作流，每个子代理的模型都从你勾选的模型里选——56 个 skill、确定性的角色路由、零额外 API 调用。
 
 ## 资源
 
