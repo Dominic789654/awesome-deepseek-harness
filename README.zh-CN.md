@@ -5076,6 +5076,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [TinyBOOOOM/dsh-cliproxyapi-pro](https://github.com/TinyBOOOOM/dsh-cliproxyapi-pro) — 把 CLIProxyAPI（CPA）里的模型一键接进 DeepSeek Harness（DSH）的模型选择器。
 - [YOYOLnFu/dsh-bili-pond](https://github.com/YOYOLnFu/dsh-bili-pond) — B站鱼塘：每天派鱼下去 B站 捞几条值得看的上来，写完日报 @ 你。
 - [gordan-code/dsh-search-ledger](https://github.com/gordan-code/dsh-search-ledger) —— 把 DSH 的网页搜索与抓取请求路由到多个供应商，管理 API key 与故障切换，并在本地账本里记录用量与预估费用。
+- [manny333/dsh-checklists](https://github.com/manny333/dsh-checklists) —— 会话级清单：每个会话一棵任务树、注入提示词的摘要，以及只读的右侧栏面板。
 
 ## 编排器与聚合器
 
