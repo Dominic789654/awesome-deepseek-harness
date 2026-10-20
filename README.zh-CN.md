@@ -346,7 +346,6 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [kol-mm/dsh-config-migrate](https://github.com/kol-mm/dsh-config-migrate) —— DSH 配置迁移插件：一键导出/导入 DSH_HOME 的设置、凭据、profile 与外部插件，跨平台（Windows/macOS/Linux）。
 - [SuangXX/dsh-zh-cot-fidelity](https://github.com/SuangXX/dsh-zh-cot-fidelity) —— 全局系统提示词插件：中文思维链、内容保真、反八股；规则可编辑，改完即生效。
 - [YOGEMOW/DSH-Cyrene](https://github.com/YOGEMOW/DSH-Cyrene) —— DeepSeek Harness 昔涟人格预设：昔涟聊天模式 / 德谬歌工作模式（fork of Cyrene-xl/DSH-Cyrene）；随包世界书、称呼、三形态与风格档位，另附「一页永恒·记忆」入口。
-- [zoujiapeng/dshpj-installer](https://github.com/zoujiapeng/dshpj-installer) —— 给 DeepSeek Harness 增加 operator 模式：13 层系统提示词与运行时层以单个 `--patch` overlay 应用，不修改 DSH 本体。
 
 ## Harness 与运行时
 

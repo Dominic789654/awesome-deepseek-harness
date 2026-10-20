@@ -345,7 +345,6 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [kol-mm/dsh-config-migrate](https://github.com/kol-mm/dsh-config-migrate) — DeepSeek Harness config migration plugin: one-click export/import of DSH_HOME settings, credentials, profiles and external plugins. Cross-platform (Windows/macOS/Linux).
 - [SuangXX/dsh-zh-cot-fidelity](https://github.com/SuangXX/dsh-zh-cot-fidelity) — Global system-prompt plugin: Chinese chain-of-thought, content fidelity and anti-formulaic writing; rules are editable and take effect immediately.
 - [YOGEMOW/DSH-Cyrene](https://github.com/YOGEMOW/DSH-Cyrene) — Cyrene persona preset for DeepSeek Harness: a chat mode and a work mode (fork of Cyrene-xl/DSH-Cyrene), with a bundled world book, forms of address, three forms and style levels, plus an entry point to Eternal Page Memory.
-- [zoujiapeng/dshpj-installer](https://github.com/zoujiapeng/dshpj-installer) — Give DeepSeek Harness an operator mode: 13 system-prompt and runtime layers applied as a single `--patch` overlay; DSH itself is never modified.
 
 ## Harnesses & Runtimes
 
