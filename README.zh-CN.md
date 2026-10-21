@@ -4786,7 +4786,6 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [jcaiagent7143-ui/linkdigest-mcp](https://github.com/jcaiagent7143-ui/linkdigest-mcp) — 给 AI Agent 用的小红书 / 抖音链接读取器：图文笔记图片 OCR、口播逐字稿 + 画面文字、爆款拆解（引用逐字核对）。Hosted MCP + API，提供 Python SDK/CLI。
 
 - [drscrewdriver/dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) —— DeepSeek Harness 插件：MCP 连接器受治理注册表（stdio / streamable-http）——四级 fail-closed 授权、mcpServers 导入大声报错、凭据全程脱敏、review-all 诚实拒绝。
-- [waynehamadi/datacircle-plugin](https://github.com/waynehamadi/datacircle-plugin) —— Datacircle 是一个数据合作社。远程 MCP server 端点为 `https://api.datacircle.dev/mcp`（Streamable HTTP）。它根据 URL 获取领英（LinkedIn）个人档案，数据源为 Up2Data、HarvestAPI 或 Fetchin。首次使用时，客户端会用你的 Datacircle 邮箱为你登录（OAuth）。或者把你的 API key 作为 Bearer token 发送。
 - [ganmayou2333/dsh-ai-bridge](https://github.com/ganmayou2333/dsh-ai-bridge) —— 把外部 AI 客户端与本地 DeepSeek Harness（DSH）互连：一个零依赖 MCP server 把消息投递进 DSH，另有一个 CDP 驱动把任务派发进豆包桌面 App。
 - [Imzl-zl/dsh-mcp-manager-ui](https://github.com/Imzl-zl/dsh-mcp-manager-ui) —— DeepSeek Harness Web 的 MCP server 管理 UI：浮动面板、JSON 导入与基于 profile 的持久化。
 - [sanshanya/dsh-dot-mcp](https://github.com/sanshanya/dsh-dot-mcp) — 通过官方协议把 DeepSeek Harness（DSH）的会话、原生目标、审批与结果暴露给 MCP 客户端的 MCP 桥：21 个冻结工具、仅 loopback 的 HTTP 并带 DNS rebinding 防护、不内置凭据。桥只负责连接；会话、agent、工具、审批与工作区安全模型仍由 DSH 掌握。
