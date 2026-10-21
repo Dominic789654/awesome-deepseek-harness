@@ -348,6 +348,8 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [TikaFlow/dsh-model-fix](https://github.com/TikaFlow/dsh-model-fix) — Better model experience: several ways to fill model parameters, improved model compatibility, remembered reasoning level, sub-agents that follow model and reasoning level live, and AI-controlled tier switching.
 - [w17her/dsh-power-control](https://github.com/w17her/dsh-power-control) — Reload, restart or shut down the DeepSeek Harness desktop app from inside its own window.
 - [cheng-wj/dsh-app-control](https://github.com/cheng-wj/dsh-app-control) — Windows DSH plugin: restart, update and inspect the DeepSeek Harness desktop app from the model side.
+- [58fly/dsh-language-guard](https://github.com/58fly/dsh-language-guard) — Make the DSH agent think and reply in the language you choose: three strength levels, a settings panel and a sidebar quick switch. Zero dependencies, no build step.
+- [lirenjie95/IamChinese](https://github.com/lirenjie95/IamChinese) — Treats the session as a mainland-China user: locale, time zone, date and currency conventions, plus a self-consistent test persona. DSH plugin + Claude Code plugin.
 
 ## Harnesses & Runtimes
 
@@ -2524,6 +2526,11 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Sacredbluedragon/dsh-memory-shield](https://github.com/Sacredbluedragon/dsh-memory-shield) — Preset memory shielding: hides other memory plugins' context and tools inside a chosen preset, giving the session a clean context.
 - [yffo/tabellio-dsh](https://github.com/yffo/tabellio-dsh) — Memory for DeepSeek Harness: candidates first, you approve, recall with receipts.
 - [realMisakaMikoto/dsh-purge](https://github.com/realMisakaMikoto/dsh-purge) — Maintained dsh-purge 1.1.71 build for DSH 0.2.0-rc.2: fixes #40 complete-prompt keep-inject, hostFs closeSync/readSync and the redteam preset toolFilter.
+- [alanzhao0128/dsh-memory-lite](https://github.com/alanzhao0128/dsh-memory-lite) — Lightweight zero-dependency long-term memory for DeepSeek Harness: a Markdown memory store, L0 catalog injection, five model-facing tools and background extraction.
+- [ANHANP/dsh-branch-tree](https://github.com/ANHANP/dsh-branch-tree) — Session branch tree for DeepSeek Harness: round cards, forks, subagent forests and a minimap.
+- [CHYMZXS/dsh-archive-workbench](https://github.com/CHYMZXS/dsh-archive-workbench) — Archive workbench for DSH: permanently delete a session from the sidebar menu, plus an archived-session panel that restores or deletes with one click.
+- [meisijiya/omp-memory-dsh](https://github.com/meisijiya/omp-memory-dsh) — Project-level memory adapted for DSH from omp: lessons shared across agents, with a zero-deletion red line.
+- [XXGxiaoyu/dsh-session-sync](https://github.com/XXGxiaoyu/dsh-session-sync) — LAN session sync for DSH: auto-discover devices running this plugin, browse / pull / push sessions over HTTP with SHA-256 verification, and keep a local-only nickname per device.
 
 ## Cost & Usage Tracking
 
@@ -2948,6 +2955,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [chunrichi/dsh-usage-panel](https://github.com/chunrichi/dsh-usage-panel) — Local-first token usage dashboard: totals, composition, models, trend, heatmap, and provider speed / first-token performance.
 - [Ronnie-Young/dsh-scnet-plan](https://github.com/Ronnie-Young/dsh-scnet-plan) — SCNet Token Plan quota in DSH: remaining quota, daily spend and token composition.
 - [Boris-boomer/dsh-token-optima](https://github.com/Boris-boomer/dsh-token-optima) — Token attribution and cache-ROI diagnostics for DeepSeek Harness.
+- [flyxiu/dsh-simple-tps](https://github.com/flyxiu/dsh-simple-tps) — Per-turn TTFT / TPS readout in the DSH Web chat action row.
+- [likaileave/dsh-model-billing](https://github.com/likaileave/dsh-model-billing) — Model ordering, three-tier token prices and per-turn / session cost estimates for the DeepSeek Harness Web GUI.
 
 ## Channel / IM Bridges
 
@@ -3169,6 +3178,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [FablerTan/dsh-qq-relay](https://github.com/FablerTan/dsh-qq-relay) — DeepSeek Harness ↔ QQ bot bridge plugin (OneBot 11 / NapCat).
 - [ZelotsNullzwei/whale-pod](https://github.com/ZelotsNullzwei/whale-pod) — DSH plugin: a QQ group chatbot that reads the room (NapCat protocol endpoint + OneBot v11 + LLM gateway).
 - [KINGXieXie/Cogito](https://github.com/KINGXieXie/Cogito) — DeepSeek + OneBot 11 QQ bot with the Cogito Studio web console.
+- [Geng-zy/dsh-qq-companion](https://github.com/Geng-zy/dsh-qq-companion) — Personal QQ companion channel for DSH via OneBot 11 / NapCat: memory, diary, proactive chat and permission isolation. Based on dsh-onebot (BSD-3).
 
 ## Plugin Marketplaces & Ecosystem
 - [1575088/dsh-bridge-market](https://github.com/1575088/dsh-bridge-market) — Bridge marketplace for DSH: 49 websites and apps shown as cards — one click adds the matching `mcp__<app>__*` tools to the agent, with one-click setups where possible and step-by-step guides where not.
@@ -3647,6 +3657,9 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [yanzhuang-h/awesome-dsh-pet](https://github.com/yanzhuang-h/awesome-dsh-pet) — Codex-Pet-style customizable desktop pet inside DSH; import Codex spritesheets or your own art.
 - [ptb-xiaou/dsh-api3d-pet](https://github.com/ptb-xiaou/dsh-api3d-pet) — API3D-only DSH desktop widget: a whale bubble in the bottom-right shows site balance, today's spend and per-turn cost; enter the API key once.
 - [comfylies/dsh-png-pet](https://github.com/comfylies/dsh-png-pet) — A Windows desktop pet companion for DeepSeek Harness.
+- [beex-labs/dsh-smart-ui](https://github.com/beex-labs/dsh-smart-ui) — Render AI answers as interactive UI cards in DSH: comparisons, charts, diagrams, tables, calculators and unit conversions. The model writes a JSON spec — never markup.
+- [tkliuxing/dsh-video-forge](https://github.com/tkliuxing/dsh-video-forge) — Online-model video generation for DeepSeek Harness: three model tools, a durable provider-task ledger that survives restarts, live chat cards, a Videos panel and cost estimates from a public price feed.
+- [Tripo-Developer/Tripo3D-Plugin-dsh](https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh) — Tripo 3D plugin for DeepSeek Harness: text or image to textured, rig-ready 3D assets via tripo-cli.
 
 ## Slides / PPT
 
@@ -4150,6 +4163,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [PrismScopes/dsh-aide](https://github.com/PrismScopes/dsh-aide) — AIDE (AI + IDE): a VS Code-style local IDE for DeepSeek Harness — Monaco editor, file explorer, search, Git and terminal.
 - [IT-coder-Yy/dsh-lazygit-plugin](https://github.com/IT-coder-Yy/dsh-lazygit-plugin) — Visual Git workbench for DSH Web: inspect repositories, run common Git actions, and safely execute AI-generated workflows.
 - [cyrusgogogo/dsh-codeeek](https://github.com/cyrusgogogo/dsh-codeeek) — Standalone code-reading mode for DSH, independent of the normal workspace selection: understand the business first, then the call chain and the implementation, and finally verify the understanding with concrete scenarios.
+- [wanwulizhi/dsh-claude-code-sdk](https://github.com/wanwulizhi/dsh-claude-code-sdk) — DSH tool plugin that delegates a self-contained coding task to the local Claude Code agent through the Claude Agent SDK and injects the current DSH conversation history into the task.
 
 ## Agents
 
@@ -5107,6 +5121,11 @@ _Plugins that give the agent tools for external services (container registries, 
 - [HERO476/dsh-doubao-work-connect](https://github.com/HERO476/dsh-doubao-work-connect) — Bridge a locally logged-in Doubao Work client into DSH: reuse the login through the client DevTools endpoint to call /chat/completion, and show the 5-hour / 7-day quota in the composer.
 - [dingminhua/dsh-service-portal](https://github.com/dingminhua/dsh-service-portal) — Expose any local service on a random cloudflared domain with one password: QR code for LAN, QR plus password for public access, per-node routing managed in the DSH settings panel.
 - [Debuger-114514/dsh-bili-jar](https://github.com/Debuger-114514/dsh-bili-jar) — Bilibili picker plugin: a jar in the bottom-right corner recommends videos along your interest axes, scored by interaction rate instead of the recommendation feed.
+- [caizhidian-ops/always-on-board](https://github.com/caizhidian-ops/always-on-board) — A local background-task board for AI coders: inspect launchd jobs and hand context to an agent in DeepSeek Harness.
+- [GooDAnDReaDY/dsh-server-monitor](https://github.com/GooDAnDReaDY/dsh-server-monitor) — SSH server monitor and terminal sidebar for DeepSeek Harness.
+- [HeShen-1/dsh-pg-grid](https://github.com/HeShen-1/dsh-pg-grid) — Native DSH PostgreSQL workbench: visual filters, same-database joins, computed columns, pivots and saved views.
+- [limbo1996/dsh-config-transfer](https://github.com/limbo1996/dsh-config-transfer) — Export and import a DSH Desktop configuration — plugins, settings, MCP entries and user skills. Credentials are not exported.
+- [lj100886/dsh-framework-doctor](https://github.com/lj100886/dsh-framework-doctor) — Configure model providers by probing their endpoint, check DSH health and repair what can be fixed — from a standalone settings page.
 
 ## Orchestrators & Aggregators
 
@@ -5336,6 +5355,8 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [weft-audit/weft-audit](https://github.com/weft-audit/weft-audit) — Intent-driven multi-agent governance PoC: goal compiler, audit loop, evidence trail and DSH plugins.
 - [weft-audit/weft](https://github.com/weft-audit/weft) — Deterministic intent-to-goal-spec compiler with explicit approval gates and rollback checks (PoC).
 - [ahqrt/dsh-herdr](https://github.com/ahqrt/dsh-herdr) — Delegating subtasks from DeepSeek Harness to Herdr-managed coding agents, harvesting the exact results and reviewing them back inside DSH.
+- [pj1433139082-hue/agent-dispatch](https://github.com/pj1433139082-hue/agent-dispatch) — File-first task orchestration and dispatch CLI: ticket contracts, dependency waves, work-order rendering and an evidence gate, with real DSH task-board push, status read-back and external result write-back.
+- [TheFool-TAROT/dsh-brain-hands](https://github.com/TheFool-TAROT/dsh-brain-hands) — Brain + Hands for DeepSeek Harness: one orchestrator model plans while named hands run on their own (often free) models, with auto-injected shared project state and verified hand output.
 
 ## UI / Clients
 
@@ -7354,6 +7375,18 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [illusionaries/dsh-running-whale-skin](https://github.com/illusionaries/dsh-running-whale-skin) — Replace the light-mode running animation of the 'thinking deeply' state with a custom animated image.
 - [daniei-chen/DeepSeek-Harness-APP](https://github.com/daniei-chen/DeepSeek-Harness-APP) — Open-source Android client for self-hosted DSH: WebView shell, multi-device profiles, task/approval notifications, self-hosted ntfy or UnifiedPush. No cloud, telemetry or accounts; unofficial community project.
 - [CaT-Hode/DSH-app](https://github.com/CaT-Hode/DSH-app) — Windows desktop plugin for DeepSeek Harness: shared Web sessions and plugins, startup logs and update recovery.
+- [dingchenhui0618-arch/dsh-tab-complete](https://github.com/dingchenhui0618-arch/dsh-tab-complete) — Tab completion for the DSH composer: the model predicts what you are about to type, shown as ghost text and filled in with Tab.
+- [felixpu/dsh-sidebar-tab-actions](https://github.com/felixpu/dsh-sidebar-tab-actions) — Right-click batch actions for DSH Web sidebar tabs: close left, close right, close all.
+- [lin114514-desng/dsh-context-tone](https://github.com/lin114514-desng/dsh-context-tone) — Colors the DSH context meter by occupancy tier and adds a tier emoji: five thresholds, five colors and six emoji levels, all editable on a settings page.
+- [loyalchiiina/dsh-chat-image-lightbox](https://github.com/loyalchiiina/dsh-chat-image-lightbox) — Full-screen chat image lightbox (zoom / pan / download / page) plus a conversation-wide thumbnail grid with adjustable columns, hide / show without blank space, lossless TIFF / HEIC display, hotlink fallback and copy path / show in folder. Requires DSH >= 2.0.14.
+- [loyalchiiina/dsh-model-fold](https://github.com/loyalchiiina/dsh-model-fold) — Model picker grouped by provider: sources listed first, a click opens their models in a slide-in panel (or inline fold), double-click switches modes, current-model badge, theme-aware, DOM-only enhancement with zero network requests.
+- [loyalchiiina/dsh-voice-alert](https://github.com/loyalchiiina/dsh-voice-alert) — Voice / SFX alerts: plays 'done' when a turn ends and 'fail' on errors — per-turn dedup, error-first, three modes (cloned-voice TTS / 20 built-in SFX / off), a voice library with clone and preset routing, and players that never touch system volume.
+- [qiuzhiyei/dsh-companion](https://github.com/qiuzhiyei/dsh-companion) — DSH companion plugin: desktop pet plus token / cost statistics, budget alerts and session management. All data stays local.
+- [raven3005672/dsh-plugin-shell-skin](https://github.com/raven3005672/dsh-plugin-shell-skin) — Browser skin plugin for DSH: opening animation, custom wallpaper and panel transparency, applied instantly from settings.
+- [SharpWord/dsh-wallpaper-engine](https://github.com/SharpWord/dsh-wallpaper-engine) — Wallpaper Engine (Steam) wallpapers behind DeepSeek Harness: follow the active wallpaper or pin one from the Workshop library, with translucent panels, per-block blur and wallpaper-matched text contrast.
+- [tinyblckc0000al/dsh-deepworker](https://github.com/tinyblckc0000al/dsh-deepworker) — DeepWorker turns DSH into a more convenient, immersive workbench: one-click session actions at any round (retry, edit, quote, new mode, branch), notes, summaries, search, a session focus lock and workspace command buttons.
+- [yinque91/dsh-live-narrator](https://github.com/yinque91/dsh-live-narrator) — Live narrator ('Xiaozui') for DeepSeek Harness: a voice commentary plugin docked below the composer.
+- [YSDLNGF/dsh-acrylic-light](https://github.com/YSDLNGF/dsh-acrylic-light) — DeepSeek Harness desktop: Windows Acrylic material with layered frosted panels.
 
 ## Skills
 
