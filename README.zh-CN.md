@@ -1456,7 +1456,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [Phoeky/dsh-sensenova-pool](https://github.com/Phoeky/dsh-sensenova-pool) —— 商汤日日新（SenseNova）多 Key 轮换池：填入 key 即可接入 DeepSeek Harness，遇 429 限流自动切换到下一把 key。
 - [BillYuan01/qwenpaw-dsh](https://github.com/BillYuan01/qwenpaw-dsh) —— 通过标准 ACP v1 把 DSH 接入 QwenPaw 作为一等智能体，并提供 DSH 侧桥插件（流式输出、审批、技能与 MCP 投影）。
 - [Lawrence7y/dsh-harness-pilot](https://github.com/Lawrence7y/dsh-harness-pilot) —— 把其他 agent harness（opencode / Antigravity / Claude / Codex / ZCode / MiMo / Cursor / Qoder 等）接入 DSH：作为子代理派发任务、指定各家模型，并在设置页查看已配置的 harness。
-- [JeffTsuiCUG/dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) —— 把本机已登录的 MiniMax Code 桌面 App（国内版）接入 DSH 作为模型提供方：Anthropic Messages 兼容、模型目录实时拉取，并在对话框底部与插件页面显示积分余额与到期信息。非官方插件，依赖 MiniMax 客户端的非公开接口，只读取本机登录态，仅供学习研究。
+- [JeffTsuiCUG/dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) —— 把 MiniMax Code 桌面 App（国内版）的模型接入 DSH 作为模型提供方：Anthropic Messages 兼容、模型目录实时拉取、每日签到领取免费额度，积分余额与到期信息显示在插件页面与输入框工具行（仅选中 MiniMax 模型时显示）。登录态可复用本机已登录的桌面 App，也可用插件自带的 OAuth 设备码流自行登录。非官方插件，依赖 MiniMax 客户端的非公开接口，仅供学习研究。
 
 - [MCviseron/dsh-email-notify](https://github.com/MCviseron/dsh-email-notify) — DeepSeek Harness（DSH）的邮件通知插件。
 - [scarlet20252025-cloud/DSH_Computeruse_Enhance](https://github.com/scarlet20252025-cloud/DSH_Computeruse_Enhance) — 把 ZCode 的 Computer Use 重建成 DSH 插件，并做性能与契约加固：`get_app_state` 400 元素 1432ms → 约 250ms；Windows 原生后端（PowerShell 5.1 + UI Automation + C# 树遍历）。
