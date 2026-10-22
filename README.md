@@ -1787,6 +1787,10 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [Xinglei-dev/dsh-plugin](https://github.com/Xinglei-dev/dsh-plugin) — Small independent DSH plugins, one feature per package — currently dsh-fixed-pairing-token, which pins the DSH Web startup token so bookmarked GUI URLs keep working after a restart.
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) — One control plane for every AI asset — MCP servers, skills, agents and apps: a self-hosted ledger with a lifecycle state machine, 85 permission points, department × agent × skill cost attribution and an audit trail (MIT, Node 22 + node:sqlite).
 
+- [feely0208/dsh-approval-ledger](https://github.com/feely0208/dsh-approval-ledger) — Approval ledger: records every operation that needs approval (risk / decision / result); gate mode can block high-risk actions.
+- [feely0208/dsh-enterprise-suite](https://github.com/feely0208/dsh-enterprise-suite) — Shenjing enterprise audit suite: approval ledger + decision review + audit reports + scheduled reviews, all under one licence (commercial, 14-day trial).
+- [GoshawkGGGG/dsh-safe-tool](https://github.com/GoshawkGGGG/dsh-safe-tool) — Tool-approval plugin for DeepSeek Harness: an AI reviews whether an agent's tool call is compliant and decides whether to execute it; review criteria are configurable.
+
 ## Session & Memory Management
 
 - [Changqin1024/dsh-session-delete-cascade](https://github.com/Changqin1024/dsh-session-delete-cascade) — Adds Delete Session to DeepSeek Harness: one click from the sidebar menu removes the session and recursively cleans child sessions, logs, projection cache, search index and workspace bookkeeping.
@@ -2532,6 +2536,12 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [meisijiya/omp-memory-dsh](https://github.com/meisijiya/omp-memory-dsh) — Project-level memory adapted for DSH from omp: lessons shared across agents, with a zero-deletion red line.
 - [XXGxiaoyu/dsh-session-sync](https://github.com/XXGxiaoyu/dsh-session-sync) — LAN session sync for DSH: auto-discover devices running this plugin, browse / pull / push sessions over HTTP with SHA-256 verification, and keep a local-only nickname per device.
 
+- [AAAlenwow/dsh-weknora-archive](https://github.com/AAAlenwow/dsh-weknora-archive) — Incrementally archive DeepSeek Harness sessions into a self-hosted WeKnora knowledge base: extract, summarize, dedupe, upload.
+- [easerlee/dsh-session-shift](https://github.com/easerlee/dsh-session-shift) — DSH plugin: when context pressure reaches a threshold, hand the current work over to a new session (file-based handoff pack + handoff_now tool + HTTP interface).
+- [FABAGV/dsh-prompt-adapt](https://github.com/FABAGV/dsh-prompt-adapt) — DSH plugin: distils a user profile from past sessions and injects it into the system prompt so the AI remembers your preferences and taboos.
+- [leoainc-ops/dsh-history-keeper](https://github.com/leoainc-ops/dsh-history-keeper) — Encrypted, verifiable history keeper for DeepSeek Harness: snapshot, verify and restore your DSH sessions — no git, no external binaries.
+- [Speraymer/dsh-persona-distill](https://github.com/Speraymer/dsh-persona-distill) — DSH plugin: distils daily raw material into a persona that keeps growing — material accumulates daily, the persona grows weekly.
+
 ## Cost & Usage Tracking
 
 _Token usage, cost dashboards, and budget-alert plugins._
@@ -3180,6 +3190,9 @@ _Bridges DSH into chat platforms and messaging channels._
 - [KINGXieXie/Cogito](https://github.com/KINGXieXie/Cogito) — DeepSeek + OneBot 11 QQ bot with the Cogito Studio web console.
 - [Geng-zy/dsh-qq-companion](https://github.com/Geng-zy/dsh-qq-companion) — Personal QQ companion channel for DSH via OneBot 11 / NapCat: memory, diary, proactive chat and permission isolation. Based on dsh-onebot (BSD-3).
 
+- [bluechonk/dsh-qqbot](https://github.com/bluechonk/dsh-qqbot) — QQ Bot channel for DeepSeek Harness (dsh) — an independent implementation reworked from the official tencent-connect/dsh-qqbot.
+- [Wiseagull/afullife](https://github.com/Wiseagull/afullife) — AFULLIFE: give your QQ bot a full life — a QQ ↔ DSH bridge plus a DSH settings-panel plugin, handing the bot both tools and the gate.
+
 ## Plugin Marketplaces & Ecosystem
 - [1575088/dsh-bridge-market](https://github.com/1575088/dsh-bridge-market) — Bridge marketplace for DSH: 49 websites and apps shown as cards — one click adds the matching `mcp__<app>__*` tools to the agent, with one-click setups where possible and step-by-step guides where not.
 - [FeatherHunter/dsh-plugin-update](https://github.com/FeatherHunter/dsh-plugin-update) — An npm package that adds "check for update / install update" abilities to DSH plugins: a host-side wiring snippet plus a ready-made panel component, covering version checks, installs, failure fallback, changelogs and multi-plugin logs.
@@ -3399,6 +3412,9 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [Jackbessaliuz/dsh-market-expand](https://github.com/Jackbessaliuz/dsh-market-expand) — Patch layer for the DSH plugin market: one-click update-all (completes and relaunches after exit), an update safety net that rolls back on a failed start, and local plugin update detection with snapshot rollback.
 - [Vikrant-Aleph/dshmarket-update-helper](https://github.com/Vikrant-Aleph/dshmarket-update-helper) — Update helper for DSH plugins installed through dshmarket.
 - [JX-Lab/dsh-plugins](https://github.com/JX-Lab/dsh-plugins) — Plugin set for DSH workspaces: browser, memory and workspace tools.
+
+- [LUTAO581314/dsh-plugin-catalog](https://github.com/LUTAO581314/dsh-plugin-catalog) — Adds search and market-category grouping to the DSH Installed plugins page, covering built-in and experimental plugins.
+- [feely0208/dsh-plugin-updater](https://github.com/feely0208/dsh-plugin-updater) — Check and update third-party DSH plugins: compares against the latest npm version and upgrades precisely with one command (bypassing the pnpm new-version observation window).
 
 ## Visualization
 
@@ -4840,6 +4856,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Abnerluo123/zero-ego](https://github.com/Abnerluo123/zero-ego) — Permission-free Ego Lite browser control for DeepSeek Harness — an MCP connector that ships as a single Go binary.
 - [EastMG/dsh-shopping-mcp](https://github.com/EastMG/dsh-shopping-mcp) — MCP server unifying Taobao / JD / Pinduoduo product search, detail lookup and affiliate link conversion — official open-platform APIs only, with a mock mode before you have credentials.
 
+- [EdgarsKalnins/dsh-gemini-notebook-mcp](https://github.com/EdgarsKalnins/dsh-gemini-notebook-mcp) — DeepSeek Harness plugin for Gemini Notebook / Google NotebookLM MCP: notebooks, sources, grounded Q&A, research, audio podcasts, video and slides — 53 tools via notebooklm-mcp-cli.
+
 ## Tools & Integrations
 
 _Plugins that give the agent tools for external services (container registries, incident response, support desks)._
@@ -5126,6 +5144,11 @@ _Plugins that give the agent tools for external services (container registries, 
 - [HeShen-1/dsh-pg-grid](https://github.com/HeShen-1/dsh-pg-grid) — Native DSH PostgreSQL workbench: visual filters, same-database joins, computed columns, pivots and saved views.
 - [limbo1996/dsh-config-transfer](https://github.com/limbo1996/dsh-config-transfer) — Export and import a DSH Desktop configuration — plugins, settings, MCP entries and user skills. Credentials are not exported.
 - [lj100886/dsh-framework-doctor](https://github.com/lj100886/dsh-framework-doctor) — Configure model providers by probing their endpoint, check DSH health and repair what can be fixed — from a standalone settings page.
+
+- [funny0A0/dsh-egress-router](https://github.com/funny0A0/dsh-egress-router) — Opens a local port for a single target and forwards it through a local proxy; includes config self-healing and declarative compatibility patches.
+- [GunjanPatel359/dsh-tool-search](https://github.com/GunjanPatel359/dsh-tool-search) — Deferred tool loading for DSH: send MCP tools as a compact index and load details on demand, without breaking the prompt cache.
+- [kx121/github-duty](https://github.com/kx121/github-duty) — Wakes a DSH session on schedule, scans the GitHub repos and topics you follow, picks out changes worth tracking, writes a daily report and keeps a dedupe table. Read-only.
+- [Wonderow666/dsh-auto-update](https://github.com/Wonderow666/dsh-auto-update) — Check, install and roll back DeepSeek Harness CLI updates from the web settings page, with health-checked restart and automatic rollback.
 
 ## Orchestrators & Aggregators
 
@@ -7388,6 +7411,19 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [yinque91/dsh-live-narrator](https://github.com/yinque91/dsh-live-narrator) — Live narrator ('Xiaozui') for DeepSeek Harness: a voice commentary plugin docked below the composer.
 - [YSDLNGF/dsh-acrylic-light](https://github.com/YSDLNGF/dsh-acrylic-light) — DeepSeek Harness desktop: Windows Acrylic material with layered frosted panels.
 
+- [cxv117793-blip/dsh-step-pause](https://github.com/cxv117793-blip/dsh-step-pause) — DSH plugin: pauses every N steps (configurable) to report progress — what it is doing, what is done, what comes next, and blockers — then continues at once without using an extra turn or waiting for a reply. Main agent only by default; configurable in settings.
+- [FormalistBlue/dsh-everforest](https://github.com/FormalistBlue/dsh-everforest) — Everforest colour themes (Dark / Light × Hard, Medium, Soft) for DeepSeek Harness (DSH) Web and Desktop.
+- [lihua12345670-jpg/dsh-bili-audio](https://github.com/lihua12345670-jpg/dsh-bili-audio) — Bilibili audio floating player bar for DSH: the host reverse-proxies CDN requests to solve Referer 403, with queue, progress and speed control.
+- [llCCII/dsh-group-tab](https://github.com/llCCII/dsh-group-tab) — Workgroup — a DSH right-sidebar tab showing who is working, what they are doing and how long is left: live agent activity as a group chat.
+- [Missher12/Missher-DSH-Output-Renderer](https://github.com/Missher12/Missher-DSH-Output-Renderer) — Output appearance plugin for DeepSeek Harness: four assistant output layouts, expandable thinking content, and refresh-synced or fade-in text effects (`@missher/dsh-output-renderer`).
+- [oxygenforce/dsh-agent-activity](https://github.com/oxygenforce/dsh-agent-activity) — Live done-now-next card above the DeepSeek Harness composer.
+- [PCYBlurF/dsh-fish-buddy](https://github.com/PCYBlurF/dsh-fish-buddy) — DSH Big Fat Fish — a desktop whale-girl progress widget for DeepSeek Harness.
+- [Rad-Weed/DSH-UI-Beautify](https://github.com/Rad-Weed/DSH-UI-Beautify) — DSH UI Beautify: a desktop-wallpaper + glassmorphism theme plugin — zero layout intrusion, byte-exact rollback, built-in diagnostics panel.
+- [SakuraYH1080/dsh-quick-restart](https://github.com/SakuraYH1080/dsh-quick-restart) — One-click Quick Restart for DSH Desktop: quits and relaunches the app from the account menu.
+- [wilsonchengassistant/dsh-mobile-sidebar](https://github.com/wilsonchengassistant/dsh-mobile-sidebar) — Gives the whole left column back to the conversation on narrow screens: below 1024 px the DSH sidebar leaves the frame and a header button opens it as an overlay drawer.
+- [zuoyunlai/dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) — Photo-real desk pet for DeepSeek Harness: four personas, expressions and actions, proactive speech, neural TTS, and a small chat box that never touches your session.
+- [zuoyunlai/dsh-theme-palette](https://github.com/zuoyunlai/dsh-theme-palette) — Theme palette plugin for DSH: four palettes × light/dark modes, OKLCH gamut clamping and contrast solving against real surfaces.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
@@ -7815,6 +7851,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [monkeyin92/ds-pstack](https://github.com/monkeyin92/ds-pstack) — pstack for DeepSeek Harness: rigorous agent workflows with every subagent's model chosen from the models you checked — 56 skills, deterministic role routing, zero extra API calls.
 - [Zhr65/dsh-skill-auditor](https://github.com/Zhr65/dsh-skill-auditor) — Capability steward for DSH: capability routing (match a task to the tool to call), proactive health checks (outdated versions, runtime failures, baseline pass rate) and a utilization report of never-used capabilities. npm: dsh-skill-auditor.
 - [IDrinkMoreWater/dsh-openspec-opsx](https://github.com/IDrinkMoreWater/dsh-openspec-opsx) — OpenSpec spec-driven workflows for DSH: 12 openspec-* skills plus /opsx-* slash commands that accept arguments.
+
+- [wzn16/proto-spec](https://github.com/wzn16/proto-spec) — Spec-driven multi-page HTML prototype skill: interview to fix the spec → freeze SPEC/tokens → generate clickable prototypes in batches → quality-gate self-check; a zero-dependency, host-neutral Axure replacement.
 
 ## Resources
 
