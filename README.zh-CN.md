@@ -3020,6 +3020,7 @@ _token 用量、成本看板与预算告警插件。_
 - [hunyu-feng/dsh-usage-pulse](https://github.com/hunyu-feng/dsh-usage-pulse) —— DSH Web UI 插件：在输入框停靠区实时显示 DeepSeek 峰谷价、token 花费与逐小时用量条。
 - [itsbuyru-bit/dsh-model-price](https://github.com/itsbuyru-bit/dsh-model-price) —— 按模型的 API 价格（USD 或 CNY）、钱包余额与实时会话花费。
 - [xyl886/dsh-key-usage](https://github.com/xyl886/dsh-key-usage) —— DSH 侧边栏「使用情况」：按通道查看用量明细、年度热力图、项目 / 会话用量与余额配额快照，纯本地只读、不联网。
+- [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) —— 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 
 ## Channel / IM 桥接
 
@@ -3494,6 +3495,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [guraul/self-dsh-plugins](https://github.com/guraul/self-dsh-plugins) —— 自研 DSH 插件集合，目前收录 dsh-auto-upgrade：Web UI 自动检测升级 + 兼容性预检 + 一键备份 / 安装 / 校验 / 重启。
 - [TowardsDawn/dsh-plugin-source-link](https://github.com/TowardsDawn/dsh-plugin-source-link) —— 在 DSH 插件面板的每个插件详情页底部加「插件来源」：自动推断 GitHub 仓库地址或本地路径，推断不出时可手填并按 profile 持久保存。
 - [nuolingmo/dsh-market-notes](https://github.com/nuolingmo/dsh-market-notes) —— 给已安装但缺少说明的 dshmarket 插件自动补写简短的中文备注。
+- [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) —— 插件展示页：社区 DSH 插件目录，带图标、简介、星标和 GitHub 链接，安装/卸载按钮直接执行 dsh plugin add。
 
 ## 可视化
 
@@ -3754,6 +3756,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [alccs/dsh-visual-intelligence-engine](https://github.com/alccs/dsh-visual-intelligence-engine) —— DeepSeek Harness 可视化插件：图文原生混排的交互图形、结构化输入、本地修复与共享控件。
 - [weimin96/diagram-plugin](https://github.com/weimin96/diagram-plugin) —— 在 DeepSeek Harness / Codex 中创建、查看和编辑 Mermaid 图表与 Canvas 画布。
 - [Natsubrei/dsh-comfyui-panel](https://github.com/Natsubrei/dsh-comfyui-panel) —— 在 DSH Web UI 里嵌入真正的 ComfyUI 编辑器：按会话的工作流工具与面板托管的 ComfyUI。
+- [westtrade/dsh-excalidraw](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-excalidraw) —— 每个对话一块 Excalidraw 画板（右侧栏），共用一套模板库，并提供 excalidraw_read/excalidraw_write 工具，让智能体在同一块画板上读写。
 
 ## 幻灯片 / PPT
 
@@ -4628,6 +4631,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [miaonuo-lingran/dsh-story-party](https://github.com/miaonuo-lingran/dsh-story-party) —— DSH 多人联机剧情房间：AI 主持、共享故事线，支持 Galgame / 海龟汤 / 剧本杀，可导入剧情包、子代理与地图。
 - [Weidows/dsh-whalechan-herself](https://github.com/Weidows/dsh-whalechan-herself) —— 鲸鱼娘（DeepSeek 娘）Agent 预设：完整干活能力加人设，开工吐槽、收工讨饭，表情包概率可在设置页调。
 - [Yangxingyu789/dsh-doubt](https://github.com/Yangxingyu789/dsh-doubt) —— 证据优先的完成守卫：执行前的实况变更闸门、基于工具证据的最终答复复核、verify_claims，用实测证据替代「你确定吗」。
+- [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) —— 目标向量：命名的优先级目标清单，对话采用后模型在整个会话中遵循；带管理页、输入框选择器和 goal_vector_* 工具。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -4959,6 +4963,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Leawind/dsh-rice-on-a-stick](https://github.com/Leawind/dsh-rice-on-a-stick) —— 让 agent 通过 MCP 或 DSH 内置工具反过来控制 DSH 的插件。
 - [MuyuYanran/dsh-rea-mcp-lite](https://github.com/MuyuYanran/dsh-rea-mcp-lite) —— 把 REA 的逆向工程 MCP 工具收进按需加载的功能族：默认只摆出少量元工具，其余随时检索调用，省下大部分工具上下文；功能族热切换无需重启 DSH，自带更新与体检。
 - [zhujiuyi/dsh-mcpserver-manager](https://github.com/zhujiuyi/dsh-mcpserver-manager) —— DSH MCP Server 管理器。
+- [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) —— Svelte 文档 MCP 服务器（本地缓存）：与 @sveltejs/mcp 同样的四个工具，文档从磁盘读取而不是每次请求 svelte.dev。
 
 ## 工具与集成
 
@@ -5282,6 +5287,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [tsukii12/dsh-remote-portal](https://github.com/tsukii12/dsh-remote-portal) —— 给 DSH 加一道带鉴权的正门：局域网扫码配对，公网走自己的中继访问。
 - [Userluckytian/dsh-bili-workbench](https://github.com/Userluckytian/dsh-bili-workbench) —— B 站工作台：素材库、AI 视频二创、审核 / 发布与自动互动。
 - [winlin926/dsh-roam](https://github.com/winlin926/dsh-roam) —— 把电脑上的 DSH 会话漫游到手机：浏览器扫码即用，AI-HUB App 共用同一地址和配对码。
+- [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) —— Moleculer 集成：接入 Moleculer 网格，把每个服务发布为模型工具，同时以 MCP 暴露同一组工具，并把服务上下线变化告知模型。
 
 ## 编排器与聚合器
 
@@ -5531,6 +5537,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [pj1433139082-hue/agent-dispatch](https://github.com/pj1433139082-hue/agent-dispatch) —— 票据契约、依赖分波、工单渲染与证据门禁的任务编排分发 CLI，支持向 DSH 任务看板真实推送、状态回读与外部结果回写。
 - [TheFool-TAROT/dsh-brain-hands](https://github.com/TheFool-TAROT/dsh-brain-hands) —— DeepSeek Harness 的「大脑 + 手」：编排模型负责规划，具名的手用各自（常常免费的）模型执行，自动注入共享项目状态并校验手的产出。
 - [1225Sakura/oh-my-deepseekharness](https://github.com/1225Sakura/oh-my-deepseekharness) —— DeepSeek Harness 的多智能体编排层 —— 42 skills / 33 角色卡 / 55 MCP 工具 / graph DAG 运行时 / team 流水线 / HUD 面板，OMC/OMX 理念的 dsh 原生适配。
+- [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) —— 定时任务：到点在工作区目录中新建对话并交给它任务，支持 cron 预设、按任务选模型、补跑或跳过漏掉的运行，并提供 cron_* 工具给模型。
 
 ## UI / 客户端
 
@@ -7595,6 +7602,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [n431mn/lazy-workspace-manager](https://github.com/n431mn/lazy-workspace-manager) —— 侧栏默认留空，添加哪个目录就只加载哪个目录的工作区与会话。
 - [TanukiRei/dsh-tanuki-toolbox](https://github.com/TanukiRei/dsh-tanuki-toolbox) —— 黎猫工具箱：快捷栏、起始页、对话框与模型设置、消息通知、插件管理及 Windows 启动保护。
 - [taotao7/dsh-pretty-cool](https://github.com/taotao7/dsh-pretty-cool) —— 紧凑的 OMP 风格界面：原生控件、明暗主题，以及作者维护的 Discover 索引。
+- [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) —— DSH 桌面窗口（基于 Neutralinojs）：启动 dsh --profile web，关闭时收进托盘，保持单实例而不再开第二个窗口。
 
 ## Skill
 
