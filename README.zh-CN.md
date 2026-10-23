@@ -357,7 +357,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [raktim-mondol/academic-harness](https://github.com/raktim-mondol/academic-harness) —— 作为 DSH Profile 插件的 Academic Harness：研究人格、科研 Skill 目录、活页实验记录本与专家子代理。
 - [elfmingh/dsh-prompt-manager](https://github.com/elfmingh/dsh-prompt-manager) —— 分层提示词管理器：按工作区或会话复用条目，内置段落覆盖与行级 diff，并提供真实的组装快照。
 - [1497105876/dsh-text-inject](https://github.com/1497105876/dsh-text-inject) —— DSH 插件：在官方设置页把文字注入系统提示词 / 会话上下文，独立文件存储，支持热加载与历史备份。
-- [ft54482/chengzipro-dsh-plugin](https://github.com/ft54482/chengzipro-dsh-plugin) —— 橙子 PRO 中转站 DSH 插件：覆盖多款国内外模型的折扣渠道（DeepSeek V4.1 2.5 折、缓存率 95%+、官 Key 非号池）。
+- [ft54482/chengzipro-dsh-plugin](https://github.com/ft54482/chengzipro-dsh-plugin) —— 橙子 PRO 中转站的 DSH 模型渠道插件：以 New API 兼容的中转渠道接入模型选择器，支持账号登录、模型目录、图片输入与图片 / 视频生成工具。
 - [zenVibeCoding/dsh-newapi-provider](https://github.com/zenVibeCoding/dsh-newapi-provider) —— 面向 DeepSeek Harness 的 New API 网关：多渠道模型、额度、图片与视频生成。
 
 ## Harness 与运行时

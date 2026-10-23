@@ -356,7 +356,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [raktim-mondol/academic-harness](https://github.com/raktim-mondol/academic-harness) — Academic Harness as a DSH profile plugin: research persona, scientific skills catalogue, a living lab notebook and specialist sub-agents.
 - [elfmingh/dsh-prompt-manager](https://github.com/elfmingh/dsh-prompt-manager) — Layered prompt manager for DeepSeek Harness: reusable entries per workspace or session, built-in section overrides with line-level diff, and real assembly snapshots.
 - [1497105876/dsh-text-inject](https://github.com/1497105876/dsh-text-inject) — DSH plugin: inject text into the system prompt or session context from the Settings page, with standalone file storage, hot reload and history backups.
-- [ft54482/chengzipro-dsh-plugin](https://github.com/ft54482/chengzipro-dsh-plugin) — Chengzi PRO relay-station provider plugin for DSH: a discounted channel covering many domestic and overseas models (DeepSeek V4.1 at 2.5x off, 95%+ cache hit rate, official keys rather than an account pool).
+- [ft54482/chengzipro-dsh-plugin](https://github.com/ft54482/chengzipro-dsh-plugin) — Chengzi PRO relay-station provider plugin for DSH: adds a New API–compatible relay channel as a model provider, with account login, a model catalogue, image input and image / video generation tools.
 - [zenVibeCoding/dsh-newapi-provider](https://github.com/zenVibeCoding/dsh-newapi-provider) — New API gateway provider for DeepSeek Harness: multi-channel models, quota, image and video generation.
 
 ## Harnesses & Runtimes
