@@ -7595,6 +7595,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [n431mn/lazy-workspace-manager](https://github.com/n431mn/lazy-workspace-manager) — Keeps the sidebar empty and loads a workspace and its sessions only for the folders you add.
 - [TanukiRei/dsh-tanuki-toolbox](https://github.com/TanukiRei/dsh-tanuki-toolbox) — Modular UI enhancements: quick bar, start page, composer and model settings, notifications, plugin management and Windows startup protection.
 - [taotao7/dsh-pretty-cool](https://github.com/taotao7/dsh-pretty-cool) — Compact OMP-inspired UI: native controls, light / dark themes and an author-maintained Discover index.
+- [weibaohui/dsh-sidebar-tidy](https://github.com/weibaohui/dsh-sidebar-tidy) — Sidebar tidy: when plugins pile up, the rows under 'New session' get crowded with panel and plugin entries. This plugin folds them all — global panel rows, plugin-injected entry rows (own and third-party alike), and bottom entries — into a single menu button whose secondary menu triggers each entry exactly as before; keep any entry permanently visible with a name whitelist, and the button turns into an icon when the sidebar collapses to a narrow rail.
 
 ## Skills
 

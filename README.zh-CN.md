@@ -7595,6 +7595,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [n431mn/lazy-workspace-manager](https://github.com/n431mn/lazy-workspace-manager) —— 侧栏默认留空，添加哪个目录就只加载哪个目录的工作区与会话。
 - [TanukiRei/dsh-tanuki-toolbox](https://github.com/TanukiRei/dsh-tanuki-toolbox) —— 黎猫工具箱：快捷栏、起始页、对话框与模型设置、消息通知、插件管理及 Windows 启动保护。
 - [taotao7/dsh-pretty-cool](https://github.com/taotao7/dsh-pretty-cool) —— 紧凑的 OMP 风格界面：原生控件、明暗主题，以及作者维护的 Discover 索引。
+- [weibaohui/dsh-sidebar-tidy](https://github.com/weibaohui/dsh-sidebar-tidy) —— 侧栏收纳：把「新会话」下方被各插件塞满的入口行——全局面板行、插件入口行（自家/第三方一律识别）、底部入口——统统收进一个菜单按钮，点开二级菜单原样触发各入口；想常驻的加名称白名单即可，侧栏折叠成窄轨时按钮自动变纯图标。
 
 ## Skill
 
