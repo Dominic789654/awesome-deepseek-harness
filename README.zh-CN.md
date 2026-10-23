@@ -7527,6 +7527,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [use3346631993/dsh-xiaod-pet](https://github.com/use3346631993/dsh-xiaod-pet) —— DeepSeek Harness 桌宠主题插件：可拖拽角色、右下角 token / 思考时间立牌、聊天背景与液态玻璃界面。
 - [vi0let-dev/dsh-theme-studio](https://github.com/vi0let-dev/dsh-theme-studio) —— DeepSeek Harness 界面的背景图、字体排版、面板透明度与毛玻璃效果。
 - [wanderer-yk/dsh-xueqiu](https://github.com/wanderer-yk/dsh-xueqiu) —— 雪球 mini 行情面板：免登录的 A 股 / 港美股实时行情、K 线、分时、热榜与 7x24 快讯，可拖拽悬浮面板，交易时段智能刷新。
+- [jryang1997/dsh-ascii-whales](https://github.com/jryang1997/dsh-ascii-whales) —— 海面正上方俯视的对话背景，支持用自定义文字或 ASCII 组成五种鲸类，含彩色字格、内容框毛玻璃、输入框避让、独立下潜、喷水、尾拍涟漪、风纹与云影。
 - [yxflc11/dsh-asciishark](https://github.com/yxflc11/dsh-asciishark) —— DeepSeek Harness（Web / 桌面）的 ASCII 鲨鱼海洋 + Apple 液态玻璃背景。
 - [zueston/dsh-alarm](https://github.com/zueston/dsh-alarm) —— DSH 报警插件：报警条件可选，支持提醒 / 弹窗 / 铃声 / 语音播报四种通道。
 

@@ -7527,6 +7527,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [use3346631993/dsh-xiaod-pet](https://github.com/use3346631993/dsh-xiaod-pet) — Desktop-pet theme plugin for DeepSeek Harness: a draggable character, a token / thinking-time sign in the bottom-right corner, chat backgrounds and a liquid-glass interface.
 - [vi0let-dev/dsh-theme-studio](https://github.com/vi0let-dev/dsh-theme-studio) — Background image, typography, panel transparency and frosted glass for the DeepSeek Harness UI.
 - [wanderer-yk/dsh-xueqiu](https://github.com/wanderer-yk/dsh-xueqiu) — Xueqiu mini quote panel for DeepSeek Harness: login-free real-time A-share / HK / US quotes, K-line, intraday chart, hot list and 24/7 news in a draggable floating panel that refreshes smartly during trading hours.
+- [jryang1997/dsh-ascii-whales](https://github.com/jryang1997/dsh-ascii-whales) — Overhead conversation background with five whale species formed from custom text or ASCII, shaded cells, frosted content cards, input-box avoidance, independent dives, spouts, ripples, wind, and cloud shadows.
 - [yxflc11/dsh-asciishark](https://github.com/yxflc11/dsh-asciishark) — ASCII shark ocean plus an Apple Liquid Glass background for DeepSeek Harness (DSH Web / Desktop).
 - [zueston/dsh-alarm](https://github.com/zueston/dsh-alarm) — DSH alarm plugin: choose your alarm conditions and send them through four channels — reminder, popup, sound or voice.
 
