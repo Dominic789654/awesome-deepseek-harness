@@ -4911,6 +4911,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [EdgarsKalnins/dsh-gemini-notebook-mcp](https://github.com/EdgarsKalnins/dsh-gemini-notebook-mcp) — DeepSeek Harness plugin for Gemini Notebook / Google NotebookLM MCP: notebooks, sources, grounded Q&A, research, audio podcasts, video and slides — 53 tools via notebooklm-mcp-cli.
 - [Ppppan9/dsh-plugin-cocos-mcp](https://github.com/Ppppan9/dsh-plugin-cocos-mcp) — Drive a live Cocos Creator 3.8.x editor from AI agents over MCP: 111 verified editor messages, a zero-dependency stdio server, an editor bridge with undo-journal transactions and an offline prefab/animation editor.
 - [JialaoLiu/dsh-baton](https://github.com/JialaoLiu/dsh-baton) — Pass the baton from Claude Code or Codex to a local DeepSeek Harness: an MCP server that hands off tasks and brings the result back.
+- [hxlog/dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) — MCP server and tool manager in DSH settings: add streamable-http or stdio servers, fill header rows Postman-style, test connectivity, and switch individual tools off so disabled tools never reach the model.
 
 ## Tools & Integrations
 

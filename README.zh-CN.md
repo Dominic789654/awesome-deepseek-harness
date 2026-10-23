@@ -4921,6 +4921,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [EdgarsKalnins/dsh-gemini-notebook-mcp](https://github.com/EdgarsKalnins/dsh-gemini-notebook-mcp) —— Gemini Notebook / Google NotebookLM MCP 的 DSH 插件：笔记本、来源、有依据的问答、研究、音频播客、视频与幻灯片——通过 notebooklm-mcp-cli 提供 53 个工具。
 - [Ppppan9/dsh-plugin-cocos-mcp](https://github.com/Ppppan9/dsh-plugin-cocos-mcp) —— 通过 MCP 让 AI agent 操作运行中的 Cocos Creator 3.8.x：111 条已验证编辑器消息、零依赖 stdio server、带 undo 日志事务的编辑器桥、离线 prefab / 动画编辑器。
 - [JialaoLiu/dsh-baton](https://github.com/JialaoLiu/dsh-baton) —— 把 Claude Code 或 Codex 的活交接给本地 DSH：一个 MCP server，负责派发任务并带回结果。
+- [hxlog/dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) —— DSH 设置内的 MCP 服务器与工具管理器：添加 streamable-http / stdio 服务器，像 Postman 一样逐行填写请求头，测试连通性，并按工具逐个开关——停用的工具不会注册进模型。
 
 ## 工具与集成
 
