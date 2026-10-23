@@ -1472,6 +1472,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [gongstudent/dsh-cline-connect](https://github.com/gongstudent/dsh-cline-connect) —— 自包含的 Cline 供应商：支持 free（cline-free/*）与 ClinePass（cline-pass/*）模型，并带上网关要求的 x-client-type 产品面请求头。
 - [fireishott/Kallisti](https://github.com/fireishott/Kallisti) —— Rust 写的自托管助手常驻服务：自带模型服务商、流式对话、沙箱化工具、MCP 客户端与审批闸门，本地优先、MIT。
 - [mosabbir-maruf/ai-workstation-cli](https://github.com/mosabbir-maruf/ai-workstation-cli) —— 面向 VPS 的安全可复用开发工作站：隔离的 Docker 项目、DeepSeek Harness、GitHub App 认证、SSH 预览与简单的生命周期管理。
+- [hyperion2144/dsh-desktop-plus](https://github.com/hyperion2144/dsh-desktop-plus) —— DSH Desktop Plus，DeepSeek Harness 桌面发行版：官方代码以 `upstream/` 子树跟踪（主干为无上游祖先的孤儿根），在此之上叠加运行时切换、桌面专属能力与桌面端打包分发。
 
 ## 安全与权限
 
@@ -1801,6 +1802,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [GoshawkGGGG/dsh-safe-tool](https://github.com/GoshawkGGGG/dsh-safe-tool) —— DeepSeek Harness 的 AI 工具审批插件：用 AI 审核 AGENT 调用工具的合规性并决定是否执行，审核标准可定制。
 - [stushansusu/dsh-delete-guard](https://github.com/stushansusu/dsh-delete-guard) —— 删除守卫：按会话统计 AI 的删除量，累计超过阈值就中断这次调用，并把已删除的文件清单交给你确认。
 - [huanlin-labs/dsh-isolation-gate](https://github.com/huanlin-labs/dsh-isolation-gate) —— 默认拒绝的目录授权台（隔离门）：名册、分组、审计日志与 Agent 自检。
+- [malko/aibox](https://github.com/malko/aibox) —— 把 AI 关进它自己的盒子：在独立 KVM 虚拟机里跑 DSH 等编码 agent，通过 SSH 隧道访问。
+- [runseal-labs/dsh-tool-runseal](https://github.com/runseal-labs/dsh-tool-runseal) —— RunSeal 沙箱插件：为 dsh 提供 OS 原生、策略强制执行的命令执行边界（Windows / macOS / Linux）。
 
 ## 会话与记忆管理
 
@@ -2560,6 +2563,9 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [huangye0623-creator/dsh-records-router](https://github.com/huangye0623-creator/dsh-records-router) —— 省上下文的记录路由：为 DSH 工作区日志建标题索引，用中文二元组 + IDF/覆盖率打分，只读命中的行区间而不是整份日志；纯 Python，无向量库。非官方。
 - [hunyu-feng/dsh-context-handoff](https://github.com/hunyu-feng/dsh-context-handoff) —— 实时上下文压力表：窗口填满前把工作交接给新会话，并附上模型撰写的简报。
 - [Ma354/dsh-limit-break](https://github.com/Ma354/dsh-limit-break) —— 持久化跨会话记忆 + 面向恶劣网络的抓取阶梯（fetch ladder）。
+- [CatLollipop/dsh-parallel-sessions](https://github.com/CatLollipop/dsh-parallel-sessions) —— 并行会话协调插件：检测并行会话，带发起方归属地转发跨会话消息，阶段冲突时暂停并自动恢复。
+- [esketids/dsh-forget-session-en](https://github.com/esketids/dsh-forget-session-en) —— dsh-forget-session 的英文分支：为 DeepSeek Harness 提供两步式「忘记会话」操作。
+- [xingyueDanYang/dsh-puppet-memory](https://github.com/xingyueDanYang/dsh-puppet-memory) —— 跨会话记忆插件：分层笔记、恒定注入的 600 字核心卡片、社交 / 多人记录、会话级抑制，并内置备份恢复与安装自检。
 
 ## 成本与用量统计
 
@@ -4573,6 +4579,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [qingying012/dsh-chinese-thinking](https://github.com/qingying012/dsh-chinese-thinking) —— 让每个 Agent 都用简体中文推理。
 - [shiyi312/dsh-poqiong](https://github.com/shiyi312/dsh-poqiong) —— Poqiong 破穹——DSH 破甲插件：提示词协议 + 运行时释放 + 可逆补丁 + 内置控制面板。
 - [wangxuewangxue98/dsh-daoyi-yijing](https://github.com/wangxuewangxue98/dsh-daoyi-yijing) —— 道一-易经推演 · 通用决策评审 DSH 插件（决策辅助，非迷信）：六层加权聚合引擎（384 爻→64 卦→8 宫→四象→三才→两仪→太极），纯 JS 零求解器依赖。
+- [rrdongdong/readproof](https://github.com/rrdongdong/readproof) —— 构建在 DSH 之上的科研助手 agent，拒绝假装读过论文：每条结论都要有页码级凭据，笔记保留论文之间的缝隙而不是碎成自由文本。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -5202,6 +5209,11 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [hunyu-feng/dsh-video-digest](https://github.com/hunyu-feng/dsh-video-digest) —— 把视频链接（B 站 / YouTube / 任意页面）变成有字幕稿依据的摘要，并明确说明用了哪些证据。
 - [hunyu-feng/dsh-vision](https://github.com/hunyu-feng/dsh-vision) —— 给 DSH Agent 与 MCP 客户端的视觉能力：analyze_image 支持本地文件或 URL，走火山方舟豆包模型并带模型回退。
 - [yuezhiye/dsh-closet](https://github.com/yuezhiye/dsh-closet) —— DSH 插件 · 收纳间：按工作区统一管理临时脚本与日志（登记 · 扫描 · 执行 · 清运 · 回收站 · 面板）。
+- [ALittleLov/dsh-soundcheck](https://github.com/ALittleLov/dsh-soundcheck) —— 本地音乐分析插件：让文本模型读懂一首歌——把音频拆成能量、速度、调性、密度，音频不出本机。
+- [jingchangzhao-gif/error-knowledge-base](https://github.com/jingchangzhao-gif/error-knowledge-base) —— 面向 LLM 工具的报错知识库：一次记录失败、留住修法，在模型重新诊断之前把它递回去。Windows CLI 与常驻守护进程，DSH / Codex / Claude 连接器，MCP Server，PostgreSQL 存储。
+- [KNLCXY/dsh-github](https://github.com/KNLCXY/dsh-github) —— DSH 的 GitHub 工具：REST API 调用、一次提交多个文件、创建仓库。Token 只存在插件设置里（示例只给占位符，绝不设默认值），不进仓库也不进工具输出。
+- [Oxmyxo/dsh-markji-bridge](https://github.com/Oxmyxo/dsh-markji-bridge) —— 给 DSH agent 接上墨墨记单词（Markji）卡片：本地 SQLite 缓存、纯文本搜索、排队编辑、归档，以及可断点续传的后台同步。
+- [ThePuristImpurity/dsh-tuanjie-plugin](https://github.com/ThePuristImpurity/dsh-tuanjie-plugin) —— 通过 Codely 桥驱动团结引擎编辑器：场景、GameObject、组件属性、编辑器命令与 C# 执行。
 
 ## 编排器与聚合器
 
@@ -7482,6 +7494,13 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [hennysky/dsh-notch](https://github.com/hennysky/dsh-notch) —— DeepSeek Harness 的 macOS 原生伴侣：刘海看余额，任务完成或等你处理时发系统通知（配套 DSH 插件）。
 - [Sama05/dsh-download-progress](https://github.com/Sama05/dsh-download-progress) —— DSH 的毛玻璃下载进度浮层。
 - [yzmin/dsh-whale-pet](https://github.com/yzmin/dsh-whale-pet) —— DSH Web UI 的动态 DeepSeek 鲸鱼宠物：实时状态、完成提示音，以及互动与 token/费用面板；零依赖、无需构建。
+- [CatLollipop/dsh-composer-draft-cache](https://github.com/CatLollipop/dsh-composer-draft-cache) —— 输入框草稿缓存插件：按工作区缓存新会话草稿、按会话缓存历史会话草稿，切换后自动恢复；已发送或已清空的草稿不会再冒出来，直到关闭应用。
+- [GT-610/dsh-workspace-organize](https://github.com/GT-610/dsh-workspace-organize) —— 把 DSH 工作区归入命名分组，在侧边栏按「分组 > 工作区 > 会话」浏览。
+- [linuxsung/dsh-sidebar-manager](https://github.com/linuxsung/dsh-sidebar-manager) —— 侧边栏管理器：清除、归档 / 恢复、移动、重命名、派生会话与工作区，带日志化的两阶段提交事务。
+- [lixiangdong122333/dsh-notify](https://github.com/lixiangdong122333/dsh-notify) —— DeepSeek Harness 的 Windows 通知：任务完成或 agent 需要你时，用弹窗把你拉回来。
+- [RestRegular/dsh-notepad](https://github.com/RestRegular/dsh-notepad) —— 会话视图里的按工作区浮动便签窗：记问题、记下一步，一键插入输入框，可拖动、最小化、隐藏。
+- [SilasSolivagus/dsh-kanban](https://github.com/SilasSolivagus/dsh-kanban) —— DeepSeek Harness 的原生任务看板：四列、审批、阻塞项、附件与持久化 Host 存储。不是 iframe。
+- [Witherwithwinter/DSH-Codinput](https://github.com/Witherwithwinter/DSH-Codinput) —— 把 DeepSeek Harness 的聊天输入框换成编辑器式的输入面板。
 
 ## Skill
 
@@ -7917,6 +7936,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [JKL-agents/toollery-dsh](https://github.com/JKL-agents/toollery-dsh) —— 社区维护的 Toollery 集成：为 DSH 提供可扩展、免训练的技能与工具检索。
 - [huanlin-labs/dsh-skill-cockpit](https://github.com/huanlin-labs/dsh-skill-cockpit) —— DSH 技能驾驶舱：一页列出本机暴露的全部 skill、某个 skill 为何不可见、每个 skill 的使用次数，以及单文件开关。
 - [xinyanglii/dsh-skill-curator](https://github.com/xinyanglii/dsh-skill-curator) —— Hermes 风格的进程内后台技能学习。
+- [sqxart/course-study-dsh](https://github.com/sqxart/course-study-dsh) —— DSH 专用网课减负技能：证据优先地看完学习通视频、答对弹题；章节测验先取证，再按授权提交。
 
 ## 资源
 

@@ -1470,6 +1470,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [gongstudent/dsh-cline-connect](https://github.com/gongstudent/dsh-cline-connect) — Self-contained Cline provider for DeepSeek Harness: free (cline-free/*) and ClinePass (cline-pass/*) models, with the x-client-type product-surface header the gateway requires.
 - [fireishott/Kallisti](https://github.com/fireishott/Kallisti) — Self-hosted assistant daemon in Rust: bring your own model provider, streaming chat, sandboxed tools, an MCP client and an approval gate. Local-first, MIT.
 - [mosabbir-maruf/ai-workstation-cli](https://github.com/mosabbir-maruf/ai-workstation-cli) — Secure, reusable development workstation for VPS: isolated Docker projects, DeepSeek Harness, GitHub App authentication, SSH previews and simple lifecycle management.
+- [hyperion2144/dsh-desktop-plus](https://github.com/hyperion2144/dsh-desktop-plus) — DSH Desktop Plus, a desktop distribution of DeepSeek Harness: upstream code is tracked as an `upstream/` subtree (the trunk is an orphan root with no upstream ancestor), with runtime switching, desktop-only capabilities and desktop packaging layered on top.
 
 ## Security & Permissions
 
@@ -1794,6 +1795,8 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [GoshawkGGGG/dsh-safe-tool](https://github.com/GoshawkGGGG/dsh-safe-tool) — Tool-approval plugin for DeepSeek Harness: an AI reviews whether an agent's tool call is compliant and decides whether to execute it; review criteria are configurable.
 - [stushansusu/dsh-delete-guard](https://github.com/stushansusu/dsh-delete-guard) — Deletion guard for DSH: meters AI deletions per session, terminates the call once the cumulative size passes a threshold, then asks the user with the list of files already deleted.
 - [huanlin-labs/dsh-isolation-gate](https://github.com/huanlin-labs/dsh-isolation-gate) — Default-deny directory authorization desk (isolation gate) with roster, groups, audit log and agent self-check.
+- [malko/aibox](https://github.com/malko/aibox) — Your AI, in its own box: run coding agents such as DSH inside a dedicated KVM virtual machine reached over an SSH tunnel.
+- [runseal-labs/dsh-tool-runseal](https://github.com/runseal-labs/dsh-tool-runseal) — RunSeal sandbox provider for DSH: an OS-native, policy-enforced command-execution boundary on Windows / macOS / Linux.
 
 ## Session & Memory Management
 
@@ -2554,6 +2557,9 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [huangye0623-creator/dsh-records-router](https://github.com/huangye0623-creator/dsh-records-router) — Context-saving records router for DSH workspaces: indexes headings, scores with Chinese bigrams + IDF/coverage, and reads only the matched line ranges instead of whole logs. Pure Python, no vector DB. Unofficial.
 - [hunyu-feng/dsh-context-handoff](https://github.com/hunyu-feng/dsh-context-handoff) — Live context pressure meter that hands work to a fresh session with a model-written brief before the window fills up.
 - [Ma354/dsh-limit-break](https://github.com/Ma354/dsh-limit-break) — Durable cross-session memory plus a hostile-network fetch ladder for DeepSeek Harness.
+- [CatLollipop/dsh-parallel-sessions](https://github.com/CatLollipop/dsh-parallel-sessions) — Parallel-session coordinator: detects parallel sessions, routes cross-session messages with initiator attribution, and pauses / auto-resumes on phase conflicts.
+- [esketids/dsh-forget-session-en](https://github.com/esketids/dsh-forget-session-en) — English fork of dsh-forget-session: a two-step Forget session action for DeepSeek Harness.
+- [xingyueDanYang/dsh-puppet-memory](https://github.com/xingyueDanYang/dsh-puppet-memory) — Cross-session memory for DSH: layered notes, a 600-char always-injected core card, social / multi-person records, session-scoped suppression, plus built-in backup / restore and a setup doctor.
 
 ## Cost & Usage Tracking
 
@@ -4560,6 +4566,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [qingying012/dsh-chinese-thinking](https://github.com/qingying012/dsh-chinese-thinking) — Tells every agent to reason in Simplified Chinese.
 - [shiyi312/dsh-poqiong](https://github.com/shiyi312/dsh-poqiong) — Poqiong — armor-break plugin for DeepSeek Harness: prompt protocol, runtime release, reversible patches and a built-in control panel.
 - [wangxuewangxue98/dsh-daoyi-yijing](https://github.com/wangxuewangxue98/dsh-daoyi-yijing) — Daoyi I-Ching deduction · general decision-review plugin (decision aid, not superstition): a six-layer weighted aggregation engine (384 yao → 64 hexagrams → 8 palaces → four images → three talents → two modes → taiji), pure JS with no solver dependencies.
+- [rrdongdong/readproof](https://github.com/rrdongdong/readproof) — Research-assistant agent built on DSH that refuses to pretend it read the paper: every claim must carry a page-level receipt, and notes keep the seams between papers instead of fragmenting into free text.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -5192,6 +5199,11 @@ _Plugins that give the agent tools for external services (container registries, 
 - [hunyu-feng/dsh-video-digest](https://github.com/hunyu-feng/dsh-video-digest) — Turns a video link (Bilibili / YouTube / any page) into a transcript-backed summary, and states plainly what evidence it used.
 - [hunyu-feng/dsh-vision](https://github.com/hunyu-feng/dsh-vision) — Vision for DSH agents and MCP clients: analyze_image over local files or URLs using Doubao models on Volcano Ark, with model fallback.
 - [yuezhiye/dsh-closet](https://github.com/yuezhiye/dsh-closet) — Closet: per-workspace management for temporary scripts and logs — register, scan, run, clear, recycle bin and a panel.
+- [ALittleLov/dsh-soundcheck](https://github.com/ALittleLov/dsh-soundcheck) — Local music-analysis plugin that teaches a text model to read a song: splits the audio into energy, tempo, key and density, and the audio never leaves the machine.
+- [jingchangzhao-gif/error-knowledge-base](https://github.com/jingchangzhao-gif/error-knowledge-base) — Error knowledge base for LLM tools: record a failure once, keep the fix, and hand it back before the model re-diagnoses. Windows CLI and daemon, DSH / Codex / Claude connectors, MCP server, PostgreSQL store.
+- [KNLCXY/dsh-github](https://github.com/KNLCXY/dsh-github) — GitHub tools for DSH: REST API calls, multi-file commits in one commit and repo creation. The token lives in plugin settings (example placeholder only, never a default), never in the repo or in tool output.
+- [Oxmyxo/dsh-markji-bridge](https://github.com/Oxmyxo/dsh-markji-bridge) — Give a DSH agent Markji (Maimemo) cards: local SQLite cache, plain-text search, queued edits, archive and background sync with crash-resume.
+- [ThePuristImpurity/dsh-tuanjie-plugin](https://github.com/ThePuristImpurity/dsh-tuanjie-plugin) — DSH plugin that drives the Tuanjie editor through its Codely bridge: scenes, GameObjects, component properties, editor commands and C# execution.
 
 ## Orchestrators & Aggregators
 
@@ -7482,6 +7494,13 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [hennysky/dsh-notch](https://github.com/hennysky/dsh-notch) — macOS native companion for DeepSeek Harness: shows your balance in the notch and sends a system notification when a task finishes or waits for you (with a matching DSH plugin).
 - [Sama05/dsh-download-progress](https://github.com/Sama05/dsh-download-progress) — Frosted-glass download progress overlay for DeepSeek Harness.
 - [yzmin/dsh-whale-pet](https://github.com/yzmin/dsh-whale-pet) — Animated DeepSeek whale pet for the DSH Web UI: live status, completion chime, and an interaction + token/cost panel. No dependencies, no build step.
+- [CatLollipop/dsh-composer-draft-cache](https://github.com/CatLollipop/dsh-composer-draft-cache) — Composer draft cache: keeps new-session drafts per workspace and historical-session drafts per session, restores them on switch, and never resurfaces sent or cleared drafts until the app restarts.
+- [GT-610/dsh-workspace-organize](https://github.com/GT-610/dsh-workspace-organize) — Group DSH workspaces into named groups and browse group > workspace > session in the sidebar.
+- [linuxsung/dsh-sidebar-manager](https://github.com/linuxsung/dsh-sidebar-manager) — Sidebar Manager: purge, archive / restore, move, rename and fork sessions / workspaces with journaled two-phase-commit transactions.
+- [lixiangdong122333/dsh-notify](https://github.com/lixiangdong122333/dsh-notify) — Windows toast notifications for DeepSeek Harness: get pulled back when a task finishes or the agent needs you.
+- [RestRegular/dsh-notepad](https://github.com/RestRegular/dsh-notepad) — Notepad: a per-workspace floating note window in the session view for problems and next steps, with one-click insert into the composer, drag, minimize and hide.
+- [SilasSolivagus/dsh-kanban](https://github.com/SilasSolivagus/dsh-kanban) — The native task board for DeepSeek Harness: four columns, approvals, blockers, attachments and durable host storage. Not an iframe.
+- [Witherwithwinter/DSH-Codinput](https://github.com/Witherwithwinter/DSH-Codinput) — Replace the DSH chat composer with an editor-style input panel.
 
 ## Skills
 
@@ -7915,6 +7934,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [JKL-agents/toollery-dsh](https://github.com/JKL-agents/toollery-dsh) — Community Toollery integration for DeepSeek Harness: scalable, training-free skill and tool retrieval.
 - [huanlin-labs/dsh-skill-cockpit](https://github.com/huanlin-labs/dsh-skill-cockpit) — Skill cockpit for DSH: one page listing every skill the machine exposes, why a skill is invisible, per-skill usage counts, and a one-file toggle.
 - [xinyanglii/dsh-skill-curator](https://github.com/xinyanglii/dsh-skill-curator) — Hermes-style in-process background skill learning for DeepSeek Harness.
+- [sqxart/course-study-dsh](https://github.com/sqxart/course-study-dsh) — Study-load-reduction skill for DSH: evidence-first completion of Chaoxing course videos, quiz questions and chapter tests — evidence is collected first and tests are submitted only under authorization.
 
 ## Resources
 
