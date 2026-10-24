@@ -1818,7 +1818,6 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [Anguis-L/dsh-plugin-trust-audit](https://github.com/Anguis-L/dsh-plugin-trust-audit) — Read-only audit of plugin HTTP routes: reports whether each route really has an auth fence (fenced / open / absent / unknown).
 - [laoer/dsh-whitelist-auto-approval](https://github.com/laoer/dsh-whitelist-auto-approval) — Per-command sandbox allow-list for the DSH bash tool: allow-listed CLIs (lark-cli, gh, ...) run under a home-writable sandbox instead of prompting for danger-full-access.
 - [zoushangkun-dev/dsh-startup-auth-cn](https://github.com/zoushangkun-dev/dsh-startup-auth-cn) — Startup gate for DeepSeek Harness: a six-act cold-boot animation plus PIN / Windows Hello / authenticator codes to unlock — fully local, zero dependencies.
-- [lochimary1-cpu/bingbing](https://github.com/lochimary1-cpu/bingbing) — Host-side plugin: three-stage jailbreak-prompt delivery, policy-context rewriting and a runtime switch panel.
 
 ## Session & Memory Management
 

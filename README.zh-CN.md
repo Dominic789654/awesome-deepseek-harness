@@ -1825,7 +1825,6 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Anguis-L/dsh-plugin-trust-audit](https://github.com/Anguis-L/dsh-plugin-trust-audit) — 只读审计插件 HTTP 路由是否真的做了鉴权栅栏（fenced / open / absent / unknown）。
 - [laoer/dsh-whitelist-auto-approval](https://github.com/laoer/dsh-whitelist-auto-approval) — DSH bash 工具的按命令沙箱白名单：白名单内的 CLI（lark-cli、gh 等）在用户目录可写的沙箱里运行，不再弹出 danger-full-access 授权。
 - [zoushangkun-dev/dsh-startup-auth-cn](https://github.com/zoushangkun-dev/dsh-startup-auth-cn) — 开机门：六幕冷启动动画 + PIN / Windows Hello / 验证器动态码解锁，纯本地、零依赖。
-- [lochimary1-cpu/bingbing](https://github.com/lochimary1-cpu/bingbing) —— 宿主侧插件：越狱提示词三段投递、策略上下文改写，以及运行时开关台。
 
 ## 会话与记忆管理
 
