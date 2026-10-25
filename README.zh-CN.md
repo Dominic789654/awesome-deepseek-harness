@@ -3320,6 +3320,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [lzaPro/dsh-cs-agent](https://github.com/lzaPro/dsh-cs-agent) —— DSH 客服台：QQ 接入、知识库、人工接管、运维派单。
 - [wufa-cat/dsh-qq-bot](https://github.com/wufa-cat/dsh-qq-bot) —— QQ 群聊/私聊机器人插件（DeepSeek Harness，macOS/Windows 开箱即用）：OneBot v11/NapCat、人设、表情包、工具白名单与联网搜索、对话巡检、关键词规则、定时消息、记忆管理、ASR/TTS/生图。基于 ezoiLZH/QQ-bot，经原作者许可发布。
 - [aleksvega/dsh-tg-bridge](https://github.com/aleksvega/dsh-tg-bridge) —— DeepSeek Harness 的 Telegram 桥：文字、语音、图片，按项目分话题的会话，不用打开桌面端。
+- [radres/dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) —— 当运行需要回答时，通过 /call-me 应用给用户的 iPhone 打电话：问题被朗读出来，口头回答以文字形式回到运行中。该应用为付费订阅。
 
 ## 插件市场与生态
 
