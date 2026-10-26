@@ -3316,6 +3316,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [lzaPro/dsh-cs-agent](https://github.com/lzaPro/dsh-cs-agent) — DSH customer-service desk: QQ integration, knowledge base, human hand-off, and ops dispatch.
 - [wufa-cat/dsh-qq-bot](https://github.com/wufa-cat/dsh-qq-bot) — QQ group/private-chat bot plugin for DeepSeek Harness (macOS/Windows, works out of the box): OneBot v11/NapCat, persona, stickers, tool allow-list and web search, conversation auditing, keyword rules, scheduled messages, memory management, ASR/TTS/image generation. Based on ezoiLZH/QQ-bot, released with the original author's permission.
 - [aleksvega/dsh-tg-bridge](https://github.com/aleksvega/dsh-tg-bridge) — Telegram bridge for DeepSeek Harness: text, voice, photos and project-per-topic sessions without opening the desktop app.
+- [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) — WeChat (iLink) channel for DeepSeek Harness: every message is written to disk before processing and turns run strictly one at a time, so a crash or restart loses no messages and a slow turn cannot be overtaken.
 
 ## Plugin Marketplaces & Ecosystem
 - [1575088/dsh-bridge-market](https://github.com/1575088/dsh-bridge-market) — Bridge marketplace for DSH: 49 websites and apps shown as cards — one click adds the matching `mcp__<app>__*` tools to the agent, with one-click setups where possible and step-by-step guides where not.
