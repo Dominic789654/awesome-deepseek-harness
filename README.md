@@ -1828,6 +1828,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [reviso-si/reviso-dsh](https://github.com/reviso-si/reviso-dsh) — Reviso for DeepSeek Harness (DSH): publish agent output for human review and find it again from the session.
 - [XiaoOu2024/dsh-self-review](https://github.com/XiaoOu2024/dsh-self-review) — Holds each DSH final answer before delivery, has an independent minimal-context model call verify it, and releases only the verified text.
 - [Lstions/dsh-web-password-auth](https://github.com/Lstions/dsh-web-password-auth) — Username and password sign-in for the DSH Web UI, with persistent sessions, an in-app security settings page and optional TOTP two-factor authentication.
+- [imtokenxinluo/dsh-contract-check](https://github.com/imtokenxinluo/dsh-contract-check) — Policy check for installed plugins: flags kernel-contract violations that silently corrupt session history (tool results rendered as bare strings, session event types outside the kernel vocabulary), from a GUI badge or a pre-install CLI scan.
 
 ## Session & Memory Management
 
