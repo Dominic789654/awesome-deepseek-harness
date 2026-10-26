@@ -8268,6 +8268,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [Lightupdown/de-ai-flavor](https://github.com/Lightupdown/de-ai-flavor) — Chinese de-AI-flavor writing skill: eight genres, layered review, a surface linter and annotated positive / negative samples.
 - [yutang146012/github-tech-scout](https://github.com/yutang146012/github-tech-scout) — DSH skill that searches GitHub, reads READMEs and returns a decision-ready feasibility plan instead of a pile of links.
 - [Alice39s/agent-stash](https://github.com/Alice39s/agent-stash) — Personal stash of Agent Skills plus Pi and DSH plugins, kept in one repository.
+- [Dogwind221/DWcinematic-whitebox](https://github.com/Dogwind221/DWcinematic-whitebox) — Script-to-Blender whitebox previz skill: reads a screenplay, derives shots, blocking and camera moves, then drives Blender to render greybox previews in a cinematic framing style.
 
 ## Resources
 

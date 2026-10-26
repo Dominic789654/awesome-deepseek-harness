@@ -8269,6 +8269,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [Lightupdown/de-ai-flavor](https://github.com/Lightupdown/de-ai-flavor) —— 中文「去 AI 味」写作 skill：八类文体、分层审稿、体检脚本与正负样本库。
 - [yutang146012/github-tech-scout](https://github.com/yutang146012/github-tech-scout) —— DSH 技能：搜 GitHub、读 README，产出可直接决策的可行性方案，而不是一堆链接。
 - [Alice39s/agent-stash](https://github.com/Alice39s/agent-stash) —— 个人 Agent Skills 仓库，同时收纳 Pi 与 DSH 插件。
+- [Dogwind221/DWcinematic-whitebox](https://github.com/Dogwind221/DWcinematic-whitebox) —— 剧本转 Blender 白模预演 skill：读剧本推导分镜、走位与运镜，驱动 Blender 生成带镜头感的灰模预览。
 
 ## 资源
 
