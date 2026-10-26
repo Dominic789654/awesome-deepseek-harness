@@ -1835,6 +1835,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [reviso-si/reviso-dsh](https://github.com/reviso-si/reviso-dsh) —— Reviso for DeepSeek Harness（DSH）：把 agent 输出发给人 review，并能从会话里再找回来。
 - [XiaoOu2024/dsh-self-review](https://github.com/XiaoOu2024/dsh-self-review) —— 在最终答案交付前先拦截，用一次独立的最小上下文模型调用来校验，只放出通过校验的文本。
 - [Lstions/dsh-web-password-auth](https://github.com/Lstions/dsh-web-password-auth) —— 为 DSH Web UI 提供用户名 + 密码登录，支持会话保持、应用内安全设置页和可选 TOTP 双因素认证。
+- [imtokenxinluo/dsh-contract-check](https://github.com/imtokenxinluo/dsh-contract-check) —— 对已装插件做契约检查：揪出会静默写坏会话历史的内核契约违规（工具结果返回裸字符串、写入词汇表外的会话事件类型），可在界面徽章或安装前的 CLI 扫描中看到。
 
 ## 会话与记忆管理
 
