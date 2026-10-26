@@ -2628,6 +2628,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [JexLau/dsh-plugin-session-bus](https://github.com/JexLau/dsh-plugin-session-bus) — Direct session-to-session messaging for DSH: auto-discovered peers, agent-initiated collaboration and unread coalescing. No rooms, no group chat.
 - [Ersith/akasha-book-v2](https://github.com/Ersith/akasha-book-v2) — Akasha: an auditable external-brain memory toolkit for LLM agents — clean history, no personal memory snapshot.
 - [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) — Writable, git-versioned self for DSH: IDENTITY/SOUL/USER/RULES Markdown re-read into the system prompt on every assembly (edit the file, no restart), gated self-editing (≤800 chars, ≤3/day, mandatory `why`, auto-committed), evidence-gated journal→dream promotion (3+ occurrences across 2+ days), whitelisted self-upgrades that must pass `node --check` with one-command rollback, plus a Settings › 人格 tab.
+- [imtokenxinluo/dsh-session-doctor](https://github.com/imtokenxinluo/dsh-session-doctor) — Finds session logs that would make an entire conversation history unloadable, using the loader's own checks, and repairs the supported corruption losslessly with a per-file backup; also watches new writes so a violation is reported while it happens, not on the next open.
 
 ## Cost & Usage Tracking
 

@@ -2633,6 +2633,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [bochen2029-pixel/dsh-donut](https://github.com/bochen2029-pixel/dsh-donut) —— DSH 长效会话：开头与最新几轮保持原文，中段压成冻结索引卡加一份工作记忆状态，日志永不改写，压缩内容仍可按 seq 召回（MIT）。
 - [JexLau/dsh-plugin-session-bus](https://github.com/JexLau/dsh-plugin-session-bus) —— DSH 会话间直连消息：自动发现对端、由智能体发起协作、未读合并。没有房间、没有群聊。
 - [Ersith/akasha-book-v2](https://github.com/Ersith/akasha-book-v2) —— Akasha：面向 LLM 智能体的可审计「外脑」记忆工具包——历史干净，不做个人记忆快照。
+- [imtokenxinluo/dsh-session-doctor](https://github.com/imtokenxinluo/dsh-session-doctor) —— 用与 loader 相同的校验找出会导致整条会话历史无法加载的日志损坏，无损修复受支持的那一类（修复前逐文件备份）；并实时监控新写入，在违规发生的当下告警，而不是等下次打开历史才发现。
 
 ## 成本与用量统计
 
