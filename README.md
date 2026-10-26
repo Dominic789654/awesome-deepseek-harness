@@ -2626,6 +2626,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [bochen2029-pixel/dsh-donut](https://github.com/bochen2029-pixel/dsh-donut) — Perpetual sessions for DSH: the opening and the newest turns stay verbatim, the middle becomes frozen index cards plus one working-memory state, and the log is never edited — everything compressed stays recallable by seq (MIT).
 - [JexLau/dsh-plugin-session-bus](https://github.com/JexLau/dsh-plugin-session-bus) — Direct session-to-session messaging for DSH: auto-discovered peers, agent-initiated collaboration and unread coalescing. No rooms, no group chat.
 - [Ersith/akasha-book-v2](https://github.com/Ersith/akasha-book-v2) — Akasha: an auditable external-brain memory toolkit for LLM agents — clean history, no personal memory snapshot.
+- [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) — Writable, git-versioned self for DSH: IDENTITY/SOUL/USER/RULES Markdown re-read into the system prompt on every assembly (edit the file, no restart), gated self-editing (≤800 chars, ≤3/day, mandatory `why`, auto-committed), evidence-gated journal→dream promotion (3+ occurrences across 2+ days), whitelisted self-upgrades that must pass `node --check` with one-command rollback, plus a Settings › 人格 tab.
 
 ## Cost & Usage Tracking
 
