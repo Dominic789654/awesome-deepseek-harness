@@ -1853,6 +1853,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [rapidrabbitsliu/dsh-plugin-delete](https://github.com/rapidrabbitsliu/dsh-plugin-delete) —— 统一删除确认插件：按需清理会话记录与工作区目录内容，附带「删除会话」菜单和 delete_records agent 工具。
 - [xevil3301/dsh-chatlock](https://github.com/xevil3301/dsh-chatlock) —— DSH 聊天锁 / 保险箱：给会话上密码锁，把目录加密成保险箱。
 - [zy12342/dsh-approval-toast](https://github.com/zy12342/dsh-approval-toast) —— DSH 审批的 Windows 通知：DSH 在后台时也能直接在通知里批准或拒绝待审批，附应用内兜底；另报回合完成与错误。
+- [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) —— 按轮统计持久化操作：先提醒模型，超过上限就停下问你；只读操作不计数。
 
 ## 会话与记忆管理
 
@@ -3376,6 +3377,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 
 - [STARDUSTLC666/dsh-dingtalk](https://github.com/STARDUSTLC666/dsh-dingtalk) — 把任务结果发送到钉钉群机器人的通知插件。
 - [Raxytw/dsh-instagram-plugin](https://github.com/Raxytw/dsh-instagram-plugin) — DSH Instagram 插件：背景标签巡查推荐、被 @ 提问的上下文推理应答与私讯双向互动。
+- [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) —— 微信通道 + 落盘串行队列：消息先写盘，一条回完再处理下一条，重启不丢。
 
 ## 插件市场与生态
 
@@ -5596,6 +5598,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [wisp-science/WispOps](https://github.com/wisp-science/WispOps) — DSH 多主机运维插件：机群巡检、磁盘与近期文件分析（含组学数据清理建议）、安全排查、按服务器定时报告，以及需人工批准的 sudo。
 - [xuanfu-web/dsh-metaphysics](https://github.com/xuanfu-web/dsh-metaphysics) — DSH 命理插件：八字、紫微斗数、六爻与塔罗。
 - [zx06/dsh-tavily](https://github.com/zx06/dsh-tavily) — DSH 的 Tavily 联网搜索插件：web search provider + search / extract / crawl / map / research 工具，附 API Key、配额与审计设置页。
+- [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) —— DSH 的事件中枢：采集器产出事件，规则分三级（急/缓/留档），事件库可回溯；它自己不动手。
 
 ## 编排器与聚合器
 
