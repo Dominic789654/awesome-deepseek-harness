@@ -5138,6 +5138,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [Windsander/Mebular](https://github.com/Windsander/Mebular) —— 给所有 AI 助手与设备共用一张图：记忆与任务、本地优先、签名可审计、点对点直连同步；提供 MCP 工具，无需托管账号。
 
 - [ZhaoHanshao/dsh-plugin-mcp-toggles](https://github.com/ZhaoHanshao/dsh-plugin-mcp-toggles) — 在会话头部选择器中按会话开关已安装的 MCP server。
+- [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) —— MCP 服务器加 skill：提交前查目录站等外链来源靠不靠谱，上线后查链接在不在、传不传权重，给网站的外链做垃圾外链体检。
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) —— MCP 服务器加 skill：在 X、Hugging Face、GitHub 和网站地图里找刚出现的 AI 模型、产品和仓库名，并估算它们背后搜索词的量。
 
 ## 工具与集成
 

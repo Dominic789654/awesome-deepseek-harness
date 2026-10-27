@@ -5129,6 +5129,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [Windsander/Mebular](https://github.com/Windsander/Mebular) — One shared graph for every AI assistant and device: memory and tasks, local-first, signed, auditable, direct P2P sync. MCP tools; no hosted account.
 
 - [ZhaoHanshao/dsh-plugin-mcp-toggles](https://github.com/ZhaoHanshao/dsh-plugin-mcp-toggles) — Turn installed MCP servers on or off per conversation from a picker in the session header.
+- [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) — MCP server and skill that vets a directory or other link source before you submit, checks that a listing is live and followed, and audits a site's backlinks for link spam.
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) — MCP server and skill that finds new AI model, product and repo names on X, Hugging Face, GitHub and sitemaps, and sizes the search terms behind them.
 
 ## Tools & Integrations
 
