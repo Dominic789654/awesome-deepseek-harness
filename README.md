@@ -5087,6 +5087,8 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [zhujiuyi/dsh-mcpserver-manager](https://github.com/zhujiuyi/dsh-mcpserver-manager) — DSH MCP Server Manager.
 - [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) — Svelte documentation MCP server with a local cache: the same four tools as @sveltejs/mcp, but docs come from disk instead of svelte.dev on every call.
 - [MCviseron/dsh-eda-mcp](https://github.com/MCviseron/dsh-eda-mcp) — Connects DSH to 嘉立创EDA专业版 / EasyEDA Pro so the agent can draw schematics through MCP tools.
+- [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) — MCP server and skill that vets a directory or other link source before you submit, checks that a listing is live and followed, and audits a site's backlinks for link spam.
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) — MCP server and skill that finds new AI model, product and repo names on X, Hugging Face, GitHub and sitemaps, and sizes the search terms behind them.
 
 ## Tools & Integrations
 

@@ -5096,6 +5096,8 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [zhujiuyi/dsh-mcpserver-manager](https://github.com/zhujiuyi/dsh-mcpserver-manager) —— DSH MCP Server 管理器。
 - [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) —— Svelte 文档 MCP 服务器（本地缓存）：与 @sveltejs/mcp 同样的四个工具，文档从磁盘读取而不是每次请求 svelte.dev。
 - [MCviseron/dsh-eda-mcp](https://github.com/MCviseron/dsh-eda-mcp) —— 把 DSH 接到嘉立创EDA专业版 / EasyEDA Pro，让 Agent 通过 MCP 工具画原理图。
+- [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) —— MCP 服务器加 skill：提交前查目录站等外链来源靠不靠谱，上线后查链接在不在、传不传权重，给网站的外链做垃圾外链体检。
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) —— MCP 服务器加 skill：在 X、Hugging Face、GitHub 和网站地图里找刚出现的 AI 模型、产品和仓库名，并估算它们背后搜索词的量。
 
 ## 工具与集成
 
