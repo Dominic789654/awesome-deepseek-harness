@@ -5566,7 +5566,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [AlbertZJ/dsh-web-search-pro-plus](https://github.com/AlbertZJ/dsh-web-search-pro-plus) — 增强版持久化联网搜索插件，适配 dsh 0.2.1-rc.2（anweat/dsh-web-search-pro 的 fork）。
 - [Clukay-Fun/dsh-gpt-link](https://github.com/Clukay-Fun/dsh-gpt-link) — 在 DSH 里用 ChatGPT 账号登录、调用 GPT 模型并查看账号额度。
 - [JayYuen666/dsh-scrapling](https://github.com/JayYuen666/dsh-scrapling) — 把 Scrapling 接进 DSH：常驻 Python 进程提供 JS 渲染、自愈选择器的 CSS/XPath 提取、带登录态的会话、后台爬虫与页面问答。
-- [Kxiaoguai3/dsh-desktop-guard](https://github.com/Kxiaoguai3/dsh-desktop-guard) — 轻量 Windows 桌面控制（截图 + OCR + UIA），带内容策略与动作校验。qingying012/dsh-desktop-control 的 fork（MIT）。
+- [Kxiaoguai3/dsh-visual-safety-control](https://github.com/Kxiaoguai3/dsh-visual-safety-control) — 轻量 Windows 桌面控制（截图 + OCR + UIA），带内容策略与动作校验。qingying012/dsh-desktop-control 的 fork（MIT）。
 - [STARDUSTLC666/deepseek-computer-use](https://github.com/STARDUSTLC666/deepseek-computer-use) — 在 DSH 中查看和操作 Windows 桌面软件：窗口截图、鼠标键盘与控件操作。
 - [STARDUSTLC666/dsh-sql](https://github.com/STARDUSTLC666/dsh-sql) — 连接 SQLite、MySQL 或 PostgreSQL，查询数据并检查数据库结构。
 - [STARDUSTLC666/dsh-cite](https://github.com/STARDUSTLC666/dsh-cite) — DSH 文献工作台：DOI/BibTeX 批量导入、去重、Crossref 补全与引文/原始来源备份，支持中文与 English。
