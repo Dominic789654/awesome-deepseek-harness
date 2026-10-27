@@ -1846,7 +1846,6 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [rapidrabbitsliu/dsh-plugin-delete](https://github.com/rapidrabbitsliu/dsh-plugin-delete) — Unified delete confirmation plugin for DeepSeek Harness: opt-in removal of session records and workspace folder contents, plus Delete session and a delete_records agent tool.
 - [xevil3301/dsh-chatlock](https://github.com/xevil3301/dsh-chatlock) — DSH chat lock / vault: password-lock conversations and encrypt directories into a vault.
 - [zy12342/dsh-approval-toast](https://github.com/zy12342/dsh-approval-toast) — Windows toast notifications for DeepSeek Harness approvals: approve or reject a pending approval from the notification while DSH is in the background, with an in-app fallback; also reports turn completion and errors.
-- [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) — Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
 
 ## Session & Memory Management
 
@@ -3367,7 +3366,6 @@ _Bridges DSH into chat platforms and messaging channels._
 
 - [STARDUSTLC666/dsh-dingtalk](https://github.com/STARDUSTLC666/dsh-dingtalk) — Notification plugin that sends task results to a DingTalk group robot.
 - [Raxytw/dsh-instagram-plugin](https://github.com/Raxytw/dsh-instagram-plugin) — DSH Instagram plugin: background hashtag patrol and recommendations, context-aware replies to @-mentions, and two-way direct-message interaction.
-- [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) — WeChat channel with a durable serial queue: messages land on disk first, one reply at a time, and unfinished work survives a restart.
 
 ## Plugin Marketplaces & Ecosystem
 - [1575088/dsh-bridge-market](https://github.com/1575088/dsh-bridge-market) — Bridge marketplace for DSH: 49 websites and apps shown as cards — one click adds the matching `mcp__<app>__*` tools to the agent, with one-click setups where possible and step-by-step guides where not.
