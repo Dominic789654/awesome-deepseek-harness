@@ -7899,6 +7899,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [xisnn/dsh-outpost](https://github.com/xisnn/dsh-outpost) — Unofficial DeepSeek Harness client: an Android app with encrypted credential storage and revocable devices, plus a Windows desktop tray helper.
 - [regrevia/dsh-chat-link-actions](https://github.com/regrevia/dsh-chat-link-actions) — Right-click actions on file links in the DSH transcript: quote the path into the composer, or reveal the file in the OS file manager; menus are drawn in the app's own style.
 - [xsllo425/dsh-work-status](https://github.com/xsllo425/dsh-work-status) — Puts the agent's working state into one title-bar line — what it is doing, how far it got, whether it ever failed; click for the goal, current step, recent log and last turn. No model calls and no prompt writing, it only reads events that already happened.
+- [muzapar00/united_nation_skin_deepseek_harness](https://github.com/muzapar00/united_nation_skin_deepseek_harness) — A United Nations theme for the DSH Web GUI: UN blue over paper white, the official emblem, a rotating peacekeeping-photo background, Charter and UN-facts ribbons, and a 7,030-language picker (127 languages fully translated) that leaves every existing control untouched.
 
 ## Skills
 

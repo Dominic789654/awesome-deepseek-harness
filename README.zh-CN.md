@@ -7898,6 +7898,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [xisnn/dsh-outpost](https://github.com/xisnn/dsh-outpost) —— 非官方 DSH 客户端：Android App（凭据加密存储、设备可撤销）+ Windows 桌面托盘助手。
 - [regrevia/dsh-chat-link-actions](https://github.com/regrevia/dsh-chat-link-actions) —— 给对话里的文件链接加右键菜单：把路径引用到输入框，或在系统文件管理器里定位该文件；菜单沿用应用自身风格。
 - [xsllo425/dsh-work-status](https://github.com/xsllo425/dsh-work-status) —— 把 Agent 的工作状态收进标题栏一行——在做什么、做到哪、失败过没有；点开是目标、当前步、最近记录与上一轮。不调模型、不写提示词，只读已发生的事件。
+- [muzapar00/united_nation_skin_deepseek_harness](https://github.com/muzapar00/united_nation_skin_deepseek_harness) —— 联合国主题皮肤：白底联合国蓝、官方徽记、维和照片背景轮播、宪章与联合国知识丝带，以及收录 7,030 种语言（127 种已完整翻译）的语言选择器，不改动任何原有按钮。
 
 ## Skill
 
