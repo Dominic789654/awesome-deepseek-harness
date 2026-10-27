@@ -3962,6 +3962,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 ## Coding
 
 - [alxy1018-ctrl/dsh-second-opinion](https://github.com/alxy1018-ctrl/dsh-second-opinion) — Analyze first, then implement, then cross-check: a second opinion for coding work, with a pluggable reviewer (DeepSeek Harness plugin).
+- [jerryxff26-alt/dsh-delivery-board](https://github.com/jerryxff26-alt/dsh-delivery-board) — In-repo delivery board for humans and agents: stages, handoffs, soft WIP, weekly report, and local Timeline UI (`delivery.json`); DSH plugin + standalone `npx dsh-delivery-board`.
 - [ls-open/dsh-git-composer](https://github.com/ls-open/dsh-git-composer) — Claude-style Git branch and PR composer bar for DeepSeek Harness (DSH).
 
 - [xinyangGL/dsh-open-code-review](https://github.com/xinyangGL/dsh-open-code-review) — Code-review plugin (DeepSeek Harness × Alibaba OpenCodeReview): quiet by default — one button at the turn footer or a single "run a review" request; results land per file:line [severity]. Also does auto and standalone review agents.
