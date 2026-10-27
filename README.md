@@ -8009,6 +8009,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Pingze-github/dshdesk](https://github.com/Pingze-github/dshdesk) — Read-only four-column attention board for DSH, with a true always-on-top Windows companion window.
 - [WWFZS/dsh-plugin-startup-animation](https://github.com/WWFZS/dsh-plugin-startup-animation) — Full-screen animated startup screen for DSH with a built-in video, wallpaper and audio library.
 - [zhubowen-bot/Guncat-Work-for-hmos](https://github.com/zhubowen-bot/Guncat-Work-for-hmos) — Native HarmonyOS AI client for DSH built with ArkTS and ArkUI: modular agent-loop kernel, three-protocol streaming chat, 42 local tools, 32 custom skills, sandboxed workspace, on-device PPT / Word / Excel / SVG export, JS execution and interactive card panels.
+- [lo2589/dsh-plugin-rightbar](https://github.com/lo2589/dsh-plugin-rightbar) — A shared right sidebar for the DSH web client: other plugins register tabs into the `rightbar.tab` slot instead of each pinning a `position:fixed` panel; ships a `rightbar-tab` skill for agents, and an opt-in mode that moves legacy fixed panels aside instead of re-parenting their DOM.
 
 ## Skills
 
