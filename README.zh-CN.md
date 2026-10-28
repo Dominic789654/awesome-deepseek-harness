@@ -8007,6 +8007,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Pingze-github/dshdesk](https://github.com/Pingze-github/dshdesk) — DSH 只读四栏注意力看板，附一个真正置顶的 Windows 伴随窗口。
 - [WWFZS/dsh-plugin-startup-animation](https://github.com/WWFZS/dsh-plugin-startup-animation) — DSH 开机动画：全屏动态启动画面，内置视频 / 壁纸 / 音频库。
 - [zhubowen-bot/Guncat-Work-for-hmos](https://github.com/zhubowen-bot/Guncat-Work-for-hmos) — 鸿蒙原生的 DSH 掌上客户端（ArkTS + ArkUI）：模块化 Agent Loop 内核、三协议流式对话、42 个本地工具、32 个深度定制 skill、文件沙箱工作区，端侧直出 PPT / Word / Excel / SVG，支持执行 JS，并用以交互式卡片面板重构操作体验。
+- [lo2589/dsh-plugin-rightbar](https://github.com/lo2589/dsh-plugin-rightbar) —— DSH 网页端的共享右栏：别的插件往 `rightbar.tab` 槽位注册标签页，不必各自 `position:fixed` 抢位置；随包附带给 agent 用的 `rightbar-tab` skill，另有一个默认关闭的让位模式，把老面板的偏移挪开（不搬 DOM）。
 
 ## Skill
 
