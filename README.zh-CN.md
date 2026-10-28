@@ -4459,7 +4459,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 - [dingchenhui0618-arch/dsh-mp-catalog-guard](https://github.com/dingchenhui0618-arch/dsh-mp-catalog-guard) — 微信小程序内容目录守卫：整数 amountFen、只允许 money() 渲染、必填字段、重复文案与图片路径——输出报告与可直接应用的 unified diff（默认 dry-run）。
 - [STARDUSTLC666/dsh-flakefinder](https://github.com/STARDUSTLC666/dsh-flakefinder) — 重复运行测试，找出偶发失败用例并保留调查记录。
-- [lpeixin/dsh-qualityforge](https://github.com/lpeixin/dsh-qualityforge) —— QualityForge：企业级 DSH QA 插件，自动执行系统性端到端测试，输出 P0–P3 严重度分级报告与质量门禁。
+- [lpeixin/dsh-qualityforge](https://github.com/lpeixin/dsh-qualityforge) —— DSH 的 QA 插件：对完成的项目跑一轮端到端测试，按 P0–P3 严重度输出问题报告与发布结论。
 
 ## Agent
 

@@ -4449,7 +4449,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 - [dingchenhui0618-arch/dsh-mp-catalog-guard](https://github.com/dingchenhui0618-arch/dsh-mp-catalog-guard) — WeChat mini-program content catalog guard: integer amountFen, money()-only rendering, required fields, duplicate copy and image paths — a report plus an applyable unified diff (dry-run by default).
 - [STARDUSTLC666/dsh-flakefinder](https://github.com/STARDUSTLC666/dsh-flakefinder) — Runs tests repeatedly to find flaky cases and keeps an investigation record.
-- [lpeixin/dsh-qualityforge](https://github.com/lpeixin/dsh-qualityforge) — QualityForge: enterprise-grade DSH QA plugin that runs systematic end-to-end testing and delivers P0–P3 severity-based reports and quality gates.
+- [lpeixin/dsh-qualityforge](https://github.com/lpeixin/dsh-qualityforge) — QA plugin for DSH: runs an end-to-end test pass over a finished project and reports findings with P0–P3 severity plus a ship verdict.
 
 ## Agents
 
