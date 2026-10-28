@@ -8591,6 +8591,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [BlanCatOra/dsh-plugin-standards](https://github.com/BlanCatOra/dsh-plugin-standards) — DSH 插件开发规范：UI 组件、面向 agent 的仓库文档、发布前六步流程（全部来自实测）。
 - [huangye0623-creator/dsh-crash-avoidance](https://github.com/huangye0623-creator/dsh-crash-avoidance) —— 三次真实 DSH 事故复盘（Windows ACL/完整性、profile 依赖重复、preview API 变更）、升级回归检查清单，以及多帧 zstd 日志审计脚本。非官方。
 - [Cool-11/harness-competitor-eval](https://github.com/Cool-11/harness-competitor-eval) — 五款 AI Agent 的 Harness 竞品评测（Codex / Workbuddy / DSH / 元宝专家模式 / 豆包办公）：三层归因定责（模型/SKILL/Harness）+ 多题题库 + 全量现场记录 + 可复核报告。
+- [DeepSeekDSH](https://deepseekdsh.com/) —— 免费独立的 DeepSeek Harness 指南站——安装、配置、插件、MCP 与排错，中英文。
 
 ## 贡献指南
 

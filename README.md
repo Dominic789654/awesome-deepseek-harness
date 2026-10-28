@@ -8591,6 +8591,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [BlanCatOra/dsh-plugin-standards](https://github.com/BlanCatOra/dsh-plugin-standards) — DSH plugin development standards: UI components, agent-facing repository docs, and a six-step pre-release process, all derived from real practice.
 - [huangye0623-creator/dsh-crash-avoidance](https://github.com/huangye0623-creator/dsh-crash-avoidance) — Postmortems of three real DeepSeek Harness incidents (Windows ACL/integrity, profile dependency duplication, preview API change), an upgrade regression checklist, and a multi-frame zstd log audit script. Unofficial.
 - [Cool-11/harness-competitor-eval](https://github.com/Cool-11/harness-competitor-eval) — Head-to-head harness evaluation of five AI agents (Codex / Workbuddy / DSH / Yuanbao Expert Mode / Doubao Office): three-layer attribution (model / skill / harness), a multi-question bank, full on-site records and reproducible reports.
+- [DeepSeekDSH](https://deepseekdsh.com/) — Free independent DeepSeek Harness guides — install, configure, plugins, MCP and troubleshooting, in English and Chinese.
 
 ## Contributing
 
