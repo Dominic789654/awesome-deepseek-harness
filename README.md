@@ -5770,6 +5770,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [tayuLuc/dsh-ru-voice-input](https://github.com/tayuLuc/dsh-ru-voice-input) — Russian-first voice input for DSH: local GigaAM v3 with punctuation, plus a speech-registry fix that makes recognizer switching work.
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) — DSH plugin · Big Fat Fish arcade: start and stop a local AI playground with one click and play a round with your agent.
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) — Agnes image and video models inside a DSH sidebar panel, with durable background tasks and history.
+- [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) — Query local data files with SQL from inside DeepSeek Harness (dsh): native Cordis plugin running the duckdb CLI, zero Python and zero external services, workspace-confined paths, read-only by default.
 
 ## Orchestrators & Aggregators
 
