@@ -373,7 +373,6 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [beibing173/dsh-codex-gpt](https://github.com/beibing173/dsh-codex-gpt) —— 在 DSH 里使用 ChatGPT / OpenAI Codex：`chatgpt-codex` provider 走官方 OAuth 登录（订阅额度、无需 API Key），并可按需把难任务从 DeepSeek 转交 GPT。
 - [Sheep1x/dsh-aimy](https://github.com/Sheep1x/dsh-aimy) —— dsh-Aimy：用 Aimy 中转站的模型并真实切换分组（兼容 new-api / sub2api）。
 - [cjc-github/dsh-model-provider-picker](https://github.com/cjc-github/dsh-model-provider-picker) —— DSH 的模型提供商选择器：在界面里直接选定模型提供商。
-- [wufeng0105/dsh-enhance](https://github.com/wufeng0105/dsh-enhance) —— 给 DSH 的提示词加层小工具：你把一段提示词接在 DSH 提示词最后，每条消息都带上；DSH 本身与自带提示词不动，只在其配置里加几行加载记录；装完默认自动放行审批（可在设置页改回问人/拒绝），卸载能还原。
 
 ## Harness 与运行时
 
@@ -5769,7 +5768,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [prgrmrwy/dsh-magpie-connector](https://github.com/prgrmrwy/dsh-magpie-connector) —— 接入自建 Magpie 网关：每个上游 owner 一条真实 provider 路由（原版 DSH 上分组模型选择器）、多线路自动故障转移、只读用量卡片、模型可见性、默认推理强度与会话级极速模式。
 - [Wanyi424/dsh-performance](https://github.com/Wanyi424/dsh-performance) —— 看清 DSH 的 CPU、内存与卡顿：按插件 / 终端 / MCP 拆分占用，对照卡顿时刻，可复制诊断报告；仅限 Windows x64。
 - [27painter/dsh-sw-cad](https://github.com/27painter/dsh-sw-cad) —— DSH/Codex × SolidWorks 与 AutoCAD：按需加载的 skills 加 MCP server，做真实 CAD 自动化（Windows、COM）。
-- [bigfatdsh/dsh-user-backup](https://github.com/bigfatdsh/dsh-user-backup) —— 用户备份：DeepSeek Harness 当前 11 个插件的可还原快照（一键安装）。
+- [bigfatdsh/dsh-user-backup](https://github.com/bigfatdsh/dsh-user-backup) —— 用户备份：DeepSeek Harness 当前已装插件的可还原快照（一键安装）。
 - [Biogod2020/dsh-article-review](https://github.com/Biogod2020/dsh-article-review) —— DSH 的 Markdown 稿件评审插件源码：批注、修改建议、版本比对、插图与 BibTeX。
 - [jimku233/dsh-copy-file](https://github.com/jimku233/dsh-copy-file) —— 把 DSH 交付卡片里的真实文件复制到系统剪贴板（CF_HDROP），卡片交互贴近 Windows 习惯；固定在 DSH 0.2.0-rc.2。
 - [Liman-cmd/dsh-plugin-tool-prefetch](https://github.com/Liman-cmd/dsh-plugin-tool-prefetch) —— DSH 插件：工具调用预测与预取。以 Python 边车方式拉起 CT-GNN 预测网关，把其工具原生注册到 ctx.tools——预测下一个工具调用、分层预热（L0-L3）、在线命中率遥测、训练数据自动采集。

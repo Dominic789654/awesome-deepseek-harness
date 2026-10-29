@@ -372,7 +372,6 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [beibing173/dsh-codex-gpt](https://github.com/beibing173/dsh-codex-gpt) — Use ChatGPT / OpenAI Codex from DSH: a `chatgpt-codex` provider signed in through official OAuth (subscription quota, no API key), plus optional hand-off of harder tasks from DeepSeek to GPT.
 - [Sheep1x/dsh-aimy](https://github.com/Sheep1x/dsh-aimy) — dsh-Aimy: a DSH plugin that uses models from the Aimy relay and switches groups for real (new-api / sub2api compatible).
 - [cjc-github/dsh-model-provider-picker](https://github.com/cjc-github/dsh-model-provider-picker) — Model provider picker for DeepSeek Harness: choose the model provider directly from the DSH UI.
-- [wufeng0105/dsh-enhance](https://github.com/wufeng0105/dsh-enhance) — Prompt-layer wrapper for DSH: appends your own prompt block to the end of every message without touching DSH or its built-in prompts; adds a few lines to the config, auto-approves by default (configurable to ask or deny in Settings), and uninstalls cleanly.
 
 ## Harnesses & Runtimes
 
@@ -5761,7 +5760,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [prgrmrwy/dsh-magpie-connector](https://github.com/prgrmrwy/dsh-magpie-connector) — Connect a self-hosted Magpie gateway: one real provider route per upstream owner (grouped model picker on stock DSH), automatic multi-line failover, read-only usage cards, model visibility, default effort and per-session fast mode.
 - [Wanyi424/dsh-performance](https://github.com/Wanyi424/dsh-performance) — See DSH CPU, memory and stutter clearly: per-plugin, terminal and MCP breakdown, correlated with stutter moments, one-click diagnostic report copy — Windows x64 only.
 - [27painter/dsh-sw-cad](https://github.com/27painter/dsh-sw-cad) — DSH/Codex × SolidWorks & AutoCAD: on-demand skills plus MCP servers for real CAD automation (Windows, COM).
-- [bigfatdsh/dsh-user-backup](https://github.com/bigfatdsh/dsh-user-backup) — User backup: a restorable snapshot of the current 11 DSH plugins, installed with one click.
+- [bigfatdsh/dsh-user-backup](https://github.com/bigfatdsh/dsh-user-backup) — User backup: a restorable snapshot of the installed DSH plugins, installed with one click.
 - [Biogod2020/dsh-article-review](https://github.com/Biogod2020/dsh-article-review) — DSH Markdown manuscript review plugin source: annotations, proposals, version comparison, figures and BibTeX.
 - [jimku233/dsh-copy-file](https://github.com/jimku233/dsh-copy-file) — Copy real files from DSH delivery cards to the system clipboard (CF_HDROP), with Windows-like card interaction; pinned to DSH 0.2.0-rc.2.
 - [Liman-cmd/dsh-plugin-tool-prefetch](https://github.com/Liman-cmd/dsh-plugin-tool-prefetch) — DSH plugin for tool-call prediction and prefetch: launches a CT-GNN prediction gateway as a Python sidecar and registers its tools natively on ctx.tools — predicts the next tool call, layered warm-up (L0-L3), online hit-rate telemetry and automatic training-data collection.
