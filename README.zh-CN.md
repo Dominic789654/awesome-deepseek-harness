@@ -369,6 +369,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [Cplay00/dsh-diffusion-preset](https://github.com/Cplay00/dsh-diffusion-preset) — 扩散模式（Diffusion Mode）agent 预设与渐进式调用目录工具。
 
 - [lishize20040802-rgb/dsh-deep-ptc-mode](https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode) —— DeepSeek Harness 的开源 Deep PTC 模式预设：PTC 工具面 + 可见进度、果断调用工具、尽早澄清，以及 DeepSeek 的无限 token 预算。
+- [Anarrogantcat/dsh-identity](https://github.com/Anarrogantcat/dsh-identity) —— DSH 身份系统插件（大肥鱼）：可编辑内核 + 证据制 traits + 记忆 / 日记 / 复盘 + 心情 v2 + 自主提议 + 治理与能力运行时；QQ 只是第一个通道。
 
 ## Harness 与运行时
 
@@ -1864,6 +1865,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [feely0208/dsh-key-vault](https://github.com/feely0208/dsh-key-vault) —— 本机 Key 保险箱：在本地保存你自带的多个 API Key，只显示掩码、文件权限 0600、不上传。
 
 - [Cristallin2006/DSH-CTF-Mode](https://github.com/Cristallin2006/DSH-CTF-Mode) —— 面向 DeepSeek Harness 的 CTF 与安全分析技能：可持续的子代理编排、结构化记忆、持久任务状态与证据复核（TSecBench v1 本地模式 96.94，71/74 flags）。
+- [luwenjiede/dsh-vaultx](https://github.com/luwenjiede/dsh-vaultx) —— VaultX·DSH 终极密码箱：scrypt + AES-256-GCM 信封加密 × `$DSH_*` shellEnv 带外注入（密钥永不进模型上下文）× 锁定态 fail-open × 哈希链审计；融合 dsh-vault 与 dsh-key-panel 之长、修两者之短。
+- [xqpsec/dsh-jalibreak](https://github.com/xqpsec/dsh-jalibreak) —— dsh 破甲：请求边界注入 + 9 维 AE-CoT 进化 + 阀门，放行逆向 / CTF / 靶场、拦住未授权渗透；20 目标严格基线 17/20，0 宿主补丁（AGPL-3.0-only）。
 
 ## 会话与记忆管理
 
@@ -2696,6 +2699,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Lsjh7128/lingshu](https://github.com/Lsjh7128/lingshu) —— 灵枢（LINGSHU）· 面向 Agent 宿主（DSH）的控制论认知外壳：记忆 / 情绪 / 元认知 / 目标 / 关系 / 叙事，外加控制论控制面。
 - [OldManDing/dsh-ledger-watch](https://github.com/OldManDing/dsh-ledger-watch) —— DeepSeek Harness 的会话级教训账本看守：检查本会话是否真的查阅账本并记录了踩过的坑。
 - [shipianl/emoflow-harness-ui](https://github.com/shipianl/emoflow-harness-ui) —— DeepSeek Harness 的 EmoFlow 插件：每条用户消息进入模型前先跑本地四层情绪引擎，在 EmoFlow 标签页展示 PAD、趋势与风险，并给模型简短的语气与策略建议。
+- [yue7ye/dsh-Context-Drawer](https://github.com/yue7ye/dsh-Context-Drawer) —— 按日历日期选择，把那些日期已完成的轮次从模型可见上下文中移除；聊天记录与只追加的会话日志保持不动。
 
 ## 成本与用量统计
 
@@ -3150,6 +3154,8 @@ _token 用量、成本看板与预算告警插件。_
 - [vb2250158/dsh-performance-statistics](https://github.com/vb2250158/dsh-performance-statistics) —— DeepSeek Harness 的详细耗时图表与辅助模型调用统计。
 - [weiw0923/dsh-composer-balance](https://github.com/weiw0923/dsh-composer-balance) —— 极简的输入框余额胶囊：账户余额 + 当前会话花费，沿用宿主自身的视觉语言。
 - [zhangle83/dsh-siliconflow-usage](https://github.com/zhangle83/dsh-siliconflow-usage) —— SiliconFlow 价格与按会话的 token / 费用卡片，装在 DSH Web UI 里。
+- [Aisland-SJL/dsh-usage](https://github.com/Aisland-SJL/dsh-usage) —— 常驻停靠栏、完全可定制的余额 / 用量面板：活动热力图、双通道对比，纯本地、隐私优先。
+- [lx950/dsh-spend-meter](https://github.com/lx950/dsh-spend-meter) —— 可拖拽面板里的 DeepSeek 实时余额、每轮扣费与今日花费，按计费计数器精确到 1e-8 元。
 
 ## Channel / IM 桥接
 
@@ -3422,6 +3428,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [doyokol/dsh-wechat-bridge](https://github.com/doyokol/dsh-wechat-bridge) —— 把个人微信接进 DeepSeek Harness：自建 reader 收消息 + 自编译 hook 发消息，不依赖第三方客户端。
 - [FABAGV/dsh-whale-inurqq](https://github.com/FABAGV/dsh-whale-inurqq) —— 把 QQ 接入 DeepSeek Harness（OneBot 11）的 DSH 插件，QQ 即任务入口，内置可浏览器访问的体检页。
 - [phfb/dsh-qq-bot](https://github.com/phfb/dsh-qq-bot) —— 把 QQ 私聊接进 DeepSeek Harness：私聊陪伴向的 DSH 插件（dsh-qq-bot + dsh-alive）。
+- [Zafer-Liu/dsh-vibe-assistant-bridge](https://github.com/Zafer-Liu/dsh-vibe-assistant-bridge) —— 面向 Vibe Assistant 的 DSH 桥接插件：共享记忆注入、MCP 观测、token 用量、收藏触发、召回与技能工具。
 
 ## 插件市场与生态
 
@@ -5691,6 +5698,11 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [lcx19970714/dsh-limob-runner](https://github.com/lcx19970714/dsh-limob-runner) —— DSH 客户端插件：在 DSH 内置终端里运行 Limob 项目命令，支持 GitHub 更新提示。
 - [M4rkzzz/dsh-cpa](https://github.com/M4rkzzz/dsh-cpa) —— 为本地 CLIProxyAPI 提供 DSH 设置、ChatGPT OAuth 与模型同步。
 - [pandarayc/dsh-eli5](https://github.com/pandarayc/dsh-eli5) —— 讲人话（dsh-eli5）：DSH 划词解释插件，用最直白的话说明它是什么，必要时只读工作区，不写入主对话上下文。
+- [canadaeee/transsioner-link](https://github.com/canadaeee/transsioner-link) —— Transsioner-CLI：把本机 lark-cli 的只读能力接成 DSH 工具（云文档 / 表格 / 多维表格 / 画板 / 评论 / 妙记 / 群消息）。不含任何凭据，使用者用自己的账号授权。
+- [edwardmackiezyv885-art/lbwapi-workbench](https://github.com/edwardmackiezyv885-art/lbwapi-workbench) —— LBW Workbench：把 AI 客户端的工作词包与完整技能树一键装进本机，带字节级备份与回滚（Windows x64 便携版，免安装 Node）。
+- [kgmkm/dsh-rustxng](https://github.com/kgmkm/dsh-rustxng) —— 用自己的 RustXNG 元搜索实例来回答内置 web_search（Windows / macOS / Linux）。
+- [operatingtag/dsh-unclesam](https://github.com/operatingtag/dsh-unclesam) —— 用真实浏览器驱动 chat.deepseek.com 的 DSH 插件，免费的 DeepSeek API 替代方案：在自己的账号上用对话、深度思考与联网搜索，无需 API key、无 token 费用。
+- [xinghuobk/dsh-event-video](https://github.com/xinghuobk/dsh-event-video) —— 每一秒都有据可查：把长视频转成可核验的事件记录——状态、语音单元、语义章节、关注点与确定性的复核标记。
 
 ## 编排器与聚合器
 
@@ -8123,6 +8135,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [MosesMuxiXie/dsh-ac-boot](https://github.com/MosesMuxiXie/dsh-ac-boot) —— DeepSeek Harness Web UI 的电影感战术简报开机动画，配实时工作区/会话剧场地图。
 - [ROYLeXJ/dsh-notify-tray](https://github.com/ROYLeXJ/dsh-notify-tray) —— DeepSeek Harness 通知 + 状态栏插件：系统通知、macOS/Windows/Linux 托盘图标、任务进度与花费。
 - [Sodapopper-pixel/dsh-cot-translator-plus](https://github.com/Sodapopper-pixel/dsh-cot-translator-plus) —— 把展开的思考内容翻成界面语言：任意 HTTP 翻译站点模板 + 模型翻译（DSH 已注册提供商或插件自带的自定义 OpenAI 兼容提供商）。
+- [Joz739/dsh-workflow-map](https://github.com/Joz739/dsh-workflow-map) —— DSH 分步工作流地图：热注入、可核验进度条、单页面布局。
+- [Nozzi2455/majfish](https://github.com/Nozzi2455/majfish) —— 和自家肥鱼打立直麻将的 DSH 插件，支持局域网联机。
+- [qnosuke/dsh-whale-widget-ja](https://github.com/qnosuke/dsh-whale-widget-ja) —— 非官方：把小鲸鱼组件（dsh-whale-widget）改成日语 + 日元显示的补丁。
+- [qzz19970504/dsh-model-picker-control](https://github.com/qzz19970504/dsh-model-picker-control) —— DSH 模型选择器管理：跨服务商重命名、重新分组、排序、隐藏与加标记，支持跨服务商分区。
+- [xsllo425/dsh-agent-menu](https://github.com/xsllo425/dsh-agent-menu) —— DSH 右键菜单增强：对话区与侧栏的复制、打开位置、工作区菜单重排、会话删除与汉化。
 
 ## Skill
 
@@ -8587,6 +8604,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
 - [bugtakue/ronge-skill-studio](https://github.com/bugtakue/ronge-skill-studio) —— Ronge Skill Studio：按上下文推荐 Skill、远程发现与安装、MCP 工具目录、默认 Plan/沉浸模式、带反馈的经验记忆，以及完成提示音。
 - [shi004/better-search](https://github.com/shi004/better-search) —— 面向 DeepSeek Harness 的 source-first 网络研究技能：证据可追溯，并内置一份浏览器路由技能。
+- [1837620622/ad-and-psim-skill](https://github.com/1837620622/ad-and-psim-skill) —— AI 驱动的 Altium Designer 与 PSIM 技能包：可编辑电路建模、原理图工程排版与原生仿真；专有商业授权。
+- [bugtakue/ronge-adaptive-skill-archive](https://github.com/bugtakue/ronge-adaptive-skill-archive) —— 上下文感知、自我进化的技能驾驶舱：带理由的推荐、10% 探索、实时「正在使用」、计划 / 沉浸模式、经验记忆、本地安全扫描、更新 diff 与回滚，内置 6,399 条技能索引（MIT）。
+- [young-yyj/dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) —— DSH 的本地只读技能浏览插件。
 
 ## 资源
 
