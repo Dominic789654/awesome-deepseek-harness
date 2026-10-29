@@ -1513,6 +1513,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [averyjohnkucan-arch/dsh-strata](https://github.com/averyjohnkucan-arch/dsh-strata) — Strata local inference provider and model manager for DeepSeek Harness.
 
 - [ChenXu233/oh-my-dsh-pack](https://github.com/ChenXu233/oh-my-dsh-pack) — ChenXu233's personal, opinionated Docker deployment kit for dsh: image build, CI, deploy scripts and plugin bootstrap, with full / minimal / chat / capability-complete / headless-coder install plans.
+- [liubaicai/dsh-codebuddy-link](https://github.com/liubaicai/dsh-codebuddy-link) — Brings the Tencent CodeBuddy CLI into DSH as a plugin.
+- [PengYangchao0808/oh-my-coharness](https://github.com/PengYangchao0808/oh-my-coharness) — Install once and let the AI coding CLIs you already use work together inside DSH: one tool, five verified harnesses, honest diagnostics.
 
 ## Security & Permissions
 
@@ -2704,6 +2706,11 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [CHENJIAMIAN/dsh-session-switch](https://github.com/CHENJIAMIAN/dsh-session-switch) — Ctrl+Tab in the DSH desktop app: toggle between the current and the previous session.
 - [hzh5021/dsh-wakeup](https://github.com/hzh5021/dsh-wakeup) — Injects your home folder — identity, house rules, recent diary and ledger — into every new session before anyone speaks, and keeps that home writable so the agent can amend its own persona.
 - [memoryovo/dsh-codex-session-deletetool](https://github.com/memoryovo/dsh-codex-session-deletetool) — Real conversation deletion for the Codex UI sidebar in DSH: adds a 删除会话 row through `remote.workspaceRegistry.deleteSession`, restores the hidden delete button, and asks before removing subagent or forked conversations.
+- [abangbang/dsh-delete-chat](https://github.com/abangbang/dsh-delete-chat) — Trash-first session deletion: "Delete chat" in the row menu moves the session directory into ~/.dsh/session-trash, a sidebar Trash page filters/restores/purges, plus a CLI.
+- [Fan-sx/dsh-session-focus](https://github.com/Fan-sx/dsh-session-focus) — Focus marks: flag what you are working on, park what you are waiting on, and keep the count visible when workspace folders are collapsed.
+- [mars-area/dsh-chat-trash](https://github.com/mars-area/dsh-chat-trash) — Delete a chat from the sidebar for good — gone immediately, nothing archived.
+- [Root-7-KHX/companion-memory](https://github.com/Root-7-KHX/companion-memory) — Roleplay companion memory: per-conversation persona docs, favorability tracking, recent 48h transcript search and a date-archived local knowledge base.
+- [shuunO-O/dsh-neo4j-memory](https://github.com/shuunO-O/dsh-neo4j-memory) — Long-term graph memory powered by Neo4j.
 
 ## Cost & Usage Tracking
 
@@ -3159,6 +3166,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [zhangle83/dsh-siliconflow-usage](https://github.com/zhangle83/dsh-siliconflow-usage) — SiliconFlow price and per-session token / cost card for the DeepSeek Harness Web UI.
 - [Aisland-SJL/dsh-usage](https://github.com/Aisland-SJL/dsh-usage) — Persistent dock & fully customizable balance/usage panel for DeepSeek Harness — activity heatmap, dual-channel comparison, local-only and privacy-first.
 - [lx950/dsh-spend-meter](https://github.com/lx950/dsh-spend-meter) — Live DeepSeek balance, per-turn charge and today's spend in a draggable DSH panel.
+- [YuLaiZ/token-usage](https://github.com/YuLaiZ/token-usage) — Local LLM token usage analytics CLI with a dashboard and SQL-free custom reports; supports Claude, Codex, OpenCode, ZCode, WorkBuddy, Zhipu-AutoClaw, MiMo Code/Desktop and DSH.
 
 ## Channel / IM Bridges
 
@@ -3428,6 +3436,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [FABAGV/dsh-whale-inurqq](https://github.com/FABAGV/dsh-whale-inurqq) — DSH plugin that brings QQ into DeepSeek Harness over OneBot 11, making QQ a task entry point, with a browser-readable health-check page.
 - [phfb/dsh-qq-bot](https://github.com/phfb/dsh-qq-bot) — Brings QQ private chat into DeepSeek Harness: a companion-oriented DSH plugin (dsh-qq-bot + dsh-alive).
 - [Zafer-Liu/dsh-vibe-assistant-bridge](https://github.com/Zafer-Liu/dsh-vibe-assistant-bridge) — DeepSeek Harness bridge plugin for Vibe Assistant: shared-memory injection, MCP observation, token usage, collection triggers, recall and skill tools.
+- [tdcq9594/dsh-roost](https://github.com/tdcq9594/dsh-roost) — Let the AI move into QQ through Roost: official interfaces only, no client hooks.
+- [YIYUJJ/qq-bot](https://github.com/YIYUJJ/qq-bot) — QQ group human-like chat bot (DSH Cordis plugin): connects directly to SnowLuma OneBot and replies in-process when reply speed matters most.
 
 ## Plugin Marketplaces & Ecosystem
 - [1575088/dsh-bridge-market](https://github.com/1575088/dsh-bridge-market) — Bridge marketplace for DSH: 49 websites and apps shown as cards — one click adds the matching `mcp__<app>__*` tools to the agent, with one-click setups where possible and step-by-step guides where not.
@@ -3671,6 +3681,8 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [chendaleiQ/dsh-plugin-auto-update](https://github.com/chendaleiQ/dsh-plugin-auto-update) — Automatic per-package updates for the plugins you choose in DeepSeek Harness.
 - [KERBALMans/dsh-modpack](https://github.com/KERBALMans/dsh-modpack) — Minecraft-modpack-style plugin bundler for DSH: pick any subset of installed plugins, pack them into one portable .dshmodpack.json, and rebuild the same setup on another machine.
 - [YML0823/dsh-local-market](https://github.com/YML0823/dsh-local-market) — DSH Chinese plugin market: live community catalog, Chinese search, UI previews and one-click install.
+- [MaximFedorovtoo/dsh-plugins](https://github.com/MaximFedorovtoo/dsh-plugins) — Four DSH plugins in one repo: API spend per project, screenshots as input, Russian localization and Codex import.
+- [shellRaining/dsh-plugins](https://github.com/shellRaining/dsh-plugins) — shellRaining's DSH plugin collection: wallpaper, annotations, side sessions, Mermaid and title layout — install all at once or pick individually.
 
 ## Visualization
 
@@ -4038,6 +4050,8 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [nickzhangcomes/dsh-markup](https://github.com/nickzhangcomes/dsh-markup) — DSH Markup: annotation and document review — multiple annotation threads, comment conversations and inline revisions, with the read result brought back to the main session.
 
 - [feely0208/dsh-deliverable-pack](https://github.com/feely0208/dsh-deliverable-pack) — Deliverable pack: bundles a set of outputs into one checkable, traceable package — zip plus a file manifest and SHA256 checksums.
+- [Lucky020/dsh-copyright-kit](https://github.com/Lucky020/dsh-copyright-kit) — Software-copyright workshop: turns a code repository into registration material — 60 pages of source code, a manual, five screenshots and a derived application form.
+- [Zm886/dsh-ruankao-essay](https://github.com/Zm886/dsh-ruankao-essay) — Ruankao systems-analyst essay assistant: question-bank index, a 10-section writing frame and Word delivery.
 
 ## Coding
 
@@ -4489,6 +4503,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [lpeixin/dsh-qualityforge](https://github.com/lpeixin/dsh-qualityforge) — QA plugin for DSH: runs an end-to-end test pass over a finished project and reports findings with P0–P3 severity plus a ship verdict.
 
 - [Dclef/dsh-cursor-dev](https://github.com/Dclef/dsh-cursor-dev) — Runs the Cursor CLI as a DSH child coding agent: per-task model choice, conversation continuity across restarts, live progress with real diffs, and a Cursor usage/quota dashboard.
+- [8kugames/dsh-zed-acp](https://github.com/8kugames/dsh-zed-acp) — Independent Zed Agent Client Protocol server, shipped as a DSH plugin.
 
 ## Agents
 
@@ -4882,6 +4897,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [CodePrometheus/chopin-ai](https://github.com/CodePrometheus/chopin-ai) — A coding agent that improves itself through a mutable layer only a sealed evaluator can change.
 - [ahian-lee/brilliant-researcher](https://github.com/ahian-lee/brilliant-researcher) — Brilliant Researcher: an ARIS-based agent research workbench with native DSH / Codex support, independent review, iteration planning and an English/Chinese UI.
 - [zws20070309/dsh-dispatch-agent-team](https://github.com/zws20070309/dsh-dispatch-agent-team) — Dispatch-mode agent preset plus a team plugin for DSH: twelve teammate roles, shared teammate cards (cache-friendly), structured `report_result` reporting, `wake_teammate`, cache keep-alive and a per-session team toggle; install with `node tools/install.cjs`.
+- [morcoan/ligui](https://github.com/morcoan/ligui) — Ligui — a thin, model-agnostic agent built on DSH.
+- [Sieuno/dsh-native-collab](https://github.com/Sieuno/dsh-native-collab) — Flexible agent teams and model selection for DSH, with enhanced parent/child conversation communication (unofficial community plugin).
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -5715,6 +5732,17 @@ _Plugins that give the agent tools for external services (container registries, 
 - [hherosoul/dsh-value-invest](https://github.com/hherosoul/dsh-value-invest) — Value-investing analysis plugin for DSH: business-first fundamental analysis and DCF valuation tooling behind a compliance gate; it does not recommend stocks or predict prices.
 - [maxid/dsh-github-aide](https://github.com/maxid/dsh-github-aide) — Publish a workspace or project directory to GitHub from DSH: read-only preflight, secret scan, `.gitignore` generation, repository creation, commit, divergence handling and push.
 - [sunChargedd/dsh-plugins](https://github.com/sunChargedd/dsh-plugins) — DeepSeek Harness plugin monorepo: SSH, terminal, MCP and skills packages.
+- [100759/dsh-fuulea-import](https://github.com/100759/dsh-fuulea-import) — Grade-import workbench for Fuulea CodeClass (smart teaching cloud): pick a task, drop a grade sheet to autofill the Tongquan Education upload template, pre-check, then import and verify the platform receipt.
+- [100759/dsh-fuulea-report](https://github.com/100759/dsh-fuulea-report) — Teaching-data report workbench for Fuulea CodeClass: pulls data from the admin dashboard and produces three report versions (formal, briefing, interactive), with version checks and one-click refresh.
+- [a1422398302aa-hash/dsh-restar](https://github.com/a1422398302aa-hash/dsh-restar) — DS_RESTAR — a self-restart plugin for DSH: countdown card, cancel button and an out-of-process watchdog.
+- [game25011/dsh-notify-toast](https://github.com/game25011/dsh-notify-toast) — AI-assisted native Windows toast notifications with a progress bar for DSH (MIT).
+- [hisence999/dsh-browser](https://github.com/hisence999/dsh-browser) — Chrome extension plus DSH plugin: lets an agent drive your real browser over CDP, inheriting existing logins — no re-login.
+- [lhhzmz229/dsh-api-runner](https://github.com/lhhzmz229/dsh-api-runner) — YAML-configured backend API calls, start/attach local Java services, incremental byte-offset log tailing with pattern waits — so the model can verify its own code changes.
+- [mrouyang4/dsh-file-download](https://github.com/mrouyang4/dsh-file-download) — Manage files on the DSH host from the browser: browse, download, upload, mkdir, ZIP, delete, plus one-click download on delivered-file cards and in the document preview pane.
+- [MuRanSea/dsh-mote-media](https://github.com/MuRanSea/dsh-mote-media) — Mote media studio in the style of Jimeng: a multi-channel image/video generation panel plus agent tools.
+- [prgrmrwy/dsh-auto-model-routing](https://github.com/prgrmrwy/dsh-auto-model-routing) — Adjust reasoning effort per turn with Jev without changing the selected model, with configurable subagent routing.
+- [prgrmrwy/dsh-magpie-connector](https://github.com/prgrmrwy/dsh-magpie-connector) — Connect a self-hosted Magpie gateway: one real provider route per upstream owner (grouped model picker on stock DSH), automatic multi-line failover, read-only usage cards, model visibility, default effort and per-session fast mode.
+- [Wanyi424/dsh-performance](https://github.com/Wanyi424/dsh-performance) — See DSH CPU, memory and stutter clearly: per-plugin, terminal and MCP breakdown, correlated with stutter moments, one-click diagnostic report copy — Windows x64 only.
 
 ## Orchestrators & Aggregators
 
@@ -8170,6 +8198,14 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [mengge237/dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease) — Completion and editing aids for the DSH web composer: bracket and quote auto-pairing, wrap selection, skip closers, delete empty pairs, and a popup that states which word table produced each suggestion.
 - [regrevia/dsh-vantage](https://github.com/regrevia/dsh-vantage) — Read-only task overview for DSH: rounds, facts, verification and a bounded history on one screen next to the conversation.
 - [SDKsun/codex-wallpaper-engine](https://github.com/SDKsun/codex-wallpaper-engine) — Local Wallpaper Engine scenes and video backgrounds for the Windows Codex UI, with glass-surface adaptation; built on DSH / WebWallGL (MIT).
+- [ahmadkhanloo/VibeHub](https://github.com/ahmadkhanloo/VibeHub) — Make ZCode chat render Persian, Arabic, Hebrew, Urdu — any RTL language — correctly, with per-paragraph auto-direction while code stays LTR; no app patching, survives updates, one-command install.
+- [beiryang/dsh-vscode-ide](https://github.com/beiryang/dsh-vscode-ide) — Monaco-based VS Code-like workbench: floating window, tabs, diff, Git and SSH terminal.
+- [Edwardpch/maodie-pet](https://github.com/Edwardpch/maodie-pet) — Maodie the orange cat desktop pet: 30 transparent VP9-alpha animations plus a keying/import toolchain and a DSH plugin list.
+- [fightingFirefox/dsh-web-terminal](https://github.com/fightingFirefox/dsh-web-terminal) — Claude-styled visible terminal panel for the DSH web GUI: streams agent shell commands into the right sidebar and exposes 17 live_terminal_* tools.
+- [rahemoth/dsh-theme-endfield](https://github.com/rahemoth/dsh-theme-endfield) — Local fork of ymh0000123/dsh-theme-endfield: Endfield theme plus an OpenCode Go quota balance capsule (5h/weekly/monthly, hover-to-grow card, configurable balance source).
+- [xiao2236/dsh-kon-fee-widget](https://github.com/xiao2236/dsh-kon-fee-widget) — A K-On! club-fee widget for DSH: tea table with five members showing balance, peak/off-peak, today's spend and per-turn cost, with a double-click easter egg and Chinese/Japanese lines.
+- [yeerock/deepseek-harness-remote-control](https://github.com/yeerock/deepseek-harness-remote-control) — Remote Control: prompt-only Harness pairing, native remote windows and a self-hosted edge.
+- [ZilongYang/dsh-multiline-input](https://github.com/ZilongYang/dsh-multiline-input) — Single/multi-line composer toggle: editable Cmd/Ctrl+E shortcut, a tab hint on the composer, a 4-line floor and Shift+Enter to send.
 
 ## Skills
 
@@ -8636,6 +8672,8 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [bugtakue/ronge-adaptive-skill-archive](https://github.com/bugtakue/ronge-adaptive-skill-archive) — Context-aware, self-evolving skill cockpit for DeepSeek Harness: recommendations with reasons, 10% exploration, live "now using", plan/immersive modes, experience memory, local safety scan, update diff/rollback (MIT).
 - [young-yyj/dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) — Read-only local skill browser for DeepSeek Harness.
 - [tectivirus/cheng-yi-jing-skill](https://github.com/tectivirus/cheng-yi-jing-skill) — 程一镜 (Cheng Yijing), an industrialised short-drama skill for MiniMax H3 Ref2VA: turns a script into single-shot tasks that can be generated, edited and tracked.
+- [2842895276/dsh-skill-literature-reading](https://github.com/2842895276/dsh-skill-literature-reading) — Literature reading skill: classifies papers into core/related/method, adapts depth to your level, auto-archives PDFs and builds paper cards.
+- [mikuniemo/dsh-skill-router](https://github.com/mikuniemo/dsh-skill-router) — Cuts skill-directory cost from O(all skills) to about 600 tokens: a resident router plus on-demand category indexes; zero dependencies, cross-platform.
 
 ## Resources
 
