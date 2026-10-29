@@ -1865,8 +1865,8 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [feely0208/dsh-key-vault](https://github.com/feely0208/dsh-key-vault) —— 本机 Key 保险箱：在本地保存你自带的多个 API Key，只显示掩码、文件权限 0600、不上传。
 
 - [Cristallin2006/DSH-CTF-Mode](https://github.com/Cristallin2006/DSH-CTF-Mode) —— 面向 DeepSeek Harness 的 CTF 与安全分析技能：可持续的子代理编排、结构化记忆、持久任务状态与证据复核（TSecBench v1 本地模式 96.94，71/74 flags）。
-- [luwenjiede/dsh-vaultx](https://github.com/luwenjiede/dsh-vaultx) —— VaultX·DSH 终极密码箱：scrypt + AES-256-GCM 信封加密 × `$DSH_*` shellEnv 带外注入（密钥永不进模型上下文）× 锁定态 fail-open × 哈希链审计；融合 dsh-vault 与 dsh-key-panel 之长、修两者之短。
-- [xqpsec/dsh-jalibreak](https://github.com/xqpsec/dsh-jalibreak) —— dsh 破甲：请求边界注入 + 9 维 AE-CoT 进化 + 阀门，放行逆向 / CTF / 靶场、拦住未授权渗透；20 目标严格基线 17/20，0 宿主补丁（AGPL-3.0-only）。
+- [luwenjiede/dsh-vaultx](https://github.com/luwenjiede/dsh-vaultx) —— VaultX：DSH 密码箱，scrypt + AES-256-GCM 信封加密 × `$DSH_*` shellEnv 带外注入（密钥永不进模型上下文）× 锁定态 fail-open × 哈希链审计。
+- [xqpsec/dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak) —— dsh 破甲：请求边界注入 + 9 维 AE-CoT 进化 + 阀门，放行逆向 / CTF / 靶场、拦住未授权渗透；0 宿主补丁（AGPL-3.0-only）。
 
 ## 会话与记忆管理
 
@@ -3155,7 +3155,7 @@ _token 用量、成本看板与预算告警插件。_
 - [weiw0923/dsh-composer-balance](https://github.com/weiw0923/dsh-composer-balance) —— 极简的输入框余额胶囊：账户余额 + 当前会话花费，沿用宿主自身的视觉语言。
 - [zhangle83/dsh-siliconflow-usage](https://github.com/zhangle83/dsh-siliconflow-usage) —— SiliconFlow 价格与按会话的 token / 费用卡片，装在 DSH Web UI 里。
 - [Aisland-SJL/dsh-usage](https://github.com/Aisland-SJL/dsh-usage) —— 常驻停靠栏、完全可定制的余额 / 用量面板：活动热力图、双通道对比，纯本地、隐私优先。
-- [lx950/dsh-spend-meter](https://github.com/lx950/dsh-spend-meter) —— 可拖拽面板里的 DeepSeek 实时余额、每轮扣费与今日花费，按计费计数器精确到 1e-8 元。
+- [lx950/dsh-spend-meter](https://github.com/lx950/dsh-spend-meter) —— 可拖拽面板里的 DeepSeek 实时余额、每轮扣费与今日花费。
 
 ## Channel / IM 桥接
 
@@ -8605,7 +8605,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [bugtakue/ronge-skill-studio](https://github.com/bugtakue/ronge-skill-studio) —— Ronge Skill Studio：按上下文推荐 Skill、远程发现与安装、MCP 工具目录、默认 Plan/沉浸模式、带反馈的经验记忆，以及完成提示音。
 - [shi004/better-search](https://github.com/shi004/better-search) —— 面向 DeepSeek Harness 的 source-first 网络研究技能：证据可追溯，并内置一份浏览器路由技能。
 - [1837620622/ad-and-psim-skill](https://github.com/1837620622/ad-and-psim-skill) —— AI 驱动的 Altium Designer 与 PSIM 技能包：可编辑电路建模、原理图工程排版与原生仿真；专有商业授权。
-- [bugtakue/ronge-adaptive-skill-archive](https://github.com/bugtakue/ronge-adaptive-skill-archive) —— 上下文感知、自我进化的技能驾驶舱：带理由的推荐、10% 探索、实时「正在使用」、计划 / 沉浸模式、经验记忆、本地安全扫描、更新 diff 与回滚，内置 6,399 条技能索引（MIT）。
+- [bugtakue/ronge-adaptive-skill-archive](https://github.com/bugtakue/ronge-adaptive-skill-archive) —— 上下文感知、自我进化的技能驾驶舱：带理由的推荐、10% 探索、实时「正在使用」、计划 / 沉浸模式、经验记忆、本地安全扫描、更新 diff 与回滚（MIT）。
 - [young-yyj/dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) —— DSH 的本地只读技能浏览插件。
 
 ## 资源

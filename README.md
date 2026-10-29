@@ -1858,8 +1858,8 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [feely0208/dsh-key-vault](https://github.com/feely0208/dsh-key-vault) — Local key vault for DSH: keeps several of your own API keys on the machine, shows masked values only, file mode 0600, never uploaded.
 
 - [Cristallin2006/DSH-CTF-Mode](https://github.com/Cristallin2006/DSH-CTF-Mode) — CTF and security-analysis skills for DeepSeek Harness: supervised continuable Solvers, scoped structured memory, durable task state and evidence review (TSecBench v1 local mode 96.94, 71/74 flags).
-- [luwenjiede/dsh-vaultx](https://github.com/luwenjiede/dsh-vaultx) — VaultX — the DSH password vault: scrypt + AES-256-GCM envelope encryption, out-of-band key injection through `$DSH_*` shellEnv (keys never enter model context), fail-open lock state and hash-chain audit. Merges the strengths of dsh-vault and dsh-key-panel.
-- [xqpsec/dsh-jalibreak](https://github.com/xqpsec/dsh-jalibreak) — DSH jailbreak / refusal-reduction plugin: request-boundary injection plus 9-dimension AE-CoT evolution and a valve that allows reverse engineering, CTF and lab work while blocking unauthorized pentesting; 17/20 on a strict 20-target baseline, zero host patches (AGPL-3.0-only).
+- [luwenjiede/dsh-vaultx](https://github.com/luwenjiede/dsh-vaultx) — VaultX — a DSH password vault: scrypt + AES-256-GCM envelope encryption, out-of-band key injection through `$DSH_*` shellEnv (keys never enter model context), fail-open lock state and hash-chain audit.
+- [xqpsec/dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak) — DSH jailbreak / refusal-reduction plugin: request-boundary injection plus 9-dimension AE-CoT evolution and a valve that allows reverse engineering, CTF and lab work while blocking unauthorized pentesting; zero host patches (AGPL-3.0-only).
 
 ## Session & Memory Management
 
@@ -3149,7 +3149,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [weiw0923/dsh-composer-balance](https://github.com/weiw0923/dsh-composer-balance) — Minimal composer balance chip for DeepSeek Harness: account balance plus current-session spend, in the host's own visual language.
 - [zhangle83/dsh-siliconflow-usage](https://github.com/zhangle83/dsh-siliconflow-usage) — SiliconFlow price and per-session token / cost card for the DeepSeek Harness Web UI.
 - [Aisland-SJL/dsh-usage](https://github.com/Aisland-SJL/dsh-usage) — Persistent dock & fully customizable balance/usage panel for DeepSeek Harness — activity heatmap, dual-channel comparison, local-only and privacy-first.
-- [lx950/dsh-spend-meter](https://github.com/lx950/dsh-spend-meter) — Live DeepSeek balance, per-turn charge and today's spend in a draggable DSH panel — measured from the billing counter to 1e-8 CNY.
+- [lx950/dsh-spend-meter](https://github.com/lx950/dsh-spend-meter) — Live DeepSeek balance, per-turn charge and today's spend in a draggable DSH panel.
 
 ## Channel / IM Bridges
 
@@ -8605,7 +8605,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [bugtakue/ronge-skill-studio](https://github.com/bugtakue/ronge-skill-studio) — Ronge Skill Studio: context-aware skill recommendations, remote Discover/install, an MCP tools directory, default Plan/Immersive modes, experience memory with feedback, and a completion chime for DeepSeek Harness.
 - [shi004/better-search](https://github.com/shi004/better-search) — DeepSeek Harness skills for source-first web research with traceable evidence, plus a vendored browser-routing skill.
 - [1837620622/ad-and-psim-skill](https://github.com/1837620622/ad-and-psim-skill) — AI-driven Altium Designer & PSIM skills for editable circuit modeling, schematic layout and native simulation (proprietary commercial license).
-- [bugtakue/ronge-adaptive-skill-archive](https://github.com/bugtakue/ronge-adaptive-skill-archive) — Context-aware, self-evolving skill cockpit for DeepSeek Harness: recommendations with reasons, 10% exploration, live "now using", plan/immersive modes, experience memory, local safety scan, update diff/rollback and a 6,399-skill index (MIT).
+- [bugtakue/ronge-adaptive-skill-archive](https://github.com/bugtakue/ronge-adaptive-skill-archive) — Context-aware, self-evolving skill cockpit for DeepSeek Harness: recommendations with reasons, 10% exploration, live "now using", plan/immersive modes, experience memory, local safety scan, update diff/rollback (MIT).
 - [young-yyj/dsh-skill-browser](https://github.com/young-yyj/dsh-skill-browser) — Read-only local skill browser for DeepSeek Harness.
 
 ## Resources
