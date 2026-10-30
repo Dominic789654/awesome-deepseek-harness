@@ -5778,6 +5778,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [tayuLuc/dsh-ru-voice-input](https://github.com/tayuLuc/dsh-ru-voice-input) —— DSH 的俄语优先语音输入：本地 GigaAM v3 带标点，另附一个让识别器切换能正常工作的 speech registry 修复。
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) —— DSH 插件 · 大肥鱼游戏厅：一键起停本地 AI 游乐场，和你的 Agent 开一桌。
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) —— 在 DSH 侧栏面板里用 Agnes 图像与视频模型，支持后台任务持久化与历史记录。
+- [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) —— 在 DeepSeek Harness（dsh）里用 SQL 查本地数据文件：原生 Cordis 插件直接跑 duckdb CLI，零 Python、零外部服务，路径禁锢在工作区内，默认只读。
 
 ## 编排器与聚合器
 
