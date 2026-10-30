@@ -8768,6 +8768,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [felix-lius/design-patent-views](https://github.com/felix-lius/design-patent-views) — Generate China design-patent drawings from STEP models: six orthographic views, a perspective view, JPEG submission files and editable DXF, fully local; ships a SKILL.md so a DSH agent can drive it.
 - [HaoyanZhang123/control-your-skills](https://github.com/HaoyanZhang123/control-your-skills) — A small personal set of DeepSeek Harness skills for Git release hygiene and repository presentation.
 - [modbusLV/dsh-academic-research-skills](https://github.com/modbusLV/dsh-academic-research-skills) — DeepSeek Harness adaptation of Academic Research Skills (ARS v3.24.0): research, write, integrity check, peer review and revise, packaged as native DSH skills (CC BY-NC 4.0).
+- [alitrack/dsh-gov-bp](https://github.com/alitrack/dsh-gov-bp) — Government-facing BP skills for DeepSeekRuntime: a seven-question review with a do-not-send threshold, the nine-chapter 试点申报 outline with policy-citation cards and a GB/T 9704 format layer, investor-to-application language conversion, and quoting built bottom-up from person-months (CSBMK 口径) with secrecy and copyright red lines. Zero dependencies.
 
 ## Resources
 
