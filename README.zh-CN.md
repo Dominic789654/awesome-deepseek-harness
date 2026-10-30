@@ -2721,6 +2721,12 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [DevZjQx/dsh-zdiary-kit](https://github.com/DevZjQx/dsh-zdiary-kit) —— 给 DSH 装一个内置 zk 的知识库 / 日记本：一键装 zk、自动建笔记本，给 agent 一组 `zk_*` 工具（检索、读写、日记、双链、体检）。
 - [DylanYeung0929/dsh-session-bridge](https://github.com/DylanYeung0929/dsh-session-bridge) —— 从一个 CLI 或作为 DSH 插件读取并发消息给每个 DSH 会话：列出会话、读逐字记录、发消息，用单行每轮菜单跨会话聊天。
 - [QiuXu-Tech/memex](https://github.com/QiuXu-Tech/memex) —— DeepSeek Harness 的无损长时程记忆：粘性 L2/L3 额外上下文、混合召回、冷层压缩与 Web 面板。
+- [1148462398-hub/dsh-shared-memory](https://github.com/1148462398-hub/dsh-shared-memory) —— 全部 DSH 会话共享的 Markdown 记忆：双盘镜像、命中频率分层、共现 + BM25 检索，外加一套怀疑驱动的方法库。
+- [kuroi-kid/dsh-memory-sea](https://github.com/kuroi-kid/dsh-memory-sea) —— 不是 RAG，是一片会遗忘的海——DSH 侧栏插件：每条记忆有自己的半衰期（人格 180 天、事件 10 天），检索按「相似度 × 能量」排序，久未提起的重要事不会沉底。
+- [xushilianzhuren/dsh-constitution-seed](https://github.com/xushilianzhuren/dsh-constitution-seed) —— 工作区宪法注入器：每个新会话启动时注入持久工作区宪章文件的有界摘录（共享预算、从头截断）。
+- [xushilianzhuren/dsh-ledger-gauge](https://github.com/xushilianzhuren/dsh-ledger-gauge) —— 读数台：把 .jsonl 台账当经历记忆，扫新鲜度，让读数纪律常驻。
+- [xushilianzhuren/dsh-memgate](https://github.com/xushilianzhuren/dsh-memgate) —— 记忆门：让「答前先搜」的纪律常驻，并带原生 ripgrep 工作区全文检索。
+- [ys118/harnmem](https://github.com/ys118/harnmem) —— 跨 harness、文件原生的 agent 记忆：一份本地记忆库，pi、DSH、Claude Code 等编码 agent 共用。
 
 ## 成本与用量统计
 
@@ -3182,6 +3188,8 @@ _token 用量、成本看板与预算告警插件。_
 - [fuqiancheng/dsh-commandcode-quota](https://github.com/fuqiancheng/dsh-commandcode-quota) —— DSH 的 Command Code 余额与额度面板：在输入框下以状态行显示余额与 5 小时 / 每周 / 每月窗口。
 - [Hongcheng-LI/dsh-magpie](https://github.com/Hongcheng-LI/dsh-magpie) —— DSH 插件：在输入框里看 Magpie 全部账号额度与用量——订阅窗口、预付余额与中转站。
 - [jieyueriluo/DSH_balance-chip](https://github.com/jieyueriluo/DSH_balance-chip) —— DSH 输入框里的对话花费与账户余额胶囊，附带 token 明细面板。
+- [4478sc/DSH_CostLive](https://github.com/4478sc/DSH_CostLive) —— DSH 会话费用实时面板：每 20 秒刷新，按模型与峰谷价计算人民币花费，零依赖 Node、本地只读。
+- [Jingshiro/dsh-opencode-usage](https://github.com/Jingshiro/dsh-opencode-usage) —— OpenCode GO 额度组件：在侧栏显示滚动 5 小时 / 每周 / 每月用量，数据取自官方 /zen/go/v1/usage 接口。
 
 ## Channel / IM 桥接
 
@@ -3709,6 +3717,8 @@ _插件市场、安装管理器、索引与生态工具。_
 - [YML0823/dsh-local-market](https://github.com/YML0823/dsh-local-market) —— DSH 中文插件市场：实时社区目录、中文检索、界面预览与一键安装。
 - [MaximFedorovtoo/dsh-plugins](https://github.com/MaximFedorovtoo/dsh-plugins) —— 一个仓库里的四个 DSH 插件：按项目统计 API 花费、截图作为输入、俄语本地化与 Codex 导入。
 - [shellRaining/dsh-plugins](https://github.com/shellRaining/dsh-plugins) —— shellRaining 的 DSH 插件集：壁纸、批注、侧边会话、Mermaid 与标题版式；可一键装齐或单个安装。
+- [Charles950311/dsh-plugin-hub](https://github.com/Charles950311/dsh-plugin-hub) —— DSH 插件与技能控制台：一张路由表、一次状态检查、一份清单（MIT）。
+- [jjjjjjjjnnjnn/dsh-triage](https://github.com/jjjjjjjjnnjnn/dsh-triage) —— 分诊台——DSH 插件的判断层：解释某个插件为什么悄无声息地消失，以及一个候选在你的具体环境里能不能活。
 
 ## 可视化
 
@@ -4925,6 +4935,8 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [Sieuno/dsh-native-collab](https://github.com/Sieuno/dsh-native-collab) —— 子 Agent 沟通增强与 Team 模型选择：灵活的 Agent 团队与模型选择，增强父子会话沟通（非官方社区插件）。
 - [ssamurias/dsh-fish](https://github.com/ssamurias/dsh-fish) —— DSH 插件：养一个会自己刷 B 站、会成长的 agent——不通过面板配置，人格是学习长出来的。
 - [yuna78/dsh-slayer](https://github.com/yuna78/dsh-slayer) —— SLAYER，DSH 的赛博工头：两套委派预设加调用时工具守卫（固定 8 人小队，或最多 3 个按日计薪的临时工）。
+- [hsushjk/dsh-aurachat](https://github.com/hsushjk/dsh-aurachat) —— DSH 插件，AI 伙伴：人格、心情和记忆，看图、发语音、听语音、收发表情包、写日记、逛空间回评论，还会主动找你聊天。功能模块化，可本地自写扩展。
+- [NelsonLongxiang/dsh-taste-loop](https://github.com/NelsonLongxiang/dsh-taste-loop) —— 品味闭环插件：自助式版本化品味规则 + 独立会话共识 + 人工仲裁。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -5004,6 +5016,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 
 - [miketako3/dsh-fracture](https://github.com/miketako3/dsh-fracture) — 读已结束的会话，找出 harness 让 agent 绊倒的地方，只保留第二次运行能验证的改动。
 - [MakeBlackSheepGreat/dsh-neural-workflow](https://github.com/MakeBlackSheepGreat/dsh-neural-workflow) —— 神经网络研究工作流约束：阶段图 + 从会话日志折叠出的证据账本，加一层 Rust 中间件拦截乱序推进。
+- [citydirector/dsh-loop-rescue](https://github.com/citydirector/dsh-loop-rescue) —— 在流式中途切断模型的重复循环，把它们从会话日志里清掉，然后自动继续。
 
 ## MCP Server
 
@@ -5779,6 +5792,15 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) —— DSH 插件 · 大肥鱼游戏厅：一键起停本地 AI 游乐场，和你的 Agent 开一桌。
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) —— 在 DSH 侧栏面板里用 Agnes 图像与视频模型，支持后台任务持久化与历史记录。
 - [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) —— 在 DeepSeek Harness（dsh）里用 SQL 查本地数据文件：原生 Cordis 插件直接跑 duckdb CLI，零 Python、零外部服务，路径禁锢在工作区内，默认只读。
+- [guhcostan/dsh-browser-use](https://github.com/guhcostan/dsh-browser-use) —— 让 agent 驱动 Google Chrome：一个 profile 包，内置 Playwright MCP 浏览器工具。
+- [guhcostan/dsh-computer-use](https://github.com/guhcostan/dsh-computer-use) —— DSH 的电脑操作能力：通过 Cua Driver 驱动桌面的 profile 包，带可见的 agent 光标。
+- [guhcostan/dsh-mobile-use](https://github.com/guhcostan/dsh-mobile-use) —— DSH 的手机操作能力：iOS / Android 设备工具，右侧栏还带实时模拟器镜像页。
+- [qiufengsir/dsh-english-break](https://github.com/qiufengsir/dsh-english-break) —— 开源 DSH 插件：用碎片时间练日常与职场英语。
+- [User-Clb/dsh-model-rotation](https://github.com/User-Clb/dsh-model-rotation) —— 模型轮换兜底插件：重试耗尽或模型侧故障（额度用尽 / 429 / soft_rate 等）时，按预设的跨平台模型顺序循环切换继续运行。
+- [xushilianzhuren/dsh-frame-kit](https://github.com/xushilianzhuren/dsh-frame-kit) —— 槽序格式钩：十一槽结构化输出（判断先行、过程殿后）+ 词面验槽。
+- [xushilianzhuren/dsh-hello-pipeline](https://github.com/xushilianzhuren/dsh-hello-pipeline) —— 流水线实测件：发布全链验证用的最小插件（可忽略、可卸载）。
+- [xushilianzhuren/dsh-task-order](https://github.com/xushilianzhuren/dsh-task-order) —— 任务顺序闸：开场体检、先查后造防重造轮子、台账活性巡检、交接捡活，附带六个原生只读工具。
+- [xushilianzhuren/dsh-verify-kit](https://github.com/xushilianzhuren/dsh-verify-kit) —— 交付验证闸：出口前三道纯本地闸（违令句扫 / 宣称拦截 / 发前三检），零依赖、装上即用。
 
 ## 编排器与聚合器
 
@@ -6042,6 +6064,8 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [GZX2211/dsh-Visual-Workflow](https://github.com/GZX2211/dsh-Visual-Workflow) —— 基于 DeepSeek Harness 的可视化 Agent 编排平台：Workflow、Multi-Agent、元编排、MCP 与 Human-in-the-loop。
 - [Johnly1986/AmberFlow](https://github.com/Johnly1986/AmberFlow) —— AmberFlow 决策任务流引擎（TypeScript / Node ≥ 22.6）：把一次决策拆成取数 → 校验 → 打分 → 判规则 → 执行等可编排节点，并提供 DSH 桥。
 - [Lijiajin95/ForgeLoop](https://github.com/Lijiajin95/ForgeLoop) —— 面向多智能体软件开发与运维的 DSH 插件，交付可追溯，异常交给人来决定。
+- [JiangHuai24/dsh-agent-sync](https://github.com/JiangHuai24/dsh-agent-sync) —— 把 WorkBuddy、ZCode、Codex 等编码 agent 的会话镜像进 DSH 变成实时任务，每个应用一个工作区。
+- [K-kiron/runward](https://github.com/K-kiron/runward) —— 面向编码 agent 的本地操作台：执行时间线与交接。
 
 ## UI / 客户端
 
@@ -8241,6 +8265,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [QDNBD/dsh-panel-pins](https://github.com/QDNBD/dsh-panel-pins) —— DSH 的侧栏面板管理：分组面板启动器、持久化固定/取消、紧凑底栏与完整设置页。
 - [rainj2013/luna-mux](https://github.com/rainj2013/luna-mux) —— 面向 Coding Agent 的终端工作台：以项目为单位维护 Session 与分屏终端，为 Agent 自动注入 Hook 和 MCP，并内置 SSH、SFTP 与浏览器自动化。
 - [Toximiner/DSH-Launcher](https://github.com/Toximiner/DSH-Launcher) —— DSH 的 Electron 桌面启动器：在窗口里打开 dsh web，退出时停掉 dsh。
+- [citydirector/dsh-remote-access-proxy](https://github.com/citydirector/dsh-remote-access-proxy) —— DSH Web 界面远程访问代理插件：随机路径 + HttpOnly Cookie 网关，桥接 DSH 启动 token，并提供设置卡片。
 
 ## Skill
 

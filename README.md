@@ -2716,6 +2716,12 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [DevZjQx/dsh-zdiary-kit](https://github.com/DevZjQx/dsh-zdiary-kit) — Built-in zk knowledge base / diary for DSH: one-click zk install, automatic notebook creation, and a set of `zk_*` tools for search, read/write, diary, backlinks and health checks.
 - [DylanYeung0929/dsh-session-bridge](https://github.com/DylanYeung0929/dsh-session-bridge) — Read and message every DSH session from one CLI or as a DSH plugin: list sessions, read transcripts, send messages, and chat across sessions with a one-line per-turn menu.
 - [QiuXu-Tech/memex](https://github.com/QiuXu-Tech/memex) — Lossless long-horizon memory for DeepSeek Harness: sticky L2/L3 extra-context, hybrid recall, cold-tier compression and a Web panel.
+- [1148462398-hub/dsh-shared-memory](https://github.com/1148462398-hub/dsh-shared-memory) — Shared Markdown memory for all DSH sessions: two-disk mirror, hit-frequency tiering, co-occurrence + BM25 retrieval, and a skepticism-driven method library.
+- [kuroi-kid/dsh-memory-sea](https://github.com/kuroi-kid/dsh-memory-sea) — Not RAG but a sea that forgets — a DSH sidebar plugin where each memory has its own half-life (persona 180 days, events 10 days) and retrieval ranks by similarity × energy.
+- [xushilianzhuren/dsh-constitution-seed](https://github.com/xushilianzhuren/dsh-constitution-seed) — Constitution seed: injects bounded excerpts of persistent workspace charter files into every new DSH session (shared-budget, head-first truncation).
+- [xushilianzhuren/dsh-ledger-gauge](https://github.com/xushilianzhuren/dsh-ledger-gauge) — Ledger gauge: treats .jsonl ledgers as experience memory, with freshness scanning and a resident readout discipline.
+- [xushilianzhuren/dsh-memgate](https://github.com/xushilianzhuren/dsh-memgate) — Memory gate: a resident search-before-answer discipline plus native ripgrep workspace search.
+- [ys118/harnmem](https://github.com/ys118/harnmem) — Cross-harness, file-native agent memory: one local memory store shared by pi, DSH, Claude Code and other coding agents.
 
 ## Cost & Usage Tracking
 
@@ -3176,6 +3182,8 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [fuqiancheng/dsh-commandcode-quota](https://github.com/fuqiancheng/dsh-commandcode-quota) — Command Code balance and quota panel for DSH: balance plus the 5-hour, weekly and monthly windows as a status row under the composer.
 - [Hongcheng-LI/dsh-magpie](https://github.com/Hongcheng-LI/dsh-magpie) — DSH plugin: Magpie gateway quotas in your composer — subscription windows, prepaid balances and relay stations, so every Magpie account's quota and usage sits in the input box.
 - [jieyueriluo/DSH_balance-chip](https://github.com/jieyueriluo/DSH_balance-chip) — A DSH composer chip for conversation spend and account balance, with a token breakdown panel.
+- [4478sc/DSH_CostLive](https://github.com/4478sc/DSH_CostLive) — Real-time session cost panel for DSH: refreshes every 20 seconds, prices CNY by model and peak / off-peak rate, zero-dependency Node, local read-only.
+- [Jingshiro/dsh-opencode-usage](https://github.com/Jingshiro/dsh-opencode-usage) — OpenCode GO quota widget for DSH: rolling 5-hour / weekly / monthly usage in the sidebar, from the official /zen/go/v1/usage endpoint.
 
 ## Channel / IM Bridges
 
@@ -3693,6 +3701,8 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [YML0823/dsh-local-market](https://github.com/YML0823/dsh-local-market) — DSH Chinese plugin market: live community catalog, Chinese search, UI previews and one-click install.
 - [MaximFedorovtoo/dsh-plugins](https://github.com/MaximFedorovtoo/dsh-plugins) — Four DSH plugins in one repo: API spend per project, screenshots as input, Russian localization and Codex import.
 - [shellRaining/dsh-plugins](https://github.com/shellRaining/dsh-plugins) — shellRaining's DSH plugin collection: wallpaper, annotations, side sessions, Mermaid and title layout — install all at once or pick individually.
+- [Charles950311/dsh-plugin-hub](https://github.com/Charles950311/dsh-plugin-hub) — Control hub for DSH plugins and skills: one routing table, one status check, one manifest (MIT).
+- [jjjjjjjjnnjnn/dsh-triage](https://github.com/jjjjjjjjnnjnn/dsh-triage) — Triage — the judgment layer for DSH plugins: explains why a plugin silently disappeared and whether a candidate survives your exact environment.
 
 ## Visualization
 
@@ -4914,6 +4924,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [Sieuno/dsh-native-collab](https://github.com/Sieuno/dsh-native-collab) — Flexible agent teams and model selection for DSH, with enhanced parent/child conversation communication (unofficial community plugin).
 - [ssamurias/dsh-fish](https://github.com/ssamurias/dsh-fish) — DSH plugin: raise an agent that browses Bilibili by itself and grows; no panel configuration — its personality is born from learning.
 - [yuna78/dsh-slayer](https://github.com/yuna78/dsh-slayer) — SLAYER, a cyber foreman for DSH: two delegation presets with call-time tool guards (a fixed 8-seat crew, or up to 3 day-rate temps).
+- [hsushjk/dsh-aurachat](https://github.com/hsushjk/dsh-aurachat) — AI companion plugin for DSH: persona, mood and memory, image reading, voice in and out, sticker send and receive, diary writing, space browsing with comment replies — and it starts conversations with you; modular and locally extensible.
+- [NelsonLongxiang/dsh-taste-loop](https://github.com/NelsonLongxiang/dsh-taste-loop) — Taste-loop plugin: self-service versioned taste rules with independent-session quorum and human arbitration.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -4989,6 +5001,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 
 - [miketako3/dsh-fracture](https://github.com/miketako3/dsh-fracture) — Reads your finished sessions, finds where the harness makes the agent stumble, and keeps only the changes that a second run proves.
 - [MakeBlackSheepGreat/dsh-neural-workflow](https://github.com/MakeBlackSheepGreat/dsh-neural-workflow) — Neural-network research workflow constraints for DSH: a stage graph, an evidence ledger folded from the session log, and a Rust middleware that blocks out-of-order progress.
+- [citydirector/dsh-loop-rescue](https://github.com/citydirector/dsh-loop-rescue) — Cuts model repetition loops mid-stream, prunes them from the session log and resumes automatically.
 
 ## MCP Servers
 
@@ -5771,6 +5784,15 @@ _Plugins that give the agent tools for external services (container registries, 
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) — DSH plugin · Big Fat Fish arcade: start and stop a local AI playground with one click and play a round with your agent.
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) — Agnes image and video models inside a DSH sidebar panel, with durable background tasks and history.
 - [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) — Query local data files with SQL from inside DeepSeek Harness (dsh): native Cordis plugin running the duckdb CLI, zero Python and zero external services, workspace-confined paths, read-only by default.
+- [guhcostan/dsh-browser-use](https://github.com/guhcostan/dsh-browser-use) — Agent-driven Google Chrome for DSH: a profile bundle with Playwright MCP browser tools.
+- [guhcostan/dsh-computer-use](https://github.com/guhcostan/dsh-computer-use) — Computer use for DSH: a profile bundle driving the desktop through the Cua Driver, with a visible agent cursor.
+- [guhcostan/dsh-mobile-use](https://github.com/guhcostan/dsh-mobile-use) — Mobile use for DSH: iOS / Android device tools plus a live Simulator mirror tab in the right sidebar.
+- [qiufengsir/dsh-english-break](https://github.com/qiufengsir/dsh-english-break) — Open-source DSH plugin for everyday and workplace English practice during short breaks.
+- [User-Clb/dsh-model-rotation](https://github.com/User-Clb/dsh-model-rotation) — Model rotation fallback plugin for DSH: when retries run out or the model side fails (quota exhausted, 429, soft_rate...), it cycles through a preset cross-platform model order and keeps running.
+- [xushilianzhuren/dsh-frame-kit](https://github.com/xushilianzhuren/dsh-frame-kit) — Eleven-slot structured reply frame with a word-surface slot checker.
+- [xushilianzhuren/dsh-hello-pipeline](https://github.com/xushilianzhuren/dsh-hello-pipeline) — Pipeline smoke-test plugin: a minimal release-chain verification plugin (safe to ignore or uninstall).
+- [xushilianzhuren/dsh-task-order](https://github.com/xushilianzhuren/dsh-task-order) — Task-order discipline: opening health check, look-before-build to avoid rebuilding the wheel, ledger liveness scan and handoff pickup, with six native read-only tools.
+- [xushilianzhuren/dsh-verify-kit](https://github.com/xushilianzhuren/dsh-verify-kit) — Delivery gate kit with three pure-local checks before anything goes out (banned-phrase scan, claim interception, pre-send checklist).
 
 ## Orchestrators & Aggregators
 
@@ -6017,6 +6039,8 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [GZX2211/dsh-Visual-Workflow](https://github.com/GZX2211/dsh-Visual-Workflow) — Visual agent orchestration platform built on DSH: workflows, multi-agent teams, meta-orchestration, MCP and human-in-the-loop.
 - [Johnly1986/AmberFlow](https://github.com/Johnly1986/AmberFlow) — AmberFlow: a decision task-flow engine (TypeScript / Node ≥ 22.6) that splits a decision into orchestrated task nodes (fetch → validate → score → judge → act), with a DSH bridge.
 - [Lijiajin95/ForgeLoop](https://github.com/Lijiajin95/ForgeLoop) — A DSH plugin for multi-agent software development and operations, with traceable delivery and human decisions for exceptions.
+- [JiangHuai24/dsh-agent-sync](https://github.com/JiangHuai24/dsh-agent-sync) — Mirror WorkBuddy, ZCode, Codex and other coding-agent sessions into DSH as live tasks, one workspace per application.
+- [K-kiron/runward](https://github.com/K-kiron/runward) — A local operations desk for coding agents, execution timelines and handoffs.
 
 ## UI / Clients
 
@@ -8243,6 +8267,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [QDNBD/dsh-panel-pins](https://github.com/QDNBD/dsh-panel-pins) — Sidebar panel management for DSH: grouped panels launcher, persistent pin/unpin, compact footer and a full Settings page.
 - [rainj2013/luna-mux](https://github.com/rainj2013/luna-mux) — Terminal workbench for coding agents: session and split-terminal workspaces per project, automatic hook and MCP injection for agents, plus built-in SSH, SFTP and browser automation.
 - [Toximiner/DSH-Launcher](https://github.com/Toximiner/DSH-Launcher) — Electron desktop launcher for DSH: opens dsh web in a window and stops dsh on exit.
+- [citydirector/dsh-remote-access-proxy](https://github.com/citydirector/dsh-remote-access-proxy) — DSH web GUI remote-access proxy plugin: random-path + HttpOnly-cookie gate with a DSH launch-token bridge, plus a settings UI card.
 
 ## Skills
 
