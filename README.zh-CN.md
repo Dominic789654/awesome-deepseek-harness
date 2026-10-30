@@ -8767,6 +8767,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [felix-lius/design-patent-views](https://github.com/felix-lius/design-patent-views) —— 从 STEP 三维模型自动生成中国外观设计专利的六视图 + 立体图 + JPEG 提交件 + 可编辑 DXF，全程本地运行；带 SKILL.md，DSH agent 一句话即可调用。
 - [HaoyanZhang123/control-your-skills](https://github.com/HaoyanZhang123/control-your-skills) —— 个人自用的 DSH skill 集：Git 发版纪律与仓库呈现规范。
 - [modbusLV/dsh-academic-research-skills](https://github.com/modbusLV/dsh-academic-research-skills) —— Academic Research Skills（ARS v3.24.0）的 DSH 适配版：调研、写作、诚信检查、同行评审与修订，打包成原生 DSH skills（CC BY-NC 4.0）。
+- [alitrack/dsh-gov-bp](https://github.com/alitrack/dsh-gov-bp) —— 给政府部门看的 BP 技能包：评审七问（带「不发」阈值）、九章试点申报骨架（政策依据卡 + GB/T 9704 格式层）、路演语言转申报语言、按人月自下而上验算的报价方法（CSBMK 口径）与涉密/版权红线。零依赖。
 
 ## 资源
 
