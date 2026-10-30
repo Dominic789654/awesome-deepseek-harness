@@ -5793,6 +5793,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) — DSH plugin · Big Fat Fish arcade: start and stop a local AI playground with one click and play a round with your agent.
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) — Agnes image and video models inside a DSH sidebar panel, with durable background tasks and history.
 - [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) — Query local data files with SQL from inside DeepSeek Harness (dsh): native Cordis plugin running the duckdb CLI, zero Python and zero external services, workspace-confined paths, read-only by default.
+- [alitrack/dsh-wechat-article](https://github.com/alitrack/dsh-wechat-article) — Turn Markdown into a WeChat Official Account draft from inside DeepSeek Harness (dsh): inline-style HTML, a 900x383 cover card, and a draft-box push that reads itself back. Zero dependencies.
 - [guhcostan/dsh-browser-use](https://github.com/guhcostan/dsh-browser-use) — Agent-driven Google Chrome for DSH: a profile bundle with Playwright MCP browser tools.
 - [guhcostan/dsh-computer-use](https://github.com/guhcostan/dsh-computer-use) — Computer use for DSH: a profile bundle driving the desktop through the Cua Driver, with a visible agent cursor.
 - [guhcostan/dsh-mobile-use](https://github.com/guhcostan/dsh-mobile-use) — Mobile use for DSH: iOS / Android device tools plus a live Simulator mirror tab in the right sidebar.

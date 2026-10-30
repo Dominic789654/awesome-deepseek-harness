@@ -5801,6 +5801,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) —— DSH 插件 · 大肥鱼游戏厅：一键起停本地 AI 游乐场，和你的 Agent 开一桌。
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) —— 在 DSH 侧栏面板里用 Agnes 图像与视频模型，支持后台任务持久化与历史记录。
 - [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) —— 在 DeepSeek Harness（dsh）里用 SQL 查本地数据文件：原生 Cordis 插件直接跑 duckdb CLI，零 Python、零外部服务，路径禁锢在工作区内，默认只读。
+- [alitrack/dsh-wechat-article](https://github.com/alitrack/dsh-wechat-article) —— 在 DeepSeek Harness（dsh）里把 Markdown 变成微信公众号草稿：内联样式 HTML、900×383 封面卡片、推草稿箱并回读验证，零依赖。
 - [guhcostan/dsh-browser-use](https://github.com/guhcostan/dsh-browser-use) —— 让 agent 驱动 Google Chrome：一个 profile 包，内置 Playwright MCP 浏览器工具。
 - [guhcostan/dsh-computer-use](https://github.com/guhcostan/dsh-computer-use) —— DSH 的电脑操作能力：通过 Cua Driver 驱动桌面的 profile 包，带可见的 agent 光标。
 - [guhcostan/dsh-mobile-use](https://github.com/guhcostan/dsh-mobile-use) —— DSH 的手机操作能力：iOS / Android 设备工具，右侧栏还带实时模拟器镜像页。
