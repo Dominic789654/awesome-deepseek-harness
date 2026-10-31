@@ -8325,6 +8325,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) — Interaction and convenience upgrades for the DSH Web UI: a session right-click menu with permanent delete, a Git branch chip under the composer, and opt-in worktrees.
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) — Transparent desktop companion for DeepSeek Harness: task captions, expressions, touch interactions and an optional DeepSeek balance readout.
 
+- [Lionad-Morotar/dsh-jump](https://github.com/Lionad-Morotar/dsh-jump) — Keyboard navigation for the DSH web GUI: a chord surfaces letter labels over every visible interactive target, and typing a label clicks or focuses that target; the chord is remappable in settings.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._

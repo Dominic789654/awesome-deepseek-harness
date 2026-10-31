@@ -8323,6 +8323,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) —— DSH Web UI 的交互与便利升级：会话右键菜单（含永久删除）、输入框下方的 Git 分支小标签，以及可选启用的 worktree。
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) —— DeepSeek Harness 的透明桌面伴侣：任务字幕、表情、触摸互动，以及可选的 DeepSeek 余额显示。
 
+- [Lionad-Morotar/dsh-jump](https://github.com/Lionad-Morotar/dsh-jump) —— DSH Web 键盘跳跃导航：按下组合键后，界面上每个可见的可交互目标浮出一个字母标签，敲标签即可点击或聚焦它；组合键可在设置中修改。
+
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
