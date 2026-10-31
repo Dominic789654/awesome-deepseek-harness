@@ -1874,6 +1874,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 - [Changqin1024/dsh-session-delete-cascade](https://github.com/Changqin1024/dsh-session-delete-cascade) — Adds Delete Session to DeepSeek Harness: one click from the sidebar menu removes the session and recursively cleans child sessions, logs, projection cache, search index and workspace bookkeeping.
 - [Domaki-co/dsh-message-forward](https://github.com/Domaki-co/dsh-message-forward) — DeepSeek Harness (DSH) plugin for session message forwarding.
+- [OakcoderX/solopup-memory](https://github.com/OakcoderX/solopup-memory) — Source-linked text memory for DSH with project scopes and revision history (public beta).
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — Cross-project pinned Session groups for DeepSeek Harness Web (alpha preview).
 - [a1141171521/dsh-plugin-memfuse](https://github.com/a1141171521/dsh-plugin-memfuse) — Long-term memory plugin for DSH: plain-text Markdown is the source of truth, retrieval runs on the local machine, and the read / write / inject / search path calls no model.
 - [ayachinene285/dsh-session-move](https://github.com/ayachinene285/dsh-session-move) — Workspace folders (grouping) in the sidebar plus session move for DSH.

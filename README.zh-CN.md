@@ -1881,6 +1881,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [Changqin1024/dsh-session-delete-cascade](https://github.com/Changqin1024/dsh-session-delete-cascade) — 为 DeepSeek Harness 补上「删除会话」：侧栏菜单一键删除，递归清理子会话、日志、投影缓存、搜索索引与工作区记账。
 - [Domaki-co/dsh-message-forward](https://github.com/Domaki-co/dsh-message-forward) — DeepSeek Harness (DSH) 插件：会话消息转发。
+- [OakcoderX/solopup-memory](https://github.com/OakcoderX/solopup-memory) —— 保留原话来源、项目归属与修订历史的 DSH 文字记忆插件（公开测试版）。
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — DeepSeek Harness Web 的跨项目固定会话分组（alpha 预览）。
 - [a1141171521/dsh-plugin-memfuse](https://github.com/a1141171521/dsh-plugin-memfuse) —— DSH 长期记忆插件：纯文本 Markdown 是真源，检索在本机完成，读 / 写 / 注入 / 检索的关键路径一次模型都不调。
 - [ayachinene285/dsh-session-move](https://github.com/ayachinene285/dsh-session-move) —— DSH 侧栏的工作区文件夹（分组）与会话移动。
