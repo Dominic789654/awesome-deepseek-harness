@@ -2736,6 +2736,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) —— 把本地 Codex 对话线程导入成 DeepSeek Harness 会话，归到原工作目录下，可选自动同步。
 - [MYCF711/dsh-GOkifu-compact](https://github.com/MYCF711/dsh-GOkifu-compact) —— DSH 的棋谱式上下文压缩后端：增量 fold、失败记忆与置换检测，每步只注入约 323 tokens 的热清单。
 - [yulianjie/dsh-brain](https://github.com/yulianjie/dsh-brain) —— DeepSeek Harness Desktop 的本地长期记忆与可控交流风格。
+- [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — 给仓库和过往会话的读取打分，在淹没上下文窗口之前提醒，并写出挡住最糟那部分的 `.aiignore` 规则；同一个包还带一个跟随当前对话的侧栏面板。
 
 ## 成本与用量统计
 
@@ -3734,6 +3735,8 @@ _插件市场、安装管理器、索引与生态工具。_
 - [Charles950311/dsh-plugin-hub](https://github.com/Charles950311/dsh-plugin-hub) —— DSH 插件与技能控制台：一张路由表、一次状态检查、一份清单（MIT）。
 - [jjjjjjjjnnjnn/dsh-triage](https://github.com/jjjjjjjjnnjnn/dsh-triage) —— 分诊台——DSH 插件的判断层：解释某个插件为什么悄无声息地消失，以及一个候选在你的具体环境里能不能活。
 - [Lionad-Morotar/dsh-plugins](https://github.com/Lionad-Morotar/dsh-plugins) —— Lionad 的 DeepSeek Harness 插件 monorepo——多个社区插件放在同一个仓库维护。
+- [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) — 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」这类问题在发布前就失败；另含 `init`、`dev`、`release`。
+- [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) — 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查。
 
 ## 可视化
 
