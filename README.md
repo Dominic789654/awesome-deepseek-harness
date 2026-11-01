@@ -2731,6 +2731,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) — Import a local Codex conversation thread into a DeepSeek Harness session, filed under its original working directory, with optional auto-sync.
 - [MYCF711/dsh-GOkifu-compact](https://github.com/MYCF711/dsh-GOkifu-compact) — Chess-record style context-compression backend for DSH: incremental fold, failure memory and permutation detection, injecting only a ~323-token hot list per step.
 - [yulianjie/dsh-brain](https://github.com/yulianjie/dsh-brain) — Local long-term memory and user-controlled communication style for DeepSeek Harness Desktop.
+- [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — Grades what a repository or a past session actually read, warns before it floods the context window, and writes the `.aiignore` rules that stop the worst of it; the same package ships a sidebar panel that follows the current conversation.
 
 ## Cost & Usage Tracking
 
@@ -3718,6 +3719,8 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [Charles950311/dsh-plugin-hub](https://github.com/Charles950311/dsh-plugin-hub) — Control hub for DSH plugins and skills: one routing table, one status check, one manifest (MIT).
 - [jjjjjjjjnnjnn/dsh-triage](https://github.com/jjjjjjjjnnjnn/dsh-triage) — Triage — the judgment layer for DSH plugins: explains why a plugin silently disappeared and whether a candidate survives your exact environment.
 - [Lionad-Morotar/dsh-plugins](https://github.com/Lionad-Morotar/dsh-plugins) — Lionad's DeepSeek Harness plugin monorepo — several community plugins maintained in one repository.
+- [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) — Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` and `release`.
+- [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) — A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight.
 
 ## Visualization
 
