@@ -6084,6 +6084,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [JiangHuai24/dsh-agent-sync](https://github.com/JiangHuai24/dsh-agent-sync) — Mirror WorkBuddy, ZCode, Codex and other coding-agent sessions into DSH as live tasks, one workspace per application.
 - [K-kiron/runward](https://github.com/K-kiron/runward) — A local operations desk for coding agents, execution timelines and handoffs.
 - [01men/kizuna](https://github.com/01men/kizuna) — A letterbox for every agent: an agent address book and reliable task-delivery network for the DSH ecosystem — directory, reliable relay and append-only trail.
+- [vicfei/dsh-super-agent](https://github.com/vicfei/dsh-super-agent) — Standalone admission-control orchestrator implementing the DeepSeek Super-agent authorization design (dsh-superagent-prototype docs 001–003): host-enforced admission tables where messages can never change permissions, explicit/inferred strength, an off→observe→auto trust ladder with shadow records, tickets with stop/resume/revalidation, and any CLI agent (Claude Code, Codex, OpenCode — or dsh itself) as the worker in per-ticket git worktrees. No DSH required; design credits cited module-by-module in the code. MIT, bilingual README, real-run demo GIF.
 
 ## UI / Clients
 
