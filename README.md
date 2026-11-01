@@ -1516,6 +1516,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [ChenXu233/oh-my-dsh-pack](https://github.com/ChenXu233/oh-my-dsh-pack) — ChenXu233's personal, opinionated Docker deployment kit for dsh: image build, CI, deploy scripts and plugin bootstrap, with full / minimal / chat / capability-complete / headless-coder install plans.
 - [liubaicai/dsh-codebuddy-link](https://github.com/liubaicai/dsh-codebuddy-link) — Brings the Tencent CodeBuddy CLI into DSH as a plugin.
 - [PengYangchao0808/oh-my-coharness](https://github.com/PengYangchao0808/oh-my-coharness) — Install once and let the AI coding CLIs you already use work together inside DSH: one tool, five verified harnesses, honest diagnostics.
+- [modelflare-ai/AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) — Open-source desktop agent app that runs on DeepSeek Harness, with background tasks, scheduled rules and a "Needs you" inbox.
 
 ## Security & Permissions
 
