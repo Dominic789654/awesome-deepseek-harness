@@ -8322,6 +8322,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) —— DSH 界面交互（形象）：LIVE2D 主位 + 视频 / 音频 / 表情侧边栏、虚拟摄像头与麦克风（外部采集器）、语音识别与识图事件流。
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) —— DSH Web UI 的交互与便利升级：会话右键菜单（含永久删除）、输入框下方的 Git 分支小标签，以及可选启用的 worktree。
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) —— DeepSeek Harness 的透明桌面伴侣：任务字幕、表情、触摸互动，以及可选的 DeepSeek 余额显示。
+- [chriswang/dsh-conversation-tree](https://github.com/chriswang/dsh-conversation-tree) —— 会话列旁的可折叠「对话树」栏：把 DSH 会话按工作区 → 主题 → 对话组织，就地打开真实会话，并通过 9 个模型工具让助手读写这棵树。
 
 ## Skill
 
