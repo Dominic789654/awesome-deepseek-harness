@@ -1518,6 +1518,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [ChenXu233/oh-my-dsh-pack](https://github.com/ChenXu233/oh-my-dsh-pack) —— ChenXu233 个人口味调校的 dsh Docker 部署包：镜像构建、CI、部署脚本与插件引导，提供完整/最小/聊天/能力完备/无头写码等多套安装方案（个人配置，非官方）。
 - [liubaicai/dsh-codebuddy-link](https://github.com/liubaicai/dsh-codebuddy-link) —— 把腾讯 CodeBuddy CLI 接入 DSH 的插件。
 - [PengYangchao0808/oh-my-coharness](https://github.com/PengYangchao0808/oh-my-coharness) —— 装一次就能让已有的多个 AI 写码 CLI 在 DSH 里协同：一个工具、五套已验证 harness、如实诊断。
+- [modelflare-ai/AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) —— 开源桌面智能体应用，运行在 DeepSeek Harness 上，提供后台任务、定时规则和「需要你」收件箱。
 
 ## 安全与权限
 
