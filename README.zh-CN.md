@@ -1892,6 +1892,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [j62268781-alt/dsh-hindsight-bank-router](https://github.com/j62268781-alt/dsh-hindsight-bank-router) — 把 Hindsight 编码插件的 bank 身份锚定到远程仓库名，而不是本地目录名。
 - [2026heshao/dsh-forget-session](https://github.com/2026heshao/dsh-forget-session) — DSH 会话删除插件：在每个会话菜单加一个删除动作，删除会话文件与数据但保留记忆。
 - [284022719/dsh-kb-sync](https://github.com/284022719/dsh-kb-sync) — DSH 插件：编排「用户自有 DeepSeek 网页历史 → 本地知识库」同步管线，无凭证、自身不联网。
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) —— DSH 插件：agent 预设先查本地主题知识库再回答，并标出答案是否来自卡片；侧边栏面板可浏览、互连与核实卡片。卡片是 ~/.dsh/learn 下的普通文件，检索为本地计算。
 - [WYR-233/dsh-memory-lite](https://github.com/WYR-233/dsh-memory-lite) — DSH 中基于文件（markdown + git）的长期记忆库只读增强：内置零依赖搜索、一键建库、治理看板、`/memory` 命令与随包技能。
 - [yangfei222666-9/memory-auditor](https://github.com/yangfei222666-9/memory-auditor) —— 零依赖的 AI 记忆审计器：标记过度断言、无证据的完成声明与重复规则。给出候选，不下定论。
 - [AOS](https://github.com/MagicalYuYu/agent-operating-system) — 面向 agent harness 的文件治理层：目录宪章、指针表记忆、双层日志与校验脚本。
