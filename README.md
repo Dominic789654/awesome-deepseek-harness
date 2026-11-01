@@ -5835,6 +5835,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) — Connect any ACP agent through the official ACP provider, with a settings page, handshake test and routing skill.
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) — DSH collector plugin: decodes local files, network sources and live streams into JPEG frames plus 16k PCM and pushes them to muse_vtuber's capture port — including Bilibili video and live streams with automatic reconnection.
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) — Sync a DeepSeek Harness profile configuration across devices through Nutstore WebDAV or GitHub: per-file hash merge, conflict copies, optional AES-256-GCM encryption and a settings-page UI.
+- [vicfei/dsh-weknora-ops](https://github.com/vicfei/dsh-weknora-ops) — WeKnora write path and governance for DeepSeek Harness: document ingest, double-gated deletes, and tag trees under a three-layer safety model (skill etiquette, CLI gate, capability-scoped API key — a key without manage_kbs cannot do damage). Complements the official read-only plugin @wxg-prc-cpg/dsh-weknora; cite, don't recall.
 
 ## Orchestrators & Aggregators
 
