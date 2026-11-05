@@ -8323,6 +8323,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) —— DSH Web UI 的交互与便利升级：会话右键菜单（含永久删除）、输入框下方的 Git 分支小标签，以及可选启用的 worktree。
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) —— DeepSeek Harness 的透明桌面伴侣：任务字幕、表情、触摸互动，以及可选的 DeepSeek 余额显示。
 
+- [Veduis/dsh-workspace-tints](https://github.com/Veduis/dsh-workspace-tints) —— 为每个工作区取一个稳定的色调，把工作区名设为分组标题、会话缩进其下，已完成但未读的会话整行染绿。
 ## Skill
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
