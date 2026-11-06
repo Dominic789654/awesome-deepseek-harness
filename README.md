@@ -4090,6 +4090,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [Lucky020/dsh-copyright-kit](https://github.com/Lucky020/dsh-copyright-kit) — Software-copyright workshop: turns a code repository into registration material — 60 pages of source code, a manual, five screenshots and a derived application form.
 - [Zm886/dsh-ruankao-essay](https://github.com/Zm886/dsh-ruankao-essay) — Ruankao systems-analyst essay assistant: question-bank index, a 10-section writing frame and Word delivery.
 - [yunfong/dsh-session-md-export](https://github.com/yunfong/dsh-session-md-export) — Export a DeepSeek Harness session as readable Markdown, dialogue only.
+- [wuke-luke/DSH-PaperReading](https://github.com/wuke-luke/DSH-PaperReading) — Paper-reading workspace for DeepSeek Harness: page-by-page bilingual PDF translation, select-to-translate, a paper-aware chat whose answers cite pages, plus notes, diagrams and cloud sync.
 
 ## Coding
 
