@@ -4103,6 +4103,7 @@ _在工作区内外转换文档——Markdown、Word 等格式。_
 - [Lucky020/dsh-copyright-kit](https://github.com/Lucky020/dsh-copyright-kit) —— 软著工坊：把代码仓库变成软件著作权登记材料——源程序 60 页、说明书、五屏截图与申请表推导。
 - [Zm886/dsh-ruankao-essay](https://github.com/Zm886/dsh-ruankao-essay) —— 软考系统分析师论文助手：题库索引 + 10 段式写作 + Word 交付。
 - [yunfong/dsh-session-md-export](https://github.com/yunfong/dsh-session-md-export) —— 把 DSH 会话一键导出成可读的 Markdown，仅保留对话。
+- [wuke-luke/DSH-PaperReading](https://github.com/wuke-luke/DSH-PaperReading) —— DeepSeek Harness 的论文阅读工作台：中英整页对照翻译、划词即译、带页码引用的伴读对话，以及笔记、框架图与云同步。
 
 ## 写代码
 
