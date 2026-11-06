@@ -5835,6 +5835,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) — Connect any ACP agent through the official ACP provider, with a settings page, handshake test and routing skill.
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) — DSH collector plugin: decodes local files, network sources and live streams into JPEG frames plus 16k PCM and pushes them to muse_vtuber's capture port — including Bilibili video and live streams with automatic reconnection.
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) — Sync a DeepSeek Harness profile configuration across devices through Nutstore WebDAV or GitHub: per-file hash merge, conflict copies, optional AES-256-GCM encryption and a settings-page UI.
+- [whatif146/dsh-memelens](https://github.com/whatif146/dsh-memelens) — Explains Chinese internet memes to the agent: a `meme_explain` tool returning meaning, tone, origin and lifecycle, which memes can and cannot be combined, occasions to avoid, and meme-version plus plain-version replies — backed by a local memory store with spacing-effect decay, falling back to a user-configured OpenAI-compatible vision endpoint (BYOK).
 
 ## Orchestrators & Aggregators
 
