@@ -6090,6 +6090,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [ace202321-cloud/dsh-agent-chat](https://github.com/ace202321-cloud/dsh-agent-chat) — A shared `thread.md` rendered as a tab in the right sidebar: per-signature colors, unread badge, reply jumps, filtering and a collapsible view — read-only by design.
 - [algerkong/dsh-image-preview](https://github.com/algerkong/dsh-image-preview) — Image preview for DSH web sessions: `read_image` results render as thumbnails, click to open full size in the built-in lightbox.
 - [Cherryxxh/DSH-One-Dark-Pro-Theme](https://github.com/Cherryxxh/DSH-One-Dark-Pro-Theme) — One Dark Pro (classic) theme for the DSH Web GUI: a Settings → General switcher with a full 156-token override layer, colors matched 1:1 to the VS Code extension.
+- [klaus-2/dsh-redline](https://github.com/klaus-2/dsh-redline) — Visual review inside the harness browser: element comments, live style adjustments with rollback, a free annotation canvas, and structured annotations delivered to the agent with composited screenshots.
 - [kinocode-jp/dsh-mobile](https://github.com/kinocode-jp/dsh-mobile) — DSH Mobile Android companion plugin: QR pairing, DSH on your phone, and approvals answered from notifications.
 - [MuXue927/whaledesk](https://github.com/MuXue927/whaledesk) — Windows 10/11 x64 desktop pet with DSH integration, system monitoring, C: drive cleanup and productivity tools.
 - [whitewizard856/Deepcat](https://github.com/whitewizard856/Deepcat) — Deepcat: a DeepSeek Harness desktop shell (Electron + React + TypeScript, Windows).
