@@ -3231,6 +3231,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [TtTRz/dsh-wecom](https://github.com/TtTRz/dsh-wecom) — WeCom (Enterprise WeChat) bot.
 - [congchuanling-dot/DSH-Telegram-Relay](https://github.com/congchuanling-dot/DSH-Telegram-Relay) — Telegram relay.
 - [STARDUSTLC666/dsh-email](https://github.com/STARDUSTLC666/dsh-email) — Email tooling.
+- [HughPython/dsh-tc-mail](https://github.com/HughPython/dsh-tc-mail) — Tencent Agent Mail client: sidebar panel for inbox and sent browsing, HTML reading in a sandboxed frame with remote images blocked by default, compose/reply/forward with attachments, search and permanent delete, adjustable font and surface opacity, plus five agent tools (mail_health, mail_list, mail_read, mail_search, mail_send) sending through an OAuth-authorized agently-cli account.
 - [BeAChanger/dsh-openclaw-acp](https://github.com/BeAChanger/dsh-openclaw-acp) — DeepSeek Harness bundle for OpenClaw and WeChat over ACP.
 - [gnulife/dsh-plugin-wechat](https://github.com/gnulife/dsh-plugin-wechat) — WeChat bridge plugin for DeepSeek Harness (via ClawBot).
 - [sindo-s/dsh-qq-bot](https://github.com/sindo-s/dsh-qq-bot) — Bridges the QQ official Bot API to dsh agents, no third-party bot framework required.
