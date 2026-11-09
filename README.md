@@ -6088,6 +6088,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 ## UI / Clients
 
 - [ace202321-cloud/dsh-agent-chat](https://github.com/ace202321-cloud/dsh-agent-chat) — A shared `thread.md` rendered as a tab in the right sidebar: per-signature colors, unread badge, reply jumps, filtering and a collapsible view — read-only by design.
+- [AD199-gif/dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) — Hide chosen sidebar panel entries without disabling the plugins behind them: a checkbox panel under the sidebar's More menu, plus a console API.
 - [algerkong/dsh-image-preview](https://github.com/algerkong/dsh-image-preview) — Image preview for DSH web sessions: `read_image` results render as thumbnails, click to open full size in the built-in lightbox.
 - [Cherryxxh/DSH-One-Dark-Pro-Theme](https://github.com/Cherryxxh/DSH-One-Dark-Pro-Theme) — One Dark Pro (classic) theme for the DSH Web GUI: a Settings → General switcher with a full 156-token override layer, colors matched 1:1 to the VS Code extension.
 - [kinocode-jp/dsh-mobile](https://github.com/kinocode-jp/dsh-mobile) — DSH Mobile Android companion plugin: QR pairing, DSH on your phone, and approvals answered from notifications.
