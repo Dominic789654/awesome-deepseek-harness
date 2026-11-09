@@ -6087,6 +6087,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 
 ## UI / Clients
 
+- [xingzhen199186/dsh-entry-drawer](https://github.com/xingzhen199186/dsh-entry-drawer) — Turns the first row of the DSH sidebar entry list into a switch that folds every other entry away, giving the session history more room.
 - [ace202321-cloud/dsh-agent-chat](https://github.com/ace202321-cloud/dsh-agent-chat) — A shared `thread.md` rendered as a tab in the right sidebar: per-signature colors, unread badge, reply jumps, filtering and a collapsible view — read-only by design.
 - [algerkong/dsh-image-preview](https://github.com/algerkong/dsh-image-preview) — Image preview for DSH web sessions: `read_image` results render as thumbnails, click to open full size in the built-in lightbox.
 - [Cherryxxh/DSH-One-Dark-Pro-Theme](https://github.com/Cherryxxh/DSH-One-Dark-Pro-Theme) — One Dark Pro (classic) theme for the DSH Web GUI: a Settings → General switcher with a full 156-token override layer, colors matched 1:1 to the VS Code extension.
