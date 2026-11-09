@@ -2390,7 +2390,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [sugarforever/dsh-plugins](https://github.com/sugarforever/dsh-plugins) —— 社区 DeepSeek Harness 插件仓库；dsh-zvec-grep 提供工作区语义搜索：后台建索引并跟随文件增删改，向 agent 暴露 `zvec_search` 工具。
 
 - [HERO476/dsh-instruction-memory](https://github.com/HERO476/dsh-instruction-memory) —— DSH 指令记忆插件：在 DSH 设置界面维护长期指令，并自动注入此后每轮对话的系统提示。
-- [Zoria-Lind/dsh-ecolink](https://github.com/Zoria-Lind/dsh-ecolink) —— DeepSeek 网页版与 DSH 的跨端记忆：DSM 短标签自动入池、完整回答保存、侧栏浏览与手动注入、指定条目读取、通用/非通用分类和事务化压缩；配合另行加载的 Chrome/Edge 扩展，以及 DSH 适配器可自动启动的本地服务。
+- [Zoria-Lind/dsh-ecolink](https://github.com/Zoria-Lind/dsh-ecolink) —— 让 DeepSeek 网页与 Harness 共用本地记忆池，支持保存完整回答、侧栏浏览和注入。可选的 Windows 桌面补丁适用于 DSH 0.2.2-rc.1，提供影子会话，可将已完成的网页问答同步到 Harness、在原网页对话查看 Harness 的回答，并从网页向 Harness 交办任务。
 
 - [jackchen13755/dsh-memory-core](https://github.com/jackchen13755/dsh-memory-core) —— DSH 记忆插件：零依赖、免构建，SQLite 作为事实源 + Markdown 快照。
 - [weibaohui/context-razor](https://github.com/weibaohui/context-razor) —— dsh 插件 · 上下文剃刀：逐条 token 统计 + 精确裁剪会话上下文，不经 LLM 总结。

@@ -2384,7 +2384,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [sugarforever/dsh-plugins](https://github.com/sugarforever/dsh-plugins) — Community DeepSeek Harness plugin repo; dsh-zvec-grep adds workspace semantic search — a background index that follows file adds/changes/deletes, plus a `zvec_search` agent tool.
 
 - [HERO476/dsh-instruction-memory](https://github.com/HERO476/dsh-instruction-memory) — DSH instruction memory plugin: maintain long-term instructions in the DSH settings UI, auto-injected into every subsequent conversation's system prompt.
-- [Zoria-Lind/dsh-ecolink](https://github.com/Zoria-Lind/dsh-ecolink) — Memory bridge between DeepSeek web chat and DSH: automatic DSM-tag harvesting, full-answer saving, sidebar browsing and manual injection, named-entry retrieval, general/non-general memory, and transactional compression; uses a separately loaded Chrome/Edge extension and a local service the DSH adapter can start.
+- [Zoria-Lind/dsh-ecolink](https://github.com/Zoria-Lind/dsh-ecolink) — Shares a local memory pool between DeepSeek web chat and Harness, with full-answer saving and sidebar browsing and injection. The optional Windows desktop patch for DSH 0.2.2-rc.1 adds shadow sessions that sync completed web turns to Harness, display Harness replies in the original web chat, and hand tasks off to Harness.
 
 - [jackchen13755/dsh-memory-core](https://github.com/jackchen13755/dsh-memory-core) — DSH memory plugin: zero dependencies, no build step — SQLite as the source of truth plus Markdown snapshots.
 - [weibaohui/context-razor](https://github.com/weibaohui/context-razor) — dsh plugin · Context Razor: per-item token statistics plus precise trimming of session context, without LLM summarization.
