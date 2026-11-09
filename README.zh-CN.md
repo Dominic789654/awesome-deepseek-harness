@@ -6112,6 +6112,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 
 ## UI / 客户端
 
+- [xingzhen199186/dsh-entry-drawer](https://github.com/xingzhen199186/dsh-entry-drawer) —— 把 DSH 左侧栏入口列表的第一行变成开关，一键收起/展开其余入口，把空间还给会话历史。
 _DSH 的桌面、网页、终端或编辑器前端。_
 
 - [ace202321-cloud/dsh-agent-chat](https://github.com/ace202321-cloud/dsh-agent-chat) —— 把共享的 `thread.md` 以标签页形式渲染在右侧边栏：按签名着色、未读角标、回复跳转、过滤与折叠视图——设计上只读。
