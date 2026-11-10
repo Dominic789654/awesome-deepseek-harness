@@ -3201,6 +3201,7 @@ _token 用量、成本看板与预算告警插件。_
 - [Jingshiro/dsh-opencode-usage](https://github.com/Jingshiro/dsh-opencode-usage) —— OpenCode GO 额度组件：在侧栏显示滚动 5 小时 / 每周 / 每月用量，数据取自官方 /zen/go/v1/usage 接口。
 - [LarryE135/dsh-flash-presets](https://github.com/LarryE135/dsh-flash-presets) —— 降低 DeepSeek v4.1 Flash 的 Token 消耗而性能不降的预设。
 - [solstice621/dsh-conversation-cost](https://github.com/solstice621/dsh-conversation-cost) —— DeepSeek Harness Desktop 的自动模型计价，以及按回答 / 按会话的费用估算。
+- [XDeemoH/PULSE](https://github.com/XDeemoH/PULSE) —— 运行面板：实时技能和工具调用、技能目录预算（预算线随模型上下文变化）、带预演与撤销的技能装配，以及对话收藏。
 
 ## Channel / IM 桥接
 

@@ -3195,6 +3195,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [Jingshiro/dsh-opencode-usage](https://github.com/Jingshiro/dsh-opencode-usage) — OpenCode GO quota widget for DSH: rolling 5-hour / weekly / monthly usage in the sidebar, from the official /zen/go/v1/usage endpoint.
 - [LarryE135/dsh-flash-presets](https://github.com/LarryE135/dsh-flash-presets) — Presets that cut DeepSeek v4.1 Flash token consumption without losing performance.
 - [solstice621/dsh-conversation-cost](https://github.com/solstice621/dsh-conversation-cost) — Automatic model pricing and per-answer / per-conversation cost estimates for DeepSeek Harness Desktop.
+- [XDeemoH/PULSE](https://github.com/XDeemoH/PULSE) — Running panel for live skill and tool calls, the skill-catalog budget against a line that follows the model's context window, skill loadouts with dry run and undo, and saved conversation excerpts.
 
 ## Channel / IM Bridges
 
