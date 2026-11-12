@@ -4559,6 +4559,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 
 _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 
+- [wang-bool/travel-story-dsh](https://github.com/wang-bool/travel-story-dsh) —— DSH 的旅行规划 agent 模式：完整 Travel Story 应用（地图 / 时间线 / 播放）整页接管、对话变浮窗；18 个 agent 工具覆盖地点搜索、天气、路线与行程编辑，并注入实时界面上下文。
 - [Frac0103/dsh-goal-steward](https://github.com/Frac0103/dsh-goal-steward) —— DSH 的独立目标治理：常驻目标章程 + 角色隔离的审查者，在轮次边界审计目标漂移，但不微观管理执行者；设计参考 MBO、PDCA、COSO、RACI。
 - [SupportSpark/dsh-sansheng-liubu](https://github.com/SupportSpark/dsh-sansheng-liubu) —— 三省六部 · DSH 插件：把 Agent Teams 编制成古代朝堂（拟诏 / 封驳 / 派发 / 奏报 / 复核），附实时朝堂面板与诏令账本。
 - [dingchenhui0618-arch/dsh-den](https://github.com/dingchenhui0618-arch/dsh-den) —— 面向 DeepSeek Harness 的 7x24 常驻个人助理：与人绑定的长期自主、重启后自唤醒、只有在真正重要时才出声的到期提醒，以及对每个会话、本机和使用者工作渠道的只读触达。

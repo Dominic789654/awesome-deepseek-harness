@@ -4549,6 +4549,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 
 _Reusable sub-agents / specialized agent packs runnable inside DSH._
 
+- [wang-bool/travel-story-dsh](https://github.com/wang-bool/travel-story-dsh) — Travel-planning agent mode for DSH: the full Travel Story app (map, timeline, playback) takes over the page with chat as a floating panel; 18 agent tools cover place search, weather, routing and itinerary editing, with live UI-context injection.
 - [Frac0103/dsh-goal-steward](https://github.com/Frac0103/dsh-goal-steward) — Independent goal governance for DSH: a standing goal charter plus a role-isolated reviewer that audits drift at turn boundaries without micromanaging the executor; design grounded in MBO, PDCA, COSO and RACI.
 - [SupportSpark/dsh-sansheng-liubu](https://github.com/SupportSpark/dsh-sansheng-liubu) — Three Departments and Six Ministries for DSH: casts Agent Teams as an ancient court (draft / review / dispatch / report / re-check), with a live court panel and decree ledger.
 - [dingchenhui0618-arch/dsh-den](https://github.com/dingchenhui0618-arch/dsh-den) — A 7x24 resident personal assistant for DeepSeek Harness: human-bound standing autonomy, self-wake across restarts, expiry-aware notices that stay silent unless they matter, and read-only reach over every session, this machine and the person's work channels.
