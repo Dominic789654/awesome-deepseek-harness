@@ -8324,6 +8324,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) — DSH interface presence: LIVE2D main stage plus video / audio / expression sidebars, virtual camera and microphone for external collectors, speech recognition and image-understanding event streams.
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) — Interaction and convenience upgrades for the DSH Web UI: a session right-click menu with permanent delete, a Git branch chip under the composer, and opt-in worktrees.
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) — Transparent desktop companion for DeepSeek Harness: task captions, expressions, touch interactions and an optional DeepSeek balance readout.
+- [YONAN1269/dsh-sidebar-suite](https://github.com/YONAN1269/dsh-sidebar-suite) — Adds one control bar to the left sidebar: arrange the workspaces and sessions groups as tabs or as an overlay, or switch back to an official default that changes nothing; the session list stays fully expanded by default. Also manages temporary sessions, deleted when DSH quits by default, with a right-click menu to keep one as a regular session or delete it at once; all nine config keys have graphical switches in the plugin detail page.
 
 ## Skills
 
