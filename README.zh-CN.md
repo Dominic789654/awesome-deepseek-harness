@@ -2736,6 +2736,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) —— 把本地 Codex 对话线程导入成 DeepSeek Harness 会话，归到原工作目录下，可选自动同步。
 - [MYCF711/dsh-GOkifu-compact](https://github.com/MYCF711/dsh-GOkifu-compact) —— DSH 的棋谱式上下文压缩后端：增量 fold、失败记忆与置换检测，每步只注入约 323 tokens 的热清单。
 - [yulianjie/dsh-brain](https://github.com/yulianjie/dsh-brain) —— DeepSeek Harness Desktop 的本地长期记忆与可控交流风格。
+- [gabrielbav/dsh-plugin-session-delete](https://github.com/gabrielbav/dsh-plugin-session-delete) —— 在归档按钮旁的垃圾桶按钮或会话菜单中永久删除会话，并可在工作区菜单中删除工作区及其全部会话；运行中的会话和被其他进程占用的日志会保留。
 
 ## 成本与用量统计
 
