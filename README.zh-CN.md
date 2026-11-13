@@ -5843,6 +5843,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) —— 基于官方 ACP provider 接入任意 ACP agent，提供配置页、握手测试与路由 skill。
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) —— DSH 采集器插件：把本地文件、网络资源、直播流解码成 JPEG 帧 + 16k PCM 推给 muse_vtuber 的采集口（含 B 站视频与直播，断流自动换节点重连）。
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) —— 通过坚果云 WebDAV 或 GitHub 在多设备间同步 DSH profile 配置：逐文件哈希合并、冲突副本、可选 AES-256-GCM 加密，带设置页界面。
+- [AIcivilization/dsh-mishu](https://github.com/AIcivilization/dsh-mishu) —— 小秘书：读取未读 GitHub 通知，逐条判断哪些事已经结束并替你关掉；也记住你交代的账单、续费、证件到期与生日，到点提醒。收件箱只读，密钥只进系统钥匙串。
 
 ## 编排器与聚合器
 
