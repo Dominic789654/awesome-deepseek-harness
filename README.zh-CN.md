@@ -2682,6 +2682,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [railgun20001/dsh-session-status-hub](https://github.com/railgun20001/dsh-session-status-hub) —— 会话状态中心：标题栏一条状态轨汇总运行中 / 等待 / 未读 / 失败的会话，配 Windows 通知与任务栏红黄绿状态点。
 - [entrehuihui/brain-mem-think](https://github.com/entrehuihui/brain-mem-think) —— 会思考的脑子：不存任何原文，只存模型从多次经历里熔出的判断；会忘、会想多、会追问、会改自己。
 - [Trudui/dsh-own-soul](https://github.com/Trudui/dsh-own-soul) —— 人格 + 成长 + 记忆三合一的 DSH 插件：人设三段、每晚写日记沉淀长期特质、一句话一条的可检索记忆。
+- [TwiObliv0vx1NG/dsh-enough](https://github.com/TwiObliv0vx1NG/dsh-enough) —— DSH 的上下文交接插件：压缩时写交接简报（任务、已完成、当前步骤、下一步、关键事实、未决问题）而不是通用摘要；大文件生成带行号的章节索引，agent 只读需要的部分；另附可选的单动作压缩，默认关闭。
 - [xfy2412/dsh-session-cloudsync](https://github.com/xfy2412/dsh-session-cloudsync) —— 适用于 DSH 的会话同步插件，附可自部署的配套服务器。
 
 - [cty-09/dsh-compact-receipt](https://github.com/cty-09/dsh-compact-receipt) — 上下文压缩收据：审计这次压缩吃掉了你哪几条要求。
