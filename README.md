@@ -2677,6 +2677,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [railgun20001/dsh-session-status-hub](https://github.com/railgun20001/dsh-session-status-hub) — Session status hub for DeepSeek Harness: a top-titlebar rail of running / waiting / unread / failed sessions, Windows toast notifications and a red-yellow-green taskbar status dot.
 - [entrehuihui/brain-mem-think](https://github.com/entrehuihui/brain-mem-think) — A thinking brain: stores no raw text, only the judgements the model melts out of repeated experience. It forgets, over-thinks, asks back and rewrites itself.
 - [Trudui/dsh-own-soul](https://github.com/Trudui/dsh-own-soul) — Persona + growth + memory in one DSH plugin: a three-part character sheet, nightly diary writing of long-term traits, and one-line searchable memories.
+- [TwiObliv0vx1NG/dsh-enough](https://github.com/TwiObliv0vx1NG/dsh-enough) — Context-handoff plugin for DSH: compaction writes a handoff brief (task, done, current step, next step, key facts, open questions) instead of a generic summary; large files get a line-ranged section index so agents read only the part they need; optional single-action compaction, off by default.
 - [xfy2412/dsh-session-cloudsync](https://github.com/xfy2412/dsh-session-cloudsync) — Session sync plugin for DSH plus a matching self-hostable server.
 
 - [cty-09/dsh-compact-receipt](https://github.com/cty-09/dsh-compact-receipt) — Compaction receipts: audit which of your requirements this compaction ate. For DeepSeek Harness.
