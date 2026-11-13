@@ -5298,6 +5298,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [xmtlzzz/dsh-any-agent](https://github.com/xmtlzzz/dsh-any-agent) — MCP server that drives DeepSeek Harness (DSH) as a long-lived coding agent from any MCP client — resume-aware, interruptible and approval-capable.
 - [Dogtiti/dsh-plugin-subagent-bridge](https://github.com/Dogtiti/dsh-plugin-subagent-bridge) — Subagent-shaped bridge between Codex and DeepSeek Harness: Codex spawns DSH workers over a loopback MCP endpoint and gets final answers back; DSH agents can dispatch to Codex in return.
 - [pjzck/dsh-mcp-bridge](https://github.com/pjzck/dsh-mcp-bridge) — MCP bridge that exposes DeepSeek Harness as an execution subagent through the official DSH SDK profile.
+- [gabrielbav/dsh-connectors](https://github.com/gabrielbav/dsh-connectors) — Adds a Connectors page to Settings that connects remote MCP servers with OAuth or a token: Granola, Linear, Jira & Confluence, Trello, GitHub, GitLab and Azure DevOps built in, plus custom MCP URLs and connector packages from other plugins; tokens stay in the DSH credential store.
 
 ## Tools & Integrations
 
