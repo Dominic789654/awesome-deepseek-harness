@@ -8799,6 +8799,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [alitrack/dsh-gov-bp](https://github.com/alitrack/dsh-gov-bp) —— 给政府部门看的 BP 技能包：评审七问（带「不发」阈值）、九章试点申报骨架（政策依据卡 + GB/T 9704 格式层）、路演语言转申报语言、按人月自下而上验算的报价方法（CSBMK 口径）与涉密/版权红线。零依赖。
 - [beiyanpiki/dsh-ulw-plan](https://github.com/beiyanpiki/dsh-ulw-plan) —— 给 DeepSeek Harness 的 omo「探索 → 规划 → 执行」工作流：`/ulw-plan`、`/ulw-execute` 两个命令、四个只读角色 agent、行内任务，以及 plan 模式的写入守卫。
 - [russeell/job-search](https://github.com/russeell/job-search) —— 让你的 AI Agent 直接从公司招聘官网和招聘平台拿岗位，带真实发布日期与原始投递链接；适用于 Claude Code、Codex 等 agent。
+- [Myng-i/dsh-trae-channel](https://github.com/Myng-i/dsh-trae-channel) —— DSH ⇄ TRAE 的零成本协作通道：文件任务板（带 CAS 的抢占、进度、完成）、用于方案协商的信箱，以及叫醒双方的 watchdog；纯 Node，原子写 + 文件锁。
 
 ## 资源
 

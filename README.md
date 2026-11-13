@@ -8799,6 +8799,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [alitrack/dsh-gov-bp](https://github.com/alitrack/dsh-gov-bp) — Government-facing BP skills for DeepSeekRuntime: a seven-question review with a do-not-send threshold, the nine-chapter 试点申报 outline with policy-citation cards and a GB/T 9704 format layer, investor-to-application language conversion, and quoting built bottom-up from person-months (CSBMK 口径) with secrecy and copyright red lines. Zero dependencies.
 - [beiyanpiki/dsh-ulw-plan](https://github.com/beiyanpiki/dsh-ulw-plan) — omo explore → plan → execute workflow for DeepSeek Harness: `/ulw-plan` and `/ulw-execute`, four read-only role agents, inline task, and a plan-mode write guard.
 - [russeell/job-search](https://github.com/russeell/job-search) — Agent Skill that pulls jobs straight from company career sites and job platforms, with real posting dates and original application links; works in Claude Code, Codex and similar agents.
+- [Myng-i/dsh-trae-channel](https://github.com/Myng-i/dsh-trae-channel) — DSH ⇄ TRAE collaboration channel that needs no enterprise CLI: a file-based task board (claim with CAS, progress, completion), a mailbox for design negotiation, and a watchdog that wakes either side; pure Node, atomic writes behind a lock file.
 
 ## Resources
 
