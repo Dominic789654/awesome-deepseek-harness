@@ -4554,7 +4554,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [8kugames/dsh-zed-acp](https://github.com/8kugames/dsh-zed-acp) —— 独立的 Zed ACP（Agent Client Protocol）服务器，以 DSH 插件形式发布。
 - [kobubu/Rag-Coding](https://github.com/kobubu/Rag-Coding) —— DeepSeek Harness 的本地代码记忆：自动注入源码上下文、语义搜索与依赖图。
 - [yonking305/arc-vista](https://github.com/yonking305/arc-vista) —— 面向 Git 仓库的本地优先架构观测台：架构图、安全守护、业务知识图谱、复杂度与分支风险对比。
-- [gabrielbav/dsh-code](https://github.com/gabrielbav/dsh-code) —— DSH 的代码模式：每个会话在 gVisor 沙箱中拥有独立的仓库检出和分支，带出站白名单和实时应用预览，可运行在本机或你自己的虚拟机上。
+- [gabrielbav/dsh-workspace#dsh-code](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-code) —— DSH 的代码模式：每个会话在 gVisor 沙箱中拥有独立的仓库检出和分支，带出站白名单和实时应用预览，可运行在本机或你自己的虚拟机上。
 
 ## Agent
 

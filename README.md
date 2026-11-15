@@ -4544,7 +4544,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [8kugames/dsh-zed-acp](https://github.com/8kugames/dsh-zed-acp) — Independent Zed Agent Client Protocol server, shipped as a DSH plugin.
 - [kobubu/Rag-Coding](https://github.com/kobubu/Rag-Coding) — Local code memory for DeepSeek Harness: automatic source context, semantic search and dependency graphs.
 - [yonking305/arc-vista](https://github.com/yonking305/arc-vista) — Local-first architecture observatory for Git repositories: architecture diagrams, security guards, a business knowledge graph, and complexity and branch-risk comparison.
-- [gabrielbav/dsh-code](https://github.com/gabrielbav/dsh-code) — Code mode for DSH: every session gets its own repo checkout and branch in a gVisor sandbox with an egress allowlist and a live app preview, on your computer or your own VM.
+- [gabrielbav/dsh-workspace#dsh-code](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-code) — Code mode for DSH: every session gets its own repo checkout and branch in a gVisor sandbox with an egress allowlist and a live app preview, on your computer or your own VM.
 
 ## Agents
 
