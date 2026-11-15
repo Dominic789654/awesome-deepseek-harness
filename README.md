@@ -1869,6 +1869,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [cxkctrl24-lgtm/dsh-purge-021](https://github.com/cxkctrl24-lgtm/dsh-purge-021) — Fork of dsh-purge (upstream YuJunZhiXue/dsh-purge): a red-team / security-evaluation plugin for DSH that tracks upstream 1.1.82 (Apache-2.0) with fork additions such as host-exit diagnostics, an asar rename fallback and injection-override fixes; not published to npm.
 - [feely0208/dsh-compliance-doc](https://github.com/feely0208/dsh-compliance-doc) — Turn compliance check results into deliverable documents: one run writes a self-check sheet, a remediation note and a scoped compliance statement.
 - [cute-gugu/dsh-purge](https://github.com/cute-gugu/dsh-purge) — Self-hosted prompt-relaxation ("armour-breaking") control for DeepSeek Harness: rewrites the system prompt, ships 80 host patches and a full-page settings card; independently maintained fork of dsh-purge, merged with dsh-unrestricted in 2.0.0.
+- [gabrielbav/dsh-plugin-airlock](https://github.com/gabrielbav/dsh-plugin-airlock) — 6 security scanners and an optional LLM judge check each plugin, skill and subagent in a quarantine, then pass, ask you, or block it; works on stock DSH.
 
 ## Session & Memory Management
 
