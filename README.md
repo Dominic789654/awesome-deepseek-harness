@@ -5934,7 +5934,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [tayuLuc/dsh-ru-voice-input](https://github.com/tayuLuc/dsh-ru-voice-input) — Russian-first voice input for DSH: local GigaAM v3 with punctuation, plus a speech-registry fix that makes recognizer switching work.
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) — DSH plugin · Big Fat Fish arcade: start and stop a local AI playground with one click and play a round with your agent.
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) — Agnes image and video models inside a DSH sidebar panel, with durable background tasks and history.
-- [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) — Query local data files with SQL from inside DeepSeek Harness (dsh): native Cordis plugin running the duckdb CLI, zero Python and zero external services, workspace-confined paths, read-only by default.
+- [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) — DuckDB platform for DeepSeek Harness (dsh): seven tools (query, schema, attach aliases, catalog, convert, extensions gate, background pipelines) over the duckdb CLI — workspace-confined, read-only by default, fail-closed extension & network gates, multi-step SQL jobs on ctx.jobs. Companion skill pack: dsh-duckdb-skills.
 - [alitrack/dsh-wechat-article](https://github.com/alitrack/dsh-wechat-article) — Turn Markdown into a WeChat Official Account draft from inside DeepSeek Harness (dsh): inline-style HTML, a 900x383 cover card, and a draft-box push that reads itself back. Zero dependencies.
 - [guhcostan/dsh-browser-use](https://github.com/guhcostan/dsh-browser-use) — Agent-driven Google Chrome for DSH: a profile bundle with Playwright MCP browser tools.
 - [guhcostan/dsh-computer-use](https://github.com/guhcostan/dsh-computer-use) — Computer use for DSH: a profile bundle driving the desktop through the Cua Driver, with a visible agent cursor.
@@ -8615,6 +8615,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
+
+- [alitrack/dsh-duckdb-skills](https://github.com/alitrack/dsh-duckdb-skills) — DuckDB query methodology skill pack for dsh: schema-first workflow, alias reuse, safe aggregation and conversion patterns, bundled as a Cordis skill provider (companion to dsh-duckdb).
 
 - [wuuuuu123-32/study-pack](https://github.com/wuuuuu123-32/study-pack) — Study pack skills: turn courseware plus homework into a self-study set — lecture notes, a Q&A booklet and review cards.
 - [wuzhenghan46-afk/dsh-av-adapt](https://github.com/wuzhenghan46-afk/dsh-av-adapt) — Android only: makes the web-access (browser automation) and video-watch (watch video) Agent Skills actually run inside a phone container. Includes four original tools, 29 field-tested pitfalls and per-item boundary notes.
