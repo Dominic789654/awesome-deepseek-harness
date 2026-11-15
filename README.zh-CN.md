@@ -5306,6 +5306,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [xmtlzzz/dsh-any-agent](https://github.com/xmtlzzz/dsh-any-agent) —— 把 DeepSeek Harness（DSH）当作长驻编码 agent 从任意 MCP 客户端驱动的 MCP server——支持续跑、可中断、可走审批。
 - [Dogtiti/dsh-plugin-subagent-bridge](https://github.com/Dogtiti/dsh-plugin-subagent-bridge) —— Codex 与 DSH 之间的子代理形态桥接：Codex 通过回环 MCP 端点拉起 DSH 工作进程并取回最终答案，DSH 侧也能反向派活给 Codex。
 - [pjzck/dsh-mcp-bridge](https://github.com/pjzck/dsh-mcp-bridge) —— MCP 桥：通过官方 DSH SDK profile 把 DeepSeek Harness 暴露成可被调用的执行型子代理。
+- [gabrielbav/dsh-workspace#dsh-plugin-aws](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-aws) —— 在设置页面中开启 AWS 官方的 59 个 MCP 服务器，可按组或逐个开启：版本固定，支持时默认只读。
 
 ## 工具与集成
 
