@@ -1876,6 +1876,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [cxkctrl24-lgtm/dsh-purge-021](https://github.com/cxkctrl24-lgtm/dsh-purge-021) —— dsh-purge 的 fork（上游 YuJunZhiXue/dsh-purge）：DSH 破甲 + 网络安全红队评测插件，基座跟随上游 1.1.82（Apache-2.0），保留宿主退出诊断、asar 改名兜底、注入正文覆盖判定修复等 fork 增量；未发布到 npm。
 - [feely0208/dsh-compliance-doc](https://github.com/feely0208/dsh-compliance-doc) —— 把合规检查结果变成能交出去的文档：一次生成自查表、整改说明与带边界声明的合规证明。
 - [cute-gugu/dsh-purge](https://github.com/cute-gugu/dsh-purge) —— DSH 自托管的「破甲」控制插件：改写系统提示以解除模型的自我设限，含 80 条宿主补丁、25 层状态自检与左侧栏整页设置（原 dsh-purge 的独立维护版，2.0.0 已并入 dsh-unrestricted）。
+- [gabrielbav/dsh-workspace#dsh-plugin-airlock](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-airlock) —— 6 个安全扫描器和可选的 LLM 判定在隔离区中检查每个插件、技能和子代理，然后放行、询问你或阻止；可在原版 DSH 上运行。
 
 ## 会话与记忆管理
 
