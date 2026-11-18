@@ -5844,6 +5844,8 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) —— DSH 采集器插件：把本地文件、网络资源、直播流解码成 JPEG 帧 + 16k PCM 推给 muse_vtuber 的采集口（含 B 站视频与直播，断流自动换节点重连）。
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) —— 通过坚果云 WebDAV 或 GitHub 在多设备间同步 DSH profile 配置：逐文件哈希合并、冲突副本、可选 AES-256-GCM 加密，带设置页界面。
 
+- [hAcKlyc/dsh-zsearch](https://github.com/hAcKlyc/dsh-zsearch) —— 知乎与全网双源检索，左侧流式回答、右侧带引用的原文，并内置 DSH 插件评价专题。
+
 ## 编排器与聚合器
 
 _多步 / 多 agent 调度器与输出聚合器。_
