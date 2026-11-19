@@ -3718,6 +3718,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [Charles950311/dsh-plugin-hub](https://github.com/Charles950311/dsh-plugin-hub) — Control hub for DSH plugins and skills: one routing table, one status check, one manifest (MIT).
 - [jjjjjjjjnnjnn/dsh-triage](https://github.com/jjjjjjjjnnjnn/dsh-triage) — Triage — the judgment layer for DSH plugins: explains why a plugin silently disappeared and whether a candidate survives your exact environment.
 - [Lionad-Morotar/dsh-plugins](https://github.com/Lionad-Morotar/dsh-plugins) — Lionad's DeepSeek Harness plugin monorepo — several community plugins maintained in one repository.
+- [Sivan757/dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugins-market) — Skills and extensions manager for DSH: installs Claude Code, Codex, Cursor and Kimi plugin repositories from a Git URL as they are, with no conversion, and manages skills, commands, MCP servers and hooks in one Web GUI workspace.
 
 ## Visualization
 
