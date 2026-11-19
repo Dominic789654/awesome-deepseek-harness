@@ -4021,6 +4021,7 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [Link-h1j/dsh-image-canvas](https://github.com/Link-h1j/dsh-image-canvas) —— DSH 桌面端右侧无限画布：把打开的图片集中到一块可平移画板、批注后交给 Agent，并用本地 ComfyUI 编辑/生成。
 - [kyoukisu/dsh-rich-ui](https://github.com/kyoukisu/dsh-rich-ui) —— DSH 的交互式富响应：实体面板、KPI 卡片、序列图表、可排序表格、流程图与本地控件，全部按严格 JSON 契约渲染。
 - [woolsen/dsh-surface](https://github.com/woolsen/dsh-surface) —— 在 DeepSeekRuntime 对话里跑活的 HTML 页面：预览、报表和能回话的表单。
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) —— `generate_image` 工具，用你供应商的生图模型出图；「图片」面板收成图库，每张图标出费用，支持参考图改图，精灵图自动拼成循环 GIF。
 
 ## 幻灯片 / PPT
 
@@ -4957,6 +4958,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [re3uofall/dsh-persona-framework](https://github.com/re3uofall/dsh-persona-framework) —— DSH 人格框架插件：只给框架，不含人格。四层切分、72 个模块、R1–R27 规则体；外挂注入，不覆盖不改写人格文件，带出口自检、结构自检、槽位体检与索引预算自适应。
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) —— DeepSeek Harness 的苏格拉底式学习模式：一个辅导 agent 预设，每轮先给一块真知识，再问一个邀请式问题——先给再问，不讲课也不审问。
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) —— 一个跑在 DSH 里的 AI 编码智能体：手搓 4KB 页 B+ 树、Socket RPC、多智能体编排，151 项测试全绿，本地小模型 + 云端协同。
+- [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) —— Grok 式 bot 团队：每个 bot 有自己的人设、模型、技能、记忆和定时任务；调度员把工作派成任务，看板跟踪每件事，飞书、Telegram、Slack、Discord 里也能给团队派活。
 
 ## 循环（自动研究 / 自我改进等）
 
@@ -5843,6 +5845,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) —— 基于官方 ACP provider 接入任意 ACP agent，提供配置页、握手测试与路由 skill。
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) —— DSH 采集器插件：把本地文件、网络资源、直播流解码成 JPEG 帧 + 16k PCM 推给 muse_vtuber 的采集口（含 B 站视频与直播，断流自动换节点重连）。
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) —— 通过坚果云 WebDAV 或 GitHub 在多设备间同步 DSH profile 配置：逐文件哈希合并、冲突副本、可选 AES-256-GCM 加密，带设置页界面。
+- [kadaliao/dsh-prompt-en](https://github.com/kadaliao/dsh-prompt-en) —— 在每条 prompt 下方写一行英文：其他语言给出译文，英文给出纠错和更地道的说法；教过的说法收进生词本，用 `/vocab` 复习。
 
 ## 编排器与聚合器
 
@@ -8322,6 +8325,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) —— DSH 界面交互（形象）：LIVE2D 主位 + 视频 / 音频 / 表情侧边栏、虚拟摄像头与麦克风（外部采集器）、语音识别与识图事件流。
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) —— DSH Web UI 的交互与便利升级：会话右键菜单（含永久删除）、输入框下方的 Git 分支小标签，以及可选启用的 worktree。
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) —— DeepSeek Harness 的透明桌面伴侣：任务字幕、表情、触摸互动，以及可选的 DeepSeek 余额显示。
+- [kadaliao/dsh-atlas](https://github.com/kadaliao/dsh-atlas) —— 把 macOS「照片」图库放到能放大到街道的夜色地球上：足迹、可回放的旅行航线、往年今天，模型能搜照片、移动地图（只读）。
 
 ## Skill
 
