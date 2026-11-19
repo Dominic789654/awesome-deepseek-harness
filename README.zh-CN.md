@@ -4957,6 +4957,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [re3uofall/dsh-persona-framework](https://github.com/re3uofall/dsh-persona-framework) —— DSH 人格框架插件：只给框架，不含人格。四层切分、72 个模块、R1–R27 规则体；外挂注入，不覆盖不改写人格文件，带出口自检、结构自检、槽位体检与索引预算自适应。
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) —— DeepSeek Harness 的苏格拉底式学习模式：一个辅导 agent 预设，每轮先给一块真知识，再问一个邀请式问题——先给再问，不讲课也不审问。
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) —— 一个跑在 DSH 里的 AI 编码智能体：手搓 4KB 页 B+ 树、Socket RPC、多智能体编排，151 项测试全绿，本地小模型 + 云端协同。
+- [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) —— DSH 多智能体投研议院：分析师/多方/空方/风控/组合经理辩论，主张全带证据标签、PASS 弃权一等公民；巴菲特/芒格/林奇/伍德客座评辩，零 key 行情（CBOE 报价/K 线/期权隐波 + SEC 10-K + nasdaq 新闻）喂给可审计的 IC-MEMO。
 
 ## 循环（自动研究 / 自我改进等）
 
