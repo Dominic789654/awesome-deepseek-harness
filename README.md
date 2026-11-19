@@ -2731,6 +2731,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) — Import a local Codex conversation thread into a DeepSeek Harness session, filed under its original working directory, with optional auto-sync.
 - [MYCF711/dsh-GOkifu-compact](https://github.com/MYCF711/dsh-GOkifu-compact) — Chess-record style context-compression backend for DSH: incremental fold, failure memory and permutation detection, injecting only a ~323-token hot list per step.
 - [yulianjie/dsh-brain](https://github.com/yulianjie/dsh-brain) — Local long-term memory and user-controlled communication style for DeepSeek Harness Desktop.
+- [WphiontaS/dsh-stage-handoff](https://github.com/WphiontaS/dsh-stage-handoff) — Close out a stage and write a human-readable anchor before the context is compacted, then compact with your own retention budget instead of discarding the tail.
 
 ## Cost & Usage Tracking
 
