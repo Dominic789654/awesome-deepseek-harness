@@ -4011,6 +4011,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [Link-h1j/dsh-image-canvas](https://github.com/Link-h1j/dsh-image-canvas) — DSH desktop right-sidebar infinite canvas: collect opened images on one pannable board, annotate them, hand the notes to the agent, and edit or generate with local ComfyUI.
 - [kyoukisu/dsh-rich-ui](https://github.com/kyoukisu/dsh-rich-ui) — Interactive rich responses for DSH: entity panels, KPI cards, series charts, sortable tables, flow diagrams and local controls, rendered from a strict JSON contract.
 - [woolsen/dsh-surface](https://github.com/woolsen/dsh-surface) — Live HTML pages inside DeepSeekRuntime conversations: previews, reports and forms that can answer back.
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) — `generate_image` tool backed by your provider's image model, with an Images gallery panel, per-picture cost, edits from reference images, and looping GIFs from sprite sheets.
 
 ## Slides / PPT
 
@@ -4946,6 +4947,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [re3uofall/dsh-persona-framework](https://github.com/re3uofall/dsh-persona-framework) — Persona framework plugin for DSH: framework only, no personas — four layers, 72 modules and the R1–R27 rule set, injected alongside instead of overwriting persona files, with exit, structure and slot self-checks plus adaptive index budget.
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) — Socratic learning mode for DeepSeek Harness: a tutoring agent preset that gives one piece of real knowledge, then asks one invitational question per turn — teach first, ask next, no lecturing and no interrogation.
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) — An AI coding agent that runs inside DSH: a hand-built 4KB-page B+ tree, Socket RPC and multi-agent orchestration, 151 green tests, local small models plus cloud collaboration.
+- [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) — Grok-style bot teams: each bot has its own persona, model, skills, memory and scheduled tasks; a dispatcher hands work out as tasks, a board tracks every request, and the team takes messages from Feishu/Lark, Telegram, Slack or Discord.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
@@ -5835,6 +5837,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) — Connect any ACP agent through the official ACP provider, with a settings page, handshake test and routing skill.
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) — DSH collector plugin: decodes local files, network sources and live streams into JPEG frames plus 16k PCM and pushes them to muse_vtuber's capture port — including Bilibili video and live streams with automatic reconnection.
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) — Sync a DeepSeek Harness profile configuration across devices through Nutstore WebDAV or GitHub: per-file hash merge, conflict copies, optional AES-256-GCM encryption and a settings-page UI.
+- [kadaliao/dsh-prompt-en](https://github.com/kadaliao/dsh-prompt-en) — English under every prompt: a translation when you write in another language, corrections and better phrasing when you write in English, and a vocabulary book reviewed with `/vocab`.
 
 ## Orchestrators & Aggregators
 
@@ -8324,6 +8327,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) — DSH interface presence: LIVE2D main stage plus video / audio / expression sidebars, virtual camera and microphone for external collectors, speech recognition and image-understanding event streams.
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) — Interaction and convenience upgrades for the DSH Web UI: a session right-click menu with permanent delete, a Git branch chip under the composer, and opt-in worktrees.
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) — Transparent desktop companion for DeepSeek Harness: task captions, expressions, touch interactions and an optional DeepSeek balance readout.
+- [kadaliao/dsh-atlas](https://github.com/kadaliao/dsh-atlas) — Your macOS Photos library on a night globe that zooms to street level: footprints, trips replayed as flight arcs, on this day, and a model that can search your photos and move the map (read-only).
 
 ## Skills
 
