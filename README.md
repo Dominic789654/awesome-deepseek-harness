@@ -8324,6 +8324,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) — DSH interface presence: LIVE2D main stage plus video / audio / expression sidebars, virtual camera and microphone for external collectors, speech recognition and image-understanding event streams.
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) — Interaction and convenience upgrades for the DSH Web UI: a session right-click menu with permanent delete, a Git branch chip under the composer, and opt-in worktrees.
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) — Transparent desktop companion for DeepSeek Harness: task captions, expressions, touch interactions and an optional DeepSeek balance readout.
+- [ppy-web/dsh-audio-reactive](https://github.com/ppy-web/dsh-audio-reactive) — Audio-reactive visual background theme powered by audioMotion-analyzer for DSH Web and Desktop, driven by streaming TTS, dsh-music-panel, voice dictation, microphone, browser audio sharing, or Windows loopback capture, with 17 presets and an idle immersive overlay.
 
 ## Skills
 
