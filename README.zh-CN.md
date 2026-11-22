@@ -5872,6 +5872,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) —— 基于官方 ACP provider 接入任意 ACP agent，提供配置页、握手测试与路由 skill。
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) —— DSH 采集器插件：把本地文件、网络资源、直播流解码成 JPEG 帧 + 16k PCM 推给 muse_vtuber 的采集口（含 B 站视频与直播，断流自动换节点重连）。
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) —— 通过坚果云 WebDAV 或 GitHub 在多设备间同步 DSH profile 配置：逐文件哈希合并、冲突副本、可选 AES-256-GCM 加密，带设置页界面。
+- [whatif146/dsh-memelens](https://github.com/whatif146/dsh-memelens) —— 给 agent 装一双看懂梗的眼睛：meme_explain 工具返回表情包的意思、语气、出处与生命周期、能一起用与不能混用的梗、该避开的场合，并给出玩梗版与不玩梗版两种回复——结论来自带间隔效应衰减的本地记忆，未命中时调用用户自配的 OpenAI 兼容视觉端点（BYOK）。
 - [vicfei/dsh-weknora-ops](https://github.com/vicfei/dsh-weknora-ops) —— DeepSeek Harness 的 WeKnora 写入通道与治理：文档入库、双重门禁的删除与标签树，运行在「技能礼仪 + CLI 门禁 + 按能力限定的 API key」三层安全模型之上（没有 manage_kbs 权限的 key 无法造成破坏）；与官方只读插件 @wxg-prc-cpg/dsh-weknora 互补。
 - [kadaliao/dsh-prompt-en](https://github.com/kadaliao/dsh-prompt-en) —— 在每条 prompt 下方写一行英文：其他语言给出译文，英文给出纠错和更地道的说法；教过的说法收进生词本，用 `/vocab` 复习。
 - [natgurlain/dsh-browser-agent](https://github.com/natgurlain/dsh-browser-agent) —— 浏览器扩展（Chrome/Brave/Firefox 侧边栏）加桥接插件：智能体读取并操作用户自己浏览器中的标签页，每个页面操作都先弹出写明目标元素的审批卡；读过网页的会话在向其他站点发送数据前必须先询问。npm 包为 `dsh-browser-agent`；dsh-browser 的分支。
