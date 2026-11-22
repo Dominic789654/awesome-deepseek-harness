@@ -4974,6 +4974,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) —— DeepSeek Harness 的苏格拉底式学习模式：一个辅导 agent 预设，每轮先给一块真知识，再问一个邀请式问题——先给再问，不讲课也不审问。
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) —— 一个跑在 DSH 里的 AI 编码智能体：手搓 4KB 页 B+ 树、Socket RPC、多智能体编排，151 项测试全绿，本地小模型 + 云端协同。
 - [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) —— DSH 多智能体投研议院：分析师/多方/空方/风控/组合经理辩论，主张全带证据标签、PASS 弃权一等公民；巴菲特/芒格/林奇/伍德客座评辩，零 key 行情（CBOE 报价/K 线/期权隐波 + SEC 10-K + nasdaq 新闻）喂给可审计的 IC-MEMO。
+- [NakliTechie/parallax](https://github.com/NakliTechie/parallax) —— 让会话之间互发消息并委派任务：六个工具，覆盖发送、提问并等待回复、送达回执、有长度上限的对方摘要，以及权限不超过父会话的子会话；收到的消息不具备任何权限。
 
 ## 循环（自动研究 / 自我改进等）
 

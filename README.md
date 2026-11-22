@@ -4963,6 +4963,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) — Socratic learning mode for DeepSeek Harness: a tutoring agent preset that gives one piece of real knowledge, then asks one invitational question per turn — teach first, ask next, no lecturing and no interrogation.
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) — An AI coding agent that runs inside DSH: a hand-built 4KB-page B+ tree, Socket RPC and multi-agent orchestration, 151 green tests, local small models plus cloud collaboration.
 - [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) — Multi-agent investment committee for DSH: analyst / bull / bear / risk / PM debate where every claim carries an evidence tag and abstention (PASS) is a first-class verdict; Buffett/Munger/Lynch/Wood guest seats critique the debate itself, and zero-key market data (CBOE quote/K-line/options-IV + SEC 10-K + nasdaq news) feeds an auditable IC-MEMO.
+- [NakliTechie/parallax](https://github.com/NakliTechie/parallax) — Conversations message each other and delegate tasks: six tools for send, ask and wait for the reply, delivery receipts, a bounded peer summary, and a child conversation whose permissions never exceed its parent's; inbound messages carry no authority.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
