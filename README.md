@@ -6103,6 +6103,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 
 ## UI / Clients
 
+- [dlgrv/dsh-remove-deepseek-logo](https://github.com/dlgrv/dsh-remove-deepseek-logo) — Removes the DeepSeek logo, brand name, version string, and the conversation hero fish from the sidebar.
 - [xingzhen199186/dsh-entry-drawer](https://github.com/xingzhen199186/dsh-entry-drawer) — Turns the first row of the DSH sidebar entry list into a switch that folds every other entry away, giving the session history more room.
 - [ace202321-cloud/dsh-agent-chat](https://github.com/ace202321-cloud/dsh-agent-chat) — A shared `thread.md` rendered as a tab in the right sidebar: per-signature colors, unread badge, reply jumps, filtering and a collapsible view — read-only by design.
 - [AD199-gif/dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) — Hide chosen sidebar panel entries without disabling the plugins behind them: a checkbox panel under the sidebar's More menu, plus a console API.
