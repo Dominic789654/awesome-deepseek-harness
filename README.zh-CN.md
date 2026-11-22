@@ -2746,6 +2746,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [WphiontaS/dsh-stage-handoff](https://github.com/WphiontaS/dsh-stage-handoff) —— 在上下文被压缩之前收尾当前阶段、写下人类可读的锚点，然后用同一个压缩引擎按自己的保留预算压实，而不是把尾部整个丢掉。
 - [gabrielbav/dsh-workspace#dsh-plugin-session-delete](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-session-delete) —— 为 DSH 会话和工作区提供永久删除（DSH 本身只能归档）；运行中的会话绝不会被删除。
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — 给仓库和过往会话的读取打分，在淹没上下文窗口之前提醒，并写出挡住最糟那部分的 `.aiignore` 规则；同一个包还带一个跟随当前对话的侧栏面板。
+- [OakcoderX/solopup-memory](https://github.com/OakcoderX/solopup-memory) —— 保留原话来源、项目归属与修订历史的 DSH 文字记忆插件（公开测试版）。
 
 ## 成本与用量统计
 
