@@ -2735,6 +2735,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) — Import a local Codex conversation thread into a DeepSeek Harness session, filed under its original working directory, with optional auto-sync.
 - [MYCF711/dsh-GOkifu-compact](https://github.com/MYCF711/dsh-GOkifu-compact) — Chess-record style context-compression backend for DSH: incremental fold, failure memory and permutation detection, injecting only a ~323-token hot list per step.
 - [yulianjie/dsh-brain](https://github.com/yulianjie/dsh-brain) — Local long-term memory and user-controlled communication style for DeepSeek Harness Desktop.
+- [gabrielbav/dsh-workspace#dsh-plugin-session-delete](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-session-delete) — Permanent delete for DSH sessions and workspaces, which DSH can only archive; running sessions are never touched.
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — Grades what a repository or a past session actually read, warns before it floods the context window, and writes the `.aiignore` rules that stop the worst of it; the same package ships a sidebar panel that follows the current conversation.
 
 ## Cost & Usage Tracking
