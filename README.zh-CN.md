@@ -8369,6 +8369,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [YONAN1269/dsh-sidebar-suite](https://github.com/YONAN1269/dsh-sidebar-suite) —— 给左侧栏加一条控制栏：把「工作区」和「会话」两组排成标签页或浮层，也可以切回完全不改动布局的官方默认；会话列表默认全部展开。同时管理临时会话，默认在退出 DSH 时删除，右键可以把单个临时会话保留为正式会话或立即删除；9 项配置在插件详情页都有图形开关。
 - [modusensus/dsh-artifacts](https://github.com/modusensus/dsh-artifacts) —— 侧边栏产物架：把会话交付过的图片、视频、文件和链接收进一处，按 SHA-256 内容哈希去重；五个分类标签带计数、关键词搜索、视频缩略图、灯箱查看、手动收藏链接、粘贴图片、上传文件（≤25MB）、首次启动回填历史会话日志，并提供 `save_artifact` 工具供模型主动收藏。
 
+- [Lionad-Morotar/dsh-jump](https://github.com/Lionad-Morotar/dsh-jump) —— DSH Web 键盘跳跃导航：按下组合键后，界面上每个可见的可交互目标浮出一个字母标签，敲标签即可点击或聚焦它；组合键可在设置中修改。
+
 - [Veduis/dsh-workspace-tints](https://github.com/Veduis/dsh-workspace-tints) —— 为每个工作区取一个稳定的色调，把工作区名设为分组标题、会话缩进其下，已完成但未读的会话整行染绿。
 ## Skill
 

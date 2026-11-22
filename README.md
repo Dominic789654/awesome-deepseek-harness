@@ -8373,6 +8373,8 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [YONAN1269/dsh-sidebar-suite](https://github.com/YONAN1269/dsh-sidebar-suite) — Adds one control bar to the left sidebar: arrange the workspaces and sessions groups as tabs or as an overlay, or switch back to an official default that changes nothing; the session list stays fully expanded by default. Also manages temporary sessions, deleted when DSH quits by default, with a right-click menu to keep one as a regular session or delete it at once; all nine config keys have graphical switches in the plugin detail page.
 - [modusensus/dsh-artifacts](https://github.com/modusensus/dsh-artifacts) — Sidebar artifact shelf: collects the images, videos, files and links a session delivers into one panel, deduplicated by SHA-256 content hash, with five filter tabs and counts, keyword search, video thumbnails, a lightbox, manual link saving, image paste, uploads up to 25 MB, a one-time backfill of past session logs, and a `save_artifact` tool the model can call.
 
+- [Lionad-Morotar/dsh-jump](https://github.com/Lionad-Morotar/dsh-jump) — Keyboard navigation for the DSH web GUI: a chord surfaces letter labels over every visible interactive target, and typing a label clicks or focuses that target; the chord is remappable in settings.
+
 ## Skills
 
 _Packaged task capabilities (markdown-based skills, tool packs)._
