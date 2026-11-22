@@ -6037,6 +6037,16 @@ _Plugins that give the agent tools for external services (container registries, 
 - [PerryLink/dsh-primer](https://github.com/PerryLink/dsh-primer) — A practical primer for building DeepSeek Harness plugins.
 - [PerryLink/dsh-repro-audit](https://github.com/PerryLink/dsh-repro-audit) — Reproducibility evidence for DeepSeek Harness: a bounded, read-only scan records the commit, lockfiles, environment, data hashes, figures, seeds and run commands; a drift check against that record; and a report card you can hand to a reviewer.
 - [PerryLink/dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) — Extracts deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document, and reports the items it did not find rather than omitting them.
+- [PerryLink/dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) — Register contracts and bucket them by date — expired, renewal window, expiring within N days — and export CSV.
+- [PerryLink/dsh-contract-suite](https://github.com/PerryLink/dsh-contract-suite) — Contract suite: one-command install for dsh-legal-intake and dsh-legal-clause.
+- [PerryLink/dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) — Cross-checks invoice, packing list, bill of lading and customs declaration field by field, and lists the missing items across the declaration's 12 required elements.
+- [PerryLink/dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) — Checks employment contracts for the nine mandatory clauses, the probation cap and the 80% wage floor, bulk expiry and non-compete terms; exports a review CSV.
+- [PerryLink/dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) — Extract tables from text-layer PDFs to CSV for DSH.
+- [PerryLink/dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) — Certifies the current progress payment against the contract baseline — integer-cent amounts and cumulative ratio — and outputs an exceptions list (over-quantity, unit price, duplicates) plus a review workpaper.
+- [PerryLink/dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) — Vendor parameter mapping and deterministic JSON repair for DSH.
+- [PerryLink/dsh-research-core](https://github.com/PerryLink/dsh-research-core) — REP v1 — the shared Research Evidence Protocol for DeepSeek Harness research plugins: JSON Schema + TypeScript types for sources, snapshots, anchors, evidence, claims, checks, artifacts, audit events and sealed report manifests, plus a zero-dependency content-addressed evidence store, canonical hashing, SARIF export and an independent verifier CLI.
+- [PerryLink/dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) — Compares quotes for the same material across suppliers — lowest and runner-up price, spread, lead time — flags below-cost, over-budget and expired quotes, and exports CSV.
+- [PerryLink/dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) — Checks a completion-settlement document package against the checklist — missing items, insufficient copies, missing signature or seal — and exports the checklist CSV.
 
 
 ## Orchestrators & Aggregators

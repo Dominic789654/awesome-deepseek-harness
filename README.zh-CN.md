@@ -6045,6 +6045,16 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [PerryLink/dsh-primer](https://github.com/PerryLink/dsh-primer) —— 构建 DeepSeek Harness 插件的实用入门指南。
 - [PerryLink/dsh-repro-audit](https://github.com/PerryLink/dsh-repro-audit) —— 可复现性证据：一次性有界只读扫描记录提交、锁文件、环境、数据哈希、图、随机种子与运行命令，并对记录做漂移检查，输出可交给审阅者的报告卡。
 - [PerryLink/dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) —— 从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条报告，不省略。
+- [PerryLink/dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) —— 登记合同并按日期分档：已过期、续签窗口、N 天内到期，导出 CSV。
+- [PerryLink/dsh-contract-suite](https://github.com/PerryLink/dsh-contract-suite) —— 合同法务套件：一条命令安装 dsh-legal-intake 与 dsh-legal-clause。
+- [PerryLink/dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) —— 把发票、装箱单、提单、报关单逐字段对照，并列出报关单 12 项要素缺项。
+- [PerryLink/dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) —— 核对劳动合同九项必备条款、试用期上限与 80% 工资下限、批量到期与竞业限制，导出复核 CSV。
+- [PerryLink/dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) —— 从有文本层的 PDF 中提取表格并导出 CSV。
+- [PerryLink/dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) —— 按合同基准确认本期进度款：整数分金额、累计比例，输出超量/单价/重复项问题清单与审核底稿。
+- [PerryLink/dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) —— 供应商参数映射与确定性 JSON 修复。
+- [PerryLink/dsh-research-core](https://github.com/PerryLink/dsh-research-core) —— REP v1——面向 DeepSeek Harness 研究插件的共享 Research Evidence Protocol：sources、snapshots、anchors、evidence、claims、checks、artifacts、audit events 与 sealed report manifests 的 JSON Schema 和 TypeScript 类型，外加零依赖内容寻址证据库、规范哈希、SARIF 导出与独立校验 CLI。
+- [PerryLink/dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) —— 多家供应商同批物料报价对比：最低/次低价、价差、交期，标记低于成本、超预算、已过期，导出 CSV。
+- [PerryLink/dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) —— 按清单核对竣工结算资料齐套性：缺件、份数不足、未签字/未盖章，导出核对表 CSV。
 
 
 ## 编排器与聚合器
