@@ -6025,6 +6025,16 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [PerryLink/dsh-irb](https://github.com/PerryLink/dsh-irb) —— 面向 DeepSeek Harness 的伦理申请清单：18 项关键词清单、基于结构化标记的建议风险等级与必要保障，输出 JSON/Markdown 与 REP 证据。清单辅助，不替代伦理委员会决定。
 - [PerryLink/dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) —— 面向 DeepSeek Harness 的确定性多源文献采集。
 - [PerryLink/dsh-manuscript-check](https://github.com/PerryLink/dsh-manuscript-check) —— 面向 DeepSeek Harness 的投稿前清单：稿件结构与声明、对 CONSORT/STROBE/PRISMA 起始条目的关键词覆盖，以及投稿材料包扫描，输出 JSON/Markdown 报告。
+- [PerryLink/dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) —— 银行对账单核对：导入 CAMT.053 与 MT940，与账簿条目匹配并导出工作底稿——6 个 `bankrec.*` 工具。
+- [PerryLink/dsh-construction-doc-check](https://github.com/PerryLink/dsh-construction-doc-check) —— 按项目资料归档要求检查缺失的必需资料类型、过期版本与空文件；只读文件夹与文件名，不读文档内容。
+- [PerryLink/dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) —— 中文电子发票（OFD/XML）收件箱：导入、解析、去重、进入复核队列、登记回执并本地归档——10 个 `invoice.*` 工具，数据不出本机。
+- [PerryLink/dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) —— 按声明的主键连接两张表，按声明字段与容差比对，输出 Markdown 报告、JSON 结果与差异工作簿。只报告差异，不裁决对错。
+- [PerryLink/dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) —— IFC 模型工程量提取与 CSV 导出核对。
+- [PerryLink/dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) —— 核对发票台账：按代码与号码识别重复、核对算式一致性、付款方不一致、日期异常与模板占位符，输出异常清单与工作簿。
+- [PerryLink/dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) —— 按公开的社保、公积金与个人所得税参数核对工资表，结果分为 pass、pass_with_gaps、review、fail 四档；参数本身带复核日期。
+- [PerryLink/dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) —— 核对施工安全资格台账的培训学时、四个记录要素，以及特种作业证书有效期与作业时间的匹配。
+- [PerryLink/dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) —— 把 .docx、.xlsx、.xlsm、.csv、.tsv 中的表格转换成规则核查器可读的 table JSON；识别不了时明确报告，不做猜测。
+- [PerryLink/dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) —— 差旅费用核对：导入订单、发票与卡流水，去重、三单匹配与只读政策校验后导出——5 个 `travel.*` 工具。
 
 
 ## 编排器与聚合器

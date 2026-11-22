@@ -6017,6 +6017,16 @@ _Plugins that give the agent tools for external services (container registries, 
 - [PerryLink/dsh-irb](https://github.com/PerryLink/dsh-irb) — Ethics-application checklist for DeepSeek Harness: an 18-item keyword checklist, an advisory risk level with required safeguards, and JSON/Markdown output with REP evidence. A checklist aid, not an ethics-committee decision.
 - [PerryLink/dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) — Deterministic multi-source literature harvesting for DeepSeek Harness.
 - [PerryLink/dsh-manuscript-check](https://github.com/PerryLink/dsh-manuscript-check) — Pre-submission checklist for DeepSeek Harness: manuscript structure and declaration statements, keyword-based coverage of starter CONSORT/STROBE/PRISMA items, and a submission-pack scan with JSON/Markdown reports.
+- [PerryLink/dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) — Bank statement reconciliation: ingest CAMT.053 and MT940, match them against ledger entries and export the workpaper — 6 `bankrec.*` tools.
+- [PerryLink/dsh-construction-doc-check](https://github.com/PerryLink/dsh-construction-doc-check) — Checks a project document archive for missing required document types, stale revisions and empty files, using folder and file names rather than document contents.
+- [PerryLink/dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) — Chinese e-invoice (OFD/XML) inbox: ingest, parse, deduplicate, queue for review, record receipts and archive locally — 10 `invoice.*` tools, nothing uploaded.
+- [PerryLink/dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) — Joins two spreadsheets on a declared key and compares declared fields within declared tolerances, producing a Markdown report, a JSON result and a diff workbook. It reports differences; it does not adjudicate them.
+- [PerryLink/dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) — IFC model quantity take-off with CSV export for quantity checking.
+- [PerryLink/dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) — Checks an invoice ledger for duplicates keyed on code + number, arithmetic consistency, payer mismatch, date anomalies and template placeholders, and emits an anomaly list plus a workbook.
+- [PerryLink/dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) — Checks a payroll sheet against published social-insurance, housing-fund and individual-income-tax parameters, with pass, pass_with_gaps, review and fail outcomes and parameters that carry their own review date.
+- [PerryLink/dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) — Checks a site safety-qualification ledger for training hours, the four required record elements, and special-operation certificate validity against the dates the person worked.
+- [PerryLink/dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) — Converts tables in .docx, .xlsx, .xlsm, .csv and .tsv files into the table JSON consumed by the rule checkers, and reports when it could not rather than guessing.
+- [PerryLink/dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) — Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
 
 
 ## Orchestrators & Aggregators
