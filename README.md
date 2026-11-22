@@ -5906,7 +5906,6 @@ _Plugins that give the agent tools for external services (container registries, 
 - [light-cheng/DSH-Slate](https://github.com/light-cheng/DSH-Slate) — Workspace-isolated, evidence-backed project progress tracker in the right sidebar.
 - [ma1833577561/dsh-plugin-voice-autosend](https://github.com/ma1833577561/dsh-plugin-voice-autosend) — Offline voice input for the composer: speak, transcribe locally with SenseVoice and send automatically.
 - [mahe-404/dsh-fish-poop](https://github.com/mahe-404/dsh-fish-poop) — A physiological side-quest for DSH: a token-driven tummy (not global, can be switched off, ships with self-respect).
-- [Mayse27/dsh-research-first](https://github.com/Mayse27/dsh-research-first) — Research-first assistant with domain-aware search for generation tasks.
 - [NeoJubao/dsh-ziwei](https://github.com/NeoJubao/dsh-ziwei) — Zi Wei Dou Shu Pro: deterministic chart casting plus an interpretation guide (紫微师 / 金聚).
 - [nexu-io/openmotion](https://github.com/nexu-io/openmotion) — Open-source motion-graphics and video studio: turn a reference video into editable motion graphics with your brand kit and export for YouTube, Shorts, Reels and TikTok — 300+ Motion.md guides and support for 22 agents including DSH.
 - [pointylab/pointy](https://github.com/pointylab/pointy) — Shake the mouse, point at anything on screen and ask DeepSeek Harness about it.

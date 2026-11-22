@@ -5914,7 +5914,6 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [light-cheng/DSH-Slate](https://github.com/light-cheng/DSH-Slate) —— 右侧边栏里按工作区隔离、带证据的项目进度追踪器。
 - [ma1833577561/dsh-plugin-voice-autosend](https://github.com/ma1833577561/dsh-plugin-voice-autosend) —— 输入框离线语音输入：说话、用 SenseVoice 本地转写、自动发送。
 - [mahe-404/dsh-fish-poop](https://github.com/mahe-404/dsh-fish-poop) —— 给 DSH 的生理副线：token 驱动的肚肚（非全局、可关闭、带自尊）。
-- [Mayse27/dsh-research-first](https://github.com/Mayse27/dsh-research-first) —— 研究优先的助手：面向生成任务做领域感知检索。
 - [NeoJubao/dsh-ziwei](https://github.com/NeoJubao/dsh-ziwei) —— 紫微斗数 Pro：确定性排盘加紫微师解读（紫微师 / 金聚）。
 - [nexu-io/openmotion](https://github.com/nexu-io/openmotion) —— 开源动效与视频工作室：把参考视频变成可编辑动效，套上品牌资产后导出 YouTube / Shorts / Reels / TikTok——300+ Motion.md 指南，支持 22 个 agent（含 DSH）。
 - [pointylab/pointy](https://github.com/pointylab/pointy) —— 晃一下鼠标，指向屏幕上的任何东西，直接问 DeepSeek Harness。
