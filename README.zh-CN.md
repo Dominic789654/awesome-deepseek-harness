@@ -1925,6 +1925,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [Liyuan1992/rawmem](https://github.com/Liyuan1992/rawmem) — 面向 AI 与人工工作流的轻量级本地优先原始证据账本。
 - [NinjaSln-labs/dsh-knowledge-sqlite](https://github.com/NinjaSln-labs/dsh-knowledge-sqlite) — DeepSeek Harness 跨会话知识库：`ctx.knowledge` 服务 + `knowledge_*` 工具，基于 SQLite FTS5 三元词检索，支持中日韩。
 - [youridol/dsh-sess](https://github.com/youridol/dsh-sess) — DeepSeek Harness 会话管理器（dsh-v0.1.2-alpha.5）：通过官方 Profile Bundle / Cordis API 永久删除冷会话并管理归档会话。MIT 许可。
+- [YunongDai2005/dsh-thetwo](https://github.com/YunongDai2005/dsh-thetwo) —— 在已配对的局域网设备间同步会话和附件，模型可根据硬件选择接手机器，由用户确认。
 - [zaizaizhao/dsh-branchmark](https://github.com/zaizaizhao/dsh-branchmark) — 为开发者提供重点知识摘录、可溷源 Session 树和注意力分叉，让主 Session 始终专注于当前目标，让每条支线都能找回来源，让 Vibe Coding 告别注意力丢失。
 - [NoxTyrannus/dsh-cipher](https://github.com/NoxTyrannus/dsh-cipher) —— 把 cipher 的持续思考/三中台/四类记忆以 UNNI/LOOP 会话模式接入 DSH（dsh-plugin bundle）。
 - [ItBayMax/dsh-replay-theater](https://github.com/ItBayMax/dsh-replay-theater) —— 按原始 token 节奏回放 DeepSeek Harness 会话——内建播放剧场，支持播放/暂停/单步/变速/跳转。
