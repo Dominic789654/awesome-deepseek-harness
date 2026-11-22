@@ -135,6 +135,7 @@ _由 DeepSeek Harness 团队负责人 **崔添翼（[@tianyi](https://x.com/tian
 
 _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层，再叠加你自己的 `cordis.patch.yml`（profile 级 → `$DSH_HOME` 级 → `--patch` overlay），无需 fork 就能重新编排整棵插件树。**任务专精的运行时配方**就活在这一层：长程任务 profile、数学推理 profile、幻灯片编辑 profile，本质都只是不同的 bundle 组合 + patch，不是不同的代码库。凡是在这一层操作的工具/harness（分享或导出整套 profile，或用任务专属 patch 把 DSH 跑成专用后端）都归在这里，而不是塞进通用插件堆里。_
 
+- [wwewtech/numes-deepseek-harness](https://github.com/wwewtech/numes-deepseek-harness) —— 在 DeepSeek Harness 中免费使用 Numes 模型：零依赖本地代理，`$0` 硬保障（`:free` + `max_price` 双重防护）、永不放弃的重试（5 秒到 5 分钟）、免费模型自动发现与付费模型拦截。
 - [Bryan-cmf/dsh-general-agentics](https://github.com/Bryan-cmf/dsh-general-agentics) —— DSH 的 General Agentics 发行包：一次安装带上白标品牌、精选插件、内置技能与 MCP 预配置（MIT）。
 - [lldwb/dsh-sub2api-provider](https://github.com/lldwb/dsh-sub2api-provider) — DSH 的 Sub2API 第三方供应商包，支持 Off / Low / High / Max 思考强度。
 - [cuddly-guacamole/dsh-orchestrator-preset](https://github.com/cuddly-guacamole/dsh-orchestrator-preset) —— 面向 DeepSeek Harness 的薄壳 agent 预设：九条能力通道并声明各自工具边界、常驻路由段落、四个自撰 skill，以及基于证据的完成门禁。
