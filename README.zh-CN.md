@@ -6035,6 +6035,16 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [PerryLink/dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) —— 核对施工安全资格台账的培训学时、四个记录要素，以及特种作业证书有效期与作业时间的匹配。
 - [PerryLink/dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) —— 把 .docx、.xlsx、.xlsm、.csv、.tsv 中的表格转换成规则核查器可读的 table JSON；识别不了时明确报告，不做猜测。
 - [PerryLink/dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) —— 差旅费用核对：导入订单、发票与卡流水，去重、三单匹配与只读政策校验后导出——5 个 `travel.*` 工具。
+- [PerryLink/dsh-canteen-retention-check](https://github.com/PerryLink/dsh-canteen-retention-check) —— 核对食堂留样台账的四个记录要素、125 克下限、48 小时冷藏窗口，以及单元格中残留的模板占位符。
+- [PerryLink/dsh-finops-suite](https://github.com/PerryLink/dsh-finops-suite) —— 财务运营套件：一条命令安装 dsh-einvoice、dsh-bankrec、dsh-ap-three-way 与 dsh-travel-recon。
+- [PerryLink/dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) —— 核对危险化学品台账的内部自洽性：每种物质是否载明危险性类别、储存量能否解析、是否记录临界量、重大危险源判定与该储存量相对台账自述临界量的关系是否一致、是否载明安全技术说明书编号、CAS 号是否重复。只列出差异供人复核，不判定某单元是否构成重大危险源。
+- [PerryLink/dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) —— 法务需求收件：从 EML 读取需求、按线程去重并导出收件台账——2 个 `legal.*` 工具。
+- [PerryLink/dsh-meta-analysis](https://github.com/PerryLink/dsh-meta-analysis) —— 面向 DeepSeek Harness 的元分析算术：效应量换算（OR/RR/d/r/SMD，由 CI 求 SE）与具名公式、固定效应与 DerSimonian-Laird 随机效应合并、Q/df/p、I2、tau2、森林图数据、Markdown/SARIF 报告，以及 k ≥ 10 时的轻量 Egger 检验。本地、零依赖、可由输入复现。
+- [PerryLink/dsh-notebook-capture](https://github.com/PerryLink/dsh-notebook-capture) —— Notebook 可复现性捕获：不执行 .ipynb，读取内核、执行顺序、导入、运行时安装、随机种子、绝对路径与输出状态，并对 Notebook 及其环境声明做哈希，产出 REP 证据与 Markdown 卡片。
+- [PerryLink/dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) —— 只读安装体检：能力快照、tarball 断言与安装诊断；dsh-plugin-doctor 的仅安装版配套（tarball / 安装日志诊断）。
+- [PerryLink/dsh-primer](https://github.com/PerryLink/dsh-primer) —— 构建 DeepSeek Harness 插件的实用入门指南。
+- [PerryLink/dsh-repro-audit](https://github.com/PerryLink/dsh-repro-audit) —— 可复现性证据：一次性有界只读扫描记录提交、锁文件、环境、数据哈希、图、随机种子与运行命令，并对记录做漂移检查，输出可交给审阅者的报告卡。
+- [PerryLink/dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) —— 从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条报告，不省略。
 
 
 ## 编排器与聚合器
