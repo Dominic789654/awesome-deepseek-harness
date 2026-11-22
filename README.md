@@ -5853,6 +5853,8 @@ _Plugins that give the agent tools for external services (container registries, 
 - [natgurlain/dsh-browser-agent](https://github.com/natgurlain/dsh-browser-agent) — Browser extension (Chrome/Brave/Firefox side panel) plus bridge plugin: the agent reads and operates tabs in the user's own browser, each page action waits for an approval card that names the element, and a session that has read web pages must ask before sending data to another site. On npm as `dsh-browser-agent`; fork of dsh-browser.
 - [AIcivilization/dsh-mishu](https://github.com/AIcivilization/dsh-mishu) — Secretary panel: reads your unread GitHub notifications, works out which ones are already resolved and closes them for you, and keeps the bills, renewals, document expiries and birthdays you tell it, reminding you when they come due. The inbox is read-only and secrets stay in the system keychain.
 
+- [hAcKlyc/dsh-zsearch](https://github.com/hAcKlyc/dsh-zsearch) — Dual-source Zhihu and web search with cited answers and a built-in DSH plugin review topic.
+
 ## Orchestrators & Aggregators
 
 _Multi-step / multi-agent schedulers and output aggregators._

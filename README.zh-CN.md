@@ -5861,6 +5861,8 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [natgurlain/dsh-browser-agent](https://github.com/natgurlain/dsh-browser-agent) —— 浏览器扩展（Chrome/Brave/Firefox 侧边栏）加桥接插件：智能体读取并操作用户自己浏览器中的标签页，每个页面操作都先弹出写明目标元素的审批卡；读过网页的会话在向其他站点发送数据前必须先询问。npm 包为 `dsh-browser-agent`；dsh-browser 的分支。
 - [AIcivilization/dsh-mishu](https://github.com/AIcivilization/dsh-mishu) —— 小秘书：读取未读 GitHub 通知，逐条判断哪些事已经结束并替你关掉；也记住你交代的账单、续费、证件到期与生日，到点提醒。收件箱只读，密钥只进系统钥匙串。
 
+- [hAcKlyc/dsh-zsearch](https://github.com/hAcKlyc/dsh-zsearch) —— 知乎与全网双源检索，左侧流式回答、右侧带引用的原文，并内置 DSH 插件评价专题。
+
 ## 编排器与聚合器
 
 _多步 / 多 agent 调度器与输出聚合器。_
