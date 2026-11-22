@@ -3749,6 +3749,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [Sivan757/dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugins-market) —— DSH 的技能与扩展管理器：从 Git 仓库地址原样安装 Claude Code、Codex、Cursor、Kimi 的插件仓库，无需转换；在同一个图形界面工作区里管理技能、命令、MCP 服务与 hooks。
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) — 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」这类问题在发布前就失败；另含 `init`、`dev`、`release`。
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) — 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查。
+- [hxlog/dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) —— DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 
 ## 可视化
 

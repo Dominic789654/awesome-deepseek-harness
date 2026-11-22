@@ -3733,6 +3733,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [Sivan757/dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugins-market) — Skills and extensions manager for DSH: installs Claude Code, Codex, Cursor and Kimi plugin repositories from a Git URL as they are, with no conversion, and manages skills, commands, MCP servers and hooks in one Web GUI workspace.
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) — Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` and `release`.
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) — A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight.
+- [hxlog/dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) — Skills manager in DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills are not registered with the model.
 
 ## Visualization
 
