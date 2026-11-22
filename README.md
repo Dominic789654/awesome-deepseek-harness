@@ -4025,7 +4025,6 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [Link-h1j/dsh-image-canvas](https://github.com/Link-h1j/dsh-image-canvas) — DSH desktop right-sidebar infinite canvas: collect opened images on one pannable board, annotate them, hand the notes to the agent, and edit or generate with local ComfyUI.
 - [kyoukisu/dsh-rich-ui](https://github.com/kyoukisu/dsh-rich-ui) — Interactive rich responses for DSH: entity panels, KPI cards, series charts, sortable tables, flow diagrams and local controls, rendered from a strict JSON contract.
 - [woolsen/dsh-surface](https://github.com/woolsen/dsh-surface) — Live HTML pages inside DeepSeekRuntime conversations: previews, reports and forms that can answer back.
-- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) — `generate_image` tool backed by your provider's image model, with an Images gallery panel, per-picture cost, edits from reference images, and looping GIFs from sprite sheets.
 
 ## Slides / PPT
 
@@ -5320,6 +5319,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [pjzck/dsh-mcp-bridge](https://github.com/pjzck/dsh-mcp-bridge) — MCP bridge that exposes DeepSeek Harness as an execution subagent through the official DSH SDK profile.
 - [specstream/specstream-tools](https://github.com/specstream/specstream-tools) — SpecStream MCP server (Streamable HTTP at `api.specstream.ai/mcp` and `specstream-mcp-stdio`) and DSH plugin (`@specstream/dsh-plugin`) for web search, page extraction, and Deep Search.
 - [BEBOTECH-OU/scrapewise-mcp](https://github.com/BEBOTECH-OU/scrapewise-mcp) — Remote MCP server that scrapes, cleans and matches product and price data from any website.
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) — `generate_image` tool backed by your provider's image model, with an Images gallery panel, per-picture cost, edits from reference images, and looping GIFs from sprite sheets.
 
 ## Tools & Integrations
 

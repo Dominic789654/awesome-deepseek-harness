@@ -4035,7 +4035,6 @@ _把数据 / 结果变成图表、图形、看板的插件。_
 - [Link-h1j/dsh-image-canvas](https://github.com/Link-h1j/dsh-image-canvas) —— DSH 桌面端右侧无限画布：把打开的图片集中到一块可平移画板、批注后交给 Agent，并用本地 ComfyUI 编辑/生成。
 - [kyoukisu/dsh-rich-ui](https://github.com/kyoukisu/dsh-rich-ui) —— DSH 的交互式富响应：实体面板、KPI 卡片、序列图表、可排序表格、流程图与本地控件，全部按严格 JSON 契约渲染。
 - [woolsen/dsh-surface](https://github.com/woolsen/dsh-surface) —— 在 DeepSeekRuntime 对话里跑活的 HTML 页面：预览、报表和能回话的表单。
-- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) —— `generate_image` 工具，用你供应商的生图模型出图；「图片」面板收成图库，每张图标出费用，支持参考图改图，精灵图自动拼成循环 GIF。
 
 ## 幻灯片 / PPT
 
@@ -5328,6 +5327,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [pjzck/dsh-mcp-bridge](https://github.com/pjzck/dsh-mcp-bridge) —— MCP 桥：通过官方 DSH SDK profile 把 DeepSeek Harness 暴露成可被调用的执行型子代理。
 - [specstream/specstream-tools](https://github.com/specstream/specstream-tools) —— SpecStream MCP 服务器（Streamable HTTP 端点 `api.specstream.ai/mcp` 与 `specstream-mcp-stdio`）及 DSH 插件（`@specstream/dsh-plugin`），提供实时网页搜索、页面正文提取与 Deep Search 结构化检索。
 - [BEBOTECH-OU/scrapewise-mcp](https://github.com/BEBOTECH-OU/scrapewise-mcp) —— 远程 MCP 服务器：从任意网站抓取、清洗并匹配商品与价格数据。
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) —— `generate_image` 工具，用你供应商的生图模型出图；「图片」面板收成图库，每张图标出费用，支持参考图改图，精灵图自动拼成循环 GIF。
 
 ## 工具与集成
 
