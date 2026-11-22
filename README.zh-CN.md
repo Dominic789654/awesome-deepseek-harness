@@ -6015,6 +6015,16 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [PerryLink/dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) —— 文献追踪：保存带时间窗的命名 Crossref 检索式，用已见 DOI 库记录，重复运行只返回真正新增的条目，输出 Markdown 摘要与 SARIF；只报告检索窗口内新增的 DOI，不判断相关性或质量。
 - [PerryLink/dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) —— 本地非生成式决策层：phocinae_ask 与 phocinae_gate 由本机 150M 参数决策模型给出带校准置信度的类型化裁决，无法回答时 fail-closed 升级；需在本机 8155 回环端口运行 phocinae-server。
 - [PerryLink/dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) —— QMS 质量事件流水线：NCR 不良记录去重入库、批次别名解析、对照库存/途中快照评估影响面，再开出 CAPA 或 8D 并跟踪状态；全程本地，不联网、不调用模型。
+- [PerryLink/dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) —— 面向 DeepSeek Harness 的确定性论断支持检查：逐字引文跨度、数字匹配、标值矛盾、否定与模糊语极性对照被引句，生成 REP v1 证据/论断/裁决记录与 SARIF 输出。
+- [PerryLink/dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) —— 为 DeepSeek Harness 核对引文是否存在、元数据是否正确：经 Crossref/PubMed/arXiv 解析 DOI/PMID/arXiv/BibTeX，逐字段比较元数据，并生成 REP v1 证据记录。
+- [PerryLink/dsh-dataset-card](https://github.com/PerryLink/dsh-dataset-card) —— 面向 DeepSeek Harness 的数据集文档：有界 CSV/TSV/JSON/JSONL 画像、脱敏 PII 检测、Datasheet 式卡片，以及 Markdown/JSON/SARIF 输出与只存分析不存原始数据的 REP 证据。
+- [PerryLink/dsh-dida](https://github.com/PerryLink/dsh-dida) —— 面向 DeepSeek Harness 的滴答清单/TickTick 任务桥：会话头部任务面板、agent 工具与设置卡片。
+- [PerryLink/dsh-dmp](https://github.com/PerryLink/dsh-dmp) —— 面向 DeepSeek Harness 的数据管理计划（DMP）工具：十节脚手架与提示、完整性与一致性检查（数据集、个人数据、共享冲突、保存期限、备份、仓库/许可/DOI、联系人），输出 Markdown/JSON/SARIF。检查是内部一致性检查，不是资助方模板认证。
+- [PerryLink/dsh-eval-pack](https://github.com/PerryLink/dsh-eval-pack) —— 公开/合成评测包的 lint 与确定性 JSON 评分器；不是经过验证的基准。
+- [PerryLink/dsh-image-integrity](https://github.com/PerryLink/dsh-image-integrity) —— 面向 DeepSeek Harness 的图像完整性检查：零依赖 8-bit PNG 解码，用块指纹与 NCC 确认查找同一图内或两图之间重复/镜像的区域，并输出 REP 证据与 Markdown/SARIF 报告。
+- [PerryLink/dsh-irb](https://github.com/PerryLink/dsh-irb) —— 面向 DeepSeek Harness 的伦理申请清单：18 项关键词清单、基于结构化标记的建议风险等级与必要保障，输出 JSON/Markdown 与 REP 证据。清单辅助，不替代伦理委员会决定。
+- [PerryLink/dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) —— 面向 DeepSeek Harness 的确定性多源文献采集。
+- [PerryLink/dsh-manuscript-check](https://github.com/PerryLink/dsh-manuscript-check) —— 面向 DeepSeek Harness 的投稿前清单：稿件结构与声明、对 CONSORT/STROBE/PRISMA 起始条目的关键词覆盖，以及投稿材料包扫描，输出 JSON/Markdown 报告。
 
 
 ## 编排器与聚合器
