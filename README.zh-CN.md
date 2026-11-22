@@ -6138,7 +6138,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [xingzhen199186/dsh-entry-drawer](https://github.com/xingzhen199186/dsh-entry-drawer) —— 把 DSH 左侧栏入口列表的第一行变成开关，一键收起/展开其余入口，把空间还给会话历史。
 _DSH 的桌面、网页、终端或编辑器前端。_
 
-- [Deepseek-Insight](https://github.com/mitmplay/dsh-insight) - DSI — 一种风格独特且具有鲜明设计理念的 DSH Web 客户端。这是一个多智能体工作空间，支持在可缩放、可调整大小的多栏面板中，并排呈现多个智能体（及子智能体）的运作过程，同时还能展示非对话类内容。
+- [mitmplay/dsh-insight](https://github.com/mitmplay/dsh-insight) —— DSI，一个 DSH Web 客户端：在可缩放、可调整大小的多栏面板中并排展示多个智能体与子智能体，以及非对话类内容。
 - [ace202321-cloud/dsh-agent-chat](https://github.com/ace202321-cloud/dsh-agent-chat) —— 把共享的 `thread.md` 以标签页形式渲染在右侧边栏：按签名着色、未读角标、回复跳转、过滤与折叠视图——设计上只读。
 - [AD199-gif/dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) — 在侧栏「更多 → 侧栏入口」里勾选隐藏任意面板入口，插件照常运行；另带控制台 API。
 - [algerkong/dsh-image-preview](https://github.com/algerkong/dsh-image-preview) —— DSH Web 会话的图片预览：`read_image` 结果渲染为缩略图，点击在内置灯箱中查看大图。
