@@ -6005,6 +6005,16 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) —— 跨平台桌面 All-in-One 助手，在 Claude Code、Codex、OpenCode、DeepSeek Harness 等之间一键切换。
 - [AR-26710-1/dsh-plugin-scu-urp](https://github.com/AR-26710-1/dsh-plugin-scu-urp) —— 四川大学教务系统（URP）与微服务助手：免密登录、课表、手机日历同步、培养方案与保研 GPA 测算、考试与空闲教室、一卡通流水与宿舍电费。
 - [A-2788553793/dsh-find](https://github.com/A-2788553793/dsh-find) —— 在 DSH 里对所有工作区与会话做 Ctrl+F 全文搜索，全部本地执行、不调模型。
+- [PerryLink/dsh-ap-three-way](https://github.com/PerryLink/dsh-ap-three-way) —— 应付三单匹配：发票行逐行对上采购单与收货单（单价默认 1% 容差放行），例外连同原因写进本地底稿，并导出 Matches / Exceptions 两表 xlsx；全程本机计算，不联网、不调用模型。
+- [PerryLink/dsh-ar-aging](https://github.com/PerryLink/dsh-ar-aging) —— 把应收明细 CSV 变成固定五桶（0-30 / 31-60 / 61-90 / 91-180 / 180+）账龄表、客户汇总、逾期占比与 Top 逾期客户，并导出 CSV；全程本机计算，不联网、不调用模型。
+- [PerryLink/dsh-ar-collection](https://github.com/PerryLink/dsh-ar-collection) —— 把应收明细变成按优先级排好的催收计划、中文催收函草稿与催收清单 CSV（提醒 / 催告 / 升级阶梯）；全程本地，不联网、不发送。
+- [PerryLink/dsh-attendance-check](https://github.com/PerryLink/dsh-attendance-check) —— 把打卡明细 CSV 核对成每人的日工时、加班、超限日、缺卡与休息不足（8 小时标准、单日 3 小时与月 36 小时加班上限），按月汇总并导出核对表 CSV；全程本机计算。
+- [PerryLink/dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) —— 把投标文件逐条对回要求清单，报告哪些看起来有响应、哪些匹配偏弱、哪些定位不到，并写明「定位不到」不等于「没写」；只报告差异，不判断是否实质满足。
+- [PerryLink/dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) —— 中文基金申请书提交前检查：19 项起步清单、预算算术与直接/间接/总额一致性、申请材料包扫描；输出 JSON/Markdown 与 REP 证据——是关键词清单，不是评审结论。
+- [PerryLink/dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) —— 把纯文本合同拆成条款树，按 12 个关键条款键（风险 / 控制 / 商务 / 履约）映射并列出缺项与重复或跳号，可导出 JSON；全程本地，不联网、不调用模型。
+- [PerryLink/dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) —— 文献追踪：保存带时间窗的命名 Crossref 检索式，用已见 DOI 库记录，重复运行只返回真正新增的条目，输出 Markdown 摘要与 SARIF；只报告检索窗口内新增的 DOI，不判断相关性或质量。
+- [PerryLink/dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) —— 本地非生成式决策层：phocinae_ask 与 phocinae_gate 由本机 150M 参数决策模型给出带校准置信度的类型化裁决，无法回答时 fail-closed 升级；需在本机 8155 回环端口运行 phocinae-server。
+- [PerryLink/dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) —— QMS 质量事件流水线：NCR 不良记录去重入库、批次别名解析、对照库存/途中快照评估影响面，再开出 CAPA 或 8D 并跟踪状态；全程本地，不联网、不调用模型。
 
 
 ## 编排器与聚合器
