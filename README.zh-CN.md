@@ -4977,6 +4977,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) —— Grok 式 bot 团队：每个 bot 有自己的人设、模型、技能、记忆和定时任务；调度员把工作派成任务，看板跟踪每件事，飞书、Telegram、Slack、Discord 里也能给团队派活。
 - [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) —— DSH 多智能体投研议院：分析师/多方/空方/风控/组合经理辩论，主张全带证据标签、PASS 弃权一等公民；巴菲特/芒格/林奇/伍德客座评辩，零 key 行情（CBOE 报价/K 线/期权隐波 + SEC 10-K + nasdaq 新闻）喂给可审计的 IC-MEMO。
 - [NakliTechie/parallax](https://github.com/NakliTechie/parallax) —— 让会话之间互发消息并委派任务：六个工具，覆盖发送、提问并等待回复、送达回执、有长度上限的对方摘要，以及权限不超过父会话的子会话；收到的消息不具备任何权限。
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) —— DSH 插件：agent 预设先查本地主题知识库再回答，并标出答案是否来自卡片；侧边栏面板可浏览、互连与核实卡片。卡片是 ~/.dsh/learn 下的普通文件，检索为本地计算。
 
 ## 循环（自动研究 / 自我改进等）
 

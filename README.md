@@ -4966,6 +4966,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) — Grok-style bot teams: each bot has its own persona, model, skills, memory and scheduled tasks; a dispatcher hands work out as tasks, a board tracks every request, and the team takes messages from Feishu/Lark, Telegram, Slack or Discord.
 - [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) — Multi-agent investment committee for DSH: analyst / bull / bear / risk / PM debate where every claim carries an evidence tag and abstention (PASS) is a first-class verdict; Buffett/Munger/Lynch/Wood guest seats critique the debate itself, and zero-key market data (CBOE quote/K-line/options-IV + SEC 10-K + nasdaq news) feeds an auditable IC-MEMO.
 - [NakliTechie/parallax](https://github.com/NakliTechie/parallax) — Conversations message each other and delegate tasks: six tools for send, ask and wait for the reply, delivery receipts, a bounded peer summary, and a child conversation whose permissions never exceed its parent's; inbound messages carry no authority.
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) — DSH plugin: an agent preset that looks up a local topic knowledge base before answering and marks whether the answer came from a card, plus a sidebar panel to browse, link and verify the cards. Cards are plain files under ~/.dsh/learn; retrieval is local computation.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
