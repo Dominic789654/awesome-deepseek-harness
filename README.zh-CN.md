@@ -3749,6 +3749,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [Sivan757/dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugins-market) —— DSH 的技能与扩展管理器：从 Git 仓库地址原样安装 Claude Code、Codex、Cursor、Kimi 的插件仓库，无需转换；在同一个图形界面工作区里管理技能、命令、MCP 服务与 hooks。
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) — 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」这类问题在发布前就失败；另含 `init`、`dev`、`release`。
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) — 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查。
+- [hxlog/dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) —— DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 
 ## 可视化
 
@@ -8839,7 +8840,6 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [alitrack/dsh-gov-bp](https://github.com/alitrack/dsh-gov-bp) —— 给政府部门看的 BP 技能包：评审七问（带「不发」阈值）、九章试点申报骨架（政策依据卡 + GB/T 9704 格式层）、路演语言转申报语言、按人月自下而上验算的报价方法（CSBMK 口径）与涉密/版权红线。零依赖。
 - [beiyanpiki/dsh-ulw-plan](https://github.com/beiyanpiki/dsh-ulw-plan) —— 给 DeepSeek Harness 的 omo「探索 → 规划 → 执行」工作流：`/ulw-plan`、`/ulw-execute` 两个命令、四个只读角色 agent、行内任务，以及 plan 模式的写入守卫。
 - [russeell/job-search](https://github.com/russeell/job-search) —— 让你的 AI Agent 直接从公司招聘官网和招聘平台拿岗位，带真实发布日期与原始投递链接；适用于 Claude Code、Codex 等 agent。
-- [hxlog/dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) —— DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 - [QuestMeet/questmeet-skill](https://github.com/QuestMeet/questmeet-skill) —— 让你连接到 QuestMeet 机会网络里合适的人或他们的机器人的 Agent Skill：发布/管理列表、搜索机会、触达与消息互动。
 - [Li-Evan/BloomTutor](https://github.com/Li-Evan/BloomTutor) —— 七个辅导 Skill：bloom-tutor 先写学习大纲，再在工作区每次写一篇 Markdown 课文，下一篇按你标的 ??? 和反馈来调整；六个 learn-* Skill 分别用类比已会的知识、判断学多深、领域地图、粗糙原型和讲回来检验来帮你学。安装：`dsh plugin --profile web add github:Li-Evan/BloomTutor`。
 - [Myng-i/dsh-trae-channel](https://github.com/Myng-i/dsh-trae-channel) —— DSH ⇄ TRAE 的零成本协作通道：文件任务板（带 CAS 的抢占、进度、完成）、跨代理留痕的信箱，以及发现双方新活儿的 watchdog（叫醒由独立的 wake-dsh / wake-trae 脚本负责）；纯 Node，原子写 + 文件锁。
