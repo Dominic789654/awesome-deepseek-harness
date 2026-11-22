@@ -8387,6 +8387,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [chenyinrusi/dsh-engineering-skills](https://github.com/chenyinrusi/dsh-engineering-skills) —— 面向 AI 编程 agent（DeepSeek Harness / Claude Code / Codex）的五个工程纪律技能：18 维度代码审查、CI 故障分流修复、shell 安全、冗余/边界审计与跨仓库模式吸收——纯 markdown，零安装。
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) —— 中文长剧本写作 skill（SKILL.md）：双输入板块 + 因果—价值内核，内置去 AI 味审查与连续性台账，支撑 100 场以上长篇幅项目。
 - [paean-ai/8x-skills](https://github.com/paean-ai/8x-skills) —— 面向 Paean Apps Square（clide.app / 8x.gg）的可搬运 agent skill，用于构建、发布与重组游戏：包含安装/登录、游戏制作规范、云存档/排行榜 SDK 以及发布/remix 脚本，可在 Zero CLI、Claude Code、Codex 以及 DeepSeek Harness 中使用。
+- [kysr04/dsh-pitfall-memory](https://github.com/kysr04/dsh-pitfall-memory) —— DSH 技能：本地错题本，把重复出现的工具错误沉淀成带检测信号的条目，下次同类任务开工前先检索，让 agent 不重复犯同一个错；含写入纪律、命中计数，以及 index/增删改查的 PowerShell 辅助脚本。
 
 - [bettermen/dsh-course-writer](https://github.com/bettermen/dsh-course-writer) —— 螺说教材写作 · dsh-course-writer —— DeepSeek Harness (DSH) 上的 AI 教材写作工作台插件。三栅式工作台 · 九阶段门禁 · 课程/章节/资料库/知识图谱 · 导出 TXT/Word · 分享协作。
 - [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) —— Timeline Studio Bundle：让 DSH 检查、预演、事务式编辑并渲染可移植的 `.timeline` 视频工程。
