@@ -1878,7 +1878,6 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 - [Changqin1024/dsh-session-delete-cascade](https://github.com/Changqin1024/dsh-session-delete-cascade) — Adds Delete Session to DeepSeek Harness: one click from the sidebar menu removes the session and recursively cleans child sessions, logs, projection cache, search index and workspace bookkeeping.
 - [Domaki-co/dsh-message-forward](https://github.com/Domaki-co/dsh-message-forward) — DeepSeek Harness (DSH) plugin for session message forwarding.
-- [OakcoderX/solopup-memory](https://github.com/OakcoderX/solopup-memory) — Source-linked text memory for DSH with project scopes and revision history (public beta).
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — Cross-project pinned Session groups for DeepSeek Harness Web (alpha preview).
 - [a1141171521/dsh-plugin-memfuse](https://github.com/a1141171521/dsh-plugin-memfuse) — Long-term memory plugin for DSH: plain-text Markdown is the source of truth, retrieval runs on the local machine, and the read / write / inject / search path calls no model.
 - [ayachinene285/dsh-session-move](https://github.com/ayachinene285/dsh-session-move) — Workspace folders (grouping) in the sidebar plus session move for DSH.
@@ -2742,6 +2741,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [WphiontaS/dsh-stage-handoff](https://github.com/WphiontaS/dsh-stage-handoff) — Close out a stage and write a human-readable anchor before the context is compacted, then compact with your own retention budget instead of discarding the tail.
 - [gabrielbav/dsh-workspace#dsh-plugin-session-delete](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-session-delete) — Permanent delete for DSH sessions and workspaces, which DSH can only archive; running sessions are never touched.
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — Grades what a repository or a past session actually read, warns before it floods the context window, and writes the `.aiignore` rules that stop the worst of it; the same package ships a sidebar panel that follows the current conversation.
+- [OakcoderX/solopup-memory](https://github.com/OakcoderX/solopup-memory) — Source-linked text memory for DSH with project scopes and revision history (public beta).
 
 ## Cost & Usage Tracking
 
