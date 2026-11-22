@@ -4960,6 +4960,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [re3uofall/dsh-persona-framework](https://github.com/re3uofall/dsh-persona-framework) — Persona framework plugin for DSH: framework only, no personas — four layers, 72 modules and the R1–R27 rule set, injected alongside instead of overwriting persona files, with exit, structure and slot self-checks plus adaptive index budget.
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) — Socratic learning mode for DeepSeek Harness: a tutoring agent preset that gives one piece of real knowledge, then asks one invitational question per turn — teach first, ask next, no lecturing and no interrogation.
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) — An AI coding agent that runs inside DSH: a hand-built 4KB-page B+ tree, Socket RPC and multi-agent orchestration, 151 green tests, local small models plus cloud collaboration.
+- [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) — Multi-agent investment committee for DSH: analyst / bull / bear / risk / PM debate where every claim carries an evidence tag and abstention (PASS) is a first-class verdict; Buffett/Munger/Lynch/Wood guest seats critique the debate itself, and zero-key market data (CBOE quote/K-line/options-IV + SEC 10-K + nasdaq news) feeds an auditable IC-MEMO.
 
 ## Loops (Auto-Research, Self-Improve, etc.)
 
