@@ -5322,6 +5322,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [BEBOTECH-OU/scrapewise-mcp](https://github.com/BEBOTECH-OU/scrapewise-mcp) — Remote MCP server that scrapes, cleans and matches product and price data from any website.
 - [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) — `generate_image` tool backed by your provider's image model, with an Images gallery panel, per-picture cost, edits from reference images, and looping GIFs from sprite sheets.
 - [gabrielbav/dsh-workspace#dsh-plugin-aws](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-aws) — Turn on any of AWS's official MCP servers from a Settings page, by group or one at a time: version-pinned and read-only where supported.
+- [gabrielbav/dsh-workspace#dsh-connectors](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-connectors) — Connect Linear, Jira, GitHub, GitLab, Trello, Granola and Azure DevOps to every DSH session from one Settings page, with OAuth or a token, plus any MCP URL.
 
 ## Tools & Integrations
 
