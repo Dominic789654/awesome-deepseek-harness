@@ -4554,6 +4554,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [8kugames/dsh-zed-acp](https://github.com/8kugames/dsh-zed-acp) — Independent Zed Agent Client Protocol server, shipped as a DSH plugin.
 - [kobubu/Rag-Coding](https://github.com/kobubu/Rag-Coding) — Local code memory for DeepSeek Harness: automatic source context, semantic search and dependency graphs.
 - [yonking305/arc-vista](https://github.com/yonking305/arc-vista) — Local-first architecture observatory for Git repositories: architecture diagrams, security guards, a business knowledge graph, and complexity and branch-risk comparison.
+- [gabrielbav/dsh-workspace#dsh-code](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-code) — Code mode for DSH: every session gets its own repo checkout and branch in a gVisor sandbox with an egress allowlist and a live app preview, on your computer or your own VM.
 
 ## Agents
 
@@ -5309,6 +5310,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [xmtlzzz/dsh-any-agent](https://github.com/xmtlzzz/dsh-any-agent) — MCP server that drives DeepSeek Harness (DSH) as a long-lived coding agent from any MCP client — resume-aware, interruptible and approval-capable.
 - [Dogtiti/dsh-plugin-subagent-bridge](https://github.com/Dogtiti/dsh-plugin-subagent-bridge) — Subagent-shaped bridge between Codex and DeepSeek Harness: Codex spawns DSH workers over a loopback MCP endpoint and gets final answers back; DSH agents can dispatch to Codex in return.
 - [pjzck/dsh-mcp-bridge](https://github.com/pjzck/dsh-mcp-bridge) — MCP bridge that exposes DeepSeek Harness as an execution subagent through the official DSH SDK profile.
+- [specstream/specstream-tools](https://github.com/specstream/specstream-tools) — SpecStream MCP server (Streamable HTTP at `api.specstream.ai/mcp` and `specstream-mcp-stdio`) and DSH plugin (`@specstream/dsh-plugin`) for web search, page extraction, and Deep Search.
 - [BEBOTECH-OU/scrapewise-mcp](https://github.com/BEBOTECH-OU/scrapewise-mcp) — Remote MCP server that scrapes, cleans and matches product and price data from any website.
 
 ## Tools & Integrations
@@ -5847,6 +5849,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) — Connect any ACP agent through the official ACP provider, with a settings page, handshake test and routing skill.
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) — DSH collector plugin: decodes local files, network sources and live streams into JPEG frames plus 16k PCM and pushes them to muse_vtuber's capture port — including Bilibili video and live streams with automatic reconnection.
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) — Sync a DeepSeek Harness profile configuration across devices through Nutstore WebDAV or GitHub: per-file hash merge, conflict copies, optional AES-256-GCM encryption and a settings-page UI.
+- [natgurlain/dsh-browser-agent](https://github.com/natgurlain/dsh-browser-agent) — Browser extension (Chrome/Brave/Firefox side panel) plus bridge plugin: the agent reads and operates tabs in the user's own browser, each page action waits for an approval card that names the element, and a session that has read web pages must ask before sending data to another site. On npm as `dsh-browser-agent`; fork of dsh-browser.
 - [AIcivilization/dsh-mishu](https://github.com/AIcivilization/dsh-mishu) — Secretary panel: reads your unread GitHub notifications, works out which ones are already resolved and closes them for you, and keeps the bills, renewals, document expiries and birthdays you tell it, reminding you when they come due. The inbox is read-only and secrets stay in the system keychain.
 
 ## Orchestrators & Aggregators
@@ -8339,6 +8342,7 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) — DSH interface presence: LIVE2D main stage plus video / audio / expression sidebars, virtual camera and microphone for external collectors, speech recognition and image-understanding event streams.
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) — Interaction and convenience upgrades for the DSH Web UI: a session right-click menu with permanent delete, a Git branch chip under the composer, and opt-in worktrees.
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) — Transparent desktop companion for DeepSeek Harness: task captions, expressions, touch interactions and an optional DeepSeek balance readout.
+- [YONAN1269/dsh-sidebar-suite](https://github.com/YONAN1269/dsh-sidebar-suite) — Adds one control bar to the left sidebar: arrange the workspaces and sessions groups as tabs or as an overlay, or switch back to an official default that changes nothing; the session list stays fully expanded by default. Also manages temporary sessions, deleted when DSH quits by default, with a right-click menu to keep one as a regular session or delete it at once; all nine config keys have graphical switches in the plugin detail page.
 - [modusensus/dsh-artifacts](https://github.com/modusensus/dsh-artifacts) — Sidebar artifact shelf: collects the images, videos, files and links a session delivers into one panel, deduplicated by SHA-256 content hash, with five filter tabs and counts, keyword search, video thumbnails, a lightbox, manual link saving, image paste, uploads up to 25 MB, a one-time backfill of past session logs, and a `save_artifact` tool the model can call.
 
 ## Skills
@@ -8394,6 +8398,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [repo-cover](https://github.com/sjh9714/repo-cover) — GitHub social-preview card (og:image) design skill: the agent writes one self-contained 1280x640 HTML card, four editorial moods, CJK-first typography, stdlib checker for contrast, overflow, and CJK line breaking.
 - [luyu020816-droid/skill-dag](https://github.com/luyu020816-droid/skill-dag) — DAG-based skill for structuring and planning multi-step DSH agent tasks.
 - [paean-ai/8x-skills](https://github.com/paean-ai/8x-skills) — Portable agent skills for building, publishing, and remixing games on Paean Apps Square (clide.app / 8x.gg): setup, game-creation standard, cloud-save/leaderboard SDK, and publish/remix scripts — usable from Zero CLI, Claude Code, Codex, and DeepSeek Harness.
+- [kysr04/dsh-pitfall-memory](https://github.com/kysr04/dsh-pitfall-memory) — DSH skill: a local mistake ledger that turns repeated tool failures into entries carrying a detection signal, searched before the next similar task so the agent stops repeating itself; entry discipline, hit counting, and a PowerShell helper for index/CRUD.
 
 - [bettermen/dsh-course-writer](https://github.com/bettermen/dsh-course-writer) — AI course-authoring workspace plugin for DeepSeek Harness (DSH): three-pane workspace, nine-phase gated workflow, lorebook, and export/share to TXT/Word.
 - [MartinDelophy/dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) — Timeline Studio bundle for inspecting, previewing, transactionally editing, and rendering portable `.timeline` video projects from DSH.
@@ -8816,6 +8821,7 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [beiyanpiki/dsh-ulw-plan](https://github.com/beiyanpiki/dsh-ulw-plan) — omo explore → plan → execute workflow for DeepSeek Harness: `/ulw-plan` and `/ulw-execute`, four read-only role agents, inline task, and a plan-mode write guard.
 - [russeell/job-search](https://github.com/russeell/job-search) — Agent Skill that pulls jobs straight from company career sites and job platforms, with real posting dates and original application links; works in Claude Code, Codex and similar agents.
 - [Li-Evan/BloomTutor](https://github.com/Li-Evan/BloomTutor) — Seven tutoring Skills: bloom-tutor writes a syllabus, then one Markdown lesson at a time in your workspace, shaping each next lesson from your ??? marks and feedback; six learn-* Skills teach through analogies, deciding how deep to go, field maps, rough prototypes and explaining it back. Install with `dsh plugin --profile web add github:Li-Evan/BloomTutor`.
+- [Myng-i/dsh-trae-channel](https://github.com/Myng-i/dsh-trae-channel) — DSH ⇄ TRAE collaboration channel that needs no enterprise CLI: a file-based task board (claim with CAS, progress, completion), a mailbox for cross-agent messages, and a watchdog that spots new work on either side (waking is done by the separate wake-dsh / wake-trae scripts); pure Node, atomic writes behind a lock file.
 - [chinachenkeke-source/seventh-man](https://github.com/chinachenkeke-source/seventh-man) — The Seventh Man: six experts stress-test an idea across demand, market, engineering, finance, risk and org, while a seventh is hired to falsify it — every run ends with a minimum viable test. Answers in any language.
 
 ## Resources
