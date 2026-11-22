@@ -4973,6 +4973,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [re3uofall/dsh-persona-framework](https://github.com/re3uofall/dsh-persona-framework) —— DSH 人格框架插件：只给框架，不含人格。四层切分、72 个模块、R1–R27 规则体；外挂注入，不覆盖不改写人格文件，带出口自检、结构自检、槽位体检与索引预算自适应。
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) —— DeepSeek Harness 的苏格拉底式学习模式：一个辅导 agent 预设，每轮先给一块真知识，再问一个邀请式问题——先给再问，不讲课也不审问。
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) —— 一个跑在 DSH 里的 AI 编码智能体：手搓 4KB 页 B+ 树、Socket RPC、多智能体编排，151 项测试全绿，本地小模型 + 云端协同。
+- [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) —— Grok 式 bot 团队：每个 bot 有自己的人设、模型、技能、记忆和定时任务；调度员把工作派成任务，看板跟踪每件事，飞书、Telegram、Slack、Discord 里也能给团队派活。
 - [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) —— DSH 多智能体投研议院：分析师/多方/空方/风控/组合经理辩论，主张全带证据标签、PASS 弃权一等公民；巴菲特/芒格/林奇/伍德客座评辩，零 key 行情（CBOE 报价/K 线/期权隐波 + SEC 10-K + nasdaq 新闻）喂给可审计的 IC-MEMO。
 - [NakliTechie/parallax](https://github.com/NakliTechie/parallax) —— 让会话之间互发消息并委派任务：六个工具，覆盖发送、提问并等待回复、送达回执、有长度上限的对方摘要，以及权限不超过父会话的子会话；收到的消息不具备任何权限。
 
@@ -5326,6 +5327,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [pjzck/dsh-mcp-bridge](https://github.com/pjzck/dsh-mcp-bridge) —— MCP 桥：通过官方 DSH SDK profile 把 DeepSeek Harness 暴露成可被调用的执行型子代理。
 - [specstream/specstream-tools](https://github.com/specstream/specstream-tools) —— SpecStream MCP 服务器（Streamable HTTP 端点 `api.specstream.ai/mcp` 与 `specstream-mcp-stdio`）及 DSH 插件（`@specstream/dsh-plugin`），提供实时网页搜索、页面正文提取与 Deep Search 结构化检索。
 - [BEBOTECH-OU/scrapewise-mcp](https://github.com/BEBOTECH-OU/scrapewise-mcp) —— 远程 MCP 服务器：从任意网站抓取、清洗并匹配商品与价格数据。
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) —— `generate_image` 工具，用你供应商的生图模型出图；「图片」面板收成图库，每张图标出费用，支持参考图改图，精灵图自动拼成循环 GIF。
 
 ## 工具与集成
 
@@ -5863,6 +5865,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [NewSpringWei/dsh-subagent-acp-ui](https://github.com/NewSpringWei/dsh-subagent-acp-ui) —— 基于官方 ACP provider 接入任意 ACP agent，提供配置页、握手测试与路由 skill。
 - [Stella-Mira/muse_galaxy](https://github.com/Stella-Mira/muse_galaxy) —— DSH 采集器插件：把本地文件、网络资源、直播流解码成 JPEG 帧 + 16k PCM 推给 muse_vtuber 的采集口（含 B 站视频与直播，断流自动换节点重连）。
 - [xiaokang6/dsh-config-sync-xk](https://github.com/xiaokang6/dsh-config-sync-xk) —— 通过坚果云 WebDAV 或 GitHub 在多设备间同步 DSH profile 配置：逐文件哈希合并、冲突副本、可选 AES-256-GCM 加密，带设置页界面。
+- [kadaliao/dsh-prompt-en](https://github.com/kadaliao/dsh-prompt-en) —— 在每条 prompt 下方写一行英文：其他语言给出译文，英文给出纠错和更地道的说法；教过的说法收进生词本，用 `/vocab` 复习。
 - [natgurlain/dsh-browser-agent](https://github.com/natgurlain/dsh-browser-agent) —— 浏览器扩展（Chrome/Brave/Firefox 侧边栏）加桥接插件：智能体读取并操作用户自己浏览器中的标签页，每个页面操作都先弹出写明目标元素的审批卡；读过网页的会话在向其他站点发送数据前必须先询问。npm 包为 `dsh-browser-agent`；dsh-browser 的分支。
 - [AIcivilization/dsh-mishu](https://github.com/AIcivilization/dsh-mishu) —— 小秘书：读取未读 GitHub 通知，逐条判断哪些事已经结束并替你关掉；也记住你交代的账单、续费、证件到期与生日，到点提醒。收件箱只读，密钥只进系统钥匙串。
 
@@ -8349,6 +8352,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Stella-Mira/muse_vtuber](https://github.com/Stella-Mira/muse_vtuber) —— DSH 界面交互（形象）：LIVE2D 主位 + 视频 / 音频 / 表情侧边栏、虚拟摄像头与麦克风（外部采集器）、语音识别与识图事件流。
 - [yixin2021/dsh-interaction-kit](https://github.com/yixin2021/dsh-interaction-kit) —— DSH Web UI 的交互与便利升级：会话右键菜单（含永久删除）、输入框下方的 Git 分支小标签，以及可选启用的 worktree。
 - [Zzzzhy1/aibanlv-harness-plugin](https://github.com/Zzzzhy1/aibanlv-harness-plugin) —— DeepSeek Harness 的透明桌面伴侣：任务字幕、表情、触摸互动，以及可选的 DeepSeek 余额显示。
+- [kadaliao/dsh-atlas](https://github.com/kadaliao/dsh-atlas) —— 把 macOS「照片」图库放到能放大到街道的夜色地球上：足迹、可回放的旅行航线、往年今天，模型能搜照片、移动地图（只读）。
 - [ppy-web/dsh-audio-reactive](https://github.com/ppy-web/dsh-audio-reactive) —— 基于 audioMotion-analyzer 的 DSH Web 与 Desktop 音频响应背景主题，支持流式朗读、音乐面板、语音听写、麦克风、浏览器共享音频与 Windows 本机声音采集，内置 17 套视觉预设、自定义预设导入导出及无操作沉浸遮罩。
 - [Ruak/dsh-native-shared-browser](https://github.com/Ruak/dsh-native-shared-browser) —— 为 DSH 提供右侧栏原生浏览器标签：用户可直接点击/输入，agent 通过本地命令队列驱动同一个 Electron webview 页面。
 - [YONAN1269/dsh-sidebar-suite](https://github.com/YONAN1269/dsh-sidebar-suite) —— 给左侧栏加一条控制栏：把「工作区」和「会话」两组排成标签页或浮层，也可以切回完全不改动布局的官方默认；会话列表默认全部展开。同时管理临时会话，默认在退出 DSH 时删除，右键可以把单个临时会话保留为正式会话或立即删除；9 项配置在插件详情页都有图形开关。
