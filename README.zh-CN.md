@@ -2742,7 +2742,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) —— 把本地 Codex 对话线程导入成 DeepSeek Harness 会话，归到原工作目录下，可选自动同步。
 - [MYCF711/dsh-GOkifu-compact](https://github.com/MYCF711/dsh-GOkifu-compact) —— DSH 的棋谱式上下文压缩后端：增量 fold、失败记忆与置换检测，每步只注入约 323 tokens 的热清单。
 - [yulianjie/dsh-brain](https://github.com/yulianjie/dsh-brain) —— DeepSeek Harness Desktop 的本地长期记忆与可控交流风格。
-- [NakliTechie/parallax](https://github.com/NakliTechie/parallax) —— 让会话之间互发消息并委派任务：六个工具，覆盖发送、提问并等待回复、送达回执、有长度上限的对方摘要，以及权限不超过父会话的子会话；收到的消息不具备任何权限。
 - [WphiontaS/dsh-stage-handoff](https://github.com/WphiontaS/dsh-stage-handoff) —— 在上下文被压缩之前收尾当前阶段、写下人类可读的锚点，然后用同一个压缩引擎按自己的保留预算压实，而不是把尾部整个丢掉。
 - [gabrielbav/dsh-workspace#dsh-plugin-session-delete](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-session-delete) —— 为 DSH 会话和工作区提供永久删除（DSH 本身只能归档）；运行中的会话绝不会被删除。
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — 给仓库和过往会话的读取打分，在淹没上下文窗口之前提醒，并写出挡住最糟那部分的 `.aiignore` 规则；同一个包还带一个跟随当前对话的侧栏面板。
@@ -4975,6 +4974,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [summersummer-liu/dsh-socratic-mode](https://github.com/summersummer-liu/dsh-socratic-mode) —— DeepSeek Harness 的苏格拉底式学习模式：一个辅导 agent 预设，每轮先给一块真知识，再问一个邀请式问题——先给再问，不讲课也不审问。
 - [Uneadlight/fatfish-lab](https://github.com/Uneadlight/fatfish-lab) —— 一个跑在 DSH 里的 AI 编码智能体：手搓 4KB 页 B+ 树、Socket RPC、多智能体编排，151 项测试全绿，本地小模型 + 云端协同。
 - [vicfei/dsh-TradingAgents](https://github.com/vicfei/dsh-TradingAgents) —— DSH 多智能体投研议院：分析师/多方/空方/风控/组合经理辩论，主张全带证据标签、PASS 弃权一等公民；巴菲特/芒格/林奇/伍德客座评辩，零 key 行情（CBOE 报价/K 线/期权隐波 + SEC 10-K + nasdaq 新闻）喂给可审计的 IC-MEMO。
+- [NakliTechie/parallax](https://github.com/NakliTechie/parallax) —— 让会话之间互发消息并委派任务：六个工具，覆盖发送、提问并等待回复、送达回执、有长度上限的对方摘要，以及权限不超过父会话的子会话；收到的消息不具备任何权限。
 
 ## 循环（自动研究 / 自我改进等）
 
