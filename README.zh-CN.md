@@ -6205,6 +6205,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [Cherryxxh/DSH-One-Dark-Pro-Theme](https://github.com/Cherryxxh/DSH-One-Dark-Pro-Theme) —— DSH Web GUI 的 One Dark Pro（经典）主题：设置 → 通用中的切换开关，完整覆盖 156 个 token，配色与 VS Code 扩展 1:1 对齐。
 - [kinocode-jp/dsh-mobile](https://github.com/kinocode-jp/dsh-mobile) —— DSH Mobile Android 配套插件：扫码配对，在手机上使用 DSH，并可直接从通知里回答审批。
 - [MuXue927/whaledesk](https://github.com/MuXue927/whaledesk) —— Windows 10/11 x64 桌面宠物，支持 DSH 联动、系统监控、C 盘清理与效率工具。
+- [hAcKlyc/MyAgents](https://github.com/hAcKlyc/MyAgents) —— 面向 macOS 和 Windows 的本地优先 Agent 工作台：可以把 DeepSeek Harness、Claude 或 Codex 放在不同工作区里，设置定时任务，或把活派给自己的另一台在线设备。
 - [whitewizard856/Deepcat](https://github.com/whitewizard856/Deepcat) —— Deepcat：DeepSeek Harness 桌面壳（Electron + React + TypeScript，Windows）。
 - [xiez0324-rgb/dsh-dual-bridge](https://github.com/xiez0324-rgb/dsh-dual-bridge) —— 分流对话 · DSH 侧边栏项目上下文打包插件（纯本地，不联网）。
 - [lyhtakeashot/dsh-lucky-block](https://github.com/lyhtakeashot/dsh-lucky-block) — dsh 插件：AI 选择题自动加一项「幸运方块」随机决定 + 说「回滚」撤销；界面上的骰子按钮长按挖穿即触发随机事件（写论文/我的世界概念合成/冷笑话/冷知识/时事新闻/弹窗表演/蓝屏屏保），整体致敬《赛博朋克 2077》的四季宝。
