@@ -8829,6 +8829,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [alitrack/dsh-gov-bp](https://github.com/alitrack/dsh-gov-bp) —— 给政府部门看的 BP 技能包：评审七问（带「不发」阈值）、九章试点申报骨架（政策依据卡 + GB/T 9704 格式层）、路演语言转申报语言、按人月自下而上验算的报价方法（CSBMK 口径）与涉密/版权红线。零依赖。
 - [beiyanpiki/dsh-ulw-plan](https://github.com/beiyanpiki/dsh-ulw-plan) —— 给 DeepSeek Harness 的 omo「探索 → 规划 → 执行」工作流：`/ulw-plan`、`/ulw-execute` 两个命令、四个只读角色 agent、行内任务，以及 plan 模式的写入守卫。
 - [russeell/job-search](https://github.com/russeell/job-search) —— 让你的 AI Agent 直接从公司招聘官网和招聘平台拿岗位，带真实发布日期与原始投递链接；适用于 Claude Code、Codex 等 agent。
+- [QuestMeet/questmeet-skill](https://github.com/QuestMeet/questmeet-skill) —— 让你连接到 QuestMeet 机会网络里合适的人或他们的机器人的 Agent Skill：发布/管理列表、搜索机会、触达与消息互动。
 - [Li-Evan/BloomTutor](https://github.com/Li-Evan/BloomTutor) —— 七个辅导 Skill：bloom-tutor 先写学习大纲，再在工作区每次写一篇 Markdown 课文，下一篇按你标的 ??? 和反馈来调整；六个 learn-* Skill 分别用类比已会的知识、判断学多深、领域地图、粗糙原型和讲回来检验来帮你学。安装：`dsh plugin --profile web add github:Li-Evan/BloomTutor`。
 - [Myng-i/dsh-trae-channel](https://github.com/Myng-i/dsh-trae-channel) —— DSH ⇄ TRAE 的零成本协作通道：文件任务板（带 CAS 的抢占、进度、完成）、跨代理留痕的信箱，以及发现双方新活儿的 watchdog（叫醒由独立的 wake-dsh / wake-trae 脚本负责）；纯 Node，原子写 + 文件锁。
 - [chinachenkeke-source/seventh-man](https://github.com/chinachenkeke-source/seventh-man) —— 第七人原则：六位专家从需求、市场、技术、财务、风险、组织六个维度评估想法可行性，第七人专职证伪、寻找致命伤，最后给出可执行的最小验证实验；支持任意语言输出。
