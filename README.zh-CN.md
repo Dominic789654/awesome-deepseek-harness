@@ -5942,7 +5942,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [tayuLuc/dsh-ru-voice-input](https://github.com/tayuLuc/dsh-ru-voice-input) —— DSH 的俄语优先语音输入：本地 GigaAM v3 带标点，另附一个让识别器切换能正常工作的 speech registry 修复。
 - [Treasure-hub-agent/dsh-whale-game](https://github.com/Treasure-hub-agent/dsh-whale-game) —— DSH 插件 · 大肥鱼游戏厅：一键起停本地 AI 游乐场，和你的 Agent 开一桌。
 - [zzsszz1122/dsh-agnes-media](https://github.com/zzsszz1122/dsh-agnes-media) —— 在 DSH 侧栏面板里用 Agnes 图像与视频模型，支持后台任务持久化与历史记录。
-- [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) —— 在 DeepSeek Harness（dsh）里用 SQL 查本地数据文件：原生 Cordis 插件直接跑 duckdb CLI，零 Python、零外部服务，路径禁锢在工作区内，默认只读。
+- [alitrack/dsh-duckdb](https://github.com/alitrack/dsh-duckdb) —— DeepSeek Harness 的 DuckDB 平台：在 duckdb CLI 上提供查询、schema、attach 别名、catalog、格式转换、扩展开关与后台任务七个工具，工作区路径受限、默认只读、扩展与网络默认拒绝，并可在 ctx.jobs 上跑多步 SQL。配套技能包：dsh-duckdb-skills。
 - [alitrack/dsh-wechat-article](https://github.com/alitrack/dsh-wechat-article) —— 在 DeepSeek Harness（dsh）里把 Markdown 变成微信公众号草稿：内联样式 HTML、900×383 封面卡片、推草稿箱并回读验证，零依赖。
 - [guhcostan/dsh-browser-use](https://github.com/guhcostan/dsh-browser-use) —— 让 agent 驱动 Google Chrome：一个 profile 包，内置 Playwright MCP 浏览器工具。
 - [guhcostan/dsh-computer-use](https://github.com/guhcostan/dsh-computer-use) —— DSH 的电脑操作能力：通过 Cua Driver 驱动桌面的 profile 包，带可见的 agent 光标。
@@ -8613,6 +8613,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 
 _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 
+- [alitrack/dsh-duckdb-skills](https://github.com/alitrack/dsh-duckdb-skills) —— dsh 的 DuckDB 查询方法论技能包：schema 先行、别名复用、安全聚合与格式转换范式，以 Cordis skill provider 形式提供（dsh-duckdb 的配套）。
 - [wuuuuu123-32/study-pack](https://github.com/wuuuuu123-32/study-pack) —— 把「课件 + 作业题」变成可自学的学习材料三件套——讲义 / 答疑册 / 复习卡。
 - [wuzhenghan46-afk/dsh-av-adapt](https://github.com/wuzhenghan46-afk/dsh-av-adapt) — 仅适用于 Android：在手机容器里让 web-access（浏览器自动化）与 video-watch（看视频）两个 Agent Skill 真正跑起来。含四个原创工具、29 条实测踩坑记录与逐项边界说明。
 - [439436269-ctrl/dsh-video-pipeline](https://github.com/439436269-ctrl/dsh-video-pipeline) — DSH 插件：把一条短视频生产流水线（19 个 skill：编排 + 原子）内置进 agent 技能目录。
