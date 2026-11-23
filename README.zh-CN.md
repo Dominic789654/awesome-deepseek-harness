@@ -6006,6 +6006,56 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) —— 跨平台桌面 All-in-One 助手，在 Claude Code、Codex、OpenCode、DeepSeek Harness 等之间一键切换。
 - [AR-26710-1/dsh-plugin-scu-urp](https://github.com/AR-26710-1/dsh-plugin-scu-urp) —— 四川大学教务系统（URP）与微服务助手：免密登录、课表、手机日历同步、培养方案与保研 GPA 测算、考试与空闲教室、一卡通流水与宿舍电费。
 - [A-2788553793/dsh-find](https://github.com/A-2788553793/dsh-find) —— 在 DSH 里对所有工作区与会话做 Ctrl+F 全文搜索，全部本地执行、不调模型。
+- [PerryLink/dsh-ap-three-way](https://github.com/PerryLink/dsh-ap-three-way) —— 应付三单匹配：发票行逐行对上采购单与收货单（单价默认 1% 容差放行），例外连同原因写进本地底稿，并导出 Matches / Exceptions 两表 xlsx；全程本机计算，不联网、不调用模型。
+- [PerryLink/dsh-ar-aging](https://github.com/PerryLink/dsh-ar-aging) —— 把应收明细 CSV 变成固定五桶（0-30 / 31-60 / 61-90 / 91-180 / 180+）账龄表、客户汇总、逾期占比与 Top 逾期客户，并导出 CSV；全程本机计算，不联网、不调用模型。
+- [PerryLink/dsh-ar-collection](https://github.com/PerryLink/dsh-ar-collection) —— 把应收明细变成按优先级排好的催收计划、中文催收函草稿与催收清单 CSV（提醒 / 催告 / 升级阶梯）；全程本地，不联网、不发送。
+- [PerryLink/dsh-attendance-check](https://github.com/PerryLink/dsh-attendance-check) —— 把打卡明细 CSV 核对成每人的日工时、加班、超限日、缺卡与休息不足（8 小时标准、单日 3 小时与月 36 小时加班上限），按月汇总并导出核对表 CSV；全程本机计算。
+- [PerryLink/dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) —— 把投标文件逐条对回要求清单，报告哪些看起来有响应、哪些匹配偏弱、哪些定位不到，并写明「定位不到」不等于「没写」；只报告差异，不判断是否实质满足。
+- [PerryLink/dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) —— 中文基金申请书提交前检查：19 项起步清单、预算算术与直接/间接/总额一致性、申请材料包扫描；输出 JSON/Markdown 与 REP 证据——是关键词清单，不是评审结论。
+- [PerryLink/dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) —— 把纯文本合同拆成条款树，按 12 个关键条款键（风险 / 控制 / 商务 / 履约）映射并列出缺项与重复或跳号，可导出 JSON；全程本地，不联网、不调用模型。
+- [PerryLink/dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) —— 文献追踪：保存带时间窗的命名 Crossref 检索式，用已见 DOI 库记录，重复运行只返回真正新增的条目，输出 Markdown 摘要与 SARIF；只报告检索窗口内新增的 DOI，不判断相关性或质量。
+- [PerryLink/dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) —— 本地非生成式决策层：phocinae_ask 与 phocinae_gate 由本机 150M 参数决策模型给出带校准置信度的类型化裁决，无法回答时 fail-closed 升级；需在本机 8155 回环端口运行 phocinae-server。
+- [PerryLink/dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) —— QMS 质量事件流水线：NCR 不良记录去重入库、批次别名解析、对照库存/途中快照评估影响面，再开出 CAPA 或 8D 并跟踪状态；全程本地，不联网、不调用模型。
+- [PerryLink/dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) —— 面向 DeepSeek Harness 的确定性论断支持检查：逐字引文跨度、数字匹配、标值矛盾、否定与模糊语极性对照被引句，生成 REP v1 证据/论断/裁决记录与 SARIF 输出。
+- [PerryLink/dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) —— 为 DeepSeek Harness 核对引文是否存在、元数据是否正确：经 Crossref/PubMed/arXiv 解析 DOI/PMID/arXiv/BibTeX，逐字段比较元数据，并生成 REP v1 证据记录。
+- [PerryLink/dsh-dataset-card](https://github.com/PerryLink/dsh-dataset-card) —— 面向 DeepSeek Harness 的数据集文档：有界 CSV/TSV/JSON/JSONL 画像、脱敏 PII 检测、Datasheet 式卡片，以及 Markdown/JSON/SARIF 输出与只存分析不存原始数据的 REP 证据。
+- [PerryLink/dsh-dida](https://github.com/PerryLink/dsh-dida) —— 面向 DeepSeek Harness 的滴答清单/TickTick 任务桥：会话头部任务面板、agent 工具与设置卡片。
+- [PerryLink/dsh-dmp](https://github.com/PerryLink/dsh-dmp) —— 面向 DeepSeek Harness 的数据管理计划（DMP）工具：十节脚手架与提示、完整性与一致性检查（数据集、个人数据、共享冲突、保存期限、备份、仓库/许可/DOI、联系人），输出 Markdown/JSON/SARIF。检查是内部一致性检查，不是资助方模板认证。
+- [PerryLink/dsh-eval-pack](https://github.com/PerryLink/dsh-eval-pack) —— 公开/合成评测包的 lint 与确定性 JSON 评分器；不是经过验证的基准。
+- [PerryLink/dsh-image-integrity](https://github.com/PerryLink/dsh-image-integrity) —— 面向 DeepSeek Harness 的图像完整性检查：零依赖 8-bit PNG 解码，用块指纹与 NCC 确认查找同一图内或两图之间重复/镜像的区域，并输出 REP 证据与 Markdown/SARIF 报告。
+- [PerryLink/dsh-irb](https://github.com/PerryLink/dsh-irb) —— 面向 DeepSeek Harness 的伦理申请清单：18 项关键词清单、基于结构化标记的建议风险等级与必要保障，输出 JSON/Markdown 与 REP 证据。清单辅助，不替代伦理委员会决定。
+- [PerryLink/dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) —— 面向 DeepSeek Harness 的确定性多源文献采集。
+- [PerryLink/dsh-manuscript-check](https://github.com/PerryLink/dsh-manuscript-check) —— 面向 DeepSeek Harness 的投稿前清单：稿件结构与声明、对 CONSORT/STROBE/PRISMA 起始条目的关键词覆盖，以及投稿材料包扫描，输出 JSON/Markdown 报告。
+- [PerryLink/dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) —— 银行对账单核对：导入 CAMT.053 与 MT940，与账簿条目匹配并导出工作底稿——6 个 `bankrec.*` 工具。
+- [PerryLink/dsh-construction-doc-check](https://github.com/PerryLink/dsh-construction-doc-check) —— 按项目资料归档要求检查缺失的必需资料类型、过期版本与空文件；只读文件夹与文件名，不读文档内容。
+- [PerryLink/dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) —— 中文电子发票（OFD/XML）收件箱：导入、解析、去重、进入复核队列、登记回执并本地归档——10 个 `invoice.*` 工具，数据不出本机。
+- [PerryLink/dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) —— 按声明的主键连接两张表，按声明字段与容差比对，输出 Markdown 报告、JSON 结果与差异工作簿。只报告差异，不裁决对错。
+- [PerryLink/dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) —— IFC 模型工程量提取与 CSV 导出核对。
+- [PerryLink/dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) —— 核对发票台账：按代码与号码识别重复、核对算式一致性、付款方不一致、日期异常与模板占位符，输出异常清单与工作簿。
+- [PerryLink/dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) —— 按公开的社保、公积金与个人所得税参数核对工资表，结果分为 pass、pass_with_gaps、review、fail 四档；参数本身带复核日期。
+- [PerryLink/dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) —— 核对施工安全资格台账的培训学时、四个记录要素，以及特种作业证书有效期与作业时间的匹配。
+- [PerryLink/dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) —— 把 .docx、.xlsx、.xlsm、.csv、.tsv 中的表格转换成规则核查器可读的 table JSON；识别不了时明确报告，不做猜测。
+- [PerryLink/dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) —— 差旅费用核对：导入订单、发票与卡流水，去重、三单匹配与只读政策校验后导出——5 个 `travel.*` 工具。
+- [PerryLink/dsh-canteen-retention-check](https://github.com/PerryLink/dsh-canteen-retention-check) —— 核对食堂留样台账的四个记录要素、125 克下限、48 小时冷藏窗口，以及单元格中残留的模板占位符。
+- [PerryLink/dsh-finops-suite](https://github.com/PerryLink/dsh-finops-suite) —— 财务运营套件：一条命令安装 dsh-einvoice、dsh-bankrec、dsh-ap-three-way 与 dsh-travel-recon。
+- [PerryLink/dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) —— 核对危险化学品台账的内部自洽性：每种物质是否载明危险性类别、储存量能否解析、是否记录临界量、重大危险源判定与该储存量相对台账自述临界量的关系是否一致、是否载明安全技术说明书编号、CAS 号是否重复。只列出差异供人复核，不判定某单元是否构成重大危险源。
+- [PerryLink/dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) —— 法务需求收件：从 EML 读取需求、按线程去重并导出收件台账——2 个 `legal.*` 工具。
+- [PerryLink/dsh-meta-analysis](https://github.com/PerryLink/dsh-meta-analysis) —— 面向 DeepSeek Harness 的元分析算术：效应量换算（OR/RR/d/r/SMD，由 CI 求 SE）与具名公式、固定效应与 DerSimonian-Laird 随机效应合并、Q/df/p、I2、tau2、森林图数据、Markdown/SARIF 报告，以及 k ≥ 10 时的轻量 Egger 检验。本地、零依赖、可由输入复现。
+- [PerryLink/dsh-notebook-capture](https://github.com/PerryLink/dsh-notebook-capture) —— Notebook 可复现性捕获：不执行 .ipynb，读取内核、执行顺序、导入、运行时安装、随机种子、绝对路径与输出状态，并对 Notebook 及其环境声明做哈希，产出 REP 证据与 Markdown 卡片。
+- [PerryLink/dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) —— 只读安装体检：能力快照、tarball 断言与安装诊断；dsh-plugin-doctor 的仅安装版配套（tarball / 安装日志诊断）。
+- [PerryLink/dsh-primer](https://github.com/PerryLink/dsh-primer) —— 构建 DeepSeek Harness 插件的实用入门指南。
+- [PerryLink/dsh-repro-audit](https://github.com/PerryLink/dsh-repro-audit) —— 可复现性证据：一次性有界只读扫描记录提交、锁文件、环境、数据哈希、图、随机种子与运行命令，并对记录做漂移检查，输出可交给审阅者的报告卡。
+- [PerryLink/dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) —— 从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条报告，不省略。
+- [PerryLink/dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) —— 登记合同并按日期分档：已过期、续签窗口、N 天内到期，导出 CSV。
+- [PerryLink/dsh-contract-suite](https://github.com/PerryLink/dsh-contract-suite) —— 合同法务套件：一条命令安装 dsh-legal-intake 与 dsh-legal-clause。
+- [PerryLink/dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) —— 把发票、装箱单、提单、报关单逐字段对照，并列出报关单 12 项要素缺项。
+- [PerryLink/dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) —— 核对劳动合同九项必备条款、试用期上限与 80% 工资下限、批量到期与竞业限制，导出复核 CSV。
+- [PerryLink/dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) —— 从有文本层的 PDF 中提取表格并导出 CSV。
+- [PerryLink/dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) —— 按合同基准确认本期进度款：整数分金额、累计比例，输出超量/单价/重复项问题清单与审核底稿。
+- [PerryLink/dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) —— 供应商参数映射与确定性 JSON 修复。
+- [PerryLink/dsh-research-core](https://github.com/PerryLink/dsh-research-core) —— REP v1——面向 DeepSeek Harness 研究插件的共享 Research Evidence Protocol：sources、snapshots、anchors、evidence、claims、checks、artifacts、audit events 与 sealed report manifests 的 JSON Schema 和 TypeScript 类型，外加零依赖内容寻址证据库、规范哈希、SARIF 导出与独立校验 CLI。
+- [PerryLink/dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) —— 多家供应商同批物料报价对比：最低/次低价、价差、交期，标记低于成本、超预算、已过期，导出 CSV。
+- [PerryLink/dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) —— 按清单核对竣工结算资料齐套性：缺件、份数不足、未签字/未盖章，导出核对表 CSV。
 
 
 ## 编排器与聚合器
