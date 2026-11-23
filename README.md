@@ -4634,6 +4634,7 @@ _Code generation, refactoring, review, repo-level engineering plugins._
 - [jinhuanranwansui-gif/reacraft](https://github.com/jinhuanranwansui-gif/reacraft) — Read a target, write a verifiable contract, rebuild it, score the rebuild and close the gap — an engine-free closure layer for REA + craft-anything, shipped as a native DSH plugin.
 - [PerryLink/dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) — GitHub PRs, reviews, issues and CI inside DSH, with approval-gated writes.
 - [hitzhangjie/dsh-plugin-github-orchestrator](https://github.com/hitzhangjie/dsh-plugin-github-orchestrator) — GitHub event inbox with OAuth sign-in, concurrent git worktrees, rebase / merge / cleanup and an issue-based storyboard.
+- [lonyness/dsh-rust-anything](https://github.com/lonyness/dsh-rust-anything) — Integrates rust-anything with DSH to record a function’s behavior and compare its output with a Rust implementation on the same inputs.
 
 
 ## Agents

@@ -4644,6 +4644,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [jinhuanranwansui-gif/reacraft](https://github.com/jinhuanranwansui-gif/reacraft) —— 读目标、写可验证契约、重建、给重建打分、收敛差距——REA + craft-anything 的无引擎闭环层，自带原生 DSH 插件。
 - [PerryLink/dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) —— 在 DSH 内处理 GitHub PR、评审、issue 与 CI，写操作需审批。
 - [hitzhangjie/dsh-plugin-github-orchestrator](https://github.com/hitzhangjie/dsh-plugin-github-orchestrator) —— GitHub 事件收件箱：OAuth 登录、并发 git worktree、rebase / merge / 清理，以及按 issue 组织的工作看板。
+- [lonyness/dsh-rust-anything](https://github.com/lonyness/dsh-rust-anything) —— 将 rust-anything 接入 DSH，可记录原函数的行为，再用相同输入回放 Rust 实现并比较输出。
 
 
 ## Agent
