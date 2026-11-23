@@ -5425,7 +5425,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [lwy521/dsh-remote-mcp-manager](https://github.com/lwy521/dsh-remote-mcp-manager) — Configure and manage remote MCP servers from the DSH Web GUI settings panel.
 - [i-am-cie/dsh-netease-mc](https://github.com/i-am-cie/dsh-netease-mc) — Let DSH observe and control NetEase Minecraft Java Edition (1.21.8 / NeoForge 21.8.52) through MCP.
 - [Fahaoxi/dsh-tdx-tools](https://github.com/Fahaoxi/dsh-tdx-tools) — Registers a Tongdaxin (TDX) market-data MCP service as native tools: option chains, K-lines and live quotes, with MCP session self-healing.
-
+- [zColdWater/mcp-launch-audit](https://github.com/zColdWater/mcp-launch-audit) — Pre-deploy web security, Supabase RLS, SPF/DKIM/DMARC email DNS, llms.txt, and 78-TLD RDAP domain auditor MCP server (stdio and zero-auth remote HTTP).
 
 ## Tools & Integrations
 

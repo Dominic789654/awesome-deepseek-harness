@@ -5433,7 +5433,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [lwy521/dsh-remote-mcp-manager](https://github.com/lwy521/dsh-remote-mcp-manager) —— 在 DSH Web 设置面板里配置与管理远程 MCP Server。
 - [i-am-cie/dsh-netease-mc](https://github.com/i-am-cie/dsh-netease-mc) —— 让 DSH 通过 MCP 观察并操控网易我的世界 Java 版（1.21.8 / NeoForge 21.8.52）。
 - [Fahaoxi/dsh-tdx-tools](https://github.com/Fahaoxi/dsh-tdx-tools) —— 把通达信行情 MCP 服务注册成原生工具：期权链、K 线与实时行情，内置 MCP 会话自愈。
-
+- [zColdWater/mcp-launch-audit](https://github.com/zColdWater/mcp-launch-audit) —— 上线前 Web 安全头、Supabase RLS、SPF/DKIM/DMARC 邮件 DNS、llms.txt 与 78 后缀域名体检 MCP Server（支持本地 stdio 与免鉴权远程 HTTP）。
 
 ## 工具与集成
 
