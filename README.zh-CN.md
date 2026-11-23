@@ -6360,6 +6360,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [AD199-gif/dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) — 在侧栏「更多 → 侧栏入口」里勾选隐藏任意面板入口，插件照常运行；另带控制台 API。
 - [algerkong/dsh-image-preview](https://github.com/algerkong/dsh-image-preview) —— DSH Web 会话的图片预览：`read_image` 结果渲染为缩略图，点击在内置灯箱中查看大图。
 - [Cherryxxh/DSH-One-Dark-Pro-Theme](https://github.com/Cherryxxh/DSH-One-Dark-Pro-Theme) —— DSH Web GUI 的 One Dark Pro（经典）主题：设置 → 通用中的切换开关，完整覆盖 156 个 token，配色与 VS Code 扩展 1:1 对齐。
+- [klaus-2/dsh-redline](https://github.com/klaus-2/dsh-redline) —— 在 harness 浏览器内做可视化评审：元素批注、可回滚的样式实时调整、免费的标注画布，以及把标注连同合成截图交给 agent。
 - [kinocode-jp/dsh-mobile](https://github.com/kinocode-jp/dsh-mobile) —— DSH Mobile Android 配套插件：扫码配对，在手机上使用 DSH，并可直接从通知里回答审批。
 - [MuXue927/whaledesk](https://github.com/MuXue927/whaledesk) —— Windows 10/11 x64 桌面宠物，支持 DSH 联动、系统监控、C 盘清理与效率工具。
 - [hAcKlyc/MyAgents](https://github.com/hAcKlyc/MyAgents) —— 面向 macOS 和 Windows 的本地优先 Agent 工作台：可以把 DeepSeek Harness、Claude 或 Codex 放在不同工作区里，设置定时任务，或把活派给自己的另一台在线设备。
