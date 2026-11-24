@@ -3574,6 +3574,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [CANQI0001/wechat-dsh-bot](https://github.com/CANQI0001/wechat-dsh-bot) —— LSPosed 模块 + DSH Go 插件：让个人微信有一个像真人的 AI 搭子。
 - [dingchenhui0618-arch/dsh-chatroom](https://github.com/dingchenhui0618-arch/dsh-chatroom) —— 多人个人聊天室：你和携带的 agent 同处一屋，三条发言规则并行，本机与 LAN 成员来源一眼可分。
 - [sweet560/dsh-plugin-wechat-session](https://github.com/sweet560/dsh-plugin-wechat-session) —— 微信通道外设插件：不依赖 dsh-im、不接管会话生命周期，内置 iLink 扫码登录收发；支持 /new 会话绑定、双向对话、多会话并行审批与选择题回填，以及超时提醒。
+- [yinsang0910-star/dsh-feishu](https://github.com/yinsang0910-star/dsh-feishu) —— 把飞书变成 DSH 的操作界面：43 个工具的 MCP server + 长连接机器人 + 卡片网关，支持文件/图片收发、引用消息回溯和对话内审批，无需公网 IP。
 
 
 ## 插件市场与生态

@@ -3564,6 +3564,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [CANQI0001/wechat-dsh-bot](https://github.com/CANQI0001/wechat-dsh-bot) — LSPosed module plus DSH Go plugin: gives your personal WeChat an AI companion that feels like a real person.
 - [dingchenhui0618-arch/dsh-chatroom](https://github.com/dingchenhui0618-arch/dsh-chatroom) — Multi-person personal chatroom: you and your agents share one room under three speaking rules, with local and LAN members clearly distinguished.
 - [sweet560/dsh-plugin-wechat-session](https://github.com/sweet560/dsh-plugin-wechat-session) — WeChat channel peripheral: no dependency on dsh-im and no session-lifecycle takeover; built-in iLink QR login, `/new` session binding, two-way chat, parallel approvals and choice backfill, plus timeout reminders.
+- [yinsang0910-star/dsh-feishu](https://github.com/yinsang0910-star/dsh-feishu) — Feishu/Lark operations surface for DSH: a 43-tool MCP server plus a long-connection bot and card gateway with file/image transfer, quoted-message recall and in-chat approvals — no public IP needed.
 
 
 ## Plugin Marketplaces & Ecosystem
