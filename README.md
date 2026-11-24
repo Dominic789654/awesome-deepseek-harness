@@ -3551,6 +3551,7 @@ _Bridges DSH into chat platforms and messaging channels._
 - [roost-qq/dsh-roost](https://github.com/roost-qq/dsh-roost) — Lets the AI live inside QQ through Roost's official interface — no hook client needed.
 - [helloCaijiaqi/qq-bridge](https://github.com/helloCaijiaqi/qq-bridge) — Bridges QQ into DSH: friend and group messages become agent sessions and replies go back automatically, with images, voice, stickers and MCP tools.
 - [LiuHongXuMaritime/wxsession](https://github.com/LiuHongXuMaritime/wxsession) — WeChat 4.x session engine extracted from whale_girl: reads the local SQLite store read-only (0.4 s polling), normalizes and batches messages and decides when to reply; a companion DSH plugin (dsh-wechat-session) adds settings-page configuration and one-click start/stop.
+- [yinsang0910-star/dsh-feishu](https://github.com/yinsang0910-star/dsh-feishu) — Feishu/Lark operations surface for DSH: a 43-tool MCP server plus a long-connection bot and card gateway with file/image transfer, quoted-message recall and in-chat approvals — no public IP needed.
 
 
 ## Plugin Marketplaces & Ecosystem

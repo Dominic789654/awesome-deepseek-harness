@@ -3561,6 +3561,7 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [roost-qq/dsh-roost](https://github.com/roost-qq/dsh-roost) —— 让 AI 通过 Roost 官方接口住进 QQ，不用 hook 客户端。
 - [helloCaijiaqi/qq-bridge](https://github.com/helloCaijiaqi/qq-bridge) —— 把 QQ 接入 DSH：好友 / 群消息变成 agent 会话，回复自动回传，支持图文、语音、表情与 MCP 工具。
 - [LiuHongXuMaritime/wxsession](https://github.com/LiuHongXuMaritime/wxsession) —— 从 whale_girl 抽出的微信 4.x 会话引擎：只读解密本地 SQLite（0.4s 轮询），归一化去重、连发合批并判断该不该接话；配套 DSH 插件 dsh-wechat-session 负责设置页配置与一键启停。
+- [yinsang0910-star/dsh-feishu](https://github.com/yinsang0910-star/dsh-feishu) —— 把飞书变成 DSH 的操作界面：43 个工具的 MCP server + 长连接机器人 + 卡片网关，支持文件/图片收发、引用消息回溯和对话内审批，无需公网 IP。
 
 
 ## 插件市场与生态
