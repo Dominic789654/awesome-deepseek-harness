@@ -1898,6 +1898,7 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 ## Session & Memory Management
 
+- [shinji00222/dsh-persona-continuity-bot](https://github.com/shinji00222/dsh-persona-continuity-bot) — Per-persona cross-session local Markdown memory (no Git required) with automatic distillation, credential filtering, workspace history recall, and an optional Tobs Bot bundle adding DM work-process timeline and multi-persona group chat.
 - [Changqin1024/dsh-session-delete-cascade](https://github.com/Changqin1024/dsh-session-delete-cascade) — Adds Delete Session to DeepSeek Harness: one click from the sidebar menu removes the session and recursively cleans child sessions, logs, projection cache, search index and workspace bookkeeping.
 - [Domaki-co/dsh-message-forward](https://github.com/Domaki-co/dsh-message-forward) — DeepSeek Harness (DSH) plugin for session message forwarding.
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — Cross-project pinned Session groups for DeepSeek Harness Web (alpha preview).
