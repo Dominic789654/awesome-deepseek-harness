@@ -5474,6 +5474,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [zColdWater/mcp-launch-audit](https://github.com/zColdWater/mcp-launch-audit) —— 上线前 Web 安全头、Supabase RLS、SPF/DKIM/DMARC 邮件 DNS、llms.txt 与 78 后缀域名体检 MCP Server（支持本地 stdio 与免鉴权远程 HTTP）。
 - [0xHertz/dsh-old-system-2-mcp](https://github.com/0xHertz/dsh-old-system-2-mcp) —— 通过登录页接入 MCP Server 的工具集，配套 0xHertz/Spring-Boot-MCP-Starter 使用。
 - [peipei345/hifly-dsh-plugin](https://github.com/peipei345/hifly-dsh-plugin) —— 飞影 HiFly MCP 连接插件：在 DeepSeek Harness 中经浏览器授权使用数字人、配音和视频工具。
+- [LogBrewCo/mcp](https://github.com/LogBrewCo/mcp) —— 托管式错误追踪 MCP Server，基于 Streamable HTTP 和 OAuth，让 agent 读取你所授权 LogBrew 项目中的 issue、日志和 trace。
 
 ## 工具与集成
 

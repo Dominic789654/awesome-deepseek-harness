@@ -5466,6 +5466,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [zColdWater/mcp-launch-audit](https://github.com/zColdWater/mcp-launch-audit) — Pre-deploy web security, Supabase RLS, SPF/DKIM/DMARC email DNS, llms.txt, and 78-TLD RDAP domain auditor MCP server (stdio and zero-auth remote HTTP).
 - [0xHertz/dsh-old-system-2-mcp](https://github.com/0xHertz/dsh-old-system-2-mcp) — Tools for connecting DSH to an MCP server through a login page, built to work with 0xHertz/Spring-Boot-MCP-Starter.
 - [peipei345/hifly-dsh-plugin](https://github.com/peipei345/hifly-dsh-plugin) — HiFly MCP connector plugin: use digital humans, dubbing and video tools inside DeepSeek Harness via browser authorization.
+- [LogBrewCo/mcp](https://github.com/LogBrewCo/mcp) — Hosted error tracking MCP server over Streamable HTTP and OAuth that lets your agent read the issues, logs, and traces of the LogBrew projects you approve.
 
 ## Tools & Integrations
 
