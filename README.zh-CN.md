@@ -1905,7 +1905,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 ## 会话与记忆管理
 
-- [shinji00222/dsh-persona-continuity-bot](https://github.com/shinji00222/dsh-persona-continuity-bot) — 为 DeepSeek Harness 的每个人格提供独立本地 Markdown 跨会话记忆（无需 Git），支持自动提炼、凭据脱敏、工作区旧对话召回与人格工作台，并可选合并 Tobs Bot 模式（私聊工作过程时间轴、多人格群聊与全体工作区授权）。
+- [shinji00222/dsh-persona-continuity-bot](https://github.com/shinji00222/dsh-persona-continuity-bot) — 为 DeepSeek Harness 的每个人格提供独立本地 Markdown 跨会话记忆（无需 Git），支持自动提炼、凭据脱敏、工作区旧对话召回与人格工作台，并可选合并完整 Bot 模式（私聊工作过程时间轴、多人格群聊与全体工作区授权）。
 - [Changqin1024/dsh-session-delete-cascade](https://github.com/Changqin1024/dsh-session-delete-cascade) — 为 DeepSeek Harness 补上「删除会话」：侧栏菜单一键删除，递归清理子会话、日志、投影缓存、搜索索引与工作区记账。
 - [Domaki-co/dsh-message-forward](https://github.com/Domaki-co/dsh-message-forward) — DeepSeek Harness (DSH) 插件：会话消息转发。
 - [umialpha/dsh-session-groups](https://github.com/umialpha/dsh-session-groups) — DeepSeek Harness Web 的跨项目固定会话分组（alpha 预览）。
