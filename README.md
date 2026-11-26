@@ -2829,6 +2829,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [Kingsir111/dsh-turn-delete](https://github.com/Kingsir111/dsh-turn-delete) — Delete one finished turn from a DSH session: the turn leaves the model context while the append-only log stays intact.
 - [lldwb/dsh-session-enhance](https://github.com/lldwb/dsh-session-enhance) — Session-layer add-ons: inspect any session by ID with its whole subagent tree, long-session overview and search, login-free read-only sharing, interrupt-and-retry, a temporary read-only side question tab, an off-peak auto pause/resume plugin and graded context compaction.
 - [xiaobaga281/dsh-session-manager](https://github.com/xiaobaga281/dsh-session-manager) — Session-management settings page: search archived sessions, see how much space they take, and restore or permanently delete them in bulk, including leftover cleanup and delayed-delete retries.
+- [natgurlain/dsh-dreaming](https://github.com/natgurlain/dsh-dreaming) — Dreaming for DSH: while you are idle, consolidates past sessions into versioned per-workspace memory and loads a short block of rules into every session. Sessions that read web or tool content contribute only what you typed, every change is reported and can be rolled back, and repeated procedures are drafted as skills that wait for your approval.
 
 
 ## Cost & Usage Tracking
