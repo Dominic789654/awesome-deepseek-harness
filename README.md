@@ -1531,6 +1531,8 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [Tureen/dsh-acp-resume](https://github.com/Tureen/dsh-acp-resume) — Resumable ACP subagent backend: a persistent chat pool with session/load reconnect and mid-turn steering (tested with kiro-cli).
 - [ahpio/ahpd](https://github.com/ahpio/ahpd) — Open-source, plugin-driven Agent Host Protocol (AHP) server: native Claude / Pi agents, ACP agents (Codex, Copilot, Gemini), model proxying, tools and MCP servers, sandboxed computers and terminals, automations, chat bots and a web UI, with users, permissions and usage tracking built in (plus @ahpd/sdk for your own hosts and plugins).
 - [corvus-dsh/dsh-paradise](https://github.com/corvus-dsh/dsh-paradise) — Host-side adapter, watchdog and self-repair ladder for DSH: detects host failures, degrades gracefully and records crash scenes; with your own API key it can start a repair session and bring the host back.
+- [Gaudi-XIX/dsh-agy-cli](https://github.com/Gaudi-XIX/dsh-agy-cli) — Use a locally logged-in Antigravity account as a DSH model: requests still go out through the official agy.exe with official signing, quota stays on your plan, credentials never leave the machine (Windows only).
+- [LingMowen/dsh-magpie-hub](https://github.com/LingMowen/dsh-magpie-hub) — Runs magpie provider plugins inside the DSH process — login, model catalog, request forwarding, quota, check-in and store, with one panel shared by desktop and mobile.
 
 ## Security & Permissions
 
@@ -1894,6 +1896,10 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 - [mysterycode-liwen/dsh-credential-vault](https://github.com/mysterycode-liwen/dsh-credential-vault) — Credential vault sidebar panel for DSH: accounts, passwords and API keys, with an access lock and an agent read tool.
 - [YYfather/dsh-token-vault](https://github.com/YYfather/dsh-token-vault) — Secure credential vault for DSH: tokens never leave the host — the agent runs gh/npm/npx/node/git with the token injected into the environment; managed from Settings → Credential Vault / Market → Installed.
 - [David-Martinez-worldexecute/dsh-multi-workspace](https://github.com/David-Martinez-worldexecute/dsh-multi-workspace) — Declarative writable-root fence for the agent: per-capability roots, an audit log and an in-chat panel.
+- [devastatingglamour/dsh-intranet-pentest-agent](https://github.com/devastatingglamour/dsh-intranet-pentest-agent) — Intranet pentest agent preset for DSH: offline-ready, bundles Python 3.12 and all dependencies, one-click sqlmap / nc / JNDIExploit / BurpSuite (tool bodies optional, paths configurable), JS recon and an MCP-controlled bench.
+- [devastatingglamour/dsh-src-pentest-agent](https://github.com/devastatingglamour/dsh-src-pentest-agent) — Internet-SRC pentest agent preset for DSH: authorization-scope gate, asset and API/auth testing skills, MCP-controlled black-box workflow, ships Python 3.12 and dependencies for offline install.
+- [outsmall/dsh-plugin-xc-compliance](https://github.com/outsmall/dsh-plugin-xc-compliance) — Read-only EU product compliance evidence connector: public installation configuration only, inference uses your own model account.
+- [seinan27/dsh-armor-suite](https://github.com/seinan27/dsh-armor-suite) — Route-scoped protected prompt for DSH: protected prompts appear only on approved routes.
 
 
 ## Session & Memory Management
@@ -2797,6 +2803,9 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [GTilor/dsh-session-delete](https://github.com/GTilor/dsh-session-delete) — Minimal Delete-session action for the DSH sidebar.
 - [kanekogaido/dsh-session-mailbox](https://github.com/kanekogaido/dsh-session-mailbox) — Cross-session messaging: send messages between top-level sessions with sender attribution.
 - [TacitSay/dsh-compact-arsenal](https://github.com/TacitSay/dsh-compact-arsenal) — Different compression strategies for different kinds of context, with configurable compaction thresholds.
+- [butterfly301/dsh-session-terms](https://github.com/butterfly301/dsh-session-terms) — Session-scoped glossary with notes and read-only AI context.
+- [QIC-9821/dsh-memory-tide](https://github.com/QIC-9821/dsh-memory-tide) — Adds a forgetting curve to DSH memory: TTL, hot/cold archive, mention-based renewal, a generic adapter and a memory panel, with zero resident token overhead.
+- [sevenqcx/dsh-seven-inbox](https://github.com/sevenqcx/dsh-seven-inbox) — Attention-first session inbox that preserves native sidebar chrome, with persistent multi-workspace filtering, elevated Working cards and accurate running state.
 
 
 ## Cost & Usage Tracking
@@ -3275,6 +3284,10 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [GameGeek-Saikel/dsh-cost-meter](https://github.com/GameGeek-Saikel/dsh-cost-meter) — Cost tracking for the DSH Web GUI: snapshot-anchored per-turn pricing, account balance and live cost estimates.
 - [lucky845/deepseek-monitor](https://github.com/lucky845/deepseek-monitor) — DeepSeek balance and usage monitor: one Flutter codebase for six platforms (Android / iOS / macOS / Windows / Linux / Web) plus desktop widgets.
 - [yib0601/dsh-turn-cost](https://github.com/yib0601/dsh-turn-cost) — Per-turn and per-session cost (official CNY / USD prices plus peak / off-peak) with a context insight panel, dashboard tab and `/context` command.
+- [sereinZ-Z-Z/DeepSeek-Balance-Whale-Widget-Mod](https://github.com/sereinZ-Z-Z/DeepSeek-Balance-Whale-Widget-Mod) — Remix of the bottom-right balance whale widget: switch the bubble's balance source (official ↔ third-party API), 24 solid colours + 6 flowing gradients, one-click page reload (MIT).
+- [wjw1-Evan/dsh-provider-usage](https://github.com/wjw1-Evan/dsh-provider-usage) — Provider usage tracking for DSH: quota and spend across command-code, GLM, OpenCode and other routed providers.
+- [wycocoyu/agy-context-dashboard](https://github.com/wycocoyu/agy-context-dashboard) — Antigravity (agy) dashboard for context window, token usage, cache hit rate and quota, plus UI localisation.
+- [zdalice/dsh-relay-compare](https://github.com/zdalice/dsh-relay-compare) — Channel cost comparison: compares relay-station and official model prices in real time and shows how much each session saved.
 
 ## Channel / IM Bridges
 
@@ -3566,6 +3579,8 @@ _Bridges DSH into chat platforms and messaging channels._
 - [dingchenhui0618-arch/dsh-chatroom](https://github.com/dingchenhui0618-arch/dsh-chatroom) — Multi-person personal chatroom: you and your agents share one room under three speaking rules, with local and LAN members clearly distinguished.
 - [sweet560/dsh-plugin-wechat-session](https://github.com/sweet560/dsh-plugin-wechat-session) — WeChat channel peripheral: no dependency on dsh-im and no session-lifecycle takeover; built-in iLink QR login, `/new` session binding, two-way chat, parallel approvals and choice backfill, plus timeout reminders.
 - [yinsang0910-star/dsh-feishu](https://github.com/yinsang0910-star/dsh-feishu) — Feishu/Lark operations surface for DSH: a 43-tool MCP server plus a long-connection bot and card gateway with file/image transfer, quoted-message recall and in-chat approvals — no public IP needed.
+- [TryToFindHeart/dsh-feishu-mcp](https://github.com/TryToFindHeart/dsh-feishu-mcp) — Feishu notification and command plugin: group webhook strong alerts, QR-code app creation, private-chat control, approval / question cards, session binding and silent follow — configured in DSH settings, no public callback needed.
+- [yc5991/dsh-wechatbot](https://github.com/yc5991/dsh-wechatbot) — Zero-injection WeChat bot bridge for macOS and Windows: group and private chats, native favourite stickers and a screenshot-blocking mode.
 
 
 ## Plugin Marketplaces & Ecosystem
@@ -4124,6 +4139,7 @@ _Plugins that turn data / results into charts, diagrams, dashboards._
 - [naturalth2012/three-body-atlas](https://github.com/naturalth2012/three-body-atlas) — Three-Body universe atlas: the story, a 56-character relationship graph, era timeline, technologies, and a runnable three-body gravity simulation.
 - [magiccyclingz/dsh-diagram-leapavid](https://github.com/magiccyclingz/dsh-diagram-leapavid) — Sidebar diagram workshop: 50 editorial-grade chart templates that render your content into a single-file HTML diagram.
 - [drdrdr666/dsh-long-image](https://github.com/drdrdr666/dsh-long-image) — Long-image reading plugin: splits super-tall screenshots at blank lines without cutting characters, sizing each slice to the model's 1:1 pixel budget.
+- [H-h-Hh/dsh-stl-viewer](https://github.com/H-h-Hh/dsh-stl-viewer) — STL 3D preview for the DSH side card — orbit camera, WebGL, binary and ASCII STL, no dependencies.
 
 ## Slides / PPT
 
@@ -4216,6 +4232,7 @@ _Convert documents in and out of the workspace — Markdown, Word and other form
 - [PerryLink/dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) — Turns PDF / HTML / LaTeX / Markdown into locatable evidence surfaces: content-addressed snapshots of the original bytes plus extracted text, page / section / paragraph / char anchors and table grids.
 - [2019wakeup/dsh-reader](https://github.com/2019wakeup/dsh-reader) — DSH reading workbench: annotate PDF / EPUB / Markdown, explain concepts, layered guided reading and bilingual translation, all inside a DSH plugin.
 - [ZhexuanZhou/dsh-paper-desk](https://github.com/ZhexuanZhou/dsh-paper-desk) — Paper Companion (知页): a local paper library and AI reading workspace for DSH — import PDFs, read, annotate and organize notes and cards.
+- [scottzhb-hue/dsh-ai-translation](https://github.com/scottzhb-hue/dsh-ai-translation) — A full CAT workbench inside DSH: source left, translation right, live translation-memory and term-base hits, AI suggestions, and lossless import/export of DOCX / PPTX / XLSX / EPUB / SDLXLIFF.
 
 
 ## Coding
@@ -5100,6 +5117,8 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [lwaaron/superpi](https://github.com/lwaaron/superpi) — An AI coding agent with closed-signal recursive self-improvement, targeting Claude Code-level coding performance, living in the DSH sidebar.
 - [chentao326/dsh-four-modes](https://github.com/chentao326/dsh-four-modes) — Switch between four built-in agent modes (Standard / PTC / Minimal / Creative) mid-conversation.
 - [yankeguo/dsh-devlead](https://github.com/yankeguo/dsh-devlead) — DevLead mode: turns one session into a lead that creates and steers ordinary workspaces and sessions, watches their state and wakes on change.
+- [MagicMOl/dsh-org-talent](https://github.com/MagicMOl/dsh-org-talent) — Project-first talent assembling: gathers quality specialists into a team to hit a goal.
+- [weiwenhao/dudu](https://github.com/weiwenhao/dudu) — Multi-agent collaboration assistant built on DSH.
 
 
 ## Loops (Auto-Research, Self-Improve, etc.)
@@ -5468,6 +5487,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [0xHertz/dsh-old-system-2-mcp](https://github.com/0xHertz/dsh-old-system-2-mcp) — Tools for connecting DSH to an MCP server through a login page, built to work with 0xHertz/Spring-Boot-MCP-Starter.
 - [peipei345/hifly-dsh-plugin](https://github.com/peipei345/hifly-dsh-plugin) — HiFly MCP connector plugin: use digital humans, dubbing and video tools inside DeepSeek Harness via browser authorization.
 - [LogBrewCo/mcp](https://github.com/LogBrewCo/mcp) — Hosted error tracking MCP server over Streamable HTTP and OAuth that lets your agent read the issues, logs, and traces of the LogBrew projects you approve.
+- [zengjunlin2022/dsh-basemind-plugin](https://github.com/zengjunlin2022/dsh-basemind-plugin) — Workspace-aware BaseMind MCP bridge: every session gets BaseMind's code-intelligence tools for the repository it works on, with no MCP row to configure.
 
 ## Tools & Integrations
 
@@ -6136,6 +6156,24 @@ _Plugins that give the agent tools for external services (container registries, 
 - [Nikolors/dsh-eyes-ru](https://github.com/Nikolors/dsh-eyes-ru) — Eyes for DSH: screen and camera capture, OCR, local frame description and Russian speech-tone labels.
 - [RIO1727/dsh-prompt-optimizer](https://github.com/RIO1727/dsh-prompt-optimizer) — Prompt optimization for the composer: a sparkle button left of Send rewrites the draft with the conversation's own model.
 - [sweet560/dsh-plugin-yanyan-toolkit](https://github.com/sweet560/dsh-plugin-yanyan-toolkit) — Five-in-one plugin set: plugin updates, session center, sub-agent management, icon generation and plugin discovery — each switchable on its own.
+- [1287705046-beep/fish-eye](https://github.com/1287705046-beep/fish-eye) — Watch videos together with the model: frame-diff sampling straight from an already-open player page — no download, no screenshots; Bilibili first.
+- [butterfly301/dsh-prompt-loader](https://github.com/butterfly301/dsh-prompt-loader) — Inject a per-language, hot-reloadable system-prompt section into a DSH agent; prompt text lives in plain TXT files, one per language.
+- [Demonese/dsh-remember-workspace-settings](https://github.com/Demonese/dsh-remember-workspace-settings) — Remembers the preset and model you last used in each workspace when you create a new conversation.
+- [DK-Zhu/mcp-consult](https://github.com/DK-Zhu/mcp-consult) — Evidence-first multi-model consultation: 2–5 independently configured models review the same evidence and the main agent synthesizes their anonymous opinions.
+- [Eustia-Ast/dsh-prompt-lab](https://github.com/Eustia-Ast/dsh-prompt-lab) — Per-session system prompt editor for DeepSeek Harness.
+- [huhu508/dsh-rundiag](https://github.com/huhu508/dsh-rundiag) — Right-sidebar training planner with COROS sync, crystal energy balls, review and coach metrics.
+- [jaredwang/dsh-one-click-update](https://github.com/jaredwang/dsh-one-click-update) — One-click update entry for the DSH desktop app: updates the app and any plugin-market plugins with updates, from the Harness Web UI sidebar.
+- [limccn/tokimeki-dsh](https://github.com/limccn/tokimeki-dsh) — Read-only, plan-only tokimeki tools for DSH.
+- [liudengxing/dsh-bailian-model-catalog](https://github.com/liudengxing/dsh-bailian-model-catalog) — Completes the model catalog and input modalities for Alibaba Bailian Token Plan routing, including image input and multimodal.
+- [LMGateX/dsh-extras](https://github.com/LMGateX/dsh-extras) — Modular, independently switchable DSH enhancements with safe automatic legacy migration.
+- [mifeixiong/dsh-cad-workbench](https://github.com/mifeixiong/dsh-cad-workbench) — SolidWorks mechanical CAD workbench: Feature Graph modelling, measured verification, view self-check, drawings and DXF/STEP/STL review.
+- [pkkkkh/dsh-plugins-public](https://github.com/pkkkkh/dsh-plugins-public) — Plugin pack: self-restart, image generation, video, Bilibili analysis and session handoff (npm @pkkkkh/*).
+- [pn1024/dsh-automotive](https://github.com/pn1024/dsh-automotive) — Automotive industry research workbench — policy library, monthly sales, listed-company filings and market data with 6 drill-down tools; never shows unverifiable data.
+- [qinghuidaqzp/dsh-vision-kit](https://github.com/qinghuidaqzp/dsh-vision-kit) — Image understanding for DSH: screenshot understanding, OCR and multi-image comparison, with cloud vision models or local Ollama.
+- [Railan1314/dsh-plugin-ai-hub](https://github.com/Railan1314/dsh-plugin-ai-hub) — Left-sidebar scheduler with tasks, concurrency, a free pool, and map / texture / balance tools.
+- [Tera-Dark/dsh-desk-kit](https://github.com/Tera-Dark/dsh-desk-kit) — Desk kit in sidebar tabs: scheduled reminders, sticky notes, a web bookmark grid and an encrypted vault, plus 23 agent tools; data stays in ~/.dsh/desk-kit.
+- [XinwangTao/pcb-auto](https://github.com/XinwangTao/pcb-auto) — One Chinese sentence → a fab-ready PCB: one implementation with CLI / MCP / DSH plugin / Claude Code plugin entry points, plus a recomputable failure rate and an independent DFM gate.
+- [yakovlev-i-a/dsh-openfoam-workbench](https://github.com/yakovlev-i-a/dsh-openfoam-workbench) — OpenFOAM workbench: 63 tools and 11 skills for case inspection, meshing, runs, verification and renders.
 
 
 ## Orchestrators & Aggregators
@@ -8698,6 +8736,16 @@ _Desktop, web, terminal, or editor front-ends for DSH._
 - [marchinlab/dsh-quiet-whale-girl](https://github.com/marchinlab/dsh-quiet-whale-girl) — Quiet Whale Girl desktop pet built on LivLiv Player and the Kujira community character.
 - [Seryta/dsh-sidebar-triptych](https://github.com/Seryta/dsh-sidebar-triptych) — Three-section collapsible left sidebar (functions / workspaces / status): shows workspaces by default, with state stored on the host and synced across devices.
 - [UNIEPOpep/dsh-attempt-recover](https://github.com/UNIEPOpep/dsh-attempt-recover) — Renders failed assistant attempts in the chat as collapsible modules and can optionally re-inject the conversation context.
+- [butterfly301/dsh-confetti](https://github.com/butterfly301/dsh-confetti) — Confetti effects for the DeepSeek Harness UI.
+- [butterfly301/dsh-crew-morale](https://github.com/butterfly301/dsh-crew-morale) — Crew morale panel for the DeepSeek Harness UI — a small team-spirit widget for your session.
+- [butterfly301/dsh-locale-pack-loader](https://github.com/butterfly301/dsh-locale-pack-loader) — Locale-pack loader for DeepSeek Harness: load and swap UI language packs.
+- [butterfly301/dsh-ocean-background](https://github.com/butterfly301/dsh-ocean-background) — Ocean background theme for the DeepSeek Harness UI.
+- [butterfly301/dsh-pirate-mode](https://github.com/butterfly301/dsh-pirate-mode) — Pirate mode bundle: pirate brand marks, eight-language packs, rotating status phrases, an ocean background and an editable first-mate persona.
+- [butterfly301/dsh-rotate-status-text](https://github.com/butterfly301/dsh-rotate-status-text) — Rotating status text for the DeepSeek Harness UI.
+- [butterfly301/dsh-sound-pack-loader](https://github.com/butterfly301/dsh-sound-pack-loader) — Sound-pack loader for DeepSeek Harness UI notifications.
+- [butterfly301/dsh-window-shake](https://github.com/butterfly301/dsh-window-shake) — Window-shake attention effect for the DeepSeek Harness UI.
+- [oscarka/pocketagents](https://github.com/oscarka/pocketagents) — Control Claude Code, OpenAI Codex, Antigravity IDE, DeepSeek Harness and WorkBuddy from your phone — self-hosted, swipe approvals, voice input, 5-second terminal QR pairing.
+- [yangjz98/dsh-voice-shortcut](https://github.com/yangjz98/dsh-voice-shortcut) — Alt+V keyboard shortcut for the built-in voice input in the DSH desktop app.
 
 
 ## Skills
@@ -9192,6 +9240,9 @@ _Packaged task capabilities (markdown-based skills, tool packs)._
 - [ErgeAIA/dsh-skills-zhiyin](https://github.com/ErgeAIA/dsh-skills-zhiyin) — Zhiyin: weave scattered skills into one score — install skills, compose skill bundles and enable them on demand so the model plays only the parts you want.
 - [zColdWater/omniforge-skills](https://github.com/zColdWater/omniforge-skills) — 50 zero-dependency SKILL.md developer skills and a Codex plugin for AI coding agents: live security, email DNS, GEO and domain audits.
 - [savormundane/Genshin-UGC-plugin](https://github.com/savormundane/Genshin-UGC-plugin) — Genshin Impact Miliastra Wonderland toolkit: versioned platform docs and local project tools for scenes, node graphs, client Lua and UI assets, with a DSH install path.
+- [duma520/dsh-run2skill](https://github.com/duma520/dsh-run2skill) — Turns the ways of working you state in a DSH session into reviewable, rollback-able native skills — own JSONL log, generation self-check, recall telemetry, release snapshots and a Skill Distillation panel in the sidebar.
+- [FanetheDivine/dsh-plugin-skill-folder](https://github.com/FanetheDivine/dsh-plugin-skill-folder) — Visually collapse the global skill list.
+- [minglo/dsh-skill-superpowers](https://github.com/minglo/dsh-skill-superpowers) — Superpowers skills served through DSH's own filesystem skill provider, with an always-on bootstrap — a full engineering methodology.
 
 
 ## Resources
