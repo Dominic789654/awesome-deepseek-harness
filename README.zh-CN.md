@@ -5512,6 +5512,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [0xHertz/dsh-old-system-2-mcp](https://github.com/0xHertz/dsh-old-system-2-mcp) —— 通过登录页接入 MCP Server 的工具集，配套 0xHertz/Spring-Boot-MCP-Starter 使用。
 - [peipei345/hifly-dsh-plugin](https://github.com/peipei345/hifly-dsh-plugin) —— 飞影 HiFly MCP 连接插件：在 DeepSeek Harness 中经浏览器授权使用数字人、配音和视频工具。
 - [LogBrewCo/mcp](https://github.com/LogBrewCo/mcp) —— 托管式错误追踪 MCP Server，基于 Streamable HTTP 和 OAuth，让 agent 读取你所授权 LogBrew 项目中的 issue、日志和 trace。
+- [bulkpublish/dsh-plugin-bulkpublish](https://github.com/bulkpublish/dsh-plugin-bulkpublish) —— 将 DSH 连接到 BulkPublish（https://www.bulkpublish.com）MCP 服务器，在 15 个社交网络的真实账号上起草、排期、发布并分析帖子；使用以 Bearer 令牌发送的 BulkPublish API 密钥认证。
 - [zengjunlin2022/dsh-basemind-plugin](https://github.com/zengjunlin2022/dsh-basemind-plugin) — 工作区感知的 BaseMind MCP 桥：每个会话自动获得 BaseMind 针对当前仓库的代码智能工具，无需配置 MCP 条目。
 - [Snille/Mimers-Brain](https://github.com/Snille/Mimers-Brain) — 自托管的 MCP 长期记忆服务，带仅在局域网可用的保险库层级。
 

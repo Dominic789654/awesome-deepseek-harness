@@ -5504,6 +5504,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [0xHertz/dsh-old-system-2-mcp](https://github.com/0xHertz/dsh-old-system-2-mcp) — Tools for connecting DSH to an MCP server through a login page, built to work with 0xHertz/Spring-Boot-MCP-Starter.
 - [peipei345/hifly-dsh-plugin](https://github.com/peipei345/hifly-dsh-plugin) — HiFly MCP connector plugin: use digital humans, dubbing and video tools inside DeepSeek Harness via browser authorization.
 - [LogBrewCo/mcp](https://github.com/LogBrewCo/mcp) — Hosted error tracking MCP server over Streamable HTTP and OAuth that lets your agent read the issues, logs, and traces of the LogBrew projects you approve.
+- [bulkpublish/dsh-plugin-bulkpublish](https://github.com/bulkpublish/dsh-plugin-bulkpublish) — Connects DSH to the BulkPublish (https://www.bulkpublish.com) MCP server to draft, schedule, publish and analyse posts on real social media accounts across 15 networks; authenticates with a BulkPublish API key sent as a bearer token.
 - [zengjunlin2022/dsh-basemind-plugin](https://github.com/zengjunlin2022/dsh-basemind-plugin) — Workspace-aware BaseMind MCP bridge: every session gets BaseMind's code-intelligence tools for the repository it works on, with no MCP row to configure.
 - [Snille/Mimers-Brain](https://github.com/Snille/Mimers-Brain) — Self-hosted MCP long-term memory for LLM agents, with a LAN-only vault tier.
 
