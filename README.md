@@ -1535,7 +1535,7 @@ _DeepSeek-native or DeepSeek-first agent harnesses / coding agents, plus runtime
 - [LingMowen/dsh-magpie-hub](https://github.com/LingMowen/dsh-magpie-hub) — Runs magpie provider plugins inside the DSH process — login, model catalog, request forwarding, quota, check-in and store, with one panel shared by desktop and mobile.
 - [boyingliu01/dsh-aot-runner](https://github.com/boyingliu01/dsh-aot-runner) — NativeAOT subprocess runner for DSH: removes roughly 63-67% of runner overhead and improves p99 by 73-124 ms.
 - [innocces/dsh-mac-intel](https://github.com/innocces/dsh-mac-intel) — Unofficial compatibility build of DSH for macOS Intel machines, covering a platform the official desktop release does not.
-- [matrix1001/dsh-application-harness](https://github.com/matrix1001/dsh-application-harness) — Next-generation application platform built on DeepSeek Harness.
+- [matrix1001/dsh-application-harness](https://github.com/matrix1001/dsh-application-harness) — Experimental DSH application framework (unofficial): one operation model lets people use an app, AI call it and other apps compose it, with shared storage, permissions and confirmation history.
 
 ## Security & Permissions
 
@@ -3300,7 +3300,7 @@ _Token usage, cost dashboards, and budget-alert plugins._
 - [zdalice/dsh-relay-compare](https://github.com/zdalice/dsh-relay-compare) — Channel cost comparison: compares relay-station and official model prices in real time and shows how much each session saved.
 - [ming-a1/dsh-balance-float](https://github.com/ming-a1/dsh-balance-float) — Floating balance widget for the DSH Web UI: reads the local ledger and shows API balance, today's spend, peak/off-peak pricing and per-turn cost.
 - [michael-korotaev/deepai-code-tps](https://github.com/michael-korotaev/deepai-code-tps) — Live tokens-per-second meter for DeepAI Code on Windows: DSH plugin, local hub and a WPF overlay.
-- [Sylva1027/waifu-agent-usage](https://github.com/Sylva1027/waifu-agent-usage) — Independently maintained local AI coding usage dashboard for several agents: token consumption, model mix and trends, Lite/Waifu editions, character skins, share cards and achievements.
+- [Sylva1027/waifu-agent-usage](https://github.com/Sylva1027/waifu-agent-usage) — Independently maintained local AI coding usage dashboard covering DSH and other agents: token consumption, model mix and trends, Lite/Waifu editions, character skins, share cards and achievements.
 - [skyrocks/dsh-plugins](https://github.com/skyrocks/dsh-plugins) — skyrocks' DSH plugin bundle: DeepSeek balance and spend, plus OpenCode GO quota.
 
 ## Channel / IM Bridges
@@ -5148,7 +5148,7 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [whw2808/asterhelm](https://github.com/whw2808/asterhelm) — Self-hosted Personal Super Agent inspired by the DSH Super Agent prototype: remembers preferences, routes work across your devices and agents, and follows up in one conversation.
 - [zx-yk/dsh-codex-adapter](https://github.com/zx-yk/dsh-codex-adapter) — Dispatch tasks from Claude Code or Codex to DSH agents as native subagents with live progress, plus configurable dispatch defaults, execution mode and vision / image-generation access.
 - [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot) — A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
-- [nexu-io/opengame](https://github.com/nexu-io/opengame) — Super Game Agent game studio for AI agents: 100+ remixable games, turning 20+ coding agents (Claude Code, Codex, DeepSeek and more) into a full-stack studio that builds and publishes 3D and mini-games.
+- [nexu-io/opengame](https://github.com/nexu-io/opengame) — Game studio skill pack for DSH and other coding agents: remixable 3D and mini-game templates with a build-and-publish flow for web and mini-game platforms.
 - [rebornace/dsh-agent-enhancer](https://github.com/rebornace/dsh-agent-enhancer) — Levels the DSH desktop agent toward a Cursor/Claude-class coding agent.
 - [Worril-224/dsh-mimir-tutor](https://github.com/Worril-224/dsh-mimir-tutor) — Unofficial community port of the Obsidian Socratic tutor preset: 7 agent presets, 9 method skills and 6 specialist subagents.
 
@@ -6218,7 +6218,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [yasaxiwind/dsh-data-console](https://github.com/yasaxiwind/dsh-data-console) — Data console for DeepSeek Harness: CSV/Excel, profiles, SQL, charts and export, with bounded agent tools.
 - [youtulh/dsh-youtulh-workbench](https://github.com/youtulh/dsh-youtulh-workbench) — Youtulh workbench for DeepSeek Harness: capture an idea in one line, then draft title, script, cover, illustrations and storyboard in one click.
 - [zjukop3/dsh-vertical-kit](https://github.com/zjukop3/dsh-vertical-kit) — Industry-scenario checks for deliverables an agent produced: 20 trade-specific checkers (agreement, invoice, resume, meeting notes, bug report, commit message and more) layered on dsh-verify-kit.
-- [AstDen/dsh-mesh-toolkit](https://github.com/AstDen/dsh-mesh-toolkit) — Three DSH packages for OpenFOAM mesh work: STL generation with in-process JS QA (33+ knowledge cards), snappyHexMesh/cfMesh/gmsh routes with a checkMesh quality gate, and one-command delivery as an OpenFOAM case plus an ANSYS/Fluent .msh; works in an empty directory without a project profile.
+- [AstDen/dsh-mesh-toolkit](https://github.com/AstDen/dsh-mesh-toolkit) — Three DSH packages for OpenFOAM mesh work: STL generation with in-process JS QA and knowledge cards, snappyHexMesh/cfMesh/gmsh routes with a checkMesh quality gate, and one-command delivery as an OpenFOAM case plus an ANSYS/Fluent .msh; works in an empty directory without a project profile.
 - [ayukyo/dsh-greenlight](https://github.com/ayukyo/dsh-greenlight) — Verifiable task board for DeepSeek Harness: cards close themselves when their evidence and deliverables check out, and only the unverifiable ones ask a human.
 - [cattreemaybe/ai-wish-001-timetable](https://github.com/cattreemaybe/ai-wish-001-timetable) — AI-WISH-001 timetable workbench for new-Gaokao elective-class scheduling: OR-Tools CP-SAT, an independent verifier, a DSH plugin and a React workbench.
 - [ds-hu/dsh-tailcat-remote](https://github.com/ds-hu/dsh-tailcat-remote) — Remote access to the DSH Web GUI over tailcat: one-click tailcat install, a pairing page, a tailnet-only door and a supervised tailcat server - no public port and no inbound firewall change.
@@ -6496,7 +6496,6 @@ _Multi-step / multi-agent schedulers and output aggregators._
 - [SilenZerOrz/taskboard-workbench](https://github.com/SilenZerOrz/taskboard-workbench) — Local-first multi-project task board: requirement breakdown → board dispatch → agents actually run → evidence flows back → human acceptance.
 - [Wasabi2575/dsh-workflow-canvas](https://github.com/Wasabi2575/dsh-workflow-canvas) — A visual, editable subagent-workflow canvas docked in the DSH sidebar: compose agent workflows graphically.
 - [Punchact/dsh-rpc-agent](https://github.com/Punchact/dsh-rpc-agent) — Exposes the local DSH as a JSON-RPC / MCP interface so other local agents can call it like a sub-agent — workspace selection, model and reasoning level, permission presets, and live status in Settings.
-- [V-Reason/agent-workflow-kit](https://github.com/V-Reason/agent-workflow-kit) — Engineering workflow kit for AI-agent collaboration.
 
 
 ## UI / Clients

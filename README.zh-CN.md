@@ -1537,7 +1537,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [LingMowen/dsh-magpie-hub](https://github.com/LingMowen/dsh-magpie-hub) — 在 DSH 进程内直接运行 magpie 供应商插件（登录 / 模型目录 / 请求转发 / 额度 / 签到 / 商店），桌面与手机共用一套面板。
 - [boyingliu01/dsh-aot-runner](https://github.com/boyingliu01/dsh-aot-runner) — 为 DSH 提供 NativeAOT 子进程运行器：去掉约 63-67% 的运行器开销，p99 改善 73-124 毫秒。
 - [innocces/dsh-mac-intel](https://github.com/innocces/dsh-mac-intel) — 非官方兼容发行版：让 DSH 在 macOS Intel 机器上可用，补上官方桌面版未覆盖的平台。
-- [matrix1001/dsh-application-harness](https://github.com/matrix1001/dsh-application-harness) —— 基于 DeepSeek Harness 的下一代应用平台。
+- [matrix1001/dsh-application-harness](https://github.com/matrix1001/dsh-application-harness) —— 实验性（非官方）DSH 应用框架：同一套操作模型，让人通过界面使用应用、AI 调用应用的公开操作、其他应用也经同一接口与之组合，共享存储、权限与确认历史。
 
 ## 安全与权限
 
@@ -3306,7 +3306,7 @@ _token 用量、成本看板与预算告警插件。_
 - [zdalice/dsh-relay-compare](https://github.com/zdalice/dsh-relay-compare) — 渠道费用对比：实时对比中转站与官方模型价格，显示每次会话省了多少钱。
 - [ming-a1/dsh-balance-float](https://github.com/ming-a1/dsh-balance-float) — DSH Web 悬浮余额挂件：读本地账本显示 API 余额、今日消耗、峰谷定价与每轮消耗。
 - [michael-korotaev/deepai-code-tps](https://github.com/michael-korotaev/deepai-code-tps) —— Windows 上 DeepAI Code 的实时 tokens/s 仪表：DSH 插件、本地 hub 与 WPF 悬浮层。
-- [Sylva1027/waifu-agent-usage](https://github.com/Sylva1027/waifu-agent-usage) —— 独立维护的本地 AI 编程用量看板，支持多种 Agent：Token 消耗、模型分布与趋势，Lite／Waifu 双版本、角色皮肤、分享卡片与成就。
+- [Sylva1027/waifu-agent-usage](https://github.com/Sylva1027/waifu-agent-usage) —— 独立维护的本地 AI 编程用量看板，支持 DSH 等多种 Agent：Token 消耗、模型分布与趋势，Lite／Waifu 双版本、角色皮肤、分享卡片与成就。
 - [skyrocks/dsh-plugins](https://github.com/skyrocks/dsh-plugins) —— skyrocks 的 DSH 插件合集：DeepSeek 余额/花费，以及 OpenCode GO 额度。
 
 ## Channel / IM 桥接
@@ -5159,7 +5159,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [whw2808/asterhelm](https://github.com/whw2808/asterhelm) — 可自托管的个人超级 Agent（星舵），调度设计参考 DSH Super Agent 研究原型：记住偏好与未完成事项，把任务派给你各设备上的 agent，并在同一段对话里跟进结果。
 - [zx-yk/dsh-codex-adapter](https://github.com/zx-yk/dsh-codex-adapter) — 把 Claude Code / Codex 的任务派给 DSH agent 作为原生子代理执行并实时显示进度，可配置派发默认值、执行模式以及视觉 / 图像生成权限。
 - [Fei-Craft/DS-Bot](https://github.com/Fei-Craft/DS-Bot) —— DSH 的常驻机器人团队：主机器人、机器人互发消息与群聊。
-- [nexu-io/opengame](https://github.com/nexu-io/opengame) —— 面向 AI agent 的超级游戏 Agent 工作室：100+ 可二次创作的爆款小游戏，把 20+ 编码 agent（Claude Code、Codex、DeepSeek 等）变成能开发并发布 3D/小游戏的全栈工作室。
+- [nexu-io/opengame](https://github.com/nexu-io/opengame) —— 面向 DSH 及其他编码 agent 的游戏工作室技能包：可改写重制的 3D / 小游戏模板，带开发与发布到网页和小游戏平台的流程。
 - [rebornace/dsh-agent-enhancer](https://github.com/rebornace/dsh-agent-enhancer) —— 让 DSH 桌面端 Agent 体验持续逼近 Claude / ChatGPT / Cursor。
 - [Worril-224/dsh-mimir-tutor](https://github.com/Worril-224/dsh-mimir-tutor) —— Obsidian 苏格拉底导师预设的非官方社区移植：7 个 agent 预设、9 个方法技能、6 个专家子代理。
 
@@ -6226,7 +6226,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [yasaxiwind/dsh-data-console](https://github.com/yasaxiwind/dsh-data-console) — DSH 数据控制台：CSV/Excel、数据剖析、SQL、图表与导出，并给 agent 提供有边界的数据工具。
 - [youtulh/dsh-youtulh-workbench](https://github.com/youtulh/dsh-youtulh-workbench) — Youtulh 工作台：一句话记灵感，一键成稿（标题、脚本、封面、配图、分镜）。
 - [zjukop3/dsh-vertical-kit](https://github.com/zjukop3/dsh-vertical-kit) — 面向行业场景的交付物检查：在 dsh-verify-kit 之上提供 20 个垂直行业检查器（合同、发票、简历、会议纪要、缺陷报告、提交信息等）。
-- [AstDen/dsh-mesh-toolkit](https://github.com/AstDen/dsh-mesh-toolkit) —— 三个面向 OpenFOAM 网格工作的 DSH 包：进程内 JS 质检的 STL 生成（33+ 知识卡）、带 checkMesh 质量门的 snappyHexMesh/cfMesh/gmsh 路线，以及一键交付为 OpenFOAM case 与 ANSYS/Fluent .msh；空目录即可用，无需项目 profile。
+- [AstDen/dsh-mesh-toolkit](https://github.com/AstDen/dsh-mesh-toolkit) —— 三个面向 OpenFOAM 网格工作的 DSH 包：进程内 JS 质检的 STL 生成（附知识卡）、带 checkMesh 质量门的 snappyHexMesh/cfMesh/gmsh 路线，以及一键交付为 OpenFOAM case 与 ANSYS/Fluent .msh；空目录即可用，无需项目 profile。
 - [ayukyo/dsh-greenlight](https://github.com/ayukyo/dsh-greenlight) —— 可核验的任务看板：证据与交付物通过检查后卡片自动关闭，只有无法自动核验的才找人。
 - [cattreemaybe/ai-wish-001-timetable](https://github.com/cattreemaybe/ai-wish-001-timetable) —— AI-WISH-001 新高考智能走班排课工作台：OR-Tools CP-SAT、独立校验器、DSH 插件与 React 工作台。
 - [ds-hu/dsh-tailcat-remote](https://github.com/ds-hu/dsh-tailcat-remote) —— 通过 tailcat 远程访问 DSH Web GUI：一键安装、配对页、仅 tailnet 可入的入口与受监管的 tailcat server，不开公网端口、不改入站防火墙。
@@ -6521,7 +6521,6 @@ _多步 / 多 agent 调度器与输出聚合器。_
 - [SilenZerOrz/taskboard-workbench](https://github.com/SilenZerOrz/taskboard-workbench) —— 本地优先的多项目任务看板：需求拆解 → 看板派发 → agent 真跑 → 证据回流 → 人工验收。
 - [Wasabi2575/dsh-workflow-canvas](https://github.com/Wasabi2575/dsh-workflow-canvas) —— 侧边栏里的可视化 subagent 工作流画布编辑器，用图形界面编排 agent 工作流。
 - [Punchact/dsh-rpc-agent](https://github.com/Punchact/dsh-rpc-agent) —— 把本机 DSH 暴露成 JSON-RPC / MCP 接口，让本地其它 AI agent 像子智能体一样调用它——选工作区、指定模型与推理等级、下发权限预设，并在设置页看实时状态。
-- [V-Reason/agent-workflow-kit](https://github.com/V-Reason/agent-workflow-kit) —— 面向 AI Agent 协作的工程工作流套件。
 
 
 ## UI / 客户端
