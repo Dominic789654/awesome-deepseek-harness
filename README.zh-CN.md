@@ -6281,6 +6281,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [lqshow/dsh-wechat-studio](https://github.com/lqshow/dsh-wechat-studio) —— DSH 里的公众号成稿台：Markdown 改稿、质检、封面配图、SVG 动画卡、排版、排期与数据复盘。
 - [mbcc5732/dsh-screenshot](https://github.com/mbcc5732/dsh-screenshot) —— 对话截屏插件：豆包同款选区界面，框选后作为图片附件插入当前草稿（仅 Windows）。
 - [nonentity303/dsh-drydock](https://github.com/nonentity303/dsh-drydock) —— DSH 引擎船坞：引擎起不来时的运维与救援层——独立进程自检/隔离/拉起、事务化可撤销卸载、来源三分区；安装与浏览请走官方插件页或插件市场。
+- [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) —— 音色工坊（`dsh-xiaomi-tts`）：接入小米 MiMo、豆包语音、Breeze、DeepSeek 与本地 MOSS-Nano 等 10+ 语音引擎与云端 ASR，提供流式朗读过滤、实时字幕响应球、`/director` 多角色有声剧录音棚及桌宠/听书/QQBot/dsh-Go 联动。
 - [QcWyGm/dsh-config-sync-plugin](https://github.com/QcWyGm/dsh-config-sync-plugin) —— 配置同步体检面板 + 退出后执行的 push/pull/restore 脚本；标准 DSH bundle，自带 runtime。
 - [SHI2008/dsh-qgis-driver](https://github.com/SHI2008/dsh-qgis-driver) —— 从 DeepSeek Harness 驱动正在运行的 QGIS。
 - [vmaoserver/dsh-html-host-panel](https://github.com/vmaoserver/dsh-html-host-panel) —— 从左侧栏面板浏览托管在 pages.vmao.top 的 HTML 页面；新页面通过 html_host_publish 工具发布。
