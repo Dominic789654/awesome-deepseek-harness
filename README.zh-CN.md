@@ -5198,7 +5198,6 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [HKUSTDial/DeepSeek-Ducktor](https://github.com/HKUSTDial/DeepSeek-Ducktor) —— 把 Ducktor 装进 DeepSeek Harness 的科研导师插件：Agent 推进研究的同时补齐导师指引与科研训练闭环。
 - [zhuowenzhang288-web/dsh-research-agent](https://github.com/zhuowenzhang288-web/dsh-research-agent) —— DSH 原生科研 agent：现象驱动工作流 + 科研模式 preset + 科研侦探人格 + 6 个零依赖脚本；先看见现象，再相信结论。
 - [RayrunOS/Rayrun-Bot](https://github.com/RayrunOS/Rayrun-Bot) —— DSH 的 bot 层：每个 bot 有名字、任务说明、记忆与日程，跑在你自己的 Rayrun 云电脑上，可随时查看接管（pre-alpha）。
-- [rml4791lol-lang/Anbot](https://github.com/rml4791lol-lang/Anbot) —— 开源多 agent 工作区：一支常驻 bot 团队直接在你的真实目录里干活（本地优先）。
 
 
 ## 循环（自动研究 / 自我改进等）

@@ -5187,7 +5187,6 @@ _Reusable sub-agents / specialized agent packs runnable inside DSH._
 - [HKUSTDial/DeepSeek-Ducktor](https://github.com/HKUSTDial/DeepSeek-Ducktor) — Research-mentor plugin that bundles Ducktor into DeepSeek Harness: while the agent pushes the research forward it supplies mentor guidance and a closed research-training loop.
 - [zhuowenzhang288-web/dsh-research-agent](https://github.com/zhuowenzhang288-web/dsh-research-agent) — Native research agent for DSH: a phenomenon-driven workflow, a research-mode preset, a research-detective persona and six zero-dependency scripts — see the phenomenon before trusting the conclusion.
 - [RayrunOS/Rayrun-Bot](https://github.com/RayrunOS/Rayrun-Bot) — Bot layer for DSH: each bot gets a name, a brief, memory and a schedule, and lives on your own Rayrun cloud computer that you can watch and take over (pre-alpha).
-- [rml4791lol-lang/Anbot](https://github.com/rml4791lol-lang/Anbot) — Open-source multi-agent workspace: a team of persistent bots that works in your real folder (local-first).
 
 
 ## Loops (Auto-Research, Self-Improve, etc.)
