@@ -5594,6 +5594,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [glitchless-gg/glitchless-dsh](https://github.com/glitchless-gg/glitchless-dsh) —— 通过 MCP 给 agent 提供游戏可观测性，让它读懂你的玩家；另附 Unity、Godot、Unreal、Three.js 等技能。
 
 - [langli137/portable-memory](https://github.com/langli137/portable-memory) — 跨项目长期记忆 MCP server：项目隔离、会话管理与 Web UI。
+- [theluckystrike/mcpstamp-check](https://github.com/theluckystrike/mcpstamp-check) —— 免费免鉴权远程 MCP 服务器（`https://mcp.zovo.one/stamp/mcp`）与在线检测工具（`https://www.mcpstamp.com/check/`），检测任意 Streamable HTTP MCP 服务器对 Claude、ChatGPT、Gemini 与官方 MCP Registry 的就绪度。
 
 ## 工具与集成
 
