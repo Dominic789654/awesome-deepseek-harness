@@ -383,7 +383,7 @@ _DSH's core composition mechanism: a **profile** stacks bundle patch layers, the
 - [sergey-akhalkov/dsh-setup](https://github.com/sergey-akhalkov/dsh-setup) — A portable DeepSeek Harness setup: sixteen plugins that make an agent work in small verified steps (second-model review, loop recovery, lazy MCP, local memory), plus a one-command installer.
 
 - [slz233/dsh-enhance-mode](https://github.com/slz233/dsh-enhance-mode) — A conversation-level "enhance mode": on top of the standard mode it only appends a paragraph you write to the end of the system prompt.
-- [michael-berardi/steak-dsh](https://github.com/michael-berardi/steak-dsh) — Plugin bundle and launcher for DSH: lower cost per coding task, verify-after-edit, owned paths and model flags; benchmarked against stock DSH, Steak Pi and Claude Code.
+- [michael-berardi/steak-dsh](https://github.com/michael-berardi/steak-dsh) — Plugin bundle and launcher for DSH: verify-after-edit, owned paths and model flags, with a benchmark harness for comparing DSH setups.
 
 
 ## Harnesses & Runtimes
@@ -1919,7 +1919,6 @@ _Permission rules, approval review, security audits, and policy-check plugins._
 
 - [hbx111/dsh-unlock](https://github.com/hbx111/dsh-unlock) — Attach a permissive content policy plus a closing fallback paragraph to the system prompt, and replace strict content_policy blocks imported from elsewhere in place.
 - [stallenlu/dsh-steward](https://github.com/stallenlu/dsh-steward) — Guardian for DeepSeek Harness: read-only health checks plus an explicitly authorized action layer (plan, fingerprint, confirm, audit).
-- [yushang657/YS-pojia-Source](https://github.com/yushang657/YS-pojia-Source) — Breach injector for Codex, Trae, WorkBuddy and DSH: injects a unified execution kernel into each app, backs up every file for rollback and runs headless from the CLI.
 
 
 ## Session & Memory Management
@@ -2836,7 +2835,7 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [lldwb/dsh-session-enhance](https://github.com/lldwb/dsh-session-enhance) — Session-layer add-ons: inspect any session by ID with its whole subagent tree, long-session overview and search, login-free read-only sharing, interrupt-and-retry, a temporary read-only side question tab, an off-peak auto pause/resume plugin and graded context compaction.
 - [xiaobaga281/dsh-session-manager](https://github.com/xiaobaga281/dsh-session-manager) — Session-management settings page: search archived sessions, see how much space they take, and restore or permanently delete them in bulk, including leftover cleanup and delayed-delete retries.
 - [natgurlain/dsh-dreaming](https://github.com/natgurlain/dsh-dreaming) — Dreaming for DSH: while you are idle, consolidates past sessions into versioned per-workspace memory and loads a short block of rules into every session. Sessions that read web or tool content contribute only what you typed, every change is reported and can be rolled back, and repeated procedures are drafted as skills that wait for your approval.
-- [hanhan9999999999999999999/dsh-macro-memory](https://github.com/hanhan9999999999999999999/dsh-macro-memory) — Macro Memory: a DSH memory plugin that takes over all memory duties — eight `memory_*` tools, a 1,235-character always-on injection, the seven-layer meow store with a rebuildable star map (hit@1 0.977 on 146 queries, 3.3 ms on a 1,200-entry pool).
+- [hanhan9999999999999999999/dsh-macro-memory](https://github.com/hanhan9999999999999999999/dsh-macro-memory) — Macro Memory: a DSH memory plugin that takes over memory duties — `memory_*` tools, an always-on rule injection and a layered, rebuildable store.
 - [xkshct198570/dsh-whale-memory](https://github.com/xkshct198570/dsh-whale-memory) — Whale Memory: local long-term memory and rule source for DeepSeek Harness.
 - [jkzero87/dsh-compaction-select](https://github.com/jkzero87/dsh-compaction-select) — Bounded, merging compaction checkpoints for DSH on a local 27B / 65k window: one tool-free retry, mechanical fallback and a per-compaction trace (fork of dsh-compaction-basic).
 
@@ -6296,7 +6295,7 @@ _Plugins that give the agent tools for external services (container registries, 
 - [6starlong/dsh-plugins](https://github.com/6starlong/dsh-plugins) — Starlong's DSH plugin suite: one plugin, several independently toggleable modules, configured from the settings page.
 - [abinadwan/DSH-ABINADWAN-Plugins-Suite](https://github.com/abinadwan/DSH-ABINADWAN-Plugins-Suite) — MIT-licensed DSH plugin suite with six independently toggleable tools: session insights, writing refinement, profile preferences, direct chat, conversation management and adaptive reasoning.
 - [darianzes/dsh-plugin-rag-eval-suite](https://github.com/darianzes/dsh-plugin-rag-eval-suite) — Understand-first RAG evaluation suite: categorized dataset generation, seven backtest methods, P0-P3 root-cause diagnosis and HTML/Markdown reports, across Antigravity, Claude Code, Codex and DSH.
-- [ethan2737/dsh-quant](https://github.com/ethan2737/dsh-quant) — Quantitative trading workbench inside DSH: A-share data center, factor library, screening, strategy rotation, backtests and 21 model-callable tools.
+- [ethan2737/dsh-quant](https://github.com/ethan2737/dsh-quant) — Quantitative trading workbench inside DSH: A-share data center, factor library, screening, strategy rotation, backtests and model-callable tools.
 - [fubai-fenzhi/dsh-bilibili-upload](https://github.com/fubai-fenzhi/dsh-bilibili-upload) — Upload videos to Bilibili from DSH through biliup: title, description, tags, cover, partition and visibility, plus a settings panel.
 - [iorl566/bridgedeck](https://github.com/iorl566/bridgedeck) — Turn a logged-in browser into an agent workspace: CLI + local daemon + MV3 extension, with MCP and DSH plugin support (Windows / Edge / Chrome).
 - [JamisBian/dsh-jingfang](https://github.com/JamisBian/dsh-jingfang) — Classical Chinese medicine formula consultation for DSH: 228 Shanghan / Jingui formulas, pattern-based diagnosis, and clause + PubMed checks — no prescription without literature support.

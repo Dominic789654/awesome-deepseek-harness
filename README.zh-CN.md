@@ -384,7 +384,7 @@ _DSH 的核心组合机制：一个 **profile** 叠加各 bundle 的 patch 层�
 - [sergey-akhalkov/dsh-setup](https://github.com/sergey-akhalkov/dsh-setup) —— 可移植的 DeepSeek Harness 环境：16 个插件让 agent 以小步、可验证的方式干活（二模型评审、循环恢复、惰性 MCP、本地记忆），外加一条命令安装器。
 
 - [slz233/dsh-enhance-mode](https://github.com/slz233/dsh-enhance-mode) —— 对话级「增强模式」：在标准模式基础上，只在系统提示词末尾追加一段你自己写的话。
-- [michael-berardi/steak-dsh](https://github.com/michael-berardi/steak-dsh) —— 面向 DSH 的插件包与启动器：降低每个编码任务的成本，改完即验、自有路径与模型开关；与原生 DSH、Steak Pi、Claude Code 做过基准对比。
+- [michael-berardi/steak-dsh](https://github.com/michael-berardi/steak-dsh) —— 面向 DSH 的插件包与启动器：改完即验、自有路径与模型开关，附用于对比不同 DSH 配置的基准脚本。
 
 
 ## Harness 与运行时
@@ -1926,7 +1926,6 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 
 - [hbx111/dsh-unlock](https://github.com/hbx111/dsh-unlock) —— 给系统提示词挂上宽松内容政策与末尾兜底段，并把别处带来的严格 content_policy 块就地替换。
 - [stallenlu/dsh-steward](https://github.com/stallenlu/dsh-steward) —— DSH 的守护者：只读体检 + 需显式授权的动作层（计划、指纹、确认、审计）。
-- [yushang657/YS-pojia-Source](https://github.com/yushang657/YS-pojia-Source) —— 破甲注入器：为 Codex、Trae、WorkBuddy、DSH 注入统一执行内核，逐文件备份可回滚，支持 CLI 无窗口运行。
 
 
 ## 会话与记忆管理
@@ -2841,7 +2840,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [lldwb/dsh-session-enhance](https://github.com/lldwb/dsh-session-enhance) —— 会话增强：按 ID 查看任意会话与整棵子代理树、长会话概览与检索、免登录只读分享、中断重试、右侧栏临时只读侧边提问、按空闲/高峰时段自动暂停与恢复的谷峰插件，以及分级上下文压缩。
 - [xiaobaga281/dsh-session-manager](https://github.com/xiaobaga281/dsh-session-manager) —— 会话管理设置页：搜索已归档会话、查看占用体积，多选恢复或永久删除（含残留清理与延迟删除重试）。
 - [natgurlain/dsh-dreaming](https://github.com/natgurlain/dsh-dreaming) —— DSH 的“做梦”：在你空闲时把过往会话整理成按工作区分版本的记忆，并把一小段规则载入每个会话。读过网页或工具内容的会话只采用你亲自输入的内容，每次变更都有报告且可回滚，重复出现的操作步骤会起草为技能，经你批准后才启用。
-- [hanhan9999999999999999999/dsh-macro-memory](https://github.com/hanhan9999999999999999999/dsh-macro-memory) —— 宏记忆：接管全部记忆能力的 DSH 记忆插件——8 个 memory_* 工具、1,235 字符常驻注入、meow 七层主库与可重建星图（146 条宽池 hit@1 0.977，1,200 条库 3.3ms）。
+- [hanhan9999999999999999999/dsh-macro-memory](https://github.com/hanhan9999999999999999999/dsh-macro-memory) —— 宏记忆：接管全部记忆能力的 DSH 记忆插件——memory_* 工具、常驻规则注入，以及分层、可重建的索引存储。
 - [xkshct198570/dsh-whale-memory](https://github.com/xkshct198570/dsh-whale-memory) —— Whale Memory：DeepSeek Harness 的本地长期记忆与规则源。
 - [jkzero87/dsh-compaction-select](https://github.com/jkzero87/dsh-compaction-select) —— 本地 27B / 65k 窗口下的有界合并式压缩检查点：一次无工具重试、机械式回退，并记录每次压缩轨迹（dsh-compaction-basic 的 fork）。
 
@@ -6304,7 +6303,7 @@ _为 agent 提供外部服务（镜像仓库、故障响应、客服工单）能
 - [6starlong/dsh-plugins](https://github.com/6starlong/dsh-plugins) —— Starlong 的 DSH 插件套件：一个插件、多个可独立开关的模块，可在设置页配置。
 - [abinadwan/DSH-ABINADWAN-Plugins-Suite](https://github.com/abinadwan/DSH-ABINADWAN-Plugins-Suite) —— MIT 授权的 DSH 插件套件：六个可独立开关的工具——会话洞察、写作润色、偏好配置、直接对话、会话管理与自适应推理。
 - [darianzes/dsh-plugin-rag-eval-suite](https://github.com/darianzes/dsh-plugin-rag-eval-suite) —— 理解优先的 RAG 评测套件：分类数据集生成、7 种回测方法、P0-P3 根因诊断、HTML/Markdown 报告，兼容 Antigravity、Claude Code、Codex 与 DSH。
-- [ethan2737/dsh-quant](https://github.com/ethan2737/dsh-quant) —— DSH 内的量化交易工作台：A 股数据中心、因子库、选股、策略轮动、回测，外加 21 个可被模型调用的工具。
+- [ethan2737/dsh-quant](https://github.com/ethan2737/dsh-quant) —— DSH 内的量化交易工作台：A 股数据中心、因子库、选股、策略轮动、回测，以及可被模型调用的工具。
 - [fubai-fenzhi/dsh-bilibili-upload](https://github.com/fubai-fenzhi/dsh-bilibili-upload) —— 通过 biliup 在 DSH 里上传 B 站视频：标题、简介、标签、封面、分区、可见性，附设置面板。
 - [iorl566/bridgedeck](https://github.com/iorl566/bridgedeck) —— 把已登录的浏览器变成 agent 工作区：CLI + 本机 daemon + MV3 扩展，支持 MCP 与 DSH 插件（Windows / Edge / Chrome）。
 - [JamisBian/dsh-jingfang](https://github.com/JamisBian/dsh-jingfang) —— 中医经方问诊：228 首伤寒 / 金匮方，方证辨证 + 条文与 PubMed 核查，无文献支撑不开方。
