@@ -5586,6 +5586,7 @@ _Model Context Protocol servers that contribute tools / prompts / resources to D
 - [glitchless-gg/glitchless-dsh](https://github.com/glitchless-gg/glitchless-dsh) — Game observability for your agent over MCP — let it understand your players — plus skills for Unity, Godot, Unreal, Three.js and more.
 
 - [langli137/portable-memory](https://github.com/langli137/portable-memory) — Cross-project long-term memory MCP server for DSH, with project isolation, sessions and a Web UI.
+- [theluckystrike/mcpstamp-check](https://github.com/theluckystrike/mcpstamp-check) — Free keyless remote MCP server (`https://mcp.zovo.one/stamp/mcp`) and web checker (`https://www.mcpstamp.com/check/`) that scores any Streamable HTTP MCP server for Claude, ChatGPT, Gemini, and Official MCP Registry readiness.
 
 ## Tools & Integrations
 
