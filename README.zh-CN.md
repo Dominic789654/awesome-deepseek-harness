@@ -2853,7 +2853,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [linkpain/dsh-recall-rebuild](https://github.com/linkpain/dsh-recall-rebuild) — 重建式回忆增强：只读 dsh-prime-memory 记忆库，在模型步骤前把检索片段「重建」为带语境与情绪的回忆注入，替代生硬原文注入（需先装 dsh-prime-memory）。
 - [Mooling0602/dsh-span-compaction](https://github.com/Mooling0602/dsh-span-compaction) — 有界重放的压缩引擎：限制每次摘要的规模，提供模型驱动的压缩工具与上下文压力提醒。
 - [YYJ-python/dsh-focus-board](https://github.com/YYJ-python/dsh-focus-board) — 跨会话任务台账：每个请求一条、步骤链逐步注入、过期复核、选项、授权台账与调度器。
-- [05shizuku/wanjuan](https://github.com/05shizuku/wanjuan) —— DSH 宿主的上下文压缩内核：自动折叠、宿主 compactRegion 桥接、多会话隔离与崩溃自愈；零依赖，177 个测试。
+- [05shizuku/wanjuan](https://github.com/05shizuku/wanjuan) —— DSH 宿主的上下文压缩内核：自动折叠、宿主 compactRegion 桥接、多会话隔离与崩溃自愈。
 - [FSNH/dsh-plugin-knowledge-base](https://github.com/FSNH/dsh-plugin-knowledge-base) —— 把本地文件整理成树状知识库：原版式预览、中文全文检索，AI 可检索并针对文档对话。
 - [lewisyoung0914/dsh-better-todo](https://github.com/lewisyoung0914/dsh-better-todo) —— DSH Web UI 浮动待办面板：可拖拽贴边窗口、今天/更多分组、番茄钟（Windows 通知）与五个 agent 工具。
 - [omnijk/dsh-todolist](https://github.com/omnijk/dsh-todolist) —— 按工作区排队的提示词队列：模型工作时先写下一批提示词，该工作区回合结束后自动发出第一条。
