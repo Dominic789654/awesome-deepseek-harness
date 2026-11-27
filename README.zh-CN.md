@@ -5283,6 +5283,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [240xu/dsh-nightly-automation](https://github.com/240xu/dsh-nightly-automation) —— cron 驱动的无人值守任务引擎：按任务指定模型、每次触发新开无头运行、留记录与报告（已归档——被内置 Automation 任务页取代）。
 - [HuangShengZeBlueSky/HookEvo](https://github.com/HuangShengZeBlueSky/HookEvo) —— 为工具型 agent 演化协同插件的方法：含四个 benchmark checkpoint 与可复现的评测代码。
 - [fan56/dsh-self-improve](https://github.com/fan56/dsh-self-improve) —— 自我改进回路：session 信号沉淀为自动应用的教训与人工审批的技能草稿，以 topics-memory 账本为输入。
+- [planrun](https://github.com/wangqiqi/planrun) —— 面向 DSH 的 plan→run→verify 成长型开发工作流：仓库自身 dogfood 的 .growing/ 镜像（计划、逐任务复盘、教训台账）、28 个内置技能、4 个子代理预设，外加可移植 bash 守卫（复盘必交门、教训排名注入、回合收尾 verify 印记守卫）。
 
 ## MCP Server
 
