@@ -5268,6 +5268,7 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [240xu/dsh-nightly-automation](https://github.com/240xu/dsh-nightly-automation) — Cron-driven unattended task engine: per-task model, a fresh headless run per firing, records and reports (archived — superseded by the built-in Automation tasks page).
 - [HuangShengZeBlueSky/HookEvo](https://github.com/HuangShengZeBlueSky/HookEvo) — Evolves coordinated plugins for tool-using agents: the method, four benchmark checkpoints and reproducible evaluation code.
 - [fan56/dsh-self-improve](https://github.com/fan56/dsh-self-improve) — Self-improvement loop: session signals settle into automatically applied lessons and human-approved skill drafts, fed by the topics-memory ledger.
+- [planrun](https://github.com/wangqiqi/planrun) — Plan-to-run-to-verify growth workflow for DSH: a .growing/ mirror (plan, per-task retros, lessons ledger) the repository dogfoods on itself, 28 bundled skills, 4 subagent presets, and a portable bash guard with a retro gate, ranked lesson injection, and a turn-end verify-stamp guard.
 
 ## MCP Servers
 
