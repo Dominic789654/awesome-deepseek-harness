@@ -5560,6 +5560,7 @@ _向 DSH 贡献工具 / prompt / 资源的 Model Context Protocol server。_
 - [lwy521/dsh-remote-mcp-manager](https://github.com/lwy521/dsh-remote-mcp-manager) —— 在 DSH Web 设置面板里配置与管理远程 MCP Server。
 - [i-am-cie/dsh-netease-mc](https://github.com/i-am-cie/dsh-netease-mc) —— 让 DSH 通过 MCP 观察并操控网易我的世界 Java 版（1.21.8 / NeoForge 21.8.52）。
 - [Fahaoxi/dsh-tdx-tools](https://github.com/Fahaoxi/dsh-tdx-tools) —— 把通达信行情 MCP 服务注册成原生工具：期权链、K 线与实时行情，内置 MCP 会话自愈。
+- [FeraTerra/feraterra-sdk](https://github.com/FeraTerra/feraterra-sdk) —— FeraTerra / Arena Exchange 加密货币交易所的 MCP 服务器：L2/L3 订单簿、订单保证金预演、套利与清算扫描，以及客户端账本签名校验。
 - [zColdWater/mcp-launch-audit](https://github.com/zColdWater/mcp-launch-audit) —— 上线前 Web 安全头、Supabase RLS、SPF/DKIM/DMARC 邮件 DNS、llms.txt 与 78 后缀域名体检 MCP Server（支持本地 stdio 与免鉴权远程 HTTP）。
 - [0xHertz/dsh-old-system-2-mcp](https://github.com/0xHertz/dsh-old-system-2-mcp) —— 通过登录页接入 MCP Server 的工具集，配套 0xHertz/Spring-Boot-MCP-Starter 使用。
 - [peipei345/hifly-dsh-plugin](https://github.com/peipei345/hifly-dsh-plugin) —— 飞影 HiFly MCP 连接插件：在 DeepSeek Harness 中经浏览器授权使用数字人、配音和视频工具。
