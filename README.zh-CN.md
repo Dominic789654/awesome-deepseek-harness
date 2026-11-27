@@ -2834,6 +2834,7 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Kingsir111/dsh-turn-delete](https://github.com/Kingsir111/dsh-turn-delete) —— 从 DSH 会话里删除一轮已完成的对话：该轮离开模型上下文，只追加的日志保持完整。
 - [lldwb/dsh-session-enhance](https://github.com/lldwb/dsh-session-enhance) —— 会话增强：按 ID 查看任意会话与整棵子代理树、长会话概览与检索、免登录只读分享、中断重试、右侧栏临时只读侧边提问、按空闲/高峰时段自动暂停与恢复的谷峰插件，以及分级上下文压缩。
 - [xiaobaga281/dsh-session-manager](https://github.com/xiaobaga281/dsh-session-manager) —— 会话管理设置页：搜索已归档会话、查看占用体积，多选恢复或永久删除（含残留清理与延迟删除重试）。
+- [natgurlain/dsh-dreaming](https://github.com/natgurlain/dsh-dreaming) —— DSH 的“做梦”：在你空闲时把过往会话整理成按工作区分版本的记忆，并把一小段规则载入每个会话。读过网页或工具内容的会话只采用你亲自输入的内容，每次变更都有报告且可回滚，重复出现的操作步骤会起草为技能，经你批准后才启用。
 
 
 ## 成本与用量统计
