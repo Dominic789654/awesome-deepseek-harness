@@ -9034,7 +9034,7 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [momoqiqi-qwq/dsh-session-top-new-plus](https://github.com/momoqiqi-qwq/dsh-session-top-new-plus) —— 会话总览中文增强版：侧栏活动铃铛加会话悬浮条，运行中 / 未读 / 最近三段视图、侧栏定位、面板主题与右键书签（基于 cuijiajun/dsh-session-top-new 的社区二改）。
 - [0x1917/deepseek-harness](https://github.com/0x1917/deepseek-harness) —— 为 Unraid OS 重新打包的 DeepSeek Harness Web UI。
 - [177911-juling/Juling-Router](https://github.com/177911-juling/Juling-Router) —— AI 编码工具的一站式桌面中枢：安装并启动 Claude Code、Codex、Cursor、ChatGPT 等 20+ 应用；在共享目录里切换供应商与模型；管理账号与额度；本地跑 OpenAI / Anthropic 兼容端点并带故障转移；也能用本地模型（Windows / macOS / Linux，Tauri + Rust）。
-- [byteuser1977/ColaMD-themes](https://github.com/byteuser1977/ColaMD-themes) —— ColaMD 主题开发工具：从网页、DOCX、PDF 提取排版格式，转换成 CSS 主题文件。
+- [byteuser1977/ColaMD-themes](https://github.com/byteuser1977/ColaMD-themes) —— DSH 的 Markdown 主题插件与 ColaMD 主题工具：在输入框旁选主题、就地渲染 `.md`，并把文稿或幻灯片导出为 PDF、Word 或 PPTX。
 - [fan56/dsh-opentui](https://github.com/fan56/dsh-opentui) —— DeepSeek Harness 的 OpenTUI 终端界面：Solid + OpenTUI 渲染层，支持宿主 profile 与 client mode。
 - [imsai-sh/fish-pocket](https://github.com/imsai-sh/fish-pocket) —— DSH iOS 移动版：在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生（SwiftUI），不连电脑和服务器。
 - [jqlong17/dsh-pocket-ios](https://github.com/jqlong17/dsh-pocket-ios) —— DeepSeek Harness 的 iOS 原生客户端（基于 shaobeichen/dsh-pocket 协议）：手机实时连接电脑上的 AI 编程会话。
