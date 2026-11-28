@@ -6773,6 +6773,7 @@ _Multi-step / multi-agent schedulers and output aggregators._
 
 ## UI / Clients
 
+- [mantou132/dsh-plugin-agentdeck](https://github.com/mantou132/dsh-plugin-agentdeck) — Zero-config AgentDeck mobile remote control plugin for DSH (iOS & Android): auto-installs ACP & `agentdeckd` with autostart, E2EE pairing QR code, and keep-awake toggle in Settings.
 - [noctisynth/dsh-plugin-rioterm](https://github.com/noctisynth/dsh-plugin-rioterm) — Interactive Rio WebAssembly terminal for DSH.
 - [oldc12138/dsh-moyu-novel](https://github.com/oldc12138/dsh-moyu-novel) — A side-panel novel reader for DSH: it hides the whole right column when the window loses focus and comes back to the same spot.
 - [XIZRSAMS/dsh-gui-hanhua](https://github.com/XIZRSAMS/dsh-gui-hanhua) — GUI localization for DSH — language never becomes a barrier for the agent.

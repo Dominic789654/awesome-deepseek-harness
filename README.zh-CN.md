@@ -6798,6 +6798,7 @@ _多步 / 多 agent 调度器与输出聚合器。_
 
 ## UI / 客户端
 
+- [mantou132/dsh-plugin-agentdeck](https://github.com/mantou132/dsh-plugin-agentdeck) —— 零配置 AgentDeck 手机远程控制插件（支持 iOS 与 Android）：自动安装配置 ACP 与 `agentdeckd` 并开机自启，设置页直接展示端到端加密配对二维码与防休眠开关。
 - [noctisynth/dsh-plugin-rioterm](https://github.com/noctisynth/dsh-plugin-rioterm) — 为 DSH 提供基于 Rio WebAssembly 的交互式终端。
 - [oldc12138/dsh-moyu-novel](https://github.com/oldc12138/dsh-moyu-novel) — DSH 侧栏摸鱼小说阅读器：窗口失焦时隐藏整个右栏，回来后停在同一位置。
 - [XIZRSAMS/dsh-gui-hanhua](https://github.com/XIZRSAMS/dsh-gui-hanhua) — DSH 界面本地化——语言永远不会成为 Agent 的门槛。
