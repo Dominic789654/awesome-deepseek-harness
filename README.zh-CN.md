@@ -5404,7 +5404,6 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [fan56/dsh-self-improve](https://github.com/fan56/dsh-self-improve) —— 自我改进回路：session 信号沉淀为自动应用的教训与人工审批的技能草稿，以 topics-memory 账本为输入。
 - [planrun](https://github.com/wangqiqi/planrun) —— 面向 DSH 的 plan→run→verify 成长型开发工作流：仓库自身 dogfood 的 .growing/ 镜像（计划、逐任务复盘、教训台账）、28 个内置技能、4 个子代理预设，外加可移植 bash 守卫（复盘必交门、教训排名注入、回合收尾 verify 印记守卫）。
 - [Eason-22/dsh-goal-contract](https://github.com/Eason-22/dsh-goal-contract) —— 在你离开时守住 AI 智能体的目标：不能悄悄改目标，里程碑完成必须有真实命令退出码，遇到重复失败、死循环或文字复读就停下，而不是空转一整夜。
-- [Fortune3th/dsh-guardrails](https://github.com/Fortune3th/dsh-guardrails) —— DSH 的顾问提醒、ralph 循环与持续学习记忆——移植自 Cursor 插件（MIT）。
 
 ## MCP Server
 

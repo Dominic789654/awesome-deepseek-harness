@@ -5389,7 +5389,6 @@ _Long-running loop workflows: auto-research, deep-research, self-refine, iterati
 - [fan56/dsh-self-improve](https://github.com/fan56/dsh-self-improve) — Self-improvement loop: session signals settle into automatically applied lessons and human-approved skill drafts, fed by the topics-memory ledger.
 - [planrun](https://github.com/wangqiqi/planrun) — Plan-to-run-to-verify growth workflow for DSH: a .growing/ mirror (plan, per-task retros, lessons ledger) the repository dogfoods on itself, 28 bundled skills, 4 subagent presets, and a portable bash guard with a retro gate, ranked lesson injection, and a turn-end verify-stamp guard.
 - [Eason-22/dsh-goal-contract](https://github.com/Eason-22/dsh-goal-contract) — Helps keep an AI agent's goal under control while you are away. It cannot silently change the goal, completing a milestone needs a real command exit code, and it stops on repeated failures, loops or text repetition instead of grinding all night.
-- [Fortune3th/dsh-guardrails](https://github.com/Fortune3th/dsh-guardrails) — Advisor nudges, ralph loops, and continual-learning memory for DeepSeek Harness — ported from Cursor plugins (MIT).
 
 ## MCP Servers
 
